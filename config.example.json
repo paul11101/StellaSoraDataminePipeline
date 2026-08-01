@@ -1,0 +1,13 @@
+{
+  "game_root": "C:\\Games\\StellaSora_TW",
+  "analysis_root": "analysis",
+  "reference_root": "analysis/reference/StellaSoraData",
+  "runs_root": "analysis/automation/runs",
+  "offline_manifest_dir": "analysis/output/tw_official_manifest",
+  "baseline_dataset": "analysis/output/local_datamine_tw",
+  "metadata_relative_path": "StellaSora_Data/il2cpp_data/Metadata/global-metadata.dat",
+  "resource_targets": [
+    "data.arcx",
+    "hotfix.arch"
+  ]
+}

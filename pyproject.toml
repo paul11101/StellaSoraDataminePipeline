@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stella-sora-tw-pipeline"
+version = "0.1.0"
+description = "Reproducible local datamine pipeline for Stella Sora TW"
+requires-python = ">=3.12"
+dependencies = [
+  "cryptography>=42,<48",
+  "xxhash>=3.4,<4"
+]
+
+[project.scripts]
+stella-pipeline = "stella_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["stella_pipeline*"]
