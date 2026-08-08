@@ -1,0 +1,644 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SoldierPartnerGroup",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 19,
+    "localization_hits": 38,
+    "source": "bin/SoldierPartnerGroup.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "PartnerType": 1,
+      "Name": "SoldierPartnerGroup.1.1",
+      "Icon": "Soldier_00_Partner_101",
+      "Desc": "SoldierPartnerGroup.1.2",
+      "ChessCharacterIds": [
+        2501001,
+        2501002,
+        2501003
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_101",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.1.1",
+          "zh_TW": "空白旅團",
+          "zh_CN": "空白旅团",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.1.2",
+          "zh_TW": "空白旅團棋子施放技能，全體空白旅團獲得「雛菊」。\n「雛菊」：攻擊<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>提升5%，暴擊傷害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritPower\" tint></color>提升10%。\n全場「雛菊」總層數達到30層時開啟「三連新星」。\n「三連新星」：所有棋子回能效率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>提升20%，暴擊率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>提升100%，持續5秒,結束後清除場上所有「雛菊」。",
+          "zh_CN": "空白旅团棋子施放技能，全体空白旅团获得「雏菊」。\n「雏菊」：提升5%攻击<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，提升10%暴击伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritPower\" tint></color>\n全场「雏菊」总层数达到30层时开启「三连新星」。\n「三连新星」：所有棋子提升20%回能效率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>，提升100%暴击率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>，持续5秒，结束后清除场上所有「雏菊」",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "PartnerType": 2,
+      "Name": "SoldierPartnerGroup.2.1",
+      "Icon": "Soldier_00_Partner_102",
+      "Desc": "SoldierPartnerGroup.2.2",
+      "ChessCharacterIds": [
+        2501004,
+        2501005,
+        2501006
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_102",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.2.1",
+          "zh_TW": "萬送屋",
+          "zh_CN": "万送屋",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.2.2",
+          "zh_TW": "萬送屋棋子的技能造成傷害時，對目標施加「水霧」，每0.5秒最多1層。\n「水霧」：攻擊速度降低5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_AtkSpd\" tint></color>、造成的傷害降低5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_GenDmg\" tint></color>，持續8秒",
+          "zh_CN": "万送屋棋子的技能造成伤害时，对目标施加「水雾」，每0.5秒最多1层。\n「水雾」：降低5%攻击速度<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_AtkSpd\" tint></color>、降低5%造成伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_GenDmg\" tint></color>，持续10秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "PartnerType": 3,
+      "Name": "SoldierPartnerGroup.3.1",
+      "Icon": "Soldier_00_Partner_103",
+      "Desc": "SoldierPartnerGroup.3.2",
+      "ChessCharacterIds": [
+        2501008,
+        2501007,
+        2501009
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_103",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.3.1",
+          "zh_TW": "花令旅團",
+          "zh_CN": "花令旅团",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.3.2",
+          "zh_TW": "任意位於後援配置的棋子施放技能時，花令旅團棋子立即獲得能量<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>，技能傷害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>提升\n位於後援位置的花令旅團棋子，其星級會使主戰配置花令旅團棋子的技能傷害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>提升加倍，不同棋子的效果可疊加\n1/2/3星的花令旅團棋子，分別提供1/2/3倍的技能傷害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>提升",
+          "zh_CN": "任意位于后援配置棋子施放技能时，花令旅团棋子立即获得能量<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>，技能伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>提升\n位于后援位置花令旅团棋子的星级会使主战配置花令旅团棋子技能伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>提升翻倍，不同棋子效果叠加\n1/2/3星的花令旅团棋子，提供1/2/3倍的技能伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>提升",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "PartnerType": 4,
+      "Name": "SoldierPartnerGroup.4.1",
+      "Icon": "Soldier_00_Partner_104",
+      "Desc": "SoldierPartnerGroup.4.2",
+      "ChessCharacterIds": [
+        2501015,
+        2501010,
+        2501014,
+        2501016,
+        2501012
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_104",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.4.1",
+          "zh_TW": "恩賜意志",
+          "zh_CN": "恩赐意志",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.4.2",
+          "zh_TW": "恩賜意志棋子施放技能時，對全體敵方添加恩賜印記：「制裁之印」或「清算之印」；攜帶印記的棋子陣亡後，將自身當前層數的印記轉移給最近的同陣營棋子。\n「制裁之印」：每2秒損失當前存活的所有恩賜意志棋子攻擊力之和30%的生命值，持續8秒\n「清算之印」：每2秒損失當前存活的所有恩賜意志棋子攻擊力之和60%的生命值，持續8秒",
+          "zh_CN": "恩赐意志棋子施放技能时，给全体敌方添加恩赐印记：「制裁之印」或「清算之印」；携带印记的棋子阵亡后，将自身当前层数的印记转移给最近的同阵营棋子。\n「制裁之印」：每2秒损失当前存活的所有恩赐意志棋子攻击之和30%的生命值，持续8秒\n「清算之印」：每2秒损失当前存活的所有恩赐意志棋子攻击之和60%的生命值，持续8秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "PartnerType": 5,
+      "Name": "SoldierPartnerGroup.5.1",
+      "Icon": "Soldier_00_Partner_105",
+      "Desc": "SoldierPartnerGroup.5.2",
+      "ChessCharacterIds": [
+        2501011,
+        2501038,
+        2501039,
+        2501040
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_105",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.5.1",
+          "zh_TW": "齒輪轉轉",
+          "zh_CN": "齿轮转转",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.5.2",
+          "zh_TW": "齒輪轉轉後援配置棋子技能傷害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>提升，回能效率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>提升",
+          "zh_CN": "齿轮转转后援配置棋子技能伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>提升，回能效率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>提升",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "PartnerType": 6,
+      "Name": "SoldierPartnerGroup.6.1",
+      "Icon": "Soldier_00_Partner_106",
+      "Desc": "SoldierPartnerGroup.6.2",
+      "ChessCharacterIds": [
+        2501013,
+        2501024,
+        2501023,
+        2501021,
+        2501022
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_106",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.6.1",
+          "zh_TW": "帝國衛隊",
+          "zh_CN": "帝国卫队",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.6.2",
+          "zh_TW": "戰鬥開始時帝國衛隊棋子獲得初始能量<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>提升；回能效率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>提升",
+          "zh_CN": "战斗开始时帝国卫队棋子获得初始能量<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>提升，回能效率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>提升",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "PartnerType": 7,
+      "Name": "SoldierPartnerGroup.7.1",
+      "Icon": "Soldier_00_Partner_107",
+      "Desc": "SoldierPartnerGroup.7.2",
+      "ChessCharacterIds": [
+        2501017
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_107",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.7.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.7.2",
+          "zh_TW": "每經過一定時間，地理協會棋子獲得「援護火力」。\n「援護火力」：普通攻擊和技能造成傷害時，最終傷害提升20%",
+          "zh_CN": "每经过一定时间地理协会棋子获得「援护火力」。\n「援护火力」：使普攻和技能的最终伤害提升20%",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "8": {
+      "Id": 8,
+      "PartnerType": 8,
+      "Name": "SoldierPartnerGroup.8.1",
+      "Icon": "Soldier_00_Partner_108",
+      "Desc": "SoldierPartnerGroup.8.2",
+      "ChessCharacterIds": [
+        2501018,
+        2501019
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.8.1",
+          "zh_TW": "自由旅人",
+          "zh_CN": "自由旅人",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.8.2",
+          "zh_TW": "棋子上場時，會提升全隊特定屬性，自由旅人棋子獲得雙倍提升\n自由旅人羈絆僅在上陣1名時生效，上陣2名時則失效",
+          "zh_CN": "棋子出场会给全队提升特定属性，自由旅人棋子获得双倍提升\n自由旅人羁绊仅上1人时生效，上2人时失效",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "9": {
+      "Id": 9,
+      "PartnerType": 9,
+      "Name": "SoldierPartnerGroup.9.1",
+      "Icon": "Soldier_00_Partner_109",
+      "Desc": "SoldierPartnerGroup.9.2",
+      "ChessCharacterIds": [
+        2501020,
+        2501028,
+        2501027,
+        2501029,
+        2501030
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_109",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.9.1",
+          "zh_TW": "灰風俱樂部",
+          "zh_CN": "灰风俱乐部",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.9.2",
+          "zh_TW": "灰風俱樂部棋子對敵方造成傷害時，附加「圍攻」標記，標記持續5秒。\n灰風俱樂部棋子對附帶「圍攻」標記的棋子造成傷害時，提升20%造成傷害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_GenDmg\" tint></color>",
+          "zh_CN": "灰风俱乐部棋子对敌人造成伤害时，添加「围攻」标记，标记持续5秒。\n灰风俱乐部棋子对携带「围攻」标记的棋子造成伤害时，提升20%造成伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_GenDmg\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "10": {
+      "Id": 10,
+      "PartnerType": 10,
+      "Name": "SoldierPartnerGroup.10.1",
+      "Icon": "Soldier_00_Partner_110",
+      "Desc": "SoldierPartnerGroup.10.2",
+      "ChessCharacterIds": [
+        2501026,
+        2501025
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.10.1",
+          "zh_TW": "聯合種業",
+          "zh_CN": "联合种业",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.10.2",
+          "zh_TW": "戰鬥勝利時獲得額外金幣獎勵<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Coin\" tint></color>。",
+          "zh_CN": "战斗胜利时获得额外金币奖励<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Coin\" tint></color>。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "11": {
+      "Id": 11,
+      "PartnerType": 11,
+      "Name": "SoldierPartnerGroup.11.1",
+      "Icon": "Soldier_00_Partner_111",
+      "Desc": "SoldierPartnerGroup.11.2",
+      "ChessCharacterIds": [
+        2501034,
+        2501033,
+        2501037,
+        2501032,
+        2501031,
+        2501035,
+        2501036
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_111",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.11.1",
+          "zh_TW": "森林朋友",
+          "zh_CN": "森林朋友",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.11.2",
+          "zh_TW": "每隔一定時間觸發1次「自然生長」。\n「自然生長」：恢復主戰配置棋子3%最大生命值<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>，森林朋友棋子效果加倍",
+          "zh_CN": "每隔一定时间触发1次「自然生长」。\n「自然生长」：回复主战配置棋子3%最大生命<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>，森林朋友棋子效果翻倍",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "PartnerType": 12,
+      "Name": "SoldierPartnerGroup.12.1",
+      "Icon": "Soldier_00_Partner_112",
+      "Desc": "SoldierPartnerGroup.12.2",
+      "ChessCharacterIds": [
+        2501034
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_112",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.12.1",
+          "zh_TW": "夏洛克",
+          "zh_CN": "夏洛克",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.12.2",
+          "zh_TW": "戰鬥開始後夏洛克到出戰位時獻祭所有除自己外的森林朋友，繼承其攻擊<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>和最大生命<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>，並恢復繼承值的生命。",
+          "zh_CN": "战斗开始后夏洛克到出战位时献祭所有除自己外的森林朋友，继承得其攻击<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>和最大生命<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>，并回复继承值的生命。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "PartnerType": 13,
+      "Name": "SoldierPartnerGroup.13.1",
+      "Icon": "Soldier_00_Partner_113",
+      "Desc": "SoldierPartnerGroup.13.2",
+      "ChessCharacterIds": [
+        2501009,
+        2501020,
+        2501001,
+        2501033,
+        2501006
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.13.1",
+          "zh_TW": "生存達人",
+          "zh_CN": "生存达人",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.13.2",
+          "zh_TW": "上場棋子中每有1個生存達人棋子，所有棋子最大生命值<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>提升",
+          "zh_CN": "上场棋子中每有1个生存达人棋子，所有棋子最大生命<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>提升",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "PartnerType": 14,
+      "Name": "SoldierPartnerGroup.14.1",
+      "Icon": "Soldier_00_Partner_114",
+      "Desc": "SoldierPartnerGroup.14.2",
+      "ChessCharacterIds": [
+        2501015,
+        2501013,
+        2501002,
+        2501016
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.14.1",
+          "zh_TW": "沐浴恩典",
+          "zh_CN": "沐浴恩典",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.14.2",
+          "zh_TW": "所有棋子攻擊力<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>提升5%，啟動主戰配置棋子中攻擊屬性最高的棋子為「聖光御體」。\n「聖光御體」：攻擊力提升20%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，攻擊速度提升100%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_AtkSpd\" tint></color>，回能效率提升60%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>。",
+          "zh_CN": "所有棋子攻击<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>提升5%，激活主战配置棋子中攻击属性最高的棋子为「圣光御体」。\n「圣光御体」：提升20%攻击<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，提升100%攻击速度<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_AtkSpd\" tint></color>，提升60%回能效率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "15": {
+      "Id": 15,
+      "PartnerType": 15,
+      "Name": "SoldierPartnerGroup.15.1",
+      "Icon": "Soldier_00_Partner_115",
+      "Desc": "SoldierPartnerGroup.15.2",
+      "ChessCharacterIds": [
+        2501003,
+        2501005,
+        2501022
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.15.1",
+          "zh_TW": "百步穿楊",
+          "zh_CN": "百步穿杨",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.15.2",
+          "zh_TW": "所有棋子暴擊率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>提升，百步穿楊棋子額外提升。",
+          "zh_CN": "所有棋子暴击率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>提升，百步穿杨棋子额外提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "PartnerType": 16,
+      "Name": "SoldierPartnerGroup.16.1",
+      "Icon": "Soldier_00_Partner_116",
+      "Desc": "SoldierPartnerGroup.16.2",
+      "ChessCharacterIds": [
+        2501018,
+        2501004,
+        2501012
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_116",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.16.1",
+          "zh_TW": "巔峰戰士",
+          "zh_CN": "巅峰战士",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.16.2",
+          "zh_TW": "巔峰戰士棋子施放技能時，自身獲得1層「武者氣勢」（上限5層）。\n每層「武者氣勢」帶來技能傷害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>提升",
+          "zh_CN": "巅峰战士棋子施放技能时，自身获得1层「武者气势」（上限5层）。\n每层「武者气势」带来技能伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>提升",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "17": {
+      "Id": 17,
+      "PartnerType": 17,
+      "Name": "SoldierPartnerGroup.17.1",
+      "Icon": "Soldier_00_Partner_117",
+      "Desc": "SoldierPartnerGroup.17.2",
+      "ChessCharacterIds": [
+        2501017,
+        2501010,
+        2501019
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_117",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.17.1",
+          "zh_TW": "魅力滿溢",
+          "zh_CN": "魅力满溢",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.17.2",
+          "zh_TW": "魅力滿溢棋子施放技能時，對全體敵人施加「魅惑」。\n「魅惑」：受到的傷害提升10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_DmgPlusRcd\" tint></color>，持續8秒。",
+          "zh_CN": "魅力满溢棋子施放技能时，给全体敌人施加「魅惑」。\n「魅惑」：提升10%受到伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_DmgPlusRcd\" tint></color>，持续8秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "PartnerType": 18,
+      "Name": "SoldierPartnerGroup.18.1",
+      "Icon": "Soldier_00_Partner_118",
+      "Desc": "SoldierPartnerGroup.18.2",
+      "ChessCharacterIds": [
+        2501032,
+        2501021,
+        2501029,
+        2501031
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.18.1",
+          "zh_TW": "人多勢眾",
+          "zh_CN": "人多势众",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.18.2",
+          "zh_TW": "每觸發1種其他羈絆，提升攻擊力<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>和暴擊率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>。",
+          "zh_CN": "每激活1种其他羁绊，提升攻击<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>和暴击率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    },
+    "19": {
+      "Id": 19,
+      "PartnerType": 19,
+      "Name": "SoldierPartnerGroup.19.1",
+      "Icon": "Soldier_00_Partner_119",
+      "Desc": "SoldierPartnerGroup.19.2",
+      "ChessCharacterIds": [
+        2501016,
+        2501036
+      ],
+      "Path": "AIScript.Soldier.SoldierPartner.SoldierPartner_119",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartnerGroup.19.1",
+          "zh_TW": "摸魚高手",
+          "zh_CN": "摸鱼高手",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartnerGroup.19.2",
+          "zh_TW": "摸魚高手棋子每隔一段時間會進入「放鬆狀態」，遇敵節點戰鬥結束時獲得經驗。\n「放鬆狀態」：不主動施放技能和普攻，受到的傷害減少25%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_DmgPlusRcd\" tint></color>。",
+          "zh_CN": "摸鱼高手棋子每隔一段时间会进入「放松状态」，遇敌节点战斗结束时获得经验。\n「放松状态」：不主动施放技能和普攻，减少25%受到伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_DmgPlusRcd\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+            "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message ActivityStorySettleReq {
+  uint32 ActivityId = 1;
+  repeated .proto.ActivityStorySettle List = 2;
+  .proto.Events Events = 14;
+  repeated uint32 Evidences = 15;
+  bytes NextPackage = 2047;
+}
+
+message ActivityStorySettle {
+  uint32 StoryId = 1;
+  repeated .proto.ActivityStoryOptions Major = 2;
+  repeated .proto.ActivityStoryOptions Personality = 3;
+  bytes NextPackage = 2047;
+}
+
+message ActivityStoryOptions {
+  uint32 Group = 1;
+  uint32 Choice = 2;
+  uint32 Factor = 3;
+  bytes NextPackage = 2047;
+}

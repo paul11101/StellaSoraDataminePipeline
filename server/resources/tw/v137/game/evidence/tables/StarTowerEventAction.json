@@ -1,0 +1,179 @@
+{
+  "table": "StarTowerEventAction",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\88f8cefc3337d1c3.bin",
+  "source_sha256": "dcd57e093af0d7a6de2d9ee2c979bf45611dfc2acbc8056b582335bb3dcecd9a",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\StarTowerEventAction.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 112
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "reference_field_order": [
+      "Id",
+      "EventId",
+      "Desc",
+      "Group"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 4,
+    "remaining_name_count": 4,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 112,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "EventId",
+        "matching_reference_rows": 112,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Desc",
+        "matching_reference_rows": 112,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Group",
+        "matching_reference_rows": 112,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 112,
+      "compared_reference_rows": 112,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 112,
+          "compared": 112
+        },
+        {
+          "codec": "varint_int",
+          "matches": 112,
+          "compared": 112
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 112
+        }
+      ]
+    },
+    "2": {
+      "field": "EventId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 112,
+      "compared_reference_rows": 112,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 112,
+          "compared": 112
+        },
+        {
+          "codec": "varint_int",
+          "matches": 112,
+          "compared": 112
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 112
+        }
+      ]
+    },
+    "4": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 112,
+      "compared_reference_rows": 112,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 112,
+          "compared": 112
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 112
+        }
+      ]
+    },
+    "5": {
+      "field": "Group",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 112,
+      "compared_reference_rows": 112,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 112,
+          "compared": 112
+        },
+        {
+          "codec": "varint_int",
+          "matches": 112,
+          "compared": 112
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 112
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 112,
+    "reference_row_count": 112,
+    "shared_key_count": 112,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 112,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

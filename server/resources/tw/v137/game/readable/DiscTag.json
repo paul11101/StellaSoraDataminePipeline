@@ -1,0 +1,375 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "DiscTag",
+    "categories": [
+      "discs"
+    ],
+    "row_count": 24,
+    "localization_hits": 24,
+    "source": "bin/DiscTag.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "800": {
+      "Id": 800,
+      "Title": "DiscTag.800.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.800.1",
+          "zh_TW": "泛用",
+          "zh_CN": "泛用",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "801": {
+      "Id": 801,
+      "Title": "DiscTag.801.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.801.1",
+          "zh_TW": "元素",
+          "zh_CN": "元素",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "802": {
+      "Id": 802,
+      "Title": "DiscTag.802.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.802.1",
+          "zh_TW": "普攻",
+          "zh_CN": "普攻",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "803": {
+      "Id": 803,
+      "Title": "DiscTag.803.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.803.1",
+          "zh_TW": "技能",
+          "zh_CN": "技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "804": {
+      "Id": 804,
+      "Title": "DiscTag.804.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.804.1",
+          "zh_TW": "絕招",
+          "zh_CN": "绝招",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "805": {
+      "Id": 805,
+      "Title": "DiscTag.805.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.805.1",
+          "zh_TW": "蓄能",
+          "zh_CN": "充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "806": {
+      "Id": 806,
+      "Title": "DiscTag.806.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.806.1",
+          "zh_TW": "減傷",
+          "zh_CN": "减伤",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "807": {
+      "Id": 807,
+      "Title": "DiscTag.807.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.807.1",
+          "zh_TW": "易傷",
+          "zh_CN": "易伤",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "808": {
+      "Id": 808,
+      "Title": "DiscTag.808.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.808.1",
+          "zh_TW": "護盾",
+          "zh_CN": "护盾",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "809": {
+      "Id": 809,
+      "Title": "DiscTag.809.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.809.1",
+          "zh_TW": "弱點",
+          "zh_CN": "弱点",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "810": {
+      "Id": 810,
+      "Title": "DiscTag.810.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.810.1",
+          "zh_TW": "攻擊",
+          "zh_CN": "攻击",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "811": {
+      "Id": 811,
+      "Title": "DiscTag.811.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.811.1",
+          "zh_TW": "僕從",
+          "zh_CN": "仆从",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "812": {
+      "Id": 812,
+      "Title": "DiscTag.812.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.812.1",
+          "zh_TW": "暴擊",
+          "zh_CN": "暴击",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "813": {
+      "Id": 813,
+      "Title": "DiscTag.813.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.813.1",
+          "zh_TW": "印記",
+          "zh_CN": "印记",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "814": {
+      "Id": 814,
+      "Title": "DiscTag.814.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.814.1",
+          "zh_TW": "破韌",
+          "zh_CN": "破韧",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "815": {
+      "Id": 815,
+      "Title": "DiscTag.815.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.815.1",
+          "zh_TW": "移速",
+          "zh_CN": "移速",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "816": {
+      "Id": 816,
+      "Title": "DiscTag.816.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.816.1",
+          "zh_TW": "治療",
+          "zh_CN": "治疗",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "817": {
+      "Id": 817,
+      "Title": "DiscTag.817.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.817.1",
+          "zh_TW": "生命值",
+          "zh_CN": "生命",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "818": {
+      "Id": 818,
+      "Title": "DiscTag.818.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.818.1",
+          "zh_TW": "防禦",
+          "zh_CN": "防御",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "819": {
+      "Id": 819,
+      "Title": "DiscTag.819.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.819.1",
+          "zh_TW": "增傷",
+          "zh_CN": "增伤",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "820": {
+      "Id": 820,
+      "Title": "DiscTag.820.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.820.1",
+          "zh_TW": "穿透",
+          "zh_CN": "穿透",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "821": {
+      "Id": 821,
+      "Title": "DiscTag.821.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.821.1",
+          "zh_TW": "減防",
+          "zh_CN": "减防",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "822": {
+      "Id": 822,
+      "Title": "DiscTag.822.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.822.1",
+          "zh_TW": "降抗",
+          "zh_CN": "降抗",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    },
+    "823": {
+      "Id": 823,
+      "Title": "DiscTag.823.1",
+      "_localized": {
+        "/Title": {
+          "key": "DiscTag.823.1",
+          "zh_TW": "暴傷",
+          "zh_CN": "暴伤",
+          "sources": {
+            "zh_TW": "language/zh_TW/DiscTag.json",
+            "zh_CN": "language/zh_CN/DiscTag.json"
+          }
+        }
+      }
+    }
+  }
+}

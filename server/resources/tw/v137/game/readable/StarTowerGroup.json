@@ -1,0 +1,103 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StarTowerGroup",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 4,
+    "localization_hits": 4,
+    "source": "bin/StarTowerGroup.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Name": "StarTowerGroup.1.1",
+      "EET": [
+        5,
+        3
+      ],
+      "Episode": "Icon/MapEpisode/db_rogue_1",
+      "CoverImage": "Icon/MapChallenge/rogue_cover_01",
+      "Sort": 1,
+      "GroupTheme": 1,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGroup.1.1",
+          "zh_TW": "流水與暗影",
+          "zh_CN": "流水与暗影",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGroup.json",
+            "zh_CN": "language/zh_CN/StarTowerGroup.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Name": "StarTowerGroup.2.1",
+      "EET": [
+        1,
+        4
+      ],
+      "Episode": "Icon/MapEpisode/db_rogue_2",
+      "CoverImage": "Icon/MapChallenge/rogue_cover_02",
+      "Sort": 2,
+      "GroupTheme": 2,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGroup.2.1",
+          "zh_TW": "烈焰與塵埃",
+          "zh_CN": "烈焰与尘埃",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGroup.json",
+            "zh_CN": "language/zh_CN/StarTowerGroup.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Name": "StarTowerGroup.3.1",
+      "EET": [
+        2,
+        6
+      ],
+      "Episode": "Icon/MapEpisode/db_rogue_3",
+      "CoverImage": "Icon/MapChallenge/rogue_cover_03",
+      "Sort": 3,
+      "GroupTheme": 3,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGroup.3.1",
+          "zh_TW": "風暴與閃電",
+          "zh_CN": "风暴与闪电",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGroup.json",
+            "zh_CN": "language/zh_CN/StarTowerGroup.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "Name": "StarTowerGroup.4.1",
+      "Episode": "Icon/MapEpisode/db_rogue_4",
+      "CoverImage": "Icon/MapChallenge/rogue_cover_04",
+      "Sort": 4,
+      "GroupTheme": 4,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGroup.4.1",
+          "zh_TW": "原初的迷途",
+          "zh_CN": "原初的迷途",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGroup.json",
+            "zh_CN": "language/zh_CN/StarTowerGroup.json"
+          }
+        }
+      }
+    }
+  }
+}

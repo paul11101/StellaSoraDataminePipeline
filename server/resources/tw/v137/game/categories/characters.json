@@ -1,0 +1,1167 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "characters",
+    "name": "角色、皮肤与养成",
+    "description": "角色本体、皮肤、档案、好感、潜能、天赋和角色成长。",
+    "table_count": 65,
+    "row_count": 16773,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "AffinityGift",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 24,
+      "data": "bin/AffinityGift.json",
+      "readable": "readable/AffinityGift.json",
+      "evidence": "evidence/tables/AffinityGift.json",
+      "source_sha256": "48b997751d745e8a2b002d17e5d0075c5c66b1de8dd140ac2e2b97758e079838",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "AffinityLevel",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 100,
+      "data": "bin/AffinityLevel.json",
+      "readable": "readable/AffinityLevel.json",
+      "evidence": "evidence/tables/AffinityLevel.json",
+      "source_sha256": "c92782092ae1edd9583f0015992cac33b00995fcb75225692595dc59b8a55d6e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/AffinityLevel.json",
+      "zh_CN": "language/zh_CN/AffinityLevel.json"
+    },
+    {
+      "table": "AffinityQuest",
+      "categories": [
+        "characters",
+        "quests"
+      ],
+      "row_count": 333,
+      "data": "bin/AffinityQuest.json",
+      "readable": "readable/AffinityQuest.json",
+      "evidence": "evidence/tables/AffinityQuest.json",
+      "source_sha256": "5b6accb2ebc840e543db6baeae5a2c440fc7b7a27f0acc6e116523f3a4fbf57e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/AffinityQuest.json",
+      "zh_CN": "language/zh_CN/AffinityQuest.json"
+    },
+    {
+      "table": "AffinityUpReward",
+      "categories": [
+        "characters",
+        "items_rewards"
+      ],
+      "row_count": 592,
+      "data": "bin/AffinityUpReward.json",
+      "readable": "readable/AffinityUpReward.json",
+      "evidence": "evidence/tables/AffinityUpReward.json",
+      "source_sha256": "74f4b04a56fdb86ac8578e9e2fef7fdb3bc5c9a17a8c2794736c4332778b1424",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/AffinityUpReward.json",
+      "zh_CN": "language/zh_CN/AffinityUpReward.json"
+    },
+    {
+      "table": "Agent",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 36,
+      "data": "bin/Agent.json",
+      "readable": "readable/Agent.json",
+      "evidence": "evidence/tables/Agent.json",
+      "source_sha256": "d194e78be81bbc23722f47664488cdfb9ce96c24b65737bf7e6d6cf5faab82e9",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Agent.json",
+      "zh_CN": "language/zh_CN/Agent.json"
+    },
+    {
+      "table": "AgentSpecialPerformance",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 97,
+      "data": "bin/AgentSpecialPerformance.json",
+      "readable": "readable/AgentSpecialPerformance.json",
+      "evidence": "evidence/tables/AgentSpecialPerformance.json",
+      "source_sha256": "f9dbebded887ae2094c6e2dd8116a11bb57aaddc6dd5c0e461a5267475ba135a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "AgentTab",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 5,
+      "data": "bin/AgentTab.json",
+      "readable": "readable/AgentTab.json",
+      "evidence": "evidence/tables/AgentTab.json",
+      "source_sha256": "bcb2c5b92b6d91d502cc9edeff5095e672420d42b4bdfc31bd7e8519ee78247f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/AgentTab.json",
+      "zh_CN": "language/zh_CN/AgentTab.json"
+    },
+    {
+      "table": "BreakOutCharacter",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 5,
+      "data": "bin/BreakOutCharacter.json",
+      "readable": "readable/BreakOutCharacter.json",
+      "evidence": "evidence/tables/BreakOutCharacter.json",
+      "source_sha256": "7ac4ba503499df0bb3b7a9fe603b62e08c6c620193baa6078a43f46dd265802a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/BreakOutCharacter.json",
+      "zh_CN": "language/zh_CN/BreakOutCharacter.json"
+    },
+    {
+      "table": "Character",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 37,
+      "data": "bin/Character.json",
+      "readable": "readable/Character.json",
+      "evidence": "evidence/tables/Character.json",
+      "source_sha256": "ed9e4f0fb9191c1a0977c97bc541b19976b5a9bdfec00eb5a12a71da92a3a7a7",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Character.json",
+      "zh_CN": "language/zh_CN/Character.json"
+    },
+    {
+      "table": "CharacterAdvance",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 333,
+      "data": "bin/CharacterAdvance.json",
+      "readable": "readable/CharacterAdvance.json",
+      "evidence": "evidence/tables/CharacterAdvance.json",
+      "source_sha256": "3d7918acfb741c5a7071d5fb5ee04067d79641caea64184b37397952cf4e87d6",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharacterArchive",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 481,
+      "data": "bin/CharacterArchive.json",
+      "readable": "readable/CharacterArchive.json",
+      "evidence": "evidence/tables/CharacterArchive.json",
+      "source_sha256": "14e102fb92a020ba883164a989d10f112429ecfb2d9c411e51bc8d5f1c058da7",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharacterArchiveBaseInfo",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 296,
+      "data": "bin/CharacterArchiveBaseInfo.json",
+      "readable": "readable/CharacterArchiveBaseInfo.json",
+      "evidence": "evidence/tables/CharacterArchiveBaseInfo.json",
+      "source_sha256": "9baad6286c6a6513703dc28977ec58283f2d91fa0da96bca3d95c4e4714cc0a1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharacterArchiveBaseInfo.json",
+      "zh_CN": "language/zh_CN/CharacterArchiveBaseInfo.json"
+    },
+    {
+      "table": "CharacterArchiveContent",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 481,
+      "data": "bin/CharacterArchiveContent.json",
+      "readable": "readable/CharacterArchiveContent.json",
+      "evidence": "evidence/tables/CharacterArchiveContent.json",
+      "source_sha256": "20f3297bba13e83e6ff69b060dae373f4c27da7e3e0dbc3557be5fb4be9b5bb4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharacterArchiveContent.json",
+      "zh_CN": "language/zh_CN/CharacterArchiveContent.json"
+    },
+    {
+      "table": "CharacterArchiveVoice",
+      "categories": [
+        "characters",
+        "story_social",
+        "localization_media"
+      ],
+      "row_count": 3293,
+      "data": "bin/CharacterArchiveVoice.json",
+      "readable": "readable/CharacterArchiveVoice.json",
+      "evidence": "evidence/tables/CharacterArchiveVoice.json",
+      "source_sha256": "42135391e8341c90b2c83f8dcce54e58e6f543bb84c923b33c8b1d04663c06eb",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharacterArchiveVoice.json",
+      "zh_CN": "language/zh_CN/CharacterArchiveVoice.json"
+    },
+    {
+      "table": "CharacterCG",
+      "categories": [
+        "characters",
+        "localization_media"
+      ],
+      "row_count": 37,
+      "data": "bin/CharacterCG.json",
+      "readable": "readable/CharacterCG.json",
+      "evidence": "evidence/tables/CharacterCG.json",
+      "source_sha256": "93e37fb8e95ed84291bd8102e5b6841960887eace5eef1a020f6517bd657b193",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharacterCG.json",
+      "zh_CN": "language/zh_CN/CharacterCG.json"
+    },
+    {
+      "table": "CharacterDes",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 37,
+      "data": "bin/CharacterDes.json",
+      "readable": "readable/CharacterDes.json",
+      "evidence": "evidence/tables/CharacterDes.json",
+      "source_sha256": "3449f0c72270b69fc9242ee1a94d2fae5896a37e6ec1675e5f3b552b65438936",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharacterDes.json",
+      "zh_CN": "language/zh_CN/CharacterDes.json"
+    },
+    {
+      "table": "CharacterSkillUpgrade",
+      "categories": [
+        "characters",
+        "combat"
+      ],
+      "row_count": 370,
+      "data": "bin/CharacterSkillUpgrade.json",
+      "readable": "readable/CharacterSkillUpgrade.json",
+      "evidence": "evidence/tables/CharacterSkillUpgrade.json",
+      "source_sha256": "ca059bab63a4ddea77a6648ef2c84dd82da320427c94c1e1baf4c4fcab3e9c32",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharacterSkin",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 97,
+      "data": "bin/CharacterSkin.json",
+      "readable": "readable/CharacterSkin.json",
+      "evidence": "evidence/tables/CharacterSkin.json",
+      "source_sha256": "2d1ff2ae2efe3846e0274fb9f236e1c21b75a9699e2ad465ab38c03f16b0ed65",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharacterSkin.json",
+      "zh_CN": "language/zh_CN/CharacterSkin.json"
+    },
+    {
+      "table": "CharacterSkinOverlap",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 5,
+      "data": "bin/CharacterSkinOverlap.json",
+      "readable": "readable/CharacterSkinOverlap.json",
+      "evidence": "evidence/tables/CharacterSkinOverlap.json",
+      "source_sha256": "53bf00716a63441e7d6d94b141480ecf31747240530c64b1764a89ca4d651ae0",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharacterSkinPanelFace",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 0,
+      "data": "bin/CharacterSkinPanelFace.json",
+      "readable": "readable/CharacterSkinPanelFace.json",
+      "evidence": "evidence/tables/CharacterSkinPanelFace.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharacterSkinTheme",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 3,
+      "data": "bin/CharacterSkinTheme.json",
+      "readable": "readable/CharacterSkinTheme.json",
+      "evidence": "evidence/tables/CharacterSkinTheme.json",
+      "source_sha256": "9ee98558b639cdb7f9cf505637abda1a7a06a1da04eb39a2e74e7fed60d642da",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharacterSpine",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 13,
+      "data": "bin/CharacterSpine.json",
+      "readable": "readable/CharacterSpine.json",
+      "evidence": "evidence/tables/CharacterSpine.json",
+      "source_sha256": "0b9573d321771544aa76f309fa2794a8e84fe8476bfa6b3ae0fef78e9ea8f9fa",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharacterTag",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 27,
+      "data": "bin/CharacterTag.json",
+      "readable": "readable/CharacterTag.json",
+      "evidence": "evidence/tables/CharacterTag.json",
+      "source_sha256": "a2ecaa41a299d6efad8efd37e8b88c009da25d4be2c3f4a3965582074d95b154",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharacterTag.json",
+      "zh_CN": "language/zh_CN/CharacterTag.json"
+    },
+    {
+      "table": "CharacterUpgrade",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 360,
+      "data": "bin/CharacterUpgrade.json",
+      "readable": "readable/CharacterUpgrade.json",
+      "evidence": "evidence/tables/CharacterUpgrade.json",
+      "source_sha256": "e158910d519da041ad07acc362ca90637935f2aba815275c045563f4686bf111",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharacterVoiceControl",
+      "categories": [
+        "characters",
+        "story_social",
+        "localization_media"
+      ],
+      "row_count": 127,
+      "data": "bin/CharacterVoiceControl.json",
+      "readable": "readable/CharacterVoiceControl.json",
+      "evidence": "evidence/tables/CharacterVoiceControl.json",
+      "source_sha256": "e7ccfdcc7e56a6cb99ec190042e7fd608b88346e15fb49149a24473e29b02f19",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharAffinityTemplate",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 41,
+      "data": "bin/CharAffinityTemplate.json",
+      "readable": "readable/CharAffinityTemplate.json",
+      "evidence": "evidence/tables/CharAffinityTemplate.json",
+      "source_sha256": "17f03a95c9bccdce3307fa42859932418d92ccc8157db6ef303d5faf4b800189",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharGem",
+      "categories": [
+        "characters",
+        "items_rewards"
+      ],
+      "row_count": 9,
+      "data": "bin/CharGem.json",
+      "readable": "readable/CharGem.json",
+      "evidence": "evidence/tables/CharGem.json",
+      "source_sha256": "8263d6fa1d7020446f35245a99946444fa4582c3a468ce897297fa0a41318e0c",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharGem.json",
+      "zh_CN": "language/zh_CN/CharGem.json"
+    },
+    {
+      "table": "CharGemAttrValue",
+      "categories": [
+        "characters",
+        "items_rewards"
+      ],
+      "row_count": 423,
+      "data": "bin/CharGemAttrValue.json",
+      "readable": "readable/CharGemAttrValue.json",
+      "evidence": "evidence/tables/CharGemAttrValue.json",
+      "source_sha256": "714deecbbfc4d7468c1aacafb5b2b1a98c3700207fe624fd31415fd9cb82e204",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharGemInstance",
+      "categories": [
+        "characters",
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 9,
+      "data": "bin/CharGemInstance.json",
+      "readable": "readable/CharGemInstance.json",
+      "evidence": "evidence/tables/CharGemInstance.json",
+      "source_sha256": "41cb56b5491999deb8fac4c02c985e3e6f0ac450ad5cb7e873a3afd3f9fbb270",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharGemInstance.json",
+      "zh_CN": "language/zh_CN/CharGemInstance.json"
+    },
+    {
+      "table": "CharGemInstanceFloor",
+      "categories": [
+        "characters",
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 9,
+      "data": "bin/CharGemInstanceFloor.json",
+      "readable": "readable/CharGemInstanceFloor.json",
+      "evidence": "evidence/tables/CharGemInstanceFloor.json",
+      "source_sha256": "2fc4dd855ded83d2ab91c88a0469a80f9b07c9f5fc471964826639a65d14c116",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharGemInstanceType",
+      "categories": [
+        "characters",
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/CharGemInstanceType.json",
+      "readable": "readable/CharGemInstanceType.json",
+      "evidence": "evidence/tables/CharGemInstanceType.json",
+      "source_sha256": "bbaea14542de3d470a4420686950493039d862d392d3038706e267f3f932714d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharGemInstanceType.json",
+      "zh_CN": "language/zh_CN/CharGemInstanceType.json"
+    },
+    {
+      "table": "CharGemSlotControl",
+      "categories": [
+        "characters",
+        "items_rewards"
+      ],
+      "row_count": 3,
+      "data": "bin/CharGemSlotControl.json",
+      "readable": "readable/CharGemSlotControl.json",
+      "evidence": "evidence/tables/CharGemSlotControl.json",
+      "source_sha256": "2a6762e95dca0dde3541f0b1e2a61b5d253068ce383f88a1bcb82a04d3a247f2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharGetLines",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 171,
+      "data": "bin/CharGetLines.json",
+      "readable": "readable/CharGetLines.json",
+      "evidence": "evidence/tables/CharGetLines.json",
+      "source_sha256": "9f581d23a6330f310169af8394a2bcb8ad3ba2da5a6ce5ca62e4e142b0233c0a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharGetLines.json",
+      "zh_CN": "language/zh_CN/CharGetLines.json"
+    },
+    {
+      "table": "CharGrade",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 3,
+      "data": "bin/CharGrade.json",
+      "readable": "readable/CharGrade.json",
+      "evidence": "evidence/tables/CharGrade.json",
+      "source_sha256": "163004a64bd3b5754bc790391af8156f1ab4e0cc835fecda6d3a69cd7d75e1f6",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharItemExp",
+      "categories": [
+        "characters",
+        "items_rewards"
+      ],
+      "row_count": 4,
+      "data": "bin/CharItemExp.json",
+      "readable": "readable/CharItemExp.json",
+      "evidence": "evidence/tables/CharItemExp.json",
+      "source_sha256": "2c411810d026e69205727dc3b7b0f1e3a13f47c0dd59a59b19a66d33e112a6b8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharPotential",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 37,
+      "data": "bin/CharPotential.json",
+      "readable": "readable/CharPotential.json",
+      "evidence": "evidence/tables/CharPotential.json",
+      "source_sha256": "75335b8fd0f868e0bca6d1c6f0a40a6397cd5d86b67e443dc3571ac4437822e7",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharRaritySequence",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 27,
+      "data": "bin/CharRaritySequence.json",
+      "readable": "readable/CharRaritySequence.json",
+      "evidence": "evidence/tables/CharRaritySequence.json",
+      "source_sha256": "e404d445c33c1cae9c80629bc0a110e7b9be3262eda31e342723a2e64c47aa83",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DatingCharacterEvent",
+      "categories": [
+        "characters",
+        "story_social"
+      ],
+      "row_count": 123,
+      "data": "bin/DatingCharacterEvent.json",
+      "readable": "readable/DatingCharacterEvent.json",
+      "evidence": "evidence/tables/DatingCharacterEvent.json",
+      "source_sha256": "73527517e81107f84e32e78628dfff4a741d54899e6aed5da6440850ad600a39",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DatingCharacterEvent.json",
+      "zh_CN": "language/zh_CN/DatingCharacterEvent.json"
+    },
+    {
+      "table": "DatingCharResponse",
+      "categories": [
+        "characters",
+        "story_social"
+      ],
+      "row_count": 259,
+      "data": "bin/DatingCharResponse.json",
+      "readable": "readable/DatingCharResponse.json",
+      "evidence": "evidence/tables/DatingCharResponse.json",
+      "source_sha256": "cdc24f8e374f315423257f6cde88c8927d9478e89c4c38e3c579fe970c8f67db",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DatingCharTag",
+      "categories": [
+        "characters",
+        "story_social"
+      ],
+      "row_count": 37,
+      "data": "bin/DatingCharTag.json",
+      "readable": "readable/DatingCharTag.json",
+      "evidence": "evidence/tables/DatingCharTag.json",
+      "source_sha256": "8c7c60bb071648dddd06debb39c2255bc8c4471d169bd8c7233a242bee24d224",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "HonorCharacter",
+      "categories": [
+        "characters",
+        "activities"
+      ],
+      "row_count": 3330,
+      "data": "bin/HonorCharacter.json",
+      "readable": "readable/HonorCharacter.json",
+      "evidence": "evidence/tables/HonorCharacter.json",
+      "source_sha256": "3d0b970171858c6c01adbe7883f74e37d99d4f74312e54bb6056598802bf6130",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "IceCreamChar",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 11,
+      "data": "bin/IceCreamChar.json",
+      "readable": "readable/IceCreamChar.json",
+      "evidence": "evidence/tables/IceCreamChar.json",
+      "source_sha256": "11483c6e44a5a0d547c0af655f19e5c4ef0eb4aef644783f5d0aa9da76c36c39",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "IceCreamCharPool",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 70,
+      "data": "bin/IceCreamCharPool.json",
+      "readable": "readable/IceCreamCharPool.json",
+      "evidence": "evidence/tables/IceCreamCharPool.json",
+      "source_sha256": "b3e2126739d5634aad5fe2338e8c40cc41d1ab51172277f59846feb93b3e53ab",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterSkin",
+      "categories": [
+        "characters",
+        "world_npc"
+      ],
+      "row_count": 639,
+      "data": "bin/MonsterSkin.json",
+      "readable": "readable/MonsterSkin.json",
+      "evidence": "evidence/tables/MonsterSkin.json",
+      "source_sha256": "844c213737f24f2d8f83e30e08831776c3f3f299bc4caa604107605cf793e4c0",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "NPCAffinityGroup",
+      "categories": [
+        "characters",
+        "story_social",
+        "world_npc"
+      ],
+      "row_count": 204,
+      "data": "bin/NPCAffinityGroup.json",
+      "readable": "readable/NPCAffinityGroup.json",
+      "evidence": "evidence/tables/NPCAffinityGroup.json",
+      "source_sha256": "f87cde2e092c08c475b49897dfd629854a00fc309180d2908ed2715516ee8480",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/NPCAffinityGroup.json",
+      "zh_CN": "language/zh_CN/NPCAffinityGroup.json"
+    },
+    {
+      "table": "NPCAffinityPlot",
+      "categories": [
+        "characters",
+        "story_social",
+        "world_npc"
+      ],
+      "row_count": 8,
+      "data": "bin/NPCAffinityPlot.json",
+      "readable": "readable/NPCAffinityPlot.json",
+      "evidence": "evidence/tables/NPCAffinityPlot.json",
+      "source_sha256": "46d668439c0bf63731f6bfd1b4e70603315e2f79b309d96fe058dfa3ebbe09e0",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+      "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+    },
+    {
+      "table": "NPCSkin",
+      "categories": [
+        "characters",
+        "world_npc"
+      ],
+      "row_count": 49,
+      "data": "bin/NPCSkin.json",
+      "readable": "readable/NPCSkin.json",
+      "evidence": "evidence/tables/NPCSkin.json",
+      "source_sha256": "64f6697588bf5fe5e8a97bf6bbc24b30f80370b96fdae7cc4143af0a14e02ca4",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Potential",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 1075,
+      "data": "bin/Potential.json",
+      "readable": "readable/Potential.json",
+      "evidence": "evidence/tables/Potential.json",
+      "source_sha256": "f44032809b372e75704cdc56b94c9ff6ca31862d838391211d781d8e964e89c1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Potential.json",
+      "zh_CN": "language/zh_CN/Potential.json"
+    },
+    {
+      "table": "PotentialPassiveSkill",
+      "categories": [
+        "characters",
+        "combat"
+      ],
+      "row_count": 0,
+      "data": "bin/PotentialPassiveSkill.json",
+      "readable": "readable/PotentialPassiveSkill.json",
+      "evidence": "evidence/tables/PotentialPassiveSkill.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierCharacter",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 55,
+      "data": "bin/SoldierCharacter.json",
+      "readable": "readable/SoldierCharacter.json",
+      "evidence": "evidence/tables/SoldierCharacter.json",
+      "source_sha256": "6986586de8b48481e38b9da906c68d2aac5e4001929e36fe68dc3b7276d9dd14",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierCharacter.json",
+      "zh_CN": "language/zh_CN/SoldierCharacter.json"
+    },
+    {
+      "table": "SoldierPotential",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 80,
+      "data": "bin/SoldierPotential.json",
+      "readable": "readable/SoldierPotential.json",
+      "evidence": "evidence/tables/SoldierPotential.json",
+      "source_sha256": "7e4e9f3908b2fddb20bde14788b013265f7f9ab77374b9fb3940c9a37c635b10",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierPotential.json",
+      "zh_CN": "language/zh_CN/SoldierPotential.json"
+    },
+    {
+      "table": "SoldierSkin",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 55,
+      "data": "bin/SoldierSkin.json",
+      "readable": "readable/SoldierSkin.json",
+      "evidence": "evidence/tables/SoldierSkin.json",
+      "source_sha256": "9cfe036e324262c383d020b36e855c688404981dc3ff4c196138a1d2e52a312b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierSkin.json",
+      "zh_CN": "language/zh_CN/SoldierSkin.json"
+    },
+    {
+      "table": "StarTowerBookPotentialReward",
+      "categories": [
+        "characters",
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 111,
+      "data": "bin/StarTowerBookPotentialReward.json",
+      "readable": "readable/StarTowerBookPotentialReward.json",
+      "evidence": "evidence/tables/StarTowerBookPotentialReward.json",
+      "source_sha256": "6afbd1fe693f8fb300f759438b0e14f08d5c79fc4d31b6e7fd4e9ab35102578a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Talent",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 2035,
+      "data": "bin/Talent.json",
+      "readable": "readable/Talent.json",
+      "evidence": "evidence/tables/Talent.json",
+      "source_sha256": "a75ae7ffc718fa66ece17307484799508f075ff7d2ed0560da87396004a24952",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Talent.json",
+      "zh_CN": "language/zh_CN/Talent.json"
+    },
+    {
+      "table": "TalentGroup",
+      "categories": [
+        "characters"
+      ],
+      "row_count": 185,
+      "data": "bin/TalentGroup.json",
+      "readable": "readable/TalentGroup.json",
+      "evidence": "evidence/tables/TalentGroup.json",
+      "source_sha256": "269a39340f366fc891f07d4773c4cbc7d1afd5d007d78f7cfa75c6ec7b3a3f36",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TalentGroup.json",
+      "zh_CN": "language/zh_CN/TalentGroup.json"
+    },
+    {
+      "table": "TestCharacterAtt",
+      "categories": [
+        "characters",
+        "developer_test"
+      ],
+      "row_count": 7,
+      "data": "bin/TestCharacterAtt.json",
+      "readable": "readable/TestCharacterAtt.json",
+      "evidence": "evidence/tables/TestCharacterAtt.json",
+      "source_sha256": "7c12f2d890fcdf6289a010b56078a0c51200499b22c95b654a63a20a73ff9be8",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TestCharacterList",
+      "categories": [
+        "characters",
+        "developer_test"
+      ],
+      "row_count": 30,
+      "data": "bin/TestCharacterList.json",
+      "readable": "readable/TestCharacterList.json",
+      "evidence": "evidence/tables/TestCharacterList.json",
+      "source_sha256": "2c29eb41bc3981f596987daf0f0676e6128cead3cff05a2144828360785d7998",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TowerDefenceCharacterAI",
+      "categories": [
+        "characters",
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 18,
+      "data": "bin/TowerDefenceCharacterAI.json",
+      "readable": "readable/TowerDefenceCharacterAI.json",
+      "evidence": "evidence/tables/TowerDefenceCharacterAI.json",
+      "source_sha256": "571e4c3f4320aaccd4d9d4a06f2571b13fdc7469fc0103337903ba49db98718f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TowerDefenseCharacter",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 21,
+      "data": "bin/TowerDefenseCharacter.json",
+      "readable": "readable/TowerDefenseCharacter.json",
+      "evidence": "evidence/tables/TowerDefenseCharacter.json",
+      "source_sha256": "a3f7e8a5bc0468f0bef19ad8cd127401ff1bd3852dedddd1ce44d29bd0ec0f1a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefenseCharacter.json",
+      "zh_CN": "language/zh_CN/TowerDefenseCharacter.json"
+    },
+    {
+      "table": "TowerDefensePotential",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 126,
+      "data": "bin/TowerDefensePotential.json",
+      "readable": "readable/TowerDefensePotential.json",
+      "evidence": "evidence/tables/TowerDefensePotential.json",
+      "source_sha256": "d851f208d32242d6deaaa3f5d3de9b88b4211fa47684212c4fc8f1fcae986c24",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+      "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+    },
+    {
+      "table": "TrialCharacter",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 162,
+      "data": "bin/TrialCharacter.json",
+      "readable": "readable/TrialCharacter.json",
+      "evidence": "evidence/tables/TrialCharacter.json",
+      "source_sha256": "5527eb9221da34e7b2a31108f28eccf99ad21ad350f77394bdfe7eef874d84aa",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TrialCharacter.json",
+      "zh_CN": "language/zh_CN/TrialCharacter.json"
+    },
+    {
+      "table": "TrialPotential",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 84,
+      "data": "bin/TrialPotential.json",
+      "readable": "readable/TrialPotential.json",
+      "evidence": "evidence/tables/TrialPotential.json",
+      "source_sha256": "9d178d004fbd5607879da490d95eeab9088d5a32c5ada62fa08a1ed59664d38b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireTalent",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 32,
+      "data": "bin/VampireTalent.json",
+      "readable": "readable/VampireTalent.json",
+      "evidence": "evidence/tables/VampireTalent.json",
+      "source_sha256": "fa854ea6d0bcebefdf0b90d2887205077cb4e9ecaf858c5efee9e06f97ed5b78",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/VampireTalent.json",
+      "zh_CN": "language/zh_CN/VampireTalent.json"
+    },
+    {
+      "table": "VampireTalentDesc",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 20,
+      "data": "bin/VampireTalentDesc.json",
+      "readable": "readable/VampireTalentDesc.json",
+      "evidence": "evidence/tables/VampireTalentDesc.json",
+      "source_sha256": "ae575d3ce84f654da079fe0635b6044f05d0ac9bc4118dd5a54b0b3b9bf850c2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/VampireTalentDesc.json",
+      "zh_CN": "language/zh_CN/VampireTalentDesc.json"
+    },
+    {
+      "table": "VampireTalentFloor",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 19,
+      "data": "bin/VampireTalentFloor.json",
+      "readable": "readable/VampireTalentFloor.json",
+      "evidence": "evidence/tables/VampireTalentFloor.json",
+      "source_sha256": "bbca00747adc406d4bb2699bce3990e567cadcda8c4177c3e070168946b41d74",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    }
+  ]
+}

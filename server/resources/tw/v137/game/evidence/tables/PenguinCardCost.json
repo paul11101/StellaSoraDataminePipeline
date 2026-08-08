@@ -1,0 +1,184 @@
+{
+  "table": "PenguinCardCost",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8937687d39276afe.bin",
+  "source_sha256": "f9c9aa395bc39f0f67b93da6d06b0a8179a0ac665fc6844742cf2b9c4b887ff4",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\PenguinCardCost.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 5
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reference_field_order": [
+      "Id",
+      "Count",
+      "Turn",
+      "Cost"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 4,
+    "remaining_name_count": 4,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 5,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Count",
+        "matching_reference_rows": 5,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Turn",
+        "matching_reference_rows": 5,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Cost",
+        "matching_reference_rows": 5,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_int",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    },
+    "2": {
+      "field": "Count",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_int",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    },
+    "3": {
+      "field": "Turn",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    },
+    "4": {
+      "field": "Cost",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 5,
+    "reference_row_count": 5,
+    "shared_key_count": 5,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 5,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

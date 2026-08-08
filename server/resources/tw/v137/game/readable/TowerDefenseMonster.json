@@ -1,0 +1,340 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TowerDefenseMonster",
+    "categories": [
+      "stages_modes",
+      "world_npc"
+    ],
+    "row_count": 18,
+    "localization_hits": 18,
+    "source": "bin/TowerDefenseMonster.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "8069901": {
+      "Id": 8069901,
+      "ExpGive": 1000000,
+      "HpReduce": 1,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8069901.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8069901.1",
+          "zh_TW": "【普通】常見的普通星骸，但成群結隊出現也讓人頭痛。",
+          "zh_CN": "【普通】常见的普通星骸，但成群结对也让人头疼。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8069902": {
+      "Id": 8069902,
+      "ExpGive": 2000000,
+      "HpReduce": 1,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8069902.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8069902.1",
+          "zh_TW": "【普通】經過強化的普通星骸，可別小看牠們。",
+          "zh_CN": "【普通】经过强化的普通星骸，可别小看它们。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8069903": {
+      "Id": 8069903,
+      "ExpGive": 1200000,
+      "HpReduce": 1,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8069903.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8069903.1",
+          "zh_TW": "【普通】常見的快速星骸，牠們的腳步非常敏捷。",
+          "zh_CN": "【普通】常见的快速星骸，它们的脚步非常迅捷。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8069904": {
+      "Id": 8069904,
+      "ExpGive": 2400000,
+      "HpReduce": 1,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8069904.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8069904.1",
+          "zh_TW": "【普通】經過強化的快速星骸，可別小看牠們。",
+          "zh_CN": "【普通】经过强化的快速星骸，可别小看它们。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8079901": {
+      "Id": 8079901,
+      "ExpGive": 5000000,
+      "HpReduce": 1,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8079901.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8079901.1",
+          "zh_TW": "【菁英】步伐緩慢而沉穩，耐久度很高。",
+          "zh_CN": "【精英】步伐缓慢而沉稳，耐久度很高。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8079902": {
+      "Id": 8079902,
+      "ExpGive": 4000000,
+      "HpReduce": 1,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8079902.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8079902.1",
+          "zh_TW": "【菁英】翻滾途中會不停加速，一旦受到控制就會恢復原狀。",
+          "zh_CN": "【精英】翻滚途中不停加速，一旦受到控制就会恢复原状。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8089901": {
+      "Id": 8089901,
+      "ExpGive": 20000000,
+      "HpReduce": 2,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8089901.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8089901.1",
+          "zh_TW": "【首領】會為周圍所有隊友施加加速效果，需要優先消滅。",
+          "zh_CN": "【首领】会给周围所有队友施加加速效果，需要优先消灭。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8079903": {
+      "Id": 8079903,
+      "ExpGive": 6000000,
+      "HpReduce": 1,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8079903.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8079903.1",
+          "zh_TW": "【菁英】雙手插入大地時重量增加，可被猛烈的進攻打斷。",
+          "zh_CN": "【精英】双手插入大地时重量增加，猛烈的进攻可以打断。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8089902": {
+      "Id": 8089902,
+      "ExpGive": 20000000,
+      "HpReduce": 2,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8089902.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8089902.1",
+          "zh_TW": "【首領】泥濘區域為隊友附加減速、重量增加與減傷效果。",
+          "zh_CN": "【首领】泥泞区域为队友附加减速、重量增加与减伤效果。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8070201": {
+      "Id": 8070201,
+      "ExpGive": 6000000,
+      "HpReduce": 1,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8070201.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8070201.1",
+          "zh_TW": "【菁英】雙手插入大地時重量增加，可被猛烈的進攻打斷。",
+          "zh_CN": "【精英】双手插入大地时重量增加，猛烈的进攻可以打断。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8069905": {
+      "Id": 8069905,
+      "ExpGive": 4000000,
+      "HpReduce": 1,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8069905.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8069905.1",
+          "zh_TW": "【普通】死亡時生成一格草叢。",
+          "zh_CN": "【普通】死亡时生成一格草丛。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8079904": {
+      "Id": 8079904,
+      "ExpGive": 6000000,
+      "HpReduce": 1,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8079904.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8079904.1",
+          "zh_TW": "【菁英】觸手插入大地，延遲後生成一格草叢。",
+          "zh_CN": "【精英】触手插入大地，延迟后生成一格草丛。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8089903": {
+      "Id": 8089903,
+      "ExpGive": 20000000,
+      "HpReduce": 2,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8089903.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8089903.1",
+          "zh_TW": "【首領】揮動法杖，延遲後在一片區域生成草叢。",
+          "zh_CN": "【首领】挥动法杖，延迟后使一片区域生成草丛。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8070401": {
+      "Id": 8070401,
+      "ExpGive": 6000000,
+      "HpReduce": 1,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8070401.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8070401.1",
+          "zh_TW": "【菁英】在自身周圍產生炎熱領域，加速炎熱效果累積。",
+          "zh_CN": "【精英】在自身周围生成炎热领域，加速炎热效果累积。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8070402": {
+      "Id": 8070402,
+      "ExpGive": 6000000,
+      "HpReduce": 1,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8070402.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8070402.1",
+          "zh_TW": "【菁英】發射火球，命中後增加炎熱值，並使部署位著火。",
+          "zh_CN": "【精英】发射火球，命中后增加炎热值并使部署位着火。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8080401": {
+      "Id": 8080401,
+      "ExpGive": 20000000,
+      "HpReduce": 2,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8080401.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8080401.1",
+          "zh_TW": "【首領】向部署位降下天火，並每隔一段時間召喚全螢幕焰浪。",
+          "zh_CN": "【首领】向部署位降下天火，并且每隔一段时间召唤全屏焰浪。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8080402": {
+      "Id": 8080402,
+      "ExpGive": 20000000,
+      "HpReduce": 2,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8080402.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8080402.1",
+          "zh_TW": "【首領】向部署位降下天火，並每隔一段時間召喚全螢幕焰浪。",
+          "zh_CN": "【首领】向部署位降下天火，并且每隔一段时间召唤全屏焰浪。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    },
+    "8080403": {
+      "Id": 8080403,
+      "ExpGive": 20000000,
+      "HpReduce": 2,
+      "AmountReduce": 1,
+      "Brief": "TowerDefenseMonster.8080403.1",
+      "_localized": {
+        "/Brief": {
+          "key": "TowerDefenseMonster.8080403.1",
+          "zh_TW": "【首領】向部署位降下天火，並每隔一段時間召喚全螢幕焰浪。",
+          "zh_CN": "【首领】向部署位降下天火，并且每隔一段时间召唤全屏焰浪。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+            "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+          }
+        }
+      }
+    }
+  }
+}

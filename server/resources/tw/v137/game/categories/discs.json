@@ -1,0 +1,296 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "discs",
+    "name": "光碟、命运卡与附属技能",
+    "description": "光碟本体、强化突破、命运卡和 SubNote 技能。",
+    "table_count": 16,
+    "row_count": 2327,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "Disc",
+      "categories": [
+        "discs"
+      ],
+      "row_count": 96,
+      "data": "bin/Disc.json",
+      "readable": "readable/Disc.json",
+      "evidence": "evidence/tables/Disc.json",
+      "source_sha256": "dbf9a5ebc051e6f2f8727c716a81d50041298a1aef213a569a96460fda9a5f48",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DiscExtraAttribute",
+      "categories": [
+        "discs",
+        "combat"
+      ],
+      "row_count": 15,
+      "data": "bin/DiscExtraAttribute.json",
+      "readable": "readable/DiscExtraAttribute.json",
+      "evidence": "evidence/tables/DiscExtraAttribute.json",
+      "source_sha256": "12292c3677a0c5f5f75825fcbfa712e33783f5c70098b9282decfbe1e75dff93",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DiscIP",
+      "categories": [
+        "discs"
+      ],
+      "row_count": 96,
+      "data": "bin/DiscIP.json",
+      "readable": "readable/DiscIP.json",
+      "evidence": "evidence/tables/DiscIP.json",
+      "source_sha256": "d9014c42ac95136eb3ba17a65a15923c9b04a8d6bbc86b33d14524c761ee3b32",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DiscIP.json",
+      "zh_CN": "language/zh_CN/DiscIP.json"
+    },
+    {
+      "table": "DiscItemExp",
+      "categories": [
+        "discs",
+        "items_rewards"
+      ],
+      "row_count": 4,
+      "data": "bin/DiscItemExp.json",
+      "readable": "readable/DiscItemExp.json",
+      "evidence": "evidence/tables/DiscItemExp.json",
+      "source_sha256": "952f7bcb291140af7f62ac8ac1b780fe1d9b9a4476b167720d2725e16015884a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DiscPromote",
+      "categories": [
+        "discs"
+      ],
+      "row_count": 72,
+      "data": "bin/DiscPromote.json",
+      "readable": "readable/DiscPromote.json",
+      "evidence": "evidence/tables/DiscPromote.json",
+      "source_sha256": "7b3e4eb0ab8ede67ee37d28bddd65b7a11de602cfab9e4cb4866648bd00f3e60",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DiscPromoteLimit",
+      "categories": [
+        "discs"
+      ],
+      "row_count": 29,
+      "data": "bin/DiscPromoteLimit.json",
+      "readable": "readable/DiscPromoteLimit.json",
+      "evidence": "evidence/tables/DiscPromoteLimit.json",
+      "source_sha256": "33a2035856f5f3ebd5200e0027942ad644e2c112ac7fd4d87b38fdb7c18cd538",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DiscStrengthen",
+      "categories": [
+        "discs"
+      ],
+      "row_count": 270,
+      "data": "bin/DiscStrengthen.json",
+      "readable": "readable/DiscStrengthen.json",
+      "evidence": "evidence/tables/DiscStrengthen.json",
+      "source_sha256": "fe8ab6fd0a3010e5ee8b7cac85332bcd6c2fff1604dfb70cd730eab9f306a2b3",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DiscTag",
+      "categories": [
+        "discs"
+      ],
+      "row_count": 24,
+      "data": "bin/DiscTag.json",
+      "readable": "readable/DiscTag.json",
+      "evidence": "evidence/tables/DiscTag.json",
+      "source_sha256": "4cf75b7a23452a7f76e3befda746a8ef0ed961a36059a4f29ef47099bc34eca1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DiscTag.json",
+      "zh_CN": "language/zh_CN/DiscTag.json"
+    },
+    {
+      "table": "FateCard",
+      "categories": [
+        "discs"
+      ],
+      "row_count": 234,
+      "data": "bin/FateCard.json",
+      "readable": "readable/FateCard.json",
+      "evidence": "evidence/tables/FateCard.json",
+      "source_sha256": "eb2297e7dcdb46d09a6ce0ae14d5616d3c6430d9c02d5bdc7895ef9d85595b33",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/FateCard.json",
+      "zh_CN": "language/zh_CN/FateCard.json"
+    },
+    {
+      "table": "StarTowerBookFateCard",
+      "categories": [
+        "discs",
+        "stages_modes"
+      ],
+      "row_count": 234,
+      "data": "bin/StarTowerBookFateCard.json",
+      "readable": "readable/StarTowerBookFateCard.json",
+      "evidence": "evidence/tables/StarTowerBookFateCard.json",
+      "source_sha256": "ba4d710ae3f92f67611b804c63e304c75e7db97a3bcdc68eded699dfd518f6d5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+      "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+    },
+    {
+      "table": "StarTowerBookFateCardBundle",
+      "categories": [
+        "discs",
+        "stages_modes"
+      ],
+      "row_count": 15,
+      "data": "bin/StarTowerBookFateCardBundle.json",
+      "readable": "readable/StarTowerBookFateCardBundle.json",
+      "evidence": "evidence/tables/StarTowerBookFateCardBundle.json",
+      "source_sha256": "14997d5cb732f9fe72ac2c081768b1086d5ec166ad22ecf8b181f908dcefb78f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerBookFateCardBundle.json",
+      "zh_CN": "language/zh_CN/StarTowerBookFateCardBundle.json"
+    },
+    {
+      "table": "StarTowerBookFateCardQuest",
+      "categories": [
+        "discs",
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 33,
+      "data": "bin/StarTowerBookFateCardQuest.json",
+      "readable": "readable/StarTowerBookFateCardQuest.json",
+      "evidence": "evidence/tables/StarTowerBookFateCardQuest.json",
+      "source_sha256": "97c3f08f75f556187256cea27e6d3e813084f9120bfbacdd9903da680b1a0049",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerBookFateCardQuest.json",
+      "zh_CN": "language/zh_CN/StarTowerBookFateCardQuest.json"
+    },
+    {
+      "table": "SubNoteSkill",
+      "categories": [
+        "discs",
+        "combat"
+      ],
+      "row_count": 13,
+      "data": "bin/SubNoteSkill.json",
+      "readable": "readable/SubNoteSkill.json",
+      "evidence": "evidence/tables/SubNoteSkill.json",
+      "source_sha256": "4507c46a50d660e8c82ffd141337b097a84e3aa8566921f5de06be56ead23a8a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SubNoteSkill.json",
+      "zh_CN": "language/zh_CN/SubNoteSkill.json"
+    },
+    {
+      "table": "SubNoteSkillDropGroup",
+      "categories": [
+        "discs",
+        "combat",
+        "items_rewards"
+      ],
+      "row_count": 34,
+      "data": "bin/SubNoteSkillDropGroup.json",
+      "readable": "readable/SubNoteSkillDropGroup.json",
+      "evidence": "evidence/tables/SubNoteSkillDropGroup.json",
+      "source_sha256": "2b346c390194636ea3694f494b6b7969236bcf87b0803e96705850dbe825d948",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SubNoteSkillPromoteGroup",
+      "categories": [
+        "discs",
+        "combat"
+      ],
+      "row_count": 945,
+      "data": "bin/SubNoteSkillPromoteGroup.json",
+      "readable": "readable/SubNoteSkillPromoteGroup.json",
+      "evidence": "evidence/tables/SubNoteSkillPromoteGroup.json",
+      "source_sha256": "78aa4022be004c9481afe3027b4ffad051859c011587c3201dab2bab4556307b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TrialDisc",
+      "categories": [
+        "discs",
+        "stages_modes"
+      ],
+      "row_count": 213,
+      "data": "bin/TrialDisc.json",
+      "readable": "readable/TrialDisc.json",
+      "evidence": "evidence/tables/TrialDisc.json",
+      "source_sha256": "e499a069243cc0dacdf156a804b2df89f56afe4bf9bfee49beacc36b237cbd09",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    }
+  ]
+}

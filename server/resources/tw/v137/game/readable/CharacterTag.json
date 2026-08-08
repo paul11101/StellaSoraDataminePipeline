@@ -1,0 +1,447 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "CharacterTag",
+    "categories": [
+      "characters"
+    ],
+    "row_count": 27,
+    "localization_hits": 27,
+    "source": "bin/CharacterTag.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "Title": "CharacterTag.101.1",
+      "TagType": 1,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.101.1",
+          "zh_TW": "先鋒",
+          "zh_CN": "先锋",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "102": {
+      "Id": 102,
+      "Title": "CharacterTag.102.1",
+      "TagType": 1,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.102.1",
+          "zh_TW": "均衡",
+          "zh_CN": "均衡",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "103": {
+      "Id": 103,
+      "Title": "CharacterTag.103.1",
+      "TagType": 1,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.103.1",
+          "zh_TW": "輔助",
+          "zh_CN": "辅助",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "104": {
+      "Id": 104,
+      "Title": "CharacterTag.104.1",
+      "TagType": 1,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.104.1",
+          "zh_TW": "空",
+          "zh_CN": "空",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "201": {
+      "Id": 201,
+      "Title": "CharacterTag.201.1",
+      "TagType": 2,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.201.1",
+          "zh_TW": "收集控",
+          "zh_CN": "收集控",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "202": {
+      "Id": 202,
+      "Title": "CharacterTag.202.1",
+      "TagType": 2,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.202.1",
+          "zh_TW": "穩紮穩打",
+          "zh_CN": "稳扎稳打",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "203": {
+      "Id": 203,
+      "Title": "CharacterTag.203.1",
+      "TagType": 2,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.203.1",
+          "zh_TW": "冒險家",
+          "zh_CN": "冒险家",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "204": {
+      "Id": 204,
+      "Title": "CharacterTag.204.1",
+      "TagType": 2,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.204.1",
+          "zh_TW": "奇思妙想",
+          "zh_CN": "奇思妙想",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "205": {
+      "Id": 205,
+      "Title": "CharacterTag.205.1",
+      "TagType": 2,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.205.1",
+          "zh_TW": "求知心切",
+          "zh_CN": "求知心切",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "206": {
+      "Id": 206,
+      "Title": "CharacterTag.206.1",
+      "TagType": 2,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.206.1",
+          "zh_TW": "空",
+          "zh_CN": "空",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "301": {
+      "Id": 301,
+      "Title": "CharacterTag.301.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.301.1",
+          "zh_TW": "空白旅團",
+          "zh_CN": "空白旅团",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "302": {
+      "Id": 302,
+      "Title": "CharacterTag.302.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.302.1",
+          "zh_TW": "帝國衛隊",
+          "zh_CN": "帝国卫队",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "303": {
+      "Id": 303,
+      "Title": "CharacterTag.303.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.303.1",
+          "zh_TW": "白貓劇團",
+          "zh_CN": "白猫剧团",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "304": {
+      "Id": 304,
+      "Title": "CharacterTag.304.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.304.1",
+          "zh_TW": "聯合種業",
+          "zh_CN": "联合种业",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "305": {
+      "Id": 305,
+      "Title": "CharacterTag.305.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.305.1",
+          "zh_TW": "白澤公署",
+          "zh_CN": "白泽公署",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "306": {
+      "Id": 306,
+      "Title": "CharacterTag.306.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.306.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "307": {
+      "Id": 307,
+      "Title": "CharacterTag.307.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.307.1",
+          "zh_TW": "鳳凰炒蛋",
+          "zh_CN": "凤凰炒蛋",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "308": {
+      "Id": 308,
+      "Title": "CharacterTag.308.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.308.1",
+          "zh_TW": "谷風家政",
+          "zh_CN": "谷风家政",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "309": {
+      "Id": 309,
+      "Title": "CharacterTag.309.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.309.1",
+          "zh_TW": "萬送屋",
+          "zh_CN": "万送屋",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "310": {
+      "Id": 310,
+      "Title": "CharacterTag.310.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.310.1",
+          "zh_TW": "自由旅人",
+          "zh_CN": "自由旅人",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "311": {
+      "Id": 311,
+      "Title": "CharacterTag.311.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.311.1",
+          "zh_TW": "灰風俱樂部",
+          "zh_CN": "灰风俱乐部",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "312": {
+      "Id": 312,
+      "Title": "CharacterTag.312.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.312.1",
+          "zh_TW": "緋瞳傳訊",
+          "zh_CN": "绯曈传讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "313": {
+      "Id": 313,
+      "Title": "CharacterTag.313.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.313.1",
+          "zh_TW": "空",
+          "zh_CN": "空",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "314": {
+      "Id": 314,
+      "Title": "CharacterTag.314.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.314.1",
+          "zh_TW": "雲笈文化",
+          "zh_CN": "云笈文化",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "315": {
+      "Id": 315,
+      "Title": "CharacterTag.315.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.315.1",
+          "zh_TW": "恩賜意志",
+          "zh_CN": "恩赐意志",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "316": {
+      "Id": 316,
+      "Title": "CharacterTag.316.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.316.1",
+          "zh_TW": "花令旅團",
+          "zh_CN": "花令旅团",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    },
+    "317": {
+      "Id": 317,
+      "Title": "CharacterTag.317.1",
+      "TagType": 3,
+      "_localized": {
+        "/Title": {
+          "key": "CharacterTag.317.1",
+          "zh_TW": "柔光會社",
+          "zh_CN": "柔光会社",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterTag.json",
+            "zh_CN": "language/zh_CN/CharacterTag.json"
+          }
+        }
+      }
+    }
+  }
+}

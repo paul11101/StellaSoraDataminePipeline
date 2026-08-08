@@ -1,0 +1,209 @@
+{
+  "table": "JumpTo",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3d4597fda7e6634d.bin",
+  "source_sha256": "157c0e76a10d3a7f990b66a1b1214807086dc388aedd08182be2f4b33034533d",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\JumpTo.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 161
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "reference_field_order": [
+      "Id",
+      "Type",
+      "Param",
+      "Desc",
+      "Icon"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 5,
+    "remaining_name_count": 5,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 161,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Type",
+        "matching_reference_rows": 159,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Param",
+        "matching_reference_rows": 152,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Desc",
+        "matching_reference_rows": 161,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Icon",
+        "matching_reference_rows": 157,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 161,
+      "compared_reference_rows": 161,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 161,
+          "compared": 161
+        },
+        {
+          "codec": "varint_int",
+          "matches": 161,
+          "compared": 161
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 161
+        }
+      ]
+    },
+    "2": {
+      "field": "Type",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 159,
+      "compared_reference_rows": 159,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 159,
+          "compared": 159
+        },
+        {
+          "codec": "varint_int",
+          "matches": 159,
+          "compared": 159
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 159
+        }
+      ]
+    },
+    "3": {
+      "field": "Param",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 152,
+      "compared_reference_rows": 152,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 18,
+          "compared": 152
+        }
+      ]
+    },
+    "4": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 161,
+      "compared_reference_rows": 161,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 161,
+          "compared": 161
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 161
+        }
+      ]
+    },
+    "5": {
+      "field": "Icon",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 157,
+      "compared_reference_rows": 157,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 157,
+          "compared": 157
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 157
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 161,
+    "reference_row_count": 161,
+    "shared_key_count": 161,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 161,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

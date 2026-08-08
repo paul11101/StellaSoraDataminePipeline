@@ -1,0 +1,1223 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "CookieLevel",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 32,
+    "localization_hits": 64,
+    "source": "bin/CookieLevel.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1001": {
+      "Id": 1001,
+      "ActivityId": 400001,
+      "Name": "CookieLevel.1001.1",
+      "PackType": 1,
+      "Difficulty": 1,
+      "PackModel": 1,
+      "FloorId": 1001,
+      "FirstCompletionScore": 40,
+      "PackContent": "CookieLevel.1001.2",
+      "CountDownLimit": 30,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73102,
+      "FirstCompletionReward1Qty": 300,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 50,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1001.1",
+          "zh_TW": "按部就班 I",
+          "zh_CN": "按部就班 I",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1001.2",
+          "zh_TW": "按照圖案指示組裝餅乾禮盒，按部就班完成工作！",
+          "zh_CN": "按照图样指示装配曲奇礼盒，按部就班完成工作！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1002": {
+      "Id": 1002,
+      "ActivityId": 400001,
+      "Name": "CookieLevel.1002.1",
+      "PackType": 1,
+      "Difficulty": 2,
+      "PackModel": 1,
+      "FloorId": 1002,
+      "PreLevelId": 1001,
+      "FirstCompletionScore": 60,
+      "PackContent": "CookieLevel.1002.2",
+      "CountDownLimit": 40,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73102,
+      "FirstCompletionReward1Qty": 400,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 50,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1002.1",
+          "zh_TW": "按部就班 Ⅱ",
+          "zh_CN": "按部就班 II",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1002.2",
+          "zh_TW": "按照圖案指示組裝餅乾禮盒，按部就班完成工作！\n可能會出現大禮盒哦！",
+          "zh_CN": "按照图样指示装配曲奇礼盒，按部就班完成工作！\n可能会出现大礼盒哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1003": {
+      "Id": 1003,
+      "ActivityId": 400001,
+      "Name": "CookieLevel.1003.1",
+      "PackType": 1,
+      "Difficulty": 3,
+      "PackModel": 1,
+      "FloorId": 1003,
+      "PreLevelId": 1002,
+      "FirstCompletionScore": 100,
+      "PackContent": "CookieLevel.1003.2",
+      "CountDownLimit": 50,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73102,
+      "FirstCompletionReward1Qty": 600,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1003.1",
+          "zh_TW": "按部就班 Ⅲ",
+          "zh_CN": "按部就班 III",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1003.2",
+          "zh_TW": "按照圖案指示組裝餅乾禮盒，按部就班完成工作！\n可能會更早出現大禮盒哦！",
+          "zh_CN": "按照图样指示装配曲奇礼盒，按部就班完成工作！\n可能会更早出现大礼盒哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1004": {
+      "Id": 1004,
+      "ActivityId": 400001,
+      "DayOpen": 1,
+      "Name": "CookieLevel.1004.1",
+      "PackType": 1,
+      "Difficulty": 4,
+      "PackModel": 2,
+      "FloorId": 1004,
+      "PreLevelId": 1003,
+      "FirstCompletionScore": 80,
+      "PackContent": "CookieLevel.1004.2",
+      "CountDownLimit": 50,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73102,
+      "FirstCompletionReward1Qty": 800,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1004.1",
+          "zh_TW": "甜蜜妙想 I",
+          "zh_CN": "甜蜜妙想 I",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1004.2",
+          "zh_TW": "依照路線提示按順序和形狀組裝餅乾禮盒，帶給客人甜蜜妙想吧！",
+          "zh_CN": "依照路线提示按顺序和形状装配曲奇礼盒，给客人带去甜蜜妙想吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1005": {
+      "Id": 1005,
+      "ActivityId": 400001,
+      "DayOpen": 1,
+      "Name": "CookieLevel.1005.1",
+      "PackType": 1,
+      "Difficulty": 5,
+      "PackModel": 2,
+      "FloorId": 1005,
+      "PreLevelId": 1004,
+      "FirstCompletionScore": 100,
+      "PackContent": "CookieLevel.1005.2",
+      "CountDownLimit": 60,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73102,
+      "FirstCompletionReward1Qty": 1000,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1005.1",
+          "zh_TW": "甜蜜妙想 Ⅱ",
+          "zh_CN": "甜蜜妙想 II",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1005.2",
+          "zh_TW": "依照路線提示按順序和形狀組裝餅乾禮盒，帶給客人甜蜜妙想吧！\n可能會出現大禮盒哦！",
+          "zh_CN": "依照路线提示按顺序和形状装配曲奇礼盒，给客人带去甜蜜妙想吧！\n可能会出现大礼盒哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1006": {
+      "Id": 1006,
+      "ActivityId": 400001,
+      "DayOpen": 2,
+      "Name": "CookieLevel.1006.1",
+      "PackType": 1,
+      "Difficulty": 6,
+      "PackModel": 3,
+      "FloorId": 1006,
+      "PreLevelId": 1005,
+      "FirstCompletionScore": 200,
+      "PackContent": "CookieLevel.1006.2",
+      "CountDownLimit": 50,
+      "ReturnCd": 3,
+      "FirstCompletionReward1Tid": 73102,
+      "FirstCompletionReward1Qty": 2000,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1006.1",
+          "zh_TW": "奇思律動 I",
+          "zh_CN": "奇思律动 I",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1006.2",
+          "zh_TW": "奇思律動，按照節拍組裝餅乾禮盒！\n放置時機更準確可獲得更高的評分！",
+          "zh_CN": "奇思律动，按照节拍装配曲奇礼盒！\n更准确的放置时机可以获得更高的评分！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1007": {
+      "Id": 1007,
+      "ActivityId": 400001,
+      "DayOpen": 2,
+      "Name": "CookieLevel.1007.1",
+      "PackType": 1,
+      "Difficulty": 7,
+      "PackModel": 3,
+      "FloorId": 1007,
+      "PreLevelId": 1006,
+      "FirstCompletionScore": 500,
+      "PackContent": "CookieLevel.1007.2",
+      "CountDownLimit": 60,
+      "ReturnCd": 3,
+      "FirstCompletionReward1Tid": 73102,
+      "FirstCompletionReward1Qty": 3000,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1007.1",
+          "zh_TW": "奇思律動 Ⅱ",
+          "zh_CN": "奇思律动 II",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1007.2",
+          "zh_TW": "奇思律動，按照節拍組裝餅乾禮盒！\n節奏更快了，而且會出現大禮盒哦！\n放置時機更準確可獲得更高的評分！",
+          "zh_CN": "奇思律动，按照节拍装配曲奇礼盒！\n节奏更快了，而且会出现大礼盒哦！\n更准确的放置时机可以获得更高的评分！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1008": {
+      "Id": 1008,
+      "ActivityId": 400001,
+      "DayOpen": 3,
+      "Name": "CookieLevel.1008.1",
+      "PackType": 2,
+      "Difficulty": 1,
+      "PackModel": 4,
+      "FloorId": 1008,
+      "PackContent": "CookieLevel.1008.2",
+      "CountDownLimit": 120,
+      "ReturnCd": 3,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1008.1",
+          "zh_TW": "怪奇夢工坊",
+          "zh_CN": "怪奇梦工坊",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1008.2",
+          "zh_TW": "歡迎來到怪奇夢工坊！\n組裝禮盒時，既要按照路線順序，也要跟上越來越快的節拍。\n放置錯誤的話，任務可能會失敗哦！",
+          "zh_CN": "欢迎来到怪奇梦工坊！\n装配礼盒时，既要按照路线顺序，也要跟上越来越快的节拍。\n错误放置的话，可能会任务失败哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1011": {
+      "Id": 1011,
+      "ActivityId": 400004,
+      "Name": "CookieLevel.1011.1",
+      "PackType": 1,
+      "Difficulty": 1,
+      "PackModel": 1,
+      "FloorId": 1011,
+      "FirstCompletionScore": 40,
+      "PackContent": "CookieLevel.1011.2",
+      "CountDownLimit": 30,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73104,
+      "FirstCompletionReward1Qty": 300,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 50,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1011.1",
+          "zh_TW": "基礎配方 I",
+          "zh_CN": "基础配方 I",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1011.2",
+          "zh_TW": "普通口味的餅乾，只需要按照圖樣指示裝進聖誕禮盒裡！",
+          "zh_CN": "常规口味的饼干，只需要按照图样指示装进圣诞礼盒里！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1012": {
+      "Id": 1012,
+      "ActivityId": 400004,
+      "Name": "CookieLevel.1012.1",
+      "PackType": 1,
+      "Difficulty": 2,
+      "PackModel": 1,
+      "FloorId": 1012,
+      "PreLevelId": 1011,
+      "FirstCompletionScore": 60,
+      "PackContent": "CookieLevel.1012.2",
+      "CountDownLimit": 40,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73104,
+      "FirstCompletionReward1Qty": 400,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 50,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1012.1",
+          "zh_TW": "基礎配方 Ⅱ",
+          "zh_CN": "基础配方 II",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1012.2",
+          "zh_TW": "普通口味的餅乾，只需要按照圖樣指示裝進聖誕禮盒裡，就有可能出現大禮盒哦！",
+          "zh_CN": "常规口味的饼干，只需要按照图样指示装进圣诞礼盒里，就有可能出现大礼盒哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1013": {
+      "Id": 1013,
+      "ActivityId": 400004,
+      "Name": "CookieLevel.1013.1",
+      "PackType": 1,
+      "Difficulty": 3,
+      "PackModel": 1,
+      "FloorId": 1013,
+      "PreLevelId": 1012,
+      "FirstCompletionScore": 80,
+      "PackContent": "CookieLevel.1013.2",
+      "CountDownLimit": 50,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73104,
+      "FirstCompletionReward1Qty": 600,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1013.1",
+          "zh_TW": "基礎配方 Ⅲ",
+          "zh_CN": "基础配方 III",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1013.2",
+          "zh_TW": "普通口味的餅乾，只需要按照圖樣指示裝進聖誕禮盒裡，可能會提早出現大禮盒哦！",
+          "zh_CN": "常规口味的饼干，只需要按照图样指示装进圣诞礼盒里，可能会更早出现大礼盒哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1014": {
+      "Id": 1014,
+      "ActivityId": 400004,
+      "DayOpen": 1,
+      "Name": "CookieLevel.1014.1",
+      "PackType": 1,
+      "Difficulty": 4,
+      "PackModel": 2,
+      "FloorId": 1014,
+      "PreLevelId": 1013,
+      "FirstCompletionScore": 80,
+      "PackContent": "CookieLevel.1014.2",
+      "CountDownLimit": 50,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73104,
+      "FirstCompletionReward1Qty": 800,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1014.1",
+          "zh_TW": "風味融合 I",
+          "zh_CN": "风味融合 I",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1014.2",
+          "zh_TW": "不同風味融合的餅乾，根據路線提示按照順序和形狀裝進聖誕禮盒，帶給客人味蕾上的驚喜！",
+          "zh_CN": "不同风味融合的饼干，依照路线提示按顺序和形状装配进圣诞礼盒，去给客人味蕾上的惊喜！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1015": {
+      "Id": 1015,
+      "ActivityId": 400004,
+      "DayOpen": 1,
+      "Name": "CookieLevel.1015.1",
+      "PackType": 1,
+      "Difficulty": 5,
+      "PackModel": 2,
+      "FloorId": 1015,
+      "PreLevelId": 1014,
+      "FirstCompletionScore": 100,
+      "PackContent": "CookieLevel.1015.2",
+      "CountDownLimit": 60,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73104,
+      "FirstCompletionReward1Qty": 1000,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1015.1",
+          "zh_TW": "風味融合 Ⅱ",
+          "zh_CN": "风味融合 II",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1015.2",
+          "zh_TW": "不同風味融合的餅乾，根據路線提示按照順序和形狀裝進聖誕禮盒，帶給客人味蕾上的驚喜！",
+          "zh_CN": "不同风味融合的饼干，依照路线提示按顺序和形状装配进圣诞礼盒，去给客人味蕾上的惊喜！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1016": {
+      "Id": 1016,
+      "ActivityId": 400004,
+      "DayOpen": 2,
+      "Name": "CookieLevel.1016.1",
+      "PackType": 1,
+      "Difficulty": 6,
+      "PackModel": 3,
+      "FloorId": 1016,
+      "PreLevelId": 1015,
+      "FirstCompletionScore": 200,
+      "PackContent": "CookieLevel.1016.2",
+      "CountDownLimit": 50,
+      "ReturnCd": 3,
+      "FirstCompletionReward1Tid": 73104,
+      "FirstCompletionReward1Qty": 2000,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1016.1",
+          "zh_TW": "創意時刻 I",
+          "zh_CN": "创意时刻 I",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1016.2",
+          "zh_TW": "靈光一現的創意，這些餅乾會是什麼口味呢？\n請按照節拍裝進聖誕禮盒！更準確的放置時機可以獲得更高的評分！",
+          "zh_CN": "灵光一闪的创意，这些饼干会是什么口味呢？\n请按照节拍装配圣诞礼盒！更准确的放置时机可以获得更高的评分！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1017": {
+      "Id": 1017,
+      "ActivityId": 400004,
+      "DayOpen": 2,
+      "Name": "CookieLevel.1017.1",
+      "PackType": 1,
+      "Difficulty": 7,
+      "PackModel": 3,
+      "FloorId": 1017,
+      "PreLevelId": 1016,
+      "FirstCompletionScore": 500,
+      "PackContent": "CookieLevel.1017.2",
+      "CountDownLimit": 60,
+      "ReturnCd": 3,
+      "FirstCompletionReward1Tid": 73104,
+      "FirstCompletionReward1Qty": 3000,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1017.1",
+          "zh_TW": "創意時刻 Ⅱ",
+          "zh_CN": "创意时刻 II",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1017.2",
+          "zh_TW": "靈光一現的創意，這些餅乾會是什麼口味呢？\n請按照節拍裝進聖誕禮盒！更準確的放置時機可以獲得更高的評分！",
+          "zh_CN": "灵光一闪的创意，这些饼干会是什么口味呢？\n请按照节拍装配圣诞礼盒！更准确的放置时机可以获得更高的评分！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1018": {
+      "Id": 1018,
+      "ActivityId": 400004,
+      "DayOpen": 3,
+      "Name": "CookieLevel.1018.1",
+      "PackType": 2,
+      "Difficulty": 1,
+      "PackModel": 4,
+      "FloorId": 1018,
+      "PackContent": "CookieLevel.1018.2",
+      "CountDownLimit": 150,
+      "ReturnCd": 3,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1018.1",
+          "zh_TW": "祕密配方",
+          "zh_CN": "秘密配方",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1018.2",
+          "zh_TW": "神祕配方做出來的神祕餅乾，也需要特殊的包裝~\n組裝禮盒時，既要按照路線順序，也要跟上越來越快的節拍。\n放置錯誤的話，任務可能會失敗哦！",
+          "zh_CN": "神秘配方做出来的神秘饼干，也需要特殊的包装~\n装配礼盒时，既要按照路线顺序，也要跟上越来越快的节拍。\n错误放置的话，可能会任务失败哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1021": {
+      "Id": 1021,
+      "ActivityId": 400006,
+      "Name": "CookieLevel.1021.1",
+      "PackType": 1,
+      "Difficulty": 1,
+      "PackModel": 1,
+      "FloorId": 1021,
+      "FirstCompletionScore": 40,
+      "PackContent": "CookieLevel.1021.2",
+      "CountDownLimit": 30,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73106,
+      "FirstCompletionReward1Qty": 300,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 50,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1021.1",
+          "zh_TW": "團團圓圓Ⅰ",
+          "zh_CN": "团团圆圆Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1021.2",
+          "zh_TW": "按照圖案指示組裝餅乾禮盒，新的一年也要團團圓圓！",
+          "zh_CN": "按照图样指示装配曲奇礼盒，新的一年也要团团圆圆！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1022": {
+      "Id": 1022,
+      "ActivityId": 400006,
+      "Name": "CookieLevel.1022.1",
+      "PackType": 1,
+      "Difficulty": 2,
+      "PackModel": 1,
+      "FloorId": 1022,
+      "PreLevelId": 1021,
+      "FirstCompletionScore": 60,
+      "PackContent": "CookieLevel.1022.2",
+      "CountDownLimit": 40,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73106,
+      "FirstCompletionReward1Qty": 400,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 50,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1022.1",
+          "zh_TW": "團團圓圓Ⅱ",
+          "zh_CN": "团团圆圆Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1022.2",
+          "zh_TW": "按照圖案指示組裝餅乾禮盒，新的一年也要團團圓圓！\n可能會出現大禮盒哦！",
+          "zh_CN": "按照图样指示装配曲奇礼盒，新的一年也要团团圆圆！\n可能会出现大礼盒哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1023": {
+      "Id": 1023,
+      "ActivityId": 400006,
+      "Name": "CookieLevel.1023.1",
+      "PackType": 1,
+      "Difficulty": 3,
+      "PackModel": 1,
+      "FloorId": 1023,
+      "PreLevelId": 1022,
+      "FirstCompletionScore": 80,
+      "PackContent": "CookieLevel.1023.2",
+      "CountDownLimit": 50,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73106,
+      "FirstCompletionReward1Qty": 600,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1023.1",
+          "zh_TW": "團團圓圓Ⅲ",
+          "zh_CN": "团团圆圆Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1023.2",
+          "zh_TW": "按照圖案指示組裝餅乾禮盒，新的一年也要團團圓圓！\n可能會更早出現大禮盒哦！",
+          "zh_CN": "按照图样指示装配曲奇礼盒，新的一年也要团团圆圆！\n可能会更早出现大礼盒哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1024": {
+      "Id": 1024,
+      "ActivityId": 400006,
+      "DayOpen": 1,
+      "Name": "CookieLevel.1024.1",
+      "PackType": 1,
+      "Difficulty": 4,
+      "PackModel": 2,
+      "FloorId": 1024,
+      "PreLevelId": 1023,
+      "FirstCompletionScore": 80,
+      "PackContent": "CookieLevel.1024.2",
+      "CountDownLimit": 50,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73106,
+      "FirstCompletionReward1Qty": 800,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1024.1",
+          "zh_TW": "順順利利Ⅰ",
+          "zh_CN": "顺顺利利Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1024.2",
+          "zh_TW": "依照路線提示按順序和形狀組裝餅乾禮盒，新的一年也要順順利利！",
+          "zh_CN": "依照路线提示按顺序和形状装配曲奇礼盒，新的一年也要顺顺利利！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1025": {
+      "Id": 1025,
+      "ActivityId": 400006,
+      "DayOpen": 1,
+      "Name": "CookieLevel.1025.1",
+      "PackType": 1,
+      "Difficulty": 5,
+      "PackModel": 2,
+      "FloorId": 1025,
+      "PreLevelId": 1024,
+      "FirstCompletionScore": 100,
+      "PackContent": "CookieLevel.1025.2",
+      "CountDownLimit": 60,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73106,
+      "FirstCompletionReward1Qty": 1000,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1025.1",
+          "zh_TW": "順順利利Ⅱ",
+          "zh_CN": "顺顺利利Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1025.2",
+          "zh_TW": "依照路線提示按順序和形狀組裝餅乾禮盒，新的一年也要順順利利！\n可能會出現大禮盒哦！",
+          "zh_CN": "依照路线提示按顺序和形状装配曲奇礼盒，新的一年也要顺顺利利！\n可能会出现大礼盒哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1026": {
+      "Id": 1026,
+      "ActivityId": 400006,
+      "DayOpen": 2,
+      "Name": "CookieLevel.1026.1",
+      "PackType": 1,
+      "Difficulty": 6,
+      "PackModel": 3,
+      "FloorId": 1026,
+      "PreLevelId": 1025,
+      "FirstCompletionScore": 200,
+      "PackContent": "CookieLevel.1026.2",
+      "CountDownLimit": 50,
+      "ReturnCd": 3,
+      "FirstCompletionReward1Tid": 73106,
+      "FirstCompletionReward1Qty": 2000,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1026.1",
+          "zh_TW": "節節高昇Ⅰ",
+          "zh_CN": "节节高升Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1026.2",
+          "zh_TW": "按照節拍組裝餅乾禮盒！新的一年也要節節高昇！\n放置時機更準確可獲得更高的評分！",
+          "zh_CN": "按照节拍装配曲奇礼盒！新的一年也要节节高升！\n更准确的放置时机可以获得更高的评分！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1027": {
+      "Id": 1027,
+      "ActivityId": 400006,
+      "DayOpen": 2,
+      "Name": "CookieLevel.1027.1",
+      "PackType": 1,
+      "Difficulty": 7,
+      "PackModel": 3,
+      "FloorId": 1027,
+      "PreLevelId": 1026,
+      "FirstCompletionScore": 500,
+      "PackContent": "CookieLevel.1027.2",
+      "CountDownLimit": 60,
+      "ReturnCd": 3,
+      "FirstCompletionReward1Tid": 73106,
+      "FirstCompletionReward1Qty": 3000,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1027.1",
+          "zh_TW": "節節高昇Ⅱ",
+          "zh_CN": "节节高升Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1027.2",
+          "zh_TW": "按照節拍組裝餅乾禮盒！新的一年也要節節高昇！\n節奏更快了，而且會出現大禮盒哦！\n放置時機更準確可獲得更高的評分！",
+          "zh_CN": "按照节拍装配曲奇礼盒！新的一年也要节节高升！\n节奏更快了，而且会出现大礼盒哦！\n更准确的放置时机可以获得更高的评分！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1028": {
+      "Id": 1028,
+      "ActivityId": 400006,
+      "DayOpen": 3,
+      "Name": "CookieLevel.1028.1",
+      "PackType": 2,
+      "Difficulty": 1,
+      "PackModel": 4,
+      "FloorId": 1028,
+      "PackContent": "CookieLevel.1028.2",
+      "CountDownLimit": 150,
+      "ReturnCd": 3,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1028.1",
+          "zh_TW": "龍騰虎躍",
+          "zh_CN": "龙腾虎跃",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1028.2",
+          "zh_TW": "龍騰虎躍，新年正在熱鬧時！\n組裝禮盒時，既要按照路線順序，也要跟上越來越快的節拍。\n放置錯誤的話，任務可能會失敗哦！",
+          "zh_CN": "龙腾虎跃，新年正在热闹时！\n装配礼盒时，既要按照路线顺序，也要跟上越来越快的节拍。\n错误放置的话，可能会任务失败哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1031": {
+      "Id": 1031,
+      "ActivityId": 400010,
+      "Name": "CookieLevel.1031.1",
+      "PackType": 1,
+      "Difficulty": 1,
+      "PackModel": 1,
+      "FloorId": 1021,
+      "FirstCompletionScore": 40,
+      "PackContent": "CookieLevel.1031.2",
+      "CountDownLimit": 30,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73111,
+      "FirstCompletionReward1Qty": 300,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 50,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1031.1",
+          "zh_TW": "基礎圖紙Ⅰ",
+          "zh_CN": "基础图纸Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1031.2",
+          "zh_TW": "按照圖案指示組裝禮盒，按部就班完成工作！",
+          "zh_CN": "按照图样指示装配礼盒，按部就班完成工作！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1032": {
+      "Id": 1032,
+      "ActivityId": 400010,
+      "Name": "CookieLevel.1032.1",
+      "PackType": 1,
+      "Difficulty": 2,
+      "PackModel": 1,
+      "FloorId": 1022,
+      "PreLevelId": 1031,
+      "FirstCompletionScore": 60,
+      "PackContent": "CookieLevel.1032.2",
+      "CountDownLimit": 40,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73111,
+      "FirstCompletionReward1Qty": 400,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 50,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1032.1",
+          "zh_TW": "基礎圖紙Ⅱ",
+          "zh_CN": "基础图纸Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1032.2",
+          "zh_TW": "按照圖案指示組裝禮盒，按部就班完成工作！可能會出現大禮盒哦！",
+          "zh_CN": "按照图样指示装配礼盒，按部就班完成工作！可能会出现大礼盒哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1033": {
+      "Id": 1033,
+      "ActivityId": 400010,
+      "Name": "CookieLevel.1033.1",
+      "PackType": 1,
+      "Difficulty": 3,
+      "PackModel": 1,
+      "FloorId": 1023,
+      "PreLevelId": 1032,
+      "FirstCompletionScore": 60,
+      "PackContent": "CookieLevel.1033.2",
+      "CountDownLimit": 40,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73111,
+      "FirstCompletionReward1Qty": 600,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1033.1",
+          "zh_TW": "基礎圖紙Ⅲ",
+          "zh_CN": "基础图纸Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1033.2",
+          "zh_TW": "按照圖案指示組裝禮盒，按部就班完成工作！可能會更早出現大禮盒哦！",
+          "zh_CN": "按照图样指示装配礼盒，按部就班完成工作！可能会更早出现大礼盒哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1034": {
+      "Id": 1034,
+      "ActivityId": 400010,
+      "DayOpen": 1,
+      "Name": "CookieLevel.1034.1",
+      "PackType": 1,
+      "Difficulty": 4,
+      "PackModel": 2,
+      "FloorId": 1024,
+      "PreLevelId": 1033,
+      "FirstCompletionScore": 60,
+      "PackContent": "CookieLevel.1034.2",
+      "CountDownLimit": 40,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73111,
+      "FirstCompletionReward1Qty": 800,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1034.1",
+          "zh_TW": "精密藍圖Ⅰ",
+          "zh_CN": "精密蓝图Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1034.2",
+          "zh_TW": "依照路線提示按順序和形狀組裝禮盒，帶給客人甜蜜妙想吧！",
+          "zh_CN": "依照路线提示按顺序和形状装配礼盒，给客人带去甜蜜妙想吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1035": {
+      "Id": 1035,
+      "ActivityId": 400010,
+      "DayOpen": 1,
+      "Name": "CookieLevel.1035.1",
+      "PackType": 1,
+      "Difficulty": 5,
+      "PackModel": 2,
+      "FloorId": 1025,
+      "PreLevelId": 1034,
+      "FirstCompletionScore": 80,
+      "PackContent": "CookieLevel.1035.2",
+      "CountDownLimit": 50,
+      "ReturnCd": 1,
+      "FirstCompletionReward1Tid": 73111,
+      "FirstCompletionReward1Qty": 1000,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1035.1",
+          "zh_TW": "精密藍圖Ⅱ",
+          "zh_CN": "精密蓝图Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1035.2",
+          "zh_TW": "依照路線提示按順序和形狀組裝禮盒，帶給客人甜蜜妙想吧！可能會出現大禮盒哦！",
+          "zh_CN": "依照路线提示按顺序和形状装配礼盒，给客人带去甜蜜妙想吧！可能会出现大礼盒哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1036": {
+      "Id": 1036,
+      "ActivityId": 400010,
+      "DayOpen": 2,
+      "Name": "CookieLevel.1036.1",
+      "PackType": 1,
+      "Difficulty": 6,
+      "PackModel": 3,
+      "FloorId": 1026,
+      "PreLevelId": 1035,
+      "FirstCompletionScore": 200,
+      "PackContent": "CookieLevel.1036.2",
+      "CountDownLimit": 50,
+      "ReturnCd": 3,
+      "FirstCompletionReward1Tid": 73111,
+      "FirstCompletionReward1Qty": 2000,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1036.1",
+          "zh_TW": "天才創意Ⅰ",
+          "zh_CN": "天才创想Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1036.2",
+          "zh_TW": "奇思律動，按照節拍組裝禮盒！放置時機更準確可獲得更高的評分！",
+          "zh_CN": "奇思律动，按照节拍装配礼盒！更准确的放置时机可以获得更高的评分！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1037": {
+      "Id": 1037,
+      "ActivityId": 400010,
+      "DayOpen": 2,
+      "Name": "CookieLevel.1037.1",
+      "PackType": 1,
+      "Difficulty": 7,
+      "PackModel": 3,
+      "FloorId": 1027,
+      "PreLevelId": 1036,
+      "FirstCompletionScore": 500,
+      "PackContent": "CookieLevel.1037.2",
+      "CountDownLimit": 60,
+      "ReturnCd": 3,
+      "FirstCompletionReward1Tid": 73111,
+      "FirstCompletionReward1Qty": 3000,
+      "FirstCompletionReward2Tid": 2,
+      "FirstCompletionReward2Qty": 100,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1037.1",
+          "zh_TW": "天才創意Ⅱ",
+          "zh_CN": "天才创想Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1037.2",
+          "zh_TW": "奇思律動，按照節拍組裝禮盒！節奏更快了，而且會出現大禮盒哦！放置時機更準確可獲得更高的評分！",
+          "zh_CN": "奇思律动，按照节拍装配礼盒！节奏更快了，而且会出现大礼盒哦！更准确的放置时机可以获得更高的评分！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    },
+    "1038": {
+      "Id": 1038,
+      "ActivityId": 400010,
+      "DayOpen": 3,
+      "Name": "CookieLevel.1038.1",
+      "PackType": 2,
+      "Difficulty": 1,
+      "PackModel": 4,
+      "FloorId": 1028,
+      "PackContent": "CookieLevel.1038.2",
+      "CountDownLimit": 150,
+      "ReturnCd": 3,
+      "_localized": {
+        "/Name": {
+          "key": "CookieLevel.1038.1",
+          "zh_TW": "腦洞暴走",
+          "zh_CN": "脑洞暴走",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        },
+        "/PackContent": {
+          "key": "CookieLevel.1038.2",
+          "zh_TW": "歡迎來到暴走夢工坊！組裝禮盒時，既要按照路線順序，也要跟上越來越快的節拍。放置錯誤的話，任務可能會失敗哦！",
+          "zh_CN": "欢迎来到暴走梦工坊！装配礼盒时，既要按照路线顺序，也要跟上越来越快的节拍。错误放置的话，可能会任务失败哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CookieLevel.json",
+            "zh_CN": "language/zh_CN/CookieLevel.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "table": "StarTowerSpMode",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c4d1364a3c5fbc3c.bin",
+  "source_sha256": "364ef411f2a8f9b119338448a047de95fecdf873ab425d3908458a4b4e32aae4",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\StarTowerSpMode.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 4
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "reference_field_order": [
+      "Id",
+      "LimitTimeWeight",
+      "LimitKilledWeight",
+      "GoblinWeight",
+      "ContinuousKillingWeight"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 5,
+    "remaining_name_count": 5,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "LimitTimeWeight",
+        "matching_reference_rows": 2,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "LimitKilledWeight",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "GoblinWeight",
+        "matching_reference_rows": 3,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "ContinuousKillingWeight",
+        "matching_reference_rows": 2,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "2": {
+      "field": "LimitTimeWeight",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 2
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 2
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "3": {
+      "field": "LimitKilledWeight",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 4
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 4
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "4": {
+      "field": "GoblinWeight",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 3,
+      "compared_reference_rows": 3,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 3,
+          "compared": 3
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 3
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 3
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3
+        }
+      ]
+    },
+    "5": {
+      "field": "ContinuousKillingWeight",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 2
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 2
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 4,
+    "reference_row_count": 4,
+    "shared_key_count": 4,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 4,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

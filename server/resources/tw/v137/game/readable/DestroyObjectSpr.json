@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "DestroyObjectSpr",
+    "categories": [
+      "other"
+    ],
+    "row_count": 4,
+    "localization_hits": 0,
+    "source": "bin/DestroyObjectSpr.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "8210101": {
+      "Id": 8210101,
+      "score": 20
+    },
+    "8210102": {
+      "Id": 8210102,
+      "score": 30
+    },
+    "8210112": {
+      "Id": 8210112,
+      "score": 40
+    },
+    "8210113": {
+      "Id": 8210113,
+      "score": 60
+    }
+  }
+}

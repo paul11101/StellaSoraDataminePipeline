@@ -1,0 +1,1533 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SoldierStarterCard",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 39,
+    "localization_hits": 117,
+    "source": "bin/SoldierStarterCard.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1010101": {
+      "Id": 1010101,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_01",
+      "Name": "SoldierStarterCard.1010101.1",
+      "CardEffectId": 1010101,
+      "Des": "SoldierStarterCard.1010101.2",
+      "Desc": "SoldierStarterCard.1010101.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010101.1",
+          "zh_TW": "空白旅團",
+          "zh_CN": "空白旅团",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010101.2",
+          "zh_TW": "空白旅團棋子出現機率提升，空白旅團棋子首次合成到2星時隨機獲得1個空白旅團棋子",
+          "zh_CN": "空白旅团棋子出现概率提升，空白旅团棋子首次合成到2星时随机获得1个空白旅团棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010101.3",
+          "zh_TW": "空白旅團棋子出現機率提升，空白旅團棋子首次合成到2星時隨機獲得1個空白旅團棋子",
+          "zh_CN": "空白旅团棋子出现概率提升，空白旅团棋子首次合成到2星时随机获得1个空白旅团棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010102": {
+      "Id": 1010102,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_02",
+      "Name": "SoldierStarterCard.1010102.1",
+      "CardEffectId": 1010102,
+      "Des": "SoldierStarterCard.1010102.2",
+      "Desc": "SoldierStarterCard.1010102.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010102.1",
+          "zh_TW": "萬送屋",
+          "zh_CN": "万送屋",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010102.2",
+          "zh_TW": "萬送屋棋子出現機率提升，萬送屋棋子首次合成到2星時隨機獲得1個萬送屋棋子",
+          "zh_CN": "万送屋棋子出现概率提升，万送屋棋子首次合成到2星时随机获得1个万送屋棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010102.3",
+          "zh_TW": "萬送屋棋子出現機率提升，萬送屋棋子首次合成到2星時隨機獲得1個萬送屋棋子",
+          "zh_CN": "万送屋棋子出现概率提升，万送屋棋子首次合成到2星时随机获得1个万送屋棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010103": {
+      "Id": 1010103,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_03",
+      "Name": "SoldierStarterCard.1010103.1",
+      "CardEffectId": 1010103,
+      "Des": "SoldierStarterCard.1010103.2",
+      "Desc": "SoldierStarterCard.1010103.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010103.1",
+          "zh_TW": "花令旅團",
+          "zh_CN": "花令旅团",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010103.2",
+          "zh_TW": "花令旅團棋子出現機率提升，花令旅團棋子首次合成到2星時隨機獲得1個花令旅團棋子",
+          "zh_CN": "花令旅团棋子出现概率提升，花令旅团棋子首次合成到2星时随机获得1个花令旅团棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010103.3",
+          "zh_TW": "花令旅團棋子出現機率提升，花令旅團棋子首次合成到2星時隨機獲得1個花令旅團棋子",
+          "zh_CN": "花令旅团棋子出现概率提升，花令旅团棋子首次合成到2星时随机获得1个花令旅团棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010104": {
+      "Id": 1010104,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_04",
+      "Name": "SoldierStarterCard.1010104.1",
+      "CardEffectId": 1010104,
+      "Des": "SoldierStarterCard.1010104.2",
+      "Desc": "SoldierStarterCard.1010104.3",
+      "CharacterShow": [
+        2501016
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010104.1",
+          "zh_TW": "恩賜意志",
+          "zh_CN": "恩赐意志",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010104.2",
+          "zh_TW": "恩賜意志棋子出現機率提升，開局額外獲得菈露",
+          "zh_CN": "恩赐意志棋子出现概率提升，开局额外获得菈露",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010104.3",
+          "zh_TW": "恩賜意志棋子出現機率提升，開局額外獲得菈露",
+          "zh_CN": "恩赐意志棋子出现概率提升，开局额外获得菈露",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010105": {
+      "Id": 1010105,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_05",
+      "Name": "SoldierStarterCard.1010105.1",
+      "CardEffectId": 1010105,
+      "Des": "SoldierStarterCard.1010105.2",
+      "Desc": "SoldierStarterCard.1010105.3",
+      "CharacterShow": [
+        2501038
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010105.1",
+          "zh_TW": "齒輪轉轉",
+          "zh_CN": "齿轮转转",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010105.2",
+          "zh_TW": "齒輪轉轉棋子出現機率提升，開局額外獲得毛毛號貓機長",
+          "zh_CN": "齿轮转转棋子出现概率提升，开局额外获得毛毛号猫机长",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010105.3",
+          "zh_TW": "齒輪轉轉棋子出現機率提升，開局額外獲得毛毛號貓機長",
+          "zh_CN": "齿轮转转棋子出现概率提升，开局额外获得毛毛号猫机长",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010106": {
+      "Id": 1010106,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_06",
+      "Name": "SoldierStarterCard.1010106.1",
+      "CardEffectId": 1010106,
+      "Des": "SoldierStarterCard.1010106.2",
+      "Desc": "SoldierStarterCard.1010106.3",
+      "CharacterShow": [
+        2501023
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010106.1",
+          "zh_TW": "帝國衛隊",
+          "zh_CN": "帝国卫队",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010106.2",
+          "zh_TW": "帝國衛隊棋子出現機率提升，開局額外獲得衛隊分團長",
+          "zh_CN": "帝国卫队棋子出现概率提升，开局额外获得卫队分团长",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010106.3",
+          "zh_TW": "帝國衛隊棋子出現機率提升，開局額外獲得衛隊分團長",
+          "zh_CN": "帝国卫队棋子出现概率提升，开局额外获得卫队分团长",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010107": {
+      "Id": 1010107,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_08",
+      "Name": "SoldierStarterCard.1010107.1",
+      "CardEffectId": 1010107,
+      "Des": "SoldierStarterCard.1010107.2",
+      "Desc": "SoldierStarterCard.1010107.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010107.1",
+          "zh_TW": "自由旅人",
+          "zh_CN": "自由旅人",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010107.2",
+          "zh_TW": "自由旅人棋子出現機率提升，自由旅人棋子首次合成到2星時隨機獲得1個自由旅人棋子",
+          "zh_CN": "自由旅人棋子出现概率提升，自由旅人棋子首次合成到2星时随机获得1个自由旅人棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010107.3",
+          "zh_TW": "自由旅人棋子出現機率提升，自由旅人棋子首次合成到2星時隨機獲得1個自由旅人棋子",
+          "zh_CN": "自由旅人棋子出现概率提升，自由旅人棋子首次合成到2星时随机获得1个自由旅人棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010108": {
+      "Id": 1010108,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_09",
+      "Name": "SoldierStarterCard.1010108.1",
+      "CardEffectId": 1010108,
+      "Des": "SoldierStarterCard.1010108.2",
+      "Desc": "SoldierStarterCard.1010108.3",
+      "CharacterShow": [
+        2501027
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010108.1",
+          "zh_TW": "灰風俱樂部",
+          "zh_CN": "灰风俱乐部",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010108.2",
+          "zh_TW": "灰風俱樂部棋子出現機率提升，開局額外獲得滿月",
+          "zh_CN": "灰风俱乐部棋子出现概率提升，开局额外获得满月",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010108.3",
+          "zh_TW": "灰風俱樂部棋子出現機率提升，開局額外獲得滿月",
+          "zh_CN": "灰风俱乐部棋子出现概率提升，开局额外获得满月",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010109": {
+      "Id": 1010109,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_10",
+      "Name": "SoldierStarterCard.1010109.1",
+      "CardEffectId": 1010109,
+      "Des": "SoldierStarterCard.1010109.2",
+      "Desc": "SoldierStarterCard.1010109.3",
+      "CharacterShow": [
+        2501026
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010109.1",
+          "zh_TW": "聯合種業",
+          "zh_CN": "联合种业",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010109.2",
+          "zh_TW": "聯合種業棋子出現機率提升，開局額外獲得資深種業員工",
+          "zh_CN": "联合种业棋子出现概率提升，开局额外获得资深种业员工",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010109.3",
+          "zh_TW": "聯合種業棋子出現機率提升，開局額外獲得資深種業員工",
+          "zh_CN": "联合种业棋子出现概率提升，开局额外获得资深种业员工",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010110": {
+      "Id": 1010110,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_11",
+      "Name": "SoldierStarterCard.1010110.1",
+      "CardEffectId": 1010110,
+      "Des": "SoldierStarterCard.1010110.2",
+      "Desc": "SoldierStarterCard.1010110.3",
+      "CharacterShow": [
+        2501037
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010110.1",
+          "zh_TW": "森林朋友",
+          "zh_CN": "森林朋友",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010110.2",
+          "zh_TW": "森林朋友棋子出現機率提升，開局額外獲得火狼",
+          "zh_CN": "森林朋友棋子出现概率提升，开局额外获得火狼",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010110.3",
+          "zh_TW": "森林朋友棋子出現機率提升，開局額外獲得火狼",
+          "zh_CN": "森林朋友棋子出现概率提升，开局额外获得火狼",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010111": {
+      "Id": 1010111,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_13",
+      "Name": "SoldierStarterCard.1010111.1",
+      "CardEffectId": 1010111,
+      "Des": "SoldierStarterCard.1010111.2",
+      "Desc": "SoldierStarterCard.1010111.3",
+      "CharacterShow": [
+        2501033
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010111.1",
+          "zh_TW": "生存達人",
+          "zh_CN": "生存达人",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010111.2",
+          "zh_TW": "生存達人棋子出現機率提升，開局額外獲得猛進之靈",
+          "zh_CN": "生存达人棋子出现概率提升，开局额外获得猛进之灵",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010111.3",
+          "zh_TW": "生存達人棋子出現機率提升，開局額外獲得猛進之靈",
+          "zh_CN": "生存达人棋子出现概率提升，开局额外获得猛进之灵",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010112": {
+      "Id": 1010112,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_14",
+      "Name": "SoldierStarterCard.1010112.1",
+      "CardEffectId": 1010112,
+      "Des": "SoldierStarterCard.1010112.2",
+      "Desc": "SoldierStarterCard.1010112.3",
+      "CharacterShow": [
+        2501016
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010112.1",
+          "zh_TW": "沐浴恩典",
+          "zh_CN": "沐浴恩典",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010112.2",
+          "zh_TW": "沐浴恩典棋子出現機率提升，開局額外獲得菈露",
+          "zh_CN": "沐浴恩典棋子出现概率提升，开局额外获得菈露",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010112.3",
+          "zh_TW": "沐浴恩典棋子出現機率提升，開局額外獲得菈露",
+          "zh_CN": "沐浴恩典棋子出现概率提升，开局额外获得菈露",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010113": {
+      "Id": 1010113,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_15",
+      "Name": "SoldierStarterCard.1010113.1",
+      "CardEffectId": 1010113,
+      "Des": "SoldierStarterCard.1010113.2",
+      "Desc": "SoldierStarterCard.1010113.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010113.1",
+          "zh_TW": "百步穿楊",
+          "zh_CN": "百步穿杨",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010113.2",
+          "zh_TW": "百步穿楊棋子出現機率提升，百步穿楊棋子首次合成到2星時隨機獲得1個百步穿楊棋子",
+          "zh_CN": "百步穿杨棋子出现概率提升，百步穿杨棋子首次合成到2星时随机获得1个百步穿杨棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010113.3",
+          "zh_TW": "百步穿楊棋子出現機率提升，百步穿楊棋子首次合成到2星時隨機獲得1個百步穿楊棋子",
+          "zh_CN": "百步穿杨棋子出现概率提升，百步穿杨棋子首次合成到2星时随机获得1个百步穿杨棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010114": {
+      "Id": 1010114,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_16",
+      "Name": "SoldierStarterCard.1010114.1",
+      "CardEffectId": 1010114,
+      "Des": "SoldierStarterCard.1010114.2",
+      "Desc": "SoldierStarterCard.1010114.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010114.1",
+          "zh_TW": "巔峰戰士",
+          "zh_CN": "巅峰战士",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010114.2",
+          "zh_TW": "巔峰戰士棋子出現機率提升，巔峰戰士棋子首次合成到2星時隨機獲得1個巔峰戰士棋子",
+          "zh_CN": "巅峰战士棋子出现概率提升，巅峰战士棋子首次合成到2星时随机获得1个巅峰战士棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010114.3",
+          "zh_TW": "巔峰戰士棋子出現機率提升，巔峰戰士棋子首次合成到2星時隨機獲得1個巔峰戰士棋子",
+          "zh_CN": "巅峰战士棋子出现概率提升，巅峰战士棋子首次合成到2星时随机获得1个巅峰战士棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010115": {
+      "Id": 1010115,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_17",
+      "Name": "SoldierStarterCard.1010115.1",
+      "CardEffectId": 1010115,
+      "Des": "SoldierStarterCard.1010115.2",
+      "Desc": "SoldierStarterCard.1010115.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010115.1",
+          "zh_TW": "魅力滿溢",
+          "zh_CN": "魅力满溢",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010115.2",
+          "zh_TW": "魅力滿溢棋子出現機率提升，魅力滿溢棋子首次合成到2星時隨機獲得1個魅力滿溢棋子",
+          "zh_CN": "魅力满溢棋子出现概率提升，魅力满溢棋子首次合成到2星时随机获得1个魅力满溢棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010115.3",
+          "zh_TW": "魅力滿溢棋子出現機率提升，魅力滿溢棋子首次合成到2星時隨機獲得1個魅力滿溢棋子",
+          "zh_CN": "魅力满溢棋子出现概率提升，魅力满溢棋子首次合成到2星时随机获得1个魅力满溢棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010116": {
+      "Id": 1010116,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_18",
+      "Name": "SoldierStarterCard.1010116.1",
+      "CardEffectId": 1010116,
+      "Des": "SoldierStarterCard.1010116.2",
+      "Desc": "SoldierStarterCard.1010116.3",
+      "CharacterShow": [
+        2501032
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010116.1",
+          "zh_TW": "人多勢眾",
+          "zh_CN": "人多势众",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010116.2",
+          "zh_TW": "人多勢眾棋子出現機率提升，開局額外獲得樹樹鼠堡壘",
+          "zh_CN": "人多势众棋子出现概率提升，开局额外获得树树鼠堡垒",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010116.3",
+          "zh_TW": "人多勢眾棋子出現機率提升，開局額外獲得樹樹鼠堡壘",
+          "zh_CN": "人多势众棋子出现概率提升，开局额外获得树树鼠堡垒",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010117": {
+      "Id": 1010117,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Partner_01_19",
+      "Name": "SoldierStarterCard.1010117.1",
+      "CardEffectId": 1010117,
+      "Des": "SoldierStarterCard.1010117.2",
+      "Desc": "SoldierStarterCard.1010117.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010117.1",
+          "zh_TW": "摸魚高手",
+          "zh_CN": "摸鱼高手",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010117.2",
+          "zh_TW": "摸魚高手棋子出現機率提升，摸魚高手棋子首次合成到2星時隨機獲得1個摸魚高手棋子",
+          "zh_CN": "摸鱼高手棋子出现概率提升，摸鱼高手棋子首次合成到2星时随机获得1个摸鱼高手棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010117.3",
+          "zh_TW": "摸魚高手棋子出現機率提升，摸魚高手棋子首次合成到2星時隨機獲得1個摸魚高手棋子",
+          "zh_CN": "摸鱼高手棋子出现概率提升，摸鱼高手棋子首次合成到2星时随机获得1个摸鱼高手棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010118": {
+      "Id": 1010118,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Coin_01",
+      "Name": "SoldierStarterCard.1010118.1",
+      "CardEffectId": 1010118,
+      "Des": "SoldierStarterCard.1010118.2",
+      "Desc": "SoldierStarterCard.1010118.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010118.1",
+          "zh_TW": "啟動資金",
+          "zh_CN": "启动资金",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010118.2",
+          "zh_TW": "開局獲得8賢才金幣",
+          "zh_CN": "开局获得8贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010118.3",
+          "zh_TW": "開局獲得8賢才金幣",
+          "zh_CN": "开局获得8贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010119": {
+      "Id": 1010119,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Hp_01",
+      "Name": "SoldierStarterCard.1010119.1",
+      "CardEffectId": 1010119,
+      "Des": "SoldierStarterCard.1010119.2",
+      "Desc": "SoldierStarterCard.1010119.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010119.1",
+          "zh_TW": "情緒穩定",
+          "zh_CN": "情绪稳定",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010119.2",
+          "zh_TW": "開局理智值增加20",
+          "zh_CN": "开局理智值增加20",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010119.3",
+          "zh_TW": "開局理智值增加20",
+          "zh_CN": "开局理智值增加20",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010120": {
+      "Id": 1010120,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Chess_04",
+      "Name": "SoldierStarterCard.1010120.1",
+      "CardEffectId": 1010120,
+      "Des": "SoldierStarterCard.1010120.2",
+      "Desc": "SoldierStarterCard.1010120.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010120.1",
+          "zh_TW": "初創團隊",
+          "zh_CN": "初创团队",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010120.2",
+          "zh_TW": "開局額外獲得1費、2費棋子各1個",
+          "zh_CN": "开局额外获得1费、2费棋子各1个",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010120.3",
+          "zh_TW": "開局額外獲得1費、2費棋子各1個",
+          "zh_CN": "开局额外获得1费、2费棋子各1个",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010121": {
+      "Id": 1010121,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Shop_02",
+      "Name": "SoldierStarterCard.1010121.1",
+      "CardEffectId": 1010121,
+      "Des": "SoldierStarterCard.1010121.2",
+      "Desc": "SoldierStarterCard.1010121.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010121.1",
+          "zh_TW": "長期訂單",
+          "zh_CN": "长期订单",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010121.2",
+          "zh_TW": "商店累計刷新滿15次後，刷新費用永久-1",
+          "zh_CN": "商店累计刷新满15次后，刷新费用永久-1",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010121.3",
+          "zh_TW": "商店累計刷新滿15次後，刷新費用永久-1",
+          "zh_CN": "商店累计刷新满15次后，刷新费用永久-1",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010122": {
+      "Id": 1010122,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Exp_02",
+      "Name": "SoldierStarterCard.1010122.1",
+      "CardEffectId": 1010122,
+      "Des": "SoldierStarterCard.1010122.2",
+      "Desc": "SoldierStarterCard.1010122.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010122.1",
+          "zh_TW": "學費已繳",
+          "zh_CN": "学费已缴",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010122.2",
+          "zh_TW": "累計消耗30賢才金幣，購買經驗的費用永久-1",
+          "zh_CN": "累计消耗30个贤才金币，购买经验的费用永久-1",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010122.3",
+          "zh_TW": "累計消耗30賢才金幣，購買經驗的費用永久-1",
+          "zh_CN": "累计消耗30个贤才金币，购买经验的费用永久-1",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010123": {
+      "Id": 1010123,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Exp_01",
+      "Name": "SoldierStarterCard.1010123.1",
+      "CardEffectId": 1010123,
+      "Des": "SoldierStarterCard.1010123.2",
+      "Desc": "SoldierStarterCard.1010123.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010123.1",
+          "zh_TW": "買賣經驗",
+          "zh_CN": "买卖经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010123.2",
+          "zh_TW": "刷新30次後，每次刷新商店時，獲得2點商店經驗",
+          "zh_CN": "刷新30次后，每次刷新商店时，获得2点商店经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010123.3",
+          "zh_TW": "刷新30次後，每次刷新商店時，獲得2點商店經驗",
+          "zh_CN": "刷新30次后，每次刷新商店时，获得2点商店经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010124": {
+      "Id": 1010124,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Shop_07",
+      "Name": "SoldierStarterCard.1010124.1",
+      "CardEffectId": 1010124,
+      "Des": "SoldierStarterCard.1010124.2",
+      "Desc": "SoldierStarterCard.1010124.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010124.1",
+          "zh_TW": "客群調整",
+          "zh_CN": "客群优化",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010124.2",
+          "zh_TW": "商店有機率出現2星棋子",
+          "zh_CN": "商店有概率出现2星棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010124.3",
+          "zh_TW": "商店有機率出現2星棋子",
+          "zh_CN": "商店有概率出现2星棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010125": {
+      "Id": 1010125,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Node_01",
+      "Name": "SoldierStarterCard.1010125.1",
+      "CardEffectId": 1010125,
+      "Des": "SoldierStarterCard.1010125.2",
+      "Desc": "SoldierStarterCard.1010125.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010125.1",
+          "zh_TW": "進階招募",
+          "zh_CN": "进阶招募",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010125.2",
+          "zh_TW": "第二階段開始時隨機獲得1個3費2星棋子；第三階段開始時隨機獲得1個4費2星棋子",
+          "zh_CN": "第二阶段开始时随机获得1个3费2星棋子；第三阶段开始时随机获得1个4费2星棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010125.3",
+          "zh_TW": "第二階段開始時隨機獲得1個3費2星棋子；第三階段開始時隨機獲得1個4費2星棋子",
+          "zh_CN": "第二阶段开始时随机获得1个3费2星棋子；第三阶段开始时随机获得1个4费2星棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010126": {
+      "Id": 1010126,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Node_01",
+      "Name": "SoldierStarterCard.1010126.1",
+      "CardEffectId": 1010126,
+      "Des": "SoldierStarterCard.1010126.2",
+      "Desc": "SoldierStarterCard.1010126.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010126.1",
+          "zh_TW": "穩健探索",
+          "zh_CN": "稳健探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010126.2",
+          "zh_TW": "第三階段所有遇敵節點變為契機節點",
+          "zh_CN": "第三阶段所有遇敌节点变为契机节点",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010126.3",
+          "zh_TW": "第三階段所有遇敵節點變為契機節點",
+          "zh_CN": "第三阶段所有遇敌节点变为契机节点",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010127": {
+      "Id": 1010127,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Card_01",
+      "Name": "SoldierStarterCard.1010127.1",
+      "CardEffectId": 1010127,
+      "Des": "SoldierStarterCard.1010127.2",
+      "Desc": "SoldierStarterCard.1010127.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010127.1",
+          "zh_TW": "奇策精選",
+          "zh_CN": "奇策精选",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010127.2",
+          "zh_TW": "將本局後續獲得的所有祝福卡皆改為金色品質",
+          "zh_CN": "将本局后续所有获得的祝福卡均改为金色品质",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010127.3",
+          "zh_TW": "將本局後續獲得的所有祝福卡皆改為金色品質",
+          "zh_CN": "将本局后续所有获得的祝福卡均改为金色品质",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010128": {
+      "Id": 1010128,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Coin_03",
+      "Name": "SoldierStarterCard.1010128.1",
+      "CardEffectId": 1010128,
+      "Des": "SoldierStarterCard.1010128.2",
+      "Desc": "SoldierStarterCard.1010128.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010128.1",
+          "zh_TW": "常勝威名",
+          "zh_CN": "常胜威名",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010128.2",
+          "zh_TW": "首次達成5連勝時，獲得20賢才金幣和10點經驗",
+          "zh_CN": "首次达成5连胜时，获得20贤才金币和10点经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010128.3",
+          "zh_TW": "首次達成5連勝時，獲得20賢才金幣和10點經驗",
+          "zh_CN": "首次达成5连胜时，获得20贤才金币和10点经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010129": {
+      "Id": 1010129,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Coin_02",
+      "Name": "SoldierStarterCard.1010129.1",
+      "CardEffectId": 1010129,
+      "Des": "SoldierStarterCard.1010129.2",
+      "Desc": "SoldierStarterCard.1010129.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010129.1",
+          "zh_TW": "連戰皆捷",
+          "zh_CN": "连战连捷",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010129.2",
+          "zh_TW": "首次達成3連勝時，獲得12賢才金幣",
+          "zh_CN": "首次达成3连胜时，获得12贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010129.3",
+          "zh_TW": "首次達成3連勝時，獲得12賢才金幣",
+          "zh_CN": "首次达成3连胜时，获得12贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010130": {
+      "Id": 1010130,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Chess_06",
+      "Name": "SoldierStarterCard.1010130.1",
+      "CardEffectId": 1010130,
+      "Des": "SoldierStarterCard.1010130.2",
+      "Desc": "SoldierStarterCard.1010130.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010130.1",
+          "zh_TW": "起步搭檔",
+          "zh_CN": "起步搭档",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010130.2",
+          "zh_TW": "開局隨機獲得2個2費棋子",
+          "zh_CN": "开局随机获得2个2费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010130.3",
+          "zh_TW": "開局隨機獲得2個2費棋子",
+          "zh_CN": "开局随机获得2个2费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010131": {
+      "Id": 1010131,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Hp_05",
+      "Name": "SoldierStarterCard.1010131.1",
+      "CardEffectId": 1010131,
+      "Des": "SoldierStarterCard.1010131.2",
+      "Desc": "SoldierStarterCard.1010131.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010131.1",
+          "zh_TW": "激進投資",
+          "zh_CN": "激进投资",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010131.2",
+          "zh_TW": "每次進入新階段，交換目前理智值和賢才金幣值（理智可大於100）",
+          "zh_CN": "每次进入新阶段，交换当前理智值和贤才金币值（理智可大于100）",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010131.3",
+          "zh_TW": "每次進入新階段，交換目前理智值和賢才金幣值（理智可大於100）",
+          "zh_CN": "每次进入新阶段，交换当前理智值和贤才金币值（理智可大于100）",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010133": {
+      "Id": 1010133,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Chess_02",
+      "Name": "SoldierStarterCard.1010133.1",
+      "CardEffectId": 1010133,
+      "Des": "SoldierStarterCard.1010133.2",
+      "Desc": "SoldierStarterCard.1010133.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010133.1",
+          "zh_TW": "觸底反彈",
+          "zh_CN": "触底反弹",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010133.2",
+          "zh_TW": "首次達成5連敗時，獲得25賢才金幣和1個2星2費棋子",
+          "zh_CN": "首次达成5连败时，获得25贤才金币和1个2星2费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010133.3",
+          "zh_TW": "首次達成5連敗時，獲得25賢才金幣和1個2星2費棋子",
+          "zh_CN": "首次达成5连败时，获得25贤才金币和1个2星2费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010134": {
+      "Id": 1010134,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Exp_01",
+      "Name": "SoldierStarterCard.1010134.1",
+      "CardEffectId": 1010134,
+      "Des": "SoldierStarterCard.1010134.2",
+      "Desc": "SoldierStarterCard.1010134.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010134.1",
+          "zh_TW": "匠心儲備",
+          "zh_CN": "匠心储备",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010134.2",
+          "zh_TW": "商店9級後，每刷新4次商店，獲得4經驗",
+          "zh_CN": "商店9级后，每刷新4次商店，获得4经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010134.3",
+          "zh_TW": "商店9級後，每刷新4次商店，獲得4經驗",
+          "zh_CN": "商店9级后，每刷新4次商店，获得4经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010135": {
+      "Id": 1010135,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Chess_02",
+      "Name": "SoldierStarterCard.1010135.1",
+      "CardEffectId": 1010135,
+      "Des": "SoldierStarterCard.1010135.2",
+      "Desc": "SoldierStarterCard.1010135.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010135.1",
+          "zh_TW": "唯一核心",
+          "zh_CN": "唯一核心",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010135.2",
+          "zh_TW": "開局隨機獲得1個4費棋子",
+          "zh_CN": "开局随机获得1个4费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010135.3",
+          "zh_TW": "開局隨機獲得1個4費棋子",
+          "zh_CN": "开局随机获得1个4费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010136": {
+      "Id": 1010136,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Shop_06",
+      "Name": "SoldierStarterCard.1010136.1",
+      "CardEffectId": 1010136,
+      "Des": "SoldierStarterCard.1010136.2",
+      "Desc": "SoldierStarterCard.1010136.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010136.1",
+          "zh_TW": "突破褒獎",
+          "zh_CN": "突破褒奖",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010136.2",
+          "zh_TW": "每個費用棋子首次合成2星時，額外獲得6賢才金幣",
+          "zh_CN": "每个费用棋子首次合成2星时，额外获得6个贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010136.3",
+          "zh_TW": "每個費用棋子首次合成2星時，額外獲得6賢才金幣",
+          "zh_CN": "每个费用棋子首次合成2星时，额外获得6个贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010137": {
+      "Id": 1010137,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Shop_04",
+      "Name": "SoldierStarterCard.1010137.1",
+      "CardEffectId": 1010137,
+      "Des": "SoldierStarterCard.1010137.2",
+      "Desc": "SoldierStarterCard.1010137.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010137.1",
+          "zh_TW": "瀟灑巨富",
+          "zh_CN": "潇洒巨富",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010137.2",
+          "zh_TW": "開局獲得12賢才金幣，但前5個節點內無法更新商店",
+          "zh_CN": "开局获得12贤才金币，但前5个节点内无法刷新商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010137.3",
+          "zh_TW": "開局獲得12賢才金幣，但前5個節點內無法更新商店",
+          "zh_CN": "开局获得12贤才金币，但前5个节点内无法刷新商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010138": {
+      "Id": 1010138,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Hp_02",
+      "Name": "SoldierStarterCard.1010138.1",
+      "CardEffectId": 1010138,
+      "Des": "SoldierStarterCard.1010138.2",
+      "Desc": "SoldierStarterCard.1010138.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010138.1",
+          "zh_TW": "風險賭注",
+          "zh_CN": "风险赌注",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010138.2",
+          "zh_TW": "開局理智變為20，獲得20賢才金幣",
+          "zh_CN": "开局理智变为20，获得20贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010138.3",
+          "zh_TW": "開局理智變為20，獲得20賢才金幣",
+          "zh_CN": "开局理智变为20，获得20贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010139": {
+      "Id": 1010139,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Chess_05",
+      "Name": "SoldierStarterCard.1010139.1",
+      "CardEffectId": 1010139,
+      "Des": "SoldierStarterCard.1010139.2",
+      "Desc": "SoldierStarterCard.1010139.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010139.1",
+          "zh_TW": "深掘財富",
+          "zh_CN": "深挖财富",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010139.2",
+          "zh_TW": "非旅人棋子首次合成2星時，獲得1賢才金幣",
+          "zh_CN": "非旅人棋子每次合成2星时，获得1个贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010139.3",
+          "zh_TW": "非旅人棋子首次合成2星時，獲得1賢才金幣",
+          "zh_CN": "非旅人棋子每次合成2星时，获得1个贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    },
+    "1010140": {
+      "Id": 1010140,
+      "GroupId": 101,
+      "Icon": "Soldier_00_BuffCard_Coin_02",
+      "Name": "SoldierStarterCard.1010140.1",
+      "CardEffectId": 1010140,
+      "Des": "SoldierStarterCard.1010140.2",
+      "Desc": "SoldierStarterCard.1010140.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStarterCard.1010140.1",
+          "zh_TW": "廣納賢才",
+          "zh_CN": "广纳贤才",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStarterCard.1010140.2",
+          "zh_TW": "每購買5個1費棋子，獲得3賢才金幣",
+          "zh_CN": "每购买5个1费棋子，获得3贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStarterCard.1010140.3",
+          "zh_TW": "每購買5個1費棋子，獲得3賢才金幣",
+          "zh_CN": "每购买5个1费棋子，获得3贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+            "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+          }
+        }
+      }
+    }
+  }
+}

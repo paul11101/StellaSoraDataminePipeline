@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StoryPersonality",
+    "categories": [
+      "story_social"
+    ],
+    "row_count": 3,
+    "localization_hits": 3,
+    "source": "bin/StoryPersonality.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Name": "StoryPersonality.1.1",
+      "Db": "Icon/AvgChoice/db_avg_character_1",
+      "Icon": "Icon/AvgChoice/AvgPersonality_1",
+      "Color": "#FFB85D",
+      "_localized": {
+        "/Name": {
+          "key": "StoryPersonality.1.1",
+          "zh_TW": "直覺",
+          "zh_CN": "直觉",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryPersonality.json",
+            "zh_CN": "language/zh_CN/StoryPersonality.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Name": "StoryPersonality.2.1",
+      "Db": "Icon/AvgChoice/db_avg_character_2",
+      "Icon": "Icon/AvgChoice/AvgPersonality_2",
+      "Color": "#7CB3FF",
+      "_localized": {
+        "/Name": {
+          "key": "StoryPersonality.2.1",
+          "zh_TW": "分析",
+          "zh_CN": "分析",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryPersonality.json",
+            "zh_CN": "language/zh_CN/StoryPersonality.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Name": "StoryPersonality.3.1",
+      "Db": "Icon/AvgChoice/db_avg_character_3",
+      "Icon": "Icon/AvgChoice/AvgPersonality_3",
+      "Color": "#BA88FF",
+      "_localized": {
+        "/Name": {
+          "key": "StoryPersonality.3.1",
+          "zh_TW": "混沌",
+          "zh_CN": "混沌",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryPersonality.json",
+            "zh_CN": "language/zh_CN/StoryPersonality.json"
+          }
+        }
+      }
+    }
+  }
+}

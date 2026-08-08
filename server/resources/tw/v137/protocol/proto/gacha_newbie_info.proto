@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message UI32s {
+  repeated uint32 Values = 1;
+  bytes NextPackage = 2047;
+}
+
+message GachaNewbieInfo {
+  uint32 Id = 1;
+  bool Receive = 2;
+  uint32 Times = 3;
+  repeated .proto.UI32s Cards = 14;
+  .proto.UI32s Temp = 15;
+  bytes NextPackage = 2047;
+}
+
+message GachaNewbieInfoResp {
+  repeated .proto.GachaNewbieInfo List = 1;
+  bytes NextPackage = 2047;
+}

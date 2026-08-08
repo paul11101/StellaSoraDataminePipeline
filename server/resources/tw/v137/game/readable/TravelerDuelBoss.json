@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TravelerDuelBoss",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 3,
+    "localization_hits": 3,
+    "source": "bin/TravelerDuelBoss.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1001": {
+      "Id": 1001,
+      "Name": "TravelerDuelBoss.1001.1",
+      "TravelerDuelBossType": 2,
+      "Episode": "Icon/MapEpisode/ep_ duel_challenge_001",
+      "Image": "Icon/MapEpisode/ep_duel_challenge_boss_002",
+      "Cover": "UI/TravelerDuelLevelSelect/Cover/Cover_1001",
+      "_localized": {
+        "/Name": {
+          "key": "TravelerDuelBoss.1001.1",
+          "zh_TW": "貓臨城下",
+          "zh_CN": "猫临城下",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelBoss.json",
+            "zh_CN": "language/zh_CN/TravelerDuelBoss.json"
+          }
+        }
+      }
+    },
+    "2001": {
+      "Id": 2001,
+      "Name": "TravelerDuelBoss.2001.1",
+      "TravelerDuelBossType": 2,
+      "Episode": "Icon/MapEpisode/ep_ duel_challenge_002",
+      "Image": "Icon/MapEpisode/ep_duel_challenge_boss_001",
+      "Cover": "UI/TravelerDuelLevelSelect/Cover/Cover_2001",
+      "_localized": {
+        "/Name": {
+          "key": "TravelerDuelBoss.2001.1",
+          "zh_TW": "這位女僕不太冷",
+          "zh_CN": "这个女仆不太冷",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelBoss.json",
+            "zh_CN": "language/zh_CN/TravelerDuelBoss.json"
+          }
+        }
+      }
+    },
+    "3001": {
+      "Id": 3001,
+      "Name": "TravelerDuelBoss.3001.1",
+      "TravelerDuelBossType": 2,
+      "Episode": "Icon/MapEpisode/ep_ duel_challenge_003",
+      "Image": "Icon/MapEpisode/ep_duel_challenge_boss_001",
+      "Cover": "UI/TravelerDuelLevelSelect/Cover/Cover_3001",
+      "_localized": {
+        "/Name": {
+          "key": "TravelerDuelBoss.3001.1",
+          "zh_TW": "書包裡的戰爭",
+          "zh_CN": "书包里的战争",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelBoss.json",
+            "zh_CN": "language/zh_CN/TravelerDuelBoss.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3143 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ErrorCode",
+    "categories": [
+      "ui_system"
+    ],
+    "row_count": 184,
+    "localization_hits": 184,
+    "source": "bin/ErrorCode.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "100101": {
+      "Id": 100101,
+      "Title": "ErrInvalidToken",
+      "Template": "ErrorCode.100101.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.100101.1",
+          "zh_TW": "訊息權杖無效",
+          "zh_CN": "消息令牌无效",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "100102": {
+      "Id": 100102,
+      "Title": "ErrInvalidTimestamp",
+      "Template": "ErrorCode.100102.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.100102.1",
+          "zh_TW": "訊息時間無效",
+          "zh_CN": "消息时间无效",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "100103": {
+      "Id": 100103,
+      "Title": "ErrInvalidMsgId",
+      "Template": "ErrorCode.100103.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.100103.1",
+          "zh_TW": "訊息指令碼無效",
+          "zh_CN": "消息命令号无效",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "100104": {
+      "Id": 100104,
+      "Title": "ErrInvalidMsgBody",
+      "Template": "ErrorCode.100104.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.100104.1",
+          "zh_TW": "訊息請求主體無效",
+          "zh_CN": "消息请求体无效",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "100105": {
+      "Id": 100105,
+      "Title": "ErrAgentBusy",
+      "Template": "ErrorCode.100105.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.100105.1",
+          "zh_TW": "伺服器繁忙，請稍後重試",
+          "zh_CN": "服务器繁忙，请稍后重试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "100106": {
+      "Id": 100106,
+      "Title": "ErrServiceUnavailable",
+      "Template": "ErrorCode.100106.1",
+      "ShowType": 3,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.100106.1",
+          "zh_TW": "伺服器無法回應，請稍後重試",
+          "zh_CN": "服务器无法响应，请稍后重试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "100107": {
+      "Id": 100107,
+      "Title": "ErrRequestTimeout",
+      "Template": "ErrorCode.100107.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.100107.1",
+          "zh_TW": "請求逾時，請稍後重試",
+          "zh_CN": "请求超时，请稍后重试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "100108": {
+      "Id": 100108,
+      "Title": "ErrLoginFailed",
+      "Template": "ErrorCode.100108.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.100108.1",
+          "zh_TW": "登入失敗：%s",
+          "zh_CN": "登录失败：%s",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "100109": {
+      "Id": 100109,
+      "Title": "ErrInvalidVersion",
+      "Template": "ErrorCode.100109.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.100109.1",
+          "zh_TW": "版本錯誤，請獲得新版本後重試",
+          "zh_CN": "版本号错误，请获取新版本后重试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "100110": {
+      "Id": 100110,
+      "Title": "ErrLogin",
+      "Template": "ErrorCode.100110.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.100110.1",
+          "zh_TW": "登入失敗，請稍後重試",
+          "zh_CN": "登录失败，请稍后重试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "100111": {
+      "Id": 100111,
+      "Title": "ErrResVersion",
+      "Template": "ErrorCode.100111.1",
+      "ShowType": 3,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.100111.1",
+          "zh_TW": "登入失敗，請更新後重試",
+          "zh_CN": "登录失败，请更新后重试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "100112": {
+      "Id": 100112,
+      "Title": "ErrClientVersion",
+      "Template": "ErrorCode.100112.1",
+      "ShowType": 3,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.100112.1",
+          "zh_TW": "登入失敗，請更新遊戲主程式後重試",
+          "zh_CN": "登录失败，请更新客户端后重试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110101": {
+      "Id": 110101,
+      "Title": "ErrMask",
+      "Template": "ErrorCode.110101.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110101.1",
+          "zh_TW": "遭遇異常情況，請聯絡客服",
+          "zh_CN": "遭遇异常，请联系客服",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110102": {
+      "Id": 110102,
+      "Title": "ErrServerBusy",
+      "Template": "ErrorCode.110102.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110102.1",
+          "zh_TW": "伺服器繁忙，請稍後再試",
+          "zh_CN": "服务器繁忙，请稍后再试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110103": {
+      "Id": 110103,
+      "Title": "ErrData",
+      "Template": "ErrorCode.110103.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110103.1",
+          "zh_TW": "資料錯誤，%s",
+          "zh_CN": "数据错误，%s",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110104": {
+      "Id": 110104,
+      "Title": "ErrArgs",
+      "Template": "ErrorCode.110104.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110104.1",
+          "zh_TW": "參數錯誤",
+          "zh_CN": "参数错误",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110105": {
+      "Id": 110105,
+      "Title": "ErrInternal",
+      "Template": "ErrorCode.110105.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110105.1",
+          "zh_TW": "伺服器錯誤，%s",
+          "zh_CN": "服务器错误，%s",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110106": {
+      "Id": 110106,
+      "Title": "ErrTokenExpire",
+      "Template": "ErrorCode.110106.1",
+      "ShowType": 3,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110106.1",
+          "zh_TW": "您需要重新登入",
+          "zh_CN": "您需要重新登录",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110107": {
+      "Id": 110107,
+      "Title": "ErrRelogin",
+      "Template": "ErrorCode.110107.1",
+      "ShowType": 3,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110107.1",
+          "zh_TW": "您的帳號已於其他裝置登入",
+          "zh_CN": "您的账号已在别处登录",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110108": {
+      "Id": 110108,
+      "Title": "ErrInvalidReq",
+      "Template": "ErrorCode.110108.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110108.1",
+          "zh_TW": "非法請求",
+          "zh_CN": "非法请求",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110109": {
+      "Id": 110109,
+      "Title": "ErrApiDisabled",
+      "Template": "ErrorCode.110109.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110109.1",
+          "zh_TW": "此功能維護中，請稍後重試",
+          "zh_CN": "此功能维护中，请稍后重试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110110": {
+      "Id": 110110,
+      "Title": "ErrResUpdated",
+      "Template": "ErrorCode.110110.1",
+      "ShowType": 3,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110110.1",
+          "zh_TW": "版本已更新，請獲得新版本後重試",
+          "zh_CN": "版本已更新，请获取新版本后重试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110111": {
+      "Id": 110111,
+      "Title": "ErrOperateTooFast",
+      "Template": "ErrorCode.110111.1",
+      "ShowType": 2,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110111.1",
+          "zh_TW": "目前操作過快，請稍等片刻",
+          "zh_CN": "当前操作过快，请稍等片刻",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110201": {
+      "Id": 110201,
+      "Title": "ErrNickLenViolation",
+      "Template": "ErrorCode.110201.1",
+      "ShowType": 2,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110201.1",
+          "zh_TW": "名稱長度違規",
+          "zh_CN": "名称长度违规",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110202": {
+      "Id": 110202,
+      "Title": "ErrNickIllegal",
+      "Template": "ErrorCode.110202.1",
+      "ShowType": 2,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110202.1",
+          "zh_TW": "名稱含有非法字元",
+          "zh_CN": "名称含有非法字符",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110203": {
+      "Id": 110203,
+      "Title": "ErrNickForbidden",
+      "Template": "ErrorCode.110203.1",
+      "ShowType": 2,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110203.1",
+          "zh_TW": "名稱含有非法字元",
+          "zh_CN": "名称含有非法字符",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110205": {
+      "Id": 110205,
+      "Title": "ErrBan",
+      "Template": "ErrorCode.110205.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110205.1",
+          "zh_TW": "您的帳號被限制登入，解封日期：%s",
+          "zh_CN": "您的账号被限制登录，解封日期：%s",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110206": {
+      "Id": 110206,
+      "Title": "ErrSignatureForbidden",
+      "Template": "ErrorCode.110206.1",
+      "ShowType": 2,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110206.1",
+          "zh_TW": "簽名檔含有非法字元",
+          "zh_CN": "签名含有非法字符",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110207": {
+      "Id": 110207,
+      "Title": "ErrSignatureLenViolation",
+      "Template": "ErrorCode.110207.1",
+      "ShowType": 2,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110207.1",
+          "zh_TW": "簽名檔長度違規",
+          "zh_CN": "签名长度违规",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110208": {
+      "Id": 110208,
+      "Title": "ErrSignatureIllegal",
+      "Template": "ErrorCode.110208.1",
+      "ShowType": 2,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110208.1",
+          "zh_TW": "簽名檔含有非法字元",
+          "zh_CN": "签名含有非法字符",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110209": {
+      "Id": 110209,
+      "Title": "ErrTitleNotFound",
+      "Template": "ErrorCode.110209.1",
+      "ShowType": 2,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110209.1",
+          "zh_TW": "頭銜未解鎖",
+          "zh_CN": "头衔未解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110210": {
+      "Id": 110210,
+      "Title": "ErrSurveyNotFound",
+      "Template": "ErrorCode.110210.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110210.1",
+          "zh_TW": "問卷不存在",
+          "zh_CN": "问卷不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110211": {
+      "Id": 110211,
+      "Title": "ErrSurveyNotOpenYet",
+      "Template": "ErrorCode.110211.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110211.1",
+          "zh_TW": "問卷尚未開放",
+          "zh_CN": "问卷尚未开放",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110212": {
+      "Id": 110212,
+      "Title": "ErrSurveyHasCompleted",
+      "Template": "ErrorCode.110212.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110212.1",
+          "zh_TW": "此問卷已完成",
+          "zh_CN": "已完成过此问卷",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110401": {
+      "Id": 110401,
+      "Title": "ErrMailMiss",
+      "Template": "ErrorCode.110401.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110401.1",
+          "zh_TW": "郵件不存在",
+          "zh_CN": "邮件不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110402": {
+      "Id": 110402,
+      "Title": "ErrMailRevoked",
+      "Template": "ErrorCode.110402.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110402.1",
+          "zh_TW": "郵件資料變更，請稍後重試",
+          "zh_CN": "邮件数据变更，请稍后重试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110403": {
+      "Id": 110403,
+      "Title": "ErrMailUpdate",
+      "Template": "ErrorCode.110403.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110403.1",
+          "zh_TW": "郵件資料更新，請稍後重試",
+          "zh_CN": "邮件数据更新，请稍后重试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110404": {
+      "Id": 110404,
+      "Title": "ErrMailPinned",
+      "Template": "ErrorCode.110404.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110404.1",
+          "zh_TW": "星標郵件無法刪除",
+          "zh_CN": "星标邮件无法删除",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110501": {
+      "Id": 110501,
+      "Title": "ErrQuestNotComplete",
+      "Template": "ErrorCode.110501.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110501.1",
+          "zh_TW": "任務尚未完成",
+          "zh_CN": "任务尚未完成",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110502": {
+      "Id": 110502,
+      "Title": "ErrQuestClosed",
+      "Template": "ErrorCode.110502.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110502.1",
+          "zh_TW": "已領取任務獎勵",
+          "zh_CN": "任务奖励已领取",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110601": {
+      "Id": 110601,
+      "Title": "ErrProductNotReady",
+      "Template": "ErrorCode.110601.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110601.1",
+          "zh_TW": "商品尚未開始販售",
+          "zh_CN": "商品尚未开始出售",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110602": {
+      "Id": 110602,
+      "Title": "ErrProductRestockLimit",
+      "Template": "ErrorCode.110602.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110602.1",
+          "zh_TW": "商品庫存不足",
+          "zh_CN": "商品库存不足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110603": {
+      "Id": 110603,
+      "Title": "ErrGoodsNotFound",
+      "Template": "ErrorCode.110603.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110603.1",
+          "zh_TW": "商品不存在",
+          "zh_CN": "商品不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110604": {
+      "Id": 110604,
+      "Title": "ErrGoodsLockPurchase",
+      "Template": "ErrorCode.110604.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110604.1",
+          "zh_TW": "未到商品購買時間",
+          "zh_CN": "商品未到购买时间",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110605": {
+      "Id": 110605,
+      "Title": "ErrGoodsDelisted",
+      "Template": "ErrorCode.110605.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110605.1",
+          "zh_TW": "商品已下架",
+          "zh_CN": "商品已下架",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110606": {
+      "Id": 110606,
+      "Title": "ErrShopNotFound",
+      "Template": "ErrorCode.110606.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110606.1",
+          "zh_TW": "商店未開啟",
+          "zh_CN": "商店未开启",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110607": {
+      "Id": 110607,
+      "Title": "ErrShopAlreadyClosed",
+      "Template": "ErrorCode.110607.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110607.1",
+          "zh_TW": "商店已關閉",
+          "zh_CN": "商店已关闭",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110701": {
+      "Id": 110701,
+      "Title": "ErrRecvReward",
+      "Template": "ErrorCode.110701.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110701.1",
+          "zh_TW": "領取獎勵失敗",
+          "zh_CN": "领取奖励失败",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110702": {
+      "Id": 110702,
+      "Title": "ErrMainlineCondPremission",
+      "Template": "ErrorCode.110702.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110702.1",
+          "zh_TW": "前置關卡未符合條件",
+          "zh_CN": "前置关卡尚未满足条件",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110801": {
+      "Id": 110801,
+      "Title": "ErrEnergyHoldLimit",
+      "Template": "ErrorCode.110801.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110801.1",
+          "zh_TW": "活力已達上限，無法再購買",
+          "zh_CN": "干劲已达上限，无法再购买",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110802": {
+      "Id": 110802,
+      "Title": "ErrEnergyBuyLimit",
+      "Template": "ErrorCode.110802.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110802.1",
+          "zh_TW": "今日購買數量已達上限",
+          "zh_CN": "今日购买已达上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110803": {
+      "Id": 110803,
+      "Title": "ErrEnergyLack",
+      "Template": "ErrorCode.110803.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110803.1",
+          "zh_TW": "活力不足",
+          "zh_CN": "干劲不足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110804": {
+      "Id": 110804,
+      "Title": "ErrEnergyRestore",
+      "Template": "ErrorCode.110804.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110804.1",
+          "zh_TW": "活力已達上限，道具恢復失敗",
+          "zh_CN": "干劲已达上限，道具恢复失败",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110901": {
+      "Id": 110901,
+      "Title": "ErrGachaSpinLimit",
+      "Template": "ErrorCode.110901.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110901.1",
+          "zh_TW": "今日招募已達上限",
+          "zh_CN": "今日招募已达上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111001": {
+      "Id": 111001,
+      "Title": "ErrItemUseRefused",
+      "Template": "ErrorCode.111001.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111001.1",
+          "zh_TW": "目前道具無法使用",
+          "zh_CN": "当前道具无法使用",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111101": {
+      "Id": 111101,
+      "Title": "ErrRglInProgress",
+      "Template": "ErrorCode.111101.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111101.1",
+          "zh_TW": "星塔正在進行中",
+          "zh_CN": "星塔正在进行中",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111102": {
+      "Id": 111102,
+      "Title": "ErrRglCond",
+      "Template": "ErrorCode.111102.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111102.1",
+          "zh_TW": "尚未符合進入星塔的條件",
+          "zh_CN": "尚未满足进入星塔条件",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111103": {
+      "Id": 111103,
+      "Title": "ErrRglBuildNotFound",
+      "Template": "ErrorCode.111103.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111103.1",
+          "zh_TW": "紀錄不存在",
+          "zh_CN": "纪录不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111104": {
+      "Id": 111104,
+      "Title": "ErrRglBuildLock",
+      "Template": "ErrorCode.111104.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111104.1",
+          "zh_TW": "紀錄已上鎖",
+          "zh_CN": "纪录被锁定",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111105": {
+      "Id": 111105,
+      "Title": "ErrFormationIdNeed",
+      "Template": "ErrorCode.111105.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111105.1",
+          "zh_TW": "需要編隊ID資訊",
+          "zh_CN": "需要编队ID信息",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111106": {
+      "Id": 111106,
+      "Title": "ErrFormationFullNeed",
+      "Template": "ErrorCode.111106.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111106.1",
+          "zh_TW": "編隊需滿員才能進入",
+          "zh_CN": "需要满编队才能进入",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111107": {
+      "Id": 111107,
+      "Title": "ErrBuildNameMinLenLimit",
+      "Template": "ErrorCode.111107.1",
+      "ShowType": 2,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111107.1",
+          "zh_TW": "紀錄名稱長度不得少於%s",
+          "zh_CN": "纪录名称长度不能少于%s",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111108": {
+      "Id": 111108,
+      "Title": "ErrBuildNameMaxLenLimit",
+      "Template": "ErrorCode.111108.1",
+      "ShowType": 2,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111108.1",
+          "zh_TW": "紀錄名稱長度不得多於%s",
+          "zh_CN": "纪录名称长度不能大于%s",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111109": {
+      "Id": 111109,
+      "Title": "ErrBuildNameViolation",
+      "Template": "ErrorCode.111109.1",
+      "ShowType": 2,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111109.1",
+          "zh_TW": "紀錄名稱不符規定",
+          "zh_CN": "纪录名称不合规",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111110": {
+      "Id": 111110,
+      "Title": "ErrPotentialPreselectionNotFound",
+      "Template": "ErrorCode.111110.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111110.1",
+          "zh_TW": "潛能預設不存在",
+          "zh_CN": "潜能预设不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111201": {
+      "Id": 111201,
+      "Title": "ErrOutfitStrengthenMax",
+      "Template": "ErrorCode.111201.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111201.1",
+          "zh_TW": "祕紋已強化至最高等級",
+          "zh_CN": "秘纹已强化至最大等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111202": {
+      "Id": 111202,
+      "Title": "ErrOutfitNoData",
+      "Template": "ErrorCode.111202.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111202.1",
+          "zh_TW": "祕紋不存在",
+          "zh_CN": "秘纹不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111203": {
+      "Id": 111203,
+      "Title": "ErrOutfitBeEquipped",
+      "Template": "ErrorCode.111203.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111203.1",
+          "zh_TW": "祕紋已裝備",
+          "zh_CN": "秘纹被装备着",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111204": {
+      "Id": 111204,
+      "Title": "ErrOutfitBeLocked",
+      "Template": "ErrorCode.111204.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111204.1",
+          "zh_TW": "祕紋已鎖定",
+          "zh_CN": "秘纹被锁定着",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111205": {
+      "Id": 111205,
+      "Title": "ErrOutfitPhaseMax",
+      "Template": "ErrorCode.111205.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111205.1",
+          "zh_TW": "祕紋已達最高品階",
+          "zh_CN": "秘纹已达到最大品阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111206": {
+      "Id": 111206,
+      "Title": "ErrOutfitStarMax",
+      "Template": "ErrorCode.111206.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111206.1",
+          "zh_TW": "祕紋已達最大星數",
+          "zh_CN": "秘纹已达到最大星数",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111207": {
+      "Id": 111207,
+      "Title": "ErrOutfitLevelNotReached",
+      "Template": "ErrorCode.111207.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111207.1",
+          "zh_TW": "祕紋未達所需等級",
+          "zh_CN": "秘纹未达到所需等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111301": {
+      "Id": 111301,
+      "Title": "ErrGiftPackageInvalid",
+      "Template": "ErrorCode.111301.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111301.1",
+          "zh_TW": "禮包無效",
+          "zh_CN": "礼包无效",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111302": {
+      "Id": 111302,
+      "Title": "ErrGiftPackageExpired",
+      "Template": "ErrorCode.111302.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111302.1",
+          "zh_TW": "禮包已過期",
+          "zh_CN": "礼包已经过期",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111303": {
+      "Id": 111303,
+      "Title": "ErrGiftPackError",
+      "Template": "ErrorCode.111303.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111303.1",
+          "zh_TW": "禮包錯誤",
+          "zh_CN": "礼包错误",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111304": {
+      "Id": 111304,
+      "Title": "ErrRedeemCodeReachedLimit",
+      "Template": "ErrorCode.111304.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111304.1",
+          "zh_TW": "兌換序號已達上限",
+          "zh_CN": "兑换码已达上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111305": {
+      "Id": 111305,
+      "Title": "ErrUserExchangeCountReachedLimit",
+      "Template": "ErrorCode.111305.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111305.1",
+          "zh_TW": "使用者兌換次數已達上限",
+          "zh_CN": "用户兑换次数已达上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111306": {
+      "Id": 111306,
+      "Title": "ErrGiftPackageAlreadyExists",
+      "Template": "ErrorCode.111306.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111306.1",
+          "zh_TW": "禮包已存在",
+          "zh_CN": "礼包已经存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111307": {
+      "Id": 111307,
+      "Title": "ErrGiftPackageInfoInvalid",
+      "Template": "ErrorCode.111307.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111307.1",
+          "zh_TW": "禮包資訊無效",
+          "zh_CN": "礼包信息无效",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111308": {
+      "Id": 111308,
+      "Title": "ErrRedeemCodeItemListEmpty",
+      "Template": "ErrorCode.111308.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111308.1",
+          "zh_TW": "道具清單為空白",
+          "zh_CN": "道具列表为空",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111309": {
+      "Id": 111309,
+      "Title": "ErrRedeemCodeCodeItemInvalid",
+      "Template": "ErrorCode.111309.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111309.1",
+          "zh_TW": "兌換序號道具錯誤",
+          "zh_CN": "兑换码道具错误",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111310": {
+      "Id": 111310,
+      "Title": "ErrGiftPackageStartTimeError",
+      "Template": "ErrorCode.111310.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111310.1",
+          "zh_TW": "禮包開始時間錯誤",
+          "zh_CN": "礼包开始时间错误",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111311": {
+      "Id": 111311,
+      "Title": "ErrGiftPackageEndTimeError",
+      "Template": "ErrorCode.111311.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111311.1",
+          "zh_TW": "禮包結束時間錯誤",
+          "zh_CN": "礼包结束时间错误",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111312": {
+      "Id": 111312,
+      "Title": "ErrGiftPackageRedeemCodeQuantityExceedsLimit",
+      "Template": "ErrorCode.111312.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111312.1",
+          "zh_TW": "禮包兌換序號數量超過上限",
+          "zh_CN": "礼包兑换码数量超过上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111313": {
+      "Id": 111313,
+      "Title": "ErrFixedRedeemCodeAlreadyExists",
+      "Template": "ErrorCode.111313.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111313.1",
+          "zh_TW": "固定兌換序號已存在",
+          "zh_CN": "固定兑换码已经存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111314": {
+      "Id": 111314,
+      "Title": "ErrFixedRedeemCodeCannotBeEmpty",
+      "Template": "ErrorCode.111314.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111314.1",
+          "zh_TW": "固定兌換序號不能為空白",
+          "zh_CN": "固定兑换码不能为空",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111315": {
+      "Id": 111315,
+      "Title": "ErrRedeemCodeQuantityCannotBeZero",
+      "Template": "ErrorCode.111315.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111315.1",
+          "zh_TW": "兌換序號數量不能為0",
+          "zh_CN": "兑换码数量不能为0",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111316": {
+      "Id": 111316,
+      "Title": "ErrFixedRedeemCodeUserUsageQuantityRequired",
+      "Template": "ErrorCode.111316.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111316.1",
+          "zh_TW": "固定兌換序號使用者使用數量必須為1",
+          "zh_CN": "固定兑换码用户使用数量必须为1",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111317": {
+      "Id": 111317,
+      "Title": "ErrRedeemCodeInvalid",
+      "Template": "ErrorCode.111317.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111317.1",
+          "zh_TW": "無效兌換序號",
+          "zh_CN": "无效兑换码",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111318": {
+      "Id": 111318,
+      "Title": "ErrRedeemCodeFailed",
+      "Template": "ErrorCode.111318.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111318.1",
+          "zh_TW": "兌換序號兌換失敗",
+          "zh_CN": "兑换码兑换失败",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111319": {
+      "Id": 111319,
+      "Title": "ErrRedeemCodeAlreadyUsed",
+      "Template": "ErrorCode.111319.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111319.1",
+          "zh_TW": "兌換序號已使用",
+          "zh_CN": "兑换码已经使用",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111320": {
+      "Id": 111320,
+      "Title": "ErrRedeemFailed",
+      "Template": "ErrorCode.111320.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111320.1",
+          "zh_TW": "兌換錯誤",
+          "zh_CN": "兑换错误",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111401": {
+      "Id": 111401,
+      "Title": "ErrInviteNotFound",
+      "Template": "ErrorCode.111401.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111401.1",
+          "zh_TW": "申請不存在",
+          "zh_CN": "申请不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111402": {
+      "Id": 111402,
+      "Title": "ErrUserInviteCountLimit",
+      "Template": "ErrorCode.111402.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111402.1",
+          "zh_TW": "對方申請清單已滿",
+          "zh_CN": "对方申请列表已满",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111403": {
+      "Id": 111403,
+      "Title": "ErrUserFriendCountLimit",
+      "Template": "ErrorCode.111403.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111403.1",
+          "zh_TW": "對方好友清單已滿",
+          "zh_CN": "对方好友列表已满",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111404": {
+      "Id": 111404,
+      "Title": "ErrAlreadyExistFriend",
+      "Template": "ErrorCode.111404.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111404.1",
+          "zh_TW": "好友已存在",
+          "zh_CN": "好友已存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "110681": {
+      "Id": 110681,
+      "Title": "ErrFriendEnergyReceiveMax",
+      "Template": "ErrorCode.110681.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.110681.1",
+          "zh_TW": "領取好友贈送活力已達上限",
+          "zh_CN": "领取好友赠送干劲到达上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111501": {
+      "Id": 111501,
+      "Title": "ErrMallPackageNotListed",
+      "Template": "ErrorCode.111501.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111501.1",
+          "zh_TW": "產品尚未上架",
+          "zh_CN": "产品尚未上架",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111502": {
+      "Id": 111502,
+      "Title": "ErrMallPackageDelisted",
+      "Template": "ErrorCode.111502.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111502.1",
+          "zh_TW": "產品已下架",
+          "zh_CN": "产品已下架",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111503": {
+      "Id": 111503,
+      "Title": "ErrMallPackageStockLimit",
+      "Template": "ErrorCode.111503.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111503.1",
+          "zh_TW": "產品庫存不足",
+          "zh_CN": "产品库存不足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111504": {
+      "Id": 111504,
+      "Title": "ErrMallPackageOrderLimit",
+      "Template": "ErrorCode.111504.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111504.1",
+          "zh_TW": "尚未符合購買產品的條件",
+          "zh_CN": "产品尚未满足购买条件",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111505": {
+      "Id": 111505,
+      "Title": "ErrOrderCantRemove",
+      "Template": "ErrorCode.111505.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111505.1",
+          "zh_TW": "取消訂單失敗",
+          "zh_CN": "取消订单失败",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111601": {
+      "Id": 111601,
+      "Title": "ErrHeartStoneMax",
+      "Template": "ErrorCode.111601.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111601.1",
+          "zh_TW": "心相石已達最高等級",
+          "zh_CN": "心相石达到最大等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111602": {
+      "Id": 111602,
+      "Title": "ErrWeaponMaxAdvance",
+      "Template": "ErrorCode.111602.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111602.1",
+          "zh_TW": "武器已達最高升級階段",
+          "zh_CN": "武器达到最大升级阶段",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111603": {
+      "Id": 111603,
+      "Title": "ErrWeaponCondNoMet",
+      "Template": "ErrorCode.111603.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111603.1",
+          "zh_TW": "武器進階條件未符合",
+          "zh_CN": "武器进阶条件不满足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111604": {
+      "Id": 111604,
+      "Title": "ErrCharMaxLevel",
+      "Template": "ErrorCode.111604.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111604.1",
+          "zh_TW": "角色已達最高等級",
+          "zh_CN": "角色达到最大等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111605": {
+      "Id": 111605,
+      "Title": "ErrCharCondMaxAdvance",
+      "Template": "ErrorCode.111605.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111605.1",
+          "zh_TW": "角色升階條件未符合",
+          "zh_CN": "角色升阶条件不满足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111606": {
+      "Id": 111606,
+      "Title": "ErrCharMaxAdvance",
+      "Template": "ErrorCode.111606.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111606.1",
+          "zh_TW": "角色已達最高升級階段",
+          "zh_CN": "角色达到最大升级阶段",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111607": {
+      "Id": 111607,
+      "Title": "ErrCharSkillMaxLevel",
+      "Template": "ErrorCode.111607.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111607.1",
+          "zh_TW": "角色能力已達最高等級",
+          "zh_CN": "角色能力达到最大等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111608": {
+      "Id": 111608,
+      "Title": "ErrCharSkillCondNotMet",
+      "Template": "ErrorCode.111608.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111608.1",
+          "zh_TW": "角色能力升級條件未符合",
+          "zh_CN": "角色能力升级条件不满足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111609": {
+      "Id": 111609,
+      "Title": "ErrPresentsNoData",
+      "Template": "ErrorCode.111609.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111609.1",
+          "zh_TW": "紋章不存在",
+          "zh_CN": "纹章不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111610": {
+      "Id": 111610,
+      "Title": "ErrPresentsUpgradeMax",
+      "Template": "ErrorCode.111610.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111610.1",
+          "zh_TW": "紋章已升至最高等級",
+          "zh_CN": "纹章已升至最大等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111611": {
+      "Id": 111611,
+      "Title": "ErrPresentsBeEquipped",
+      "Template": "ErrorCode.111611.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111611.1",
+          "zh_TW": "紋章已裝備",
+          "zh_CN": "纹章被装备着",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111612": {
+      "Id": 111612,
+      "Title": "ErrPresentsBeLocked",
+      "Template": "ErrorCode.111612.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111612.1",
+          "zh_TW": "紋章已鎖定",
+          "zh_CN": "纹章被锁定着",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111613": {
+      "Id": 111613,
+      "Title": "ErrNotAllowedRecruit",
+      "Template": "ErrorCode.111613.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111613.1",
+          "zh_TW": "不允許招募",
+          "zh_CN": "不允许招募",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111614": {
+      "Id": 111614,
+      "Title": "ErrAffinityMaxLevel",
+      "Template": "ErrorCode.111614.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111614.1",
+          "zh_TW": "默契度已達最高等級",
+          "zh_CN": "默契度已到最大等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111615": {
+      "Id": 111615,
+      "Title": "ErrAffinityGiftSendCountLimit",
+      "Template": "ErrorCode.111615.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111615.1",
+          "zh_TW": "禮物贈送次數已達上限",
+          "zh_CN": "礼物赠送次数达到上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111616": {
+      "Id": 111616,
+      "Title": "ErrDatingCountLimit",
+      "Template": "ErrorCode.111616.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111616.1",
+          "zh_TW": "邀約次數已達上限",
+          "zh_CN": "邀约次数达到上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111617": {
+      "Id": 111617,
+      "Title": "ErrDatingSendCountLimit",
+      "Template": "ErrorCode.111617.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111617.1",
+          "zh_TW": "邀約贈禮數量超過上限",
+          "zh_CN": "邀约赠礼数量超过上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111618": {
+      "Id": 111618,
+      "Title": "ErrCharWorldClassCondNotMet",
+      "Template": "ErrorCode.111618.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111618.1",
+          "zh_TW": "權限等級不足",
+          "zh_CN": "权限等级不足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111619": {
+      "Id": 111619,
+      "Title": "ErrDatingCharLimit",
+      "Template": "ErrorCode.111619.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111619.1",
+          "zh_TW": "邀約角色次數已達上限",
+          "zh_CN": "邀约角色次数达到上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111620": {
+      "Id": 111620,
+      "Title": "ErrCharArchiveRewardReceived",
+      "Template": "ErrorCode.111620.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111620.1",
+          "zh_TW": "已領取角色檔案獎勵",
+          "zh_CN": "角色档案奖励已领取",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111621": {
+      "Id": 111621,
+      "Title": "ErrReceiveEnergyFriendNotData",
+      "Template": "ErrorCode.111621.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111621.1",
+          "zh_TW": "好友狀態已更新，領取失敗",
+          "zh_CN": "好友状态已更新，领取失败",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111701": {
+      "Id": 111701,
+      "Title": "ErrBattlePassVersionMismatch",
+      "Template": "ErrorCode.111701.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111701.1",
+          "zh_TW": "創業基金已更新",
+          "zh_CN": "创业基金已更新",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111801": {
+      "Id": 111801,
+      "Title": "ErrTravelerDuelSeasonEnd",
+      "Template": "ErrorCode.111801.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111801.1",
+          "zh_TW": "目前賽季已結束",
+          "zh_CN": "当前赛季结束",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "111901": {
+      "Id": 111901,
+      "Title": "ErrProductionFormulaUnactivated",
+      "Template": "ErrorCode.111901.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.111901.1",
+          "zh_TW": "配方未開啟",
+          "zh_CN": "配方未开启",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112001": {
+      "Id": 112001,
+      "Title": "ErrTalentAlreayActiveated",
+      "Template": "ErrorCode.112001.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112001.1",
+          "zh_TW": "天賦已啟動",
+          "zh_CN": "天赋已经激活",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112002": {
+      "Id": 112002,
+      "Title": "ErrTalentGroupNotYetOpen",
+      "Template": "ErrorCode.112002.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112002.1",
+          "zh_TW": "天賦組尚未開放",
+          "zh_CN": "天赋组尚未开放",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112003": {
+      "Id": 112003,
+      "Title": "ErrTalentKeyNodesInsufficientQuantity",
+      "Template": "ErrorCode.112003.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112003.1",
+          "zh_TW": "天賦關鍵節點數量不足",
+          "zh_CN": "天赋关键节点数量不足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112004": {
+      "Id": 112004,
+      "Title": "ErrTalentOrdinaryNodesInsufficientQuantity",
+      "Template": "ErrorCode.112004.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112004.1",
+          "zh_TW": "天賦普通節點數量不足",
+          "zh_CN": "天赋普通节点数量不足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112005": {
+      "Id": 112005,
+      "Title": "ErrTalentListEmpty",
+      "Template": "ErrorCode.112005.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112005.1",
+          "zh_TW": "天賦清單為空",
+          "zh_CN": "天赋列表为空",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112006": {
+      "Id": 112006,
+      "Title": "ErrTalentResetFrequently",
+      "Template": "ErrorCode.112006.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112006.1",
+          "zh_TW": "天賦重置過於頻繁，請稍後再試",
+          "zh_CN": "天赋重置太频繁，请稍后再试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112007": {
+      "Id": 112007,
+      "Title": "ErrTalentActivationLimit",
+      "Template": "ErrorCode.112007.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112007.1",
+          "zh_TW": "天賦已達啟動節點上限",
+          "zh_CN": "天赋已达激活节点上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112008": {
+      "Id": 112008,
+      "Title": "ErrTalentNotYetActivated",
+      "Template": "ErrorCode.112008.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112008.1",
+          "zh_TW": "天賦尚未啟動",
+          "zh_CN": "天赋尚未激活",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112101": {
+      "Id": 112101,
+      "Title": "ErrEquipmentNoData",
+      "Template": "ErrorCode.112101.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112101.1",
+          "zh_TW": "裝備不存在",
+          "zh_CN": "装备不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112102": {
+      "Id": 112102,
+      "Title": "ErrEquipmentUpgradeMax",
+      "Template": "ErrorCode.112102.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112102.1",
+          "zh_TW": "裝備已升至最高等級",
+          "zh_CN": "装备已升至最大等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112103": {
+      "Id": 112103,
+      "Title": "ErrEquipmentBeEquipped",
+      "Template": "ErrorCode.112103.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112103.1",
+          "zh_TW": "裝備已裝備",
+          "zh_CN": "装备被装备着",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112104": {
+      "Id": 112104,
+      "Title": "ErrEquipmentBeLocked",
+      "Template": "ErrorCode.112104.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112104.1",
+          "zh_TW": "裝備已鎖定",
+          "zh_CN": "装备被锁定着",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112201": {
+      "Id": 112201,
+      "Title": "ErrDiscNoData",
+      "Template": "ErrorCode.112201.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112201.1",
+          "zh_TW": "祕紋不存在",
+          "zh_CN": "秘纹不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112202": {
+      "Id": 112202,
+      "Title": "ErrDiscLevelNotReached",
+      "Template": "ErrorCode.112202.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112202.1",
+          "zh_TW": "祕紋未達所需等級",
+          "zh_CN": "秘纹未达到所需等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112203": {
+      "Id": 112203,
+      "Title": "ErrDiscStrengthenMax",
+      "Template": "ErrorCode.112203.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112203.1",
+          "zh_TW": "祕紋已強化至最高等級",
+          "zh_CN": "秘纹已强化至最大等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112204": {
+      "Id": 112204,
+      "Title": "ErrDiscPhaseMax",
+      "Template": "ErrorCode.112204.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112204.1",
+          "zh_TW": "祕紋已達最高品階",
+          "zh_CN": "秘纹已达到最大品阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112205": {
+      "Id": 112205,
+      "Title": "ErrDiscStarMax",
+      "Template": "ErrorCode.112205.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112205.1",
+          "zh_TW": "祕紋已達最大星數",
+          "zh_CN": "秘纹已达到最大星数",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112301": {
+      "Id": 112301,
+      "Title": "ErrStarTowerRankSeasonNoData",
+      "Template": "ErrorCode.112301.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112301.1",
+          "zh_TW": "賽季不存在",
+          "zh_CN": "赛季不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112302": {
+      "Id": 112302,
+      "Title": "ErrStarTowerRankSeasonNotYetOpen",
+      "Template": "ErrorCode.112302.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112302.1",
+          "zh_TW": "賽季尚未開始",
+          "zh_CN": "赛季尚未开始",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112303": {
+      "Id": 112303,
+      "Title": "ErrStarTowerRankSeasonEnd",
+      "Template": "ErrorCode.112303.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112303.1",
+          "zh_TW": "賽季已結束",
+          "zh_CN": "赛季已经结束",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112401": {
+      "Id": 112401,
+      "Title": "ErrAgentNoData",
+      "Template": "ErrorCode.112401.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112401.1",
+          "zh_TW": "委託不存在",
+          "zh_CN": "委托不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112402": {
+      "Id": 112402,
+      "Title": "ErrAgentInProcess",
+      "Template": "ErrorCode.112402.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112402.1",
+          "zh_TW": "委託進行中",
+          "zh_CN": "委托正在进行中",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112403": {
+      "Id": 112403,
+      "Title": "ErrAgentCond",
+      "Template": "ErrorCode.112403.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112403.1",
+          "zh_TW": "委託條件未符合",
+          "zh_CN": "委托条件不满足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112404": {
+      "Id": 112404,
+      "Title": "ErrAgentCharOccupied",
+      "Template": "ErrorCode.112404.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112404.1",
+          "zh_TW": "委託角色禁用",
+          "zh_CN": "委托角色禁用",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112405": {
+      "Id": 112405,
+      "Title": "ErrAgentBuildOccupied",
+      "Template": "ErrorCode.112405.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112405.1",
+          "zh_TW": "委託構築禁用",
+          "zh_CN": "委托构筑禁用",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112406": {
+      "Id": 112406,
+      "Title": "ErrAgentBuildScoreLow",
+      "Template": "ErrorCode.112406.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112406.1",
+          "zh_TW": "委託評分未符合",
+          "zh_CN": "委托评分不满足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112407": {
+      "Id": 112407,
+      "Title": "ErrAgentCountLimit",
+      "Template": "ErrorCode.112407.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112407.1",
+          "zh_TW": "委託數量已達上限",
+          "zh_CN": "委托数量达到上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112408": {
+      "Id": 112408,
+      "Title": "ErrAgentDailyLimit",
+      "Template": "ErrorCode.112408.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112408.1",
+          "zh_TW": "每日委託派遣數量已達上限",
+          "zh_CN": "委托派遣每日数量达到上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112409": {
+      "Id": 112409,
+      "Title": "ErrAgentWeeklyLimit",
+      "Template": "ErrorCode.112409.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112409.1",
+          "zh_TW": "每週委託派遣數量已達上限",
+          "zh_CN": "委托派遣每周数量达到上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112410": {
+      "Id": 112410,
+      "Title": "ErrAgentNotCompleted",
+      "Template": "ErrorCode.112410.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112410.1",
+          "zh_TW": "委託尚未完成",
+          "zh_CN": "委托未完成",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112501": {
+      "Id": 112501,
+      "Title": "ErrVampireSurvivorBuildNum",
+      "Template": "ErrorCode.112501.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112501.1",
+          "zh_TW": "災變防線：紀錄數量錯誤",
+          "zh_CN": "灾变防线：纪录数量错误",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112502": {
+      "Id": 112502,
+      "Title": "ErrVampireSurvivorBuildCharRepetition",
+      "Template": "ErrorCode.112502.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112502.1",
+          "zh_TW": "災變防線：紀錄角色重複",
+          "zh_CN": "灾变防线：纪录角色重复",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112601": {
+      "Id": 112601,
+      "Title": "ErrTowerGrowthGroupActivated",
+      "Template": "ErrorCode.112601.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112601.1",
+          "zh_TW": "星塔研究：節點組已啟動",
+          "zh_CN": "星塔研究:节点组已经激活",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112701": {
+      "Id": 112701,
+      "Title": "ErrJointDrillNotExist",
+      "Template": "ErrorCode.112701.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112701.1",
+          "zh_TW": "挑戰不存在",
+          "zh_CN": "挑战不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112702": {
+      "Id": 112702,
+      "Title": "ErrJointDrillInProgress",
+      "Template": "ErrorCode.112702.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112702.1",
+          "zh_TW": "挑戰正在進行中",
+          "zh_CN": "挑战正在进行中",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112703": {
+      "Id": 112703,
+      "Title": "ErrJointDrillNotYetOpen",
+      "Template": "ErrorCode.112703.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112703.1",
+          "zh_TW": "終焉絕響暫未開始",
+          "zh_CN": "终焉绝响暂未开始",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112704": {
+      "Id": 112704,
+      "Title": "ErrJointDrillAlreadyClosed",
+      "Template": "ErrorCode.112704.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112704.1",
+          "zh_TW": "挑戰已結束",
+          "zh_CN": "挑战已结束",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112801": {
+      "Id": 112801,
+      "Title": "ErrScoreBossNotOpen",
+      "Template": "ErrorCode.112801.1",
+      "ShowType": 2,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112801.1",
+          "zh_TW": "聯合討伐目前未開啟",
+          "zh_CN": "联合讨伐当前未开启",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "112901": {
+      "Id": 112901,
+      "Title": "ErrNickNameResetLimit",
+      "Template": "ErrorCode.112901.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.112901.1",
+          "zh_TW": "暱稱冷卻中，請稍後再試。",
+          "zh_CN": "昵称冷却中，请稍后再试。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "11300": {
+      "Id": 11300,
+      "Title": "ErrTraceHuntControlEnd",
+      "Template": "ErrorCode.11300.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.11300.1",
+          "zh_TW": "獵影重圍賽季已結束",
+          "zh_CN": "猎影合围赛季已结束",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "11301": {
+      "Id": 11301,
+      "Title": "ErrTraceHuntBossTimeout",
+      "Template": "ErrorCode.11301.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.11301.1",
+          "zh_TW": "目標已被討伐，請選擇其他目標",
+          "zh_CN": "目标已被讨伐，请选择其它目标",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "11401": {
+      "Id": 11401,
+      "Title": "ErrSoldierNoData",
+      "Template": "ErrorCode.11401.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.11401.1",
+          "zh_TW": "資料不存在",
+          "zh_CN": "数据不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "11402": {
+      "Id": 11402,
+      "Title": "ErrSoldierInProgress",
+      "Template": "ErrorCode.11402.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.11402.1",
+          "zh_TW": "戰鬥正在進行中",
+          "zh_CN": "战斗正在进行中",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119901": {
+      "Id": 119901,
+      "Title": "ErrCapOverflow",
+      "Template": "ErrorCode.119901.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119901.1",
+          "zh_TW": "倉庫容量不足",
+          "zh_CN": "仓库容量不足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119902": {
+      "Id": 119902,
+      "Title": "ErrConfig",
+      "Template": "ErrorCode.119902.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119902.1",
+          "zh_TW": "配置錯誤：%s",
+          "zh_CN": "配置错误：%s",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119903": {
+      "Id": 119903,
+      "Title": "ErrCondCheck",
+      "Template": "ErrorCode.119903.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119903.1",
+          "zh_TW": "資源不足",
+          "zh_CN": "资源不足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119904": {
+      "Id": 119904,
+      "Title": "ErrNotYetOpen",
+      "Template": "ErrorCode.119904.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119904.1",
+          "zh_TW": "尚未開放",
+          "zh_CN": "尚未开放",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119905": {
+      "Id": 119905,
+      "Title": "ErrAlreadyClosed",
+      "Template": "ErrorCode.119905.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119905.1",
+          "zh_TW": "內容已關閉，請退出並刷新相關頁面",
+          "zh_CN": "内容已关闭，请退出并刷新相关页面",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119906": {
+      "Id": 119906,
+      "Title": "ErrCondNotMet",
+      "Template": "ErrorCode.119906.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119906.1",
+          "zh_TW": "條件未符合",
+          "zh_CN": "条件不满足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119907": {
+      "Id": 119907,
+      "Title": "ErrInsufficientWorldClass",
+      "Template": "ErrorCode.119907.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119907.1",
+          "zh_TW": "權限等級不足",
+          "zh_CN": "权限等级不足",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119908": {
+      "Id": 119908,
+      "Title": "ErrNoRewardsToReceive",
+      "Template": "ErrorCode.119908.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119908.1",
+          "zh_TW": "無獎勵可領取",
+          "zh_CN": "无奖励可领",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119909": {
+      "Id": 119909,
+      "Title": "ErrAlreayExists",
+      "Template": "ErrorCode.119909.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119909.1",
+          "zh_TW": "已存在",
+          "zh_CN": "已经存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119910": {
+      "Id": 119910,
+      "Title": "ErrExchangeNotSupported",
+      "Template": "ErrorCode.119910.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119910.1",
+          "zh_TW": "不支援兌換",
+          "zh_CN": "不支持兑换",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119911": {
+      "Id": 119911,
+      "Title": "ErrRequestTooFrequent",
+      "Template": "ErrorCode.119911.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119911.1",
+          "zh_TW": "請求過於頻繁，請稍後再試",
+          "zh_CN": "请求太频繁，请稍后再试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119912": {
+      "Id": 119912,
+      "Title": "ErrAlreaydReceive",
+      "Template": "ErrorCode.119912.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119912.1",
+          "zh_TW": "已領取",
+          "zh_CN": "已经领取",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119913": {
+      "Id": 119913,
+      "Title": "ErrLimit",
+      "Template": "ErrorCode.119913.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119913.1",
+          "zh_TW": "已達上限",
+          "zh_CN": "已达上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119914": {
+      "Id": 119914,
+      "Title": "ErrDataUpdated",
+      "Template": "ErrorCode.119914.1",
+      "ShowType": 3,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119914.1",
+          "zh_TW": "資料已更新，請稍後重試",
+          "zh_CN": "数据已更新，请稍后重试",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    },
+    "119915": {
+      "Id": 119915,
+      "Title": "ErrActivityNotExist",
+      "Template": "ErrorCode.119915.1",
+      "ShowType": 1,
+      "_localized": {
+        "/Template": {
+          "key": "ErrorCode.119915.1",
+          "zh_TW": "活動不存在",
+          "zh_CN": "活动不存在",
+          "sources": {
+            "zh_TW": "language/zh_TW/ErrorCode.json",
+            "zh_CN": "language/zh_CN/ErrorCode.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "table": "TrialDisc",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d81dea48685e0f15.bin",
+  "source_sha256": "e499a069243cc0dacdf156a804b2df89f56afe4bf9bfee49beacc36b237cbd09",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\TrialDisc.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 213
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "reference_field_order": [
+      "Id",
+      "DiscId",
+      "Phase",
+      "Level",
+      "Star"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 5,
+    "remaining_name_count": 5,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 213,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "DiscId",
+        "matching_reference_rows": 213,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Phase",
+        "matching_reference_rows": 140,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Level",
+        "matching_reference_rows": 213,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Star",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 213,
+      "compared_reference_rows": 213,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_int",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 213
+        }
+      ]
+    },
+    "2": {
+      "field": "DiscId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 213,
+      "compared_reference_rows": 213,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_int",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 213
+        }
+      ]
+    },
+    "3": {
+      "field": "Phase",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 140,
+      "compared_reference_rows": 140,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 140,
+          "compared": 140
+        },
+        {
+          "codec": "varint_int",
+          "matches": 140,
+          "compared": 140
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 140
+        }
+      ]
+    },
+    "4": {
+      "field": "Level",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 213,
+      "compared_reference_rows": 213,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_int",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 213
+        }
+      ]
+    },
+    "5": {
+      "field": "Star",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 213,
+    "reference_row_count": 213,
+    "shared_key_count": 213,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 213,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

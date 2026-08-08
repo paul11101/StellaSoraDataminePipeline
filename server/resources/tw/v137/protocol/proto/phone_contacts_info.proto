@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message PhoneContactsInfoResp {
+  repeated .proto.Contacts List = 1;
+  bytes NextPackage = 2047;
+}

@@ -1,0 +1,209 @@
+{
+  "table": "AttributeSetLimit",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\be0a5ead0442a813.bin",
+  "source_sha256": "603ec411f80486d859accbbac92ddf67c7280612f274699fb71b71a91b8905eb",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\AttributeSetLimit.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 6
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "reference_field_order": [
+      "Id",
+      "Lower",
+      "Upper",
+      "IsLimited",
+      "IsPlayer"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "Lower",
+      "3": "Upper",
+      "4": "IsLimited",
+      "5": "IsPlayer"
+    },
+    "aot_field_count": 5,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 6,
+      "compared_reference_rows": 6,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_int",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 6
+        }
+      ]
+    },
+    "2": {
+      "field": "Lower",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "3": {
+      "field": "Upper",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 6,
+      "compared_reference_rows": 6,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_int",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 6
+        }
+      ]
+    },
+    "4": {
+      "field": "IsLimited",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 3,
+      "compared_reference_rows": 3,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 3,
+          "compared": 3
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 3
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 3
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3
+        }
+      ]
+    },
+    "5": {
+      "field": "IsPlayer",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 2
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 2
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 6,
+    "reference_row_count": 6,
+    "shared_key_count": 6,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 6,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

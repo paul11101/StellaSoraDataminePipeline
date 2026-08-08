@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "Stella Sora TW 本地逆向资料库",
+  "generated_at": "2026-08-02T03:50:05.729655+08:00",
+  "installed_client": {
+    "root": "C:\\StargazerGames\\StellaSora_TW",
+    "manifest": "C:\\StargazerGames\\StellaSora_TW\\manifest.json",
+    "manifest_sha256": "ca654cb38b4ec8ba2f2f76fe709ce3c6651c24d984d2f1274a5da2095f0b5706",
+    "name": "StellaSora_TW",
+    "version": "1.13.0",
+    "basis": "prod/ZIP_TEMP/StellaSora_TW_TEMP/StellaSora_TW-1.13.5-game.zip",
+    "file_count": 8281
+  },
+  "resource_snapshot": {
+    "resource_version": 137,
+    "fetched_at_utc": "2026-08-01T18:13:22.826307+00:00",
+    "derivation": "URLs, AES key, and format recovered from installed TW client",
+    "data_archive": {
+      "path": "<analysis-root>\\output\\tw_current\\data.arcx",
+      "size": 21279260,
+      "md5": "ec8cdef640958177929296694f901a56",
+      "sha256": "2d62896e8b1988f64c7c7824ba46021b94b108a0efe99d58e2d90dc25df7e980"
+    },
+    "hotfix_archive": {
+      "path": "<analysis-root>\\output\\tw_current\\hotfix.arch",
+      "size": 6692759,
+      "md5": "240488bcf3421e80e14aa3bf5883b2b0",
+      "sha256": "5de153a5fe23bca0aa9ef10690431e5e4e0bb52430d97194038f07882da6ca46"
+    },
+    "archive_entry_count": 921,
+    "archive_name_map": "<analysis-root>\\output\\tw_current\\archive_name_map.confirmed.json"
+  },
+  "reverse_engineering": {
+    "archive": "BAR v102；XXH64 路径哈希；逐项 XOR 解密并按标志 LZ4 解压。",
+    "table_crypto": "AC.DA：MD5 派生 128 位密钥；XXTEA 解密并恢复原始长度。",
+    "table_container": "0x00039354 头；列表/字典模式；字符串、uint32、uint64 主键；ushort 行长。",
+    "row_encoding": "Google Protobuf wire format；本地 AOT *FieldNumber 常量优先提供字段号。",
+    "hotfix_note": "Hotfix.dll 为 HybridCLR CDPH 商业加固格式；AOT 不可见表的显示字段名使用参考 schema 后再由本地 wire 数据验证。"
+  },
+  "reference_schema": {
+    "url": "https://github.com/Hiro420/StellaSoraData",
+    "commit": "02df46c59cb7bf71045e512bc53910eed21773a2",
+    "authored_at": "2026-07-31T06:14:55+03:00",
+    "subject": "Auto-Update TW [137]",
+    "local_path": "<analysis-root>\\reference\\StellaSoraData",
+    "usage": "只作为 480 个表名候选、字段显示名/类型 oracle 和逐行校验快照；候选路径必须命中本地 XXH64，最终字段值全部从本地归档 protobuf 解码。",
+    "copied_values": false,
+    "exact_table_matches": 479,
+    "different_table": "VoDirectory"
+  },
+  "naming_provenance": {
+    "archive_entries": 921,
+    "named_without_external_candidate": 729,
+    "external_candidate_required": 192,
+    "external_candidate_rule": "仅采用经本地归档 XXH64 精确命中的文件名。"
+  },
+  "value_provenance": "bin/、language/、bubble/ 和 dirty_words/ 的数据值均来自本地工作区中重建并解密的 TW 资源归档；readable/ 只是这些本地值与本地语言 JSON 的确定性合并。"
+}

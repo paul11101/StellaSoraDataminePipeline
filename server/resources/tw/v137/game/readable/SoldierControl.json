@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SoldierControl",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 1,
+    "localization_hits": 1,
+    "source": "bin/SoldierControl.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "900001": {
+      "Id": 900001,
+      "UIAssets": "_900001/Entrance",
+      "CtrlName": "SoldierActCtrl",
+      "RewardsShow": "[35010,35000,35001,35002,35003,30004,50004,1]",
+      "DesText": "SoldierControl.900001.1",
+      "DictionaryId": 400901,
+      "_localized": {
+        "/DesText": {
+          "key": "SoldierControl.900001.1",
+          "zh_TW": "\u000b【活動時間】\u000b2026/07/21 12:00～2026/08/04 04:00 \u000b\u000b【參加條件】\u000b權限等級≥10級\u000b\u000b【活動說明】\u000b1、在「尖兵陷陣」模式中，您將與神秘的智者對弈，以您麾下的旅人或是曾為敵為友的強力成員作為棋子，展開棋局！\u000b2、完成對弈挑戰將會累積積分，累積至任務所需積分即可完成任務獲得獎勵。",
+          "zh_CN": "\u000b【活动时间】\u000b2026/07/21 12:00~2026/08/04 04:00 \u000b\u000b【参与条件】\u000b权限等级≥10级\u000b\u000b【活动说明】\u000b1、在“尖兵陷阵”模式中，您将与神秘的智者对弈，以您麾下的旅人或是曾为敌为友的强力成员作为棋子，展开棋局！。\u000b2、完成对弈挑战将会累计积分，累计至任务所需积分即可完成任务获得奖励。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierControl.json",
+            "zh_CN": "language/zh_CN/SoldierControl.json"
+          }
+        }
+      }
+    }
+  }
+}

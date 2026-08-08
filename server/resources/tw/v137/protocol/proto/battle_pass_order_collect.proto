@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message BattlePassOrderCollectResp {
+  .proto.CollectResp CollectResp = 1;
+  uint32 Mode = 2;
+  uint32 Level = 3;
+  uint32 Version = 4;
+  bytes NextPackage = 2047;
+}

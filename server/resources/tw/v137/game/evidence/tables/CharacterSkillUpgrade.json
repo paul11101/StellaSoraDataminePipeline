@@ -1,0 +1,464 @@
+{
+  "table": "CharacterSkillUpgrade",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f992cd4803bc71d7.bin",
+  "source_sha256": "ca059bab63a4ddea77a6648ef2c84dd82da320427c94c1e1baf4c4fcab3e9c32",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\CharacterSkillUpgrade.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 370
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "reference_field_order": [
+      "Id",
+      "Group",
+      "AdvanceNum",
+      "Tid1",
+      "Qty1",
+      "Tid2",
+      "Qty2",
+      "Tid3",
+      "Qty3",
+      "Tid4",
+      "Qty4",
+      "GoldQty"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 12,
+    "remaining_name_count": 12,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 370,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Group",
+        "matching_reference_rows": 370,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "AdvanceNum",
+        "matching_reference_rows": 333,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Tid1",
+        "matching_reference_rows": 333,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Qty1",
+        "matching_reference_rows": 333,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "Tid2",
+        "matching_reference_rows": 333,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "Qty2",
+        "matching_reference_rows": 333,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "Tid3",
+        "matching_reference_rows": 259,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "Qty3",
+        "matching_reference_rows": 259,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "Tid4",
+        "matching_reference_rows": 185,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "Qty4",
+        "matching_reference_rows": 185,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "GoldQty",
+        "matching_reference_rows": 333,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 370,
+      "compared_reference_rows": 370,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 370,
+          "compared": 370
+        },
+        {
+          "codec": "varint_int",
+          "matches": 370,
+          "compared": 370
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 370
+        }
+      ]
+    },
+    "2": {
+      "field": "Group",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 370,
+      "compared_reference_rows": 370,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 370,
+          "compared": 370
+        },
+        {
+          "codec": "varint_int",
+          "matches": 370,
+          "compared": 370
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 370
+        }
+      ]
+    },
+    "3": {
+      "field": "AdvanceNum",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 333,
+      "compared_reference_rows": 333,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 333,
+          "compared": 333
+        },
+        {
+          "codec": "varint_int",
+          "matches": 333,
+          "compared": 333
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 333
+        }
+      ]
+    },
+    "4": {
+      "field": "Tid1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 333,
+      "compared_reference_rows": 333,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 333,
+          "compared": 333
+        },
+        {
+          "codec": "varint_int",
+          "matches": 333,
+          "compared": 333
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 333
+        }
+      ]
+    },
+    "5": {
+      "field": "Qty1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 333,
+      "compared_reference_rows": 333,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 333,
+          "compared": 333
+        },
+        {
+          "codec": "varint_int",
+          "matches": 333,
+          "compared": 333
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 333
+        }
+      ]
+    },
+    "6": {
+      "field": "Tid2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 333,
+      "compared_reference_rows": 333,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 333,
+          "compared": 333
+        },
+        {
+          "codec": "varint_int",
+          "matches": 333,
+          "compared": 333
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 333
+        }
+      ]
+    },
+    "7": {
+      "field": "Qty2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 333,
+      "compared_reference_rows": 333,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 333,
+          "compared": 333
+        },
+        {
+          "codec": "varint_int",
+          "matches": 333,
+          "compared": 333
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 333
+        }
+      ]
+    },
+    "8": {
+      "field": "Tid3",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 259,
+      "compared_reference_rows": 259,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 259,
+          "compared": 259
+        },
+        {
+          "codec": "varint_int",
+          "matches": 259,
+          "compared": 259
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 259
+        }
+      ]
+    },
+    "9": {
+      "field": "Qty3",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 259,
+      "compared_reference_rows": 259,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 259,
+          "compared": 259
+        },
+        {
+          "codec": "varint_int",
+          "matches": 259,
+          "compared": 259
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 259
+        }
+      ]
+    },
+    "10": {
+      "field": "Tid4",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 185,
+      "compared_reference_rows": 185,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 185,
+          "compared": 185
+        },
+        {
+          "codec": "varint_int",
+          "matches": 185,
+          "compared": 185
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 185
+        }
+      ]
+    },
+    "11": {
+      "field": "Qty4",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 185,
+      "compared_reference_rows": 185,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 185,
+          "compared": 185
+        },
+        {
+          "codec": "varint_int",
+          "matches": 185,
+          "compared": 185
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 185
+        }
+      ]
+    },
+    "12": {
+      "field": "GoldQty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 333,
+      "compared_reference_rows": 333,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 333,
+          "compared": 333
+        },
+        {
+          "codec": "varint_int",
+          "matches": 333,
+          "compared": 333
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 333
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 370,
+    "reference_row_count": 370,
+    "shared_key_count": 370,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 370,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

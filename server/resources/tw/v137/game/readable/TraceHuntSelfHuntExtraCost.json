@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TraceHuntSelfHuntExtraCost",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 5,
+    "localization_hits": 0,
+    "source": "bin/TraceHuntSelfHuntExtraCost.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "0": {
+      "Times": 1,
+      "ExtraCost1Tid": 39,
+      "ExtraCost1Qty": 2
+    },
+    "1": {
+      "Times": 2,
+      "ExtraCost1Tid": 39,
+      "ExtraCost1Qty": 2
+    },
+    "2": {
+      "Times": 3,
+      "ExtraCost1Tid": 39,
+      "ExtraCost1Qty": 2
+    },
+    "3": {
+      "Times": 4,
+      "ExtraCost1Tid": 39,
+      "ExtraCost1Qty": 2
+    },
+    "4": {
+      "Times": 5,
+      "ExtraCost1Tid": 39,
+      "ExtraCost1Qty": 2
+    }
+  }
+}

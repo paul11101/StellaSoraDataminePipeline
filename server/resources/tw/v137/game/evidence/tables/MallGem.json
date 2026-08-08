@@ -1,0 +1,534 @@
+{
+  "table": "MallGem",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\bd72e5ca09d3ba45.bin",
+  "source_sha256": "51b05b36f288b07942ccca43cc651d55290c451e0b90a6bde1869a437ad30985",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\MallGem.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 0,
+    "row_count": 7
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "reference_field_order": [
+      "Id",
+      "Name",
+      "Desc",
+      "StatisticalGroup",
+      "Order",
+      "BaseItemId",
+      "BaseItemQty",
+      "ExperiencedBonusItemId",
+      "ExperiencedBonusItemQty",
+      "MaidenBonusItemID",
+      "MaidenBonusItemQty",
+      "Price",
+      "ShowPrice",
+      "Icon",
+      "IconBg"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 15,
+    "remaining_name_count": 15,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Name",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Desc",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "StatisticalGroup",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Order",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "BaseItemId",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "BaseItemQty",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "ExperiencedBonusItemId",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "ExperiencedBonusItemQty",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "MaidenBonusItemID",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "MaidenBonusItemQty",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "Price",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "ShowPrice",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "14": {
+        "field": "Icon",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "15": {
+        "field": "IconBg",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "2": {
+      "field": "Name",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "3": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "4": {
+      "field": "StatisticalGroup",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "5": {
+      "field": "Order",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "6": {
+      "field": "BaseItemId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "7": {
+      "field": "BaseItemQty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "8": {
+      "field": "ExperiencedBonusItemId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "9": {
+      "field": "ExperiencedBonusItemQty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "10": {
+      "field": "MaidenBonusItemID",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "11": {
+      "field": "MaidenBonusItemQty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "12": {
+      "field": "Price",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "13": {
+      "field": "ShowPrice",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "14": {
+      "field": "Icon",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "15": {
+      "field": "IconBg",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 7,
+    "reference_row_count": 7,
+    "shared_key_count": 7,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 7,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

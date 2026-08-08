@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StorySetTab",
+    "categories": [
+      "story_social"
+    ],
+    "row_count": 6,
+    "localization_hits": 6,
+    "source": "bin/StorySetTab.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "TabName": "StorySetTab.1.1",
+      "IsShow": true,
+      "IsAll": true,
+      "_localized": {
+        "/TabName": {
+          "key": "StorySetTab.1.1",
+          "zh_TW": "全部",
+          "zh_CN": "全部",
+          "sources": {
+            "zh_TW": "language/zh_TW/StorySetTab.json",
+            "zh_CN": "language/zh_CN/StorySetTab.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "TabName": "StorySetTab.2.1",
+      "IsShow": true,
+      "_localized": {
+        "/TabName": {
+          "key": "StorySetTab.2.1",
+          "zh_TW": "旅行手札",
+          "zh_CN": "旅途随笔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StorySetTab.json",
+            "zh_CN": "language/zh_CN/StorySetTab.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "TabName": "StorySetTab.3.1",
+      "IsShow": true,
+      "_localized": {
+        "/TabName": {
+          "key": "StorySetTab.3.1",
+          "zh_TW": "職場頻道",
+          "zh_CN": "职场热线",
+          "sources": {
+            "zh_TW": "language/zh_TW/StorySetTab.json",
+            "zh_CN": "language/zh_CN/StorySetTab.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "TabName": "StorySetTab.4.1",
+      "IsShow": true,
+      "_localized": {
+        "/TabName": {
+          "key": "StorySetTab.4.1",
+          "zh_TW": "荒野軼事",
+          "zh_CN": "荒野快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/StorySetTab.json",
+            "zh_CN": "language/zh_CN/StorySetTab.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "TabName": "StorySetTab.5.1",
+      "IsShow": true,
+      "_localized": {
+        "/TabName": {
+          "key": "StorySetTab.5.1",
+          "zh_TW": "城邦風物誌",
+          "zh_CN": "风情杂记",
+          "sources": {
+            "zh_TW": "language/zh_TW/StorySetTab.json",
+            "zh_CN": "language/zh_CN/StorySetTab.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "TabName": "StorySetTab.6.1",
+      "_localized": {
+        "/TabName": {
+          "key": "StorySetTab.6.1",
+          "zh_TW": "異界祕辛",
+          "zh_CN": "异界秘辛",
+          "sources": {
+            "zh_TW": "language/zh_TW/StorySetTab.json",
+            "zh_CN": "language/zh_CN/StorySetTab.json"
+          }
+        }
+      }
+    }
+  }
+}

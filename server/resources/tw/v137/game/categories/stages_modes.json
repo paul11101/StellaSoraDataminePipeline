@@ -1,0 +1,4166 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "stages_modes",
+    "name": "关卡与玩法模式",
+    "description": "楼层、关卡、副本、塔、Boss、试炼和各类活动玩法。",
+    "table_count": 237,
+    "row_count": 24895,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "ActivityAvgLevel",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 11,
+      "data": "bin/ActivityAvgLevel.json",
+      "readable": "readable/ActivityAvgLevel.json",
+      "evidence": "evidence/tables/ActivityAvgLevel.json",
+      "source_sha256": "f2f44c7eaf6cf81f8d9ae6bd3d8b517b88e02091cd067b7f44c8cc50a2885cc7",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+      "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+    },
+    {
+      "table": "ActivityIceCreamLevel",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 7,
+      "data": "bin/ActivityIceCreamLevel.json",
+      "readable": "readable/ActivityIceCreamLevel.json",
+      "evidence": "evidence/tables/ActivityIceCreamLevel.json",
+      "source_sha256": "aceb12598cf362cd9e86ddcfa611cd64a276c92678606f65f5f50d97370eb034",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+      "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+    },
+    {
+      "table": "ActivityLevelsFloor",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 287,
+      "data": "bin/ActivityLevelsFloor.json",
+      "readable": "readable/ActivityLevelsFloor.json",
+      "evidence": "evidence/tables/ActivityLevelsFloor.json",
+      "source_sha256": "a644cae8f05383426a36748400dfac2894b02d226f768c05ae74cb6dc5b9c7df",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ActivityLevelsLevel",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 260,
+      "data": "bin/ActivityLevelsLevel.json",
+      "readable": "readable/ActivityLevelsLevel.json",
+      "evidence": "evidence/tables/ActivityLevelsLevel.json",
+      "source_sha256": "6d9e8470a303cad4a648da289578cf649fbc541d4091fbecdd565a2acdf7da54",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityLevelsLevel.json",
+      "zh_CN": "language/zh_CN/ActivityLevelsLevel.json"
+    },
+    {
+      "table": "ActivityPenguinCardLevel",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 17,
+      "data": "bin/ActivityPenguinCardLevel.json",
+      "readable": "readable/ActivityPenguinCardLevel.json",
+      "evidence": "evidence/tables/ActivityPenguinCardLevel.json",
+      "source_sha256": "5d3a514631ecb2c68631a3d0a7fd35d3f618dba173487cb13a1da197acc4ea7e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+      "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+    },
+    {
+      "table": "ActivityPenguinCardQuest",
+      "categories": [
+        "quests",
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 30,
+      "data": "bin/ActivityPenguinCardQuest.json",
+      "readable": "readable/ActivityPenguinCardQuest.json",
+      "evidence": "evidence/tables/ActivityPenguinCardQuest.json",
+      "source_sha256": "22827d169d5c5074acbe1f80459efc3e3dbcb99da8120f21ee19d296e1721522",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityPenguinCardQuest.json",
+      "zh_CN": "language/zh_CN/ActivityPenguinCardQuest.json"
+    },
+    {
+      "table": "ActivityPenguinCardQuestGroup",
+      "categories": [
+        "quests",
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 5,
+      "data": "bin/ActivityPenguinCardQuestGroup.json",
+      "readable": "readable/ActivityPenguinCardQuestGroup.json",
+      "evidence": "evidence/tables/ActivityPenguinCardQuestGroup.json",
+      "source_sha256": "7083595e39883c50b34245fcb2d6e96d79c7ad2fff83895097418a6081646299",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityPenguinCardQuestGroup.json",
+      "zh_CN": "language/zh_CN/ActivityPenguinCardQuestGroup.json"
+    },
+    {
+      "table": "AffinityLevel",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 100,
+      "data": "bin/AffinityLevel.json",
+      "readable": "readable/AffinityLevel.json",
+      "evidence": "evidence/tables/AffinityLevel.json",
+      "source_sha256": "c92782092ae1edd9583f0015992cac33b00995fcb75225692595dc59b8a55d6e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/AffinityLevel.json",
+      "zh_CN": "language/zh_CN/AffinityLevel.json"
+    },
+    {
+      "table": "BattlePassLevel",
+      "categories": [
+        "combat",
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 80,
+      "data": "bin/BattlePassLevel.json",
+      "readable": "readable/BattlePassLevel.json",
+      "evidence": "evidence/tables/BattlePassLevel.json",
+      "source_sha256": "896e487841bb7b5666376cea8a97b2e54ec5699a7d980464f4a87591fee3bef4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BreakOutCharacter",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 5,
+      "data": "bin/BreakOutCharacter.json",
+      "readable": "readable/BreakOutCharacter.json",
+      "evidence": "evidence/tables/BreakOutCharacter.json",
+      "source_sha256": "7ac4ba503499df0bb3b7a9fe603b62e08c6c620193baa6078a43f46dd265802a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/BreakOutCharacter.json",
+      "zh_CN": "language/zh_CN/BreakOutCharacter.json"
+    },
+    {
+      "table": "BreakOutControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 2,
+      "data": "bin/BreakOutControl.json",
+      "readable": "readable/BreakOutControl.json",
+      "evidence": "evidence/tables/BreakOutControl.json",
+      "source_sha256": "491326f85ea257888b6a90c3aac417237bee0b3cb74340a07cceb9e380620415",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BreakOutEnemySpr",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 33,
+      "data": "bin/BreakOutEnemySpr.json",
+      "readable": "readable/BreakOutEnemySpr.json",
+      "evidence": "evidence/tables/BreakOutEnemySpr.json",
+      "source_sha256": "5cf9a95ded1fa0efaf062d40a8acde41f6d7dc9b0e6900826b726bfdafc5a04f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BreakOutFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 16,
+      "data": "bin/BreakOutFloor.json",
+      "readable": "readable/BreakOutFloor.json",
+      "evidence": "evidence/tables/BreakOutFloor.json",
+      "source_sha256": "9bf64f54c3fcb2fddfcca879c6f8aeb7c9ba71f86b0911f7f26d1d6061c9e1b8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BreakOutLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 16,
+      "data": "bin/BreakOutLevel.json",
+      "readable": "readable/BreakOutLevel.json",
+      "evidence": "evidence/tables/BreakOutLevel.json",
+      "source_sha256": "db55e7bef510d63c8ffbf70c2f0099b975be83fb37ec6f3ee8a084593b7a3a8e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/BreakOutLevel.json",
+      "zh_CN": "language/zh_CN/BreakOutLevel.json"
+    },
+    {
+      "table": "CharGemInstance",
+      "categories": [
+        "characters",
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 9,
+      "data": "bin/CharGemInstance.json",
+      "readable": "readable/CharGemInstance.json",
+      "evidence": "evidence/tables/CharGemInstance.json",
+      "source_sha256": "41cb56b5491999deb8fac4c02c985e3e6f0ac450ad5cb7e873a3afd3f9fbb270",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharGemInstance.json",
+      "zh_CN": "language/zh_CN/CharGemInstance.json"
+    },
+    {
+      "table": "CharGemInstanceFloor",
+      "categories": [
+        "characters",
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 9,
+      "data": "bin/CharGemInstanceFloor.json",
+      "readable": "readable/CharGemInstanceFloor.json",
+      "evidence": "evidence/tables/CharGemInstanceFloor.json",
+      "source_sha256": "2fc4dd855ded83d2ab91c88a0469a80f9b07c9f5fc471964826639a65d14c116",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharGemInstanceType",
+      "categories": [
+        "characters",
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/CharGemInstanceType.json",
+      "readable": "readable/CharGemInstanceType.json",
+      "evidence": "evidence/tables/CharGemInstanceType.json",
+      "source_sha256": "bbaea14542de3d470a4420686950493039d862d392d3038706e267f3f932714d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharGemInstanceType.json",
+      "zh_CN": "language/zh_CN/CharGemInstanceType.json"
+    },
+    {
+      "table": "CookieControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/CookieControl.json",
+      "readable": "readable/CookieControl.json",
+      "evidence": "evidence/tables/CookieControl.json",
+      "source_sha256": "7e967f8f77d6d4e52d703b5b942138cdea1d66d0b1fdfd948d4d9a6527c92b3b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CookieFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 64,
+      "data": "bin/CookieFloor.json",
+      "readable": "readable/CookieFloor.json",
+      "evidence": "evidence/tables/CookieFloor.json",
+      "source_sha256": "1590a98bfdfaf52edb94d6a89f425edd12ac3fa8cb148b5f754c38589ec76747",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CookieLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 32,
+      "data": "bin/CookieLevel.json",
+      "readable": "readable/CookieLevel.json",
+      "evidence": "evidence/tables/CookieLevel.json",
+      "source_sha256": "ee2ea952aefbf7f8f0422f4a139f0b9a63342ebb3006382c3c2f4d0940a06dbc",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CookieLevel.json",
+      "zh_CN": "language/zh_CN/CookieLevel.json"
+    },
+    {
+      "table": "CookiePackagePathsGroup",
+      "categories": [
+        "stages_modes",
+        "shop_economy"
+      ],
+      "row_count": 25,
+      "data": "bin/CookiePackagePathsGroup.json",
+      "readable": "readable/CookiePackagePathsGroup.json",
+      "evidence": "evidence/tables/CookiePackagePathsGroup.json",
+      "source_sha256": "a02946e1069031f1af73bd829f5735bd7ef2e3fb4bfa8bd3a70d04d910bced8a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CookieQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/CookieQuest.json",
+      "readable": "readable/CookieQuest.json",
+      "evidence": "evidence/tables/CookieQuest.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CookieRhythmlResult",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/CookieRhythmlResult.json",
+      "readable": "readable/CookieRhythmlResult.json",
+      "evidence": "evidence/tables/CookieRhythmlResult.json",
+      "source_sha256": "d69ff104291cad105b502aeda83928f29f9cc97298b6dccbfbc0c47879d754ac",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DailyInstance",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 7,
+      "data": "bin/DailyInstance.json",
+      "readable": "readable/DailyInstance.json",
+      "evidence": "evidence/tables/DailyInstance.json",
+      "source_sha256": "9a5a0f0486b46bd2352a10ae8aa1b80efcd3a901da585650acccd98b70eba312",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DailyInstance.json",
+      "zh_CN": "language/zh_CN/DailyInstance.json"
+    },
+    {
+      "table": "DailyInstanceFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 8,
+      "data": "bin/DailyInstanceFloor.json",
+      "readable": "readable/DailyInstanceFloor.json",
+      "evidence": "evidence/tables/DailyInstanceFloor.json",
+      "source_sha256": "2a10f262e92d2ef0e7ebce082219ebe93e339dbe28bd2d072fa28a3567c137ab",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DailyInstanceRewardGroup",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 21,
+      "data": "bin/DailyInstanceRewardGroup.json",
+      "readable": "readable/DailyInstanceRewardGroup.json",
+      "evidence": "evidence/tables/DailyInstanceRewardGroup.json",
+      "source_sha256": "2c8cf402fef71e6ec341a1155afe4e677d3e7263850b9a17f3e4bcd9ad9eab66",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DailyInstanceRewardGroup.json",
+      "zh_CN": "language/zh_CN/DailyInstanceRewardGroup.json"
+    },
+    {
+      "table": "DailyInstanceType",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 1,
+      "data": "bin/DailyInstanceType.json",
+      "readable": "readable/DailyInstanceType.json",
+      "evidence": "evidence/tables/DailyInstanceType.json",
+      "source_sha256": "934934ae9eacf2811b3c0c158b59adfe4466f063b3bcea7c025d34fbb231cd07",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DailyInstanceType.json",
+      "zh_CN": "language/zh_CN/DailyInstanceType.json"
+    },
+    {
+      "table": "FloorBuff",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 154,
+      "data": "bin/FloorBuff.json",
+      "readable": "readable/FloorBuff.json",
+      "evidence": "evidence/tables/FloorBuff.json",
+      "source_sha256": "e7f902fe35bbf11ff3835115b5225888eab93d89e14d7ba2537d3e234e36a44e",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GoldenSpyBuffCard",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 59,
+      "data": "bin/GoldenSpyBuffCard.json",
+      "readable": "readable/GoldenSpyBuffCard.json",
+      "evidence": "evidence/tables/GoldenSpyBuffCard.json",
+      "source_sha256": "18f70362640d1048c7e8295a94a7b49fccf6f7f652e7c6afd7b5b11bc41832c5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/GoldenSpyBuffCard.json",
+      "zh_CN": "language/zh_CN/GoldenSpyBuffCard.json"
+    },
+    {
+      "table": "GoldenSpyBuffCardPool",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 96,
+      "data": "bin/GoldenSpyBuffCardPool.json",
+      "readable": "readable/GoldenSpyBuffCardPool.json",
+      "evidence": "evidence/tables/GoldenSpyBuffCardPool.json",
+      "source_sha256": "1a2df198f58e987e693fa99692199a6e5240f6aca8f2153560196cf709012e3e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GoldenSpyConfig",
+      "categories": [
+        "stages_modes",
+        "ui_system"
+      ],
+      "row_count": 4,
+      "data": "bin/GoldenSpyConfig.json",
+      "readable": "readable/GoldenSpyConfig.json",
+      "evidence": "evidence/tables/GoldenSpyConfig.json",
+      "source_sha256": "6c4d08c5202d69a07dbadad8a584e79c68bdc62a2dc3297a324f6098127b416d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GoldenSpyControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 2,
+      "data": "bin/GoldenSpyControl.json",
+      "readable": "readable/GoldenSpyControl.json",
+      "evidence": "evidence/tables/GoldenSpyControl.json",
+      "source_sha256": "39d5f6299286d08ef6be5f2c630fb2d3e54196001748d9c50db7f1129dc54098",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GoldenSpyExtraScore",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/GoldenSpyExtraScore.json",
+      "readable": "readable/GoldenSpyExtraScore.json",
+      "evidence": "evidence/tables/GoldenSpyExtraScore.json",
+      "source_sha256": "856fb87c3fe11890ad96f5959953904555508630601dd4e0417f52323ab182ab",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GoldenSpyFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 52,
+      "data": "bin/GoldenSpyFloor.json",
+      "readable": "readable/GoldenSpyFloor.json",
+      "evidence": "evidence/tables/GoldenSpyFloor.json",
+      "source_sha256": "8125391515b18603557da5bf7a9b42cda3151718811347cdc6aeecf3af9f039f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GoldenSpyItem",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 18,
+      "data": "bin/GoldenSpyItem.json",
+      "readable": "readable/GoldenSpyItem.json",
+      "evidence": "evidence/tables/GoldenSpyItem.json",
+      "source_sha256": "0406a0c537f2b00b599ad90d12ea2c2aac0787745707f9b2ed49449ffe10651d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+      "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+    },
+    {
+      "table": "GoldenSpyLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 14,
+      "data": "bin/GoldenSpyLevel.json",
+      "readable": "readable/GoldenSpyLevel.json",
+      "evidence": "evidence/tables/GoldenSpyLevel.json",
+      "source_sha256": "6296baf1374134e9d29b8f4e2d20f2328a04373476d7d0cbd9888ee7aacdf5c0",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+      "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+    },
+    {
+      "table": "GoldenSpyLevelGroup",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 8,
+      "data": "bin/GoldenSpyLevelGroup.json",
+      "readable": "readable/GoldenSpyLevelGroup.json",
+      "evidence": "evidence/tables/GoldenSpyLevelGroup.json",
+      "source_sha256": "50abea0dfd7b67c47851edb67214f2430eef2191ec3d5f237abb725c116a89ec",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/GoldenSpyLevelGroup.json",
+      "zh_CN": "language/zh_CN/GoldenSpyLevelGroup.json"
+    },
+    {
+      "table": "GoldenSpyObstacle",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 1,
+      "data": "bin/GoldenSpyObstacle.json",
+      "readable": "readable/GoldenSpyObstacle.json",
+      "evidence": "evidence/tables/GoldenSpyObstacle.json",
+      "source_sha256": "b5b9116476c8ac0a23f36234bd9c7c254d5638e3c5414c3ba05ac8a6408f43df",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GoldenSpySkill",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 2,
+      "data": "bin/GoldenSpySkill.json",
+      "readable": "readable/GoldenSpySkill.json",
+      "evidence": "evidence/tables/GoldenSpySkill.json",
+      "source_sha256": "a2d7b97ae61224730459338100dc45757a1dcf678aa2a66067716868ac6adbd6",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "HonorLevel",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 36,
+      "data": "bin/HonorLevel.json",
+      "readable": "readable/HonorLevel.json",
+      "evidence": "evidence/tables/HonorLevel.json",
+      "source_sha256": "5d799c603337ec6c295aeee70dd883763623dba6107eab46948aa561021e09e4",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "IceCreamBuff",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 5,
+      "data": "bin/IceCreamBuff.json",
+      "readable": "readable/IceCreamBuff.json",
+      "evidence": "evidence/tables/IceCreamBuff.json",
+      "source_sha256": "fb56ab3f3ec8017d8bce421fa5499ad257a7a09b50337fbb4b11f3929ace0ad0",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/IceCreamBuff.json",
+      "zh_CN": "language/zh_CN/IceCreamBuff.json"
+    },
+    {
+      "table": "IceCreamBuffPool",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 35,
+      "data": "bin/IceCreamBuffPool.json",
+      "readable": "readable/IceCreamBuffPool.json",
+      "evidence": "evidence/tables/IceCreamBuffPool.json",
+      "source_sha256": "7a78b93d10ca6f78f2941083d711b5102c953acf2983fae6fa3e6a6dd8d9ca21",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "IceCreamChar",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 11,
+      "data": "bin/IceCreamChar.json",
+      "readable": "readable/IceCreamChar.json",
+      "evidence": "evidence/tables/IceCreamChar.json",
+      "source_sha256": "11483c6e44a5a0d547c0af655f19e5c4ef0eb4aef644783f5d0aa9da76c36c39",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "IceCreamCharPool",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 70,
+      "data": "bin/IceCreamCharPool.json",
+      "readable": "readable/IceCreamCharPool.json",
+      "evidence": "evidence/tables/IceCreamCharPool.json",
+      "source_sha256": "b3e2126739d5634aad5fe2338e8c40cc41d1ab51172277f59846feb93b3e53ab",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "IceCreamCreate",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 10,
+      "data": "bin/IceCreamCreate.json",
+      "readable": "readable/IceCreamCreate.json",
+      "evidence": "evidence/tables/IceCreamCreate.json",
+      "source_sha256": "d057a501c5e4bb03868a91ed239c86648e8cec7a904599a94c2304b0eddbb7f2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "IceCreamFever",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/IceCreamFever.json",
+      "readable": "readable/IceCreamFever.json",
+      "evidence": "evidence/tables/IceCreamFever.json",
+      "source_sha256": "1d2caff7446c3faba0c762eba22198baf66f549ffc5dfec291582f32dbf549c0",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "InfinityTower",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 7,
+      "data": "bin/InfinityTower.json",
+      "readable": "readable/InfinityTower.json",
+      "evidence": "evidence/tables/InfinityTower.json",
+      "source_sha256": "53f67859d85421cc2f35aa24c260d4155ee041ab3cfd1901fe8cc95987def2b7",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/InfinityTower.json",
+      "zh_CN": "language/zh_CN/InfinityTower.json"
+    },
+    {
+      "table": "InfinityTowerAffix",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 125,
+      "data": "bin/InfinityTowerAffix.json",
+      "readable": "readable/InfinityTowerAffix.json",
+      "evidence": "evidence/tables/InfinityTowerAffix.json",
+      "source_sha256": "1f7fb545e9e2ed6f89cb00816966f837de2a8b5e50586eb02d849042cf788a0e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+      "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+    },
+    {
+      "table": "InfinityTowerBountyLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 20,
+      "data": "bin/InfinityTowerBountyLevel.json",
+      "readable": "readable/InfinityTowerBountyLevel.json",
+      "evidence": "evidence/tables/InfinityTowerBountyLevel.json",
+      "source_sha256": "a5c2d226ceb62194dc159707e8191088497cc399824ee18adebe938edab73f97",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "InfinityTowerDifficulty",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 129,
+      "data": "bin/InfinityTowerDifficulty.json",
+      "readable": "readable/InfinityTowerDifficulty.json",
+      "evidence": "evidence/tables/InfinityTowerDifficulty.json",
+      "source_sha256": "21bfad99b78a87b26553e6cb963cf91cc2a276a510bcac4ac2465497140edc8a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+      "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+    },
+    {
+      "table": "InfinityTowerEnemySet",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 7440,
+      "data": "bin/InfinityTowerEnemySet.json",
+      "readable": "readable/InfinityTowerEnemySet.json",
+      "evidence": "evidence/tables/InfinityTowerEnemySet.json",
+      "source_sha256": "1195dfb07e9fb62a1f8da7eba06b306c0481f9b50e767420c37f3ddd5427fbfc",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "InfinityTowerFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 1380,
+      "data": "bin/InfinityTowerFloor.json",
+      "readable": "readable/InfinityTowerFloor.json",
+      "evidence": "evidence/tables/InfinityTowerFloor.json",
+      "source_sha256": "c6ce4cee0ac5da2f8668a2ca6e2f5023b9cfde8ce0d14ac8aa755cf3cd660a45",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "InfinityTowerLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 1290,
+      "data": "bin/InfinityTowerLevel.json",
+      "readable": "readable/InfinityTowerLevel.json",
+      "evidence": "evidence/tables/InfinityTowerLevel.json",
+      "source_sha256": "3424abd00bf6bbe73939f94ce66091746af756b04542c8036c404b711e1e91f9",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/InfinityTowerLevel.json",
+      "zh_CN": "language/zh_CN/InfinityTowerLevel.json"
+    },
+    {
+      "table": "InfinityTowerMap",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 40,
+      "data": "bin/InfinityTowerMap.json",
+      "readable": "readable/InfinityTowerMap.json",
+      "evidence": "evidence/tables/InfinityTowerMap.json",
+      "source_sha256": "297e455ac94375b381a1d030123536f2524519f60d3fbc307ea4be309d28f77b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "InfinityTowerMsg",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 92,
+      "data": "bin/InfinityTowerMsg.json",
+      "readable": "readable/InfinityTowerMsg.json",
+      "evidence": "evidence/tables/InfinityTowerMsg.json",
+      "source_sha256": "0c7185422e01322bcd7d77b90baa9d6250167cb477c9d1a0cc68989f1cd6d994",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+      "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+    },
+    {
+      "table": "InfinityTowerPlot",
+      "categories": [
+        "story_social",
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/InfinityTowerPlot.json",
+      "readable": "readable/InfinityTowerPlot.json",
+      "evidence": "evidence/tables/InfinityTowerPlot.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "JointDrill_2_Floor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 48,
+      "data": "bin/JointDrill_2_Floor.json",
+      "readable": "readable/JointDrill_2_Floor.json",
+      "evidence": "evidence/tables/JointDrill_2_Floor.json",
+      "source_sha256": "2e29b57c73c3e38f5d8a35a90133e8e5233a83671377c60d89e9b94fa0a35c4e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "JointDrill_2_FloorChange",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/JointDrill_2_FloorChange.json",
+      "readable": "readable/JointDrill_2_FloorChange.json",
+      "evidence": "evidence/tables/JointDrill_2_FloorChange.json",
+      "source_sha256": "82fa7fc847976e6650118b008e479d8e4ff21fd21edf53deea90bbc0a3686903",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "JointDrill_2_Level",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 16,
+      "data": "bin/JointDrill_2_Level.json",
+      "readable": "readable/JointDrill_2_Level.json",
+      "evidence": "evidence/tables/JointDrill_2_Level.json",
+      "source_sha256": "796080162f26357080a3e65a9ac6851da59694367fd41096abb47924c2fd8809",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/JointDrill_2_Level.json",
+      "zh_CN": "language/zh_CN/JointDrill_2_Level.json"
+    },
+    {
+      "table": "JointDrill_2_MonsterGroup",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 3,
+      "data": "bin/JointDrill_2_MonsterGroup.json",
+      "readable": "readable/JointDrill_2_MonsterGroup.json",
+      "evidence": "evidence/tables/JointDrill_2_MonsterGroup.json",
+      "source_sha256": "e38f05d0227eaa35ce7cc0e934d7f79c95c2107b439a9eb524fa5637c8cf2f01",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "JointDrillAffix",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 17,
+      "data": "bin/JointDrillAffix.json",
+      "readable": "readable/JointDrillAffix.json",
+      "evidence": "evidence/tables/JointDrillAffix.json",
+      "source_sha256": "8fc0b47201bc6dfdd793e6bf48261a7d8519c77447856060cffc453b9f0d804d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/JointDrillAffix.json",
+      "zh_CN": "language/zh_CN/JointDrillAffix.json"
+    },
+    {
+      "table": "JointDrillBattleThreshold",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 66,
+      "data": "bin/JointDrillBattleThreshold.json",
+      "readable": "readable/JointDrillBattleThreshold.json",
+      "evidence": "evidence/tables/JointDrillBattleThreshold.json",
+      "source_sha256": "db0ed550e93d5715fb318c5d4440baa926b6599d9bb1a4779feea73bc72dff00",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "JointDrillControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 6,
+      "data": "bin/JointDrillControl.json",
+      "readable": "readable/JointDrillControl.json",
+      "evidence": "evidence/tables/JointDrillControl.json",
+      "source_sha256": "a1a3a868a6f02ca5d35934cc07265cc86eae9987aaa94082007c31ddd91426dc",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/JointDrillControl.json",
+      "zh_CN": "language/zh_CN/JointDrillControl.json"
+    },
+    {
+      "table": "JointDrillFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 20,
+      "data": "bin/JointDrillFloor.json",
+      "readable": "readable/JointDrillFloor.json",
+      "evidence": "evidence/tables/JointDrillFloor.json",
+      "source_sha256": "0909b02c930f55848011614f158147bb38be13bb5e8f776f0eeb90d6a5f79af6",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "JointDrillLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 14,
+      "data": "bin/JointDrillLevel.json",
+      "readable": "readable/JointDrillLevel.json",
+      "evidence": "evidence/tables/JointDrillLevel.json",
+      "source_sha256": "63dbe80f292535d51d02b0f9a444f6dcb83401b7e29e037189694ef849704ea0",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/JointDrillLevel.json",
+      "zh_CN": "language/zh_CN/JointDrillLevel.json"
+    },
+    {
+      "table": "JointDrillQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 42,
+      "data": "bin/JointDrillQuest.json",
+      "readable": "readable/JointDrillQuest.json",
+      "evidence": "evidence/tables/JointDrillQuest.json",
+      "source_sha256": "c753e6251c66f000913b8212f55a3d767d8693d96dc1adb23dc2a3445ce48a33",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/JointDrillQuest.json",
+      "zh_CN": "language/zh_CN/JointDrillQuest.json"
+    },
+    {
+      "table": "JointDrillRank",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 6,
+      "data": "bin/JointDrillRank.json",
+      "readable": "readable/JointDrillRank.json",
+      "evidence": "evidence/tables/JointDrillRank.json",
+      "source_sha256": "538f1d8d59925554b33d8ebc5c03ed44b12bd9f2ee00f69aa3cd7595bbe347f6",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "LevelQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 369,
+      "data": "bin/LevelQuest.json",
+      "readable": "readable/LevelQuest.json",
+      "evidence": "evidence/tables/LevelQuest.json",
+      "source_sha256": "55bd3a93598cf47a80f6133ed49f8dcdf2d72630071808a71d2ef68339e54941",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/LevelQuest.json",
+      "zh_CN": "language/zh_CN/LevelQuest.json"
+    },
+    {
+      "table": "LevelQuestTarget",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 586,
+      "data": "bin/LevelQuestTarget.json",
+      "readable": "readable/LevelQuestTarget.json",
+      "evidence": "evidence/tables/LevelQuestTarget.json",
+      "source_sha256": "6b4c1f105035662696c76e7f13e0e21e9693dd3b716b65d7af225d7875561355",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/LevelQuestTarget.json",
+      "zh_CN": "language/zh_CN/LevelQuestTarget.json"
+    },
+    {
+      "table": "MainlineFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 59,
+      "data": "bin/MainlineFloor.json",
+      "readable": "readable/MainlineFloor.json",
+      "evidence": "evidence/tables/MainlineFloor.json",
+      "source_sha256": "504ba181f168dff98d438b77c579e6d2da6f49d5bc9e1b60dd37ddfa13c7060f",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MiningControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 6,
+      "data": "bin/MiningControl.json",
+      "readable": "readable/MiningControl.json",
+      "evidence": "evidence/tables/MiningControl.json",
+      "source_sha256": "d2903471876951623ac801dd1247342476a255964b03ac49e697a213d23f2a0b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MiningControl.json",
+      "zh_CN": "language/zh_CN/MiningControl.json"
+    },
+    {
+      "table": "MiningDemoConfig",
+      "categories": [
+        "stages_modes",
+        "ui_system"
+      ],
+      "row_count": 12,
+      "data": "bin/MiningDemoConfig.json",
+      "readable": "readable/MiningDemoConfig.json",
+      "evidence": "evidence/tables/MiningDemoConfig.json",
+      "source_sha256": "426277e31a7baf3bb8ad8e7e601bb4d26cc5a4821a1a0f0af8ed5883785ec2c4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MiningDemoRewardConfig",
+      "categories": [
+        "items_rewards",
+        "stages_modes",
+        "ui_system"
+      ],
+      "row_count": 0,
+      "data": "bin/MiningDemoRewardConfig.json",
+      "readable": "readable/MiningDemoRewardConfig.json",
+      "evidence": "evidence/tables/MiningDemoRewardConfig.json",
+      "source_sha256": "67856884401c136c2d2d600e513d4e032fe90e0bac388b894b6a840d561a4c68",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MiningQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 21,
+      "data": "bin/MiningQuest.json",
+      "readable": "readable/MiningQuest.json",
+      "evidence": "evidence/tables/MiningQuest.json",
+      "source_sha256": "c7b0f6c51ec4cb8e36a6703d1645a389f917f261b6e512f36301042ab4b71060",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MiningQuest.json",
+      "zh_CN": "language/zh_CN/MiningQuest.json"
+    },
+    {
+      "table": "MiningQuestGroup",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/MiningQuestGroup.json",
+      "readable": "readable/MiningQuestGroup.json",
+      "evidence": "evidence/tables/MiningQuestGroup.json",
+      "source_sha256": "57cfc6c37ca3c9b789105219ec59587ec1a4450f303e5f6e6c01ac1782d79312",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MiningQuestGroup.json",
+      "zh_CN": "language/zh_CN/MiningQuestGroup.json"
+    },
+    {
+      "table": "MiningStory",
+      "categories": [
+        "story_social",
+        "stages_modes"
+      ],
+      "row_count": 8,
+      "data": "bin/MiningStory.json",
+      "readable": "readable/MiningStory.json",
+      "evidence": "evidence/tables/MiningStory.json",
+      "source_sha256": "36b0a1262443e203dde2ff455e1c0a674b2980a7e5ac89973e6095e622e1b1fb",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MiningSupport",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 42,
+      "data": "bin/MiningSupport.json",
+      "readable": "readable/MiningSupport.json",
+      "evidence": "evidence/tables/MiningSupport.json",
+      "source_sha256": "c526f5098e489292ce8a90029fc32001dd297a577563da18e132c3dfd76c70a9",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MiningSupport.json",
+      "zh_CN": "language/zh_CN/MiningSupport.json"
+    },
+    {
+      "table": "MiningTreasure",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 72,
+      "data": "bin/MiningTreasure.json",
+      "readable": "readable/MiningTreasure.json",
+      "evidence": "evidence/tables/MiningTreasure.json",
+      "source_sha256": "c975b4de91587ec94ebe3e346ac075e354f73b2c68c74a3133c7d2307f3690e2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MiningTreasure.json",
+      "zh_CN": "language/zh_CN/MiningTreasure.json"
+    },
+    {
+      "table": "PenguinBaseCard",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 8,
+      "data": "bin/PenguinBaseCard.json",
+      "readable": "readable/PenguinBaseCard.json",
+      "evidence": "evidence/tables/PenguinBaseCard.json",
+      "source_sha256": "4d5883b80fd5e8f12c8af187d668e152fb014ad8434d70e7a4050f070ca96887",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PenguinBaseCard.json",
+      "zh_CN": "language/zh_CN/PenguinBaseCard.json"
+    },
+    {
+      "table": "PenguinBaseCardPool",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/PenguinBaseCardPool.json",
+      "readable": "readable/PenguinBaseCardPool.json",
+      "evidence": "evidence/tables/PenguinBaseCardPool.json",
+      "source_sha256": "b8ce63f972b0b382b5f64f7ab76b0768aa93bd32459e7211edc6884fd2f598da",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PenguinCard",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 164,
+      "data": "bin/PenguinCard.json",
+      "readable": "readable/PenguinCard.json",
+      "evidence": "evidence/tables/PenguinCard.json",
+      "source_sha256": "469b80ba891b420fdd6d0d825de9b64f7329200644cb79219d2445fefec6b2ae",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PenguinCard.json",
+      "zh_CN": "language/zh_CN/PenguinCard.json"
+    },
+    {
+      "table": "PenguinCardBuff",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 8,
+      "data": "bin/PenguinCardBuff.json",
+      "readable": "readable/PenguinCardBuff.json",
+      "evidence": "evidence/tables/PenguinCardBuff.json",
+      "source_sha256": "429b5126b84c968fc3a4cb05215f0b0bce0d43f61c84b8aa554e14c8d8b1112d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PenguinCardBuff.json",
+      "zh_CN": "language/zh_CN/PenguinCardBuff.json"
+    },
+    {
+      "table": "PenguinCardBuffWeight",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 2,
+      "data": "bin/PenguinCardBuffWeight.json",
+      "readable": "readable/PenguinCardBuffWeight.json",
+      "evidence": "evidence/tables/PenguinCardBuffWeight.json",
+      "source_sha256": "8dd15114c2fc5ba0f6045f2eb433c82a9a9dbd8c4add909c3c7cb2eccbcd8948",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PenguinCardControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/PenguinCardControl.json",
+      "readable": "readable/PenguinCardControl.json",
+      "evidence": "evidence/tables/PenguinCardControl.json",
+      "source_sha256": "71a7b10734888be2571f8cc7e5aba4e06acee24f7f163ada825eb7575e6fedee",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PenguinCardControl.json",
+      "zh_CN": "language/zh_CN/PenguinCardControl.json"
+    },
+    {
+      "table": "PenguinCardCost",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 5,
+      "data": "bin/PenguinCardCost.json",
+      "readable": "readable/PenguinCardCost.json",
+      "evidence": "evidence/tables/PenguinCardCost.json",
+      "source_sha256": "f9c9aa395bc39f0f67b93da6d06b0a8179a0ac665fc6844742cf2b9c4b887ff4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PenguinCardFixedTurn",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/PenguinCardFixedTurn.json",
+      "readable": "readable/PenguinCardFixedTurn.json",
+      "evidence": "evidence/tables/PenguinCardFixedTurn.json",
+      "source_sha256": "9ca37c8f1bc077fb705921e3063d11212a9e15d38ac3abb6f203a0d5f6b8532d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PenguinCardFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 17,
+      "data": "bin/PenguinCardFloor.json",
+      "readable": "readable/PenguinCardFloor.json",
+      "evidence": "evidence/tables/PenguinCardFloor.json",
+      "source_sha256": "248c3895f4465c9c9af9881d8d7f4a5f67baf44422903d8113e08e275bb44340",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+      "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+    },
+    {
+      "table": "PenguinCardHandRank",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 8,
+      "data": "bin/PenguinCardHandRank.json",
+      "readable": "readable/PenguinCardHandRank.json",
+      "evidence": "evidence/tables/PenguinCardHandRank.json",
+      "source_sha256": "632d06f02d9353e388aae826a87e4c0d309b0c7eb391a46aca59c3963ed91b24",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+      "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+    },
+    {
+      "table": "PenguinCardQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 28,
+      "data": "bin/PenguinCardQuest.json",
+      "readable": "readable/PenguinCardQuest.json",
+      "evidence": "evidence/tables/PenguinCardQuest.json",
+      "source_sha256": "8dfb5ce250a4a27cbcb1e4c41b187068e1602c82e05fde060c377d09f713897b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PenguinCardQuest.json",
+      "zh_CN": "language/zh_CN/PenguinCardQuest.json"
+    },
+    {
+      "table": "PenguinCardQuestWeight",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 28,
+      "data": "bin/PenguinCardQuestWeight.json",
+      "readable": "readable/PenguinCardQuestWeight.json",
+      "evidence": "evidence/tables/PenguinCardQuestWeight.json",
+      "source_sha256": "e90f59c52c824d548eda52d973087e7c57f00584a038d816521ab62e5a44743f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PenguinCardTendency",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 6,
+      "data": "bin/PenguinCardTendency.json",
+      "readable": "readable/PenguinCardTendency.json",
+      "evidence": "evidence/tables/PenguinCardTendency.json",
+      "source_sha256": "0284a5d837765783dd684c19a90ab2e51d9db3f927f91d6386bc164388362e18",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PenguinCardWeight",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 96,
+      "data": "bin/PenguinCardWeight.json",
+      "readable": "readable/PenguinCardWeight.json",
+      "evidence": "evidence/tables/PenguinCardWeight.json",
+      "source_sha256": "faebca662ec0e300756cd5754e16c7c59511d57548e23e0927f7762feaf0cb51",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "RandomLevelMonster",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 0,
+      "data": "bin/RandomLevelMonster.json",
+      "readable": "readable/RandomLevelMonster.json",
+      "evidence": "evidence/tables/RandomLevelMonster.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "RegionBoss",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 9,
+      "data": "bin/RegionBoss.json",
+      "readable": "readable/RegionBoss.json",
+      "evidence": "evidence/tables/RegionBoss.json",
+      "source_sha256": "efad952cd4c8c7c38975a23d62ca02b5e922c86323b0873e17c65305e0a26d38",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/RegionBoss.json",
+      "zh_CN": "language/zh_CN/RegionBoss.json"
+    },
+    {
+      "table": "RegionBossAffix",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 15,
+      "data": "bin/RegionBossAffix.json",
+      "readable": "readable/RegionBossAffix.json",
+      "evidence": "evidence/tables/RegionBossAffix.json",
+      "source_sha256": "261d9430877ecf596784087b56ecf68dd36c0e4eeacd25734946ff081037dcf2",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/RegionBossAffix.json",
+      "zh_CN": "language/zh_CN/RegionBossAffix.json"
+    },
+    {
+      "table": "RegionBossFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 27,
+      "data": "bin/RegionBossFloor.json",
+      "readable": "readable/RegionBossFloor.json",
+      "evidence": "evidence/tables/RegionBossFloor.json",
+      "source_sha256": "7d97b54876bdf55ae38e019c1107a900f94c1cce2f19c3a4ca0f1c2237d8f28d",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "RegionBossLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 27,
+      "data": "bin/RegionBossLevel.json",
+      "readable": "readable/RegionBossLevel.json",
+      "evidence": "evidence/tables/RegionBossLevel.json",
+      "source_sha256": "c36b772310e9fac4b1134775c072c30e4b76ffe88d98c2d20363afd53b60579f",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/RegionBossLevel.json",
+      "zh_CN": "language/zh_CN/RegionBossLevel.json"
+    },
+    {
+      "table": "ScoreBossAbility",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 21,
+      "data": "bin/ScoreBossAbility.json",
+      "readable": "readable/ScoreBossAbility.json",
+      "evidence": "evidence/tables/ScoreBossAbility.json",
+      "source_sha256": "56a5724acfb3fe68bd352de0305b8d652179ac45c442340a0b1513ee0dc6ed8b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+      "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+    },
+    {
+      "table": "ScoreBossBattleThreshold",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 11,
+      "data": "bin/ScoreBossBattleThreshold.json",
+      "readable": "readable/ScoreBossBattleThreshold.json",
+      "evidence": "evidence/tables/ScoreBossBattleThreshold.json",
+      "source_sha256": "22e703b879c6c6917c2d407417e577d68eba44e06ca87ba4b0ed9e2147ed435e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ScoreBossControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 14,
+      "data": "bin/ScoreBossControl.json",
+      "readable": "readable/ScoreBossControl.json",
+      "evidence": "evidence/tables/ScoreBossControl.json",
+      "source_sha256": "917c824a589300cc9f7f488dda43ee208eaf03310b73df2f4b27746c1cb33aa9",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ScoreBossFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 26,
+      "data": "bin/ScoreBossFloor.json",
+      "readable": "readable/ScoreBossFloor.json",
+      "evidence": "evidence/tables/ScoreBossFloor.json",
+      "source_sha256": "500704008b8ce6b7a139f1a3b663d36a43e2c576cf8ebdc1092144827100d1c6",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ScoreBossGetControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 24,
+      "data": "bin/ScoreBossGetControl.json",
+      "readable": "readable/ScoreBossGetControl.json",
+      "evidence": "evidence/tables/ScoreBossGetControl.json",
+      "source_sha256": "7b9abb23731acdb896658db7171bd152299ef69c6159be86ca6130d7ce1292db",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ScoreBossGetControl.json",
+      "zh_CN": "language/zh_CN/ScoreBossGetControl.json"
+    },
+    {
+      "table": "ScoreBossLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 29,
+      "data": "bin/ScoreBossLevel.json",
+      "readable": "readable/ScoreBossLevel.json",
+      "evidence": "evidence/tables/ScoreBossLevel.json",
+      "source_sha256": "2e9cae1b5cff02c8a988133b2f8605fab410adcb9c4bde319f743d9bfaed88b1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ScoreBossRank",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 56,
+      "data": "bin/ScoreBossRank.json",
+      "readable": "readable/ScoreBossRank.json",
+      "evidence": "evidence/tables/ScoreBossRank.json",
+      "source_sha256": "4f8079c4f12d31cb49fac36bcf3dec8347bff4d803a18643bc644f9aaf6034e5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ScoreBossReward",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 7,
+      "data": "bin/ScoreBossReward.json",
+      "readable": "readable/ScoreBossReward.json",
+      "evidence": "evidence/tables/ScoreBossReward.json",
+      "source_sha256": "cdc2881b676df204193049483728d88bae305d9a8d63b4a62c6e45802e70b32e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ScoreBossStar",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 7,
+      "data": "bin/ScoreBossStar.json",
+      "readable": "readable/ScoreBossStar.json",
+      "evidence": "evidence/tables/ScoreBossStar.json",
+      "source_sha256": "ebba39e0710deef81394a36a475677a101ce2ffecc43ab8b494a859abb88837a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SkillInstance",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 18,
+      "data": "bin/SkillInstance.json",
+      "readable": "readable/SkillInstance.json",
+      "evidence": "evidence/tables/SkillInstance.json",
+      "source_sha256": "bb18dc09cee38d2f40a0e56f37f622f8f89394b00160399f84aa5004d7c80127",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SkillInstance.json",
+      "zh_CN": "language/zh_CN/SkillInstance.json"
+    },
+    {
+      "table": "SkillInstanceFloor",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 18,
+      "data": "bin/SkillInstanceFloor.json",
+      "readable": "readable/SkillInstanceFloor.json",
+      "evidence": "evidence/tables/SkillInstanceFloor.json",
+      "source_sha256": "b4f62ef81179441cdcce98c544b304c8bb8e86bbecc2c17ba5a824f002171159",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SkillInstanceType",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/SkillInstanceType.json",
+      "readable": "readable/SkillInstanceType.json",
+      "evidence": "evidence/tables/SkillInstanceType.json",
+      "source_sha256": "105fc95ddc3b780392f9fd18dcd4ae6cd6c1fb74ce1a0b08261c160909d51cdf",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SkillInstanceType.json",
+      "zh_CN": "language/zh_CN/SkillInstanceType.json"
+    },
+    {
+      "table": "SoldierBuff",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 128,
+      "data": "bin/SoldierBuff.json",
+      "readable": "readable/SoldierBuff.json",
+      "evidence": "evidence/tables/SoldierBuff.json",
+      "source_sha256": "35a368762b327523788d8ff9d5412e436191e4e5bb45737d97565a7fed987972",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierCardEffect",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 85,
+      "data": "bin/SoldierCardEffect.json",
+      "readable": "readable/SoldierCardEffect.json",
+      "evidence": "evidence/tables/SoldierCardEffect.json",
+      "source_sha256": "d4e272bbf0b72dde63b6ca70432748ad52825fa3f0a1f1c4939b991f82d21185",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierCharacter",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 55,
+      "data": "bin/SoldierCharacter.json",
+      "readable": "readable/SoldierCharacter.json",
+      "evidence": "evidence/tables/SoldierCharacter.json",
+      "source_sha256": "6986586de8b48481e38b9da906c68d2aac5e4001929e36fe68dc3b7276d9dd14",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierCharacter.json",
+      "zh_CN": "language/zh_CN/SoldierCharacter.json"
+    },
+    {
+      "table": "SoldierChessAI",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 55,
+      "data": "bin/SoldierChessAI.json",
+      "readable": "readable/SoldierChessAI.json",
+      "evidence": "evidence/tables/SoldierChessAI.json",
+      "source_sha256": "c4614ee2008178328c816f8278bd211dcca1667978c09304bb1c2a26ed758429",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierChessType",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/SoldierChessType.json",
+      "readable": "readable/SoldierChessType.json",
+      "evidence": "evidence/tables/SoldierChessType.json",
+      "source_sha256": "8c571998dc0662d3f8c4ebeb055f75373c6e6242bde8cf3b1dfe6741b54a1f88",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierChessType.json",
+      "zh_CN": "language/zh_CN/SoldierChessType.json"
+    },
+    {
+      "table": "SoldierClientBuff",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 64,
+      "data": "bin/SoldierClientBuff.json",
+      "readable": "readable/SoldierClientBuff.json",
+      "evidence": "evidence/tables/SoldierClientBuff.json",
+      "source_sha256": "09d32f83b97adf7d41d4cd18e8794c1c7f67228a8dd1d503410c791ba1f3d2ff",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 1,
+      "data": "bin/SoldierControl.json",
+      "readable": "readable/SoldierControl.json",
+      "evidence": "evidence/tables/SoldierControl.json",
+      "source_sha256": "d9c496c4e94b0421eb87b948fc2ae729af033e4442fa7269118ed29a2cea41e6",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierControl.json",
+      "zh_CN": "language/zh_CN/SoldierControl.json"
+    },
+    {
+      "table": "SoldierEventBattlePool",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 24,
+      "data": "bin/SoldierEventBattlePool.json",
+      "readable": "readable/SoldierEventBattlePool.json",
+      "evidence": "evidence/tables/SoldierEventBattlePool.json",
+      "source_sha256": "43a3c3b153576715c963207aff1373330e0b4707860f5a78b18c5c9c2131b315",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierEventBattlePool.json",
+      "zh_CN": "language/zh_CN/SoldierEventBattlePool.json"
+    },
+    {
+      "table": "SoldierEventPlan",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 34,
+      "data": "bin/SoldierEventPlan.json",
+      "readable": "readable/SoldierEventPlan.json",
+      "evidence": "evidence/tables/SoldierEventPlan.json",
+      "source_sha256": "446f9716f797f3e39e10bfe1c20cad0faf4f3730406e90bd3178b1d6a3da62bf",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 21,
+      "data": "bin/SoldierFloor.json",
+      "readable": "readable/SoldierFloor.json",
+      "evidence": "evidence/tables/SoldierFloor.json",
+      "source_sha256": "4854047217de1ed3903d820cafd7890a0df088e59dd4a42c06c4c72ada34c710",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierGradeChallenge",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 2,
+      "data": "bin/SoldierGradeChallenge.json",
+      "readable": "readable/SoldierGradeChallenge.json",
+      "evidence": "evidence/tables/SoldierGradeChallenge.json",
+      "source_sha256": "d944006506f145719acfa5432acff91d7e8d2dfaeef76e4d756bbfc1d542d81b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierGradeChallenge.json",
+      "zh_CN": "language/zh_CN/SoldierGradeChallenge.json"
+    },
+    {
+      "table": "SoldierKeyGrade",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 2,
+      "data": "bin/SoldierKeyGrade.json",
+      "readable": "readable/SoldierKeyGrade.json",
+      "evidence": "evidence/tables/SoldierKeyGrade.json",
+      "source_sha256": "82b9e7634c557708f90efdb072f12d22292265ee27c8f2c75f6e40c620df6ded",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierKeyGrade.json",
+      "zh_CN": "language/zh_CN/SoldierKeyGrade.json"
+    },
+    {
+      "table": "SoldierLabelMark",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/SoldierLabelMark.json",
+      "readable": "readable/SoldierLabelMark.json",
+      "evidence": "evidence/tables/SoldierLabelMark.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierNodePlan",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 33,
+      "data": "bin/SoldierNodePlan.json",
+      "readable": "readable/SoldierNodePlan.json",
+      "evidence": "evidence/tables/SoldierNodePlan.json",
+      "source_sha256": "637b16e75cf5139bde4da674dd45c404084b07372c7f9ee4bf43e57277ffa5ba",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierPartner",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 44,
+      "data": "bin/SoldierPartner.json",
+      "readable": "readable/SoldierPartner.json",
+      "evidence": "evidence/tables/SoldierPartner.json",
+      "source_sha256": "b0535614e8a3539f023f9133622f9d82ccc0af3dab2e3ecfc746c14a091e08d1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierPartner.json",
+      "zh_CN": "language/zh_CN/SoldierPartner.json"
+    },
+    {
+      "table": "SoldierPartnerGroup",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 19,
+      "data": "bin/SoldierPartnerGroup.json",
+      "readable": "readable/SoldierPartnerGroup.json",
+      "evidence": "evidence/tables/SoldierPartnerGroup.json",
+      "source_sha256": "ede86246c756734edbe53a151b6f9f9b6fea46b70722bed6a243d91765ce2026",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierPartnerGroup.json",
+      "zh_CN": "language/zh_CN/SoldierPartnerGroup.json"
+    },
+    {
+      "table": "SoldierPositionEffect",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 9,
+      "data": "bin/SoldierPositionEffect.json",
+      "readable": "readable/SoldierPositionEffect.json",
+      "evidence": "evidence/tables/SoldierPositionEffect.json",
+      "source_sha256": "345c54a4c5afcdb74ae2c9383744471060a63881d92cfb1da886a2697cc1d05e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+      "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+    },
+    {
+      "table": "SoldierPotential",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 80,
+      "data": "bin/SoldierPotential.json",
+      "readable": "readable/SoldierPotential.json",
+      "evidence": "evidence/tables/SoldierPotential.json",
+      "source_sha256": "7e4e9f3908b2fddb20bde14788b013265f7f9ab77374b9fb3940c9a37c635b10",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierPotential.json",
+      "zh_CN": "language/zh_CN/SoldierPotential.json"
+    },
+    {
+      "table": "SoldierQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 12,
+      "data": "bin/SoldierQuest.json",
+      "readable": "readable/SoldierQuest.json",
+      "evidence": "evidence/tables/SoldierQuest.json",
+      "source_sha256": "a0beef34389d7647c55c4b42274c895bb782430dead673e373cc10318bef3a6d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierQuest.json",
+      "zh_CN": "language/zh_CN/SoldierQuest.json"
+    },
+    {
+      "table": "SoldierQuestGroup",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 2,
+      "data": "bin/SoldierQuestGroup.json",
+      "readable": "readable/SoldierQuestGroup.json",
+      "evidence": "evidence/tables/SoldierQuestGroup.json",
+      "source_sha256": "9c478090e807ee7b6e1d6c47b7f02d39a9a86b31db74de7df0a22dba254009b7",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierQuestGroup.json",
+      "zh_CN": "language/zh_CN/SoldierQuestGroup.json"
+    },
+    {
+      "table": "SoldierRecommendBuilds",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 8,
+      "data": "bin/SoldierRecommendBuilds.json",
+      "readable": "readable/SoldierRecommendBuilds.json",
+      "evidence": "evidence/tables/SoldierRecommendBuilds.json",
+      "source_sha256": "03f9579a6497c0771ae9faeda2ec7ce1d4f23f5d91fcec39f0f0bc5f716bdd01",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+      "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+    },
+    {
+      "table": "SoldierSeason",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 1,
+      "data": "bin/SoldierSeason.json",
+      "readable": "readable/SoldierSeason.json",
+      "evidence": "evidence/tables/SoldierSeason.json",
+      "source_sha256": "1ffc72f632ec228868a696f8d1dea3ee1273d2728debc292c3e2aaefb910feb8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierShopLevel",
+      "categories": [
+        "stages_modes",
+        "shop_economy"
+      ],
+      "row_count": 10,
+      "data": "bin/SoldierShopLevel.json",
+      "readable": "readable/SoldierShopLevel.json",
+      "evidence": "evidence/tables/SoldierShopLevel.json",
+      "source_sha256": "2bcacf43f18c7914de5ddf8d02adcd90a41af2260648756f1d8a2bfa4f3475be",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierShopPool",
+      "categories": [
+        "stages_modes",
+        "shop_economy"
+      ],
+      "row_count": 40,
+      "data": "bin/SoldierShopPool.json",
+      "readable": "readable/SoldierShopPool.json",
+      "evidence": "evidence/tables/SoldierShopPool.json",
+      "source_sha256": "8e514dede75fbab907016305471a5763857a13e2c7588fe44479775a9d0155ef",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierSkin",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 55,
+      "data": "bin/SoldierSkin.json",
+      "readable": "readable/SoldierSkin.json",
+      "evidence": "evidence/tables/SoldierSkin.json",
+      "source_sha256": "9cfe036e324262c383d020b36e855c688404981dc3ff4c196138a1d2e52a312b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierSkin.json",
+      "zh_CN": "language/zh_CN/SoldierSkin.json"
+    },
+    {
+      "table": "SoldierStarterCard",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 39,
+      "data": "bin/SoldierStarterCard.json",
+      "readable": "readable/SoldierStarterCard.json",
+      "evidence": "evidence/tables/SoldierStarterCard.json",
+      "source_sha256": "a3bc7eaa31ecfe77488391a69218e15022eb118969d71e758147b38d9e96a32b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierStarterCard.json",
+      "zh_CN": "language/zh_CN/SoldierStarterCard.json"
+    },
+    {
+      "table": "SoldierStrategyCard",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 45,
+      "data": "bin/SoldierStrategyCard.json",
+      "readable": "readable/SoldierStrategyCard.json",
+      "evidence": "evidence/tables/SoldierStrategyCard.json",
+      "source_sha256": "ba9d58874d2936538f61a74aeb648391de35a0afe1e103a038c56f1101a21ece",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+      "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+    },
+    {
+      "table": "StarTower",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 25,
+      "data": "bin/StarTower.json",
+      "readable": "readable/StarTower.json",
+      "evidence": "evidence/tables/StarTower.json",
+      "source_sha256": "221cd0fc2960a76d081aea5c04e4c17c3d6ca05c1e85163bdfa72911b27171bf",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTower.json",
+      "zh_CN": "language/zh_CN/StarTower.json"
+    },
+    {
+      "table": "StarTowerBookEntrance",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 13,
+      "data": "bin/StarTowerBookEntrance.json",
+      "readable": "readable/StarTowerBookEntrance.json",
+      "evidence": "evidence/tables/StarTowerBookEntrance.json",
+      "source_sha256": "b9f9bf7b4572516f550624bf7be5b01be29755ccbedcbe38340b64c8ab1a5f9b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+      "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+    },
+    {
+      "table": "StarTowerBookEventReward",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 123,
+      "data": "bin/StarTowerBookEventReward.json",
+      "readable": "readable/StarTowerBookEventReward.json",
+      "evidence": "evidence/tables/StarTowerBookEventReward.json",
+      "source_sha256": "2713ab7f1083dee5a1b20c18c51898f012951b502e02591d59dabf024ca977ca",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerBookEventReward.json",
+      "zh_CN": "language/zh_CN/StarTowerBookEventReward.json"
+    },
+    {
+      "table": "StarTowerBookFateCard",
+      "categories": [
+        "discs",
+        "stages_modes"
+      ],
+      "row_count": 234,
+      "data": "bin/StarTowerBookFateCard.json",
+      "readable": "readable/StarTowerBookFateCard.json",
+      "evidence": "evidence/tables/StarTowerBookFateCard.json",
+      "source_sha256": "ba4d710ae3f92f67611b804c63e304c75e7db97a3bcdc68eded699dfd518f6d5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+      "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+    },
+    {
+      "table": "StarTowerBookFateCardBundle",
+      "categories": [
+        "discs",
+        "stages_modes"
+      ],
+      "row_count": 15,
+      "data": "bin/StarTowerBookFateCardBundle.json",
+      "readable": "readable/StarTowerBookFateCardBundle.json",
+      "evidence": "evidence/tables/StarTowerBookFateCardBundle.json",
+      "source_sha256": "14997d5cb732f9fe72ac2c081768b1086d5ec166ad22ecf8b181f908dcefb78f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerBookFateCardBundle.json",
+      "zh_CN": "language/zh_CN/StarTowerBookFateCardBundle.json"
+    },
+    {
+      "table": "StarTowerBookFateCardQuest",
+      "categories": [
+        "discs",
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 33,
+      "data": "bin/StarTowerBookFateCardQuest.json",
+      "readable": "readable/StarTowerBookFateCardQuest.json",
+      "evidence": "evidence/tables/StarTowerBookFateCardQuest.json",
+      "source_sha256": "97c3f08f75f556187256cea27e6d3e813084f9120bfbacdd9903da680b1a0049",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerBookFateCardQuest.json",
+      "zh_CN": "language/zh_CN/StarTowerBookFateCardQuest.json"
+    },
+    {
+      "table": "StarTowerBookPotentialReward",
+      "categories": [
+        "characters",
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 111,
+      "data": "bin/StarTowerBookPotentialReward.json",
+      "readable": "readable/StarTowerBookPotentialReward.json",
+      "evidence": "evidence/tables/StarTowerBookPotentialReward.json",
+      "source_sha256": "6afbd1fe693f8fb300f759438b0e14f08d5c79fc4d31b6e7fd4e9ab35102578a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerBuild",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 2,
+      "data": "bin/StarTowerBuild.json",
+      "readable": "readable/StarTowerBuild.json",
+      "evidence": "evidence/tables/StarTowerBuild.json",
+      "source_sha256": "5083a08fe3dba9dd9c86887f4bf1c22a4a2b8c28385d059687a53fe9ce69cef7",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerBuildRank",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 40,
+      "data": "bin/StarTowerBuildRank.json",
+      "readable": "readable/StarTowerBuildRank.json",
+      "evidence": "evidence/tables/StarTowerBuildRank.json",
+      "source_sha256": "9bf3c065615f36eec13bf04473c52cd4f6dfbc182a913f346c03cd3ad72243dd",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerCombatEvent",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/StarTowerCombatEvent.json",
+      "readable": "readable/StarTowerCombatEvent.json",
+      "evidence": "evidence/tables/StarTowerCombatEvent.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerCombo",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 26,
+      "data": "bin/StarTowerCombo.json",
+      "readable": "readable/StarTowerCombo.json",
+      "evidence": "evidence/tables/StarTowerCombo.json",
+      "source_sha256": "81f3ff9c6ce872827fbda189be8765fd0f0e7672712cd2d2437316ba55f81c84",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerDropItem",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 5,
+      "data": "bin/StarTowerDropItem.json",
+      "readable": "readable/StarTowerDropItem.json",
+      "evidence": "evidence/tables/StarTowerDropItem.json",
+      "source_sha256": "8fac8651e9c15843ff7e46f638256c25a400b556667e80151ffc56714e939d48",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerEnemySet",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 541,
+      "data": "bin/StarTowerEnemySet.json",
+      "readable": "readable/StarTowerEnemySet.json",
+      "evidence": "evidence/tables/StarTowerEnemySet.json",
+      "source_sha256": "a7b1528993ef34c6efa23475b1b76aab257f09915a67d7013b30c32e973ba531",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerEvent",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 28,
+      "data": "bin/StarTowerEvent.json",
+      "readable": "readable/StarTowerEvent.json",
+      "evidence": "evidence/tables/StarTowerEvent.json",
+      "source_sha256": "542b509155585cb6c358e4e6d9309d074b39c98be033c79af0c38c7901a31767",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerEventAction",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 112,
+      "data": "bin/StarTowerEventAction.json",
+      "readable": "readable/StarTowerEventAction.json",
+      "evidence": "evidence/tables/StarTowerEventAction.json",
+      "source_sha256": "dcd57e093af0d7a6de2d9ee2c979bf45611dfc2acbc8056b582335bb3dcecd9a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+      "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+    },
+    {
+      "table": "StarTowerEventOptionAction",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 344,
+      "data": "bin/StarTowerEventOptionAction.json",
+      "readable": "readable/StarTowerEventOptionAction.json",
+      "evidence": "evidence/tables/StarTowerEventOptionAction.json",
+      "source_sha256": "32f244be927f3b2c55b403904fa16d76b363de95e74aef7730b8d8b2fa15487e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerEventOptionAction.json",
+      "zh_CN": "language/zh_CN/StarTowerEventOptionAction.json"
+    },
+    {
+      "table": "StarTowerFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 69,
+      "data": "bin/StarTowerFloor.json",
+      "readable": "readable/StarTowerFloor.json",
+      "evidence": "evidence/tables/StarTowerFloor.json",
+      "source_sha256": "f2a05e5b2a73ef57f8f0dbba441b1b755cc55d8ec7682b2acd29cb2d486f5fed",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerFloorExp",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 71,
+      "data": "bin/StarTowerFloorExp.json",
+      "readable": "readable/StarTowerFloorExp.json",
+      "evidence": "evidence/tables/StarTowerFloorExp.json",
+      "source_sha256": "ea434464b3524b49eec1bb6e9928f32b46782551d55c6bd38a8d432096a74c85",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerFloorSet",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 307,
+      "data": "bin/StarTowerFloorSet.json",
+      "readable": "readable/StarTowerFloorSet.json",
+      "evidence": "evidence/tables/StarTowerFloorSet.json",
+      "source_sha256": "956d8ac366a0eda890adbd80f95182e495e1973e9ca0438b0b68c547295571c4",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerGroup",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/StarTowerGroup.json",
+      "readable": "readable/StarTowerGroup.json",
+      "evidence": "evidence/tables/StarTowerGroup.json",
+      "source_sha256": "131ab36e5da0bb8c2f0e6d8b7a273cacc251a9eb619a80f76752bdfefa37b334",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerGroup.json",
+      "zh_CN": "language/zh_CN/StarTowerGroup.json"
+    },
+    {
+      "table": "StarTowerGrowthGroup",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/StarTowerGrowthGroup.json",
+      "readable": "readable/StarTowerGrowthGroup.json",
+      "evidence": "evidence/tables/StarTowerGrowthGroup.json",
+      "source_sha256": "e7361d918c857dd407f2f4d3ffb4310acbc2ede6d7584fa165776b4ca65f6c69",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerGrowthGroup.json",
+      "zh_CN": "language/zh_CN/StarTowerGrowthGroup.json"
+    },
+    {
+      "table": "StarTowerGrowthNode",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 58,
+      "data": "bin/StarTowerGrowthNode.json",
+      "readable": "readable/StarTowerGrowthNode.json",
+      "evidence": "evidence/tables/StarTowerGrowthNode.json",
+      "source_sha256": "c47a669a454bf42d6b5a7b762334e041f4efb1e5ef3d336986cc62249252cb40",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+      "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+    },
+    {
+      "table": "StarTowerMap",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 466,
+      "data": "bin/StarTowerMap.json",
+      "readable": "readable/StarTowerMap.json",
+      "evidence": "evidence/tables/StarTowerMap.json",
+      "source_sha256": "312bf8c047338f523e51570f22baf18e9e936038edad053201dda318ed631cde",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerMapMaxNumPerStage",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 42,
+      "data": "bin/StarTowerMapMaxNumPerStage.json",
+      "readable": "readable/StarTowerMapMaxNumPerStage.json",
+      "evidence": "evidence/tables/StarTowerMapMaxNumPerStage.json",
+      "source_sha256": "33f3d7bc1083cb0c981db7564edd9f9c75834d81633244c4be20e90370cd95b2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerMonsterBornGroup",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 129,
+      "data": "bin/StarTowerMonsterBornGroup.json",
+      "readable": "readable/StarTowerMonsterBornGroup.json",
+      "evidence": "evidence/tables/StarTowerMonsterBornGroup.json",
+      "source_sha256": "7e588a9acb8698baf82e15ec0d47086fe8d1c5db8ba0fa8fb7dc41126f057c31",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerMonsterSpAttr",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 301,
+      "data": "bin/StarTowerMonsterSpAttr.json",
+      "readable": "readable/StarTowerMonsterSpAttr.json",
+      "evidence": "evidence/tables/StarTowerMonsterSpAttr.json",
+      "source_sha256": "e3e115607af535a3c41a2bf3d00f8311fb144b55e3e597053a54d6da672c55fb",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerNPC",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 4,
+      "data": "bin/StarTowerNPC.json",
+      "readable": "readable/StarTowerNPC.json",
+      "evidence": "evidence/tables/StarTowerNPC.json",
+      "source_sha256": "0dc148ce5e39b65e9aca3bd24c64678132a7d0708992751933428b1a3a0b4ed9",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerNPC.json",
+      "zh_CN": "language/zh_CN/StarTowerNPC.json"
+    },
+    {
+      "table": "StarTowerQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 57,
+      "data": "bin/StarTowerQuest.json",
+      "readable": "readable/StarTowerQuest.json",
+      "evidence": "evidence/tables/StarTowerQuest.json",
+      "source_sha256": "78a5e5d31c6796138beb9ee90110a948f8723a05c6eaa6bc367ea3fb0239d1f9",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerQuest.json",
+      "zh_CN": "language/zh_CN/StarTowerQuest.json"
+    },
+    {
+      "table": "StarTowerScenePrefab",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 187,
+      "data": "bin/StarTowerScenePrefab.json",
+      "readable": "readable/StarTowerScenePrefab.json",
+      "evidence": "evidence/tables/StarTowerScenePrefab.json",
+      "source_sha256": "e2f00b48c6ea5b4552e444f5e22cdebfec9601f9ec25999773931bd7fc946ed9",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerShopGoods",
+      "categories": [
+        "stages_modes",
+        "shop_economy"
+      ],
+      "row_count": 8,
+      "data": "bin/StarTowerShopGoods.json",
+      "readable": "readable/StarTowerShopGoods.json",
+      "evidence": "evidence/tables/StarTowerShopGoods.json",
+      "source_sha256": "99424f3685879a8c25609289849a6edfa88969493cd64260f7c9e06d53765cf5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerSpecificCombat",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/StarTowerSpecificCombat.json",
+      "readable": "readable/StarTowerSpecificCombat.json",
+      "evidence": "evidence/tables/StarTowerSpecificCombat.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerSpMode",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/StarTowerSpMode.json",
+      "readable": "readable/StarTowerSpMode.json",
+      "evidence": "evidence/tables/StarTowerSpMode.json",
+      "source_sha256": "364ef411f2a8f9b119338448a047de95fecdf873ab425d3908458a4b4e32aae4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerStage",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 475,
+      "data": "bin/StarTowerStage.json",
+      "readable": "readable/StarTowerStage.json",
+      "evidence": "evidence/tables/StarTowerStage.json",
+      "source_sha256": "6fe5e7e4ba1f36fa9cf6846589aef37e37698aaa1cc32d6b185d827c3fe4f5f5",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerTalk",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 120,
+      "data": "bin/StarTowerTalk.json",
+      "readable": "readable/StarTowerTalk.json",
+      "evidence": "evidence/tables/StarTowerTalk.json",
+      "source_sha256": "24033319758e8349cbdad049395b50d33a73fd52febd935b899979c823741444",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerTalk.json",
+      "zh_CN": "language/zh_CN/StarTowerTalk.json"
+    },
+    {
+      "table": "StarTowerTeamExp",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 20,
+      "data": "bin/StarTowerTeamExp.json",
+      "readable": "readable/StarTowerTeamExp.json",
+      "evidence": "evidence/tables/StarTowerTeamExp.json",
+      "source_sha256": "66ee3a237210d47daaf812b56094692c692b5e3b6b581315fc28d7f52da6b7ae",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ThrowGiftFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 16,
+      "data": "bin/ThrowGiftFloor.json",
+      "readable": "readable/ThrowGiftFloor.json",
+      "evidence": "evidence/tables/ThrowGiftFloor.json",
+      "source_sha256": "f5f07bdc9c505618a34f25f1d7280da1cdc06590dd533f54b8ceb235cd2aca5a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ThrowGiftGuideLine",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/ThrowGiftGuideLine.json",
+      "readable": "readable/ThrowGiftGuideLine.json",
+      "evidence": "evidence/tables/ThrowGiftGuideLine.json",
+      "source_sha256": "8612aa0943ac2dbca9afc24b5e57311ed8789b7e93592c03b63da3c70f7d3343",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ThrowGiftItem",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 10,
+      "data": "bin/ThrowGiftItem.json",
+      "readable": "readable/ThrowGiftItem.json",
+      "evidence": "evidence/tables/ThrowGiftItem.json",
+      "source_sha256": "ef7e0ec8a63436032f6d51a4a324c2dc645113899b2f70049ccf76c3b04b4e6a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ThrowGiftItem.json",
+      "zh_CN": "language/zh_CN/ThrowGiftItem.json"
+    },
+    {
+      "table": "ThrowGiftItemPool",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 70,
+      "data": "bin/ThrowGiftItemPool.json",
+      "readable": "readable/ThrowGiftItemPool.json",
+      "evidence": "evidence/tables/ThrowGiftItemPool.json",
+      "source_sha256": "de261887c94a6d535f12c39707f25689541f74f853f661616a2b16e222efa547",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ThrowGiftLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 16,
+      "data": "bin/ThrowGiftLevel.json",
+      "readable": "readable/ThrowGiftLevel.json",
+      "evidence": "evidence/tables/ThrowGiftLevel.json",
+      "source_sha256": "fe3c3b5f5fd56a356a560ef066c1f2d14a220ca3606d53c1aff71dd0c0a517de",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ThrowGiftLevel.json",
+      "zh_CN": "language/zh_CN/ThrowGiftLevel.json"
+    },
+    {
+      "table": "ThrowGiftSpawnPoints",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 67,
+      "data": "bin/ThrowGiftSpawnPoints.json",
+      "readable": "readable/ThrowGiftSpawnPoints.json",
+      "evidence": "evidence/tables/ThrowGiftSpawnPoints.json",
+      "source_sha256": "e9aa5e9ced8e867c7b333779858ef00575516321e12c11fe13cc45110d0b070a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ThrowGiftSpecialObstacle",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 5,
+      "data": "bin/ThrowGiftSpecialObstacle.json",
+      "readable": "readable/ThrowGiftSpecialObstacle.json",
+      "evidence": "evidence/tables/ThrowGiftSpecialObstacle.json",
+      "source_sha256": "deb54fb394af74d9ef00bd2f9b2a363cb6d1e9dc49672225e808a52fb5796767",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TowerDefenceCharacterAI",
+      "categories": [
+        "characters",
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 18,
+      "data": "bin/TowerDefenceCharacterAI.json",
+      "readable": "readable/TowerDefenceCharacterAI.json",
+      "evidence": "evidence/tables/TowerDefenceCharacterAI.json",
+      "source_sha256": "571e4c3f4320aaccd4d9d4a06f2571b13fdc7469fc0103337903ba49db98718f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TowerDefenseCharacter",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 21,
+      "data": "bin/TowerDefenseCharacter.json",
+      "readable": "readable/TowerDefenseCharacter.json",
+      "evidence": "evidence/tables/TowerDefenseCharacter.json",
+      "source_sha256": "a3f7e8a5bc0468f0bef19ad8cd127401ff1bd3852dedddd1ce44d29bd0ec0f1a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefenseCharacter.json",
+      "zh_CN": "language/zh_CN/TowerDefenseCharacter.json"
+    },
+    {
+      "table": "TowerDefenseControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/TowerDefenseControl.json",
+      "readable": "readable/TowerDefenseControl.json",
+      "evidence": "evidence/tables/TowerDefenseControl.json",
+      "source_sha256": "483fa0a607087c570b277c1f6b02497a7d9a6763acd872f58d35ca925a11f90d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefenseControl.json",
+      "zh_CN": "language/zh_CN/TowerDefenseControl.json"
+    },
+    {
+      "table": "TowerDefenseFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 39,
+      "data": "bin/TowerDefenseFloor.json",
+      "readable": "readable/TowerDefenseFloor.json",
+      "evidence": "evidence/tables/TowerDefenseFloor.json",
+      "source_sha256": "8e4c7de0bc8491f720aeff48e68eb544ed381a45d57095cd79dd603504d93cf5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TowerDefenseGuide",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 46,
+      "data": "bin/TowerDefenseGuide.json",
+      "readable": "readable/TowerDefenseGuide.json",
+      "evidence": "evidence/tables/TowerDefenseGuide.json",
+      "source_sha256": "b958ecdf7857a0d3cca5f183479378334f8a185685b5635174c0fbe632c48b64",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TowerDefenseItem",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/TowerDefenseItem.json",
+      "readable": "readable/TowerDefenseItem.json",
+      "evidence": "evidence/tables/TowerDefenseItem.json",
+      "source_sha256": "72d32587ac07794375d35c1f7536f99e35af15fa21738c8b529b8802d049fd20",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefenseItem.json",
+      "zh_CN": "language/zh_CN/TowerDefenseItem.json"
+    },
+    {
+      "table": "TowerDefenseLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 39,
+      "data": "bin/TowerDefenseLevel.json",
+      "readable": "readable/TowerDefenseLevel.json",
+      "evidence": "evidence/tables/TowerDefenseLevel.json",
+      "source_sha256": "7118dbff8eea947687715ba70dbce16e23fc7707795f41f132b4d4e42db0ca0a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefenseLevel.json",
+      "zh_CN": "language/zh_CN/TowerDefenseLevel.json"
+    },
+    {
+      "table": "TowerDefenseMonster",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 18,
+      "data": "bin/TowerDefenseMonster.json",
+      "readable": "readable/TowerDefenseMonster.json",
+      "evidence": "evidence/tables/TowerDefenseMonster.json",
+      "source_sha256": "7131228126f3ee87c724f05f245c8f3b48bc150581a0468172c2f63e6c8b11bb",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+      "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+    },
+    {
+      "table": "TowerDefensePotential",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 126,
+      "data": "bin/TowerDefensePotential.json",
+      "readable": "readable/TowerDefensePotential.json",
+      "evidence": "evidence/tables/TowerDefensePotential.json",
+      "source_sha256": "d851f208d32242d6deaaa3f5d3de9b88b4211fa47684212c4fc8f1fcae986c24",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+      "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+    },
+    {
+      "table": "TowerDefenseQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 99,
+      "data": "bin/TowerDefenseQuest.json",
+      "readable": "readable/TowerDefenseQuest.json",
+      "evidence": "evidence/tables/TowerDefenseQuest.json",
+      "source_sha256": "b358dc7c1053ab8241b6565290c2a7c53d2376b5f2cf37bf572c35d6076fa7b2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+      "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+    },
+    {
+      "table": "TowerDefenseQuestGroup",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 16,
+      "data": "bin/TowerDefenseQuestGroup.json",
+      "readable": "readable/TowerDefenseQuestGroup.json",
+      "evidence": "evidence/tables/TowerDefenseQuestGroup.json",
+      "source_sha256": "1c1f3c221a095cd1d0369927eb3681944d71e2090fdd7e93211fe3a1ef8e3400",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefenseQuestGroup.json",
+      "zh_CN": "language/zh_CN/TowerDefenseQuestGroup.json"
+    },
+    {
+      "table": "TowerDefenseStory",
+      "categories": [
+        "story_social",
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/TowerDefenseStory.json",
+      "readable": "readable/TowerDefenseStory.json",
+      "evidence": "evidence/tables/TowerDefenseStory.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TowerDefenseTeamExp",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 712,
+      "data": "bin/TowerDefenseTeamExp.json",
+      "readable": "readable/TowerDefenseTeamExp.json",
+      "evidence": "evidence/tables/TowerDefenseTeamExp.json",
+      "source_sha256": "8ee679e2e0ee8d75eec130fc566613d6d85d87ef940fffdafb5db6580322ffb6",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TraceHuntBoss",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 12,
+      "data": "bin/TraceHuntBoss.json",
+      "readable": "readable/TraceHuntBoss.json",
+      "evidence": "evidence/tables/TraceHuntBoss.json",
+      "source_sha256": "837718073ccaebe51452d77ac6c1c0e76c0f01e829a566bad49b5950e58556f5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TraceHuntControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 5,
+      "data": "bin/TraceHuntControl.json",
+      "readable": "readable/TraceHuntControl.json",
+      "evidence": "evidence/tables/TraceHuntControl.json",
+      "source_sha256": "bac8c8278fe11fc82bb60c7f4d977d073eea73a76ca4290c2e1fae9c4862238b",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TraceHuntFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/TraceHuntFloor.json",
+      "readable": "readable/TraceHuntFloor.json",
+      "evidence": "evidence/tables/TraceHuntFloor.json",
+      "source_sha256": "4f8f71831dccdcda980556cad9385194947bfeeb672df763657404d9cfcdc8df",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TraceHuntLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 20,
+      "data": "bin/TraceHuntLevel.json",
+      "readable": "readable/TraceHuntLevel.json",
+      "evidence": "evidence/tables/TraceHuntLevel.json",
+      "source_sha256": "5071ac7b63471e7b6bc5ff5df5249ead5a73f5d86af470838111b1efe8f91fc4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TraceHuntLogEntryTemplate",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 21,
+      "data": "bin/TraceHuntLogEntryTemplate.json",
+      "readable": "readable/TraceHuntLogEntryTemplate.json",
+      "evidence": "evidence/tables/TraceHuntLogEntryTemplate.json",
+      "source_sha256": "22012f088c3661de824946b379cf6e50f963960c9cf9e40254d30d112e637bfe",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+      "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+    },
+    {
+      "table": "TraceHuntScoreSwitch",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 50,
+      "data": "bin/TraceHuntScoreSwitch.json",
+      "readable": "readable/TraceHuntScoreSwitch.json",
+      "evidence": "evidence/tables/TraceHuntScoreSwitch.json",
+      "source_sha256": "8c24d67588a9b8d847613f423f26c42ee39f309b567c06889ab8d07b35039a82",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TraceHuntSelfHuntExtraCost",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 5,
+      "data": "bin/TraceHuntSelfHuntExtraCost.json",
+      "readable": "readable/TraceHuntSelfHuntExtraCost.json",
+      "evidence": "evidence/tables/TraceHuntSelfHuntExtraCost.json",
+      "source_sha256": "9dfb2d527cf4c2af2800810031522e4bfe6436764f410e1ffbf21fd318e4329a",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TraceHuntStar",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 7,
+      "data": "bin/TraceHuntStar.json",
+      "readable": "readable/TraceHuntStar.json",
+      "evidence": "evidence/tables/TraceHuntStar.json",
+      "source_sha256": "6c625f22f7531dc3baad1417f3a4ec97ca0828e8d0b3f688ec26804a0c318d2e",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TravelerDuelBoss",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/TravelerDuelBoss.json",
+      "readable": "readable/TravelerDuelBoss.json",
+      "evidence": "evidence/tables/TravelerDuelBoss.json",
+      "source_sha256": "1809921f78f1fd6c109d56de9149f2a73f611627dcb7f2c23919c48392c4ae3c",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TravelerDuelBoss.json",
+      "zh_CN": "language/zh_CN/TravelerDuelBoss.json"
+    },
+    {
+      "table": "TravelerDuelBossLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/TravelerDuelBossLevel.json",
+      "readable": "readable/TravelerDuelBossLevel.json",
+      "evidence": "evidence/tables/TravelerDuelBossLevel.json",
+      "source_sha256": "5f2c21943935fb4b709e57ff8445d15ee6f7befa2a659cd21f97e2f7bdbd0e4e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TravelerDuelBossLevel.json",
+      "zh_CN": "language/zh_CN/TravelerDuelBossLevel.json"
+    },
+    {
+      "table": "TravelerDuelChallengeAffix",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 152,
+      "data": "bin/TravelerDuelChallengeAffix.json",
+      "readable": "readable/TravelerDuelChallengeAffix.json",
+      "evidence": "evidence/tables/TravelerDuelChallengeAffix.json",
+      "source_sha256": "917466a2d6f89f8fdd4656d17a16fa8094f73ea72ba9cd09c1f0edda5fe39de4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TravelerDuelChallengeAffix.json",
+      "zh_CN": "language/zh_CN/TravelerDuelChallengeAffix.json"
+    },
+    {
+      "table": "TravelerDuelChallengeControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/TravelerDuelChallengeControl.json",
+      "readable": "readable/TravelerDuelChallengeControl.json",
+      "evidence": "evidence/tables/TravelerDuelChallengeControl.json",
+      "source_sha256": "c6119bd579d5c5df212cc7b5b7a9de9d6de8a610501fd0b351a391535aacbb86",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TravelerDuelChallengeDifficulty",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 101,
+      "data": "bin/TravelerDuelChallengeDifficulty.json",
+      "readable": "readable/TravelerDuelChallengeDifficulty.json",
+      "evidence": "evidence/tables/TravelerDuelChallengeDifficulty.json",
+      "source_sha256": "18ca0e6959683af4887d3397ef5957e70362ecde5c87f95d2e2fa19b94fde481",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TravelerDuelChallengeQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 59,
+      "data": "bin/TravelerDuelChallengeQuest.json",
+      "readable": "readable/TravelerDuelChallengeQuest.json",
+      "evidence": "evidence/tables/TravelerDuelChallengeQuest.json",
+      "source_sha256": "abd0a8b7c4ed7e60a603f4d46a31ce2362f6737cd530ec0174fdd29f91a14fab",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+      "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+    },
+    {
+      "table": "TravelerDuelFansLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 36,
+      "data": "bin/TravelerDuelFansLevel.json",
+      "readable": "readable/TravelerDuelFansLevel.json",
+      "evidence": "evidence/tables/TravelerDuelFansLevel.json",
+      "source_sha256": "af469b7b5586b4f14460462db28e98616116bb79c4e3a5eecdaad62a59b52235",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TravelerDuelFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 14,
+      "data": "bin/TravelerDuelFloor.json",
+      "readable": "readable/TravelerDuelFloor.json",
+      "evidence": "evidence/tables/TravelerDuelFloor.json",
+      "source_sha256": "6efe5f90a3c74af35d8ec13bd75fdcd73e4e64571e7718096de033ad712a9e8d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TravelerDuelHotValueItem",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/TravelerDuelHotValueItem.json",
+      "readable": "readable/TravelerDuelHotValueItem.json",
+      "evidence": "evidence/tables/TravelerDuelHotValueItem.json",
+      "source_sha256": "e82a793022b051e483e0450d223e5a40266ae0189a976c1480c0a1aa58659685",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TravelerDuelHotValueRewards",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 14,
+      "data": "bin/TravelerDuelHotValueRewards.json",
+      "readable": "readable/TravelerDuelHotValueRewards.json",
+      "evidence": "evidence/tables/TravelerDuelHotValueRewards.json",
+      "source_sha256": "8619c7e2e5f32927fe096d27a28896311004b8a4379f0cd8d409d89ae86989b8",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TravelerDuelIdleRewards",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 101,
+      "data": "bin/TravelerDuelIdleRewards.json",
+      "readable": "readable/TravelerDuelIdleRewards.json",
+      "evidence": "evidence/tables/TravelerDuelIdleRewards.json",
+      "source_sha256": "5b8de8556317996d347d7a6ab4cf019d927fd7d6530e5c5d1756916cc54435e8",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TravelerDuelTarget",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 14,
+      "data": "bin/TravelerDuelTarget.json",
+      "readable": "readable/TravelerDuelTarget.json",
+      "evidence": "evidence/tables/TravelerDuelTarget.json",
+      "source_sha256": "d1fe66d660ab0babd96b742cd9c1eb1f69620aed76982753bdc155b14e53c965",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TravelerDuelTarget.json",
+      "zh_CN": "language/zh_CN/TravelerDuelTarget.json"
+    },
+    {
+      "table": "TrialBuild",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 133,
+      "data": "bin/TrialBuild.json",
+      "readable": "readable/TrialBuild.json",
+      "evidence": "evidence/tables/TrialBuild.json",
+      "source_sha256": "acbcdffa240ef509fd6caaec2424add5362bf193a91e46c2e920216ed5e78292",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TrialBuild.json",
+      "zh_CN": "language/zh_CN/TrialBuild.json"
+    },
+    {
+      "table": "TrialCharacter",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 162,
+      "data": "bin/TrialCharacter.json",
+      "readable": "readable/TrialCharacter.json",
+      "evidence": "evidence/tables/TrialCharacter.json",
+      "source_sha256": "5527eb9221da34e7b2a31108f28eccf99ad21ad350f77394bdfe7eef874d84aa",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TrialCharacter.json",
+      "zh_CN": "language/zh_CN/TrialCharacter.json"
+    },
+    {
+      "table": "TrialControl",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 26,
+      "data": "bin/TrialControl.json",
+      "readable": "readable/TrialControl.json",
+      "evidence": "evidence/tables/TrialControl.json",
+      "source_sha256": "32f083d6a4d6bd04f3f62a494b4e8757bf45c539ce0f62d259f5ac4d72f47ff2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TrialDisc",
+      "categories": [
+        "discs",
+        "stages_modes"
+      ],
+      "row_count": 213,
+      "data": "bin/TrialDisc.json",
+      "readable": "readable/TrialDisc.json",
+      "evidence": "evidence/tables/TrialDisc.json",
+      "source_sha256": "e499a069243cc0dacdf156a804b2df89f56afe4bf9bfee49beacc36b237cbd09",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TrialFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 84,
+      "data": "bin/TrialFloor.json",
+      "readable": "readable/TrialFloor.json",
+      "evidence": "evidence/tables/TrialFloor.json",
+      "source_sha256": "05bf4f52abeb5cf71cb59e2dea949b792bd0f34d5b27411a6646017bb7015ca1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TrialGroup",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 21,
+      "data": "bin/TrialGroup.json",
+      "readable": "readable/TrialGroup.json",
+      "evidence": "evidence/tables/TrialGroup.json",
+      "source_sha256": "362b587fe47681b28807e032e8f40aa4327d079b9ff3448ef28478b076c3c752",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TrialPotential",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 84,
+      "data": "bin/TrialPotential.json",
+      "readable": "readable/TrialPotential.json",
+      "evidence": "evidence/tables/TrialPotential.json",
+      "source_sha256": "9d178d004fbd5607879da490d95eeab9088d5a32c5ada62fa08a1ed59664d38b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TutorialLevel",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 8,
+      "data": "bin/TutorialLevel.json",
+      "readable": "readable/TutorialLevel.json",
+      "evidence": "evidence/tables/TutorialLevel.json",
+      "source_sha256": "5a45c77d8a6c7b6ccc5cc434fa7357bb3ffdcf09c52093e9e181de4d12075d77",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TutorialLevel.json",
+      "zh_CN": "language/zh_CN/TutorialLevel.json"
+    },
+    {
+      "table": "TutorialLevelFloor",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 8,
+      "data": "bin/TutorialLevelFloor.json",
+      "readable": "readable/TutorialLevelFloor.json",
+      "evidence": "evidence/tables/TutorialLevelFloor.json",
+      "source_sha256": "6cf66a1ba84223c6d59512e51da8f225c2285f021b38324d2c49f4d3ec938538",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireBattleThreshold",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/VampireBattleThreshold.json",
+      "readable": "readable/VampireBattleThreshold.json",
+      "evidence": "evidence/tables/VampireBattleThreshold.json",
+      "source_sha256": "67856884401c136c2d2d600e513d4e032fe90e0bac388b894b6a840d561a4c68",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireEnemyPool",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 577,
+      "data": "bin/VampireEnemyPool.json",
+      "readable": "readable/VampireEnemyPool.json",
+      "evidence": "evidence/tables/VampireEnemyPool.json",
+      "source_sha256": "21f918ca0d685505a91cad1b27603dc6a449162ed29ca382e539edf9b5b553dc",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireEnemySet",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 1712,
+      "data": "bin/VampireEnemySet.json",
+      "readable": "readable/VampireEnemySet.json",
+      "evidence": "evidence/tables/VampireEnemySet.json",
+      "source_sha256": "e89e8988b6afd67ec6f203265c9a17db2d939891a293c7dbed7a7cb626bb8a9b",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireEnemySpAttr",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 388,
+      "data": "bin/VampireEnemySpAttr.json",
+      "readable": "readable/VampireEnemySpAttr.json",
+      "evidence": "evidence/tables/VampireEnemySpAttr.json",
+      "source_sha256": "576ae273d2fad0cbf733d0d84425f46d366fdc7f38287c139079fb138d5c1c64",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 34,
+      "data": "bin/VampireFloor.json",
+      "readable": "readable/VampireFloor.json",
+      "evidence": "evidence/tables/VampireFloor.json",
+      "source_sha256": "7eb8a671d6c447e2c7d49c93a805560e0fbfde62fac337c2b63d1742f40d5c70",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireMap",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 4,
+      "data": "bin/VampireMap.json",
+      "readable": "readable/VampireMap.json",
+      "evidence": "evidence/tables/VampireMap.json",
+      "source_sha256": "4b54fc658e65dc2579396bf55e4ad584a4e6ebccdd25cd6ce0c1050bae22189b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireRankSeason",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 13,
+      "data": "bin/VampireRankSeason.json",
+      "readable": "readable/VampireRankSeason.json",
+      "evidence": "evidence/tables/VampireRankSeason.json",
+      "source_sha256": "941af738a8035e142b30415bc59ef04eb9057f8da89ac99b943f19cbf49a277f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireSurvivor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 27,
+      "data": "bin/VampireSurvivor.json",
+      "readable": "readable/VampireSurvivor.json",
+      "evidence": "evidence/tables/VampireSurvivor.json",
+      "source_sha256": "e9a56787bd3033fc031ca2693d3d124bdc3bbcd023e2f7933c4aa6467b13d66c",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/VampireSurvivor.json",
+      "zh_CN": "language/zh_CN/VampireSurvivor.json"
+    },
+    {
+      "table": "VampireSurvivorLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 50,
+      "data": "bin/VampireSurvivorLevel.json",
+      "readable": "readable/VampireSurvivorLevel.json",
+      "evidence": "evidence/tables/VampireSurvivorLevel.json",
+      "source_sha256": "4c3078b201b07e1cce0f1ae9db9743f1beb85b6d902f1796f466cf6ce43fa4bb",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireSurvivorQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 128,
+      "data": "bin/VampireSurvivorQuest.json",
+      "readable": "readable/VampireSurvivorQuest.json",
+      "evidence": "evidence/tables/VampireSurvivorQuest.json",
+      "source_sha256": "2a3bf173faf303def533736b0ff1dc98541b219398767a8489cb37956af67dc7",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/VampireSurvivorQuest.json",
+      "zh_CN": "language/zh_CN/VampireSurvivorQuest.json"
+    },
+    {
+      "table": "VampireTalent",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 32,
+      "data": "bin/VampireTalent.json",
+      "readable": "readable/VampireTalent.json",
+      "evidence": "evidence/tables/VampireTalent.json",
+      "source_sha256": "fa854ea6d0bcebefdf0b90d2887205077cb4e9ecaf858c5efee9e06f97ed5b78",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/VampireTalent.json",
+      "zh_CN": "language/zh_CN/VampireTalent.json"
+    },
+    {
+      "table": "VampireTalentDesc",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 20,
+      "data": "bin/VampireTalentDesc.json",
+      "readable": "readable/VampireTalentDesc.json",
+      "evidence": "evidence/tables/VampireTalentDesc.json",
+      "source_sha256": "ae575d3ce84f654da079fe0635b6044f05d0ac9bc4118dd5a54b0b3b9bf850c2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/VampireTalentDesc.json",
+      "zh_CN": "language/zh_CN/VampireTalentDesc.json"
+    },
+    {
+      "table": "VampireTalentFloor",
+      "categories": [
+        "characters",
+        "stages_modes"
+      ],
+      "row_count": 19,
+      "data": "bin/VampireTalentFloor.json",
+      "readable": "readable/VampireTalentFloor.json",
+      "evidence": "evidence/tables/VampireTalentFloor.json",
+      "source_sha256": "bbca00747adc406d4bb2699bce3990e567cadcda8c4177c3e070168946b41d74",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "WeekBossAffix",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 30,
+      "data": "bin/WeekBossAffix.json",
+      "readable": "readable/WeekBossAffix.json",
+      "evidence": "evidence/tables/WeekBossAffix.json",
+      "source_sha256": "9b51c01a044cce468ee4acf115b986f7229bbf481259d5ee4b0699ee9f782382",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/WeekBossAffix.json",
+      "zh_CN": "language/zh_CN/WeekBossAffix.json"
+    },
+    {
+      "table": "WeekBossFloor",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 18,
+      "data": "bin/WeekBossFloor.json",
+      "readable": "readable/WeekBossFloor.json",
+      "evidence": "evidence/tables/WeekBossFloor.json",
+      "source_sha256": "67bf642b9bdcfc68fb9229624530e2b7aa51647e23de666fa6f93d0d5a711be0",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "WeekBossLevel",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 18,
+      "data": "bin/WeekBossLevel.json",
+      "readable": "readable/WeekBossLevel.json",
+      "evidence": "evidence/tables/WeekBossLevel.json",
+      "source_sha256": "a1beb4ad6c31345dcd92b8e7fb9ea28fe9ec928e971babbbc6cec48c00bf0f2d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/WeekBossLevel.json",
+      "zh_CN": "language/zh_CN/WeekBossLevel.json"
+    },
+    {
+      "table": "WeekBossType",
+      "categories": [
+        "stages_modes"
+      ],
+      "row_count": 6,
+      "data": "bin/WeekBossType.json",
+      "readable": "readable/WeekBossType.json",
+      "evidence": "evidence/tables/WeekBossType.json",
+      "source_sha256": "f12ed17b70203d80268cdc00f67de76bd739b90ae1c25c4a7a396820c2eed5f8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/WeekBossType.json",
+      "zh_CN": "language/zh_CN/WeekBossType.json"
+    }
+  ]
+}

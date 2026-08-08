@@ -1,0 +1,411 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StoryChapter",
+    "categories": [
+      "story_social"
+    ],
+    "row_count": 9,
+    "localization_hits": 27,
+    "source": "bin/StoryChapter.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Type": 1,
+      "WorldClass": 1,
+      "Index": "01",
+      "Name": "StoryChapter.1.1",
+      "Desc": "StoryChapter.1.2",
+      "ChapterIcon": "Icon/MapChapter/chapter_stage_01",
+      "BannerIcon": "UI/big_sprites/banner_avg_chapter1",
+      "ChapterYear": "StoryChapter.1.3",
+      "UnlockShowStoryId": 101,
+      "_localized": {
+        "/Name": {
+          "key": "StoryChapter.1.1",
+          "zh_TW": "第一章",
+          "zh_CN": "第一章",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/Desc": {
+          "key": "StoryChapter.1.2",
+          "zh_TW": "沒有記憶的生物",
+          "zh_CN": "没有记忆的生物",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/ChapterYear": {
+          "key": "StoryChapter.1.3",
+          "zh_TW": "星塔曆996年",
+          "zh_CN": "星塔历 996 年",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Type": 1,
+      "WorldClass": 7,
+      "PrevStories": [
+        "STm01_10"
+      ],
+      "Index": "02",
+      "Name": "StoryChapter.2.1",
+      "Desc": "StoryChapter.2.2",
+      "ChapterIcon": "Icon/MapChapter/chapter_stage_02",
+      "BannerIcon": "UI/big_sprites/banner_avg_chapter2",
+      "ChapterYear": "StoryChapter.2.3",
+      "UnlockShowStoryId": 204,
+      "_localized": {
+        "/Name": {
+          "key": "StoryChapter.2.1",
+          "zh_TW": "第二章",
+          "zh_CN": "第二章",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/Desc": {
+          "key": "StoryChapter.2.2",
+          "zh_TW": "水道橋上的風",
+          "zh_CN": "水道桥上的风",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/ChapterYear": {
+          "key": "StoryChapter.2.3",
+          "zh_TW": "星塔曆996年",
+          "zh_CN": "星塔历 996 年",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Type": 1,
+      "WorldClass": 9,
+      "PrevStories": [
+        "STm02_11"
+      ],
+      "Index": "03",
+      "Name": "StoryChapter.3.1",
+      "Desc": "StoryChapter.3.2",
+      "ChapterIcon": "Icon/MapChapter/chapter_stage_03",
+      "BannerIcon": "UI/big_sprites/banner_avg_chapter3",
+      "ChapterYear": "StoryChapter.3.3",
+      "UnlockShowStoryId": 304,
+      "_localized": {
+        "/Name": {
+          "key": "StoryChapter.3.1",
+          "zh_TW": "第三章",
+          "zh_CN": "第三章",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/Desc": {
+          "key": "StoryChapter.3.2",
+          "zh_TW": "我們的旅團",
+          "zh_CN": "我们的旅团",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/ChapterYear": {
+          "key": "StoryChapter.3.3",
+          "zh_TW": "星塔曆996年",
+          "zh_CN": "星塔历 996 年",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "Type": 1,
+      "WorldClass": 12,
+      "PrevStories": [
+        "STm03_11"
+      ],
+      "Index": "04",
+      "Name": "StoryChapter.4.1",
+      "Desc": "StoryChapter.4.2",
+      "ChapterIcon": "Icon/MapChapter/chapter_stage_04",
+      "BannerIcon": "UI/big_sprites/banner_avg_chapter4",
+      "ChapterYear": "StoryChapter.4.3",
+      "UnlockShowStoryId": 403,
+      "_localized": {
+        "/Name": {
+          "key": "StoryChapter.4.1",
+          "zh_TW": "第四章",
+          "zh_CN": "第四章",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/Desc": {
+          "key": "StoryChapter.4.2",
+          "zh_TW": "夢的彼岸",
+          "zh_CN": "梦的彼岸",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/ChapterYear": {
+          "key": "StoryChapter.4.3",
+          "zh_TW": "星塔曆996年",
+          "zh_CN": "星塔历 996 年",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "Type": 1,
+      "WorldClass": 14,
+      "PrevStories": [
+        "STm04_11"
+      ],
+      "Index": "05",
+      "Name": "StoryChapter.5.1",
+      "Desc": "StoryChapter.5.2",
+      "ChapterIcon": "Icon/MapChapter/chapter_stage_05",
+      "BannerIcon": "UI/big_sprites/banner_avg_chapter5",
+      "ChapterYear": "StoryChapter.5.3",
+      "UnlockShowStoryId": 504,
+      "_localized": {
+        "/Name": {
+          "key": "StoryChapter.5.1",
+          "zh_TW": "第五章",
+          "zh_CN": "第五章",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/Desc": {
+          "key": "StoryChapter.5.2",
+          "zh_TW": "落於暗夜的螢光",
+          "zh_CN": "落于暗夜的荧光",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/ChapterYear": {
+          "key": "StoryChapter.5.3",
+          "zh_TW": "星塔曆996年",
+          "zh_CN": "星塔历 996 年",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "Type": 1,
+      "WorldClass": 16,
+      "PrevStories": [
+        "STm05_11"
+      ],
+      "Index": "06",
+      "Name": "StoryChapter.6.1",
+      "Desc": "StoryChapter.6.2",
+      "ChapterIcon": "Icon/MapChapter/chapter_stage_06",
+      "BannerIcon": "UI/big_sprites/banner_avg_chapter6",
+      "ChapterYear": "StoryChapter.6.3",
+      "UnlockShowStoryId": 604,
+      "_localized": {
+        "/Name": {
+          "key": "StoryChapter.6.1",
+          "zh_TW": "第六章",
+          "zh_CN": "第六章",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/Desc": {
+          "key": "StoryChapter.6.2",
+          "zh_TW": "微火的奇跡",
+          "zh_CN": "微火的奇迹",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/ChapterYear": {
+          "key": "StoryChapter.6.3",
+          "zh_TW": "星塔曆996年",
+          "zh_CN": "星塔历 996 年",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "Type": 2,
+      "WorldClass": 18,
+      "PrevStories": [
+        "STm06_13"
+      ],
+      "Name": "StoryChapter.7.1",
+      "Desc": "StoryChapter.7.2",
+      "ChapterIcon": "Icon/MapChapter/chapter_stage_SP1",
+      "BannerIcon": "UI/big_sprites/banner_avg_chapter6x5",
+      "ChapterYear": "StoryChapter.7.3",
+      "UnlockShowStoryId": 6503,
+      "OpenTime": "2026-04-16T12:00:00+08:00",
+      "StoryPanelId": 431,
+      "_localized": {
+        "/Name": {
+          "key": "StoryChapter.7.1",
+          "zh_TW": "特別篇",
+          "zh_CN": "特别篇",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/Desc": {
+          "key": "StoryChapter.7.2",
+          "zh_TW": "謎影的序曲",
+          "zh_CN": "谜影的序曲",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/ChapterYear": {
+          "key": "StoryChapter.7.3",
+          "zh_TW": "星塔曆996年",
+          "zh_CN": "星塔历 996 年",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        }
+      }
+    },
+    "8": {
+      "Id": 8,
+      "Type": 1,
+      "WorldClass": 20,
+      "PrevStories": [
+        "STm06x5_10"
+      ],
+      "Index": "07",
+      "Name": "StoryChapter.8.1",
+      "Desc": "StoryChapter.8.2",
+      "ChapterIcon": "Icon/MapChapter/chapter_stage_07",
+      "BannerIcon": "UI/big_sprites/banner_avg_chapter7",
+      "ChapterYear": "StoryChapter.8.3",
+      "UnlockShowStoryId": 804,
+      "OpenTime": "2026-05-08T12:00:00+08:00",
+      "_localized": {
+        "/Name": {
+          "key": "StoryChapter.8.1",
+          "zh_TW": "第七章",
+          "zh_CN": "第七章",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/Desc": {
+          "key": "StoryChapter.8.2",
+          "zh_TW": "為星標價",
+          "zh_CN": "星之竞拍",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/ChapterYear": {
+          "key": "StoryChapter.8.3",
+          "zh_TW": "星塔曆996年",
+          "zh_CN": "星塔历 996 年",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        }
+      }
+    },
+    "9": {
+      "Id": 9,
+      "Type": 1,
+      "WorldClass": 22,
+      "PrevStories": [
+        "STm07_16"
+      ],
+      "Index": "08",
+      "Name": "StoryChapter.9.1",
+      "Desc": "StoryChapter.9.2",
+      "ChapterIcon": "Icon/MapChapter/chapter_stage_08",
+      "BannerIcon": "UI/big_sprites/banner_avg_chapter8",
+      "ChapterYear": "StoryChapter.9.3",
+      "UnlockShowStoryId": 901,
+      "OpenTime": "2026-08-11T12:00:00+08:00",
+      "_localized": {
+        "/Name": {
+          "key": "StoryChapter.9.1",
+          "zh_TW": "第八章",
+          "zh_CN": "第八章",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/Desc": {
+          "key": "StoryChapter.9.2",
+          "zh_TW": "昔日餘溫",
+          "zh_CN": "往日残影",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        },
+        "/ChapterYear": {
+          "key": "StoryChapter.9.3",
+          "zh_TW": "星塔曆996年",
+          "zh_CN": "星塔历 996 年",
+          "sources": {
+            "zh_TW": "language/zh_TW/StoryChapter.json",
+            "zh_CN": "language/zh_CN/StoryChapter.json"
+          }
+        }
+      }
+    }
+  }
+}

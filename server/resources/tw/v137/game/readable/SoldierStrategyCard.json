@@ -1,0 +1,1814 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SoldierStrategyCard",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 45,
+    "localization_hits": 135,
+    "source": "bin/SoldierStrategyCard.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "2010101": {
+      "Id": 2010101,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Chess_08",
+      "Name": "SoldierStrategyCard.2010101.1",
+      "CardEffectId": 2010101,
+      "Des": "SoldierStrategyCard.2010101.2",
+      "Desc": "SoldierStrategyCard.2010101.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010101.1",
+          "zh_TW": "打包出售",
+          "zh_CN": "打包出售",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010101.2",
+          "zh_TW": "出售5個棋子後，獲得10賢才金幣",
+          "zh_CN": "出售5个棋子后，获得10贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010101.3",
+          "zh_TW": "出售5個棋子後，獲得10賢才金幣",
+          "zh_CN": "出售5个棋子后，获得10贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010102": {
+      "Id": 2010102,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Chess_05",
+      "Name": "SoldierStrategyCard.2010102.1",
+      "CardEffectId": 2010102,
+      "Des": "SoldierStrategyCard.2010102.2",
+      "Desc": "SoldierStrategyCard.2010102.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010102.1",
+          "zh_TW": "成長計畫",
+          "zh_CN": "成长计划",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010102.2",
+          "zh_TW": "每當合成2星1費棋子，獲得2賢才金幣",
+          "zh_CN": "每当合成2星1费棋子，获得2贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010102.3",
+          "zh_TW": "每當合成2星1費棋子，獲得2賢才金幣",
+          "zh_CN": "每当合成2星1费棋子，获得2贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010103": {
+      "Id": 2010103,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Coin_02",
+      "Name": "SoldierStrategyCard.2010103.1",
+      "CardEffectId": 2010103,
+      "Des": "SoldierStrategyCard.2010103.2",
+      "Desc": "SoldierStrategyCard.2010103.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010103.1",
+          "zh_TW": "附加獎",
+          "zh_CN": "附加奖",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010103.2",
+          "zh_TW": "每次戰鬥勝利時，獲得1賢才金幣",
+          "zh_CN": "每次战斗胜利时，获得1贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010103.3",
+          "zh_TW": "每次戰鬥勝利時，獲得1賢才金幣",
+          "zh_CN": "每次战斗胜利时，获得1贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010104": {
+      "Id": 2010104,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Coin_01",
+      "Name": "SoldierStrategyCard.2010104.1",
+      "CardEffectId": 2010104,
+      "Des": "SoldierStrategyCard.2010104.2",
+      "Desc": "SoldierStrategyCard.2010104.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010104.1",
+          "zh_TW": "沉沒成本",
+          "zh_CN": "沉没成本",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010104.2",
+          "zh_TW": "首次達成3連敗，獲得5賢才金幣",
+          "zh_CN": "首次达成3连败，获得5贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010104.3",
+          "zh_TW": "首次達成3連敗，獲得5賢才金幣",
+          "zh_CN": "首次达成3连败，获得5贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010105": {
+      "Id": 2010105,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Shop_01",
+      "Name": "SoldierStrategyCard.2010105.1",
+      "CardEffectId": 2010105,
+      "Des": "SoldierStrategyCard.2010105.2",
+      "Desc": "SoldierStrategyCard.2010105.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010105.1",
+          "zh_TW": "額外刷新",
+          "zh_CN": "额外刷新",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010105.2",
+          "zh_TW": "每次購買商店經驗，有機率獲得1次免費刷新",
+          "zh_CN": "每次购买商店经验，有概率获得1次免费刷新",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010105.3",
+          "zh_TW": "每次購買商店經驗，有機率獲得1次免費刷新",
+          "zh_CN": "每次购买商店经验，有概率获得1次免费刷新",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010106": {
+      "Id": 2010106,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Coin_02",
+      "Name": "SoldierStrategyCard.2010106.1",
+      "CardEffectId": 2010106,
+      "Des": "SoldierStrategyCard.2010106.2",
+      "Desc": "SoldierStrategyCard.2010106.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010106.1",
+          "zh_TW": "節點補貼",
+          "zh_CN": "节点补贴",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010106.2",
+          "zh_TW": "每進入4個節點，獲得4賢才金幣",
+          "zh_CN": "每进入4个节点，获得4贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010106.3",
+          "zh_TW": "每進入4個節點，獲得4賢才金幣",
+          "zh_CN": "每进入4个节点，获得4贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010107": {
+      "Id": 2010107,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Chess_06",
+      "Name": "SoldierStrategyCard.2010107.1",
+      "CardEffectId": 2010107,
+      "Des": "SoldierStrategyCard.2010107.2",
+      "Desc": "SoldierStrategyCard.2010107.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010107.1",
+          "zh_TW": "團隊補員",
+          "zh_CN": "团队补员",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010107.2",
+          "zh_TW": "每購買5個1費棋子，隨機獲得1個2費棋子",
+          "zh_CN": "每购买5个1费棋子，随机获得1个2费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010107.3",
+          "zh_TW": "每購買5個1費棋子，隨機獲得1個2費棋子",
+          "zh_CN": "每购买5个1费棋子，随机获得1个2费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010108": {
+      "Id": 2010108,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Shop_02",
+      "Name": "SoldierStrategyCard.2010108.1",
+      "CardEffectId": 2010108,
+      "Des": "SoldierStrategyCard.2010108.2",
+      "Desc": "SoldierStrategyCard.2010108.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010108.1",
+          "zh_TW": "刷新返利",
+          "zh_CN": "刷新返利",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010108.2",
+          "zh_TW": "商店每刷新8次，獲得2賢才金幣",
+          "zh_CN": "商店每刷新8次，获得2贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010108.3",
+          "zh_TW": "商店每刷新8次，獲得2賢才金幣",
+          "zh_CN": "商店每刷新8次，获得2贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010109": {
+      "Id": 2010109,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Chess_06",
+      "Name": "SoldierStrategyCard.2010109.1",
+      "CardEffectId": 2010109,
+      "Des": "SoldierStrategyCard.2010109.2",
+      "Desc": "SoldierStrategyCard.2010109.3",
+      "GradeLevelCond": 10201,
+      "UnlockCond": 4,
+      "UnlockCondParams": [
+        3
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010109.1",
+          "zh_TW": "人才培養",
+          "zh_CN": "人才培养",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010109.2",
+          "zh_TW": "每當合成2星2費棋子，隨機獲得1個2費棋子",
+          "zh_CN": "每当合成2星2费棋子，随机获得1个2费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010109.3",
+          "zh_TW": "每當合成2星2費棋子，隨機獲得1個2費棋子",
+          "zh_CN": "每当合成2星2费棋子，随机获得1个2费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010110": {
+      "Id": 2010110,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Hp_02",
+      "Name": "SoldierStrategyCard.2010110.1",
+      "CardEffectId": 2010110,
+      "Des": "SoldierStrategyCard.2010110.2",
+      "Desc": "SoldierStrategyCard.2010110.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010110.1",
+          "zh_TW": "冷靜保險",
+          "zh_CN": "冷静保险",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010110.2",
+          "zh_TW": "首次理智低於20時，獲得20賢才金幣",
+          "zh_CN": "首次理智低于20时，获得20贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010110.3",
+          "zh_TW": "首次理智低於20時，獲得20賢才金幣",
+          "zh_CN": "首次理智低于20时，获得20贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010111": {
+      "Id": 2010111,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Exp_01",
+      "Name": "SoldierStrategyCard.2010111.1",
+      "CardEffectId": 2010111,
+      "Des": "SoldierStrategyCard.2010111.2",
+      "Desc": "SoldierStrategyCard.2010111.3",
+      "GradeLevelCond": 10201,
+      "UnlockCond": 4,
+      "UnlockCondParams": [
+        3
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010111.1",
+          "zh_TW": "理智決策",
+          "zh_CN": "理智决策",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010111.2",
+          "zh_TW": "節點結束時若理智大於60，獲得4經驗",
+          "zh_CN": "节点结束时若理智大于60，获得4经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010111.3",
+          "zh_TW": "節點結束時若理智大於60，獲得4經驗",
+          "zh_CN": "节点结束时若理智大于60，获得4经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010112": {
+      "Id": 2010112,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Exp_01",
+      "Name": "SoldierStrategyCard.2010112.1",
+      "CardEffectId": 2010112,
+      "Des": "SoldierStrategyCard.2010112.2",
+      "Desc": "SoldierStrategyCard.2010112.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010112.1",
+          "zh_TW": "越挫越勇",
+          "zh_CN": "愈挫愈勇",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010112.2",
+          "zh_TW": "每次戰鬥失敗，經驗+2",
+          "zh_CN": "每次战斗失败，经验+2",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010112.3",
+          "zh_TW": "每次戰鬥失敗，經驗+2",
+          "zh_CN": "每次战斗失败，经验+2",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010113": {
+      "Id": 2010113,
+      "GroupId": 101,
+      "Rarity": 5,
+      "Icon": "Soldier_00_BuffCard_Coin_02",
+      "Name": "SoldierStrategyCard.2010113.1",
+      "CardEffectId": 2010113,
+      "Des": "SoldierStrategyCard.2010113.2",
+      "Desc": "SoldierStrategyCard.2010113.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010113.1",
+          "zh_TW": "菁英計畫",
+          "zh_CN": "精英计划",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010113.2",
+          "zh_TW": "每當3費棋子合成2星，獲得5賢才金幣",
+          "zh_CN": "每当3费棋子合成2星，获得5贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010113.3",
+          "zh_TW": "每當3費棋子合成2星，獲得5賢才金幣",
+          "zh_CN": "每当3费棋子合成2星，获得5贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010201": {
+      "Id": 2010201,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Coin_01",
+      "Name": "SoldierStrategyCard.2010201.1",
+      "CardEffectId": 2010201,
+      "Des": "SoldierStrategyCard.2010201.2",
+      "Desc": "SoldierStrategyCard.2010201.3",
+      "GradeLevelCond": 10201,
+      "UnlockCond": 4,
+      "UnlockCondParams": [
+        3
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010201.1",
+          "zh_TW": "交易套利",
+          "zh_CN": "交易套利",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010201.2",
+          "zh_TW": "每出售10個棋子，額外獲得1賢才金幣",
+          "zh_CN": "每出售10个棋子，额外获得1贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010201.3",
+          "zh_TW": "每出售10個棋子，額外獲得1賢才金幣",
+          "zh_CN": "每出售10个棋子，额外获得1贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010202": {
+      "Id": 2010202,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Shop_08",
+      "Name": "SoldierStrategyCard.2010202.1",
+      "CardEffectId": 2010202,
+      "Des": "SoldierStrategyCard.2010202.2",
+      "Desc": "SoldierStrategyCard.2010202.3",
+      "GradeLevelCond": 10201,
+      "UnlockCond": 4,
+      "UnlockCondParams": [
+        3
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010202.1",
+          "zh_TW": "交易機會",
+          "zh_CN": "交易机会",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010202.2",
+          "zh_TW": "每出售5個棋子，有機率獲得1個免費刷新",
+          "zh_CN": "每出售5个棋子，有概率获得1个免费刷新",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010202.3",
+          "zh_TW": "每出售5個棋子，有機率獲得1個免費刷新",
+          "zh_CN": "每出售5个棋子，有概率获得1个免费刷新",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010203": {
+      "Id": 2010203,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Shop_06",
+      "Name": "SoldierStrategyCard.2010203.1",
+      "CardEffectId": 2010203,
+      "Des": "SoldierStrategyCard.2010203.2",
+      "Desc": "SoldierStrategyCard.2010203.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010203.1",
+          "zh_TW": "擴張計畫",
+          "zh_CN": "扩张计划",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010203.2",
+          "zh_TW": "首次合成2星3費棋子，獲得4賢才金幣，並隨機獲得1個2費棋子",
+          "zh_CN": "首次合成2星3费棋子，获得4贤才金币，并随机获得1个2费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010203.3",
+          "zh_TW": "首次合成2星3費棋子，獲得4賢才金幣，並隨機獲得1個2費棋子",
+          "zh_CN": "首次合成2星3费棋子，获得4贤才金币，并随机获得1个2费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010204": {
+      "Id": 2010204,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Shop_05",
+      "Name": "SoldierStrategyCard.2010204.1",
+      "CardEffectId": 2010204,
+      "Des": "SoldierStrategyCard.2010204.2",
+      "Desc": "SoldierStrategyCard.2010204.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010204.1",
+          "zh_TW": "再刷一輪",
+          "zh_CN": "再刷一轮",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010204.2",
+          "zh_TW": "每次刷新商店，有機率獲得1次免費刷新",
+          "zh_CN": "每次刷新商店，有概率获得1次免费刷新",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010204.3",
+          "zh_TW": "每次刷新商店，有機率獲得1次免費刷新",
+          "zh_CN": "每次刷新商店，有概率获得1次免费刷新",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010205": {
+      "Id": 2010205,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Shop_01",
+      "Name": "SoldierStrategyCard.2010205.1",
+      "CardEffectId": 2010205,
+      "Des": "SoldierStrategyCard.2010205.2",
+      "Desc": "SoldierStrategyCard.2010205.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010205.1",
+          "zh_TW": "升級倉儲",
+          "zh_CN": "升级仓储",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010205.2",
+          "zh_TW": "獲得2次免費刷新，之後商店每次升級，獲得2次免費刷新",
+          "zh_CN": "获得2次免费刷新，之后商店每次升级，获得2次免费刷新",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010205.3",
+          "zh_TW": "獲得2次免費刷新，之後商店每次升級，獲得2次免費刷新",
+          "zh_CN": "获得2次免费刷新，之后商店每次升级，获得2次免费刷新",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010206": {
+      "Id": 2010206,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Chess_02",
+      "Name": "SoldierStrategyCard.2010206.1",
+      "CardEffectId": 2010206,
+      "Des": "SoldierStrategyCard.2010206.2",
+      "Desc": "SoldierStrategyCard.2010206.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010206.1",
+          "zh_TW": "連勝爆發",
+          "zh_CN": "连胜爆发",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010206.2",
+          "zh_TW": "首次達成5連勝，獲得20賢才金幣，隨機獲得1個3星2費棋子",
+          "zh_CN": "首次达成5连胜，获得20贤才金币，随机获得1个3星2费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010206.3",
+          "zh_TW": "首次達成5連勝，獲得20賢才金幣，隨機獲得1個3星2費棋子",
+          "zh_CN": "首次达成5连胜，获得20贤才金币，随机获得1个3星2费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010207": {
+      "Id": 2010207,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Hp_05",
+      "Name": "SoldierStrategyCard.2010207.1",
+      "CardEffectId": 2010207,
+      "Des": "SoldierStrategyCard.2010207.2",
+      "Desc": "SoldierStrategyCard.2010207.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010207.1",
+          "zh_TW": "極端投資",
+          "zh_CN": "极端投资",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010207.2",
+          "zh_TW": "當前理智小於30時，每進入節點，獲得5賢才金幣",
+          "zh_CN": "当前理智小于30时，每进入节点，获得5贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010207.3",
+          "zh_TW": "當前理智小於30時，每進入節點，獲得5賢才金幣",
+          "zh_CN": "当前理智小于30时，每进入节点，获得5贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010208": {
+      "Id": 2010208,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Exp_02",
+      "Name": "SoldierStrategyCard.2010208.1",
+      "CardEffectId": 2010208,
+      "Des": "SoldierStrategyCard.2010208.2",
+      "Desc": "SoldierStrategyCard.2010208.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010208.1",
+          "zh_TW": "厚積薄發",
+          "zh_CN": "厚积薄发",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010208.2",
+          "zh_TW": "進入新節點時，若擁有60賢才金幣，獲得5經驗",
+          "zh_CN": "进入新节点时，若拥有60贤才金币，获得5经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010208.3",
+          "zh_TW": "進入新節點時，若擁有60賢才金幣，獲得5經驗",
+          "zh_CN": "进入新节点时，若拥有60贤才金币，获得5经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010209": {
+      "Id": 2010209,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Chess_04",
+      "Name": "SoldierStrategyCard.2010209.1",
+      "CardEffectId": 2010209,
+      "Des": "SoldierStrategyCard.2010209.2",
+      "Desc": "SoldierStrategyCard.2010209.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010209.1",
+          "zh_TW": "人才儲備",
+          "zh_CN": "人才储备",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010209.2",
+          "zh_TW": "每消耗20賢才金幣，隨機獲得1個非人形棋子",
+          "zh_CN": "每消耗20贤才金币，随机获得1个非人形棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010209.3",
+          "zh_TW": "每消耗20賢才金幣，隨機獲得1個非人形棋子",
+          "zh_CN": "每消耗20贤才金币，随机获得1个非人形棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010210": {
+      "Id": 2010210,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Chess_05",
+      "Name": "SoldierStrategyCard.2010210.1",
+      "CardEffectId": 2010210,
+      "Des": "SoldierStrategyCard.2010210.2",
+      "Desc": "SoldierStrategyCard.2010210.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010210.1",
+          "zh_TW": "領袖計畫",
+          "zh_CN": "领袖计划",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010210.2",
+          "zh_TW": "首次合成2星4費棋子，獲得8賢才金幣，隨機獲得1個3費棋子",
+          "zh_CN": "首次合成2星4费棋子，获得8贤才金币，随机获得1个3费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010210.3",
+          "zh_TW": "首次合成2星4費棋子，獲得8賢才金幣，隨機獲得1個3費棋子",
+          "zh_CN": "首次合成2星4费棋子，获得8贤才金币，随机获得1个3费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010211": {
+      "Id": 2010211,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Hp_02",
+      "Name": "SoldierStrategyCard.2010211.1",
+      "CardEffectId": 2010211,
+      "Des": "SoldierStrategyCard.2010211.2",
+      "Desc": "SoldierStrategyCard.2010211.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010211.1",
+          "zh_TW": "暫避鋒芒",
+          "zh_CN": "暂避锋芒",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010211.2",
+          "zh_TW": "每連續戰鬥失敗2次，理智+4，獲得4賢才金幣",
+          "zh_CN": "每连续战斗失败2次，理智+4，获得4贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010211.3",
+          "zh_TW": "每連續戰鬥失敗2次，理智+4，獲得4賢才金幣",
+          "zh_CN": "每连续战斗失败2次，理智+4，获得4贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010212": {
+      "Id": 2010212,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Chess_06",
+      "Name": "SoldierStrategyCard.2010212.1",
+      "CardEffectId": 2010212,
+      "Des": "SoldierStrategyCard.2010212.2",
+      "Desc": "SoldierStrategyCard.2010212.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010212.1",
+          "zh_TW": "累計增值",
+          "zh_CN": "累计增值",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010212.2",
+          "zh_TW": "每購買8個3費棋子，隨機獲得1個等費棋子",
+          "zh_CN": "每购买8个3费棋子，随机获得1个等费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010212.3",
+          "zh_TW": "每購買8個3費棋子，隨機獲得1個等費棋子",
+          "zh_CN": "每购买8个3费棋子，随机获得1个等费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010213": {
+      "Id": 2010213,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Chess_02",
+      "Name": "SoldierStrategyCard.2010213.1",
+      "CardEffectId": 2010213,
+      "Des": "SoldierStrategyCard.2010213.2",
+      "Desc": "SoldierStrategyCard.2010213.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010213.1",
+          "zh_TW": "聲望變現",
+          "zh_CN": "声望变现",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010213.2",
+          "zh_TW": "進入新節點時，棋盤上若存在3個3費棋子，獲得3賢才金幣",
+          "zh_CN": "进入新节点时，棋盘上若存在3个3费棋子，获得3贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010213.3",
+          "zh_TW": "進入新節點時，棋盤上若存在3個3費棋子，獲得3賢才金幣",
+          "zh_CN": "进入新节点时，棋盘上若存在3个3费棋子，获得3贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010214": {
+      "Id": 2010214,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Chess_11",
+      "Name": "SoldierStrategyCard.2010214.1",
+      "CardEffectId": 2010214,
+      "Des": "SoldierStrategyCard.2010214.2",
+      "Desc": "SoldierStrategyCard.2010214.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010214.1",
+          "zh_TW": "菁英引入",
+          "zh_CN": "精英引入",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010214.2",
+          "zh_TW": "商店等級達到7級後，每次進入節點，隨機獲得1個3費棋子",
+          "zh_CN": "商店等级达到7级后，每次进入节点，随机获得1个3费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010214.3",
+          "zh_TW": "商店等級達到7級後，每次進入節點，隨機獲得1個3費棋子",
+          "zh_CN": "商店等级达到7级后，每次进入节点，随机获得1个3费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010215": {
+      "Id": 2010215,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Shop_07",
+      "Name": "SoldierStrategyCard.2010215.1",
+      "CardEffectId": 2010215,
+      "Des": "SoldierStrategyCard.2010215.2",
+      "Desc": "SoldierStrategyCard.2010215.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010215.1",
+          "zh_TW": "偶見稀客",
+          "zh_CN": "偶见稀客",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010215.2",
+          "zh_TW": "商店中有機率出現1個2星棋子",
+          "zh_CN": "商店中有概率出现1个2星棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010215.3",
+          "zh_TW": "商店中有機率出現1個2星棋子",
+          "zh_CN": "商店中有概率出现1个2星棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010216": {
+      "Id": 2010216,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Chess_08",
+      "Name": "SoldierStrategyCard.2010216.1",
+      "CardEffectId": 2010216,
+      "Des": "SoldierStrategyCard.2010216.2",
+      "Desc": "SoldierStrategyCard.2010216.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010216.1",
+          "zh_TW": "浪漫陣容",
+          "zh_CN": "浪漫阵容",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010216.2",
+          "zh_TW": "商店等級達到8級後，每次進入新節點，備戰席最左側棋子變為等費的隨機棋子",
+          "zh_CN": "商店等级达到8级后，每次进入新节点，备战席最左侧棋子变为等费的随机棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010216.3",
+          "zh_TW": "商店等級達到8級後，每次進入新節點，備戰席最左側棋子變為等費的隨機棋子",
+          "zh_CN": "商店等级达到8级后，每次进入新节点，备战席最左侧棋子变为等费的随机棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010217": {
+      "Id": 2010217,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Partner_04",
+      "Name": "SoldierStrategyCard.2010217.1",
+      "CardEffectId": 2010217,
+      "Des": "SoldierStrategyCard.2010217.2",
+      "Desc": "SoldierStrategyCard.2010217.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010217.1",
+          "zh_TW": "財富過載",
+          "zh_CN": "财富过载",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010217.2",
+          "zh_TW": "以雙倍價格自動出售場上所有棋子，接下來3場戰鬥入場棋子的當前血量減半",
+          "zh_CN": "以双倍价格自动出售场上所有棋子，接下来3场战斗入场棋子的当前血量减半",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010217.3",
+          "zh_TW": "以雙倍價格自動出售場上所有棋子，接下來3場戰鬥入場棋子的當前血量減半",
+          "zh_CN": "以双倍价格自动出售场上所有棋子，接下来3场战斗入场棋子的当前血量减半",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010218": {
+      "Id": 2010218,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Exp_01",
+      "Name": "SoldierStrategyCard.2010218.1",
+      "CardEffectId": 2010218,
+      "Des": "SoldierStrategyCard.2010218.2",
+      "Desc": "SoldierStrategyCard.2010218.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010218.1",
+          "zh_TW": "自然感悟",
+          "zh_CN": "自然感悟",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010218.2",
+          "zh_TW": "進入新節點時，棋盤上每存在3個非人形棋子，獲得3點經驗",
+          "zh_CN": "进入新节点时，棋盘上每存在3个非人形棋子，获得3点经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010218.3",
+          "zh_TW": "進入新節點時，棋盤上每存在3個非人形棋子，獲得3點經驗",
+          "zh_CN": "进入新节点时，棋盘上每存在3个非人形棋子，获得3点经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010219": {
+      "Id": 2010219,
+      "GroupId": 101,
+      "Rarity": 4,
+      "Icon": "Soldier_00_BuffCard_Exp_01",
+      "Name": "SoldierStrategyCard.2010219.1",
+      "CardEffectId": 2010219,
+      "Des": "SoldierStrategyCard.2010219.2",
+      "Desc": "SoldierStrategyCard.2010219.3",
+      "GradeLevelCond": 10201,
+      "UnlockCond": 4,
+      "UnlockCondParams": [
+        2
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010219.1",
+          "zh_TW": "封閉建設",
+          "zh_CN": "封闭建设",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010219.2",
+          "zh_TW": "接下來3個節點無法在商店刷新，但每進入1個節點獲得4點商店經驗",
+          "zh_CN": "接下来3个节点无法在商店刷新，但每进入1个节点获得4点商店经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010219.3",
+          "zh_TW": "接下來3個節點無法在商店刷新，但每進入1個節點獲得4點商店經驗",
+          "zh_CN": "接下来3个节点无法在商店刷新，但每进入1个节点获得4点商店经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010301": {
+      "Id": 2010301,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Coin_03",
+      "Name": "SoldierStrategyCard.2010301.1",
+      "CardEffectId": 2010301,
+      "Des": "SoldierStrategyCard.2010301.2",
+      "Desc": "SoldierStrategyCard.2010301.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010301.1",
+          "zh_TW": "智能型倉儲",
+          "zh_CN": "智能型仓储",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010301.2",
+          "zh_TW": "商店等級達到8級後，購買經驗時獲得1次免費刷新",
+          "zh_CN": "商店等级达到8级后，购买经验时获得1次免费刷新",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010301.3",
+          "zh_TW": "商店等級達到8級後，購買經驗時獲得1次免費刷新",
+          "zh_CN": "商店等级达到8级后，购买经验时获得1次免费刷新",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010302": {
+      "Id": 2010302,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Hp_05",
+      "Name": "SoldierStrategyCard.2010302.1",
+      "CardEffectId": 2010302,
+      "Des": "SoldierStrategyCard.2010302.2",
+      "Desc": "SoldierStrategyCard.2010302.3",
+      "GradeLevelCond": 10201,
+      "UnlockCond": 4,
+      "UnlockCondParams": [
+        3
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010302.1",
+          "zh_TW": "超風險財富",
+          "zh_CN": "超风险财富",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010302.2",
+          "zh_TW": "扣除30點理智，當前擁有的賢才金幣變為2倍",
+          "zh_CN": "扣除30点理智，当前拥有的贤才金币变为2倍",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010302.3",
+          "zh_TW": "扣除30點理智，當前擁有的賢才金幣變為2倍",
+          "zh_CN": "扣除30点理智，当前拥有的贤才金币变为2倍",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010303": {
+      "Id": 2010303,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Hp_05",
+      "Name": "SoldierStrategyCard.2010303.1",
+      "CardEffectId": 2010303,
+      "Des": "SoldierStrategyCard.2010303.2",
+      "Desc": "SoldierStrategyCard.2010303.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010303.1",
+          "zh_TW": "狡猾的獻祭",
+          "zh_CN": "狡猾的献祭",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010303.2",
+          "zh_TW": "交換當前理智值和賢才金幣值",
+          "zh_CN": "交换当前理智值和贤才金币值",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010303.3",
+          "zh_TW": "交換當前理智值和賢才金幣值",
+          "zh_CN": "交换当前理智值和贤才金币值",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010304": {
+      "Id": 2010304,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Hp_02",
+      "Name": "SoldierStrategyCard.2010304.1",
+      "CardEffectId": 2010304,
+      "Des": "SoldierStrategyCard.2010304.2",
+      "Desc": "SoldierStrategyCard.2010304.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010304.1",
+          "zh_TW": "臨界反擊點",
+          "zh_CN": "临界反击点",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010304.2",
+          "zh_TW": "理智首次為0時，立刻恢復30點理智，獲得40點賢才金幣",
+          "zh_CN": "理智首次为0时，立刻恢复30点理智，获得40点贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010304.3",
+          "zh_TW": "理智首次為0時，立刻恢復30點理智，獲得40點賢才金幣",
+          "zh_CN": "理智首次为0时，立刻恢复30点理智，获得40点贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010305": {
+      "Id": 2010305,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Shop_06",
+      "Name": "SoldierStrategyCard.2010305.1",
+      "CardEffectId": 2010305,
+      "Des": "SoldierStrategyCard.2010305.2",
+      "Desc": "SoldierStrategyCard.2010305.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010305.1",
+          "zh_TW": "品質人才庫",
+          "zh_CN": "品质人才库",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010305.2",
+          "zh_TW": "每次刷新商店時，使商店中一個隨機棋子變為高1費的另一個隨機棋子",
+          "zh_CN": "每次刷新商店时，使商店中一个随机棋子变为高1费的另一个随机棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010305.3",
+          "zh_TW": "每次刷新商店時，使商店中一個隨機棋子變為高1費的另一個隨機棋子",
+          "zh_CN": "每次刷新商店时，使商店中一个随机棋子变为高1费的另一个随机棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010306": {
+      "Id": 2010306,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Dice_01",
+      "Name": "SoldierStrategyCard.2010306.1",
+      "CardEffectId": 2010306,
+      "Des": "SoldierStrategyCard.2010306.2",
+      "Desc": "SoldierStrategyCard.2010306.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010306.1",
+          "zh_TW": "命運的玩笑",
+          "zh_CN": "命运的玩笑",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010306.2",
+          "zh_TW": "獲得優勢骰子：之後每次契機挑戰判定投兩個骰子，取高值為檢定值",
+          "zh_CN": "获得优势骰子：之后每次契机挑战判定投两个骰子，取高值为检定值",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010306.3",
+          "zh_TW": "獲得優勢骰子：之後每次契機挑戰判定投兩個骰子，取高值為檢定值",
+          "zh_CN": "获得优势骰子：之后每次契机挑战判定投两个骰子，取高值为检定值",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010307": {
+      "Id": 2010307,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Chess_08",
+      "Name": "SoldierStrategyCard.2010307.1",
+      "CardEffectId": 2010307,
+      "Des": "SoldierStrategyCard.2010307.2",
+      "Desc": "SoldierStrategyCard.2010307.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010307.1",
+          "zh_TW": "極致的浪漫",
+          "zh_CN": "极致的浪漫",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010307.2",
+          "zh_TW": "每進入節點時，將備戰席最左側棋子變為等費的另一個隨機棋子",
+          "zh_CN": "每进入节点时，将备战席最左侧棋子变为等费的另一个随机棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010307.3",
+          "zh_TW": "每進入節點時，將備戰席最左側棋子變為等費的另一個隨機棋子",
+          "zh_CN": "每进入节点时，将备战席最左侧棋子变为等费的另一个随机棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010308": {
+      "Id": 2010308,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Coin_02",
+      "Name": "SoldierStrategyCard.2010308.1",
+      "CardEffectId": 2010308,
+      "Des": "SoldierStrategyCard.2010308.2",
+      "Desc": "SoldierStrategyCard.2010308.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010308.1",
+          "zh_TW": "凱旋三連音",
+          "zh_CN": "凯旋三连音",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010308.2",
+          "zh_TW": "每達成3連勝，獲得10賢才金幣",
+          "zh_CN": "每达成3连胜，获得10贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010308.3",
+          "zh_TW": "每達成3連勝，獲得10賢才金幣",
+          "zh_CN": "每达成3连胜，获得10贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010309": {
+      "Id": 2010309,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Coin_01",
+      "Name": "SoldierStrategyCard.2010309.1",
+      "CardEffectId": 2010309,
+      "Des": "SoldierStrategyCard.2010309.2",
+      "Desc": "SoldierStrategyCard.2010309.3",
+      "GradeLevelCond": 10201,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010309.1",
+          "zh_TW": "勝利的道標",
+          "zh_CN": "胜利的道标",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010309.2",
+          "zh_TW": "第6、13、20節點，各獲得10賢才金幣",
+          "zh_CN": "第6、13、20节点，各获得10贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010309.3",
+          "zh_TW": "第6、13、20節點，各獲得10賢才金幣",
+          "zh_CN": "第6、13、20节点，各获得10贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010310": {
+      "Id": 2010310,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Chess_11",
+      "Name": "SoldierStrategyCard.2010310.1",
+      "CardEffectId": 2010310,
+      "Des": "SoldierStrategyCard.2010310.2",
+      "Desc": "SoldierStrategyCard.2010310.3",
+      "GradeLevelCond": 10201,
+      "UnlockCond": 4,
+      "UnlockCondParams": [
+        2
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010310.1",
+          "zh_TW": "危難救世主",
+          "zh_CN": "危难救世主",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010310.2",
+          "zh_TW": "每達成3連敗，隨機獲得1張1星5費棋子",
+          "zh_CN": "每达成3连败，随机获得1张1星5费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010310.3",
+          "zh_TW": "每達成3連敗，隨機獲得1張1星5費棋子",
+          "zh_CN": "每达成3连败，随机获得1张1星5费棋子",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010311": {
+      "Id": 2010311,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Hp_05",
+      "Name": "SoldierStrategyCard.2010311.1",
+      "CardEffectId": 2010311,
+      "Des": "SoldierStrategyCard.2010311.2",
+      "Desc": "SoldierStrategyCard.2010311.3",
+      "GradeLevelCond": 10201,
+      "UnlockCond": 4,
+      "UnlockCondParams": [
+        3
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010311.1",
+          "zh_TW": "狂賭的深淵",
+          "zh_CN": "狂赌的深渊",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010311.2",
+          "zh_TW": "理智變為1，立刻獲得60賢才金幣",
+          "zh_CN": "理智变为1，立刻获得60贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010311.3",
+          "zh_TW": "理智變為1，立刻獲得60賢才金幣",
+          "zh_CN": "理智变为1，立刻获得60贤才金币",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010312": {
+      "Id": 2010312,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Partner_02_06",
+      "Name": "SoldierStrategyCard.2010312.1",
+      "CardEffectId": 2010312,
+      "Des": "SoldierStrategyCard.2010312.2",
+      "Desc": "SoldierStrategyCard.2010312.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010312.1",
+          "zh_TW": "衛隊集結令",
+          "zh_CN": "卫队集结令",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010312.2",
+          "zh_TW": "帝國衛隊羈絆達成計數+1",
+          "zh_CN": "帝国卫队羁绊达成计数+1",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010312.3",
+          "zh_TW": "帝國衛隊羈絆達成計數+1",
+          "zh_CN": "帝国卫队羁绊达成计数+1",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    },
+    "2010313": {
+      "Id": 2010313,
+      "GroupId": 101,
+      "Rarity": 3,
+      "Icon": "Soldier_00_BuffCard_Partner_02_09",
+      "Name": "SoldierStrategyCard.2010313.1",
+      "CardEffectId": 2010313,
+      "Des": "SoldierStrategyCard.2010313.2",
+      "Desc": "SoldierStrategyCard.2010313.3",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierStrategyCard.2010313.1",
+          "zh_TW": "灰風的召喚",
+          "zh_CN": "灰风的召唤",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierStrategyCard.2010313.2",
+          "zh_TW": "灰風俱樂部羈絆達成計數+1",
+          "zh_CN": "灰风俱乐部羁绊达成计数+1",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierStrategyCard.2010313.3",
+          "zh_TW": "灰風俱樂部羈絆達成計數+1",
+          "zh_CN": "灰风俱乐部羁绊达成计数+1",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierStrategyCard.json",
+            "zh_CN": "language/zh_CN/SoldierStrategyCard.json"
+          }
+        }
+      }
+    }
+  }
+}

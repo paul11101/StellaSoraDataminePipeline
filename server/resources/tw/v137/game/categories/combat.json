@@ -1,0 +1,1074 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "combat",
+    "name": "技能、属性与战斗机制",
+    "description": "技能、Buff、效果器、伤害、属性、AI、护盾和战斗参数。",
+    "table_count": 60,
+    "row_count": 52445,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "AddBuffAction",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 4,
+      "data": "bin/AddBuffAction.json",
+      "readable": "readable/AddBuffAction.json",
+      "evidence": "evidence/tables/AddBuffAction.json",
+      "source_sha256": "56eaabe796659c4a0d1619cf0c251df0a17ea2d7672af77fc982cb7ec5fe5fec",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "AI",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 282,
+      "data": "bin/AI.json",
+      "readable": "readable/AI.json",
+      "evidence": "evidence/tables/AI.json",
+      "source_sha256": "1ed0873f770dc52041afd0f7afbc695991b13c072314f1a6b975540fe9fb4416",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "AreaEffect",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 11,
+      "data": "bin/AreaEffect.json",
+      "readable": "readable/AreaEffect.json",
+      "evidence": "evidence/tables/AreaEffect.json",
+      "source_sha256": "ea2c592923cc127c97325ee2943a8d7b5caea0765134089adca68aec3cefdb8e",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "AssistAttribute",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 2,
+      "data": "bin/AssistAttribute.json",
+      "readable": "readable/AssistAttribute.json",
+      "evidence": "evidence/tables/AssistAttribute.json",
+      "source_sha256": "645589a4909ebf51abf04dc85ee42d9b991cafa27394d723466b9db5f3b3712b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/AssistAttribute.json",
+      "zh_CN": "language/zh_CN/AssistAttribute.json"
+    },
+    {
+      "table": "Attribute",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 7706,
+      "data": "bin/Attribute.json",
+      "readable": "readable/Attribute.json",
+      "evidence": "evidence/tables/Attribute.json",
+      "source_sha256": "96292831ef577a9253fbec52d7eea4f0f5f84811b3b8c5de2380decd28e6066a",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "AttributeLimit",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 48,
+      "data": "bin/AttributeLimit.json",
+      "readable": "readable/AttributeLimit.json",
+      "evidence": "evidence/tables/AttributeLimit.json",
+      "source_sha256": "54af9bc526d4450827b151ad7930e0d7a041f80f9e132fa217327c2456472e4b",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "AttributeSetLimit",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 6,
+      "data": "bin/AttributeSetLimit.json",
+      "readable": "readable/AttributeSetLimit.json",
+      "evidence": "evidence/tables/AttributeSetLimit.json",
+      "source_sha256": "603ec411f80486d859accbbac92ddf67c7280612f274699fb71b71a91b8905eb",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BattlePass",
+      "categories": [
+        "combat",
+        "activities"
+      ],
+      "row_count": 10,
+      "data": "bin/BattlePass.json",
+      "readable": "readable/BattlePass.json",
+      "evidence": "evidence/tables/BattlePass.json",
+      "source_sha256": "16d04292615e97628cc63205087a1fa81e469d8d38421ec2123b776edc33d28b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BattlePassLevel",
+      "categories": [
+        "combat",
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 80,
+      "data": "bin/BattlePassLevel.json",
+      "readable": "readable/BattlePassLevel.json",
+      "evidence": "evidence/tables/BattlePassLevel.json",
+      "source_sha256": "896e487841bb7b5666376cea8a97b2e54ec5699a7d980464f4a87591fee3bef4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BattlePassQuest",
+      "categories": [
+        "combat",
+        "quests",
+        "activities"
+      ],
+      "row_count": 17,
+      "data": "bin/BattlePassQuest.json",
+      "readable": "readable/BattlePassQuest.json",
+      "evidence": "evidence/tables/BattlePassQuest.json",
+      "source_sha256": "88edc5dbb225debb8b444ae7e057f686ff3cde0ab80d5f2782157b8461574c91",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/BattlePassQuest.json",
+      "zh_CN": "language/zh_CN/BattlePassQuest.json"
+    },
+    {
+      "table": "BattlePassReward",
+      "categories": [
+        "combat",
+        "items_rewards",
+        "activities"
+      ],
+      "row_count": 690,
+      "data": "bin/BattlePassReward.json",
+      "readable": "readable/BattlePassReward.json",
+      "evidence": "evidence/tables/BattlePassReward.json",
+      "source_sha256": "960d9cb9843f2946d05d54b66ab24108bb4bcfa05113dfaeaa5a695ba9ac4ddc",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BattleThreshold",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 11,
+      "data": "bin/BattleThreshold.json",
+      "readable": "readable/BattleThreshold.json",
+      "evidence": "evidence/tables/BattleThreshold.json",
+      "source_sha256": "fc56f34301c4689acf9f16e17ea92c0ab59038a03d47100b54006af16dc3a1e5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Buff",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 2860,
+      "data": "bin/Buff.json",
+      "readable": "readable/Buff.json",
+      "evidence": "evidence/tables/Buff.json",
+      "source_sha256": "e0c6e172185002324eb3dd494bfe240a8c2a1d410df7183ed907820f2c49740e",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BuffEffect",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 18,
+      "data": "bin/BuffEffect.json",
+      "readable": "readable/BuffEffect.json",
+      "evidence": "evidence/tables/BuffEffect.json",
+      "source_sha256": "70a34a1fb4c9ca50f3cd378ba347bf53ef13ba65bba5091eb7a45f2b7b7f6c2d",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BuffValue",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 3017,
+      "data": "bin/BuffValue.json",
+      "readable": "readable/BuffValue.json",
+      "evidence": "evidence/tables/BuffValue.json",
+      "source_sha256": "b3b2a466dd3eafbd0520095149d49d1cc59491e6f3e4e34dfb8588ab34c6c9db",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharacterSkillUpgrade",
+      "categories": [
+        "characters",
+        "combat"
+      ],
+      "row_count": 370,
+      "data": "bin/CharacterSkillUpgrade.json",
+      "readable": "readable/CharacterSkillUpgrade.json",
+      "evidence": "evidence/tables/CharacterSkillUpgrade.json",
+      "source_sha256": "ca059bab63a4ddea77a6648ef2c84dd82da320427c94c1e1baf4c4fcab3e9c32",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DiscExtraAttribute",
+      "categories": [
+        "discs",
+        "combat"
+      ],
+      "row_count": 15,
+      "data": "bin/DiscExtraAttribute.json",
+      "readable": "readable/DiscExtraAttribute.json",
+      "evidence": "evidence/tables/DiscExtraAttribute.json",
+      "source_sha256": "12292c3677a0c5f5f75825fcbfa712e33783f5c70098b9282decfbe1e75dff93",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Effect",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 8943,
+      "data": "bin/Effect.json",
+      "readable": "readable/Effect.json",
+      "evidence": "evidence/tables/Effect.json",
+      "source_sha256": "0be9fe360e6ee4f2571bb1addd56ad2e66fc7e7775c504e6d2884e1cb507a111",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "EffectDesc",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 328,
+      "data": "bin/EffectDesc.json",
+      "readable": "readable/EffectDesc.json",
+      "evidence": "evidence/tables/EffectDesc.json",
+      "source_sha256": "115f5dbbc36d370c36151bfcc23594ec3f97a3340cd83d7da763bebae5db484b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/EffectDesc.json",
+      "zh_CN": "language/zh_CN/EffectDesc.json"
+    },
+    {
+      "table": "EffectValue",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 14533,
+      "data": "bin/EffectValue.json",
+      "readable": "readable/EffectValue.json",
+      "evidence": "evidence/tables/EffectValue.json",
+      "source_sha256": "c552d1e56c5222d2ef67051c8eb285caf17186ad34f27764132731b0509cff0e",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "FloorBuff",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 154,
+      "data": "bin/FloorBuff.json",
+      "readable": "readable/FloorBuff.json",
+      "evidence": "evidence/tables/FloorBuff.json",
+      "source_sha256": "e7f902fe35bbf11ff3835115b5225888eab93d89e14d7ba2537d3e234e36a44e",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GoldenSpyBuffCard",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 59,
+      "data": "bin/GoldenSpyBuffCard.json",
+      "readable": "readable/GoldenSpyBuffCard.json",
+      "evidence": "evidence/tables/GoldenSpyBuffCard.json",
+      "source_sha256": "18f70362640d1048c7e8295a94a7b49fccf6f7f652e7c6afd7b5b11bc41832c5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/GoldenSpyBuffCard.json",
+      "zh_CN": "language/zh_CN/GoldenSpyBuffCard.json"
+    },
+    {
+      "table": "GoldenSpyBuffCardPool",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 96,
+      "data": "bin/GoldenSpyBuffCardPool.json",
+      "readable": "readable/GoldenSpyBuffCardPool.json",
+      "evidence": "evidence/tables/GoldenSpyBuffCardPool.json",
+      "source_sha256": "1a2df198f58e987e693fa99692199a6e5240f6aca8f2153560196cf709012e3e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GoldenSpySkill",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 2,
+      "data": "bin/GoldenSpySkill.json",
+      "readable": "readable/GoldenSpySkill.json",
+      "evidence": "evidence/tables/GoldenSpySkill.json",
+      "source_sha256": "a2d7b97ae61224730459338100dc45757a1dcf678aa2a66067716868ac6adbd6",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "HitDamage",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 2134,
+      "data": "bin/HitDamage.json",
+      "readable": "readable/HitDamage.json",
+      "evidence": "evidence/tables/HitDamage.json",
+      "source_sha256": "57c960b4b149054fc72df772308ba3cdc63988efa2c8f2e3be687ddaafcfca1f",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "IceCreamBuff",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 5,
+      "data": "bin/IceCreamBuff.json",
+      "readable": "readable/IceCreamBuff.json",
+      "evidence": "evidence/tables/IceCreamBuff.json",
+      "source_sha256": "fb56ab3f3ec8017d8bce421fa5499ad257a7a09b50337fbb4b11f3929ace0ad0",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/IceCreamBuff.json",
+      "zh_CN": "language/zh_CN/IceCreamBuff.json"
+    },
+    {
+      "table": "IceCreamBuffPool",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 35,
+      "data": "bin/IceCreamBuffPool.json",
+      "readable": "readable/IceCreamBuffPool.json",
+      "evidence": "evidence/tables/IceCreamBuffPool.json",
+      "source_sha256": "7a78b93d10ca6f78f2941083d711b5102c953acf2983fae6fa3e6a6dd8d9ca21",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "JointDrillBattleThreshold",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 66,
+      "data": "bin/JointDrillBattleThreshold.json",
+      "readable": "readable/JointDrillBattleThreshold.json",
+      "evidence": "evidence/tables/JointDrillBattleThreshold.json",
+      "source_sha256": "db0ed550e93d5715fb318c5d4440baa926b6599d9bb1a4779feea73bc72dff00",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MainSkill",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 579,
+      "data": "bin/MainSkill.json",
+      "readable": "readable/MainSkill.json",
+      "evidence": "evidence/tables/MainSkill.json",
+      "source_sha256": "28ad65bb17269c12bdbf2dcb974e1cf8b0e7fa95c599e9f91193272006517b76",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MainSkill.json",
+      "zh_CN": "language/zh_CN/MainSkill.json"
+    },
+    {
+      "table": "MonsterAI",
+      "categories": [
+        "combat",
+        "world_npc"
+      ],
+      "row_count": 1049,
+      "data": "bin/MonsterAI.json",
+      "readable": "readable/MonsterAI.json",
+      "evidence": "evidence/tables/MonsterAI.json",
+      "source_sha256": "87a4dc382c4b2a4e237da216acddfddd77e1e0ee618173ed6cb152a47c38fc2d",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterAttributeContact",
+      "categories": [
+        "combat",
+        "world_npc"
+      ],
+      "row_count": 26,
+      "data": "bin/MonsterAttributeContact.json",
+      "readable": "readable/MonsterAttributeContact.json",
+      "evidence": "evidence/tables/MonsterAttributeContact.json",
+      "source_sha256": "9758335bd140a0d16e54717369d33f9f960aa982dc2c6792ae1dd493c3b56bfc",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "OnceAdditionalAttribute",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 1386,
+      "data": "bin/OnceAdditionalAttribute.json",
+      "readable": "readable/OnceAdditionalAttribute.json",
+      "evidence": "evidence/tables/OnceAdditionalAttribute.json",
+      "source_sha256": "63b132b99ab59977de0a90e86a5165e029b8fdc1b1c9b7361a52f9ec2d8a521c",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "OnceAdditionalAttributeValue",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 3225,
+      "data": "bin/OnceAdditionalAttributeValue.json",
+      "readable": "readable/OnceAdditionalAttributeValue.json",
+      "evidence": "evidence/tables/OnceAdditionalAttributeValue.json",
+      "source_sha256": "7200adac5d1b5df5b071958ecf6dc1d8a643f712068e3e4ef7907004574497c5",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PenguinCardBuff",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 8,
+      "data": "bin/PenguinCardBuff.json",
+      "readable": "readable/PenguinCardBuff.json",
+      "evidence": "evidence/tables/PenguinCardBuff.json",
+      "source_sha256": "429b5126b84c968fc3a4cb05215f0b0bce0d43f61c84b8aa554e14c8d8b1112d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PenguinCardBuff.json",
+      "zh_CN": "language/zh_CN/PenguinCardBuff.json"
+    },
+    {
+      "table": "PenguinCardBuffWeight",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 2,
+      "data": "bin/PenguinCardBuffWeight.json",
+      "readable": "readable/PenguinCardBuffWeight.json",
+      "evidence": "evidence/tables/PenguinCardBuffWeight.json",
+      "source_sha256": "8dd15114c2fc5ba0f6045f2eb433c82a9a9dbd8c4add909c3c7cb2eccbcd8948",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PerkPassiveSkill",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 0,
+      "data": "bin/PerkPassiveSkill.json",
+      "readable": "readable/PerkPassiveSkill.json",
+      "evidence": "evidence/tables/PerkPassiveSkill.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PotentialPassiveSkill",
+      "categories": [
+        "characters",
+        "combat"
+      ],
+      "row_count": 0,
+      "data": "bin/PotentialPassiveSkill.json",
+      "readable": "readable/PotentialPassiveSkill.json",
+      "evidence": "evidence/tables/PotentialPassiveSkill.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ScoreBossBattleThreshold",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 11,
+      "data": "bin/ScoreBossBattleThreshold.json",
+      "readable": "readable/ScoreBossBattleThreshold.json",
+      "evidence": "evidence/tables/ScoreBossBattleThreshold.json",
+      "source_sha256": "22e703b879c6c6917c2d407417e577d68eba44e06ca87ba4b0ed9e2147ed435e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SecondarySkill",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 671,
+      "data": "bin/SecondarySkill.json",
+      "readable": "readable/SecondarySkill.json",
+      "evidence": "evidence/tables/SecondarySkill.json",
+      "source_sha256": "db08c53479794a19878b917264a8baadead7c27a60d23fc659766e3ae0359105",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SecondarySkill.json",
+      "zh_CN": "language/zh_CN/SecondarySkill.json"
+    },
+    {
+      "table": "Shield",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 65,
+      "data": "bin/Shield.json",
+      "readable": "readable/Shield.json",
+      "evidence": "evidence/tables/Shield.json",
+      "source_sha256": "9c39f1cc26e7d3dff573d63c6e4770850015e567d052b10a7a80febcfdfc7e6b",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ShieldValue",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 213,
+      "data": "bin/ShieldValue.json",
+      "readable": "readable/ShieldValue.json",
+      "evidence": "evidence/tables/ShieldValue.json",
+      "source_sha256": "b806f42ecd2d430b3426c4c69ac605534bba95c025f87b0f95dd68f410627682",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Skill",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 2294,
+      "data": "bin/Skill.json",
+      "readable": "readable/Skill.json",
+      "evidence": "evidence/tables/Skill.json",
+      "source_sha256": "2c4f1f9c23ea43e3cf2bb559f94295e04829c1c8363ec1f228ace56e778adc54",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Skill.json",
+      "zh_CN": "language/zh_CN/Skill.json"
+    },
+    {
+      "table": "SkillDamage",
+      "categories": [
+        "combat"
+      ],
+      "row_count": 0,
+      "data": "bin/SkillDamage.json",
+      "readable": "readable/SkillDamage.json",
+      "evidence": "evidence/tables/SkillDamage.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SkillInstance",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 18,
+      "data": "bin/SkillInstance.json",
+      "readable": "readable/SkillInstance.json",
+      "evidence": "evidence/tables/SkillInstance.json",
+      "source_sha256": "bb18dc09cee38d2f40a0e56f37f622f8f89394b00160399f84aa5004d7c80127",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SkillInstance.json",
+      "zh_CN": "language/zh_CN/SkillInstance.json"
+    },
+    {
+      "table": "SkillInstanceFloor",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 18,
+      "data": "bin/SkillInstanceFloor.json",
+      "readable": "readable/SkillInstanceFloor.json",
+      "evidence": "evidence/tables/SkillInstanceFloor.json",
+      "source_sha256": "b4f62ef81179441cdcce98c544b304c8bb8e86bbecc2c17ba5a824f002171159",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SkillInstanceType",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/SkillInstanceType.json",
+      "readable": "readable/SkillInstanceType.json",
+      "evidence": "evidence/tables/SkillInstanceType.json",
+      "source_sha256": "105fc95ddc3b780392f9fd18dcd4ae6cd6c1fb74ce1a0b08261c160909d51cdf",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SkillInstanceType.json",
+      "zh_CN": "language/zh_CN/SkillInstanceType.json"
+    },
+    {
+      "table": "SoldierBuff",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 128,
+      "data": "bin/SoldierBuff.json",
+      "readable": "readable/SoldierBuff.json",
+      "evidence": "evidence/tables/SoldierBuff.json",
+      "source_sha256": "35a368762b327523788d8ff9d5412e436191e4e5bb45737d97565a7fed987972",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierCardEffect",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 85,
+      "data": "bin/SoldierCardEffect.json",
+      "readable": "readable/SoldierCardEffect.json",
+      "evidence": "evidence/tables/SoldierCardEffect.json",
+      "source_sha256": "d4e272bbf0b72dde63b6ca70432748ad52825fa3f0a1f1c4939b991f82d21185",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierChessAI",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 55,
+      "data": "bin/SoldierChessAI.json",
+      "readable": "readable/SoldierChessAI.json",
+      "evidence": "evidence/tables/SoldierChessAI.json",
+      "source_sha256": "c4614ee2008178328c816f8278bd211dcca1667978c09304bb1c2a26ed758429",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierClientBuff",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 64,
+      "data": "bin/SoldierClientBuff.json",
+      "readable": "readable/SoldierClientBuff.json",
+      "evidence": "evidence/tables/SoldierClientBuff.json",
+      "source_sha256": "09d32f83b97adf7d41d4cd18e8794c1c7f67228a8dd1d503410c791ba1f3d2ff",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierEventBattlePool",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 24,
+      "data": "bin/SoldierEventBattlePool.json",
+      "readable": "readable/SoldierEventBattlePool.json",
+      "evidence": "evidence/tables/SoldierEventBattlePool.json",
+      "source_sha256": "43a3c3b153576715c963207aff1373330e0b4707860f5a78b18c5c9c2131b315",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierEventBattlePool.json",
+      "zh_CN": "language/zh_CN/SoldierEventBattlePool.json"
+    },
+    {
+      "table": "SoldierPositionEffect",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 9,
+      "data": "bin/SoldierPositionEffect.json",
+      "readable": "readable/SoldierPositionEffect.json",
+      "evidence": "evidence/tables/SoldierPositionEffect.json",
+      "source_sha256": "345c54a4c5afcdb74ae2c9383744471060a63881d92cfb1da886a2697cc1d05e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+      "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+    },
+    {
+      "table": "StarTowerCombatEvent",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/StarTowerCombatEvent.json",
+      "readable": "readable/StarTowerCombatEvent.json",
+      "evidence": "evidence/tables/StarTowerCombatEvent.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerSpecificCombat",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/StarTowerSpecificCombat.json",
+      "readable": "readable/StarTowerSpecificCombat.json",
+      "evidence": "evidence/tables/StarTowerSpecificCombat.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SubNoteSkill",
+      "categories": [
+        "discs",
+        "combat"
+      ],
+      "row_count": 13,
+      "data": "bin/SubNoteSkill.json",
+      "readable": "readable/SubNoteSkill.json",
+      "evidence": "evidence/tables/SubNoteSkill.json",
+      "source_sha256": "4507c46a50d660e8c82ffd141337b097a84e3aa8566921f5de06be56ead23a8a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SubNoteSkill.json",
+      "zh_CN": "language/zh_CN/SubNoteSkill.json"
+    },
+    {
+      "table": "SubNoteSkillDropGroup",
+      "categories": [
+        "discs",
+        "combat",
+        "items_rewards"
+      ],
+      "row_count": 34,
+      "data": "bin/SubNoteSkillDropGroup.json",
+      "readable": "readable/SubNoteSkillDropGroup.json",
+      "evidence": "evidence/tables/SubNoteSkillDropGroup.json",
+      "source_sha256": "2b346c390194636ea3694f494b6b7969236bcf87b0803e96705850dbe825d948",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SubNoteSkillPromoteGroup",
+      "categories": [
+        "discs",
+        "combat"
+      ],
+      "row_count": 945,
+      "data": "bin/SubNoteSkillPromoteGroup.json",
+      "readable": "readable/SubNoteSkillPromoteGroup.json",
+      "evidence": "evidence/tables/SubNoteSkillPromoteGroup.json",
+      "source_sha256": "78aa4022be004c9481afe3027b4ffad051859c011587c3201dab2bab4556307b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TowerDefenceCharacterAI",
+      "categories": [
+        "characters",
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 18,
+      "data": "bin/TowerDefenceCharacterAI.json",
+      "readable": "readable/TowerDefenceCharacterAI.json",
+      "evidence": "evidence/tables/TowerDefenceCharacterAI.json",
+      "source_sha256": "571e4c3f4320aaccd4d9d4a06f2571b13fdc7469fc0103337903ba49db98718f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TrapAttribute",
+      "categories": [
+        "combat",
+        "world_npc"
+      ],
+      "row_count": 0,
+      "data": "bin/TrapAttribute.json",
+      "readable": "readable/TrapAttribute.json",
+      "evidence": "evidence/tables/TrapAttribute.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireBattleThreshold",
+      "categories": [
+        "combat",
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/VampireBattleThreshold.json",
+      "readable": "readable/VampireBattleThreshold.json",
+      "evidence": "evidence/tables/VampireBattleThreshold.json",
+      "source_sha256": "67856884401c136c2d2d600e513d4e032fe90e0bac388b894b6a840d561a4c68",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    }
+  ]
+}

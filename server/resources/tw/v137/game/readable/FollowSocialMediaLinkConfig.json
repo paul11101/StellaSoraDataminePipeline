@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "FollowSocialMediaLinkConfig",
+    "categories": [
+      "ui_system"
+    ],
+    "row_count": 3,
+    "localization_hits": 3,
+    "source": "bin/FollowSocialMediaLinkConfig.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Icon": "UI_Activity/_211001/SpriteAtlas/icon_officialcommunity_1",
+      "Name": "FollowSocialMediaLinkConfig.1.1",
+      "URL": "https://www.facebook.com/StellaSoraCHT",
+      "DeepLink": "https://stellasora-stargazer.go.link/bzr94",
+      "RewardId": 2,
+      "RewardCount": 50,
+      "_localized": {
+        "/Name": {
+          "key": "FollowSocialMediaLinkConfig.1.1",
+          "zh_TW": "FACEBOOK",
+          "zh_CN": "FACEBOOK",
+          "sources": {
+            "zh_TW": "language/zh_TW/FollowSocialMediaLinkConfig.json",
+            "zh_CN": "language/zh_CN/FollowSocialMediaLinkConfig.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Icon": "UI_Activity/_211001/SpriteAtlas/icon_officialcommunity_2",
+      "Name": "FollowSocialMediaLinkConfig.2.1",
+      "URL": "https://www.youtube.com/@StellaSoraCHT",
+      "DeepLink": "https://stellasora-stargazer.go.link/4rzhP",
+      "RewardId": 2,
+      "RewardCount": 50,
+      "_localized": {
+        "/Name": {
+          "key": "FollowSocialMediaLinkConfig.2.1",
+          "zh_TW": "YOUTUBE",
+          "zh_CN": "YOUTUBE",
+          "sources": {
+            "zh_TW": "language/zh_TW/FollowSocialMediaLinkConfig.json",
+            "zh_CN": "language/zh_CN/FollowSocialMediaLinkConfig.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Icon": "UI_Activity/_211001/SpriteAtlas/icon_officialcommunity_3",
+      "Name": "FollowSocialMediaLinkConfig.3.1",
+      "URL": "https://discord.gg/stellasoratw",
+      "DeepLink": "https://stellasora-stargazer.go.link/dLZ9F",
+      "RewardId": 2,
+      "RewardCount": 50,
+      "_localized": {
+        "/Name": {
+          "key": "FollowSocialMediaLinkConfig.3.1",
+          "zh_TW": "DISCORD",
+          "zh_CN": "DISCORD",
+          "sources": {
+            "zh_TW": "language/zh_TW/FollowSocialMediaLinkConfig.json",
+            "zh_CN": "language/zh_CN/FollowSocialMediaLinkConfig.json"
+          }
+        }
+      }
+    }
+  }
+}

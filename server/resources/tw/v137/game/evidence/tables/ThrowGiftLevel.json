@@ -1,0 +1,734 @@
+{
+  "table": "ThrowGiftLevel",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e97cd79fe07fa916.bin",
+  "source_sha256": "fe3c3b5f5fd56a356a560ef066c1f2d14a220ca3606d53c1aff71dd0c0a517de",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\ThrowGiftLevel.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 16
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "reference_field_order": [
+      "Id",
+      "ActivityId",
+      "DayOpen",
+      "Difficulty",
+      "DifficultyName",
+      "Icon",
+      "LevelName",
+      "FloorId",
+      "CountDownLimit",
+      "PreLevelId",
+      "ThrowGiftLevelCond",
+      "throwGiftLevelParams",
+      "ThrowGiftLevelCondDesc",
+      "FlightPath",
+      "DefaultPenguinItemId",
+      "SwitchArrow",
+      "FirstCompleteReward1Tid",
+      "FirstCompleteReward1Qty",
+      "FirstCompleteReward2Tid",
+      "FirstCompleteReward2Qty"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 20,
+    "remaining_name_count": 20,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "ActivityId",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "DayOpen",
+        "matching_reference_rows": 8,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Difficulty",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "DifficultyName",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "Icon",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "LevelName",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "FloorId",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "CountDownLimit",
+        "matching_reference_rows": 5,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "PreLevelId",
+        "matching_reference_rows": 14,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "ThrowGiftLevelCond",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "throwGiftLevelParams",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "ThrowGiftLevelCondDesc",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "14": {
+        "field": "FlightPath",
+        "matching_reference_rows": 5,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "15": {
+        "field": "SwitchArrow",
+        "matching_reference_rows": 1,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "16": {
+        "field": "DefaultPenguinItemId",
+        "matching_reference_rows": 2,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "17": {
+        "field": "FirstCompleteReward1Tid",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "18": {
+        "field": "FirstCompleteReward1Qty",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "19": {
+        "field": "FirstCompleteReward2Tid",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "20": {
+        "field": "FirstCompleteReward2Qty",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "2": {
+      "field": "ActivityId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "3": {
+      "field": "DayOpen",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 8,
+      "compared_reference_rows": 8,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 8,
+          "compared": 8
+        },
+        {
+          "codec": "varint_int",
+          "matches": 8,
+          "compared": 8
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 8
+        }
+      ]
+    },
+    "4": {
+      "field": "Difficulty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "5": {
+      "field": "DifficultyName",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "6": {
+      "field": "Icon",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "7": {
+      "field": "LevelName",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "8": {
+      "field": "FloorId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "9": {
+      "field": "CountDownLimit",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_int",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    },
+    "10": {
+      "field": "PreLevelId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 14,
+      "compared_reference_rows": 14,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 14,
+          "compared": 14
+        },
+        {
+          "codec": "varint_int",
+          "matches": 14,
+          "compared": 14
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 14
+        }
+      ]
+    },
+    "11": {
+      "field": "ThrowGiftLevelCond",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "12": {
+      "field": "throwGiftLevelParams",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "13": {
+      "field": "ThrowGiftLevelCondDesc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "14": {
+      "field": "FlightPath",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 5
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 5
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    },
+    "15": {
+      "field": "SwitchArrow",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 1
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 1
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    },
+    "16": {
+      "field": "DefaultPenguinItemId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "17": {
+      "field": "FirstCompleteReward1Tid",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "18": {
+      "field": "FirstCompleteReward1Qty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "19": {
+      "field": "FirstCompleteReward2Tid",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "20": {
+      "field": "FirstCompleteReward2Qty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 16,
+    "reference_row_count": 16,
+    "shared_key_count": 16,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 16,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "localization_media",
+    "name": "本地化与媒体索引",
+    "description": "文本、语音、CG、漫画、气泡和媒体资源引用。",
+    "table_count": 9,
+    "row_count": 12222,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "CharacterArchiveVoice",
+      "categories": [
+        "characters",
+        "story_social",
+        "localization_media"
+      ],
+      "row_count": 3293,
+      "data": "bin/CharacterArchiveVoice.json",
+      "readable": "readable/CharacterArchiveVoice.json",
+      "evidence": "evidence/tables/CharacterArchiveVoice.json",
+      "source_sha256": "42135391e8341c90b2c83f8dcce54e58e6f543bb84c923b33c8b1d04663c06eb",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharacterArchiveVoice.json",
+      "zh_CN": "language/zh_CN/CharacterArchiveVoice.json"
+    },
+    {
+      "table": "CharacterCG",
+      "categories": [
+        "characters",
+        "localization_media"
+      ],
+      "row_count": 37,
+      "data": "bin/CharacterCG.json",
+      "readable": "readable/CharacterCG.json",
+      "evidence": "evidence/tables/CharacterCG.json",
+      "source_sha256": "93e37fb8e95ed84291bd8102e5b6841960887eace5eef1a020f6517bd657b193",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharacterCG.json",
+      "zh_CN": "language/zh_CN/CharacterCG.json"
+    },
+    {
+      "table": "CharacterVoiceControl",
+      "categories": [
+        "characters",
+        "story_social",
+        "localization_media"
+      ],
+      "row_count": 127,
+      "data": "bin/CharacterVoiceControl.json",
+      "readable": "readable/CharacterVoiceControl.json",
+      "evidence": "evidence/tables/CharacterVoiceControl.json",
+      "source_sha256": "e7ccfdcc7e56a6cb99ec190042e7fd608b88346e15fb49149a24473e29b02f19",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ContentWord",
+      "categories": [
+        "localization_media"
+      ],
+      "row_count": 11,
+      "data": "bin/ContentWord.json",
+      "readable": "readable/ContentWord.json",
+      "evidence": "evidence/tables/ContentWord.json",
+      "source_sha256": "f5af8d7acf9eeadd02eea4c4d7fde1b69dd026a47d75aa6557a93598220727d1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ContentWord.json",
+      "zh_CN": "language/zh_CN/ContentWord.json"
+    },
+    {
+      "table": "MainScreenCG",
+      "categories": [
+        "localization_media"
+      ],
+      "row_count": 122,
+      "data": "bin/MainScreenCG.json",
+      "readable": "readable/MainScreenCG.json",
+      "evidence": "evidence/tables/MainScreenCG.json",
+      "source_sha256": "e20ed3988f1d771e6184172954ab051205793bec1a57c0032ffd5e22df01b557",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MainScreenCG.json",
+      "zh_CN": "language/zh_CN/MainScreenCG.json"
+    },
+    {
+      "table": "MangaLoading",
+      "categories": [
+        "localization_media"
+      ],
+      "row_count": 49,
+      "data": "bin/MangaLoading.json",
+      "readable": "readable/MangaLoading.json",
+      "evidence": "evidence/tables/MangaLoading.json",
+      "source_sha256": "f6cfb2e156484d36023bdd8d5ca97f8ad99371be360d781aeacbb7f29c0d12fe",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MangaLoading.json",
+      "zh_CN": "language/zh_CN/MangaLoading.json"
+    },
+    {
+      "table": "UIText",
+      "categories": [
+        "ui_system",
+        "localization_media"
+      ],
+      "row_count": 4049,
+      "data": "bin/UIText.json",
+      "readable": "readable/UIText.json",
+      "evidence": "evidence/tables/UIText.json",
+      "source_sha256": "1e901f5fe603e8caa1e23b8108eae71d1fc65002e80582d9c9b49c56a12a02fd",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/UIText.json",
+      "zh_CN": "language/zh_CN/UIText.json"
+    },
+    {
+      "table": "VoDirectory",
+      "categories": [
+        "story_social",
+        "localization_media"
+      ],
+      "row_count": 4373,
+      "data": "bin/VoDirectory.json",
+      "readable": "readable/VoDirectory.json",
+      "evidence": "evidence/tables/VoDirectory.json",
+      "source_sha256": "c1734ab1f775d018806697f9c6dbc755b7a3f41c880187391e9e5dd41332fb2a",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": false,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Word",
+      "categories": [
+        "localization_media"
+      ],
+      "row_count": 161,
+      "data": "bin/Word.json",
+      "readable": "readable/Word.json",
+      "evidence": "evidence/tables/Word.json",
+      "source_sha256": "ec0c22056d3fe1432c1308ad7e2cae78c62c7299d7da37dc1fdbd43414ff5a63",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Word.json",
+      "zh_CN": "language/zh_CN/Word.json"
+    }
+  ]
+}

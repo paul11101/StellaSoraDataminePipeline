@@ -1,0 +1,441 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ActivityIceCreamLevel",
+    "categories": [
+      "stages_modes",
+      "activities"
+    ],
+    "row_count": 7,
+    "localization_hits": 27,
+    "source": "bin/ActivityIceCreamLevel.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "2011": {
+      "Id": 2011,
+      "ActivityId": 400013,
+      "IslandName": "ActivityIceCreamLevel.2011.1",
+      "Name": "ActivityIceCreamLevel.2011.2",
+      "Des": "ActivityIceCreamLevel.2011.3",
+      "LevelType": 1,
+      "CustomerCount": 10,
+      "PatienceValue": 30,
+      "Health": -1,
+      "Fever": -1,
+      "IceCreamBallLimit": 2,
+      "BuffPoolId": 1001,
+      "CharPoolId": 1001,
+      "PassScore": 600,
+      "PassScoreDes": "ActivityIceCreamLevel.2011.4",
+      "OrderNumDes": "ActivityIceCreamLevel.2011.5",
+      "FirstCompleteReward1Tid": 73113,
+      "FirstCompleteReward1Qty": 300,
+      "FirstCompleteReward2Tid": 2,
+      "FirstCompleteReward2Qty": 50,
+      "DictionaryId": 400801,
+      "_localized": {
+        "/IslandName": {
+          "key": "ActivityIceCreamLevel.2011.1",
+          "zh_TW": "椰林沙灘",
+          "zh_CN": "椰林沙滩",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityIceCreamLevel.2011.2",
+          "zh_TW": "金沙熱情Ⅰ",
+          "zh_CN": "金沙热情Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Des": {
+          "key": "ActivityIceCreamLevel.2011.3",
+          "zh_TW": "依照客人的需求，製作各具特色的夏日甜點！",
+          "zh_CN": "根据客人的不同要求，制作别样的夏季甜品！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/PassScoreDes": {
+          "key": "ActivityIceCreamLevel.2011.4",
+          "zh_TW": "分數達到600",
+          "zh_CN": "分数达到600",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        }
+      }
+    },
+    "2012": {
+      "Id": 2012,
+      "ActivityId": 400013,
+      "IslandName": "ActivityIceCreamLevel.2012.1",
+      "Name": "ActivityIceCreamLevel.2012.2",
+      "Des": "ActivityIceCreamLevel.2012.3",
+      "PreLevelId": 2011,
+      "LevelType": 1,
+      "CustomerCount": 12,
+      "PatienceValue": 20,
+      "Health": -1,
+      "Fever": -1,
+      "IceCreamBallLimit": 2,
+      "BuffPoolId": 1002,
+      "CharPoolId": 1002,
+      "PassScore": 800,
+      "PassScoreDes": "ActivityIceCreamLevel.2012.4",
+      "OrderNumDes": "ActivityIceCreamLevel.2012.5",
+      "FirstCompleteReward1Tid": 73113,
+      "FirstCompleteReward1Qty": 400,
+      "FirstCompleteReward2Tid": 2,
+      "FirstCompleteReward2Qty": 50,
+      "_localized": {
+        "/IslandName": {
+          "key": "ActivityIceCreamLevel.2012.1",
+          "zh_TW": "椰林沙灘",
+          "zh_CN": "椰林沙滩",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityIceCreamLevel.2012.2",
+          "zh_TW": "金沙熱情Ⅱ",
+          "zh_CN": "金沙热情Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Des": {
+          "key": "ActivityIceCreamLevel.2012.3",
+          "zh_TW": "依照客人的需求，製作各具特色的夏日甜點！",
+          "zh_CN": "根据客人的不同要求，制作别样的夏季甜品！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/PassScoreDes": {
+          "key": "ActivityIceCreamLevel.2012.4",
+          "zh_TW": "分數達到800",
+          "zh_CN": "分数达到800",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        }
+      }
+    },
+    "2013": {
+      "Id": 2013,
+      "ActivityId": 400013,
+      "Duration": 1,
+      "IslandName": "ActivityIceCreamLevel.2013.1",
+      "Name": "ActivityIceCreamLevel.2013.2",
+      "Des": "ActivityIceCreamLevel.2013.3",
+      "PreLevelId": 2012,
+      "LevelType": 2,
+      "CustomerCount": 15,
+      "PatienceValue": 18,
+      "Health": -1,
+      "Fever": -1,
+      "IceCreamBallLimit": 3,
+      "BuffPoolId": 1003,
+      "CharPoolId": 1003,
+      "PassScore": 1000,
+      "PassScoreDes": "ActivityIceCreamLevel.2013.4",
+      "OrderNumDes": "ActivityIceCreamLevel.2013.5",
+      "FirstCompleteReward1Tid": 73113,
+      "FirstCompleteReward1Qty": 600,
+      "FirstCompleteReward2Tid": 2,
+      "FirstCompleteReward2Qty": 100,
+      "DictionaryId": 400802,
+      "_localized": {
+        "/IslandName": {
+          "key": "ActivityIceCreamLevel.2013.1",
+          "zh_TW": "海風棧道",
+          "zh_CN": "海风栈道",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityIceCreamLevel.2013.2",
+          "zh_TW": "鹽漬風味Ⅰ",
+          "zh_CN": "盐渍风味Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Des": {
+          "key": "ActivityIceCreamLevel.2013.3",
+          "zh_TW": "依照客人的需求，與夥伴一起製作各具特色的夏日甜點！",
+          "zh_CN": "根据客人的不同要求，与伙伴一起制作别样的夏季甜品！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/PassScoreDes": {
+          "key": "ActivityIceCreamLevel.2013.4",
+          "zh_TW": "分數達到1000",
+          "zh_CN": "分数达到1000",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        }
+      }
+    },
+    "2014": {
+      "Id": 2014,
+      "ActivityId": 400013,
+      "Duration": 1,
+      "IslandName": "ActivityIceCreamLevel.2014.1",
+      "Name": "ActivityIceCreamLevel.2014.2",
+      "Des": "ActivityIceCreamLevel.2014.3",
+      "PreLevelId": 2013,
+      "LevelType": 2,
+      "CustomerCount": 18,
+      "PatienceValue": 15,
+      "Health": -1,
+      "Fever": -1,
+      "IceCreamBallLimit": 3,
+      "BuffPoolId": 1004,
+      "CharPoolId": 1004,
+      "PassScore": 1200,
+      "PassScoreDes": "ActivityIceCreamLevel.2014.4",
+      "OrderNumDes": "ActivityIceCreamLevel.2014.5",
+      "FirstCompleteReward1Tid": 73113,
+      "FirstCompleteReward1Qty": 800,
+      "FirstCompleteReward2Tid": 2,
+      "FirstCompleteReward2Qty": 100,
+      "_localized": {
+        "/IslandName": {
+          "key": "ActivityIceCreamLevel.2014.1",
+          "zh_TW": "海風棧道",
+          "zh_CN": "海风栈道",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityIceCreamLevel.2014.2",
+          "zh_TW": "鹽漬風味Ⅱ",
+          "zh_CN": "盐渍风味Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Des": {
+          "key": "ActivityIceCreamLevel.2014.3",
+          "zh_TW": "依照客人的需求，與夥伴一起製作各具特色的夏日甜點！",
+          "zh_CN": "根据客人的不同要求，与伙伴一起制作别样的夏季甜品！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/PassScoreDes": {
+          "key": "ActivityIceCreamLevel.2014.4",
+          "zh_TW": "分數達到1200",
+          "zh_CN": "分数达到1200",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        }
+      }
+    },
+    "2015": {
+      "Id": 2015,
+      "ActivityId": 400013,
+      "Duration": 2,
+      "IslandName": "ActivityIceCreamLevel.2015.1",
+      "Name": "ActivityIceCreamLevel.2015.2",
+      "Des": "ActivityIceCreamLevel.2015.3",
+      "PreLevelId": 2014,
+      "LevelType": 3,
+      "CustomerCount": 20,
+      "PatienceValue": 12,
+      "Health": -1,
+      "Fever": 80,
+      "IceCreamBallLimit": 4,
+      "BuffPoolId": 1005,
+      "CharPoolId": 1005,
+      "PassScore": 1400,
+      "PassScoreDes": "ActivityIceCreamLevel.2015.4",
+      "OrderNumDes": "ActivityIceCreamLevel.2015.5",
+      "FirstCompleteReward1Tid": 73113,
+      "FirstCompleteReward1Qty": 1000,
+      "FirstCompleteReward2Tid": 2,
+      "FirstCompleteReward2Qty": 100,
+      "DictionaryId": 400803,
+      "_localized": {
+        "/IslandName": {
+          "key": "ActivityIceCreamLevel.2015.1",
+          "zh_TW": "回聲溶洞",
+          "zh_CN": "回声溶洞",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityIceCreamLevel.2015.2",
+          "zh_TW": "海風迴響Ⅰ",
+          "zh_CN": "海风回响Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Des": {
+          "key": "ActivityIceCreamLevel.2015.3",
+          "zh_TW": "與夥伴們一起，用盡所有道具和資源，將熱度炒到最高潮吧！",
+          "zh_CN": "与伙伴们一起，用尽所有道具和资源，将热度炒到最高潮吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/PassScoreDes": {
+          "key": "ActivityIceCreamLevel.2015.4",
+          "zh_TW": "分數達到1400",
+          "zh_CN": "分数达到1400",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        }
+      }
+    },
+    "2016": {
+      "Id": 2016,
+      "ActivityId": 400013,
+      "Duration": 2,
+      "IslandName": "ActivityIceCreamLevel.2016.1",
+      "Name": "ActivityIceCreamLevel.2016.2",
+      "Des": "ActivityIceCreamLevel.2016.3",
+      "PreLevelId": 2015,
+      "LevelType": 3,
+      "CustomerCount": 25,
+      "PatienceValue": 10,
+      "Health": -1,
+      "Fever": 80,
+      "IceCreamBallLimit": 4,
+      "BuffPoolId": 1006,
+      "CharPoolId": 1006,
+      "PassScore": 1800,
+      "PassScoreDes": "ActivityIceCreamLevel.2016.4",
+      "OrderNumDes": "ActivityIceCreamLevel.2016.5",
+      "FirstCompleteReward1Tid": 73113,
+      "FirstCompleteReward1Qty": 2000,
+      "FirstCompleteReward2Tid": 2,
+      "FirstCompleteReward2Qty": 100,
+      "_localized": {
+        "/IslandName": {
+          "key": "ActivityIceCreamLevel.2016.1",
+          "zh_TW": "回聲溶洞",
+          "zh_CN": "回声溶洞",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityIceCreamLevel.2016.2",
+          "zh_TW": "海風迴響Ⅱ",
+          "zh_CN": "海风回响Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Des": {
+          "key": "ActivityIceCreamLevel.2016.3",
+          "zh_TW": "與夥伴們一起，用盡所有道具和資源，將熱度炒到最高潮吧！",
+          "zh_CN": "与伙伴们一起，用尽所有道具和资源，将热度炒到最高潮吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/PassScoreDes": {
+          "key": "ActivityIceCreamLevel.2016.4",
+          "zh_TW": "分數達到1800",
+          "zh_CN": "分数达到1800",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        }
+      }
+    },
+    "2017": {
+      "Id": 2017,
+      "ActivityId": 400013,
+      "Duration": 3,
+      "IslandName": "ActivityIceCreamLevel.2017.1",
+      "Name": "ActivityIceCreamLevel.2017.2",
+      "Des": "ActivityIceCreamLevel.2017.3",
+      "PreLevelId": 2016,
+      "LevelType": 4,
+      "CustomerCount": -1,
+      "PatienceValue": 20,
+      "Health": 3,
+      "Fever": 80,
+      "IceCreamBallLimit": 4,
+      "BuffPoolId": 1007,
+      "CharPoolId": 1007,
+      "PassScoreDes": "ActivityIceCreamLevel.2017.4",
+      "OrderNumDes": "ActivityIceCreamLevel.2017.5",
+      "FirstCompleteReward1Tid": 73113,
+      "FirstCompleteReward1Qty": 3000,
+      "FirstCompleteReward2Tid": 2,
+      "FirstCompleteReward2Qty": 100,
+      "DictionaryId": 400804,
+      "_localized": {
+        "/IslandName": {
+          "key": "ActivityIceCreamLevel.2017.1",
+          "zh_TW": "熱浪海灣",
+          "zh_CN": "热浪海湾",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityIceCreamLevel.2017.2",
+          "zh_TW": "漫無止境的夏天",
+          "zh_CN": "漫无止境的夏天",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        },
+        "/Des": {
+          "key": "ActivityIceCreamLevel.2017.3",
+          "zh_TW": "夏日！海灘！甜點！還有美少女們！\n燃起所有熱情，盡可能拿下更高的分數吧！",
+          "zh_CN": "夏季！海滩！甜品！还有美少女们！\n积攒所有热情，尽可能赢得更多的分数吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+            "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+          }
+        }
+      }
+    }
+  }
+}

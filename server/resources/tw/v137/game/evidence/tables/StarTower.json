@@ -1,0 +1,908 @@
+{
+  "table": "StarTower",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1f3aa04212dfb914.bin",
+  "source_sha256": "221cd0fc2960a76d081aea5c04e4c17c3d6ca05c1e85163bdfa72911b27171bf",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\StarTower.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 25
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "reference_field_order": [
+      "Id",
+      "Name",
+      "Desc",
+      "GroupId",
+      "PreConditions",
+      "PreviewMonsterGroupId",
+      "Difficulty",
+      "ValueDifficulty",
+      "Recommend",
+      "CurrencyId",
+      "StageGroupIds",
+      "FloorNum",
+      "TeamExpGroupId",
+      "SubNoteSkillDropGroupId",
+      "FirstAward",
+      "EET",
+      "NotEET",
+      "Episode",
+      "Image",
+      "RewardPreview",
+      "ShopNpc",
+      "StandShopNpc",
+      "UpgradeNpc",
+      "ResqueNpc",
+      "DangerNpc",
+      "HorrorNpc",
+      "DangerEndEvent",
+      "HorrorEndEvent",
+      "DestructibleObjectType"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "Name",
+      "3": "Desc",
+      "4": "GroupId",
+      "5": "PreConditions",
+      "6": "PreviewMonsterGroupId",
+      "7": "Difficulty",
+      "8": "ValueDifficulty",
+      "9": "Recommend",
+      "10": "CurrencyId",
+      "11": "StageGroupIds",
+      "12": "FloorNum",
+      "13": "TeamExpGroupId",
+      "14": "SubNoteSkillDropGroupId",
+      "15": "FirstAward",
+      "16": "EET",
+      "17": "NotEET",
+      "18": "Episode",
+      "19": "Image",
+      "21": "RewardPreview",
+      "22": "ShopNpc",
+      "23": "StandShopNpc",
+      "24": "UpgradeNpc",
+      "25": "ResqueNpc",
+      "26": "DangerNpc",
+      "27": "HorrorNpc",
+      "28": "DangerEndEvent",
+      "29": "HorrorEndEvent",
+      "30": "DestructibleObjectType"
+    },
+    "aot_field_count": 29,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "2": {
+      "field": "Name",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "3": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "4": {
+      "field": "GroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "5": {
+      "field": "PreConditions",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 24,
+      "compared_reference_rows": 24,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 24,
+          "compared": 24
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 24
+        }
+      ]
+    },
+    "6": {
+      "field": "PreviewMonsterGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "7": {
+      "field": "Difficulty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "8": {
+      "field": "ValueDifficulty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "9": {
+      "field": "Recommend",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "10": {
+      "field": "CurrencyId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "11": {
+      "field": "StageGroupIds",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "12": {
+      "field": "FloorNum",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "13": {
+      "field": "TeamExpGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "14": {
+      "field": "SubNoteSkillDropGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "15": {
+      "field": "FirstAward",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "16": {
+      "field": "EET",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "17": {
+      "field": "NotEET",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "18": {
+      "field": "Episode",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "19": {
+      "field": "Image",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "21": {
+      "field": "RewardPreview",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "22": {
+      "field": "ShopNpc",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "23": {
+      "field": "StandShopNpc",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "24": {
+      "field": "UpgradeNpc",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "25": {
+      "field": "ResqueNpc",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "26": {
+      "field": "DangerNpc",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "27": {
+      "field": "HorrorNpc",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "28": {
+      "field": "DangerEndEvent",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "29": {
+      "field": "HorrorEndEvent",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "30": {
+      "field": "DestructibleObjectType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 25,
+    "reference_row_count": 25,
+    "shared_key_count": 25,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 25,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

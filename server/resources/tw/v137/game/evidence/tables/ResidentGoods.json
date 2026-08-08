@@ -1,0 +1,484 @@
+{
+  "table": "ResidentGoods",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\10b8aa8d646c63ca.bin",
+  "source_sha256": "f7bc7fae32039460968db4dc45925fd83bb378f2bdfffd331b65c57c0ff6af40",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\ResidentGoods.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 47
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      14,
+      20
+    ],
+    "reference_field_order": [
+      "Id",
+      "Name",
+      "Desc",
+      "ShopId",
+      "SaleNumber",
+      "ItemId",
+      "ItemQuantity",
+      "MaximumLimit",
+      "CurrencyItemId",
+      "Price",
+      "AppearCondType",
+      "AppearCondParams",
+      "DisplayMode"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 13,
+    "remaining_name_count": 13,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 47,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Name",
+        "matching_reference_rows": 47,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Desc",
+        "matching_reference_rows": 47,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "ShopId",
+        "matching_reference_rows": 47,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "SaleNumber",
+        "matching_reference_rows": 47,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "ItemId",
+        "matching_reference_rows": 47,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "ItemQuantity",
+        "matching_reference_rows": 47,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "MaximumLimit",
+        "matching_reference_rows": 45,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "CurrencyItemId",
+        "matching_reference_rows": 47,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "Price",
+        "matching_reference_rows": 47,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "AppearCondType",
+        "matching_reference_rows": 1,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "14": {
+        "field": "AppearCondParams",
+        "matching_reference_rows": 1,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "20": {
+        "field": "DisplayMode",
+        "matching_reference_rows": 47,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 47,
+      "compared_reference_rows": 47,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_int",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 47
+        }
+      ]
+    },
+    "2": {
+      "field": "Name",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 47,
+      "compared_reference_rows": 47,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 47
+        }
+      ]
+    },
+    "3": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 47,
+      "compared_reference_rows": 47,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 47
+        }
+      ]
+    },
+    "4": {
+      "field": "ShopId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 47,
+      "compared_reference_rows": 47,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_int",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 47
+        }
+      ]
+    },
+    "5": {
+      "field": "SaleNumber",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 47,
+      "compared_reference_rows": 47,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_int",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 47
+        }
+      ]
+    },
+    "6": {
+      "field": "ItemId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 47,
+      "compared_reference_rows": 47,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_int",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 47
+        }
+      ]
+    },
+    "7": {
+      "field": "ItemQuantity",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 47,
+      "compared_reference_rows": 47,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_int",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 47
+        }
+      ]
+    },
+    "8": {
+      "field": "MaximumLimit",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 45,
+      "compared_reference_rows": 45,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 45,
+          "compared": 45
+        },
+        {
+          "codec": "varint_int",
+          "matches": 45,
+          "compared": 45
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 45
+        }
+      ]
+    },
+    "9": {
+      "field": "CurrencyItemId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 47,
+      "compared_reference_rows": 47,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_int",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 47
+        }
+      ]
+    },
+    "10": {
+      "field": "Price",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 47,
+      "compared_reference_rows": 47,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_int",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 47
+        }
+      ]
+    },
+    "13": {
+      "field": "AppearCondType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    },
+    "14": {
+      "field": "AppearCondParams",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    },
+    "20": {
+      "field": "DisplayMode",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 47,
+      "compared_reference_rows": 47,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_int",
+          "matches": 47,
+          "compared": 47
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 47
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 47,
+    "reference_row_count": 47,
+    "shared_key_count": 47,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 47,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

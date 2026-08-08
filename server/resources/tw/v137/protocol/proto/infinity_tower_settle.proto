@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message InfinityTowerSettleReq {
+  uint32 Value = 1;
+  .proto.Events Events = 8;
+  bytes NextPackage = 2047;
+}
+
+message InfinityTowerSettleResp {
+  enum Reason {
+    Nil = 0;
+    PreLevel = 1;
+    WorldClass = 2;
+    Build = 3;
+    NoOpen = 4;
+  }
+
+  uint32 NextLevelId = 1;
+  repeated .proto.ItemTpl Show = 2;
+  .proto.ChangeInfo Change = 3;
+  uint32 BountyLevel = 6;
+  .proto.InfinityTowerSettleResp.Reason Value = 7;
+  bytes NextPackage = 2047;
+}

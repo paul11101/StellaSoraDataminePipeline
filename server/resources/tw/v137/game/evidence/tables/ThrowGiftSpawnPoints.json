@@ -1,0 +1,514 @@
+{
+  "table": "ThrowGiftSpawnPoints",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\01660dfe888e1f75.bin",
+  "source_sha256": "e9aa5e9ced8e867c7b333779858ef00575516321e12c11fe13cc45110d0b070a",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\ThrowGiftSpawnPoints.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 67
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "reference_field_order": [
+      "Id",
+      "Type",
+      "IsRandom",
+      "GoalType",
+      "SpawnRangeTypeX",
+      "SpawnRangeTypeY",
+      "InitShow",
+      "MoveY",
+      "MoveX",
+      "PoolType",
+      "ItemPool",
+      "ActiveCond",
+      "SpawnParam"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 13,
+    "remaining_name_count": 13,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 67,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Type",
+        "matching_reference_rows": 67,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "IsRandom",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "GoalType",
+        "matching_reference_rows": 67,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "SpawnRangeTypeX",
+        "matching_reference_rows": 20,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "SpawnRangeTypeY",
+        "matching_reference_rows": 5,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "InitShow",
+        "matching_reference_rows": 50,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "MoveX",
+        "matching_reference_rows": 25,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "9": {
+        "field": "MoveY",
+        "matching_reference_rows": 7,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "10": {
+        "field": "PoolType",
+        "matching_reference_rows": 40,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "ItemPool",
+        "matching_reference_rows": 43,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "ActiveCond",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "SpawnParam",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 67,
+      "compared_reference_rows": 67,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 67,
+          "compared": 67
+        },
+        {
+          "codec": "varint_int",
+          "matches": 67,
+          "compared": 67
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 67
+        }
+      ]
+    },
+    "2": {
+      "field": "Type",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 67,
+      "compared_reference_rows": 67,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 67,
+          "compared": 67
+        },
+        {
+          "codec": "varint_int",
+          "matches": 67,
+          "compared": 67
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 67
+        }
+      ]
+    },
+    "3": {
+      "field": "IsRandom",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "4": {
+      "field": "GoalType",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 67,
+      "compared_reference_rows": 67,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 67,
+          "compared": 67
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 67,
+          "compared": 67
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 67
+        }
+      ]
+    },
+    "5": {
+      "field": "SpawnRangeTypeX",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 20,
+      "compared_reference_rows": 20,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_int",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 20
+        }
+      ]
+    },
+    "6": {
+      "field": "SpawnRangeTypeY",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_int",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    },
+    "7": {
+      "field": "InitShow",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 50,
+      "compared_reference_rows": 50,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 50,
+          "compared": 50
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 50
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 50
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 50
+        }
+      ]
+    },
+    "8": {
+      "field": "MoveX",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_int",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "9": {
+      "field": "MoveY",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "10": {
+      "field": "PoolType",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 40,
+      "compared_reference_rows": 40,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 40,
+          "compared": 40
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 40
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 40
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 40
+        }
+      ]
+    },
+    "11": {
+      "field": "ItemPool",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 43,
+      "compared_reference_rows": 43,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 43,
+          "compared": 43
+        },
+        {
+          "codec": "varint_int",
+          "matches": 43,
+          "compared": 43
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 43
+        }
+      ]
+    },
+    "12": {
+      "field": "ActiveCond",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "varint_int",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "13": {
+      "field": "SpawnParam",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 67,
+    "reference_row_count": 67,
+    "shared_key_count": 67,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 67,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

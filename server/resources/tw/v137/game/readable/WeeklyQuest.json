@@ -1,0 +1,343 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "WeeklyQuest",
+    "categories": [
+      "quests"
+    ],
+    "row_count": 13,
+    "localization_hits": 13,
+    "source": "bin/WeeklyQuest.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1001": {
+      "Id": 1001,
+      "Title": "WeeklyQuest.1001.1",
+      "Desc": "WeeklyQuest.1001.2",
+      "Active": 100,
+      "Order": 1,
+      "Apear": true,
+      "CompleteCond": 51,
+      "CompleteCondParams": "[1]",
+      "ItemTid": 1,
+      "ItemQty": 20000,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1001.1",
+          "zh_TW": "登入遊戲1次",
+          "zh_CN": "登录游戏1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    },
+    "1002": {
+      "Id": 1002,
+      "Title": "WeeklyQuest.1002.1",
+      "Desc": "WeeklyQuest.1002.2",
+      "Active": 200,
+      "Order": 2,
+      "Prerequisites": [
+        1001
+      ],
+      "Apear": true,
+      "CompleteCond": 51,
+      "CompleteCondParams": "[5]",
+      "ItemTid": 1,
+      "ItemQty": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1002.1",
+          "zh_TW": "登入遊戲5次",
+          "zh_CN": "登录游戏5次",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    },
+    "1003": {
+      "Id": 1003,
+      "Title": "WeeklyQuest.1003.1",
+      "Desc": "WeeklyQuest.1003.2",
+      "JumpTo": 27,
+      "Active": 100,
+      "Order": 3,
+      "Apear": true,
+      "CompleteCond": 508,
+      "CompleteCondParams": "[3]",
+      "ItemTid": 1,
+      "ItemQty": 20000,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1003.1",
+          "zh_TW": "通過3次星塔探索",
+          "zh_CN": "通关3次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    },
+    "1004": {
+      "Id": 1004,
+      "Title": "WeeklyQuest.1004.1",
+      "Desc": "WeeklyQuest.1004.2",
+      "JumpTo": 27,
+      "Active": 200,
+      "Order": 4,
+      "Prerequisites": [
+        1003
+      ],
+      "Apear": true,
+      "CompleteCond": 508,
+      "CompleteCondParams": "[5]",
+      "ItemTid": 1,
+      "ItemQty": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1004.1",
+          "zh_TW": "通過5次星塔探索",
+          "zh_CN": "通关5次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    },
+    "1005": {
+      "Id": 1005,
+      "Title": "WeeklyQuest.1005.1",
+      "Desc": "WeeklyQuest.1005.2",
+      "JumpTo": 32,
+      "Active": 100,
+      "Order": 5,
+      "Apear": true,
+      "CompleteCond": 3,
+      "CompleteCondParams": "[10]",
+      "ItemTid": 50002,
+      "ItemQty": 2,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1005.1",
+          "zh_TW": "通過10次任意戰鬥關卡",
+          "zh_CN": "通关10次任意战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    },
+    "1006": {
+      "Id": 1006,
+      "Title": "WeeklyQuest.1006.1",
+      "Desc": "WeeklyQuest.1006.2",
+      "JumpTo": 32,
+      "Active": 200,
+      "Order": 6,
+      "Prerequisites": [
+        1005
+      ],
+      "Apear": true,
+      "CompleteCond": 3,
+      "CompleteCondParams": "[20]",
+      "ItemTid": 50003,
+      "ItemQty": 2,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1006.1",
+          "zh_TW": "通過20次任意戰鬥關卡",
+          "zh_CN": "通关20次任意战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    },
+    "1007": {
+      "Id": 1007,
+      "Title": "WeeklyQuest.1007.1",
+      "Desc": "WeeklyQuest.1007.2",
+      "JumpTo": 32,
+      "Active": 200,
+      "Order": 7,
+      "Prerequisites": [
+        1006
+      ],
+      "Apear": true,
+      "CompleteCond": 3,
+      "CompleteCondParams": "[40]",
+      "ItemTid": 50003,
+      "ItemQty": 2,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1007.1",
+          "zh_TW": "通過40次任意戰鬥關卡",
+          "zh_CN": "通关40次任意战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    },
+    "1008": {
+      "Id": 1008,
+      "Title": "WeeklyQuest.1008.1",
+      "Desc": "WeeklyQuest.1008.2",
+      "JumpTo": 32,
+      "Active": 100,
+      "Order": 8,
+      "Apear": true,
+      "CompleteCond": 39,
+      "CompleteCondParams": "[500]",
+      "ItemTid": 30003,
+      "ItemQty": 2,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1008.1",
+          "zh_TW": "累計消耗500點活力",
+          "zh_CN": "累计消耗500点干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    },
+    "1009": {
+      "Id": 1009,
+      "Title": "WeeklyQuest.1009.1",
+      "Desc": "WeeklyQuest.1009.2",
+      "JumpTo": 32,
+      "Active": 200,
+      "Order": 9,
+      "Prerequisites": [
+        1008
+      ],
+      "Apear": true,
+      "CompleteCond": 39,
+      "CompleteCondParams": "[1000]",
+      "ItemTid": 30003,
+      "ItemQty": 3,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1009.1",
+          "zh_TW": "累計消耗1,000點活力",
+          "zh_CN": "累计消耗1000点干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    },
+    "1010": {
+      "Id": 1010,
+      "Title": "WeeklyQuest.1010.1",
+      "Desc": "WeeklyQuest.1010.2",
+      "JumpTo": 59,
+      "Active": 200,
+      "Order": 10,
+      "Apear": true,
+      "CompleteCond": 74,
+      "CompleteCondParams": "[5]",
+      "ItemTid": 1,
+      "ItemQty": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1010.1",
+          "zh_TW": "在「心鏈」中邀約5次",
+          "zh_CN": "在「心链」中邀约5次",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    },
+    "1011": {
+      "Id": 1011,
+      "Title": "WeeklyQuest.1011.1",
+      "Desc": "WeeklyQuest.1011.2",
+      "JumpTo": 57,
+      "Active": 100,
+      "Order": 11,
+      "Apear": true,
+      "CompleteCond": 83,
+      "CompleteCondParams": "[5]",
+      "ItemTid": 1,
+      "ItemQty": 20000,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1011.1",
+          "zh_TW": "完成5次派遣委託",
+          "zh_CN": "完成5次派遣委托",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    },
+    "1012": {
+      "Id": 1012,
+      "Title": "WeeklyQuest.1012.1",
+      "Desc": "WeeklyQuest.1012.2",
+      "JumpTo": 57,
+      "Active": 200,
+      "Order": 12,
+      "Prerequisites": [
+        1011
+      ],
+      "Apear": true,
+      "CompleteCond": 83,
+      "CompleteCondParams": "[10]",
+      "ItemTid": 1,
+      "ItemQty": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1012.1",
+          "zh_TW": "完成10次派遣委託",
+          "zh_CN": "完成10次派遣委托",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    },
+    "1013": {
+      "Id": 1013,
+      "Title": "WeeklyQuest.1013.1",
+      "Desc": "WeeklyQuest.1013.2",
+      "JumpTo": 62001,
+      "Active": 300,
+      "Order": 13,
+      "Apear": true,
+      "CompleteCond": 123,
+      "CompleteCondParams": "[3]",
+      "ItemTid": 1,
+      "ItemQty": 80000,
+      "_localized": {
+        "/Title": {
+          "key": "WeeklyQuest.1013.1",
+          "zh_TW": "完成3次真格挑戰",
+          "zh_CN": "完成3次真格挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeeklyQuest.json",
+            "zh_CN": "language/zh_CN/WeeklyQuest.json"
+          }
+        }
+      }
+    }
+  }
+}

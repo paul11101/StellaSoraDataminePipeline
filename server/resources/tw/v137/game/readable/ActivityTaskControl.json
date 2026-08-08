@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ActivityTaskControl",
+    "categories": [
+      "activities"
+    ],
+    "row_count": 17,
+    "localization_hits": 0,
+    "source": "bin/ActivityTaskControl.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "0": {
+      "ActivityId": 101003,
+      "UIAssets": "ActivityTask_act_01",
+      "CtrlName": "ActivityTaskCtrl_01"
+    },
+    "1": {
+      "ActivityId": 1010003
+    },
+    "2": {
+      "ActivityId": 1010103
+    },
+    "3": {
+      "ActivityId": 1010203
+    },
+    "4": {
+      "ActivityId": 2010103
+    },
+    "5": {
+      "ActivityId": 1010303
+    },
+    "6": {
+      "ActivityId": 1010403
+    },
+    "7": {
+      "ActivityId": 3010102
+    },
+    "8": {
+      "ActivityId": 1010503
+    },
+    "9": {
+      "ActivityId": 1010603
+    },
+    "10": {
+      "ActivityId": 2010203
+    },
+    "11": {
+      "ActivityId": 3010202
+    },
+    "12": {
+      "ActivityId": 1010703
+    },
+    "13": {
+      "ActivityId": 1010803
+    },
+    "14": {
+      "ActivityId": 1110003
+    },
+    "15": {
+      "ActivityId": 1010903
+    },
+    "16": {
+      "ActivityId": 2010303
+    }
+  }
+}

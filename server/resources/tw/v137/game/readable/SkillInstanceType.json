@@ -1,0 +1,79 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SkillInstanceType",
+    "categories": [
+      "combat",
+      "stages_modes"
+    ],
+    "row_count": 3,
+    "localization_hits": 3,
+    "source": "bin/SkillInstanceType.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Name": "SkillInstanceType.1.1",
+      "WorldClassLevel": 1,
+      "Episode": "db_stage_badge_1",
+      "Sort": 1,
+      "EET": [
+        7
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SkillInstanceType.1.1",
+          "zh_TW": "節奏遊戲卡帶",
+          "zh_CN": "节奏游戏卡带",
+          "sources": {
+            "zh_TW": "language/zh_TW/SkillInstanceType.json",
+            "zh_CN": "language/zh_CN/SkillInstanceType.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Name": "SkillInstanceType.2.1",
+      "WorldClassLevel": 1,
+      "Episode": "db_stage_badge_2",
+      "Sort": 2,
+      "EET": [
+        7
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SkillInstanceType.2.1",
+          "zh_TW": "射擊遊戲卡帶",
+          "zh_CN": "射击游戏卡带",
+          "sources": {
+            "zh_TW": "language/zh_TW/SkillInstanceType.json",
+            "zh_CN": "language/zh_CN/SkillInstanceType.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Name": "SkillInstanceType.3.1",
+      "WorldClassLevel": 1,
+      "Episode": "db_stage_badge_3",
+      "Sort": 3,
+      "EET": [
+        7
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SkillInstanceType.3.1",
+          "zh_TW": "格鬥遊戲卡帶",
+          "zh_CN": "格斗游戏卡带",
+          "sources": {
+            "zh_TW": "language/zh_TW/SkillInstanceType.json",
+            "zh_CN": "language/zh_CN/SkillInstanceType.json"
+          }
+        }
+      }
+    }
+  }
+}

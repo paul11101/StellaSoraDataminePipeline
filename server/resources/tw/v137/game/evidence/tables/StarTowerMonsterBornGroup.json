@@ -1,0 +1,199 @@
+{
+  "table": "StarTowerMonsterBornGroup",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8ad5ce558141ea1c.bin",
+  "source_sha256": "7e588a9acb8698baf82e15ec0d47086fe8d1c5db8ba0fa8fb7dc41126f057c31",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\StarTowerMonsterBornGroup.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 0,
+    "key_type": 0,
+    "row_count": 129
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "reference_field_order": [
+      "GroupId",
+      "MonsterId",
+      "Difficulty",
+      "MinFloor",
+      "MaxFloor"
+    ],
+    "local_aot_field_numbers": {
+      "1": "GroupId",
+      "2": "MonsterId",
+      "3": "Difficulty",
+      "4": "MinFloor",
+      "5": "MaxFloor"
+    },
+    "aot_field_count": 5,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "GroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_int",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    },
+    "2": {
+      "field": "MonsterId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_int",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    },
+    "3": {
+      "field": "Difficulty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_int",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    },
+    "4": {
+      "field": "MinFloor",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_int",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    },
+    "5": {
+      "field": "MaxFloor",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_int",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 129,
+    "reference_row_count": 129,
+    "shared_key_count": 129,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 129,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

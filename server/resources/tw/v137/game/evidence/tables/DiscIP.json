@@ -1,0 +1,434 @@
+{
+  "table": "DiscIP",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\20245bb87224a302.bin",
+  "source_sha256": "d9014c42ac95136eb3ba17a65a15923c9b04a8d6bbc86b33d14524c761ee3b32",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\DiscIP.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 96
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "reference_field_order": [
+      "Id",
+      "VoFile",
+      "VoBegin1",
+      "VoLoop1",
+      "VoName1",
+      "VoBegin2",
+      "VoLoop2",
+      "VoName2",
+      "AvgId",
+      "StoryName",
+      "StoryDesc",
+      "CharId"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 12,
+    "remaining_name_count": 12,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "VoFile",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "VoBegin1",
+        "matching_reference_rows": 25,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "VoLoop1",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "VoName1",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "VoBegin2",
+        "matching_reference_rows": 83,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "VoLoop2",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "VoName2",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "AvgId",
+        "matching_reference_rows": 21,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "StoryName",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "StoryDesc",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "CharId",
+        "matching_reference_rows": 73,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "2": {
+      "field": "VoFile",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "3": {
+      "field": "VoBegin1",
+      "json_kind": "float",
+      "repeated": false,
+      "wire_types": [
+        5
+      ],
+      "selected": "float32",
+      "matching_reference_rows": 25,
+      "compared_reference_rows": 25,
+      "candidate_scores": [
+        {
+          "codec": "float32",
+          "matches": 25,
+          "compared": 25
+        },
+        {
+          "codec": "fixed32_uint",
+          "matches": 0,
+          "compared": 25
+        },
+        {
+          "codec": "fixed32_int",
+          "matches": 0,
+          "compared": 25
+        }
+      ]
+    },
+    "4": {
+      "field": "VoLoop1",
+      "json_kind": "float",
+      "repeated": false,
+      "wire_types": [
+        5
+      ],
+      "selected": "float32",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "float32",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "fixed32_uint",
+          "matches": 0,
+          "compared": 96
+        },
+        {
+          "codec": "fixed32_int",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "5": {
+      "field": "VoName1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "6": {
+      "field": "VoBegin2",
+      "json_kind": "float",
+      "repeated": false,
+      "wire_types": [
+        5
+      ],
+      "selected": "float32",
+      "matching_reference_rows": 83,
+      "compared_reference_rows": 83,
+      "candidate_scores": [
+        {
+          "codec": "float32",
+          "matches": 83,
+          "compared": 83
+        },
+        {
+          "codec": "fixed32_uint",
+          "matches": 0,
+          "compared": 83
+        },
+        {
+          "codec": "fixed32_int",
+          "matches": 0,
+          "compared": 83
+        }
+      ]
+    },
+    "7": {
+      "field": "VoLoop2",
+      "json_kind": "float",
+      "repeated": false,
+      "wire_types": [
+        5
+      ],
+      "selected": "float32",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "float32",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "fixed32_uint",
+          "matches": 0,
+          "compared": 96
+        },
+        {
+          "codec": "fixed32_int",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "8": {
+      "field": "VoName2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "9": {
+      "field": "AvgId",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    },
+    "10": {
+      "field": "StoryName",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "11": {
+      "field": "StoryDesc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "12": {
+      "field": "CharId",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 73,
+      "compared_reference_rows": 73,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 73,
+          "compared": 73
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 73,
+          "compared": 73
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 73
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 96,
+    "reference_row_count": 96,
+    "shared_key_count": 96,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 96,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

@@ -1,0 +1,4885 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ActivityStory",
+    "categories": [
+      "story_social",
+      "activities"
+    ],
+    "row_count": 102,
+    "localization_hits": 306,
+    "source": "bin/ActivityStory.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "111000201": {
+      "Id": 111000201,
+      "ChapterId": 11100,
+      "Index": "ActivityStory.111000201.4",
+      "Title": "ActivityStory.111000201.1",
+      "IconRes": "Icon/ActivityStory/ep_event01_01",
+      "Desc": "ActivityStory.111000201.2",
+      "Type": 3,
+      "StoryId": "STev_01_01",
+      "ConditionId": 111000201,
+      "Aim": "ActivityStory.111000201.3",
+      "AvgLuaName": "STev_01_01",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event01_01",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.111000201.4",
+          "zh_TW": "第一話",
+          "zh_CN": "第一话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.111000201.1",
+          "zh_TW": "閃爍的微光",
+          "zh_CN": "闪烁的微光",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.111000201.2",
+          "zh_TW": "夏日的海濱小鎮，流傳著一則恐怖傳說：\n遠海之上閃爍著「幽靈船」的綠光。\n你目睹了那詭異的光芒被大海吞沒…",
+          "zh_CN": "夏日的海滨小镇，流传着一则恐怖传说：\n远海之上，闪烁着“幽灵船”的绿光。\n你目睹了那诡异的光芒，被大海吞没……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "111000202": {
+      "Id": 111000202,
+      "ChapterId": 11100,
+      "Index": "ActivityStory.111000202.4",
+      "Title": "ActivityStory.111000202.1",
+      "IconRes": "Icon/ActivityStory/ep_event01_02",
+      "Desc": "ActivityStory.111000202.2",
+      "Type": 3,
+      "StoryId": "STev_01_02",
+      "ConditionId": 111000202,
+      "ParentStoryId": [
+        "STev_01_01"
+      ],
+      "Aim": "ActivityStory.111000202.3",
+      "AvgLuaName": "STev_01_02",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event01_02",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.111000202.4",
+          "zh_TW": "第二話",
+          "zh_CN": "第二话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.111000202.1",
+          "zh_TW": "來自幽靈船",
+          "zh_CN": "来自幽灵船",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.111000202.2",
+          "zh_TW": "兩位陌生的兔子少女救了你。\n她們要去尋找「幽靈船」光芒的源頭。",
+          "zh_CN": "两位陌生的兔子少女搭救了你。\n她们要去寻找“幽灵船”光芒的源头。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "111000203": {
+      "Id": 111000203,
+      "ChapterId": 11100,
+      "Index": "ActivityStory.111000203.4",
+      "Title": "ActivityStory.111000203.1",
+      "IconRes": "Icon/ActivityStory/ep_event01_03",
+      "Desc": "ActivityStory.111000203.2",
+      "Type": 3,
+      "StoryId": "STev_01_03",
+      "ConditionId": 111000203,
+      "ParentStoryId": [
+        "STev_01_02"
+      ],
+      "Aim": "ActivityStory.111000203.3",
+      "AvgLuaName": "STev_01_03",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event01_03",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.111000203.4",
+          "zh_TW": "第三話",
+          "zh_CN": "第三话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.111000203.1",
+          "zh_TW": "謎團與氣味",
+          "zh_CN": "谜团与气味",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.111000203.2",
+          "zh_TW": "你得知了希婭和花鈴此行的目的：\n她們要為奶奶正名。\n不知為何，希婭對你異常親近…",
+          "zh_CN": "你得知了希娅和花铃此行的目的：\n她们要为奶奶正名。\n不知为何，希娅对你异常亲近……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "111000204": {
+      "Id": 111000204,
+      "ChapterId": 11100,
+      "Index": "ActivityStory.111000204.4",
+      "Title": "ActivityStory.111000204.1",
+      "IconRes": "Icon/ActivityStory/ep_event01_04",
+      "Desc": "ActivityStory.111000204.2",
+      "Type": 3,
+      "StoryId": "STev_01_04",
+      "ConditionId": 111000204,
+      "ParentStoryId": [
+        "STev_01_03"
+      ],
+      "Aim": "ActivityStory.111000204.3",
+      "AvgLuaName": "STev_01_04",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event01_04",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.111000204.4",
+          "zh_TW": "第四話",
+          "zh_CN": "第四话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.111000204.1",
+          "zh_TW": "聲音的指示",
+          "zh_CN": "声音的指示",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.111000204.2",
+          "zh_TW": "行程過半，你們途徑一座小島，暫時停留休息。\n在島上，花鈴聽到了異樣的聲音——\n一夥圖謀不軌的旅人現身了。",
+          "zh_CN": "行程过半，你们途经一座小岛，暂时休整。\n在岛上，花铃听到了异样的声音——\n一伙图谋不轨的旅人现身了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "111000205": {
+      "Id": 111000205,
+      "ChapterId": 11100,
+      "Index": "ActivityStory.111000205.4",
+      "Title": "ActivityStory.111000205.1",
+      "IconRes": "Icon/ActivityStory/ep_event01_05",
+      "Desc": "ActivityStory.111000205.2",
+      "Type": 3,
+      "StoryId": "STev_01_05",
+      "ConditionId": 111000205,
+      "ParentStoryId": [
+        "STev_01_04"
+      ],
+      "Aim": "ActivityStory.111000205.3",
+      "AvgLuaName": "STev_01_05",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event01_05",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.111000205.4",
+          "zh_TW": "第五話",
+          "zh_CN": "第五话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.111000205.1",
+          "zh_TW": "眼見非實",
+          "zh_CN": "眼见非实",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.111000205.2",
+          "zh_TW": "種種線索表明，奶奶撒謊了。\n「幽靈船」只是掩人耳目的幌子。\n「面對真相，我們需要一些勇氣。」",
+          "zh_CN": "种种线索表明，奶奶撒谎了。\n“幽灵船”只是掩人耳目的幌子。\n“面对真相，我们需要一些勇气。”",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "111000206": {
+      "Id": 111000206,
+      "ChapterId": 11100,
+      "Index": "ActivityStory.111000206.4",
+      "Title": "ActivityStory.111000206.1",
+      "IconRes": "Icon/ActivityStory/ep_event01_06",
+      "Desc": "ActivityStory.111000206.2",
+      "Type": 3,
+      "StoryId": "STev_01_06",
+      "ConditionId": 111000206,
+      "ParentStoryId": [
+        "STev_01_05"
+      ],
+      "Aim": "ActivityStory.111000206.3",
+      "AvgLuaName": "STev_01_06",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event01_06",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.111000206.4",
+          "zh_TW": "第六話",
+          "zh_CN": "第六话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.111000206.1",
+          "zh_TW": "相似之人",
+          "zh_CN": "相似之人",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.111000206.2",
+          "zh_TW": "對於奶奶的隱瞞，希婭早已有所察覺。\n她決定先走一步，去前方探查情況。\n然而，黑暗中有一個身影始終注視著她。",
+          "zh_CN": "对于奶奶的隐瞒，希娅早已有所察觉。\n她决定先走一步，去前方探查情况。\n然而，黑暗中有一个身影始终注视着她。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "111000207": {
+      "Id": 111000207,
+      "ChapterId": 11100,
+      "Index": "ActivityStory.111000207.4",
+      "Title": "ActivityStory.111000207.1",
+      "IconRes": "Icon/ActivityStory/ep_event01_07",
+      "Desc": "ActivityStory.111000207.2",
+      "Type": 3,
+      "StoryId": "STev_01_07",
+      "ConditionId": 111000207,
+      "ParentStoryId": [
+        "STev_01_06"
+      ],
+      "Aim": "ActivityStory.111000207.3",
+      "AvgLuaName": "STev_01_07",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event01_07",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.111000207.4",
+          "zh_TW": "第七話",
+          "zh_CN": "第七话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.111000207.1",
+          "zh_TW": "陰影之下",
+          "zh_CN": "阴影之下",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.111000207.2",
+          "zh_TW": "巨大的六角鯨來襲，你和花鈴合力甩掉了牠。\n就在你以為危機解除時，希婭卻陷入了漩渦。\n就在絕望之際，那片幽綠的光芒悄然降臨。",
+          "zh_CN": "巨大的六角鲸袭来，你和花铃合力甩掉了它。\n就在你以为危机消散时，希娅却陷入了漩涡。\n绝望之际，那片幽绿的光芒悄然降临。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "111000208": {
+      "Id": 111000208,
+      "ChapterId": 11100,
+      "DayOpen": 1,
+      "Index": "ActivityStory.111000208.4",
+      "Title": "ActivityStory.111000208.1",
+      "IconRes": "Icon/ActivityStory/ep_event01_08",
+      "Desc": "ActivityStory.111000208.2",
+      "Type": 3,
+      "StoryId": "STev_01_08",
+      "ConditionId": 111000208,
+      "ParentStoryId": [
+        "STev_01_07"
+      ],
+      "Aim": "ActivityStory.111000208.3",
+      "AvgLuaName": "STev_01_08",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event01_08",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.111000208.4",
+          "zh_TW": "第八話",
+          "zh_CN": "第八话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.111000208.1",
+          "zh_TW": "迴響之地",
+          "zh_CN": "回响之地",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.111000208.2",
+          "zh_TW": "你們終於來到了光芒的源頭。\n沒有幽靈船，只有一片荒蕪的島嶼。\n朝著最終的目標，出發！",
+          "zh_CN": "你们终于来到了光芒的源头。\n没有幽灵船，只有一片荒芜的岛屿。\n朝着最终的目标，出发！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "111000209": {
+      "Id": 111000209,
+      "ChapterId": 11100,
+      "DayOpen": 1,
+      "Index": "ActivityStory.111000209.4",
+      "Title": "ActivityStory.111000209.1",
+      "IconRes": "Icon/ActivityStory/ep_event01_09",
+      "Desc": "ActivityStory.111000209.2",
+      "Type": 3,
+      "StoryId": "STev_01_09",
+      "ConditionId": 111000209,
+      "ParentStoryId": [
+        "STev_01_08"
+      ],
+      "Aim": "ActivityStory.111000209.3",
+      "AvgLuaName": "STev_01_09",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event01_09",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.111000209.4",
+          "zh_TW": "第九話",
+          "zh_CN": "第九话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.111000209.1",
+          "zh_TW": "光的原點",
+          "zh_CN": "光的原点",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.111000209.2",
+          "zh_TW": "暴雨之中，六角鯨的骸骨散發出強烈的光芒。\n這裡是牠們的棲息地、墳墓。\n也是無數旅人誤以為埋藏寶藏的天國。",
+          "zh_CN": "暴雨之中，六角鲸的骸骨散发着强烈的光。\n这里是它们的栖息地、坟墓。\n也是无数旅人误以为埋藏宝藏的天国。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "111000210": {
+      "Id": 111000210,
+      "ChapterId": 11100,
+      "DayOpen": 1,
+      "Index": "ActivityStory.111000210.4",
+      "Title": "ActivityStory.111000210.1",
+      "IconRes": "Icon/ActivityStory/ep_event01_10",
+      "Desc": "ActivityStory.111000210.2",
+      "Type": 3,
+      "StoryId": "STev_01_10",
+      "ConditionId": 111000210,
+      "ParentStoryId": [
+        "STev_01_09"
+      ],
+      "Aim": "ActivityStory.111000210.3",
+      "AvgLuaName": "STev_01_10",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event01_10",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.111000210.4",
+          "zh_TW": "第十話",
+          "zh_CN": "第十话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.111000210.1",
+          "zh_TW": "海水的祕密",
+          "zh_CN": "海水的秘密",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.111000210.2",
+          "zh_TW": "你們擊退了一路尾隨的尋寶旅人。\n在混亂之中，意外找回了奶奶當初留下的日記。\n你洞悉了光芒的祕密。",
+          "zh_CN": "你们击退了一路尾随的寻宝旅人。\n混乱之中，意外找回了奶奶当初留下的日记。\n你洞悉了光芒的秘密。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "111000211": {
+      "Id": 111000211,
+      "ChapterId": 11100,
+      "DayOpen": 1,
+      "Index": "ActivityStory.111000211.4",
+      "Title": "ActivityStory.111000211.1",
+      "IconRes": "Icon/ActivityStory/ep_event01_11",
+      "Desc": "ActivityStory.111000211.2",
+      "Type": 3,
+      "StoryId": "STev_01_11",
+      "ConditionId": 111000211,
+      "ParentStoryId": [
+        "STev_01_10"
+      ],
+      "Aim": "ActivityStory.111000211.3",
+      "AvgLuaName": "STev_01_11",
+      "AvgMotion": "style_44",
+      "IsLast": true,
+      "FirstCompleteReward": "{\"2\":50}",
+      "Icon": "Icon/ActivityStory/ep_event01_11",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.111000211.4",
+          "zh_TW": "尾聲",
+          "zh_CN": "尾声",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.111000211.1",
+          "zh_TW": "漫無止境的夏天",
+          "zh_CN": "漫无止境的夏天",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.111000211.2",
+          "zh_TW": "事情圓滿結束，你終於可以安心享受。\n屬於你的、你們的、永不結束的夏天。",
+          "zh_CN": "事情圆满结束，你终于可以安心享受。\n属于你的、你们的、永不结束的夏天。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010201": {
+      "Id": 201010201,
+      "ChapterId": 20101,
+      "Index": "ActivityStory.201010201.4",
+      "Title": "ActivityStory.201010201.1",
+      "Desc": "ActivityStory.201010201.2",
+      "Type": 3,
+      "StoryId": "STev_02_01",
+      "ConditionId": 201010201,
+      "Aim": "ActivityStory.201010201.3",
+      "AvgLuaName": "STev_02_01",
+      "AvgMotion": "style_20",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010201.4",
+          "zh_TW": "01",
+          "zh_CN": "01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010201.1",
+          "zh_TW": "雪願節的使者",
+          "zh_CN": "雪愿节的使者",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010201.2",
+          "zh_TW": "節日來臨，熱鬧非凡的街道上，你看到一個熟悉的身影…",
+          "zh_CN": "节日来临，热闹非凡的街道上，你看到一个熟悉的身影……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010202": {
+      "Id": 201010202,
+      "ChapterId": 20101,
+      "Index": "ActivityStory.201010202.4",
+      "Title": "ActivityStory.201010202.1",
+      "Desc": "ActivityStory.201010202.2",
+      "Type": 3,
+      "StoryId": "STev_02_02",
+      "ConditionId": 201010202,
+      "ParentStoryId": [
+        "STev_02_01"
+      ],
+      "Aim": "ActivityStory.201010202.3",
+      "AvgLuaName": "STev_02_02",
+      "AvgMotion": "style_20",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010202.4",
+          "zh_TW": "02",
+          "zh_CN": "02",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010202.1",
+          "zh_TW": "送禮大作戰",
+          "zh_CN": "送礼大作战",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010202.2",
+          "zh_TW": "穿上制服，你與菈露來到了期待著禮物的孩子們身邊…",
+          "zh_CN": "穿上制服，你与菈露来到了期待着礼物的孩子们身边……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010203": {
+      "Id": 201010203,
+      "ChapterId": 20101,
+      "Index": "ActivityStory.201010203.4",
+      "Title": "ActivityStory.201010203.1",
+      "Desc": "ActivityStory.201010203.2",
+      "Type": 3,
+      "StoryId": "STev_02_03",
+      "ConditionId": 201010203,
+      "ParentStoryId": [
+        "STev_02_02"
+      ],
+      "Aim": "ActivityStory.201010203.3",
+      "AvgLuaName": "STev_02_03",
+      "AvgMotion": "style_20",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010203.4",
+          "zh_TW": "03",
+          "zh_CN": "03",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010203.1",
+          "zh_TW": "精靈的蹤跡",
+          "zh_CN": "精灵的踪迹",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010203.2",
+          "zh_TW": "「雪願樹精靈」，總會幫你實現願望。",
+          "zh_CN": "“雪愿树精灵”，总会帮你实现愿望。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010204": {
+      "Id": 201010204,
+      "ChapterId": 20101,
+      "Index": "ActivityStory.201010204.4",
+      "Title": "ActivityStory.201010204.1",
+      "Desc": "ActivityStory.201010204.2",
+      "Type": 3,
+      "StoryId": "STev_02_04_a",
+      "ConditionId": 201010204,
+      "ParentStoryId": [
+        "STev_02_03"
+      ],
+      "Aim": "ActivityStory.201010204.3",
+      "AvgLuaName": "STev_02_04_a",
+      "AvgMotion": "style_20",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010204.4",
+          "zh_TW": "04A",
+          "zh_CN": "04A",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010204.1",
+          "zh_TW": "熱情的焰紅",
+          "zh_CN": "热情的焰红",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010204.2",
+          "zh_TW": "你選擇去灰風俱樂部一探究竟…",
+          "zh_CN": "你选择去灰风俱乐部一探究竟……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010205": {
+      "Id": 201010205,
+      "ChapterId": 20101,
+      "Index": "ActivityStory.201010205.4",
+      "Title": "ActivityStory.201010205.1",
+      "Desc": "ActivityStory.201010205.2",
+      "Type": 3,
+      "StoryId": "STev_02_04_b",
+      "ConditionId": 201010205,
+      "ParentStoryId": [
+        "STev_02_03"
+      ],
+      "Aim": "ActivityStory.201010205.3",
+      "AvgLuaName": "STev_02_04_b",
+      "AvgMotion": "style_20",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010205.4",
+          "zh_TW": "04B",
+          "zh_CN": "04B",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010205.1",
+          "zh_TW": "巧合的灰白",
+          "zh_CN": "巧合的灰白",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010205.2",
+          "zh_TW": "你選擇繼續發放孩子們的禮物…",
+          "zh_CN": "你选择继续发放孩子们的礼物……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010206": {
+      "Id": 201010206,
+      "ChapterId": 20101,
+      "Index": "ActivityStory.201010206.4",
+      "Title": "ActivityStory.201010206.1",
+      "Desc": "ActivityStory.201010206.2",
+      "Type": 3,
+      "StoryId": "STev_02_04_c",
+      "ConditionId": 201010206,
+      "ParentStoryId": [
+        "STev_02_03"
+      ],
+      "Aim": "ActivityStory.201010206.3",
+      "AvgLuaName": "STev_02_04_c",
+      "AvgMotion": "style_20",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010206.4",
+          "zh_TW": "04C",
+          "zh_CN": "04C",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010206.1",
+          "zh_TW": "漫雪的藍調",
+          "zh_CN": "漫雪的蓝调",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010206.2",
+          "zh_TW": "你選擇追上隔壁街信使的腳步…",
+          "zh_CN": "你选择追上隔壁街信使的脚步……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010207": {
+      "Id": 201010207,
+      "ChapterId": 20101,
+      "Index": "ActivityStory.201010207.4",
+      "Title": "ActivityStory.201010207.1",
+      "Desc": "ActivityStory.201010207.2",
+      "Type": 3,
+      "StoryId": "STev_02_05",
+      "ConditionId": 201010207,
+      "ParentStoryId": [
+        "STev_02_04_a",
+        "STev_02_04_b",
+        "STev_02_04_c"
+      ],
+      "Aim": "ActivityStory.201010207.3",
+      "AvgLuaName": "STev_02_05",
+      "AvgMotion": "style_20",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010207.4",
+          "zh_TW": "05",
+          "zh_CN": "05",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010207.1",
+          "zh_TW": "相似的閃光",
+          "zh_CN": "相似的闪光",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010207.2",
+          "zh_TW": "你們終於跟上了「精靈」傳聞的腳步。",
+          "zh_CN": "你们终于跟上了“精灵”传闻的脚步。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010208": {
+      "Id": 201010208,
+      "ChapterId": 20101,
+      "Index": "ActivityStory.201010208.4",
+      "Title": "ActivityStory.201010208.1",
+      "Desc": "ActivityStory.201010208.2",
+      "Type": 3,
+      "StoryId": "STev_02_06",
+      "ConditionId": 201010208,
+      "ParentStoryId": [
+        "STev_02_05"
+      ],
+      "Aim": "ActivityStory.201010208.3",
+      "AvgLuaName": "STev_02_06",
+      "AvgMotion": "style_20",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010208.4",
+          "zh_TW": "06",
+          "zh_CN": "06",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010208.1",
+          "zh_TW": "寂寞的許願",
+          "zh_CN": "寂寞的许愿",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010208.2",
+          "zh_TW": "所謂的精靈傳說，只是一段有點酸楚的回憶。",
+          "zh_CN": "所谓的精灵传说，只是一段有些酸楚的回忆。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010209": {
+      "Id": 201010209,
+      "ChapterId": 20101,
+      "DayOpen": 1,
+      "Index": "ActivityStory.201010209.4",
+      "Title": "ActivityStory.201010209.1",
+      "Desc": "ActivityStory.201010209.2",
+      "Type": 3,
+      "StoryId": "STev_02_07",
+      "ConditionId": 201010209,
+      "ParentStoryId": [
+        "STev_02_06"
+      ],
+      "Aim": "ActivityStory.201010209.3",
+      "AvgLuaName": "STev_02_07",
+      "AvgMotion": "style_20",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010209.4",
+          "zh_TW": "07",
+          "zh_CN": "07",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010209.1",
+          "zh_TW": "友誼的魔法",
+          "zh_CN": "友谊的魔法",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010209.2",
+          "zh_TW": "那天，菈露見識到了她從未見過的「友誼」魔法…",
+          "zh_CN": "那天，菈露见识到了她从未见过的“友谊”魔法……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010210": {
+      "Id": 201010210,
+      "ChapterId": 20101,
+      "DayOpen": 1,
+      "Index": "ActivityStory.201010210.4",
+      "Title": "ActivityStory.201010210.1",
+      "Desc": "ActivityStory.201010210.2",
+      "Type": 3,
+      "StoryId": "STev_02_08",
+      "ConditionId": 201010210,
+      "ParentStoryId": [
+        "STev_02_07"
+      ],
+      "Aim": "ActivityStory.201010210.3",
+      "AvgLuaName": "STev_02_08",
+      "AvgMotion": "style_20",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010210.4",
+          "zh_TW": "08",
+          "zh_CN": "08",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010210.1",
+          "zh_TW": "更寬廣的世界",
+          "zh_CN": "更宽广的世界",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010210.2",
+          "zh_TW": "看向水底的魚，她第一次直面心中的深海。",
+          "zh_CN": "看向水底的鱼，她第一次直面心中的深海。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010211": {
+      "Id": 201010211,
+      "ChapterId": 20101,
+      "DayOpen": 1,
+      "Index": "ActivityStory.201010211.4",
+      "Title": "ActivityStory.201010211.1",
+      "Desc": "ActivityStory.201010211.2",
+      "Type": 3,
+      "StoryId": "STev_02_09",
+      "ConditionId": 201010211,
+      "ParentStoryId": [
+        "STev_02_08"
+      ],
+      "Aim": "ActivityStory.201010211.3",
+      "AvgLuaName": "STev_02_09",
+      "AvgMotion": "style_20",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010211.4",
+          "zh_TW": "09",
+          "zh_CN": "09",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010211.1",
+          "zh_TW": "慶典時分，盛大登場",
+          "zh_CN": "庆典时分，盛大登场",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010211.2",
+          "zh_TW": "節日的氛圍來到了最高潮，今天的魔王和菈露真是格外努力！",
+          "zh_CN": "节日的氛围来到了最高潮，今天的魔王和菈露真是格外努力！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010212": {
+      "Id": 201010212,
+      "ChapterId": 20101,
+      "DayOpen": 1,
+      "Index": "ActivityStory.201010212.4",
+      "Title": "ActivityStory.201010212.1",
+      "Desc": "ActivityStory.201010212.2",
+      "Type": 3,
+      "StoryId": "STev_02_10",
+      "ConditionId": 201010212,
+      "ParentStoryId": [
+        "STev_02_09"
+      ],
+      "Aim": "ActivityStory.201010212.3",
+      "AvgLuaName": "STev_02_10",
+      "AvgMotion": "style_20",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010212.4",
+          "zh_TW": "10",
+          "zh_CN": "10",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010212.1",
+          "zh_TW": "危險的「遊戲」",
+          "zh_CN": "危险的“游戏”",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010212.2",
+          "zh_TW": "為了滿足「她」的願望，你們硬著頭皮做了個有點刺激的決定…",
+          "zh_CN": "为了满足“她”的愿望，你们硬着头皮做了个有些刺激的决定……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010213": {
+      "Id": 201010213,
+      "ChapterId": 20101,
+      "DayOpen": 1,
+      "Index": "ActivityStory.201010213.4",
+      "Title": "ActivityStory.201010213.1",
+      "Desc": "ActivityStory.201010213.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "BAev02_01",
+      "FloorId": [
+        1060401
+      ],
+      "TrialBuild": 200010,
+      "PreviewMonsterGroupId": 300408,
+      "Recommend": "5",
+      "ConditionId": 201010213,
+      "ParentStoryId": [
+        "STev_02_10"
+      ],
+      "Aim": "ActivityStory.201010213.3",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010213.4",
+          "zh_TW": "BT01",
+          "zh_CN": "BT01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010213.1",
+          "zh_TW": "節日餘興",
+          "zh_CN": "节日余兴",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010213.2",
+          "zh_TW": "暖爐之讒妄突然來襲，為了「保護」火垂，菈露挺身而出…？",
+          "zh_CN": "暖炉之谗妄突然来袭，为了“保护”火垂，菈露挺身而出……？",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201010214": {
+      "Id": 201010214,
+      "ChapterId": 20101,
+      "DayOpen": 1,
+      "Index": "ActivityStory.201010214.4",
+      "Title": "ActivityStory.201010214.1",
+      "Desc": "ActivityStory.201010214.2",
+      "Type": 3,
+      "StoryId": "STev_02_11",
+      "ConditionId": 201010214,
+      "ParentStoryId": [
+        "BAev02_01"
+      ],
+      "Aim": "ActivityStory.201010214.3",
+      "AvgLuaName": "STev_02_11",
+      "AvgMotion": "style_20",
+      "IsLast": true,
+      "FirstCompleteReward": "{\"2\":50}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201010214.4",
+          "zh_TW": "尾聲",
+          "zh_CN": "尾声",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201010214.1",
+          "zh_TW": "為你準備的禮物",
+          "zh_CN": "为你准备的礼物",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201010214.2",
+          "zh_TW": "有驚無險的節日過去了，接下來是屬於你們的時間…",
+          "zh_CN": "有惊无险的节日过去了，接下来是属于你们的时间……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101040201": {
+      "Id": 101040201,
+      "ChapterId": 10104,
+      "Index": "ActivityStory.101040201.4",
+      "Title": "ActivityStory.101040201.1",
+      "Desc": "ActivityStory.101040201.2",
+      "Type": 3,
+      "StoryId": "STev_03_01",
+      "ConditionId": 101040201,
+      "Aim": "ActivityStory.101040201.3",
+      "AvgLuaName": "STev_03_01",
+      "AvgMotion": "style_33",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101040201.4",
+          "zh_TW": "01",
+          "zh_CN": "01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101040201.1",
+          "zh_TW": "蒼茫人海逢故人",
+          "zh_CN": "苍茫人海逢故人",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101040201.2",
+          "zh_TW": "新春佳節之際，你在蒼梧街頭看到了一個熟悉的身影…",
+          "zh_CN": "新春佳节之际，你在苍梧街头看到了一个熟悉的身影……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101040202": {
+      "Id": 101040202,
+      "ChapterId": 10104,
+      "Index": "ActivityStory.101040202.4",
+      "Title": "ActivityStory.101040202.1",
+      "Desc": "ActivityStory.101040202.2",
+      "Type": 3,
+      "StoryId": "STev_03_02",
+      "ConditionId": 101040202,
+      "ParentStoryId": [
+        "STev_03_01"
+      ],
+      "Aim": "ActivityStory.101040202.3",
+      "AvgLuaName": "STev_03_02",
+      "AvgMotion": "style_33",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101040202.4",
+          "zh_TW": "02",
+          "zh_CN": "02",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101040202.1",
+          "zh_TW": "問津市井",
+          "zh_CN": "问津市井",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101040202.2",
+          "zh_TW": "你們在蒼梧城內四處打聽消息，順便體驗了風土人情。",
+          "zh_CN": "你们在苍梧城内四处打听消息，顺便体验了风土人情。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101040203": {
+      "Id": 101040203,
+      "ChapterId": 10104,
+      "Index": "ActivityStory.101040203.4",
+      "Title": "ActivityStory.101040203.1",
+      "Desc": "ActivityStory.101040203.2",
+      "Type": 3,
+      "StoryId": "STev_03_03",
+      "ConditionId": 101040203,
+      "ParentStoryId": [
+        "STev_03_02"
+      ],
+      "Aim": "ActivityStory.101040203.3",
+      "AvgLuaName": "STev_03_03",
+      "AvgMotion": "style_33",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101040203.4",
+          "zh_TW": "03",
+          "zh_CN": "03",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101040203.1",
+          "zh_TW": "柳暗花明",
+          "zh_CN": "柳暗花明",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101040203.2",
+          "zh_TW": "你們得到了關鍵線索，繼續追查下去。",
+          "zh_CN": "你们得到了关键线索，追查了下去。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101040204": {
+      "Id": 101040204,
+      "ChapterId": 10104,
+      "Index": "ActivityStory.101040204.4",
+      "Title": "ActivityStory.101040204.1",
+      "Desc": "ActivityStory.101040204.2",
+      "Type": 3,
+      "StoryId": "STev_03_04",
+      "ConditionId": 101040204,
+      "ParentStoryId": [
+        "STev_03_03"
+      ],
+      "Aim": "ActivityStory.101040204.3",
+      "AvgLuaName": "STev_03_04",
+      "AvgMotion": "style_33",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101040204.4",
+          "zh_TW": "04",
+          "zh_CN": "04",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101040204.1",
+          "zh_TW": "請君入甕",
+          "zh_CN": "请君入瓮",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101040204.2",
+          "zh_TW": "你們利用誘餌，引出了「犯人」…",
+          "zh_CN": "你们利用诱饵，引出了“犯人”……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101040205": {
+      "Id": 101040205,
+      "ChapterId": 10104,
+      "Index": "ActivityStory.101040205.4",
+      "Title": "ActivityStory.101040205.1",
+      "Desc": "ActivityStory.101040205.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_03_BT01",
+      "FloorId": [
+        1060501
+      ],
+      "TrialBuild": 200020,
+      "PreviewMonsterGroupId": 300621,
+      "Recommend": "30",
+      "ConditionId": 101040205,
+      "ParentStoryId": [
+        "STev_03_04"
+      ],
+      "Aim": "ActivityStory.101040205.3",
+      "AvgMotion": "style_33",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101040205.4",
+          "zh_TW": "BT",
+          "zh_CN": "BT",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101040205.1",
+          "zh_TW": "一網打盡",
+          "zh_CN": "一网打尽",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101040205.2",
+          "zh_TW": "速戰速決，將犯人一網打盡。",
+          "zh_CN": "速战速决，将犯人一网打尽。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101040206": {
+      "Id": 101040206,
+      "ChapterId": 10104,
+      "Index": "ActivityStory.101040206.4",
+      "Title": "ActivityStory.101040206.1",
+      "Desc": "ActivityStory.101040206.2",
+      "Type": 3,
+      "StoryId": "STev_03_05",
+      "ConditionId": 101040206,
+      "ParentStoryId": [
+        "STev_03_BT01"
+      ],
+      "Aim": "ActivityStory.101040206.3",
+      "AvgLuaName": "STev_03_05",
+      "AvgMotion": "style_33",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101040206.4",
+          "zh_TW": "05",
+          "zh_CN": "05",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101040206.1",
+          "zh_TW": "好事多磨",
+          "zh_CN": "好事多磨",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101040206.2",
+          "zh_TW": "你們得知了朋友失蹤的真相。",
+          "zh_CN": "你们得知了朋友失踪的真相。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101040207": {
+      "Id": 101040207,
+      "ChapterId": 10104,
+      "Index": "ActivityStory.101040207.4",
+      "Title": "ActivityStory.101040207.1",
+      "Desc": "ActivityStory.101040207.2",
+      "Type": 3,
+      "StoryId": "STev_03_06",
+      "ConditionId": 101040207,
+      "ParentStoryId": [
+        "STev_03_05"
+      ],
+      "Aim": "ActivityStory.101040207.3",
+      "AvgLuaName": "STev_03_06",
+      "AvgMotion": "style_33",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101040207.4",
+          "zh_TW": "06",
+          "zh_CN": "06",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101040207.1",
+          "zh_TW": "尋幽探奇",
+          "zh_CN": "寻幽探奇",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101040207.2",
+          "zh_TW": "星塔中，有什麼地方正在悄然改變…",
+          "zh_CN": "星塔中，有什么地方正在悄然改变……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101040208": {
+      "Id": 101040208,
+      "ChapterId": 10104,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101040208.4",
+      "Title": "ActivityStory.101040208.1",
+      "Desc": "ActivityStory.101040208.2",
+      "Type": 3,
+      "StoryId": "STev_03_07",
+      "ConditionId": 101040208,
+      "ParentStoryId": [
+        "STev_03_06"
+      ],
+      "Aim": "ActivityStory.101040208.3",
+      "AvgLuaName": "STev_03_07",
+      "AvgMotion": "style_33",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101040208.4",
+          "zh_TW": "07",
+          "zh_CN": "07",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101040208.1",
+          "zh_TW": "撥雲見日",
+          "zh_CN": "拨云见日",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101040208.2",
+          "zh_TW": "這隻異獸，並不像想像中的那麼兇惡。",
+          "zh_CN": "这只异兽，并不像想象中的那么凶恶。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101040209": {
+      "Id": 101040209,
+      "ChapterId": 10104,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101040209.4",
+      "Title": "ActivityStory.101040209.1",
+      "Desc": "ActivityStory.101040209.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_03_BT02",
+      "FloorId": [
+        1060601
+      ],
+      "TrialBuild": 200030,
+      "PreviewMonsterGroupId": 300622,
+      "Recommend": "40",
+      "ConditionId": 101040209,
+      "ParentStoryId": [
+        "STev_03_07"
+      ],
+      "Aim": "ActivityStory.101040209.3",
+      "AvgMotion": "style_33",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101040209.4",
+          "zh_TW": "BT",
+          "zh_CN": "BT",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101040209.1",
+          "zh_TW": "醫者仁心",
+          "zh_CN": "医者仁心",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101040209.2",
+          "zh_TW": "別跑啊，打針是為了你好！",
+          "zh_CN": "别跑啊，打针是为了你好！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101040210": {
+      "Id": 101040210,
+      "ChapterId": 10104,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101040210.4",
+      "Title": "ActivityStory.101040210.1",
+      "Desc": "ActivityStory.101040210.2",
+      "Type": 3,
+      "StoryId": "STev_03_08",
+      "ConditionId": 101040210,
+      "ParentStoryId": [
+        "STev_03_BT02"
+      ],
+      "Aim": "ActivityStory.101040210.3",
+      "AvgLuaName": "STev_03_08",
+      "AvgMotion": "style_33",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101040210.4",
+          "zh_TW": "08",
+          "zh_CN": "08",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101040210.1",
+          "zh_TW": "此去經年",
+          "zh_CN": "此去经年",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101040210.2",
+          "zh_TW": "他們只是想過個好年。",
+          "zh_CN": "他们只是想过个好年。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101040211": {
+      "Id": 101040211,
+      "ChapterId": 10104,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101040211.4",
+      "Title": "ActivityStory.101040211.1",
+      "Desc": "ActivityStory.101040211.2",
+      "Type": 3,
+      "StoryId": "STev_03_09",
+      "ConditionId": 101040211,
+      "ParentStoryId": [
+        "STev_03_08"
+      ],
+      "Aim": "ActivityStory.101040211.3",
+      "AvgLuaName": "STev_03_09",
+      "AvgMotion": "style_33",
+      "IsLast": true,
+      "FirstCompleteReward": "{\"2\":50}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101040211.4",
+          "zh_TW": "09",
+          "zh_CN": "09",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101040211.1",
+          "zh_TW": "人間萬象更新時",
+          "zh_CN": "人间万象更新时",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101040211.2",
+          "zh_TW": "新春快樂。",
+          "zh_CN": "新春快乐。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101050201": {
+      "Id": 101050201,
+      "ChapterId": 10105,
+      "Index": "ActivityStory.101050201.4",
+      "Title": "ActivityStory.101050201.1",
+      "Desc": "ActivityStory.101050201.2",
+      "Type": 3,
+      "StoryId": "STev_04_01",
+      "ConditionId": 101050201,
+      "Aim": "ActivityStory.101050201.3",
+      "AvgLuaName": "STev_04_01",
+      "AvgMotion": "style_34",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101050201.4",
+          "zh_TW": "01",
+          "zh_CN": "01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101050201.1",
+          "zh_TW": "前往北境之城",
+          "zh_CN": "前往北境之城",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101050201.2",
+          "zh_TW": "嘿，你總算醒了啊？",
+          "zh_CN": "嘿，你总算醒了？",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101050202": {
+      "Id": 101050202,
+      "ChapterId": 10105,
+      "Index": "ActivityStory.101050202.4",
+      "Title": "ActivityStory.101050202.1",
+      "Desc": "ActivityStory.101050202.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_04_BT01",
+      "FloorId": [
+        1060402
+      ],
+      "TrialBuild": 200040,
+      "PreviewMonsterGroupId": 300706,
+      "Recommend": "40",
+      "ConditionId": 101050202,
+      "ParentStoryId": [
+        "STev_04_01"
+      ],
+      "Aim": "ActivityStory.101050202.3",
+      "AvgMotion": "style_34",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101050202.4",
+          "zh_TW": "BT",
+          "zh_CN": "BT",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101050202.1",
+          "zh_TW": "踏入寒夜",
+          "zh_CN": "踏入寒夜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101050202.2",
+          "zh_TW": "若未踏入寒夜，故事就不算開始。",
+          "zh_CN": "若不踏入寒夜，故事就不算开始。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101050203": {
+      "Id": 101050203,
+      "ChapterId": 10105,
+      "Index": "ActivityStory.101050203.4",
+      "Title": "ActivityStory.101050203.1",
+      "Desc": "ActivityStory.101050203.2",
+      "Type": 3,
+      "StoryId": "STev_04_02",
+      "ConditionId": 101050203,
+      "ParentStoryId": [
+        "STev_04_BT01"
+      ],
+      "Aim": "ActivityStory.101050203.3",
+      "AvgLuaName": "STev_04_02",
+      "AvgMotion": "style_34",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101050203.4",
+          "zh_TW": "02",
+          "zh_CN": "02",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101050203.1",
+          "zh_TW": "被冰封的廢都",
+          "zh_CN": "被冰封的废都",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101050203.2",
+          "zh_TW": "離開了光與火，文明將不復存在。",
+          "zh_CN": "离开了光与火，文明将不复存在。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101050204": {
+      "Id": 101050204,
+      "ChapterId": 10105,
+      "Index": "ActivityStory.101050204.4",
+      "Title": "ActivityStory.101050204.1",
+      "Desc": "ActivityStory.101050204.2",
+      "Type": 3,
+      "StoryId": "STev_04_03",
+      "ConditionId": 101050204,
+      "ParentStoryId": [
+        "STev_04_02"
+      ],
+      "Aim": "ActivityStory.101050204.3",
+      "AvgLuaName": "STev_04_03",
+      "AvgMotion": "style_34",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101050204.4",
+          "zh_TW": "03",
+          "zh_CN": "03",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101050204.1",
+          "zh_TW": "故鄉的記憶",
+          "zh_CN": "故乡的记忆",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101050204.2",
+          "zh_TW": "倘若在故鄉思念故鄉…",
+          "zh_CN": "倘若在故乡思念故乡……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101050205": {
+      "Id": 101050205,
+      "ChapterId": 10105,
+      "Index": "ActivityStory.101050205.4",
+      "Title": "ActivityStory.101050205.1",
+      "Desc": "ActivityStory.101050205.2",
+      "Type": 3,
+      "StoryId": "STev_04_04",
+      "ConditionId": 101050205,
+      "ParentStoryId": [
+        "STev_04_03"
+      ],
+      "Aim": "ActivityStory.101050205.3",
+      "AvgLuaName": "STev_04_04",
+      "AvgMotion": "style_34",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101050205.4",
+          "zh_TW": "04",
+          "zh_CN": "04",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101050205.1",
+          "zh_TW": "古老祕密",
+          "zh_CN": "古老秘密",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101050205.2",
+          "zh_TW": "有些祕密不該被打擾…",
+          "zh_CN": "有些秘密不该被打扰……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101050206": {
+      "Id": 101050206,
+      "ChapterId": 10105,
+      "Index": "ActivityStory.101050206.4",
+      "Title": "ActivityStory.101050206.1",
+      "Desc": "ActivityStory.101050206.2",
+      "Type": 3,
+      "StoryId": "STev_04_05",
+      "ConditionId": 101050206,
+      "ParentStoryId": [
+        "STev_04_04"
+      ],
+      "Aim": "ActivityStory.101050206.3",
+      "AvgLuaName": "STev_04_05",
+      "AvgMotion": "style_34",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101050206.4",
+          "zh_TW": "05",
+          "zh_CN": "05",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101050206.1",
+          "zh_TW": "黎明前夜",
+          "zh_CN": "黎明前夜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101050206.2",
+          "zh_TW": "人們常說，黎明前的黑暗最深邃…",
+          "zh_CN": "人们常说，黎明前的黑暗最深邃……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101050207": {
+      "Id": 101050207,
+      "ChapterId": 10105,
+      "Index": "ActivityStory.101050207.4",
+      "Title": "ActivityStory.101050207.1",
+      "Desc": "ActivityStory.101050207.2",
+      "Type": 3,
+      "StoryId": "STev_04_06",
+      "ConditionId": 101050207,
+      "ParentStoryId": [
+        "STev_04_05"
+      ],
+      "Aim": "ActivityStory.101050207.3",
+      "AvgLuaName": "STev_04_06",
+      "AvgMotion": "style_34",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101050207.4",
+          "zh_TW": "06",
+          "zh_CN": "06",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101050207.1",
+          "zh_TW": "惡意浮現",
+          "zh_CN": "恶意浮现",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101050207.2",
+          "zh_TW": "野心是不會被風雪和時間掩埋的…",
+          "zh_CN": "野心是不会被风雪和时间掩埋的……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101050208": {
+      "Id": 101050208,
+      "ChapterId": 10105,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101050208.4",
+      "Title": "ActivityStory.101050208.1",
+      "Desc": "ActivityStory.101050208.2",
+      "Type": 3,
+      "StoryId": "STev_04_07",
+      "ConditionId": 101050208,
+      "ParentStoryId": [
+        "STev_04_06"
+      ],
+      "Aim": "ActivityStory.101050208.3",
+      "AvgLuaName": "STev_04_07",
+      "AvgMotion": "style_34",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101050208.4",
+          "zh_TW": "07",
+          "zh_CN": "07",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101050208.1",
+          "zh_TW": "尊者",
+          "zh_CN": "尊者",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101050208.2",
+          "zh_TW": "瘋狂的山脈正在呼嘯，古老的存在即將甦醒…",
+          "zh_CN": "疯狂的山脉正在呼啸，古老的存在将要苏醒……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101050209": {
+      "Id": 101050209,
+      "ChapterId": 10105,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101050209.4",
+      "Title": "ActivityStory.101050209.1",
+      "Desc": "ActivityStory.101050209.2",
+      "Type": 3,
+      "StoryId": "STev_04_08",
+      "ConditionId": 101050209,
+      "ParentStoryId": [
+        "STev_04_07"
+      ],
+      "Aim": "ActivityStory.101050209.3",
+      "AvgLuaName": "STev_04_08",
+      "AvgMotion": "style_34",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101050209.4",
+          "zh_TW": "08",
+          "zh_CN": "08",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101050209.1",
+          "zh_TW": "破曉扳機",
+          "zh_CN": "破晓扳机",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101050209.2",
+          "zh_TW": "勇氣上膛，扣下宣告破曉的扳機。",
+          "zh_CN": "勇气上膛，扣下宣告破晓的扳机。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101050210": {
+      "Id": 101050210,
+      "ChapterId": 10105,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101050210.4",
+      "Title": "ActivityStory.101050210.1",
+      "Desc": "ActivityStory.101050210.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_04_BT02",
+      "FloorId": [
+        1060404
+      ],
+      "TrialBuild": 200060,
+      "PreviewMonsterGroupId": 300708,
+      "Recommend": "40",
+      "ConditionId": 101050210,
+      "ParentStoryId": [
+        "STev_04_08"
+      ],
+      "Aim": "ActivityStory.101050210.3",
+      "AvgMotion": "style_34",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101050210.4",
+          "zh_TW": "BT",
+          "zh_CN": "BT",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101050210.1",
+          "zh_TW": "背水一戰",
+          "zh_CN": "鱼死网破",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101050210.2",
+          "zh_TW": "掙扎，是宣告失敗前最後的倔強。",
+          "zh_CN": "挣扎，是宣告失败前最后的倔强。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101050211": {
+      "Id": 101050211,
+      "ChapterId": 10105,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101050211.4",
+      "Title": "ActivityStory.101050211.1",
+      "Desc": "ActivityStory.101050211.2",
+      "Type": 3,
+      "StoryId": "STev_04_09",
+      "ConditionId": 101050211,
+      "ParentStoryId": [
+        "STev_04_BT02"
+      ],
+      "Aim": "ActivityStory.101050211.3",
+      "AvgLuaName": "STev_04_09",
+      "AvgMotion": "style_34",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101050211.4",
+          "zh_TW": "09",
+          "zh_CN": "09",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101050211.1",
+          "zh_TW": "何為強大",
+          "zh_CN": "何为强大",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101050211.2",
+          "zh_TW": "一旦舉起武器，便意味著承擔更大的責任。",
+          "zh_CN": "举起武器，意味承担更大的责任。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101050212": {
+      "Id": 101050212,
+      "ChapterId": 10105,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101050212.4",
+      "Title": "ActivityStory.101050212.1",
+      "Desc": "ActivityStory.101050212.2",
+      "Type": 3,
+      "StoryId": "STev_04_10",
+      "ConditionId": 101050212,
+      "ParentStoryId": [
+        "STev_04_09"
+      ],
+      "Aim": "ActivityStory.101050212.3",
+      "AvgLuaName": "STev_04_10",
+      "AvgMotion": "style_34",
+      "IsLast": true,
+      "FirstCompleteReward": "{\"2\":50}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101050212.4",
+          "zh_TW": "10",
+          "zh_CN": "10",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101050212.1",
+          "zh_TW": "告別風雪",
+          "zh_CN": "告别风雪",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101050212.2",
+          "zh_TW": "風將歇，雪將停，太陽終將照常升起。",
+          "zh_CN": "风将歇，雪将停，太阳总会照常升起。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101060201": {
+      "Id": 101060201,
+      "ChapterId": 10106,
+      "Index": "ActivityStory.101060201.4",
+      "Title": "ActivityStory.101060201.1",
+      "Desc": "ActivityStory.101060201.2",
+      "Type": 3,
+      "StoryId": "STev_05_01",
+      "ConditionId": 101060201,
+      "Aim": "ActivityStory.101060201.3",
+      "AvgLuaName": "STev_05_01",
+      "AvgMotion": "style_41",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101060201.4",
+          "zh_TW": "01",
+          "zh_CN": "01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101060201.1",
+          "zh_TW": "萬送屋的委託",
+          "zh_CN": "万送屋的委托",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101060201.2",
+          "zh_TW": "你寄我送，讓信件平安送達！",
+          "zh_CN": "你邮我寄，让信件平安传递！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101060202": {
+      "Id": 101060202,
+      "ChapterId": 10106,
+      "Index": "ActivityStory.101060202.4",
+      "Title": "ActivityStory.101060202.1",
+      "Desc": "ActivityStory.101060202.2",
+      "Type": 3,
+      "StoryId": "STev_05_02_a",
+      "ConditionId": 101060202,
+      "ParentStoryId": [
+        "STev_05_01"
+      ],
+      "Aim": "ActivityStory.101060202.3",
+      "AvgLuaName": "STev_05_02_a",
+      "AvgMotion": "style_41",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101060202.4",
+          "zh_TW": "02A",
+          "zh_CN": "02A",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101060202.1",
+          "zh_TW": "道聽塗說",
+          "zh_CN": "道听途说",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101060202.2",
+          "zh_TW": "多娜表現得這麼好，這次報酬就多給一點嘛！",
+          "zh_CN": "多娜表现得这么好，这次报酬就多给点嘛！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101060203": {
+      "Id": 101060203,
+      "ChapterId": 10106,
+      "Index": "ActivityStory.101060203.4",
+      "Title": "ActivityStory.101060203.1",
+      "Desc": "ActivityStory.101060203.2",
+      "Type": 3,
+      "StoryId": "STev_05_02_b",
+      "ConditionId": 101060203,
+      "ParentStoryId": [
+        "STev_05_01"
+      ],
+      "Aim": "ActivityStory.101060203.3",
+      "AvgLuaName": "STev_05_02_b",
+      "AvgMotion": "style_41",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101060203.4",
+          "zh_TW": "02B",
+          "zh_CN": "02B",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101060203.1",
+          "zh_TW": "識字知書",
+          "zh_CN": "识字知书",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101060203.2",
+          "zh_TW": "您說，這片大地會有盡頭嗎？",
+          "zh_CN": "您说，这片大地会有尽头吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101060204": {
+      "Id": 101060204,
+      "ChapterId": 10106,
+      "Index": "ActivityStory.101060204.4",
+      "Title": "ActivityStory.101060204.1",
+      "Desc": "ActivityStory.101060204.2",
+      "Type": 3,
+      "StoryId": "STev_05_02_c",
+      "ConditionId": 101060204,
+      "ParentStoryId": [
+        "STev_05_01"
+      ],
+      "Aim": "ActivityStory.101060204.3",
+      "AvgLuaName": "STev_05_02_c",
+      "AvgMotion": "style_41",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101060204.4",
+          "zh_TW": "02C",
+          "zh_CN": "02C",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101060204.1",
+          "zh_TW": "按圖索籍",
+          "zh_CN": "按图索籍",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101060204.2",
+          "zh_TW": "走過的路我都會做記號，這樣就不怕迷路啦！",
+          "zh_CN": "走过的路我都会做标记，这样就不怕迷路啦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101060205": {
+      "Id": 101060205,
+      "ChapterId": 10106,
+      "Index": "ActivityStory.101060205.4",
+      "Title": "ActivityStory.101060205.1",
+      "Desc": "ActivityStory.101060205.2",
+      "Type": 3,
+      "StoryId": "STev_05_03",
+      "ConditionId": 101060205,
+      "ParentStoryId": [
+        "STev_05_02_a",
+        "STev_05_02_b",
+        "STev_05_02_c"
+      ],
+      "Aim": "ActivityStory.101060205.3",
+      "AvgLuaName": "STev_05_03",
+      "AvgMotion": "style_41",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101060205.4",
+          "zh_TW": "03",
+          "zh_CN": "03",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101060205.1",
+          "zh_TW": "未敞開的心扉",
+          "zh_CN": "未敞开的心扉",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101060205.2",
+          "zh_TW": "事到如今，終於送來了…嗎？",
+          "zh_CN": "事到如今，终于送来了……吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101060206": {
+      "Id": 101060206,
+      "ChapterId": 10106,
+      "Index": "ActivityStory.101060206.4",
+      "Title": "ActivityStory.101060206.1",
+      "Desc": "ActivityStory.101060206.2",
+      "Type": 3,
+      "StoryId": "STev_05_04",
+      "ConditionId": 101060206,
+      "ParentStoryId": [
+        "STev_05_03"
+      ],
+      "Aim": "ActivityStory.101060206.3",
+      "AvgLuaName": "STev_05_04",
+      "AvgMotion": "style_41",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101060206.4",
+          "zh_TW": "04",
+          "zh_CN": "04",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101060206.1",
+          "zh_TW": "路遇偷信大盜",
+          "zh_CN": "路遇偷信大盗",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101060206.2",
+          "zh_TW": "「尋寶這行講究的就是先到先得喔！」",
+          "zh_CN": "“寻宝业界，可是讲究一个先到先得的哦！”",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101060207": {
+      "Id": 101060207,
+      "ChapterId": 10106,
+      "Index": "ActivityStory.101060207.4",
+      "Title": "ActivityStory.101060207.1",
+      "Desc": "ActivityStory.101060207.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_05_BT01",
+      "FloorId": [
+        1060505
+      ],
+      "TrialBuild": 200070,
+      "PreviewMonsterGroupId": 300802,
+      "Recommend": "40",
+      "ConditionId": 101060207,
+      "ParentStoryId": [
+        "STev_05_04"
+      ],
+      "Aim": "ActivityStory.101060207.3",
+      "AvgMotion": "style_41",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101060207.4",
+          "zh_TW": "BT01",
+          "zh_CN": "BT01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101060207.1",
+          "zh_TW": "以理服人",
+          "zh_CN": "以理服人",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101060207.2",
+          "zh_TW": "剩下的道理…就讓我用這把「理性」來溝通。",
+          "zh_CN": "剩下的道理……就用这把“理性”来沟通。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101060208": {
+      "Id": 101060208,
+      "ChapterId": 10106,
+      "Index": "ActivityStory.101060208.4",
+      "Title": "ActivityStory.101060208.1",
+      "Desc": "ActivityStory.101060208.2",
+      "Type": 3,
+      "StoryId": "STev_05_05",
+      "ConditionId": 101060208,
+      "ParentStoryId": [
+        "STev_05_BT01"
+      ],
+      "Aim": "ActivityStory.101060208.3",
+      "AvgLuaName": "STev_05_05",
+      "AvgMotion": "style_41",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101060208.4",
+          "zh_TW": "05",
+          "zh_CN": "05",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101060208.1",
+          "zh_TW": "竟是魔物所為",
+          "zh_CN": "竟是魔物所为",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101060208.2",
+          "zh_TW": "「那我們不就白白被揍了一頓嗎——！」",
+          "zh_CN": "“那我们岂不是白挨这顿打了——！”",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101060209": {
+      "Id": 101060209,
+      "ChapterId": 10106,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101060209.4",
+      "Title": "ActivityStory.101060209.1",
+      "Desc": "ActivityStory.101060209.2",
+      "Type": 3,
+      "StoryId": "STev_05_06",
+      "ConditionId": 101060209,
+      "ParentStoryId": [
+        "STev_05_05"
+      ],
+      "Aim": "ActivityStory.101060209.3",
+      "AvgLuaName": "STev_05_06",
+      "AvgMotion": "style_41",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101060209.4",
+          "zh_TW": "06",
+          "zh_CN": "06",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101060209.1",
+          "zh_TW": "玉米粒大作戰",
+          "zh_CN": "玉米粒大作战",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101060209.2",
+          "zh_TW": "除了玉米粒，也要記得觀察我留下的路標喔！",
+          "zh_CN": "除了玉米粒，也记得观察我留下的路标噢！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101060210": {
+      "Id": 101060210,
+      "ChapterId": 10106,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101060210.4",
+      "Title": "ActivityStory.101060210.1",
+      "Desc": "ActivityStory.101060210.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_05_BT02",
+      "FloorId": [
+        1060506
+      ],
+      "TrialBuild": 200080,
+      "PreviewMonsterGroupId": 300808,
+      "Recommend": "40",
+      "ConditionId": 101060210,
+      "ParentStoryId": [
+        "STev_05_06"
+      ],
+      "Aim": "ActivityStory.101060210.3",
+      "AvgMotion": "style_41",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101060210.4",
+          "zh_TW": "BT02",
+          "zh_CN": "BT02",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101060210.1",
+          "zh_TW": "直面狂風",
+          "zh_CN": "直面狂风",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101060210.2",
+          "zh_TW": "咕咕——————嘎——？！？！？",
+          "zh_CN": "咕咕——————嘎——？！？！？",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101060211": {
+      "Id": 101060211,
+      "ChapterId": 10106,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101060211.4",
+      "Title": "ActivityStory.101060211.1",
+      "Desc": "ActivityStory.101060211.2",
+      "Type": 3,
+      "StoryId": "STev_05_07",
+      "ConditionId": 101060211,
+      "ParentStoryId": [
+        "STev_05_BT02"
+      ],
+      "Aim": "ActivityStory.101060211.3",
+      "AvgLuaName": "STev_05_07",
+      "AvgMotion": "style_41",
+      "FirstCompleteReward": "{\"2\":30}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101060211.4",
+          "zh_TW": "07",
+          "zh_CN": "07",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101060211.1",
+          "zh_TW": "跨越時空的問候",
+          "zh_CN": "跨越时空的问候",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101060211.2",
+          "zh_TW": "萬水千山，皆因信起，風雪無阻，只為信念。",
+          "zh_CN": "万水千山，皆因信起，风雪无阻，只为信念。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101060212": {
+      "Id": 101060212,
+      "ChapterId": 10106,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101060212.4",
+      "Title": "ActivityStory.101060212.1",
+      "Desc": "ActivityStory.101060212.2",
+      "Type": 3,
+      "StoryId": "STev_05_08",
+      "ConditionId": 101060212,
+      "ParentStoryId": [
+        "STev_05_07"
+      ],
+      "Aim": "ActivityStory.101060212.3",
+      "AvgLuaName": "STev_05_08",
+      "AvgMotion": "style_41",
+      "IsLast": true,
+      "FirstCompleteReward": "{\"2\":50}",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101060212.4",
+          "zh_TW": "08",
+          "zh_CN": "08",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101060212.1",
+          "zh_TW": "敬啟，致珍重的你",
+          "zh_CN": "敬启，致珍重的你",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101060212.2",
+          "zh_TW": "趁現在，把貝林港的風景牢牢記在心裡吧…",
+          "zh_CN": "趁现在，把贝林港的景色好好印入脑海……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101070201": {
+      "Id": 101070201,
+      "ChapterId": 10107,
+      "Index": "ActivityStory.101070201.4",
+      "Title": "ActivityStory.101070201.1",
+      "Desc": "ActivityStory.101070201.2",
+      "Type": 3,
+      "StoryId": "STev_07_01",
+      "ConditionId": 101070201,
+      "Aim": "ActivityStory.101070201.3",
+      "AvgLuaName": "STev_07_01",
+      "AvgMotion": "style_43",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event07_01",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101070201.4",
+          "zh_TW": "01",
+          "zh_CN": "01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101070201.1",
+          "zh_TW": "再遇",
+          "zh_CN": "再遇",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101070201.2",
+          "zh_TW": "在沒有下雪的季節，與那個少女再度相遇。",
+          "zh_CN": "在没有下雪的季节，与那个少女再度相遇。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101070202": {
+      "Id": 101070202,
+      "ChapterId": 10107,
+      "Index": "ActivityStory.101070202.4",
+      "Title": "ActivityStory.101070202.1",
+      "Desc": "ActivityStory.101070202.2",
+      "Type": 3,
+      "StoryId": "STev_07_02",
+      "ConditionId": 101070202,
+      "ParentStoryId": [
+        "STev_07_01"
+      ],
+      "Aim": "ActivityStory.101070202.3",
+      "AvgLuaName": "STev_07_02",
+      "AvgMotion": "style_43",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event07_02",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101070202.4",
+          "zh_TW": "02",
+          "zh_CN": "02",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101070202.1",
+          "zh_TW": "底片",
+          "zh_CN": "胶卷",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101070202.2",
+          "zh_TW": "一場任性的許願。",
+          "zh_CN": "一场任性的许愿。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101070203": {
+      "Id": 101070203,
+      "ChapterId": 10107,
+      "Index": "ActivityStory.101070203.4",
+      "Title": "ActivityStory.101070203.1",
+      "Desc": "ActivityStory.101070203.2",
+      "Type": 3,
+      "StoryId": "STev_07_03",
+      "ConditionId": 101070203,
+      "ParentStoryId": [
+        "STev_07_02"
+      ],
+      "Aim": "ActivityStory.101070203.3",
+      "AvgLuaName": "STev_07_03",
+      "AvgMotion": "style_43",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event07_03",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101070203.4",
+          "zh_TW": "03",
+          "zh_CN": "03",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101070203.1",
+          "zh_TW": "監護人",
+          "zh_CN": "监护人",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101070203.2",
+          "zh_TW": "不可以離家出走喔。",
+          "zh_CN": "离家出走是不行的哦。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101070204": {
+      "Id": 101070204,
+      "ChapterId": 10107,
+      "Index": "ActivityStory.101070204.4",
+      "Title": "ActivityStory.101070204.1",
+      "Desc": "ActivityStory.101070204.2",
+      "Type": 3,
+      "StoryId": "STev_07_04",
+      "ConditionId": 101070204,
+      "ParentStoryId": [
+        "STev_07_03"
+      ],
+      "Aim": "ActivityStory.101070204.3",
+      "AvgLuaName": "STev_07_04",
+      "AvgMotion": "style_43",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event07_04",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101070204.4",
+          "zh_TW": "04",
+          "zh_CN": "04",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101070204.1",
+          "zh_TW": "實驗體",
+          "zh_CN": "实验体",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101070204.2",
+          "zh_TW": "沉重的枷鎖，受縛的飛鳥。",
+          "zh_CN": "沉重的枷锁，受缚的飞鸟。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101070205": {
+      "Id": 101070205,
+      "ChapterId": 10107,
+      "Index": "ActivityStory.101070205.4",
+      "Title": "ActivityStory.101070205.1",
+      "Desc": "ActivityStory.101070205.2",
+      "Type": 3,
+      "StoryId": "STev_07_05",
+      "ConditionId": 101070205,
+      "ParentStoryId": [
+        "STev_07_04"
+      ],
+      "Aim": "ActivityStory.101070205.3",
+      "AvgLuaName": "STev_07_05",
+      "AvgMotion": "style_43",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event07_05",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101070205.4",
+          "zh_TW": "05",
+          "zh_CN": "05",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101070205.1",
+          "zh_TW": "朋友",
+          "zh_CN": "朋友",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101070205.2",
+          "zh_TW": "第一個朋友，最重要的朋友。",
+          "zh_CN": "第一个朋友，最重要的朋友。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101070206": {
+      "Id": 101070206,
+      "ChapterId": 10107,
+      "Index": "ActivityStory.101070206.4",
+      "Title": "ActivityStory.101070206.1",
+      "Desc": "ActivityStory.101070206.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_07_BT01",
+      "FloorId": [
+        301045
+      ],
+      "TrialBuild": 200083,
+      "PreviewMonsterGroupId": 301021,
+      "Recommend": "40",
+      "ConditionId": 101070206,
+      "ParentStoryId": [
+        "STev_07_05"
+      ],
+      "Aim": "ActivityStory.101070206.3",
+      "AvgMotion": "style_43",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event07_06",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101070206.4",
+          "zh_TW": "BT01",
+          "zh_CN": "BT01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101070206.1",
+          "zh_TW": "伸出援手",
+          "zh_CN": "伸出援手",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101070206.2",
+          "zh_TW": "張開翅膀，拯救他人。",
+          "zh_CN": "张开翅膀，拯救他人。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101070207": {
+      "Id": 101070207,
+      "ChapterId": 10107,
+      "Index": "ActivityStory.101070207.4",
+      "Title": "ActivityStory.101070207.1",
+      "Desc": "ActivityStory.101070207.2",
+      "Type": 3,
+      "StoryId": "STev_07_06",
+      "ConditionId": 101070207,
+      "ParentStoryId": [
+        "STev_07_BT01"
+      ],
+      "Aim": "ActivityStory.101070207.3",
+      "AvgLuaName": "STev_07_06",
+      "AvgMotion": "style_43",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event07_07",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101070207.4",
+          "zh_TW": "06",
+          "zh_CN": "06",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101070207.1",
+          "zh_TW": "第一次的風景",
+          "zh_CN": "第一次的风景",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101070207.2",
+          "zh_TW": "只要微笑就好了。",
+          "zh_CN": "只要微笑就好了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101070208": {
+      "Id": 101070208,
+      "ChapterId": 10107,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101070208.4",
+      "Title": "ActivityStory.101070208.1",
+      "Desc": "ActivityStory.101070208.2",
+      "Type": 3,
+      "StoryId": "STev_07_07",
+      "ConditionId": 101070208,
+      "ParentStoryId": [
+        "STev_07_06"
+      ],
+      "Aim": "ActivityStory.101070208.3",
+      "AvgLuaName": "STev_07_07",
+      "AvgMotion": "style_43",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event07_08",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101070208.4",
+          "zh_TW": "07",
+          "zh_CN": "07",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101070208.1",
+          "zh_TW": "覺悟",
+          "zh_CN": "觉悟",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101070208.2",
+          "zh_TW": "還不到哭泣的時刻。",
+          "zh_CN": "还不到哭泣的时候。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101070209": {
+      "Id": 101070209,
+      "ChapterId": 10107,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101070209.4",
+      "Title": "ActivityStory.101070209.1",
+      "Desc": "ActivityStory.101070209.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_07_BT02",
+      "FloorId": [
+        301044
+      ],
+      "TrialBuild": 200084,
+      "PreviewMonsterGroupId": 301016,
+      "Recommend": "40",
+      "ConditionId": 101070209,
+      "ParentStoryId": [
+        "STev_07_07"
+      ],
+      "Aim": "ActivityStory.101070209.3",
+      "AvgMotion": "style_43",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event07_09",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101070209.4",
+          "zh_TW": "BT02",
+          "zh_CN": "BT02",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101070209.1",
+          "zh_TW": "保護大家",
+          "zh_CN": "保护大家",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101070209.2",
+          "zh_TW": "竭盡全力，拯救所有人。",
+          "zh_CN": "竭尽全力，拯救所有人。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101070210": {
+      "Id": 101070210,
+      "ChapterId": 10107,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101070210.4",
+      "Title": "ActivityStory.101070210.1",
+      "Desc": "ActivityStory.101070210.2",
+      "Type": 3,
+      "StoryId": "STev_07_08",
+      "ConditionId": 101070210,
+      "ParentStoryId": [
+        "STev_07_BT02"
+      ],
+      "Aim": "ActivityStory.101070210.3",
+      "AvgLuaName": "STev_07_08",
+      "AvgMotion": "style_43",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event07_10",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101070210.4",
+          "zh_TW": "08",
+          "zh_CN": "08",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101070210.1",
+          "zh_TW": "笑顏",
+          "zh_CN": "笑颜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101070210.2",
+          "zh_TW": "明天會更好。",
+          "zh_CN": "明天会更好。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101070211": {
+      "Id": 101070211,
+      "ChapterId": 10107,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101070211.4",
+      "Title": "ActivityStory.101070211.1",
+      "Desc": "ActivityStory.101070211.2",
+      "Type": 3,
+      "StoryId": "STev_07_09",
+      "ConditionId": 101070211,
+      "ParentStoryId": [
+        "STev_07_08"
+      ],
+      "Aim": "ActivityStory.101070211.3",
+      "AvgLuaName": "STev_07_09",
+      "AvgMotion": "style_43",
+      "FirstCompleteReward": "{\"2\":50}",
+      "Icon": "Icon/ActivityStory/ep_event07_11",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101070211.4",
+          "zh_TW": "09",
+          "zh_CN": "09",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101070211.1",
+          "zh_TW": "普通女孩",
+          "zh_CN": "普通女孩",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101070211.2",
+          "zh_TW": "朝著那個目標，邁出第一步——",
+          "zh_CN": "向着那个目标，迈出第一步——",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101080201": {
+      "Id": 101080201,
+      "ChapterId": 10108,
+      "Index": "ActivityStory.101080201.4",
+      "Title": "ActivityStory.101080201.1",
+      "Desc": "ActivityStory.101080201.2",
+      "Type": 3,
+      "StoryId": "STev_08_01",
+      "ConditionId": 101080201,
+      "Aim": "ActivityStory.101080201.3",
+      "AvgLuaName": "STev_08_01",
+      "AvgMotion": "style_21",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event08_01",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101080201.4",
+          "zh_TW": "01",
+          "zh_CN": "01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101080201.1",
+          "zh_TW": "能源危機",
+          "zh_CN": "能源危机",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101080201.2",
+          "zh_TW": "綠洲號遭遇荒野大危機，你聯繫上了那位神祕的商人…",
+          "zh_CN": "绿洲号遭遇荒野大危机，你联系上了那位神秘的商人……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101080202": {
+      "Id": 101080202,
+      "ChapterId": 10108,
+      "Index": "ActivityStory.101080202.4",
+      "Title": "ActivityStory.101080202.1",
+      "Desc": "ActivityStory.101080202.2",
+      "Type": 3,
+      "StoryId": "STev_08_02",
+      "ConditionId": 101080202,
+      "ParentStoryId": [
+        "STev_08_01"
+      ],
+      "Aim": "ActivityStory.101080202.3",
+      "AvgLuaName": "STev_08_02",
+      "AvgMotion": "style_21",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event08_02",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101080202.4",
+          "zh_TW": "02",
+          "zh_CN": "02",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101080202.1",
+          "zh_TW": "天才工匠的下落",
+          "zh_CN": "天才工匠的下落",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101080202.2",
+          "zh_TW": "你們根據線索來到菲萊，得知斯帕克拉竟然身在一個意料之外的地方。",
+          "zh_CN": "你们根据线索来到菲莱，得知斯帕克拉竟然在一个意料之外的地方。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101080203": {
+      "Id": 101080203,
+      "ChapterId": 10108,
+      "Index": "ActivityStory.101080203.4",
+      "Title": "ActivityStory.101080203.1",
+      "Desc": "ActivityStory.101080203.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_08_BT01",
+      "FloorId": [
+        301125
+      ],
+      "TrialBuild": 200085,
+      "PreviewMonsterGroupId": 301121,
+      "Recommend": "40",
+      "ConditionId": 101080203,
+      "ParentStoryId": [
+        "STev_08_02"
+      ],
+      "Aim": "ActivityStory.101080203.3",
+      "AvgMotion": "style_21",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event08_03",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101080203.4",
+          "zh_TW": "BT01",
+          "zh_CN": "BT01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101080203.1",
+          "zh_TW": "脫逃大作戰",
+          "zh_CN": "脱逃大作战",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101080203.2",
+          "zh_TW": "我們柔光會社的人，對越獄這種事最拿手了。",
+          "zh_CN": "我们柔光会社的人，对越狱这件事最熟练了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101080204": {
+      "Id": 101080204,
+      "ChapterId": 10108,
+      "Index": "ActivityStory.101080204.4",
+      "Title": "ActivityStory.101080204.1",
+      "Desc": "ActivityStory.101080204.2",
+      "Type": 3,
+      "StoryId": "STev_08_03",
+      "ConditionId": 101080204,
+      "ParentStoryId": [
+        "STev_08_BT01"
+      ],
+      "Aim": "ActivityStory.101080204.3",
+      "AvgLuaName": "STev_08_03",
+      "AvgMotion": "style_21",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event08_04",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101080204.4",
+          "zh_TW": "03",
+          "zh_CN": "03",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101080204.1",
+          "zh_TW": "歡迎來到地下市場",
+          "zh_CN": "欢迎来到地下市场",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101080204.2",
+          "zh_TW": "柔光製品，物美價廉。",
+          "zh_CN": "柔光制品，便宜有好货。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101080205": {
+      "Id": 101080205,
+      "ChapterId": 10108,
+      "Index": "ActivityStory.101080205.4",
+      "Title": "ActivityStory.101080205.1",
+      "Desc": "ActivityStory.101080205.2",
+      "Type": 3,
+      "StoryId": "STev_08_04",
+      "ConditionId": 101080205,
+      "ParentStoryId": [
+        "STev_08_03"
+      ],
+      "Aim": "ActivityStory.101080205.3",
+      "AvgLuaName": "STev_08_04",
+      "AvgMotion": "style_21",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event08_05",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101080205.4",
+          "zh_TW": "04",
+          "zh_CN": "04",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101080205.1",
+          "zh_TW": "斯帕克拉的移動工坊",
+          "zh_CN": "斯帕克拉的移动工坊",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101080205.2",
+          "zh_TW": "從你身上，我得到了新的靈感。",
+          "zh_CN": "从你身上，我得到了新的灵感。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101080206": {
+      "Id": 101080206,
+      "ChapterId": 10108,
+      "Index": "ActivityStory.101080206.4",
+      "Title": "ActivityStory.101080206.1",
+      "Desc": "ActivityStory.101080206.2",
+      "Type": 3,
+      "StoryId": "STev_08_05",
+      "ConditionId": 101080206,
+      "ParentStoryId": [
+        "STev_08_04"
+      ],
+      "Aim": "ActivityStory.101080206.3",
+      "AvgLuaName": "STev_08_05",
+      "AvgMotion": "style_21",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event08_06",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101080206.4",
+          "zh_TW": "05",
+          "zh_CN": "05",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101080206.1",
+          "zh_TW": "好戲開場",
+          "zh_CN": "好戏开场",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101080206.2",
+          "zh_TW": "接下來有請一號選手登場。",
+          "zh_CN": "下面有请一号参赛选手登场。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101080207": {
+      "Id": 101080207,
+      "ChapterId": 10108,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101080207.4",
+      "Title": "ActivityStory.101080207.1",
+      "Desc": "ActivityStory.101080207.2",
+      "Type": 3,
+      "StoryId": "STev_08_06",
+      "ConditionId": 101080207,
+      "ParentStoryId": [
+        "STev_08_05"
+      ],
+      "Aim": "ActivityStory.101080207.3",
+      "AvgLuaName": "STev_08_06",
+      "AvgMotion": "style_21",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event08_07",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101080207.4",
+          "zh_TW": "06",
+          "zh_CN": "06",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101080207.1",
+          "zh_TW": "收網時刻已至",
+          "zh_CN": "收网之刻已至",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101080207.2",
+          "zh_TW": "不許動，你們已經被帝國衛隊包圍了。",
+          "zh_CN": "不许动，你们已经被帝国卫队包围了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101080208": {
+      "Id": 101080208,
+      "ChapterId": 10108,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101080208.4",
+      "Title": "ActivityStory.101080208.1",
+      "Desc": "ActivityStory.101080208.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_08_BT02",
+      "FloorId": [
+        301126
+      ],
+      "TrialBuild": 200086,
+      "PreviewMonsterGroupId": 301124,
+      "Recommend": "40",
+      "ConditionId": 101080208,
+      "ParentStoryId": [
+        "STev_08_06"
+      ],
+      "Aim": "ActivityStory.101080208.3",
+      "AvgMotion": "style_21",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event08_08",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101080208.4",
+          "zh_TW": "BT02",
+          "zh_CN": "BT02",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101080208.1",
+          "zh_TW": "全速前進",
+          "zh_CN": "全速前进",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101080208.2",
+          "zh_TW": "魔王，我留了一個最佳觀賞席給你。",
+          "zh_CN": "魔王，给你留了一个最佳观赏席。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101080209": {
+      "Id": 101080209,
+      "ChapterId": 10108,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101080209.4",
+      "Title": "ActivityStory.101080209.1",
+      "Desc": "ActivityStory.101080209.2",
+      "Type": 3,
+      "StoryId": "STev_08_07",
+      "ConditionId": 101080209,
+      "ParentStoryId": [
+        "STev_08_BT02"
+      ],
+      "Aim": "ActivityStory.101080209.3",
+      "AvgLuaName": "STev_08_07",
+      "AvgMotion": "style_21",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event08_09",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101080209.4",
+          "zh_TW": "07",
+          "zh_CN": "07",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101080209.1",
+          "zh_TW": "虎口脫險",
+          "zh_CN": "虎口脱险",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101080209.2",
+          "zh_TW": "漂亮的爆炸，我給十分！",
+          "zh_CN": "漂亮的爆炸，我打十分！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101080210": {
+      "Id": 101080210,
+      "ChapterId": 10108,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101080210.4",
+      "Title": "ActivityStory.101080210.1",
+      "Desc": "ActivityStory.101080210.2",
+      "Type": 3,
+      "StoryId": "STev_08_08",
+      "ConditionId": 101080210,
+      "ParentStoryId": [
+        "STev_08_07"
+      ],
+      "Aim": "ActivityStory.101080210.3",
+      "AvgLuaName": "STev_08_08",
+      "AvgMotion": "style_21",
+      "IsLast": true,
+      "FirstCompleteReward": "{\"2\":50}",
+      "Icon": "Icon/ActivityStory/ep_event08_10",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101080210.4",
+          "zh_TW": "EX",
+          "zh_CN": "EX",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101080210.1",
+          "zh_TW": "一份新的訂單",
+          "zh_CN": "一份新的订单",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101080210.2",
+          "zh_TW": "為了失去的朵拉，努力接訂單吧！",
+          "zh_CN": "为了失去的朵拉，努力接订单吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101090201": {
+      "Id": 101090201,
+      "ChapterId": 10109,
+      "Index": "ActivityStory.101090201.4",
+      "Title": "ActivityStory.101090201.1",
+      "Desc": "ActivityStory.101090201.2",
+      "Type": 3,
+      "StoryId": "STev_09_01",
+      "ConditionId": 101090201,
+      "Aim": "ActivityStory.101090201.3",
+      "AvgLuaName": "STev_09_01",
+      "AvgMotion": "style_48",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event09_01",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101090201.4",
+          "zh_TW": "01",
+          "zh_CN": "01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101090201.1",
+          "zh_TW": "遠征凱旋——黑暗之力的缺席",
+          "zh_CN": "远征凯旋……黑暗之力的缺席",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101090201.2",
+          "zh_TW": "遠征的白貓，終於回到了那座位於西北沙漠中的傭兵小鎮…",
+          "zh_CN": "远征的白猫终于回到了那座——位于西北沙漠中的佣兵小镇……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101090202": {
+      "Id": 101090202,
+      "ChapterId": 10109,
+      "Index": "ActivityStory.101090202.4",
+      "Title": "ActivityStory.101090202.1",
+      "Desc": "ActivityStory.101090202.2",
+      "Type": 3,
+      "StoryId": "STev_09_02",
+      "ConditionId": 101090202,
+      "ParentStoryId": [
+        "STev_09_01"
+      ],
+      "Aim": "ActivityStory.101090202.3",
+      "AvgLuaName": "STev_09_02",
+      "AvgMotion": "style_48",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event09_02",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101090202.4",
+          "zh_TW": "02",
+          "zh_CN": "02",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101090202.1",
+          "zh_TW": "蒼梧之戰——黑暗之力的證明",
+          "zh_CN": "苍梧之战……黑暗之力的证明",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101090202.2",
+          "zh_TW": "為了證明自己絕對有完成任務的實力，貓眼說起了之前在蒼梧的行動…",
+          "zh_CN": "为了证明自己的有着完成任务的实力，猫眼说起了之前在苍梧的行动……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101090203": {
+      "Id": 101090203,
+      "ChapterId": 10109,
+      "Index": "ActivityStory.101090203.4",
+      "Title": "ActivityStory.101090203.1",
+      "Desc": "ActivityStory.101090203.2",
+      "Type": 3,
+      "StoryId": "STev_09_03",
+      "ConditionId": 101090203,
+      "ParentStoryId": [
+        "STev_09_02"
+      ],
+      "Aim": "ActivityStory.101090203.3",
+      "AvgLuaName": "STev_09_03",
+      "AvgMotion": "style_48",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event09_03",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101090203.4",
+          "zh_TW": "03",
+          "zh_CN": "03",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101090203.1",
+          "zh_TW": "千塔演出——黑暗之力的顯現",
+          "zh_CN": "千塔演出……黑暗之力的显现",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101090203.2",
+          "zh_TW": "貓眼繼續說起了在千塔的經歷…",
+          "zh_CN": "猫眼继续说起了在千塔的经历……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101090204": {
+      "Id": 101090204,
+      "ChapterId": 10109,
+      "Index": "ActivityStory.101090204.4",
+      "Title": "ActivityStory.101090204.1",
+      "Desc": "ActivityStory.101090204.2",
+      "Type": 3,
+      "StoryId": "STev_09_04",
+      "ConditionId": 101090204,
+      "ParentStoryId": [
+        "STev_09_03"
+      ],
+      "Aim": "ActivityStory.101090204.3",
+      "AvgLuaName": "STev_09_04",
+      "AvgMotion": "style_48",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event09_04",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101090204.4",
+          "zh_TW": "04",
+          "zh_CN": "04",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101090204.1",
+          "zh_TW": "出發——貓眼大人的調查軍團",
+          "zh_CN": "出发……猫眼大人的调查军团",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101090204.2",
+          "zh_TW": "終於——輪到貓眼大人登場了！",
+          "zh_CN": "终于……轮到猫眼大人出场了！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101090205": {
+      "Id": 101090205,
+      "ChapterId": 10109,
+      "Index": "ActivityStory.101090205.4",
+      "Title": "ActivityStory.101090205.1",
+      "Desc": "ActivityStory.101090205.2",
+      "Type": 3,
+      "StoryId": "STev_09_05",
+      "ConditionId": 101090205,
+      "ParentStoryId": [
+        "STev_09_04"
+      ],
+      "Aim": "ActivityStory.101090205.3",
+      "AvgLuaName": "STev_09_05",
+      "AvgMotion": "style_48",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event09_05",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101090205.4",
+          "zh_TW": "05",
+          "zh_CN": "05",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101090205.1",
+          "zh_TW": "深入——黑暗侵蝕的地下巢穴",
+          "zh_CN": "深入……黑暗侵蚀的地下巢穴",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101090205.2",
+          "zh_TW": "沙蠍那群混蛋，究竟又在搞什麼鬼…",
+          "zh_CN": "沙蝎那群家伙，究竟又在搞什么鬼……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101090206": {
+      "Id": 101090206,
+      "ChapterId": 10109,
+      "Index": "ActivityStory.101090206.4",
+      "Title": "ActivityStory.101090206.1",
+      "Desc": "ActivityStory.101090206.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_09_BT01",
+      "FloorId": [
+        301225
+      ],
+      "TrialBuild": 200087,
+      "PreviewMonsterGroupId": 301225,
+      "Recommend": "40",
+      "ConditionId": 101090206,
+      "ParentStoryId": [
+        "STev_09_05"
+      ],
+      "Aim": "ActivityStory.101090206.3",
+      "AvgMotion": "style_48",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event09_06",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101090206.4",
+          "zh_TW": "BT01",
+          "zh_CN": "BT01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101090206.1",
+          "zh_TW": "交火——米拉什大街的大混戰",
+          "zh_CN": "交火……米拉什大街的大混战",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101090206.2",
+          "zh_TW": "區區沙蠍，又能把貓眼大人怎麼樣呢？",
+          "zh_CN": "区区沙蝎，怎么会是猫眼大人的对手呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101090207": {
+      "Id": 101090207,
+      "ChapterId": 10109,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101090207.4",
+      "Title": "ActivityStory.101090207.1",
+      "Desc": "ActivityStory.101090207.2",
+      "Type": 3,
+      "StoryId": "STev_09_06",
+      "ConditionId": 101090207,
+      "ParentStoryId": [
+        "STev_09_BT01"
+      ],
+      "Aim": "ActivityStory.101090207.3",
+      "AvgLuaName": "STev_09_06",
+      "AvgMotion": "style_48",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event09_07",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101090207.4",
+          "zh_TW": "06",
+          "zh_CN": "06",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101090207.1",
+          "zh_TW": "礦洞突襲——黑暗巢穴的陷阱",
+          "zh_CN": "矿洞突袭……黑暗巢穴的陷阱",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101090207.2",
+          "zh_TW": "詢問完逃出生天的礦工之後，卡西米拉決定突襲礦場",
+          "zh_CN": "根据逃出矿工的情报，卡西米拉决定突袭矿场",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101090208": {
+      "Id": 101090208,
+      "ChapterId": 10109,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101090208.4",
+      "Title": "ActivityStory.101090208.1",
+      "Desc": "ActivityStory.101090208.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_09_BT02",
+      "FloorId": [
+        301226
+      ],
+      "TrialBuild": 200088,
+      "PreviewMonsterGroupId": 301226,
+      "Recommend": "40",
+      "ConditionId": 101090208,
+      "ParentStoryId": [
+        "STev_09_06"
+      ],
+      "Aim": "ActivityStory.101090208.3",
+      "AvgMotion": "style_48",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event09_08",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101090208.4",
+          "zh_TW": "BT02",
+          "zh_CN": "BT02",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101090208.1",
+          "zh_TW": "魔物對決——拯救受困的旅人",
+          "zh_CN": "魔物对决……拯救被困的旅人",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101090208.2",
+          "zh_TW": "礦坑裡怎麼會有一隻如此巨大的魔物…",
+          "zh_CN": "矿洞里怎么会有一只如此巨大的魔物……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101090209": {
+      "Id": 101090209,
+      "ChapterId": 10109,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101090209.4",
+      "Title": "ActivityStory.101090209.1",
+      "Desc": "ActivityStory.101090209.2",
+      "Type": 3,
+      "StoryId": "STev_09_07",
+      "ConditionId": 101090209,
+      "ParentStoryId": [
+        "STev_09_BT02"
+      ],
+      "Aim": "ActivityStory.101090209.3",
+      "AvgLuaName": "STev_09_07",
+      "AvgMotion": "style_48",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event09_09",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101090209.4",
+          "zh_TW": "07",
+          "zh_CN": "07",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101090209.1",
+          "zh_TW": "衝出重圍——黑暗之力的重生",
+          "zh_CN": "冲出重围……黑暗之力的重生",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101090209.2",
+          "zh_TW": "成功似乎就在眼前，但事情顯然還沒結束…",
+          "zh_CN": "成功似乎近在眼前，但事情显然没有结束……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "101090210": {
+      "Id": 101090210,
+      "ChapterId": 10109,
+      "DayOpen": 1,
+      "Index": "ActivityStory.101090210.4",
+      "Title": "ActivityStory.101090210.1",
+      "Desc": "ActivityStory.101090210.2",
+      "Type": 3,
+      "StoryId": "STev_09_08",
+      "ConditionId": 101090210,
+      "ParentStoryId": [
+        "STev_09_07"
+      ],
+      "Aim": "ActivityStory.101090210.3",
+      "AvgLuaName": "STev_09_08",
+      "AvgMotion": "style_48",
+      "IsLast": true,
+      "FirstCompleteReward": "{\"2\":50}",
+      "Icon": "Icon/ActivityStory/ep_event09_10",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.101090210.4",
+          "zh_TW": "08",
+          "zh_CN": "08",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.101090210.1",
+          "zh_TW": "乾杯——敬最強大的貓眼大人",
+          "zh_CN": "干杯……敬最强大的猫眼大人",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.101090210.2",
+          "zh_TW": "逃出生天不久之後，眾人在飲料吧歡慶…",
+          "zh_CN": "逃出生天不久之后，众人在水吧欢庆……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201030201": {
+      "Id": 201030201,
+      "ChapterId": 20103,
+      "Index": "ActivityStory.201030201.4",
+      "Title": "ActivityStory.201030201.1",
+      "Desc": "ActivityStory.201030201.2",
+      "Type": 3,
+      "StoryId": "STev_10_01",
+      "ConditionId": 201030201,
+      "Aim": "ActivityStory.201030201.3",
+      "AvgLuaName": "STev_10_01",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event10_01",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201030201.4",
+          "zh_TW": "01",
+          "zh_CN": "01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201030201.1",
+          "zh_TW": "是時候休個假了！",
+          "zh_CN": "是时候休个假了！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201030201.2",
+          "zh_TW": "只有好好休息才能維持工作表現！",
+          "zh_CN": "只有好好休息才能更好地工作！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201030202": {
+      "Id": 201030202,
+      "ChapterId": 20103,
+      "Index": "ActivityStory.201030202.4",
+      "Title": "ActivityStory.201030202.1",
+      "Desc": "ActivityStory.201030202.2",
+      "Type": 3,
+      "StoryId": "STev_10_02",
+      "ConditionId": 201030202,
+      "ParentStoryId": [
+        "STev_10_01"
+      ],
+      "Aim": "ActivityStory.201030202.3",
+      "AvgLuaName": "STev_10_02",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event10_02",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201030202.4",
+          "zh_TW": "02",
+          "zh_CN": "02",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201030202.1",
+          "zh_TW": "穿上泳裝，拿起掃把",
+          "zh_CN": "穿上泳装，拿起扫帚",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201030202.2",
+          "zh_TW": "這座渡假村怎麼這麼冷清…？",
+          "zh_CN": "这度假村怎么如此冷清……？",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201030203": {
+      "Id": 201030203,
+      "ChapterId": 20103,
+      "Index": "ActivityStory.201030203.4",
+      "Title": "ActivityStory.201030203.1",
+      "Desc": "ActivityStory.201030203.2",
+      "Type": 3,
+      "StoryId": "STev_10_03",
+      "ConditionId": 201030203,
+      "ParentStoryId": [
+        "STev_10_02"
+      ],
+      "Aim": "ActivityStory.201030203.3",
+      "AvgLuaName": "STev_10_03",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event10_03",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201030203.4",
+          "zh_TW": "03",
+          "zh_CN": "03",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201030203.1",
+          "zh_TW": "沙灘、大海、捉迷藏",
+          "zh_CN": "沙滩、大海、捉迷藏",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201030203.2",
+          "zh_TW": "都說了要注意安全了！",
+          "zh_CN": "都说了要注意安全了！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201030204": {
+      "Id": 201030204,
+      "ChapterId": 20103,
+      "Index": "ActivityStory.201030204.4",
+      "Title": "ActivityStory.201030204.1",
+      "Desc": "ActivityStory.201030204.2",
+      "Type": 3,
+      "StoryId": "STev_10_04",
+      "ConditionId": 201030204,
+      "ParentStoryId": [
+        "STev_10_03"
+      ],
+      "Aim": "ActivityStory.201030204.3",
+      "AvgLuaName": "STev_10_04",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event10_04",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201030204.4",
+          "zh_TW": "04",
+          "zh_CN": "04",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201030204.1",
+          "zh_TW": "自動販賣神器怪談",
+          "zh_CN": "自动售货神器怪谈",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201030204.2",
+          "zh_TW": "事出必有因，原來這裡在「鬧鬼」？",
+          "zh_CN": "事出蹊跷必有因，原来这里在“闹鬼”？",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201030205": {
+      "Id": 201030205,
+      "ChapterId": 20103,
+      "Index": "ActivityStory.201030205.4",
+      "Title": "ActivityStory.201030205.1",
+      "Desc": "ActivityStory.201030205.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_10_BT01",
+      "FloorId": [
+        301325
+      ],
+      "TrialBuild": 200089,
+      "PreviewMonsterGroupId": 301322,
+      "Recommend": "40",
+      "ConditionId": 201030205,
+      "ParentStoryId": [
+        "STev_10_04"
+      ],
+      "Aim": "ActivityStory.201030205.3",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event10_05",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201030205.4",
+          "zh_TW": "BT01",
+          "zh_CN": "BT01",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201030205.1",
+          "zh_TW": "怎麼又是你！",
+          "zh_CN": "怎么又是你！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201030205.2",
+          "zh_TW": "與全諾瓦最酷炫的尋寶旅人展開激戰！",
+          "zh_CN": "与全诺瓦最酷炫的寻宝旅人的激烈战斗！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201030206": {
+      "Id": 201030206,
+      "ChapterId": 20103,
+      "Index": "ActivityStory.201030206.4",
+      "Title": "ActivityStory.201030206.1",
+      "Desc": "ActivityStory.201030206.2",
+      "Type": 3,
+      "StoryId": "STev_10_05",
+      "ConditionId": 201030206,
+      "ParentStoryId": [
+        "STev_10_BT01"
+      ],
+      "Aim": "ActivityStory.201030206.3",
+      "AvgLuaName": "STev_10_05",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event10_06",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201030206.4",
+          "zh_TW": "05",
+          "zh_CN": "05",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201030206.1",
+          "zh_TW": "身負祕寶的巨影",
+          "zh_CN": "身负秘宝的巨影",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201030206.2",
+          "zh_TW": "你到底扛著多沉重的秘密？！",
+          "zh_CN": "你到底扛着多沉重的秘密？！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201030207": {
+      "Id": 201030207,
+      "ChapterId": 20103,
+      "Index": "ActivityStory.201030207.4",
+      "Title": "ActivityStory.201030207.1",
+      "Desc": "ActivityStory.201030207.2",
+      "Type": 3,
+      "StoryId": "STev_10_06",
+      "ConditionId": 201030207,
+      "ParentStoryId": [
+        "STev_10_05"
+      ],
+      "Aim": "ActivityStory.201030207.3",
+      "AvgLuaName": "STev_10_06",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event10_07",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201030207.4",
+          "zh_TW": "06",
+          "zh_CN": "06",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201030207.1",
+          "zh_TW": "出師不利",
+          "zh_CN": "出师不利",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201030207.2",
+          "zh_TW": "海上的天氣總是瞬息萬變…",
+          "zh_CN": "海上的天气总是瞬息万变……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201030208": {
+      "Id": 201030208,
+      "ChapterId": 20103,
+      "DayOpen": 1,
+      "Index": "ActivityStory.201030208.4",
+      "Title": "ActivityStory.201030208.1",
+      "Desc": "ActivityStory.201030208.2",
+      "Type": 3,
+      "StoryId": "STev_10_07",
+      "ConditionId": 201030208,
+      "ParentStoryId": [
+        "STev_10_06"
+      ],
+      "Aim": "ActivityStory.201030208.3",
+      "AvgLuaName": "STev_10_07",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event10_08",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201030208.4",
+          "zh_TW": "07",
+          "zh_CN": "07",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201030208.1",
+          "zh_TW": "成為你的手",
+          "zh_CN": "成为你的手",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201030208.2",
+          "zh_TW": "她模糊的記憶深處，埋藏著痛楚與傷痕",
+          "zh_CN": "她模糊的记忆深处，埋着疼痛与伤痕",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201030209": {
+      "Id": 201030209,
+      "ChapterId": 20103,
+      "DayOpen": 1,
+      "Index": "ActivityStory.201030209.4",
+      "Title": "ActivityStory.201030209.1",
+      "Desc": "ActivityStory.201030209.2",
+      "Type": 3,
+      "StoryId": "STev_10_08",
+      "ConditionId": 201030209,
+      "ParentStoryId": [
+        "STev_10_07"
+      ],
+      "Aim": "ActivityStory.201030209.3",
+      "AvgLuaName": "STev_10_08",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event10_09",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201030209.4",
+          "zh_TW": "08",
+          "zh_CN": "08",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201030209.1",
+          "zh_TW": "撥雲見日",
+          "zh_CN": "拨云见日",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201030209.2",
+          "zh_TW": "天氣總算放晴了…心情也是。",
+          "zh_CN": "天气总算好起来了……心情也是。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201030210": {
+      "Id": 201030210,
+      "ChapterId": 20103,
+      "DayOpen": 1,
+      "Index": "ActivityStory.201030210.4",
+      "Title": "ActivityStory.201030210.1",
+      "Desc": "ActivityStory.201030210.2",
+      "Type": 3,
+      "IsBattle": true,
+      "StoryId": "STev_10_BT02",
+      "FloorId": [
+        301326
+      ],
+      "TrialBuild": 200090,
+      "PreviewMonsterGroupId": 301324,
+      "Recommend": "40",
+      "ConditionId": 201030210,
+      "ParentStoryId": [
+        "STev_10_08"
+      ],
+      "Aim": "ActivityStory.201030210.3",
+      "AvgMotion": "style_44",
+      "FirstCompleteReward": "{\"2\":30}",
+      "Icon": "Icon/ActivityStory/ep_event10_10",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201030210.4",
+          "zh_TW": "BT02",
+          "zh_CN": "BT02",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201030210.1",
+          "zh_TW": "揮舞巨螯的不速之客",
+          "zh_CN": "挥舞大钳的不速之客",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201030210.2",
+          "zh_TW": "話說回來…牠其實沒有什麼惡意吧？",
+          "zh_CN": "话说回来……它其实并没有什么恶意吧？",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    },
+    "201030211": {
+      "Id": 201030211,
+      "ChapterId": 20103,
+      "DayOpen": 1,
+      "Index": "ActivityStory.201030211.4",
+      "Title": "ActivityStory.201030211.1",
+      "Desc": "ActivityStory.201030211.2",
+      "Type": 3,
+      "StoryId": "STev_10_09",
+      "ConditionId": 201030211,
+      "ParentStoryId": [
+        "STev_10_BT02"
+      ],
+      "Aim": "ActivityStory.201030211.3",
+      "AvgLuaName": "STev_10_09",
+      "AvgMotion": "style_44",
+      "IsLast": true,
+      "FirstCompleteReward": "{\"2\":50}",
+      "Icon": "Icon/ActivityStory/ep_event10_11",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityStory.201030211.4",
+          "zh_TW": "09",
+          "zh_CN": "09",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Title": {
+          "key": "ActivityStory.201030211.1",
+          "zh_TW": "晴風碧海，悠哉游哉",
+          "zh_CN": "晴风碧海，悠哉游哉",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityStory.201030211.2",
+          "zh_TW": "夏天很長，且漫且慢…",
+          "zh_CN": "夏天很长，且漫且慢……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityStory.json",
+            "zh_CN": "language/zh_CN/ActivityStory.json"
+          }
+        }
+      }
+    }
+  }
+}

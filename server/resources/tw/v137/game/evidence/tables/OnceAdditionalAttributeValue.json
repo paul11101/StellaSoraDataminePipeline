@@ -1,0 +1,323 @@
+{
+  "table": "OnceAdditionalAttributeValue",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e325767d4c8ccc35.bin",
+  "source_sha256": "7200adac5d1b5df5b071958ecf6dc1d8a643f712068e3e4ef7907004574497c5",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\OnceAdditionalAttributeValue.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 3225
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11
+    ],
+    "reference_field_order": [
+      "Id",
+      "ElementType1",
+      "AttributeType1",
+      "ParameterType1",
+      "Value1",
+      "ElementType2",
+      "AttributeType2",
+      "ParameterType2",
+      "Value2"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "3": "ElementType1",
+      "4": "AttributeType1",
+      "5": "ParameterType1",
+      "6": "Value1",
+      "8": "ElementType2",
+      "9": "AttributeType2",
+      "10": "ParameterType2",
+      "11": "Value2"
+    },
+    "aot_field_count": 9,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3225,
+      "compared_reference_rows": 3225,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3225,
+          "compared": 3225
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3225,
+          "compared": 3225
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3225
+        }
+      ]
+    },
+    "3": {
+      "field": "ElementType1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 459,
+      "compared_reference_rows": 459,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 459,
+          "compared": 459
+        },
+        {
+          "codec": "varint_int",
+          "matches": 459,
+          "compared": 459
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 459
+        }
+      ]
+    },
+    "4": {
+      "field": "AttributeType1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3225,
+      "compared_reference_rows": 3225,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3225,
+          "compared": 3225
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3225,
+          "compared": 3225
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3225
+        }
+      ]
+    },
+    "5": {
+      "field": "ParameterType1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3225,
+      "compared_reference_rows": 3225,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3225,
+          "compared": 3225
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3225,
+          "compared": 3225
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3225
+        }
+      ]
+    },
+    "6": {
+      "field": "Value1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_int",
+      "matching_reference_rows": 3198,
+      "compared_reference_rows": 3198,
+      "candidate_scores": [
+        {
+          "codec": "varint_int",
+          "matches": 3198,
+          "compared": 3198
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 3143,
+          "compared": 3198
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3198
+        }
+      ]
+    },
+    "8": {
+      "field": "ElementType2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 10,
+      "compared_reference_rows": 10,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "varint_int",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 10
+        }
+      ]
+    },
+    "9": {
+      "field": "AttributeType2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 30,
+      "compared_reference_rows": 30,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 30,
+          "compared": 30
+        },
+        {
+          "codec": "varint_int",
+          "matches": 30,
+          "compared": 30
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 30
+        }
+      ]
+    },
+    "10": {
+      "field": "ParameterType2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 30,
+      "compared_reference_rows": 30,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 30,
+          "compared": 30
+        },
+        {
+          "codec": "varint_int",
+          "matches": 30,
+          "compared": 30
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 30
+        }
+      ]
+    },
+    "11": {
+      "field": "Value2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 30,
+      "compared_reference_rows": 30,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 30,
+          "compared": 30
+        },
+        {
+          "codec": "varint_int",
+          "matches": 30,
+          "compared": 30
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 30
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 3225,
+    "reference_row_count": 3225,
+    "shared_key_count": 3225,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 3225,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

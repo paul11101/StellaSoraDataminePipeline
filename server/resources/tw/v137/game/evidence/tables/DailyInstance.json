@@ -1,0 +1,749 @@
+{
+  "table": "DailyInstance",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\472ae2657730ccf5.bin",
+  "source_sha256": "9a5a0f0486b46bd2352a10ae8aa1b80efcd3a901da585650acccd98b70eba312",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\DailyInstance.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 7
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "reference_field_order": [
+      "Id",
+      "DailyType",
+      "Difficulty",
+      "Name",
+      "Desc",
+      "SuggestedPower",
+      "RecommendBuildRank",
+      "PreLevelId",
+      "PreLevelStar",
+      "NeedWorldClass",
+      "FloorId",
+      "OneStarDesc",
+      "TwoStarDesc",
+      "ThreeStarDesc",
+      "OneStarEnergyConsume",
+      "TwoStarEnergyConsume",
+      "ThreeStarEnergyConsume",
+      "AwardDropId",
+      "PreviewMonsterGroupId",
+      "Icon",
+      "FirstRewardPreview"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 21,
+    "remaining_name_count": 21,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "DailyType",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Difficulty",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Name",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Desc",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "SuggestedPower",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "RecommendBuildRank",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "PreLevelId",
+        "matching_reference_rows": 6,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "PreLevelStar",
+        "matching_reference_rows": 6,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "NeedWorldClass",
+        "matching_reference_rows": 6,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "FloorId",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "OneStarDesc",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "TwoStarDesc",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "14": {
+        "field": "ThreeStarDesc",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "15": {
+        "field": "OneStarEnergyConsume",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "16": {
+        "field": "TwoStarEnergyConsume",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "17": {
+        "field": "ThreeStarEnergyConsume",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "18": {
+        "field": "AwardDropId",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "19": {
+        "field": "PreviewMonsterGroupId",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "20": {
+        "field": "Icon",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "21": {
+        "field": "FirstRewardPreview",
+        "matching_reference_rows": 7,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "2": {
+      "field": "DailyType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "3": {
+      "field": "Difficulty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "4": {
+      "field": "Name",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "5": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "6": {
+      "field": "SuggestedPower",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "7": {
+      "field": "RecommendBuildRank",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "8": {
+      "field": "PreLevelId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 6,
+      "compared_reference_rows": 6,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_int",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 6
+        }
+      ]
+    },
+    "9": {
+      "field": "PreLevelStar",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 6,
+      "compared_reference_rows": 6,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_int",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 6
+        }
+      ]
+    },
+    "10": {
+      "field": "NeedWorldClass",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 6,
+      "compared_reference_rows": 6,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_int",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 6
+        }
+      ]
+    },
+    "11": {
+      "field": "FloorId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "12": {
+      "field": "OneStarDesc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "13": {
+      "field": "TwoStarDesc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "14": {
+      "field": "ThreeStarDesc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "15": {
+      "field": "OneStarEnergyConsume",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "16": {
+      "field": "TwoStarEnergyConsume",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "17": {
+      "field": "ThreeStarEnergyConsume",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "18": {
+      "field": "AwardDropId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "19": {
+      "field": "PreviewMonsterGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "20": {
+      "field": "Icon",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "21": {
+      "field": "FirstRewardPreview",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 7,
+    "reference_row_count": 7,
+    "shared_key_count": 7,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 7,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

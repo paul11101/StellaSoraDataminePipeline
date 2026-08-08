@@ -1,0 +1,359 @@
+{
+  "table": "GoldenSpyFloor",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\215892a0b0524a4a.bin",
+  "source_sha256": "8125391515b18603557da5bf7a9b42cda3151718811347cdc6aeecf3af9f039f",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\GoldenSpyFloor.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 52
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "reference_field_order": [
+      "Id",
+      "SeedLevel",
+      "BgName",
+      "PrefabName",
+      "TimeLimit",
+      "GoalScore",
+      "BuffCardCount",
+      "DictionaryID"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 8,
+    "remaining_name_count": 8,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 52,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "SeedLevel",
+        "matching_reference_rows": 52,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "BgName",
+        "matching_reference_rows": 52,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "PrefabName",
+        "matching_reference_rows": 52,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "TimeLimit",
+        "matching_reference_rows": 52,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "GoalScore",
+        "matching_reference_rows": 52,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "BuffCardCount",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "DictionaryID",
+        "matching_reference_rows": 10,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 52,
+      "compared_reference_rows": 52,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 52,
+          "compared": 52
+        },
+        {
+          "codec": "varint_int",
+          "matches": 52,
+          "compared": 52
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 52
+        }
+      ]
+    },
+    "2": {
+      "field": "SeedLevel",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 52,
+      "compared_reference_rows": 52,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 52,
+          "compared": 52
+        },
+        {
+          "codec": "varint_int",
+          "matches": 52,
+          "compared": 52
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 52
+        }
+      ]
+    },
+    "3": {
+      "field": "BgName",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 52,
+      "compared_reference_rows": 52,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 52,
+          "compared": 52
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 52
+        }
+      ]
+    },
+    "4": {
+      "field": "PrefabName",
+      "json_kind": "string",
+      "repeated": true,
+      "wire_types": [
+        2
+      ],
+      "selected": "repeated_utf8",
+      "matching_reference_rows": 52,
+      "compared_reference_rows": 52,
+      "candidate_scores": [
+        {
+          "codec": "repeated_utf8",
+          "matches": 52,
+          "compared": 52
+        },
+        {
+          "codec": "repeated_base64",
+          "matches": 0,
+          "compared": 52
+        },
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 0,
+          "compared": 52
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 0,
+          "compared": 52
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 52
+        },
+        {
+          "codec": "repeated_fixed32_uint",
+          "matches": 0,
+          "compared": 52
+        },
+        {
+          "codec": "repeated_fixed32_int",
+          "matches": 0,
+          "compared": 52
+        },
+        {
+          "codec": "repeated_float32",
+          "matches": 0,
+          "compared": 52
+        },
+        {
+          "codec": "repeated_fixed64_uint",
+          "matches": 0,
+          "compared": 52
+        },
+        {
+          "codec": "repeated_fixed64_int",
+          "matches": 0,
+          "compared": 52
+        },
+        {
+          "codec": "repeated_float64",
+          "matches": 0,
+          "compared": 52
+        }
+      ]
+    },
+    "5": {
+      "field": "TimeLimit",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 52,
+      "compared_reference_rows": 52,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 52,
+          "compared": 52
+        },
+        {
+          "codec": "varint_int",
+          "matches": 52,
+          "compared": 52
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 52
+        }
+      ]
+    },
+    "6": {
+      "field": "GoalScore",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 52,
+      "compared_reference_rows": 52,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 52,
+          "compared": 52
+        },
+        {
+          "codec": "varint_int",
+          "matches": 52,
+          "compared": 52
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 52
+        }
+      ]
+    },
+    "7": {
+      "field": "BuffCardCount",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "8": {
+      "field": "DictionaryID",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 10,
+      "compared_reference_rows": 10,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "varint_int",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 10
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 52,
+    "reference_row_count": 52,
+    "shared_key_count": 52,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 52,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "table": "TrialFloor",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\765e50ccf2eeb1b9.bin",
+  "source_sha256": "05bf4f52abeb5cf71cb59e2dea949b792bd0f34d5b27411a6646017bb7015ca1",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\TrialFloor.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 84
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "reference_field_order": [
+      "Id",
+      "TrialChar",
+      "TrialSectType",
+      "SceneName",
+      "ConfigPrefabName",
+      "TrialBuild",
+      "QuestFlow",
+      "BGM",
+      "LeaveTriggerEvent",
+      "DungeonDelay",
+      "Theme",
+      "MonsterLv"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 12,
+    "remaining_name_count": 12,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 84,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "TrialChar",
+        "matching_reference_rows": 84,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "TrialSectType",
+        "matching_reference_rows": 84,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "SceneName",
+        "matching_reference_rows": 84,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "ConfigPrefabName",
+        "matching_reference_rows": 84,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "TrialBuild",
+        "matching_reference_rows": 84,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "QuestFlow",
+        "matching_reference_rows": 84,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "BGM",
+        "matching_reference_rows": 84,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "LeaveTriggerEvent",
+        "matching_reference_rows": 84,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "DungeonDelay",
+        "matching_reference_rows": 84,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "Theme",
+        "matching_reference_rows": 84,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "MonsterLv",
+        "matching_reference_rows": 84,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 84,
+      "compared_reference_rows": 84,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_int",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 84
+        }
+      ]
+    },
+    "2": {
+      "field": "TrialChar",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 84,
+      "compared_reference_rows": 84,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_int",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 84
+        }
+      ]
+    },
+    "3": {
+      "field": "TrialSectType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 84,
+      "compared_reference_rows": 84,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_int",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 84
+        }
+      ]
+    },
+    "4": {
+      "field": "SceneName",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 84,
+      "compared_reference_rows": 84,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 84
+        }
+      ]
+    },
+    "5": {
+      "field": "ConfigPrefabName",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 84,
+      "compared_reference_rows": 84,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 84
+        }
+      ]
+    },
+    "6": {
+      "field": "TrialBuild",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 84,
+      "compared_reference_rows": 84,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_int",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 84
+        }
+      ]
+    },
+    "7": {
+      "field": "QuestFlow",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 84,
+      "compared_reference_rows": 84,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 84
+        }
+      ]
+    },
+    "8": {
+      "field": "BGM",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 84,
+      "compared_reference_rows": 84,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 84
+        }
+      ]
+    },
+    "9": {
+      "field": "LeaveTriggerEvent",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 84,
+      "compared_reference_rows": 84,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 84
+        }
+      ]
+    },
+    "10": {
+      "field": "DungeonDelay",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 84,
+      "compared_reference_rows": 84,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_int",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 84
+        }
+      ]
+    },
+    "11": {
+      "field": "Theme",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 84,
+      "compared_reference_rows": 84,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_int",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 84
+        }
+      ]
+    },
+    "12": {
+      "field": "MonsterLv",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 84,
+      "compared_reference_rows": 84,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_int",
+          "matches": 84,
+          "compared": 84
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 84
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 84,
+    "reference_row_count": 84,
+    "shared_key_count": 84,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 84,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "table": "VampireEnemySet",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\46247eebe5a9e2dc.bin",
+  "source_sha256": "e89e8988b6afd67ec6f203265c9a17db2d939891a293c7dbed7a7cb626bb8a9b",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\VampireEnemySet.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 0,
+    "key_type": 0,
+    "row_count": 1712
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "reference_field_order": [
+      "SetId",
+      "GroupNum",
+      "MonsterId",
+      "DelayTime",
+      "LevelChange",
+      "MaxNum",
+      "AddData",
+      "MaxNumImproveData",
+      "MonsterSpawnType",
+      "MonsterPoint",
+      "DropExp",
+      "DropChest",
+      "DropHp",
+      "DropMp",
+      "DropAtk",
+      "DropGet",
+      "DropClear",
+      "MonsterWarning"
+    ],
+    "local_aot_field_numbers": {
+      "1": "SetId",
+      "2": "GroupNum",
+      "3": "MonsterId",
+      "4": "LevelChange",
+      "5": "DelayTime",
+      "6": "MaxNum",
+      "7": "AddData",
+      "8": "MaxNumImproveData",
+      "9": "MonsterSpawnType",
+      "10": "MonsterPoint",
+      "11": "DropExp",
+      "12": "DropChest",
+      "13": "DropHp",
+      "14": "DropMp",
+      "15": "DropAtk",
+      "16": "DropGet",
+      "17": "DropClear",
+      "18": "MonsterWarning"
+    },
+    "aot_field_count": 18,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "SetId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1712,
+      "compared_reference_rows": 1712,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1712
+        }
+      ]
+    },
+    "2": {
+      "field": "GroupNum",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1712,
+      "compared_reference_rows": 1712,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1712
+        }
+      ]
+    },
+    "3": {
+      "field": "MonsterId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1712,
+      "compared_reference_rows": 1712,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1712
+        }
+      ]
+    },
+    "4": {
+      "field": "LevelChange",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 144,
+      "compared_reference_rows": 144,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 144,
+          "compared": 144
+        },
+        {
+          "codec": "varint_int",
+          "matches": 144,
+          "compared": 144
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 144
+        }
+      ]
+    },
+    "5": {
+      "field": "DelayTime",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 236,
+      "compared_reference_rows": 236,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 236,
+          "compared": 236
+        },
+        {
+          "codec": "varint_int",
+          "matches": 236,
+          "compared": 236
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 236
+        }
+      ]
+    },
+    "6": {
+      "field": "MaxNum",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1712,
+      "compared_reference_rows": 1712,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1712
+        }
+      ]
+    },
+    "7": {
+      "field": "AddData",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 1712,
+      "compared_reference_rows": 1712,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 322,
+          "compared": 1712
+        }
+      ]
+    },
+    "8": {
+      "field": "MaxNumImproveData",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 1712,
+      "compared_reference_rows": 1712,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 322,
+          "compared": 1712
+        }
+      ]
+    },
+    "9": {
+      "field": "MonsterSpawnType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1712,
+      "compared_reference_rows": 1712,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1712
+        }
+      ]
+    },
+    "10": {
+      "field": "MonsterPoint",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1712,
+      "compared_reference_rows": 1712,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1712
+        }
+      ]
+    },
+    "11": {
+      "field": "DropExp",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 1712,
+      "compared_reference_rows": 1712,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 1712,
+          "compared": 1712
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 1712
+        }
+      ]
+    },
+    "12": {
+      "field": "DropChest",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 322,
+      "compared_reference_rows": 322,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 322,
+          "compared": 322
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 322,
+          "compared": 322
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 322
+        }
+      ]
+    },
+    "13": {
+      "field": "DropHp",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 519,
+      "compared_reference_rows": 519,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 519,
+          "compared": 519
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 519,
+          "compared": 519
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 519
+        }
+      ]
+    },
+    "14": {
+      "field": "DropMp",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 472,
+      "compared_reference_rows": 472,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 472,
+          "compared": 472
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 472,
+          "compared": 472
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 472
+        }
+      ]
+    },
+    "15": {
+      "field": "DropAtk",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 613,
+      "compared_reference_rows": 613,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 613,
+          "compared": 613
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 613,
+          "compared": 613
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 613
+        }
+      ]
+    },
+    "16": {
+      "field": "DropGet",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 654,
+      "compared_reference_rows": 654,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 654,
+          "compared": 654
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 654,
+          "compared": 654
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 654
+        }
+      ]
+    },
+    "17": {
+      "field": "DropClear",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 559,
+      "compared_reference_rows": 559,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 559,
+          "compared": 559
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 559,
+          "compared": 559
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 559
+        }
+      ]
+    },
+    "18": {
+      "field": "MonsterWarning",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 178,
+      "compared_reference_rows": 178,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 178,
+          "compared": 178
+        },
+        {
+          "codec": "varint_int",
+          "matches": 178,
+          "compared": 178
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 178
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 1712,
+    "reference_row_count": 1712,
+    "shared_key_count": 1712,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 1712,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

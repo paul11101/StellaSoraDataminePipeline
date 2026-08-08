@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "IceCreamFever",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 4,
+    "localization_hits": 0,
+    "source": "bin/IceCreamFever.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "0": {
+      "Combo": 1,
+      "Magnification": 1.0
+    },
+    "1": {
+      "Combo": 6,
+      "Magnification": 1.2000000476837158
+    },
+    "2": {
+      "Combo": 11,
+      "Magnification": 1.5
+    },
+    "3": {
+      "Combo": 21,
+      "Magnification": 2.0
+    }
+  }
+}

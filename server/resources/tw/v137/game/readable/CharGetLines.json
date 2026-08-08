@@ -1,0 +1,3093 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "CharGetLines",
+    "categories": [
+      "characters"
+    ],
+    "row_count": 171,
+    "localization_hits": 171,
+    "source": "bin/CharGetLines.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "10301": {
+      "Id": 10301,
+      "Character": 103,
+      "Type": 1,
+      "voResource": "vo_103_ui_gachaNew_001",
+      "Lines": "CharGetLines.10301.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10301.1",
+          "zh_TW": "我，琥珀。\n...鳶尾替我寫了一份自我介紹，我稍後發郵件給你。",
+          "zh_CN": "我，琥珀。\n……鸢尾替我写了一份自我介绍，我稍后发邮件给你。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10302": {
+      "Id": 10302,
+      "Character": 103,
+      "Type": 2,
+      "voResource": "vo_103_ui_gacha_001",
+      "Lines": "CharGetLines.10302.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10302.1",
+          "zh_TW": "我們已經這麼熟了，所以...不用再自我介紹了吧？",
+          "zh_CN": "我们已经这么熟了，所以……不用再自我介绍了吧？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10303": {
+      "Id": 10303,
+      "Character": 103,
+      "Type": 3,
+      "voResource": "vo_103_ui_unlockLook_001",
+      "Lines": "CharGetLines.10303.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10303.1",
+          "zh_TW": "魔王，我有成長嗎？",
+          "zh_CN": "魔王，我有成长吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10304": {
+      "Id": 10304,
+      "Character": 103,
+      "Type": 4,
+      "voResource": "vo_103_ui_unlockCG_001",
+      "Lines": "CharGetLines.10304.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10304.1",
+          "zh_TW": "來抱抱...啊，我說的是這只貓。",
+          "zh_CN": "来抱抱……啊，我说的是这只猫。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10305": {
+      "Id": 10305,
+      "Character": 103,
+      "Type": 5,
+      "SkinId": 10303,
+      "Lines": "CharGetLines.10305.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10305.1",
+          "zh_TW": "錦繡織就流火，金飾點綴祥雲。不怒自威、顧盼神飛。\n嘎嗚——",
+          "zh_CN": "锦绣织就流火，金饰点缀祥云。不怒自威、顾盼神飞。\n嘎呜——",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10306": {
+      "Id": 10306,
+      "Character": 103,
+      "Type": 5,
+      "SkinId": 10304,
+      "Lines": "CharGetLines.10306.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10306.1",
+          "zh_TW": "順著炙熱的海風，捕捉狂歡的間隙，悠然望向你的視線。",
+          "zh_CN": "顺着炙热的海风，捉住那狂欢的隙间，悠悠然望向你的视线。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10701": {
+      "Id": 10701,
+      "Character": 107,
+      "Type": 1,
+      "voResource": "vo_107_ui_gachaNew_001",
+      "Lines": "CharGetLines.10701.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10701.1",
+          "zh_TW": "報告！我是代表正義的騎士侍從緹莉婭。來成為我的夥伴一起伸張正義吧！",
+          "zh_CN": "报告！我是代表正义的骑士侍从缇莉娅。来成为我的伙伴一起伸张正义吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10702": {
+      "Id": 10702,
+      "Character": 107,
+      "Type": 2,
+      "voResource": "vo_107_ui_gacha_001",
+      "Lines": "CharGetLines.10702.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10702.1",
+          "zh_TW": "又見面啦，正義的夥伴！",
+          "zh_CN": "又见面啦，正义的伙伴！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10703": {
+      "Id": 10703,
+      "Character": 107,
+      "Type": 3,
+      "voResource": "vo_107_ui_unlockLook_001",
+      "Lines": "CharGetLines.10703.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10703.1",
+          "zh_TW": "咦...駿鷹號的聲音怎麼有點不對勁...哇哇哇——！",
+          "zh_CN": "咦……骏鹰号的声音怎么有点不对劲……哇哇哇——！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10704": {
+      "Id": 10704,
+      "Character": 107,
+      "Type": 4,
+      "voResource": "vo_107_ui_unlockCG_001",
+      "Lines": "CharGetLines.10704.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10704.1",
+          "zh_TW": "謝謝你，來見證我踏上英雄之路。",
+          "zh_CN": "谢谢你，来见证我踏上英雄之路。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10705": {
+      "Id": 10705,
+      "Character": 107,
+      "Type": 5,
+      "SkinId": 10703,
+      "Lines": "CharGetLines.10705.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10705.1",
+          "zh_TW": "繫緊腰帶，俐落變身，鬥志如烈陽般熾熱！\u000b披上正義的戰衣，以騎士之姿守護每一條街道——\u000b此即吾之正義！",
+          "zh_CN": "系紧腰带，利落变身，斗志如烈阳般炽热！\u000b披上正义的战衣，以骑士之姿守护每一条街道——\u000b此即吾之正义！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10801": {
+      "Id": 10801,
+      "Character": 108,
+      "Type": 1,
+      "voResource": "vo_108_ui_gachaNew_001",
+      "Lines": "CharGetLines.10801.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10801.1",
+          "zh_TW": "白貓劇團第三小隊隊長，卡西米拉。這是我們的合作協議，請在上面簽名吧。",
+          "zh_CN": "白猫剧团第三小队队长，卡西米拉。这是我们的合作协议，请在上面签名吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10802": {
+      "Id": 10802,
+      "Character": 108,
+      "Type": 2,
+      "voResource": "vo_108_ui_gacha_001",
+      "Lines": "CharGetLines.10802.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10802.1",
+          "zh_TW": "你是個不錯的雇主。能繼續與你合作...我很高興。",
+          "zh_CN": "你是个不错的雇主。能继续与你合作……我很高兴。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10803": {
+      "Id": 10803,
+      "Character": 108,
+      "Type": 3,
+      "voResource": "vo_108_ui_unlockLook_001",
+      "Lines": "CharGetLines.10803.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10803.1",
+          "zh_TW": "這是補充協議，請。",
+          "zh_CN": "这是补充协议，请。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "10804": {
+      "Id": 10804,
+      "Character": 108,
+      "Type": 4,
+      "voResource": "vo_108_ui_unlockCG_001",
+      "Lines": "CharGetLines.10804.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.10804.1",
+          "zh_TW": "我終於意識到，原來你才是我最靈驗的幸運護符。",
+          "zh_CN": "我终于意识到，原来你才是我最灵验的幸运护符。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11001": {
+      "Id": 11001,
+      "Character": 110,
+      "Type": 1,
+      "voResource": "vo_110_ui_gachaNew_001",
+      "Lines": "CharGetLines.11001.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11001.1",
+          "zh_TW": "翡冷翠，你的盟友。我會向你展現我的價值，也請你不要讓我失望。",
+          "zh_CN": "翡冷翠，你的盟友。我会向你展现我的价值，也请你不要令我失望。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11002": {
+      "Id": 11002,
+      "Character": 110,
+      "Type": 2,
+      "voResource": "vo_110_ui_gacha_001",
+      "Lines": "CharGetLines.11002.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11002.1",
+          "zh_TW": "聰明人之間，就不必重複客套話了——直接說你特地找我的理由吧，我隨時奉陪。",
+          "zh_CN": "聪明人之间，就不必重复客套话了——说出你特地找我的理由吧，我都会奉陪。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11003": {
+      "Id": 11003,
+      "Character": 110,
+      "Type": 3,
+      "voResource": "vo_110_ui_unlockLook_001",
+      "Lines": "CharGetLines.11003.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11003.1",
+          "zh_TW": "…是時候簽個新契約了，讓我們的合作...更進一步吧...！",
+          "zh_CN": "……是时候签个新契约了，让我们的合作……更进一步吧……！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11004": {
+      "Id": 11004,
+      "Character": 110,
+      "Type": 4,
+      "voResource": "vo_110_ui_unlockCG_001",
+      "Lines": "CharGetLines.11004.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11004.1",
+          "zh_TW": "既然選擇了跟我一起…就意味著，你已經逃不出我的手掌心了哦...",
+          "zh_CN": "既然选择了与我一起……就意味着，你已经逃不出我的掌心了喔……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11101": {
+      "Id": 11101,
+      "Character": 111,
+      "Type": 1,
+      "voResource": "vo_111_ui_gachaNew_001",
+      "Lines": "CharGetLines.11101.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11101.1",
+          "zh_TW": "我叫鳶尾，那個...有什麼做的不好的地方，請多多指教。",
+          "zh_CN": "我叫鸢尾，那个……有什么做的不好的地方，请多多指教。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11102": {
+      "Id": 11102,
+      "Character": 111,
+      "Type": 2,
+      "voResource": "vo_111_ui_gacha_001",
+      "Lines": "CharGetLines.11102.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11102.1",
+          "zh_TW": "我回來了，==PLAYER_NAME==。這是打工的收入，請幫我存起來，作為旅團的風險準備金吧。",
+          "zh_CN": "我回来了，==PLAYER_NAME==。这是打工的收入，请帮我存起来，作为旅团的风险准备金吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11103": {
+      "Id": 11103,
+      "Character": 111,
+      "Type": 3,
+      "voResource": "vo_111_ui_unlockLook_001",
+      "Lines": "CharGetLines.11103.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11103.1",
+          "zh_TW": "我的手提包可是很沉的，別小看知識的重量！",
+          "zh_CN": "我的手提包可是很沉的，别小看知识的重量！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11104": {
+      "Id": 11104,
+      "Character": 111,
+      "Type": 4,
+      "voResource": "vo_111_ui_unlockCG_001",
+      "Lines": "CharGetLines.11104.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11104.1",
+          "zh_TW": "謝謝你給我買的曲奇，很好吃...真是的，要是之後再也吃不到這麼好吃的曲奇，我一定會難過的。你要負起責任來啊，約好了。",
+          "zh_CN": "谢谢你给我买的曲奇，很好吃……真是的，要是之后再也吃不到这么好吃的曲奇，我一定会难过的。你要负起责任来啊，约好了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11105": {
+      "Id": 11105,
+      "Character": 111,
+      "Type": 5,
+      "SkinId": 11103,
+      "Lines": "CharGetLines.11105.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11105.1",
+          "zh_TW": "冬日清冷陽光下的你，捧著熱飲呼出白煙的你，自詡平凡普通的你，卻構成了這個日子全部的意義。",
+          "zh_CN": "冬日清冷阳光下的你，捧着热饮呼出白气的你，自诩平凡普通的你，却构成了这个日子全部的意义。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11106": {
+      "Id": 11106,
+      "Character": 111,
+      "Type": 5,
+      "SkinId": 11104,
+      "Lines": "CharGetLines.11106.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11106.1",
+          "zh_TW": "那個…我會盡量穩住這個充氣玩偶，但上來時還是請小心一些。\u000b——當、當然，如果你不小心落水了，我一定會拉住你的！",
+          "zh_CN": "那个……我会尽量稳住这个充气玩偶，但上来时还是请小心一些。\u000b——当，当然，如果你不小心落水了，我肯定也会拉住你的！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11201": {
+      "Id": 11201,
+      "Character": 112,
+      "Type": 1,
+      "voResource": "vo_112_ui_gachaNew_001",
+      "Lines": "CharGetLines.11201.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11201.1",
+          "zh_TW": "我們走吧，魔王大人，有很多很多星塔在等著我們！",
+          "zh_CN": "我们走吧，魔王大人，有很多很多星塔在等着我们！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11202": {
+      "Id": 11202,
+      "Character": 112,
+      "Type": 2,
+      "voResource": "vo_112_ui_gacha_001",
+      "Lines": "CharGetLines.11202.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11202.1",
+          "zh_TW": "對旅人來說，相逢即是有緣，再遇便是命運...不像我說的話嗎？",
+          "zh_CN": "对旅人来说，相逢即是有缘，再遇便是命运……不像我说的话吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11203": {
+      "Id": 11203,
+      "Character": 112,
+      "Type": 3,
+      "voResource": "vo_112_ui_unlockLook_001",
+      "Lines": "CharGetLines.11203.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11203.1",
+          "zh_TW": "接下來的旅程，大家還要繼續在一起！",
+          "zh_CN": "接下来的旅程，大家还要继续在一起！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11204": {
+      "Id": 11204,
+      "Character": 112,
+      "Type": 4,
+      "voResource": "vo_112_ui_unlockCG_001",
+      "Lines": "CharGetLines.11204.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11204.1",
+          "zh_TW": "等小綠修好之後，我可以帶魔王大人去個很適合觀賞星塔的地方哦。\n就我們兩個人。",
+          "zh_CN": "等小绿修好之后，我可以带魔王大人去个很适合观赏星塔的地方哦。\n就我们两个人。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11205": {
+      "Id": 11205,
+      "Character": 112,
+      "Type": 5,
+      "SkinId": 11203,
+      "Lines": "CharGetLines.11205.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11205.1",
+          "zh_TW": "來到大海，來到沙灘，當然得換上泳衣。\u000b擁抱熱情的太陽，享受海浪的輕拍——與夏天親密接觸時，務必要注意防曬！",
+          "zh_CN": "来到大海，来到沙滩，当然得换上泳衣。\u000b怀抱热情的太阳，享受海浪的轻拍——与夏天的亲密接触，得务必注意防晒！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11301": {
+      "Id": 11301,
+      "Character": 113,
+      "Type": 1,
+      "voResource": "vo_113_ui_gachaNew_001",
+      "Lines": "CharGetLines.11301.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11301.1",
+          "zh_TW": "我是白澤公署的師渺，今後由我來接手與貴旅團的相關合作事宜，還望合作愉快。",
+          "zh_CN": "我是白泽公署的师渺，今后由我来接手与贵旅团的相关合作事宜，还望合作愉快。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11302": {
+      "Id": 11302,
+      "Character": 113,
+      "Type": 2,
+      "voResource": "vo_113_ui_gacha_001",
+      "Lines": "CharGetLines.11302.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11302.1",
+          "zh_TW": "又見面了魔王。有個緊急委託需要你的幫助，具體內容我會在路上告知。",
+          "zh_CN": "又见面了魔王。有个紧急委托需要你的帮助，具体内容我会在路上告知。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11303": {
+      "Id": 11303,
+      "Character": 113,
+      "Type": 3,
+      "voResource": "vo_113_ui_unlockLook_001",
+      "Lines": "CharGetLines.11303.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11303.1",
+          "zh_TW": "水，以不變呈萬態。",
+          "zh_CN": "水，以不变呈万态。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11304": {
+      "Id": 11304,
+      "Character": 113,
+      "Type": 4,
+      "voResource": "vo_113_ui_unlockCG_001",
+      "Lines": "CharGetLines.11304.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11304.1",
+          "zh_TW": "又、又是火鍋嗎？！沒有不滿，我只是想糾正一下大家對龍裔喜歡吃火鍋的刻板印象。",
+          "zh_CN": "又、又是火锅吗？！没有不满，我只是想纠正一下大家对龙裔喜欢吃火锅的刻板印象。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11305": {
+      "Id": 11305,
+      "Character": 113,
+      "Type": 5,
+      "SkinId": 11303,
+      "Lines": "CharGetLines.11305.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11305.1",
+          "zh_TW": "蒼梧城內嚴禁辣椒成精！\u000b為、為了守護蒼梧的和平，堅、堅持愛與正義的魔法少女師渺命令你！快點變回原來的樣子！",
+          "zh_CN": "苍梧城内严禁辣椒成精！\u000b为、为了守护苍梧的和平，坚、坚持爱与正义的魔法少女，师渺命令你！快点变回原来的样子！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11401": {
+      "Id": 11401,
+      "Character": 114,
+      "Type": 1,
+      "voResource": "vo_114_ui_gachaNew_001",
+      "Lines": "CharGetLines.11401.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11401.1",
+          "zh_TW": "汝即是傳說中的魔王？既然汝身懷黑暗之力，那吾便回應汝之召喚。咳…做好覺悟吧！吾會助汝登上黑暗的巔峰，再親手將汝徹底擊潰！喵哈哈哈哈！",
+          "zh_CN": "汝即是传说中的魔王？既然汝身怀黑暗之力，那吾便回应汝之召唤。咳……做好觉悟吧！我会助你走上黑暗的巅峰，再狠狠击溃你！喵哈哈哈哈！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11402": {
+      "Id": 11402,
+      "Character": 114,
+      "Type": 2,
+      "voResource": "vo_114_ui_gacha_001",
+      "Lines": "CharGetLines.11402.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11402.1",
+          "zh_TW": "呼…看來我們之間的羈絆又更加深厚了。不必急著道謝，這不過是汝之黑暗力量所引發的必然迴響罷了！喵哈哈哈哈！",
+          "zh_CN": "呼……看来我们之间的羁绊又加深了。不用急着道谢，这不过是汝之黑暗力量的必然回响！喵哈哈哈哈！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11403": {
+      "Id": 11403,
+      "Character": 114,
+      "Type": 3,
+      "voResource": "vo_114_ui_unlockLook_001",
+      "Lines": "CharGetLines.11403.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11403.1",
+          "zh_TW": "黑暗之力，封印解除——！喵哈哈哈哈哈哈哈哈哈哈哈！",
+          "zh_CN": "黑暗之力，封印解除——！喵哈哈哈哈哈哈哈哈哈哈哈！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11404": {
+      "Id": 11404,
+      "Character": 114,
+      "Type": 4,
+      "voResource": "vo_114_ui_unlockCG_001",
+      "Lines": "CharGetLines.11404.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11404.1",
+          "zh_TW": "完美！厲害吧～這就是黑暗之王的實力！魔王，快誇我、快誇我～",
+          "zh_CN": "完美！厉害吧~这就是黑暗之王的实力！魔王，快夸我快夸我~",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11501": {
+      "Id": 11501,
+      "Character": 115,
+      "Type": 1,
+      "voResource": "vo_115_ui_gachaNew_001",
+      "Lines": "CharGetLines.11501.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11501.1",
+          "zh_TW": "你也是來抓我回學校的嗎？\n…原來不是啊，那來陪火垂玩吧！",
+          "zh_CN": "你也是来抓我回学院的吗？\n……原来不是啊，那来陪火垂玩吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11502": {
+      "Id": 11502,
+      "Character": 115,
+      "Type": 2,
+      "voResource": "vo_115_ui_gacha_001",
+      "Lines": "CharGetLines.11502.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11502.1",
+          "zh_TW": "能…再玩一會嗎？我會跟你回去的。",
+          "zh_CN": "能……再玩一会吗？我会跟你回去的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11503": {
+      "Id": 11503,
+      "Character": 115,
+      "Type": 3,
+      "voResource": "vo_115_ui_unlockLook_001",
+      "Lines": "CharGetLines.11503.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11503.1",
+          "zh_TW": "魔王，我不是小孩子，我可以保護你。",
+          "zh_CN": "魔王，我不是小孩子，我也是可以保护你的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11504": {
+      "Id": 11504,
+      "Character": 115,
+      "Type": 4,
+      "voResource": "vo_115_ui_unlockCG_001",
+      "Lines": "CharGetLines.11504.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11504.1",
+          "zh_TW": "可以請你…跟我一起創造回憶嗎？",
+          "zh_CN": "可以请你……跟我一起创造回忆吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11601": {
+      "Id": 11601,
+      "Character": 116,
+      "Type": 1,
+      "voResource": "vo_116_ui_gachaNew_001",
+      "Lines": "CharGetLines.11601.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11601.1",
+          "zh_TW": "我是聯合種業的溫室管理員嶺川，初次見面，請、請多指教…",
+          "zh_CN": "我是联合种业的温室管理员岭川，初次见面，请、请多指教……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11602": {
+      "Id": 11602,
+      "Character": 116,
+      "Type": 2,
+      "voResource": "vo_116_ui_gacha_001",
+      "Lines": "CharGetLines.11602.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11602.1",
+          "zh_TW": "這次…我給你帶了一點禮物！是我種的蔬菜，剛從地裡摘的，很新鮮很好吃哦。",
+          "zh_CN": "这次……我给你带了一点礼物！是我种的蔬菜，刚从地里摘的，很新鲜很好吃哦。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11603": {
+      "Id": 11603,
+      "Character": 116,
+      "Type": 3,
+      "voResource": "vo_116_ui_unlockLook_001",
+      "Lines": "CharGetLines.11603.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11603.1",
+          "zh_TW": "總有一天，我會擁有屬於自己的超大田地，想種什麼種什麼。",
+          "zh_CN": "总有一天，我会拥有属于自己的超大田地，想种什么种什么。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11604": {
+      "Id": 11604,
+      "Character": 116,
+      "Type": 4,
+      "voResource": "vo_116_ui_unlockCG_001",
+      "Lines": "CharGetLines.11604.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11604.1",
+          "zh_TW": "嗚嗚…怎麼會變成這樣…魔王，快幫幫我…我一個人沒辦法…！",
+          "zh_CN": "呜呜……怎么会变成这样……魔王，快帮帮我……我一个人没办法……！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11605": {
+      "Id": 11605,
+      "Character": 116,
+      "Type": 5,
+      "SkinId": 11603,
+      "Lines": "CharGetLines.11605.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11605.1",
+          "zh_TW": "我能想到最幸福的時刻，就是在午後的溫暖中小憩。醒來時陽光曬過窗際，而花朵仍在等你。",
+          "zh_CN": "我能想到最幸福的时刻，就是在午后的温暖中小憩。醒来时阳光晒过窗脚，而花朵仍在等你。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11701": {
+      "Id": 11701,
+      "Character": 117,
+      "Type": 1,
+      "voResource": "vo_117_ui_gachaNew_001",
+      "Lines": "CharGetLines.11701.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11701.1",
+          "zh_TW": "魔王好！我是懷璟食府的璟麟，今後請多多照顧我們家的生意呀！",
+          "zh_CN": "魔王好！我是怀璟食府的璟麟，今后请多多照顾我们家的生意呀！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11702": {
+      "Id": 11702,
+      "Character": 117,
+      "Type": 2,
+      "voResource": "vo_117_ui_gacha_001",
+      "Lines": "CharGetLines.11702.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11702.1",
+          "zh_TW": "我讓後廚給魔王開個小灶吧。嘿嘿，不麻煩不麻煩，你可是我們家的熟客呀！",
+          "zh_CN": "我让后厨给魔王开个小灶吧。嘿嘿，不麻烦不麻烦，你可是我们家的熟客呀！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11703": {
+      "Id": 11703,
+      "Character": 117,
+      "Type": 3,
+      "voResource": "vo_117_ui_unlockLook_001",
+      "Lines": "CharGetLines.11703.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11703.1",
+          "zh_TW": "璟麟，威風凜凜！\n——拍好了嗎？腳、腳有點酸了...",
+          "zh_CN": "璟麟，威风凛凛！\u000b——拍好了吗？脚、脚有点酸了……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11704": {
+      "Id": 11704,
+      "Character": 117,
+      "Type": 4,
+      "voResource": "vo_117_ui_unlockCG_001",
+      "Lines": "CharGetLines.11704.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11704.1",
+          "zh_TW": "科學麻雀牌才是唯一出路！魔王，你也認同這一點吧？唔唔，不愧是我的牌搭子！",
+          "zh_CN": "科学麻雀牌才是唯一出路！魔王，你也认同这一点吧？唔唔，不愧是我的牌搭子！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11801": {
+      "Id": 11801,
+      "Character": 118,
+      "Type": 1,
+      "voResource": "vo_118_ui_gachaNew_001",
+      "Lines": "CharGetLines.11801.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11801.1",
+          "zh_TW": "你就是魔王大人嗎？久仰大名，請務必讓我替你做個「全身檢查」。",
+          "zh_CN": "你就是魔王大人吗？久仰大名，请务必让我替你做个“全身检查”。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11802": {
+      "Id": 11802,
+      "Character": 118,
+      "Type": 2,
+      "voResource": "vo_118_ui_gacha_001",
+      "Lines": "CharGetLines.11802.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11802.1",
+          "zh_TW": "看來我們還挺有緣的，要不來我診所坐坐？",
+          "zh_CN": "看来我们还挺有缘的，要不来我诊所坐坐？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11803": {
+      "Id": 11803,
+      "Character": 118,
+      "Type": 3,
+      "voResource": "vo_118_ui_unlockLook_001",
+      "Lines": "CharGetLines.11803.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11803.1",
+          "zh_TW": "鐮刀在低吟，它也很喜歡這份力量。",
+          "zh_CN": "镰刀在低吟，它也很喜欢这份力量。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11804": {
+      "Id": 11804,
+      "Character": 118,
+      "Type": 4,
+      "voResource": "vo_118_ui_unlockCG_001",
+      "Lines": "CharGetLines.11804.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11804.1",
+          "zh_TW": "摸一摸它，我煩躁的內心就能平靜下來...",
+          "zh_CN": "摸一摸它，我烦躁的内心就能平静下来……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11901": {
+      "Id": 11901,
+      "Character": 119,
+      "Type": 1,
+      "voResource": "vo_119_ui_gachaNew_001",
+      "Lines": "CharGetLines.11901.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11901.1",
+          "zh_TW": "谷風家政，滿足您日常生活的一切需求。初次見面，我是女僕花原，請多關照。",
+          "zh_CN": "谷风家政，满足您日常生活的一切需求。初次见面，我是女仆花原，请多关照。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11902": {
+      "Id": 11902,
+      "Character": 119,
+      "Type": 2,
+      "voResource": "vo_119_ui_gacha_001",
+      "Lines": "CharGetLines.11902.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11902.1",
+          "zh_TW": "很高興又和您見面，這次需要哪些服務？",
+          "zh_CN": "很高兴又和您见面，这次需要哪些服务？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11903": {
+      "Id": 11903,
+      "Character": 119,
+      "Type": 3,
+      "voResource": "vo_119_ui_unlockLook_001",
+      "Lines": "CharGetLines.11903.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11903.1",
+          "zh_TW": "如真似幻，如影隨形。",
+          "zh_CN": "如真似幻，如影随形。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11904": {
+      "Id": 11904,
+      "Character": 119,
+      "Type": 4,
+      "voResource": "vo_119_ui_unlockCG_001",
+      "Lines": "CharGetLines.11904.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11904.1",
+          "zh_TW": "這份特別的禮物...我會好好珍藏。",
+          "zh_CN": "这份特别的礼物……我会好好珍藏。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "11905": {
+      "Id": 11905,
+      "Character": 119,
+      "Type": 5,
+      "SkinId": 11903,
+      "Lines": "CharGetLines.11905.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.11905.1",
+          "zh_TW": "風搖雲影間，曦光舞沙塵。與君共度時，唯有花窺見。",
+          "zh_CN": "风摇云影间，曦光舞沙尘。与君共度时，唯有花窥见。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12001": {
+      "Id": 12001,
+      "Character": 120,
+      "Type": 1,
+      "voResource": "vo_120_ui_gachaNew_001",
+      "Lines": "CharGetLines.12001.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12001.1",
+          "zh_TW": "初次見面，我是星輝附屬大學的老師，叫我卡娜絲就好，你就是傳說中的魔王啊…呵呵，很期待與你接下來的合作。",
+          "zh_CN": "初次见面，我是星辉附属大学的老师，叫我卡娜丝就好，你就是传说中的魔王啊……呵呵，很期待与你接下来的合作。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12002": {
+      "Id": 12002,
+      "Character": 120,
+      "Type": 2,
+      "voResource": "vo_120_ui_gacha_001",
+      "Lines": "CharGetLines.12002.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12002.1",
+          "zh_TW": "又見面了！如何，旅途中有沒有新的發現？",
+          "zh_CN": "又见面了！如何，旅途中有没有新的发现？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12003": {
+      "Id": 12003,
+      "Character": 120,
+      "Type": 3,
+      "voResource": "vo_120_ui_unlockLook_001",
+      "Lines": "CharGetLines.12003.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12003.1",
+          "zh_TW": "看來我得拿出真正的實力來回應你了。",
+          "zh_CN": "看来我得拿出真正的实力来回应你了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12004": {
+      "Id": 12004,
+      "Character": 120,
+      "Type": 4,
+      "voResource": "vo_120_ui_unlockCG_001",
+      "Lines": "CharGetLines.12004.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12004.1",
+          "zh_TW": "和你在一起能學到不少東西，當了老師之後，這樣的感覺還是頭一次。",
+          "zh_CN": "和你在一起能学到不少东西，当了老师之后，这样的感觉还是头一次。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12301": {
+      "Id": 12301,
+      "Character": 123,
+      "Type": 1,
+      "voResource": "vo_123_ui_gachaNew_001",
+      "Lines": "CharGetLines.12301.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12301.1",
+          "zh_TW": "魔魔王~杏子終於見到你啦，誒嘿，能帶杏子一起去冒險嗎~",
+          "zh_CN": "魔魔王~杏子终于见到你啦，诶嘿，能带杏子一起去冒险吗~",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12302": {
+      "Id": 12302,
+      "Character": 123,
+      "Type": 2,
+      "voResource": "vo_123_ui_gacha_001",
+      "Lines": "CharGetLines.12302.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12302.1",
+          "zh_TW": "哇~魔魔王又找到杏子啦~那下次輪到杏子來找你啦~",
+          "zh_CN": "哇~魔魔王又找到杏子啦~那下次轮到杏子来找你啦~",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12303": {
+      "Id": 12303,
+      "Character": 123,
+      "Type": 3,
+      "voResource": "vo_123_ui_unlockLook_001",
+      "Lines": "CharGetLines.12303.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12303.1",
+          "zh_TW": "杏子和可可泡泡都變得更厲害啦~魔魔王快跟上，我們要去打壞人啦！",
+          "zh_CN": "杏子和可可泡泡都变得更厉害啦~魔魔王快跟上，我们要去打坏人啦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12304": {
+      "Id": 12304,
+      "Character": 123,
+      "Type": 4,
+      "voResource": "vo_123_ui_unlockCG_001",
+      "Lines": "CharGetLines.12304.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12304.1",
+          "zh_TW": "呼...杏子，要和大家一起，永遠都不要分開...",
+          "zh_CN": "呼……杏子，要和大家一起，永远都不要分开……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12305": {
+      "Id": 12305,
+      "Character": 123,
+      "Type": 5,
+      "SkinId": 12303,
+      "Lines": "CharGetLines.12305.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12305.1",
+          "zh_TW": "從古老的樹洞跌入奇境，誤入時間迷宮的小小公主啊。無須急著尋覓出口，因為最美的風景，就藏在那些看似荒誕的夢裡。",
+          "zh_CN": "从古老的树洞跌入奇境，误入时间迷宫的小小公主啊，不必急于寻找出口，因为最棒的风景就藏在那些看似荒诞的梦里。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12501": {
+      "Id": 12501,
+      "Character": 125,
+      "Type": 1,
+      "voResource": "vo_125_ui_gachaNew_001",
+      "Lines": "CharGetLines.12501.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12501.1",
+          "zh_TW": "很榮幸與您同行，請多指教。",
+          "zh_CN": "很荣幸与您同行，请多指教。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12502": {
+      "Id": 12502,
+      "Character": 125,
+      "Type": 2,
+      "voResource": "vo_125_ui_gacha_001",
+      "Lines": "CharGetLines.12502.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12502.1",
+          "zh_TW": "人們都說「重逢令人欣喜」...魔王，您是怎麼看的呢？",
+          "zh_CN": "人们都说“重逢令人欣喜”……魔王，您是怎么看的呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12503": {
+      "Id": 12503,
+      "Character": 125,
+      "Type": 3,
+      "voResource": "vo_125_ui_unlockLook_001",
+      "Lines": "CharGetLines.12503.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12503.1",
+          "zh_TW": "我將剷除妨礙您的一切。",
+          "zh_CN": "我将铲除妨碍您的一切。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12504": {
+      "Id": 12504,
+      "Character": 125,
+      "Type": 4,
+      "voResource": "vo_125_ui_unlockCG_001",
+      "Lines": "CharGetLines.12504.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12504.1",
+          "zh_TW": "我好像...開始喜歡下雨天了。",
+          "zh_CN": "我好像……开始喜欢下雨天了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12505": {
+      "Id": 12505,
+      "Character": 125,
+      "Type": 5,
+      "SkinId": 12503,
+      "Lines": "CharGetLines.12505.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12505.1",
+          "zh_TW": "她所期盼的雪願節，是一爐溫暖的火焰，一杯香甜的果釀，親密好友的笑語，以及一份你所贈送獨一無二的禮物。",
+          "zh_CN": "她所期盼的雪愿节，是一炉温暖的火焰，一杯香甜的果酿，亲密好友的笑语，以及一份来自你的、独一无二的礼物。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12601": {
+      "Id": 12601,
+      "Character": 126,
+      "Type": 1,
+      "voResource": "vo_126_ui_gachaNew_001",
+      "Lines": "CharGetLines.12601.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12601.1",
+          "zh_TW": "初次見面，我是魔術師紫槿，也許你曾聽過有關我的各種傳聞...呵呵，很在意？但對於魔術來說，是真是假，又有什麼關係呢？",
+          "zh_CN": "初次见面，我是魔术师紫槿，也许你曾听过有关我的各种传闻……呵呵，很在意？但对于魔术来说，是真是假，又有什么关系呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12602": {
+      "Id": 12602,
+      "Character": 126,
+      "Type": 2,
+      "voResource": "vo_126_ui_gacha_001",
+      "Lines": "CharGetLines.12602.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12602.1",
+          "zh_TW": "同樣的手法我不會演示兩遍，這一次，請仔細看清楚了~",
+          "zh_CN": "同样的手法我不会演示两遍，这一次，请仔细看清楚了~",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12603": {
+      "Id": 12603,
+      "Character": 126,
+      "Type": 3,
+      "voResource": "vo_126_ui_unlockLook_001",
+      "Lines": "CharGetLines.12603.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12603.1",
+          "zh_TW": "盛大的演出就要開始了，將這份奇蹟牢記於心吧！",
+          "zh_CN": "盛大的演出就要开始了，将这份奇迹牢记于心吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12604": {
+      "Id": 12604,
+      "Character": 126,
+      "Type": 4,
+      "voResource": "vo_126_ui_unlockCG_001",
+      "Lines": "CharGetLines.12604.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12604.1",
+          "zh_TW": "看入迷了？好啦，快點來幫忙吧，演出就要開始了。",
+          "zh_CN": "看入迷了？好啦，快点来帮忙吧，演出就要开始了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12701": {
+      "Id": 12701,
+      "Character": 127,
+      "Type": 1,
+      "voResource": "vo_127_ui_gachaNew_001",
+      "Lines": "CharGetLines.12701.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12701.1",
+          "zh_TW": "喔~又發現一條新航道！\n哼哼~我是萬送屋的特麗莎，想寄信時，您和我說一聲就行。",
+          "zh_CN": "喔~又发现一条新航道！\n哼哼~我是万送屋的特丽莎，想寄信时，您和我说一声就行。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12702": {
+      "Id": 12702,
+      "Character": 127,
+      "Type": 2,
+      "voResource": "vo_127_ui_gacha_001",
+      "Lines": "CharGetLines.12702.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12702.1",
+          "zh_TW": "又見面了，魔王，萬送屋的服務您還滿意嗎？",
+          "zh_CN": "又见面了，魔王，万送屋的服务您还满意吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12703": {
+      "Id": 12703,
+      "Character": 127,
+      "Type": 3,
+      "voResource": "vo_127_ui_unlockLook_001",
+      "Lines": "CharGetLines.12703.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12703.1",
+          "zh_TW": "現在的我，說不定連傳說中的龍也能打倒呢！",
+          "zh_CN": "现在的我，说不定连传说中的龙也能打倒呢！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12704": {
+      "Id": 12704,
+      "Character": 127,
+      "Type": 4,
+      "voResource": "vo_127_ui_unlockCG_001",
+      "Lines": "CharGetLines.12704.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12704.1",
+          "zh_TW": "真是的...好像什麼都瞞不住你呢...",
+          "zh_CN": "真是的……好像什么都瞒不住你呢……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "12705": {
+      "Id": 12705,
+      "Character": 127,
+      "Type": 5,
+      "SkinId": 12703,
+      "Lines": "CharGetLines.12705.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.12705.1",
+          "zh_TW": "拿起村裡最好的寶劍，踏上勇者特麗莎的傳奇冒險！咦～金光閃閃的寶箱？讓我打開看看——嗚哇——這是什麼東西？！",
+          "zh_CN": "拿起村里最好的宝剑，踏上勇者特丽莎的传奇冒险！欸~金光闪闪的宝箱？让我打开看看——呜哇——这是什么东西？！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13001": {
+      "Id": 13001,
+      "Character": 130,
+      "Type": 1,
+      "voResource": "vo_130_ui_gachaNew_001",
+      "Lines": "CharGetLines.13001.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13001.1",
+          "zh_TW": "初次見面，萬送屋為您服務。\n無論是雪山還是雨林，\n你寄我送，讓信件平安送達！",
+          "zh_CN": "初次见面，万送屋为您服务。\n无论是雪山还是雨林，\n你邮我寄，让信件平安传递！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13002": {
+      "Id": 13002,
+      "Character": 130,
+      "Type": 2,
+      "voResource": "vo_130_ui_gacha_001",
+      "Lines": "CharGetLines.13002.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13002.1",
+          "zh_TW": "欸？又見面了？\n啊哈哈，我才沒有迷路！我是故意跟著你的。",
+          "zh_CN": "诶？又见面了？\n啊哈哈，我才没有迷路！我是故意跟着你的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13003": {
+      "Id": 13003,
+      "Character": 130,
+      "Type": 3,
+      "voResource": "vo_130_ui_unlockLook_001",
+      "Lines": "CharGetLines.13003.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13003.1",
+          "zh_TW": "哇嗚，我是不是變得更可愛了？",
+          "zh_CN": "哇呜，我是不是变得更可爱了？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13004": {
+      "Id": 13004,
+      "Character": 130,
+      "Type": 4,
+      "voResource": "vo_130_ui_unlockCG_001",
+      "Lines": "CharGetLines.13004.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13004.1",
+          "zh_TW": "多娜~可愛變身！",
+          "zh_CN": "多娜~可爱变身！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13201": {
+      "Id": 13201,
+      "Character": 132,
+      "Type": 1,
+      "voResource": "vo_132_ui_gachaNew_001",
+      "Lines": "CharGetLines.13201.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13201.1",
+          "zh_TW": "魔王，第一次正式合作，灰風不會辜負你的期望。",
+          "zh_CN": "魔王，第一次正式合作，灰风不会辜负你的期望。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13202": {
+      "Id": 13202,
+      "Character": 132,
+      "Type": 2,
+      "voResource": "vo_132_ui_gacha_001",
+      "Lines": "CharGetLines.13202.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13202.1",
+          "zh_TW": "魔王，又見面了，我們的默契又多了一些。",
+          "zh_CN": "魔王，又见面了，我们的默契又多了一些。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13203": {
+      "Id": 13203,
+      "Character": 132,
+      "Type": 3,
+      "voResource": "vo_132_ui_unlockLook_001",
+      "Lines": "CharGetLines.13203.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13203.1",
+          "zh_TW": "只要和夥伴在一起就沒什麼好怕的。魔王，我們一起前進吧。",
+          "zh_CN": "只要和伙伴在一起就没什么好怕的。魔王，我们一起前进吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13204": {
+      "Id": 13204,
+      "Character": 132,
+      "Type": 4,
+      "voResource": "vo_132_ui_unlockCG_001",
+      "Lines": "CharGetLines.13204.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13204.1",
+          "zh_TW": "別光看我啊...你也坐過來挑本漫畫看吧。會很開心的。",
+          "zh_CN": "别光看我啊……你也坐过来挑本漫画看吧。会很开心的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13205": {
+      "Id": 13205,
+      "Character": 132,
+      "Type": 5,
+      "SkinId": 13203,
+      "Lines": "CharGetLines.13205.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13205.1",
+          "zh_TW": "課桌的清涼從手臂傳來，陽光的溫暖往背後灑落。\u000b書本的芬芳多令人陶醉——這是一場微醺的白日夢。",
+          "zh_CN": "手臂传来课桌板的清凉，后背感知洒落阳光的温暖。\u000b书本的芬芳令人陶醉——这是一场微醺的白日梦。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13206": {
+      "Id": 13206,
+      "Character": 132,
+      "Type": 5,
+      "SkinId": 13204,
+      "Lines": "CharGetLines.13206.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13206.1",
+          "zh_TW": "對著鏡子練習第一百零一次的冷酷表情，卻在轉頭瞬間看見了你。於是所有偽裝盡數瓦解，只留下一抹羞澀。",
+          "zh_CN": "对着镜子练习第一百零一次的冷酷表情，却在转头瞬间看到了你。于是所有伪装都崩溃，只剩下羞意。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13301": {
+      "Id": 13301,
+      "Character": 133,
+      "Type": 1,
+      "voResource": "vo_133_ui_gachaNew_001",
+      "Lines": "CharGetLines.13301.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13301.1",
+          "zh_TW": "你好，我是夏花。希望我能在未來的旅程中幫上你的忙，也希望你能信賴我，以後請多指教。",
+          "zh_CN": "你好，我是夏花。希望我能在未来的旅程中帮上你的忙，也希望你能给予我信赖，以后请多指教。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13302": {
+      "Id": 13302,
+      "Character": 133,
+      "Type": 2,
+      "voResource": "vo_133_ui_gacha_001",
+      "Lines": "CharGetLines.13302.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13302.1",
+          "zh_TW": "又見面了，感覺如何？\n…呵呵，我還滿開心的。",
+          "zh_CN": "又见面了，感觉如何？\n……呵呵，我还挺开心的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13303": {
+      "Id": 13303,
+      "Character": 133,
+      "Type": 3,
+      "voResource": "vo_133_ui_unlockLook_001",
+      "Lines": "CharGetLines.13303.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13303.1",
+          "zh_TW": "風與我同在。",
+          "zh_CN": "风与我同在。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13304": {
+      "Id": 13304,
+      "Character": 133,
+      "Type": 4,
+      "voResource": "vo_133_ui_unlockCG_001",
+      "Lines": "CharGetLines.13304.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13304.1",
+          "zh_TW": "下次有機會的話，我們再一起去哪裡逛逛吧？",
+          "zh_CN": "下次有机会的话，我们再一起去哪里逛逛吧？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13305": {
+      "Id": 13305,
+      "Character": 133,
+      "Type": 5,
+      "SkinId": 13303,
+      "Lines": "CharGetLines.13305.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13305.1",
+          "zh_TW": "一縷氣息，初夏的花朵悄然綻放。一種觸感，就像與你一同握住風車的那隻手。",
+          "zh_CN": "一缕气息，初夏的花朵悄然绽放。一种触感，就像与你一同握住风车的那只手。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13401": {
+      "Id": 13401,
+      "Character": 134,
+      "Type": 1,
+      "voResource": "vo_134_ui_gachaNew_001",
+      "Lines": "CharGetLines.13401.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13401.1",
+          "zh_TW": "魔王您好！我...我我、我是冬香！\n...嗚嗚，怎麼會這樣，明明私底下練習了那麼久，卻還是咬到舌頭了...",
+          "zh_CN": "师父您好！我……我我、我是冬香！\n……呜呜，怎么会这样，明明私下里练习了那么久，却还是咬到舌头了……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13402": {
+      "Id": 13402,
+      "Character": 134,
+      "Type": 2,
+      "voResource": "vo_134_ui_gacha_001",
+      "Lines": "CharGetLines.13402.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13402.1",
+          "zh_TW": "又、又見面了，如果您還需要我和花令旅團的力量，那就太好了…",
+          "zh_CN": "又、又见面了，如果您还需要我和花令旅团的力量，那就太好了……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13403": {
+      "Id": 13403,
+      "Character": 134,
+      "Type": 3,
+      "voResource": "vo_134_ui_unlockLook_001",
+      "Lines": "CharGetLines.13403.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13403.1",
+          "zh_TW": "為了回報您的信任，我一定會加倍努力！",
+          "zh_CN": "为了回报您的信任，我一定会加倍努力！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13404": {
+      "Id": 13404,
+      "Character": 134,
+      "Type": 4,
+      "voResource": "vo_134_ui_unlockCG_001",
+      "Lines": "CharGetLines.13404.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13404.1",
+          "zh_TW": "嗚，請、請不要盯著我看…",
+          "zh_CN": "呜，请、请不要盯着我看……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13405": {
+      "Id": 13405,
+      "Character": 134,
+      "Type": 5,
+      "SkinId": 13403,
+      "Lines": "CharGetLines.13405.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13405.1",
+          "zh_TW": "準時打卡不遲到，材料認真準備好。勤勤懇懇，戰戰兢兢。哎唷喂——撲通，怎麼還是搞砸了？",
+          "zh_CN": "按时打卡不迟到，材料认真准备好。勤勤恳恳，战战兢兢。哎呦喂——扑通，怎么还是搞砸了？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13501": {
+      "Id": 13501,
+      "Character": 135,
+      "Type": 1,
+      "voResource": "vo_135_ui_gachaNew_001",
+      "Lines": "CharGetLines.13501.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13501.1",
+          "zh_TW": "找到你了！最近很火的那位魔王大人!\n我叫霧語...既是天才的魔女也是敏銳的記者！接受我的採訪吧！",
+          "zh_CN": "找到你了！最近很火的那位魔王大人!\n我叫雾语……既是天才的魔女也是敏锐的记者！接受我的采访吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13502": {
+      "Id": 13502,
+      "Character": 135,
+      "Type": 2,
+      "voResource": "vo_135_ui_gacha_001",
+      "Lines": "CharGetLines.13502.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13502.1",
+          "zh_TW": "茄子！我又來拜訪了！\n誒~這是啥表情？讓我多收集收集！",
+          "zh_CN": "茄子！我又来拜访了！\n诶~这是啥表情？让我多收集收集！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13503": {
+      "Id": 13503,
+      "Character": 135,
+      "Type": 3,
+      "voResource": "vo_135_ui_unlockLook_001",
+      "Lines": "CharGetLines.13503.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13503.1",
+          "zh_TW": "和魔女一起，窺探世界的秘密吧！",
+          "zh_CN": "和魔女一起，窥探世界的秘密吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13504": {
+      "Id": 13504,
+      "Character": 135,
+      "Type": 4,
+      "voResource": "vo_135_ui_unlockCG_001",
+      "Lines": "CharGetLines.13504.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13504.1",
+          "zh_TW": "我的秘密，你已經盡收眼底了！你的秘密，也快點呈上來吧！",
+          "zh_CN": "我的秘密，你已经尽收眼底了！你的秘密，也快点呈上来吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "13505": {
+      "Id": 13505,
+      "Character": 135,
+      "Type": 5,
+      "SkinId": 13503,
+      "Lines": "CharGetLines.13505.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.13505.1",
+          "zh_TW": "沉醉於可可的甜蜜，掃帚劃過星空，將煩惱拋之腦後——這是只屬於你們的浪漫冒險。",
+          "zh_CN": "沉醉于可可的甜蜜，扫帚划过星空，将烦恼抛之脑后——这是只属于你们的浪漫冒险。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14001": {
+      "Id": 14001,
+      "Character": 140,
+      "Type": 1,
+      "voResource": "vo_140_ui_gachaNew_001",
+      "Lines": "CharGetLines.14001.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14001.1",
+          "zh_TW": "歡迎來到斯帕克拉的移動工坊…等等，這張臉也太可愛了吧…兔子派，超級行動派，快來打聲招呼吧，之後這位就是我們的新朋友啦～",
+          "zh_CN": "欢迎来到斯帕克拉的移动工坊……等等，这张脸可爱超标了……兔子派，超级行动派，快来打个招呼，之后这位就是我们的新朋友了~",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14002": {
+      "Id": 14002,
+      "Character": 140,
+      "Type": 2,
+      "voResource": "vo_140_ui_gacha_001",
+      "Lines": "CharGetLines.14002.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14002.1",
+          "zh_TW": "你決定…親自參與魔王派的測試了嗎？呵呵，對魔王派的發明者而言，這可真是個天大的好消息！",
+          "zh_CN": "你是决定……亲自参与魔王派的测试了吗？呵呵，对魔王派的发明者来说，这可真是一个好消息!",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14003": {
+      "Id": 14003,
+      "Character": 140,
+      "Type": 3,
+      "voResource": "vo_140_ui_unlockLook_001",
+      "Lines": "CharGetLines.14003.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14003.1",
+          "zh_TW": "兔子派，衝呀！我們的童話冒險，正式啟程～",
+          "zh_CN": "兔子派，冲呀！我们的童话冒险，正式启程~",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14004": {
+      "Id": 14004,
+      "Character": 140,
+      "Type": 4,
+      "voResource": "vo_140_ui_unlockCG_001",
+      "Lines": "CharGetLines.14004.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14004.1",
+          "zh_TW": "呵呵，自從上次用這種姿勢敲開靈感之門後，我就發現…\n只要維持這樣的姿勢，好像就能促進腦部血液循環、提升思考效率，幫助我進行腦力激盪。不過，要是太過專注的話，會不會著涼感冒呢…？",
+          "zh_CN": "呵呵，自从上次用这样的姿势敲开了灵感的大门后，我就发现……\n只要保持这样的姿势，就能促进大脑血液循环提高思考效率有助于我更好地进行头脑风暴。不过，要是太过专注的话，会不会感冒呢……？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14101": {
+      "Id": 14101,
+      "Character": 141,
+      "Type": 1,
+      "voResource": "vo_141_ui_gachaNew_001",
+      "Lines": "CharGetLines.14101.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14101.1",
+          "zh_TW": "我乃赤霞，雲笈道場的正統玄師。初來乍到，願以玄之法理...呃，這開場白好難背。總之，要給你畫幾張符嗎？絕對靈驗，不靈包售後。",
+          "zh_CN": "我乃赤霞，云笈道场的正统玄师。初来乍到，愿以玄之法理……呃，这开场白好难背。总之，要给你画几张符吗？绝对灵验，不灵包售后。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14102": {
+      "Id": 14102,
+      "Character": 141,
+      "Type": 2,
+      "voResource": "vo_141_ui_gacha_001",
+      "Lines": "CharGetLines.14102.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14102.1",
+          "zh_TW": "又見面啦，看你氣色不錯，甚好甚好~怎麼樣，上次給你的符效果不錯吧，要回購些不？",
+          "zh_CN": "又见面啦，看你气色不错，甚好甚好~怎么样，上次给你的符效果不错吧，要回购些不？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14103": {
+      "Id": 14103,
+      "Character": 141,
+      "Type": 3,
+      "voResource": "vo_141_ui_unlockLook_001",
+      "Lines": "CharGetLines.14103.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14103.1",
+          "zh_TW": "炎符天降，火德顯彰。火符閃耀，赤焰昭昭。邪魅消散，萬禍不殃。",
+          "zh_CN": "炎符天降，火德显彰。火符闪耀，赤焰昭昭。邪魅消散，万祸不殃。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14104": {
+      "Id": 14104,
+      "Character": 141,
+      "Type": 4,
+      "voResource": "vo_141_ui_unlockCG_001",
+      "Lines": "CharGetLines.14104.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14104.1",
+          "zh_TW": "那、那你現在就發誓，說你哪兒都不去，就呆在我旁邊...動一下也不行！",
+          "zh_CN": "那、那你现在就发誓，说你哪儿都不去，就呆在我旁边……动一下也不行！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14105": {
+      "Id": 14105,
+      "Character": 141,
+      "Type": 5,
+      "SkinId": 14103,
+      "Lines": "CharGetLines.14105.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14105.1",
+          "zh_TW": "誰說鏡中世界就是虛幻？\u000b當她戴上皇后的冠冕，主角與反派的位置對調，荒誕成了律法，而舞台的中心也向她傾斜。\u000b——歡迎來到屬於紅皇后的奇境。",
+          "zh_CN": "谁说镜中的世界就是虚幻？\u000b当她戴上皇后的冠冕，主角与反派位置对调，荒诞成了律法，舞台中心向她转移。\u000b——欢迎来到属于红皇后的奇境。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14201": {
+      "Id": 14201,
+      "Character": 142,
+      "Type": 1,
+      "voResource": "vo_142_ui_gachaNew_001",
+      "Lines": "CharGetLines.14201.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14201.1",
+          "zh_TW": "我是珂賽特，永夜的清道夫。你…欸？魔王？不好，竟然這麼輕易就在魔王面前暴露長相了…",
+          "zh_CN": "我是珂赛特，永夜的清道夫。你……欸？魔王？不好，竟然这么轻易就在魔王面前暴露长相了……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14202": {
+      "Id": 14202,
+      "Character": 142,
+      "Type": 2,
+      "voResource": "vo_142_ui_gacha_001",
+      "Lines": "CharGetLines.14202.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14202.1",
+          "zh_TW": "啊哈哈…又、又見面啦？我明明藏得很好啊…",
+          "zh_CN": "啊哈哈……又、又见面啦？我明明藏得很好啊……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14203": {
+      "Id": 14203,
+      "Character": 142,
+      "Type": 3,
+      "voResource": "vo_142_ui_unlockLook_001",
+      "Lines": "CharGetLines.14203.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14203.1",
+          "zh_TW": "再怎麼說，我也是永夜的清道夫，可不要小瞧我啊！",
+          "zh_CN": "再怎么说，我也是永夜的清道夫，可不要小瞧我啊！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14204": {
+      "Id": 14204,
+      "Character": 142,
+      "Type": 4,
+      "voResource": "vo_142_ui_unlockCG_001",
+      "Lines": "CharGetLines.14204.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14204.1",
+          "zh_TW": "飲料好像卡住了，拿不出來，怎麼辦？搖一搖有用嗎？",
+          "zh_CN": "饮料好像卡住了，拿不出来，怎么办？摇一摇有用吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14205": {
+      "Id": 14205,
+      "Character": 142,
+      "Type": 5,
+      "SkinId": 14203,
+      "Lines": "CharGetLines.14205.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14205.1",
+          "zh_TW": "夏日的海邊不過是陽光海水和沙灘，也沒有什麼特別的——\u000b什麼？！你說有海島限定的沁涼飲料？！那我也要去！",
+          "zh_CN": "夏日的海边不过是阳光海水和沙滩，也并没有什么特别的——\u000b什么？！你说有海岛特供的清凉饮料？！那我也要去！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14301": {
+      "Id": 14301,
+      "Character": 143,
+      "Type": 1,
+      "voResource": "vo_143_ui_gachaNew_001",
+      "Lines": "CharGetLines.14301.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14301.1",
+          "zh_TW": "風影，即日起與你合作。目標是什麼，直說就行。",
+          "zh_CN": "风影，即日起与你展开合作。目标是什么，直说就行。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14302": {
+      "Id": 14302,
+      "Character": 143,
+      "Type": 2,
+      "voResource": "vo_143_ui_gacha_001",
+      "Lines": "CharGetLines.14302.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14302.1",
+          "zh_TW": "又見面了，上次我們合作得不錯，今後也期待與你一起行動。",
+          "zh_CN": "又见面了，上次我们的合作得不错，之后也期待与你一起行动。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14303": {
+      "Id": 14303,
+      "Character": 143,
+      "Type": 3,
+      "voResource": "vo_143_ui_unlockLook_001",
+      "Lines": "CharGetLines.14303.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14303.1",
+          "zh_TW": "做好覺悟吧！你們已經無路可逃！",
+          "zh_CN": "做好觉悟吧！你们无路可逃！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14304": {
+      "Id": 14304,
+      "Character": 143,
+      "Type": 4,
+      "voResource": "vo_143_ui_unlockCG_001",
+      "Lines": "CharGetLines.14304.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14304.1",
+          "zh_TW": "我可不是笨蛋。\n只有在信賴的人面前，才會暴露出這副毫無防備的樣子。",
+          "zh_CN": "我可不是笨蛋。\n只有在信赖的人面前，才会暴露出这副毫无防备的样子。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14401": {
+      "Id": 14401,
+      "Character": 144,
+      "Type": 1,
+      "voResource": "vo_144_ui_gachaNew_001",
+      "Lines": "CharGetLines.14401.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14401.1",
+          "zh_TW": "妾身乃風息島上精心鍛造的利刃，名為千都世。為守護主公，妾身必將以至誠之心，竭力侍奉。",
+          "zh_CN": "妾身乃风息岛上精心锻造的利刃，名为千都世。为守护主公，妾身必将以至诚之心，竭力侍奉。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14402": {
+      "Id": 14402,
+      "Character": 144,
+      "Type": 2,
+      "voResource": "vo_144_ui_gacha_001",
+      "Lines": "CharGetLines.14402.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14402.1",
+          "zh_TW": "「縱然夢裡常幽會，怎比真如見一回。」主公，又見到您真是太好了。",
+          "zh_CN": "“纵然梦里常幽会，怎比真如见一回。”主公，又见到您真是太好了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14403": {
+      "Id": 14403,
+      "Character": 144,
+      "Type": 3,
+      "voResource": "vo_144_ui_unlockLook_001",
+      "Lines": "CharGetLines.14403.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14403.1",
+          "zh_TW": "此刃此心，已不再遲疑。",
+          "zh_CN": "此刃此心，已不再迟疑。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14404": {
+      "Id": 14404,
+      "Character": 144,
+      "Type": 4,
+      "voResource": "vo_144_ui_unlockCG_001",
+      "Lines": "CharGetLines.14404.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14404.1",
+          "zh_TW": "主公，讓我一直為您所用，好嗎？",
+          "zh_CN": "主公，让我一直为您所用，好吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14405": {
+      "Id": 14405,
+      "Character": 144,
+      "Type": 5,
+      "SkinId": 14403,
+      "Lines": "CharGetLines.14405.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14405.1",
+          "zh_TW": "養在水裡的牽牛花——它的鮮活和香氣，能維持多久呢？",
+          "zh_CN": "养在水里的牵牛花——它的鲜亮和淡香，能保持多久呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14501": {
+      "Id": 14501,
+      "Character": 145,
+      "Type": 1,
+      "voResource": "vo_145_ui_gachaNew_001",
+      "Lines": "CharGetLines.14501.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14501.1",
+          "zh_TW": "讓我想想，第一次見面，該用哪種身分才能讓你更加信任我呢？不過首先，請你記住「乙葉」這個名字。",
+          "zh_CN": "让我想想，第一次见面，该用哪种身份才能让你更加信任我呢？不过首先，请你记住“乙叶”这个名字。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14502": {
+      "Id": 14502,
+      "Character": 145,
+      "Type": 2,
+      "voResource": "vo_145_ui_gacha_001",
+      "Lines": "CharGetLines.14502.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14502.1",
+          "zh_TW": "初次見面，請多關照…呵呵，我當然記得你，這只是個用來調節氣氛的小玩笑。",
+          "zh_CN": "初次见面，请多关照……呵呵，我当然记得你，这只是个用来调节气氛的小玩笑。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14503": {
+      "Id": 14503,
+      "Character": 145,
+      "Type": 3,
+      "voResource": "vo_145_ui_unlockLook_001",
+      "Lines": "CharGetLines.14503.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14503.1",
+          "zh_TW": "黑夜不僅適合掩藏秘密，也是清理垃圾的絕佳時刻。",
+          "zh_CN": "黑夜不仅适合掩藏秘密，也是清理垃圾的绝佳时刻。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14504": {
+      "Id": 14504,
+      "Character": 145,
+      "Type": 4,
+      "voResource": "vo_145_ui_unlockCG_001",
+      "Lines": "CharGetLines.14504.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14504.1",
+          "zh_TW": "即使是最完美的偽裝，也需要一點「破綻」才顯得真實。",
+          "zh_CN": "即使是最完美的伪装，也需要一点“破绽”才显得真实。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14701": {
+      "Id": 14701,
+      "Character": 147,
+      "Type": 1,
+      "voResource": "vo_147_ui_gachaNew_001",
+      "Lines": "CharGetLines.14701.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14701.1",
+          "zh_TW": "自由貝斯手——焦糖！是名用琴弦與星塔之音連結的樂手~",
+          "zh_CN": "自由贝斯手——焦糖！是名用琴弦连接星塔之音的乐手∼",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14702": {
+      "Id": 14702,
+      "Character": 147,
+      "Type": 2,
+      "voResource": "vo_147_ui_gacha_001",
+      "Lines": "CharGetLines.14702.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14702.1",
+          "zh_TW": "您又來聽我的演奏啦~難道說...製作人喜歡上我的貝斯了？！這次想聽什麼曲子呢？",
+          "zh_CN": "您又来听我演奏啦~难道说……制作人喜欢上我的贝斯了？！这次想听什么曲子呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14703": {
+      "Id": 14703,
+      "Character": 147,
+      "Type": 3,
+      "voResource": "vo_147_ui_unlockLook_001",
+      "Lines": "CharGetLines.14703.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14703.1",
+          "zh_TW": "我，就是那逼近的風暴！",
+          "zh_CN": "我，即是那迫近的风暴！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14704": {
+      "Id": 14704,
+      "Character": 147,
+      "Type": 4,
+      "voResource": "vo_147_ui_unlockCG_001",
+      "Lines": "CharGetLines.14704.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14704.1",
+          "zh_TW": "我的心聲，有成功傳達給你嗎，製作人？",
+          "zh_CN": "我的心声，有成功传达给你吗，制作人？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14705": {
+      "Id": 14705,
+      "Character": 147,
+      "Type": 5,
+      "SkinId": 14703,
+      "Lines": "CharGetLines.14705.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14705.1",
+          "zh_TW": "滴滴嘟滴嘟，借過借過！演出馬上就要開始啦——\n請聽——夢夢萌萌，軟軟咚咚，叮叮噹噹的貝斯夢境！",
+          "zh_CN": "滴滴嘟滴嘟，让一让！演出马上就要开始啦——\n请听——梦梦萌萌，软软咚咚，叮叮当当的贝斯梦境！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14901": {
+      "Id": 14901,
+      "Character": 149,
+      "Type": 1,
+      "voResource": "vo_149_ui_gachaNew_001",
+      "Lines": "CharGetLines.14901.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14901.1",
+          "zh_TW": "我是恩賜意志的格芮，只要你能滿足我心底的渴望，我會為你展示更多「特別」的東西…呵呵，請不要讓我等得太久哦。",
+          "zh_CN": "我是恩赐意志的格芮，只要你能满足我心底的渴望，我就会为你展示更多“特别”的东西……呵呵，请不要让我等得太久哦。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14902": {
+      "Id": 14902,
+      "Character": 149,
+      "Type": 2,
+      "voResource": "vo_149_ui_gacha_001",
+      "Lines": "CharGetLines.14902.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14902.1",
+          "zh_TW": "魔王大人，只有您才能讓我感受到滿足…請給予我更多吧，我會把渴望與沉淪…全部奉獻給您！",
+          "zh_CN": "魔王大人，只有您才能让我感受到满足……请给予我更多吧，我会把渴望与沉沦……全部奉献给您！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14903": {
+      "Id": 14903,
+      "Character": 149,
+      "Type": 3,
+      "voResource": "vo_149_ui_unlockLook_001",
+      "Lines": "CharGetLines.14903.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14903.1",
+          "zh_TW": "你不打算牽住我的項圈嗎？可是…我的靈魂已經忍耐不住震顫了…不要欺負人嘛…",
+          "zh_CN": "你不打算牵住我的项圈吗？可是……我的灵魂已经忍耐不住震颤了……不要欺负人嘛……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14904": {
+      "Id": 14904,
+      "Character": 149,
+      "Type": 4,
+      "voResource": "vo_149_ui_unlockCG_001",
+      "Lines": "CharGetLines.14904.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14904.1",
+          "zh_TW": "呵呵～握住別人的靈魂，感覺如何？",
+          "zh_CN": "呵呵~握住别人的灵魂，感觉如何？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "14905": {
+      "Id": 14905,
+      "Character": 149,
+      "Type": 5,
+      "SkinId": 14903,
+      "Lines": "CharGetLines.14905.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.14905.1",
+          "zh_TW": "咖啡的酸澀，薔薇的芳香，想與你分享一切新奇的體驗。融雪後，來一場約會吧？",
+          "zh_CN": "咖啡的酸涩，蔷薇的芳香，想将一切新奇的体验都与你分享。融雪后，来一场约会吧？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15001": {
+      "Id": 15001,
+      "Character": 150,
+      "Type": 1,
+      "voResource": "vo_150_ui_gachaNew_001",
+      "Lines": "CharGetLines.15001.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15001.1",
+          "zh_TW": "感到榮幸吧！在你面前的可是恩賜意志的菁英——菈露大人！等會...我先接個通訊。\n啊~老大！您講，我在聽。我...我現在正在出差，是是，那件事今天一定搞定，哪怕熬夜也會搞定。",
+          "zh_CN": "感到荣幸吧！在你面前的可是恩赐意志的精英——菈露大人！等会……我先接个通话。\n啊~老大！您讲，我在听。我……我现在正在出差，是是，那件事今天一定搞定，哪怕熬夜也会搞定。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15002": {
+      "Id": 15002,
+      "Character": 150,
+      "Type": 2,
+      "voResource": "vo_150_ui_gacha_001",
+      "Lines": "CharGetLines.15002.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15002.1",
+          "zh_TW": "哦，又見面了。有什麼需求？先說說看吧。",
+          "zh_CN": "哦，又见面了。有什么需求？先说说看吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15003": {
+      "Id": 15003,
+      "Character": 150,
+      "Type": 3,
+      "voResource": "vo_150_ui_unlockLook_001",
+      "Lines": "CharGetLines.15003.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15003.1",
+          "zh_TW": "休息得差不多了，下面就讓你見識見識我的真本事吧。",
+          "zh_CN": "休息得差不多了，下面就让你见识见识我的真本事吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15004": {
+      "Id": 15004,
+      "Character": 150,
+      "Type": 4,
+      "voResource": "vo_150_ui_unlockCG_001",
+      "Lines": "CharGetLines.15004.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15004.1",
+          "zh_TW": "對不起嘛~下次絕不會再犯了，我保證~\n——學會了嗎？菈露大人的職場求生技。",
+          "zh_CN": "对不起嘛~下次绝不会再犯了，我保证~\n——学会了吗？菈露大人的职场求生技。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15501": {
+      "Id": 15501,
+      "Character": 155,
+      "Type": 1,
+      "voResource": "vo_155_ui_gachaNew_001",
+      "Lines": "CharGetLines.15501.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15501.1",
+          "zh_TW": "正式自我介紹一下，我是希婭。你的身上，有著可以信任的氣味呢。",
+          "zh_CN": "正式自我介绍一下，我是希娅。你的身上，有着可以信任的气味呢。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15502": {
+      "Id": 15502,
+      "Character": 155,
+      "Type": 2,
+      "voResource": "vo_155_ui_gacha_001",
+      "Lines": "CharGetLines.15502.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15502.1",
+          "zh_TW": "又見面了～看來我們之間的緣分，比帆船的纜繩還要堅固呢。",
+          "zh_CN": "又见面了~看来我们之间的缘分，比帆船的缆绳还要坚固呢。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15503": {
+      "Id": 15503,
+      "Character": 155,
+      "Type": 3,
+      "voResource": "vo_155_ui_unlockLook_001",
+      "Lines": "CharGetLines.15503.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15503.1",
+          "zh_TW": "一起來感受衝浪的魅力吧！",
+          "zh_CN": "一起来感受冲浪的魅力吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15504": {
+      "Id": 15504,
+      "Character": 155,
+      "Type": 4,
+      "voResource": "vo_155_ui_unlockCG_001",
+      "Lines": "CharGetLines.15504.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15504.1",
+          "zh_TW": "那一晚的月光與海浪，想必你也無法忘懷吧。",
+          "zh_CN": "那一晚的月光与海浪，想必你也无法忘怀吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15601": {
+      "Id": 15601,
+      "Character": 156,
+      "Type": 1,
+      "voResource": "vo_156_ui_gachaNew_001",
+      "Lines": "CharGetLines.15601.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15601.1",
+          "zh_TW": "我是花令旅團的小禾。說實話，我不太擅長努力啦…但是跟你在一起的話，稍稍努力一下也不是不行…",
+          "zh_CN": "我是花令旅团的小禾。说实话，我不太擅长努力啦……但是跟你在一起的话，稍稍努力一下也不是不行……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15602": {
+      "Id": 15602,
+      "Character": 156,
+      "Type": 2,
+      "voResource": "vo_156_ui_gacha_001",
+      "Lines": "CharGetLines.15602.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15602.1",
+          "zh_TW": "又見面啦…\n你先忙著，不用在意我。\n我們都放鬆一點就好啦。",
+          "zh_CN": "又见面啦……\n你先忙着，不用在意我。\n我们都放松一点就好啦。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15603": {
+      "Id": 15603,
+      "Character": 156,
+      "Type": 3,
+      "voResource": "vo_156_ui_unlockLook_001",
+      "Lines": "CharGetLines.15603.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15603.1",
+          "zh_TW": "咻咻咻！超絕厲害版小禾登場！",
+          "zh_CN": "咻咻咻！超绝厉害版小禾登场！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15604": {
+      "Id": 15604,
+      "Character": 156,
+      "Type": 4,
+      "voResource": "vo_156_ui_unlockCG_001",
+      "Lines": "CharGetLines.15604.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15604.1",
+          "zh_TW": "哇！嘿嘿，被嚇到了吧～",
+          "zh_CN": "哇！嘿嘿，被吓到了吧~",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15605": {
+      "Id": 15605,
+      "Character": 156,
+      "Type": 5,
+      "SkinId": 15603,
+      "Lines": "CharGetLines.15605.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15605.1",
+          "zh_TW": "生活不過如此吧：吃一塊歌劇院蛋糕，再沏一壺紅茶。夢想正在膨脹，直至茶壺吐出蒸汽泡泡。",
+          "zh_CN": "生活不过是如此吧：吃一块歌剧院，再沏一壶红茶。梦想正在膨胀，直至茶壶吐出蒸汽泡泡。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15801": {
+      "Id": 15801,
+      "Character": 158,
+      "Type": 1,
+      "voResource": "vo_158_ui_gachaNew_001",
+      "Lines": "CharGetLines.15801.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15801.1",
+          "zh_TW": "感到榮幸吧！在你面前的可是恩賜意志的菁英——菈露大人！\n……你那是什麼表情？這只是恩賜意志發的雪願節制服！",
+          "zh_CN": "感到荣幸吧！在你面前的可是恩赐意志的精英——菈露大人！\n ……你那是什么表情？这只是恩赐意志发的雪愿节制服！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15802": {
+      "Id": 15802,
+      "Character": 158,
+      "Type": 2,
+      "voResource": "vo_158_ui_gacha_001",
+      "Lines": "CharGetLines.15802.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15802.1",
+          "zh_TW": "又見面啦，要和我一起去發禮物嗎？",
+          "zh_CN": "又见面啦，要跟我一起去发礼物吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15803": {
+      "Id": 15803,
+      "Character": 158,
+      "Type": 3,
+      "voResource": "vo_158_ui_unlockLook_001",
+      "Lines": "CharGetLines.15803.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15803.1",
+          "zh_TW": "禮物從天而降，這還不算驚喜嗎？",
+          "zh_CN": "礼物从天而降，这还不算惊喜吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15804": {
+      "Id": 15804,
+      "Character": 158,
+      "Type": 4,
+      "voResource": "vo_158_ui_unlockCG_001",
+      "Lines": "CharGetLines.15804.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15804.1",
+          "zh_TW": "唔…我怎麼睡著了？",
+          "zh_CN": "唔……我怎么睡着了？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15901": {
+      "Id": 15901,
+      "Character": 159,
+      "Type": 1,
+      "voResource": "vo_159_ui_gachaNew_001",
+      "Lines": "CharGetLines.15901.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15901.1",
+          "zh_TW": "沒想到會在這裡相遇，看來我們緣分不淺。為了順應節日氛圍，我特意挑了這身裝束，你覺得怎麼樣？",
+          "zh_CN": "没想到会在这里相遇，看来我们缘分不浅。为了顺应节日氛围，我特意挑了这身装束，你觉得怎么样？",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15902": {
+      "Id": 15902,
+      "Character": 159,
+      "Type": 2,
+      "voResource": "vo_159_ui_gacha_001",
+      "Lines": "CharGetLines.15902.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15902.1",
+          "zh_TW": "又見面了，看來你對我的針劑還是念念不忘。",
+          "zh_CN": "又见面了，看来你对我的针剂还是念念不忘。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15903": {
+      "Id": 15903,
+      "Character": 159,
+      "Type": 3,
+      "voResource": "vo_159_ui_unlockLook_001",
+      "Lines": "CharGetLines.15903.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15903.1",
+          "zh_TW": "你那顆躁動不安的心，就讓我來讓它鼓動得更加激烈吧。",
+          "zh_CN": "你那颗躁动不安的心，就让我来让它鼓动得更加激烈吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "15904": {
+      "Id": 15904,
+      "Character": 159,
+      "Type": 4,
+      "voResource": "vo_159_ui_unlockCG_001",
+      "Lines": "CharGetLines.15904.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.15904.1",
+          "zh_TW": "這次換你來診療我，感覺怎麼樣？呵呵，手別停啊…",
+          "zh_CN": "这次换你来诊疗我，感觉怎么样？呵呵，手别停啊……",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "16001": {
+      "Id": 16001,
+      "Character": 160,
+      "Type": 1,
+      "voResource": "vo_160_ui_gachaNew_001",
+      "Lines": "CharGetLines.16001.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.16001.1",
+          "zh_TW": "能和你們一起來海邊真的很難得，希望大家能度過一個開心的假日。啊，但如果做了危險的事，我會給予「溫柔警告」哦～",
+          "zh_CN": "能和你们一起来海边真的很难得，希望大家能度过一个开心的假日。啊，但如果做了危险的事，我会“温柔警告”的哦~",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "16002": {
+      "Id": 16002,
+      "Character": 160,
+      "Type": 2,
+      "voResource": "vo_160_ui_gacha_001",
+      "Lines": "CharGetLines.16002.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.16002.1",
+          "zh_TW": "看樣子，這片海暫時還離不開我呢，那就讓我繼續陪著大家吧～",
+          "zh_CN": "看样子，这片海暂时还离不开我呢，那就让我继续陪着大家吧~",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "16003": {
+      "Id": 16003,
+      "Character": 160,
+      "Type": 3,
+      "voResource": "vo_160_ui_unlockLook_001",
+      "Lines": "CharGetLines.16003.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.16003.1",
+          "zh_TW": "口頭警告無效的話，就別怪我不客氣了。",
+          "zh_CN": "口头警告无效的话，就别怪我不客气了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    },
+    "16004": {
+      "Id": 16004,
+      "Character": 160,
+      "Type": 4,
+      "voResource": "vo_160_ui_unlockCG_001",
+      "Lines": "CharGetLines.16004.1",
+      "_localized": {
+        "/Lines": {
+          "key": "CharGetLines.16004.1",
+          "zh_TW": "已經到了該回去的時間了，不過…\n夕陽真美啊，我們再多待一會吧。",
+          "zh_CN": "已经到了该回去的时间了，不过……\n夕阳真美啊，我们再多待一会儿吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGetLines.json",
+            "zh_CN": "language/zh_CN/CharGetLines.json"
+          }
+        }
+      }
+    }
+  }
+}

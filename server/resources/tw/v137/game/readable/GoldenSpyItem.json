@@ -1,0 +1,485 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "GoldenSpyItem",
+    "categories": [
+      "items_rewards",
+      "stages_modes"
+    ],
+    "row_count": 18,
+    "localization_hits": 18,
+    "source": "bin/GoldenSpyItem.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1101": {
+      "Id": 1101,
+      "Name": "GoldenSpyItem.1101.1",
+      "ItemType": 1,
+      "Weight": 15,
+      "Score": 10,
+      "IconPath": "icon_goldenspy_1101",
+      "PrefabName": "1101",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        0
+      ],
+      "ShowValue": true,
+      "IsTask": true,
+      "NeedShowFlash": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1101.1",
+          "zh_TW": "文件包",
+          "zh_CN": "公文包",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1102": {
+      "Id": 1102,
+      "Name": "GoldenSpyItem.1102.1",
+      "ItemType": 1,
+      "Weight": 30,
+      "Score": 30,
+      "IconPath": "icon_goldenspy_1102",
+      "PrefabName": "1102",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        0
+      ],
+      "ShowValue": true,
+      "IsTask": true,
+      "NeedShowFlash": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1102.1",
+          "zh_TW": "文件包",
+          "zh_CN": "公文包",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1103": {
+      "Id": 1103,
+      "Name": "GoldenSpyItem.1103.1",
+      "ItemType": 1,
+      "Weight": 60,
+      "Score": 50,
+      "IconPath": "icon_goldenspy_1103",
+      "PrefabName": "1103",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        0
+      ],
+      "ShowValue": true,
+      "IsTask": true,
+      "NeedShowFlash": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1103.1",
+          "zh_TW": "文件包",
+          "zh_CN": "公文包",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1104": {
+      "Id": 1104,
+      "Name": "GoldenSpyItem.1104.1",
+      "ItemType": 2,
+      "Weight": 15,
+      "Score": 60,
+      "IconPath": "icon_goldenspy_1104",
+      "PrefabName": "1104",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        0
+      ],
+      "ShowValue": true,
+      "IsTask": true,
+      "NeedShowFlash": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1104.1",
+          "zh_TW": "糖果盒",
+          "zh_CN": "糖果盒",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1105": {
+      "Id": 1105,
+      "Name": "GoldenSpyItem.1105.1",
+      "ItemType": 2,
+      "Weight": 25,
+      "Score": 100,
+      "IconPath": "icon_goldenspy_1105",
+      "PrefabName": "1105",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        0
+      ],
+      "ShowValue": true,
+      "IsTask": true,
+      "NeedShowFlash": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1105.1",
+          "zh_TW": "糖果盒",
+          "zh_CN": "糖果盒",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1106": {
+      "Id": 1106,
+      "Name": "GoldenSpyItem.1106.1",
+      "ItemType": 2,
+      "Weight": 40,
+      "Score": 150,
+      "IconPath": "icon_goldenspy_1106",
+      "PrefabName": "1106",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        0
+      ],
+      "ShowValue": true,
+      "IsTask": true,
+      "NeedShowFlash": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1106.1",
+          "zh_TW": "糖果盒",
+          "zh_CN": "糖果盒",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1107": {
+      "Id": 1107,
+      "Name": "GoldenSpyItem.1107.1",
+      "ItemType": 3,
+      "Weight": 20,
+      "Score": 300,
+      "IconPath": "icon_goldenspy_1107",
+      "PrefabName": "1107",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        0
+      ],
+      "ShowValue": true,
+      "IsTask": true,
+      "NeedShowFlash": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1107.1",
+          "zh_TW": "寶石",
+          "zh_CN": "宝石",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1108": {
+      "Id": 1108,
+      "Name": "GoldenSpyItem.1108.1",
+      "ItemType": 4,
+      "Weight": 10,
+      "Score": 200,
+      "IconPath": "icon_goldenspy_1108",
+      "PrefabName": "1108",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        0
+      ],
+      "ShowValue": true,
+      "IsTask": true,
+      "NeedShowFlash": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1108.1",
+          "zh_TW": "情報卷軸",
+          "zh_CN": "情报卷轴",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1109": {
+      "Id": 1109,
+      "Name": "GoldenSpyItem.1109.1",
+      "ItemType": 5,
+      "Weight": 35,
+      "Score": 500,
+      "IconPath": "icon_goldenspy_1109",
+      "PrefabName": "1109",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        0
+      ],
+      "ShowValue": true,
+      "IsTask": true,
+      "NeedShowFlash": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1109.1",
+          "zh_TW": "竊聽器",
+          "zh_CN": "窃听器",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1201": {
+      "Id": 1201,
+      "Name": "GoldenSpyItem.1201.1",
+      "ItemType": 6,
+      "IconPath": "icon_goldenspy_1201",
+      "PrefabName": "1201",
+      "luaCtrl": "GoldenSpySafeBoxItem",
+      "Params": [
+        20,
+        30,
+        50,
+        200
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1201.1",
+          "zh_TW": "保險箱",
+          "zh_CN": "保险箱",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1202": {
+      "Id": 1202,
+      "Name": "GoldenSpyItem.1202.1",
+      "ItemType": 6,
+      "IconPath": "icon_goldenspy_1202",
+      "PrefabName": "1202",
+      "luaCtrl": "GoldenSpySafeBoxItem",
+      "Params": [
+        30,
+        40,
+        150,
+        400
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1202.1",
+          "zh_TW": "保險箱",
+          "zh_CN": "保险箱",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1203": {
+      "Id": 1203,
+      "Name": "GoldenSpyItem.1203.1",
+      "ItemType": 7,
+      "Weight": 30,
+      "Score": 50,
+      "IconPath": "icon_goldenspy_1203",
+      "PrefabName": "1203",
+      "luaCtrl": "GoldenSpyPatrolItem",
+      "Params": [
+        120,
+        5,
+        40,
+        90
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1203.1",
+          "zh_TW": "無人機",
+          "zh_CN": "无人机",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1204": {
+      "Id": 1204,
+      "Name": "GoldenSpyItem.1204.1",
+      "ItemType": 8,
+      "Weight": 30,
+      "Score": 50,
+      "IconPath": "icon_goldenspy_1204",
+      "PrefabName": "1204",
+      "luaCtrl": "GoldenSpyCompanionItem",
+      "Params": [
+        120,
+        45,
+        90
+      ],
+      "ShowValue": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1204.1",
+          "zh_TW": "掃地機",
+          "zh_CN": "扫地机",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1205": {
+      "Id": 1205,
+      "Name": "GoldenSpyItem.1205.1",
+      "ItemType": 9,
+      "IconPath": "icon_goldenspy_1205",
+      "PrefabName": "1205",
+      "luaCtrl": "GoldenSpyBoomItem",
+      "Params": [
+        310
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1205.1",
+          "zh_TW": "炸藥桶",
+          "zh_CN": "炸药桶",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1301": {
+      "Id": 1301,
+      "Name": "GoldenSpyItem.1301.1",
+      "ItemType": 10,
+      "Weight": 10,
+      "Score": 100,
+      "IconPath": "icon_goldenspy_1301",
+      "PrefabName": "1301",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        0
+      ],
+      "ShowValue": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1301.1",
+          "zh_TW": "絕密文件夾",
+          "zh_CN": "绝密文件夹",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1311": {
+      "Id": 1311,
+      "Name": "GoldenSpyItem.1311.1",
+      "ItemType": 10,
+      "Weight": 10,
+      "Score": 100,
+      "IconPath": "icon_goldenspy_1301",
+      "PrefabName": "1311",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        0
+      ],
+      "ShowValue": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1311.1",
+          "zh_TW": "絕密文件夾",
+          "zh_CN": "绝密文件夹",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1312": {
+      "Id": 1312,
+      "Name": "GoldenSpyItem.1312.1",
+      "ItemType": 10,
+      "Weight": 10,
+      "Score": 100,
+      "IconPath": "icon_goldenspy_1301",
+      "PrefabName": "1312",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        0
+      ],
+      "ShowValue": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1312.1",
+          "zh_TW": "絕密文件夾",
+          "zh_CN": "绝密文件夹",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    },
+    "1313": {
+      "Id": 1313,
+      "Name": "GoldenSpyItem.1313.1",
+      "ItemType": 10,
+      "Weight": 10,
+      "Score": 100,
+      "IconPath": "icon_goldenspy_1301",
+      "PrefabName": "1313",
+      "luaCtrl": "GoldenSpyNormalItem",
+      "Params": [
+        1313
+      ],
+      "ShowValue": true,
+      "_localized": {
+        "/Name": {
+          "key": "GoldenSpyItem.1313.1",
+          "zh_TW": "絕密文件夾",
+          "zh_CN": "绝密文件夹",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+            "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+          }
+        }
+      }
+    }
+  }
+}

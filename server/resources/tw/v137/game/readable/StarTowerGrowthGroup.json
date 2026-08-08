@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StarTowerGrowthGroup",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 4,
+    "localization_hits": 4,
+    "source": "bin/StarTowerGrowthGroup.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "WorldClass": 1,
+      "Name": "StarTowerGrowthGroup.1.1",
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthGroup.1.1",
+          "zh_TW": "星塔研究·一",
+          "zh_CN": "星塔研究·一",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthGroup.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthGroup.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "PreGroup": 1,
+      "WorldClass": 10,
+      "Name": "StarTowerGrowthGroup.2.1",
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthGroup.2.1",
+          "zh_TW": "星塔研究·二",
+          "zh_CN": "星塔研究·二",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthGroup.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthGroup.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "PreGroup": 2,
+      "WorldClass": 20,
+      "Name": "StarTowerGrowthGroup.3.1",
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthGroup.3.1",
+          "zh_TW": "星塔研究·三",
+          "zh_CN": "星塔研究·三",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthGroup.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthGroup.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "PreGroup": 3,
+      "WorldClass": 30,
+      "Name": "StarTowerGrowthGroup.4.1",
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthGroup.4.1",
+          "zh_TW": "星塔研究·四",
+          "zh_CN": "星塔研究·四",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthGroup.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthGroup.json"
+          }
+        }
+      }
+    }
+  }
+}

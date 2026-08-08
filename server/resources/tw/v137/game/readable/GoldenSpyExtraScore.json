@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "GoldenSpyExtraScore",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 3,
+    "localization_hits": 0,
+    "source": "bin/GoldenSpyExtraScore.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "ItemCount": 1,
+      "Score": 100,
+      "Weight": 10
+    },
+    "2": {
+      "Id": 2,
+      "ItemCount": 2,
+      "Score": 150,
+      "Weight": 40
+    },
+    "3": {
+      "Id": 3,
+      "ItemCount": 3,
+      "Score": 200,
+      "Weight": 50
+    }
+  }
+}

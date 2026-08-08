@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "FactionRelation",
+    "categories": [
+      "world_npc"
+    ],
+    "row_count": 9,
+    "localization_hits": 0,
+    "source": "bin/FactionRelation.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "FactionRelationShip": [
+        1,
+        1,
+        3,
+        3,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    "2": {
+      "Id": 2,
+      "FactionRelationShip": [
+        1,
+        1,
+        3,
+        3,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    "3": {
+      "Id": 3,
+      "FactionRelationShip": [
+        3,
+        3,
+        1,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    "4": {
+      "Id": 4,
+      "FactionRelationShip": [
+        3,
+        3,
+        3,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    "5": {
+      "Id": 5,
+      "FactionRelationShip": [
+        3,
+        3,
+        3,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    "6": {
+      "Id": 6,
+      "FactionRelationShip": [
+        1,
+        1,
+        3,
+        3,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    "7": {
+      "Id": 7,
+      "FactionRelationShip": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    "8": {
+      "Id": 8,
+      "FactionRelationShip": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    "9": {
+      "Id": 9,
+      "FactionRelationShip": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1
+      ]
+    }
+  }
+}

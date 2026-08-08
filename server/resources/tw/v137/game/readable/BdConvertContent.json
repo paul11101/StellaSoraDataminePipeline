@@ -1,0 +1,772 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "BdConvertContent",
+    "categories": [
+      "shop_economy"
+    ],
+    "row_count": 27,
+    "localization_hits": 27,
+    "source": "bin/BdConvertContent.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "ConvertConditionList": [
+        103,
+        403,
+        502
+      ],
+      "MaxSub": 1,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_s",
+      "BasicReward": "{\"73201\":600,\"82004\":120,\"82001\":120}",
+      "BasicRewardPreview": [
+        73201,
+        82001,
+        82004
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.101.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.101.1",
+          "zh_TW": "遞交「極限登峰」級紀錄",
+          "zh_CN": "递交「极限登峰」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "102": {
+      "Id": 102,
+      "ConvertConditionList": [
+        102,
+        402,
+        501
+      ],
+      "MaxSub": 3,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_a",
+      "BasicReward": "{\"73201\":400,\"82001\":40,\"82004\":40}",
+      "BasicRewardPreview": [
+        73201,
+        82001,
+        82004
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.102.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.102.1",
+          "zh_TW": "遞交「深域探索」級紀錄",
+          "zh_CN": "递交「深域探索」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "103": {
+      "Id": 103,
+      "ConvertConditionList": [
+        101,
+        601
+      ],
+      "MaxSub": 6,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_b",
+      "BasicReward": "{\"73201\":200,\"1\":200000}",
+      "BasicRewardPreview": [
+        73201,
+        1
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.103.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.103.1",
+          "zh_TW": "遞交「淺層調查」級紀錄",
+          "zh_CN": "递交「浅层调查」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "201": {
+      "Id": 201,
+      "ConvertConditionList": [
+        103,
+        8002,
+        502
+      ],
+      "MaxSub": 1,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_s",
+      "BasicReward": "{\"73201\":600,\"35000\":5}",
+      "BasicRewardPreview": [
+        73201,
+        35000
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.201.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.201.1",
+          "zh_TW": "遞交「極限登峰」級紀錄",
+          "zh_CN": "递交「极限登峰」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "202": {
+      "Id": 202,
+      "ConvertConditionList": [
+        106,
+        403,
+        501
+      ],
+      "MaxSub": 3,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_a",
+      "BasicReward": "{\"73201\":400,\"82004\":60}",
+      "BasicRewardPreview": [
+        73201,
+        82004
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.202.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.202.1",
+          "zh_TW": "遞交「深域探索」級紀錄",
+          "zh_CN": "递交「深域探索」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "203": {
+      "Id": 203,
+      "ConvertConditionList": [
+        101,
+        402,
+        506
+      ],
+      "MaxSub": 6,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_b",
+      "BasicReward": "{\"73201\":200,\"82001\":40}",
+      "BasicRewardPreview": [
+        73201,
+        82001
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.203.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.203.1",
+          "zh_TW": "遞交「淺層調查」級紀錄",
+          "zh_CN": "递交「浅层调查」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "301": {
+      "Id": 301,
+      "ConvertConditionList": [
+        103,
+        607,
+        502
+      ],
+      "MaxSub": 1,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_s",
+      "BasicReward": "{\"73201\":600,\"35000\":5}",
+      "BasicRewardPreview": [
+        73201,
+        35000
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.301.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.301.1",
+          "zh_TW": "遞交「極限登峰」級紀錄",
+          "zh_CN": "递交「极限登峰」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "302": {
+      "Id": 302,
+      "ConvertConditionList": [
+        106,
+        403,
+        501
+      ],
+      "MaxSub": 3,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_a",
+      "BasicReward": "{\"73201\":400,\"82004\":60}",
+      "BasicRewardPreview": [
+        73201,
+        82004
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.302.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.302.1",
+          "zh_TW": "遞交「深域探索」級紀錄",
+          "zh_CN": "递交「深域探索」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "303": {
+      "Id": 303,
+      "ConvertConditionList": [
+        101,
+        402,
+        506
+      ],
+      "MaxSub": 6,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_b",
+      "BasicReward": "{\"73201\":200,\"82001\":40}",
+      "BasicRewardPreview": [
+        73201,
+        82001
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.303.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.303.1",
+          "zh_TW": "遞交「淺層調查」級紀錄",
+          "zh_CN": "递交「浅层调查」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "401": {
+      "Id": 401,
+      "ConvertConditionList": [
+        103,
+        608,
+        502
+      ],
+      "MaxSub": 1,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_s",
+      "BasicReward": "{\"73201\":600,\"35000\":5}",
+      "BasicRewardPreview": [
+        73201,
+        35000
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.401.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.401.1",
+          "zh_TW": "遞交「極限登峰」級紀錄",
+          "zh_CN": "递交「极限登峰」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "402": {
+      "Id": 402,
+      "ConvertConditionList": [
+        106,
+        403,
+        501
+      ],
+      "MaxSub": 2,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_a",
+      "BasicReward": "{\"73201\":600,\"82004\":90}",
+      "BasicRewardPreview": [
+        73201,
+        82004
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.402.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.402.1",
+          "zh_TW": "遞交「深域探索」級紀錄",
+          "zh_CN": "递交「深域探索」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "405": {
+      "Id": 405,
+      "ConvertConditionList": [
+        101,
+        402,
+        506
+      ],
+      "MaxSub": 3,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_b",
+      "BasicReward": "{\"73201\":400,\"82001\":80}",
+      "BasicRewardPreview": [
+        73201,
+        82001
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.405.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.405.1",
+          "zh_TW": "遞交「淺層調查」級紀錄",
+          "zh_CN": "递交「浅层调查」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "501": {
+      "Id": 501,
+      "ConvertConditionList": [
+        103,
+        609,
+        502
+      ],
+      "MaxSub": 1,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_s",
+      "BasicReward": "{\"73201\":600,\"35000\":5}",
+      "BasicRewardPreview": [
+        73201,
+        35000
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.501.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.501.1",
+          "zh_TW": "遞交「極限登峰」級紀錄",
+          "zh_CN": "递交「极限登峰」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "502": {
+      "Id": 502,
+      "ConvertConditionList": [
+        106,
+        403,
+        501
+      ],
+      "MaxSub": 2,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_a",
+      "BasicReward": "{\"73201\":600,\"82004\":90}",
+      "BasicRewardPreview": [
+        73201,
+        82004
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.502.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.502.1",
+          "zh_TW": "遞交「深域探索」級紀錄",
+          "zh_CN": "递交「深域探索」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "503": {
+      "Id": 503,
+      "ConvertConditionList": [
+        101,
+        402,
+        506
+      ],
+      "MaxSub": 3,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_b",
+      "BasicReward": "{\"73201\":400,\"82001\":80}",
+      "BasicRewardPreview": [
+        73201,
+        82001
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.503.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.503.1",
+          "zh_TW": "遞交「淺層調查」級紀錄",
+          "zh_CN": "递交「浅层调查」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "601": {
+      "Id": 601,
+      "ConvertConditionList": [
+        103,
+        610,
+        502
+      ],
+      "MaxSub": 1,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_s",
+      "BasicReward": "{\"73201\":600,\"35000\":5}",
+      "BasicRewardPreview": [
+        73201,
+        35000
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.601.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.601.1",
+          "zh_TW": "遞交「極限登峰」級紀錄",
+          "zh_CN": "递交「极限登峰」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "602": {
+      "Id": 602,
+      "ConvertConditionList": [
+        106,
+        403,
+        501
+      ],
+      "MaxSub": 2,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_a",
+      "BasicReward": "{\"73201\":600,\"82004\":90}",
+      "BasicRewardPreview": [
+        73201,
+        82004
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.602.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.602.1",
+          "zh_TW": "遞交「深域探索」級紀錄",
+          "zh_CN": "递交「深域探索」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "603": {
+      "Id": 603,
+      "ConvertConditionList": [
+        101,
+        402,
+        506
+      ],
+      "MaxSub": 3,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_b",
+      "BasicReward": "{\"73201\":400,\"82001\":80}",
+      "BasicRewardPreview": [
+        73201,
+        82001
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.603.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.603.1",
+          "zh_TW": "遞交「淺層調查」級紀錄",
+          "zh_CN": "递交「浅层调查」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "701": {
+      "Id": 701,
+      "ConvertConditionList": [
+        103,
+        611,
+        502
+      ],
+      "MaxSub": 1,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_s",
+      "BasicReward": "{\"73201\":600,\"35000\":5}",
+      "BasicRewardPreview": [
+        73201,
+        35000
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.701.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.701.1",
+          "zh_TW": "遞交「極限登峰」級紀錄",
+          "zh_CN": "递交「极限登峰」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "702": {
+      "Id": 702,
+      "ConvertConditionList": [
+        106,
+        403,
+        501
+      ],
+      "MaxSub": 2,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_a",
+      "BasicReward": "{\"73201\":600,\"82004\":90}",
+      "BasicRewardPreview": [
+        73201,
+        82004
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.702.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.702.1",
+          "zh_TW": "遞交「深域探索」級紀錄",
+          "zh_CN": "递交「深域探索」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "703": {
+      "Id": 703,
+      "ConvertConditionList": [
+        101,
+        402,
+        506
+      ],
+      "MaxSub": 3,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_b",
+      "BasicReward": "{\"73201\":400,\"82001\":80}",
+      "BasicRewardPreview": [
+        73201,
+        82001
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.703.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.703.1",
+          "zh_TW": "遞交「淺層調查」級紀錄",
+          "zh_CN": "递交「浅层调查」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "801": {
+      "Id": 801,
+      "ConvertConditionList": [
+        103,
+        612,
+        502
+      ],
+      "MaxSub": 1,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_s",
+      "BasicReward": "{\"73201\":600,\"35000\":5}",
+      "BasicRewardPreview": [
+        73201,
+        35000
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.801.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.801.1",
+          "zh_TW": "遞交「極限登峰」級紀錄",
+          "zh_CN": "递交「极限登峰」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "802": {
+      "Id": 802,
+      "ConvertConditionList": [
+        106,
+        403,
+        501
+      ],
+      "MaxSub": 2,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_a",
+      "BasicReward": "{\"73201\":600,\"82004\":90}",
+      "BasicRewardPreview": [
+        73201,
+        82004
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.802.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.802.1",
+          "zh_TW": "遞交「深域探索」級紀錄",
+          "zh_CN": "递交「深域探索」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "803": {
+      "Id": 803,
+      "ConvertConditionList": [
+        101,
+        402,
+        506
+      ],
+      "MaxSub": 3,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_b",
+      "BasicReward": "{\"73201\":400,\"82001\":80}",
+      "BasicRewardPreview": [
+        73201,
+        82001
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.803.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.803.1",
+          "zh_TW": "遞交「淺層調查」級紀錄",
+          "zh_CN": "递交「浅层调查」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "901": {
+      "Id": 901,
+      "ConvertConditionList": [
+        103,
+        613,
+        502
+      ],
+      "MaxSub": 1,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_s",
+      "BasicReward": "{\"73201\":600,\"35000\":5}",
+      "BasicRewardPreview": [
+        73201,
+        35000
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.901.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.901.1",
+          "zh_TW": "遞交「極限登峰」級紀錄",
+          "zh_CN": "递交「极限登峰」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "902": {
+      "Id": 902,
+      "ConvertConditionList": [
+        106,
+        403,
+        501
+      ],
+      "MaxSub": 2,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_a",
+      "BasicReward": "{\"73201\":600,\"82004\":90}",
+      "BasicRewardPreview": [
+        73201,
+        82004
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.902.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.902.1",
+          "zh_TW": "遞交「深域探索」級紀錄",
+          "zh_CN": "递交「深域探索」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    },
+    "903": {
+      "Id": 903,
+      "ConvertConditionList": [
+        101,
+        402,
+        506
+      ],
+      "MaxSub": 3,
+      "Icon": "UI_Activity/_500001/SpriteAtlas/icon_collection_hard_b",
+      "BasicReward": "{\"73201\":400,\"82001\":80}",
+      "BasicRewardPreview": [
+        73201,
+        82001
+      ],
+      "DoubleCheckMinLevel": 15,
+      "Des": "BdConvertContent.903.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertContent.903.1",
+          "zh_TW": "遞交「淺層調查」級紀錄",
+          "zh_CN": "递交「浅层调查」级纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertContent.json",
+            "zh_CN": "language/zh_CN/BdConvertContent.json"
+          }
+        }
+      }
+    }
+  }
+}

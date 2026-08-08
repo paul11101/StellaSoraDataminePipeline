@@ -1,0 +1,539 @@
+{
+  "table": "BuffValue",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d6c9ddedbfb05e03.bin",
+  "source_sha256": "b3b2a466dd3eafbd0520095149d49d1cc59491e6f3e4e34dfb8588ab34c6c9db",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\BuffValue.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 3017
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "reference_field_order": [
+      "Id",
+      "Sort",
+      "Effects",
+      "BuffEffects",
+      "Time",
+      "LaminatedNum",
+      "Num",
+      "TimeSuperposition",
+      "Timing",
+      "ReplaceType",
+      "ReplaceMode",
+      "IsExitDelete",
+      "IsInherit",
+      "HitClear",
+      "AttackClear"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "3": "Sort",
+      "4": "Effects",
+      "5": "BuffEffects",
+      "6": "Time",
+      "7": "LaminatedNum",
+      "8": "Num",
+      "9": "TimeSuperposition",
+      "10": "Timing",
+      "11": "ReplaceType",
+      "12": "ReplaceMode",
+      "13": "AttackClear",
+      "14": "HitClear",
+      "15": "IsInherit",
+      "16": "IsExitDelete"
+    },
+    "aot_field_count": 15,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3017,
+      "compared_reference_rows": 3017,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3017,
+          "compared": 3017
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3017,
+          "compared": 3017
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3017
+        }
+      ]
+    },
+    "3": {
+      "field": "Sort",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2981,
+      "compared_reference_rows": 2981,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2981,
+          "compared": 2981
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2981,
+          "compared": 2981
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2981
+        }
+      ]
+    },
+    "4": {
+      "field": "Effects",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 2584,
+      "compared_reference_rows": 2584,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 2584,
+          "compared": 2584
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 2584,
+          "compared": 2584
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 2584
+        }
+      ]
+    },
+    "5": {
+      "field": "BuffEffects",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 22,
+      "compared_reference_rows": 22,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 22,
+          "compared": 22
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 22,
+          "compared": 22
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 22
+        }
+      ]
+    },
+    "6": {
+      "field": "Time",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_int",
+      "matching_reference_rows": 3017,
+      "compared_reference_rows": 3017,
+      "candidate_scores": [
+        {
+          "codec": "varint_int",
+          "matches": 3017,
+          "compared": 3017
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 2162,
+          "compared": 3017
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3017
+        }
+      ]
+    },
+    "7": {
+      "field": "LaminatedNum",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3017,
+      "compared_reference_rows": 3017,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3017,
+          "compared": 3017
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3017,
+          "compared": 3017
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3017
+        }
+      ]
+    },
+    "8": {
+      "field": "Num",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3017,
+      "compared_reference_rows": 3017,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3017,
+          "compared": 3017
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3017,
+          "compared": 3017
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3017
+        }
+      ]
+    },
+    "9": {
+      "field": "TimeSuperposition",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3017,
+      "compared_reference_rows": 3017,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3017,
+          "compared": 3017
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3017,
+          "compared": 3017
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3017
+        }
+      ]
+    },
+    "10": {
+      "field": "Timing",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3017,
+      "compared_reference_rows": 3017,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3017,
+          "compared": 3017
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3017,
+          "compared": 3017
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3017
+        }
+      ]
+    },
+    "11": {
+      "field": "ReplaceType",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 2861,
+      "compared_reference_rows": 2861,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 2861,
+          "compared": 2861
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 2861
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 2861
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2861
+        }
+      ]
+    },
+    "12": {
+      "field": "ReplaceMode",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 2801,
+      "compared_reference_rows": 2801,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 2801,
+          "compared": 2801
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 2801
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 2801
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2801
+        }
+      ]
+    },
+    "13": {
+      "field": "AttackClear",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 8,
+      "compared_reference_rows": 8,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 8,
+          "compared": 8
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 8
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 8
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 8
+        }
+      ]
+    },
+    "14": {
+      "field": "HitClear",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 21
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 21
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    },
+    "15": {
+      "field": "IsInherit",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 15,
+      "compared_reference_rows": 15,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 15,
+          "compared": 15
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 15
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 15
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 15
+        }
+      ]
+    },
+    "16": {
+      "field": "IsExitDelete",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 20,
+      "compared_reference_rows": 20,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 20
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 20
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 20
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 3017,
+    "reference_row_count": 3017,
+    "shared_key_count": 3017,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 3017,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

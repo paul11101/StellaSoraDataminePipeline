@@ -1,0 +1,649 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "DictionaryEntry",
+    "categories": [
+      "ui_system"
+    ],
+    "row_count": 25,
+    "localization_hits": 25,
+    "source": "bin/DictionaryEntry.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "100101": {
+      "Id": 100101,
+      "Index": 1,
+      "Title": "DictionaryEntry.100101.1",
+      "Tab": 1,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        10010101
+      ],
+      "Sort": 1,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.100101.1",
+          "zh_TW": "旅人概述",
+          "zh_CN": "旅人概述",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "100201": {
+      "Id": 100201,
+      "Index": 2,
+      "Title": "DictionaryEntry.100201.1",
+      "Tab": 1,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        10020101,
+        10020102,
+        10020103
+      ],
+      "Sort": 2,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.100201.1",
+          "zh_TW": "升級與進階",
+          "zh_CN": "升级与进阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "100301": {
+      "Id": 100301,
+      "Index": 3,
+      "Title": "DictionaryEntry.100301.1",
+      "Tab": 1,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        10030101,
+        10030102
+      ],
+      "Sort": 3,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.100301.1",
+          "zh_TW": "技能",
+          "zh_CN": "技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "100601": {
+      "Id": 100601,
+      "Index": 4,
+      "Title": "DictionaryEntry.100601.1",
+      "Tab": 1,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        10060101,
+        10060102
+      ],
+      "Sort": 6,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.100601.1",
+          "zh_TW": "天賦",
+          "zh_CN": "天赋",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "100701": {
+      "Id": 100701,
+      "Index": 5,
+      "Title": "DictionaryEntry.100701.1",
+      "Tab": 1,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        10070101,
+        10070102
+      ],
+      "Sort": 7,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.100701.1",
+          "zh_TW": "默契",
+          "zh_CN": "默契",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "100801": {
+      "Id": 100801,
+      "Index": 6,
+      "Title": "DictionaryEntry.100801.1",
+      "Tab": 1,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        10080101,
+        10080102,
+        10080103,
+        10080104,
+        10080105,
+        10080106,
+        10080107
+      ],
+      "Sort": 8,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.100801.1",
+          "zh_TW": "紋章",
+          "zh_CN": "纹章",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "200101": {
+      "Id": 200101,
+      "Index": 1,
+      "Title": "DictionaryEntry.200101.1",
+      "Tab": 2,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20010101
+      ],
+      "Sort": 1,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.200101.1",
+          "zh_TW": "權限等級",
+          "zh_CN": "权限等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "200201": {
+      "Id": 200201,
+      "Index": 2,
+      "Title": "DictionaryEntry.200201.1",
+      "Tab": 2,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20020101,
+        20020102,
+        20020103,
+        20020104,
+        20020105,
+        20020107
+      ],
+      "Sort": 2,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.200201.1",
+          "zh_TW": "星塔",
+          "zh_CN": "星塔",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "200202": {
+      "Id": 200202,
+      "Index": 3,
+      "Title": "DictionaryEntry.200202.1",
+      "Tab": 2,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20020201,
+        20020202,
+        20020203
+      ],
+      "Sort": 2,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.200202.1",
+          "zh_TW": "星塔研究",
+          "zh_CN": "星塔研究",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "201001": {
+      "Id": 201001,
+      "Index": 4,
+      "Title": "DictionaryEntry.201001.1",
+      "Tab": 2,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20100101,
+        20100102,
+        20100103
+      ],
+      "Sort": 10,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.201001.1",
+          "zh_TW": "心鏈",
+          "zh_CN": "心链",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "201101": {
+      "Id": 201101,
+      "Index": 5,
+      "Title": "DictionaryEntry.201101.1",
+      "Tab": 2,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20110101,
+        20110102
+      ],
+      "Sort": 11,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.201101.1",
+          "zh_TW": "活力",
+          "zh_CN": "干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "201201": {
+      "Id": 201201,
+      "Index": 6,
+      "Title": "DictionaryEntry.201201.1",
+      "Tab": 2,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20120101,
+        20120102
+      ],
+      "Sort": 12,
+      "Popup": true,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.201201.1",
+          "zh_TW": "心危擂台",
+          "zh_CN": "心危擂台",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "201301": {
+      "Id": 201301,
+      "Index": 7,
+      "Title": "DictionaryEntry.201301.1",
+      "Tab": 2,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20130101,
+        20130102,
+        20130103,
+        20130104
+      ],
+      "Sort": 13,
+      "Popup": true,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.201301.1",
+          "zh_TW": "災變防線",
+          "zh_CN": "灾变防线",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "201302": {
+      "Id": 201302,
+      "Index": 8,
+      "Title": "DictionaryEntry.201302.1",
+      "Tab": 2,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20130201,
+        20130202,
+        20130203
+      ],
+      "Sort": 14,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.201302.1",
+          "zh_TW": "災變防線-戰鬥",
+          "zh_CN": "灾变防线-战斗",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "201401": {
+      "Id": 201401,
+      "Index": 9,
+      "Title": "DictionaryEntry.201401.1",
+      "Tab": 2,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20140101,
+        20140102
+      ],
+      "Sort": 15,
+      "Popup": true,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.201401.1",
+          "zh_TW": "真格挑戰",
+          "zh_CN": "真格挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "201501": {
+      "Id": 201501,
+      "Index": 10,
+      "Title": "DictionaryEntry.201501.1",
+      "Tab": 2,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20150101,
+        20150102,
+        20150103,
+        20150104,
+        20150105,
+        20150106
+      ],
+      "Sort": 16,
+      "Popup": true,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.201501.1",
+          "zh_TW": "聯合討伐",
+          "zh_CN": "联合讨伐",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "200302": {
+      "Id": 200302,
+      "Index": 11,
+      "Title": "DictionaryEntry.200302.1",
+      "Tab": 2,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20030201,
+        20030202,
+        20030203,
+        20030204
+      ],
+      "Sort": 3,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.200302.1",
+          "zh_TW": "潛能預設",
+          "zh_CN": "潜能预设",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "201701": {
+      "Id": 201701,
+      "Index": 12,
+      "Title": "DictionaryEntry.201701.1",
+      "Tab": 2,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20170101,
+        20170102,
+        20170103,
+        20170104,
+        20170105
+      ],
+      "Sort": 17,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.201701.1",
+          "zh_TW": "獵影重圍",
+          "zh_CN": "猎影合围",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "300102": {
+      "Id": 300102,
+      "Index": 1,
+      "Title": "DictionaryEntry.300102.1",
+      "Tab": 3,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20030101,
+        20030102
+      ],
+      "Sort": 2,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.300102.1",
+          "zh_TW": "紀錄",
+          "zh_CN": "纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "300103": {
+      "Id": 300103,
+      "Index": 2,
+      "Title": "DictionaryEntry.300103.1",
+      "Tab": 3,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        10050101
+      ],
+      "Sort": 3,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.300103.1",
+          "zh_TW": "潛能",
+          "zh_CN": "潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "300104": {
+      "Id": 300104,
+      "Index": 3,
+      "Title": "DictionaryEntry.300104.1",
+      "Tab": 3,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        20090101,
+        20090102,
+        20090103,
+        20090104
+      ],
+      "Sort": 4,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.300104.1",
+          "zh_TW": "祕紋",
+          "zh_CN": "秘纹",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "300105": {
+      "Id": 300105,
+      "Index": 4,
+      "Title": "DictionaryEntry.300105.1",
+      "Tab": 3,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        30010501,
+        30010601,
+        30010701,
+        30010801,
+        30010901,
+        30011001,
+        30011101
+      ],
+      "Sort": 5,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.300105.1",
+          "zh_TW": "基礎操作",
+          "zh_CN": "基础操作",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "300106": {
+      "Id": 300106,
+      "Index": 5,
+      "Title": "DictionaryEntry.300106.1",
+      "Tab": 3,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        30011202,
+        30011201,
+        30011701
+      ],
+      "Sort": 6,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.300106.1",
+          "zh_TW": "元素印記",
+          "zh_CN": "元素印记",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "300107": {
+      "Id": 300107,
+      "Index": 6,
+      "Title": "DictionaryEntry.300107.1",
+      "Tab": 3,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        30011301,
+        30011302,
+        30011401
+      ],
+      "Sort": 7,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.300107.1",
+          "zh_TW": "元素屬性",
+          "zh_CN": "元素属性",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    },
+    "300108": {
+      "Id": 300108,
+      "Index": 7,
+      "Title": "DictionaryEntry.300108.1",
+      "Tab": 3,
+      "ItemId": 2,
+      "Qty": 5,
+      "DiagramList": [
+        30011501,
+        30011601
+      ],
+      "Sort": 8,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryEntry.300108.1",
+          "zh_TW": "韌性",
+          "zh_CN": "韧性",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryEntry.json"
+          }
+        }
+      }
+    }
+  }
+}

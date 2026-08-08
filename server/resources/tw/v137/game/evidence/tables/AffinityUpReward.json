@@ -1,0 +1,364 @@
+{
+  "table": "AffinityUpReward",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3747c71036b30b98.bin",
+  "source_sha256": "74f4b04a56fdb86ac8578e9e2fef7fdb3bc5c9a17a8c2794736c4332778b1424",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\AffinityUpReward.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 592
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "reference_field_order": [
+      "Id",
+      "CharId",
+      "RewardLevel",
+      "Reward1",
+      "DescFront1",
+      "DescFront2",
+      "DescFront3",
+      "DescAfter1",
+      "DescAfter2",
+      "DescAfter3"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 10,
+    "remaining_name_count": 10,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 592,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "CharId",
+        "matching_reference_rows": 592,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "RewardLevel",
+        "matching_reference_rows": 592,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Reward1",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "DescFront1",
+        "matching_reference_rows": 592,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "DescFront2",
+        "matching_reference_rows": 592,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "DescFront3",
+        "matching_reference_rows": 592,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "DescAfter1",
+        "matching_reference_rows": 592,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "DescAfter2",
+        "matching_reference_rows": 592,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "DescAfter3",
+        "matching_reference_rows": 592,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 592,
+      "compared_reference_rows": 592,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 592,
+          "compared": 592
+        },
+        {
+          "codec": "varint_int",
+          "matches": 592,
+          "compared": 592
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 592
+        }
+      ]
+    },
+    "2": {
+      "field": "CharId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 592,
+      "compared_reference_rows": 592,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 592,
+          "compared": 592
+        },
+        {
+          "codec": "varint_int",
+          "matches": 592,
+          "compared": 592
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 592
+        }
+      ]
+    },
+    "3": {
+      "field": "RewardLevel",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 592,
+      "compared_reference_rows": 592,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 592,
+          "compared": 592
+        },
+        {
+          "codec": "varint_int",
+          "matches": 592,
+          "compared": 592
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 592
+        }
+      ]
+    },
+    "4": {
+      "field": "Reward1",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "7": {
+      "field": "DescFront1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 592,
+      "compared_reference_rows": 592,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 592,
+          "compared": 592
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 592
+        }
+      ]
+    },
+    "8": {
+      "field": "DescFront2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 592,
+      "compared_reference_rows": 592,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 592,
+          "compared": 592
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 592
+        }
+      ]
+    },
+    "9": {
+      "field": "DescFront3",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 592,
+      "compared_reference_rows": 592,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 592,
+          "compared": 592
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 592
+        }
+      ]
+    },
+    "10": {
+      "field": "DescAfter1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 592,
+      "compared_reference_rows": 592,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 592,
+          "compared": 592
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 592
+        }
+      ]
+    },
+    "11": {
+      "field": "DescAfter2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 592,
+      "compared_reference_rows": 592,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 592,
+          "compared": 592
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 592
+        }
+      ]
+    },
+    "12": {
+      "field": "DescAfter3",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 592,
+      "compared_reference_rows": 592,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 592,
+          "compared": 592
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 592
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 592,
+    "reference_row_count": 592,
+    "shared_key_count": 592,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 592,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

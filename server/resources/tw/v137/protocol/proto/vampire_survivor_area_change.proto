@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message VampireSurvivorAreaChangeReq {
+  repeated uint32 KillCount = 1;
+  uint32 Time = 2;
+  .proto.VampireClientData ClientData = 6;
+  .proto.Events Events = 7;
+  bytes NextPackage = 2047;
+}

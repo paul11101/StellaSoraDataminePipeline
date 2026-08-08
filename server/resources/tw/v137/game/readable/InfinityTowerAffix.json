@@ -1,0 +1,3805 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "InfinityTowerAffix",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 125,
+    "localization_hits": 250,
+    "source": "bin/InfinityTowerAffix.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "Name": "InfinityTowerAffix.101.1",
+      "Desc": "InfinityTowerAffix.101.2",
+      "AddCamp": [
+        1001
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[2,2]",
+      "Param1": "2",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.101.1",
+          "zh_TW": "【廢棄】火之鳴動",
+          "zh_CN": "【废弃】火之鸣动",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.101.2",
+          "zh_TW": "【廢棄】我方生效，配置火屬性旅人數量≥{1}時，全隊攻擊+{2}%。",
+          "zh_CN": "【废弃】我方生效，构筑火属性旅人数量≥{1}时，全队攻击+{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "102": {
+      "Id": 102,
+      "Name": "InfinityTowerAffix.102.1",
+      "Desc": "InfinityTowerAffix.102.2",
+      "AddCamp": [
+        1001
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[1,2]",
+      "Param1": "2",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.102.1",
+          "zh_TW": "【廢棄】水之鳴動",
+          "zh_CN": "【废弃】水之鸣动",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.102.2",
+          "zh_TW": "【廢棄】我方生效，配置水屬性旅人數量≥{1}時，全隊攻擊+{2}%。",
+          "zh_CN": "【废弃】我方生效，构筑水属性旅人数量≥{1}时，全队攻击+{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "103": {
+      "Id": 103,
+      "Name": "InfinityTowerAffix.103.1",
+      "Desc": "InfinityTowerAffix.103.2",
+      "AddCamp": [
+        1001
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[5,2]",
+      "Param1": "2",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.103.1",
+          "zh_TW": "【廢棄】光之鳴動",
+          "zh_CN": "【废弃】光之鸣动",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.103.2",
+          "zh_TW": "【廢棄】我方生效，配置光屬性旅人數量≥{1}時，全隊攻擊+{2}%。",
+          "zh_CN": "【废弃】我方生效，构筑光属性旅人数量≥{1}时，全队攻击+{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9999": {
+      "Id": 9999,
+      "Name": "InfinityTowerAffix.9999.1",
+      "Desc": "InfinityTowerAffix.9999.2",
+      "AddCamp": [
+        9999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9999.1",
+          "zh_TW": "戰意滿溢V",
+          "zh_CN": "战意满溢V",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9999.2",
+          "zh_TW": "【旅人】獲得全部能量。",
+          "zh_CN": "【旅人】获得全部能量",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9992": {
+      "Id": 9992,
+      "Name": "InfinityTowerAffix.9992.1",
+      "Desc": "InfinityTowerAffix.9992.2",
+      "AddCamp": [
+        9992
+      ],
+      "Param1": "80",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9992.1",
+          "zh_TW": "戰意滿溢IV",
+          "zh_CN": "战意满溢IV",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9992.2",
+          "zh_TW": "【旅人】獲得{1}%能量。",
+          "zh_CN": "【旅人】获得{1}%能量",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9990": {
+      "Id": 9990,
+      "Name": "InfinityTowerAffix.9990.1",
+      "Desc": "InfinityTowerAffix.9990.2",
+      "AddCamp": [
+        9990
+      ],
+      "Param1": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9990.1",
+          "zh_TW": "戰意滿溢III",
+          "zh_CN": "战意满溢III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9990.2",
+          "zh_TW": "【旅人】獲得{1}%能量。",
+          "zh_CN": "【旅人】获得{1}%能量",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9991": {
+      "Id": 9991,
+      "Name": "InfinityTowerAffix.9991.1",
+      "Desc": "InfinityTowerAffix.9991.2",
+      "AddCamp": [
+        9991
+      ],
+      "Param1": "40",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9991.1",
+          "zh_TW": "戰意滿溢II",
+          "zh_CN": "战意满溢II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9991.2",
+          "zh_TW": "【旅人】獲得{1}%能量。",
+          "zh_CN": "【旅人】获得{1}%能量",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9988": {
+      "Id": 9988,
+      "Name": "InfinityTowerAffix.9988.1",
+      "Desc": "InfinityTowerAffix.9988.2",
+      "AddCamp": [
+        9988
+      ],
+      "Param1": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9988.1",
+          "zh_TW": "戰意滿溢I",
+          "zh_CN": "战意满溢I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9988.2",
+          "zh_TW": "【旅人】獲得{1}%能量。",
+          "zh_CN": "【旅人】获得{1}%能量",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9998": {
+      "Id": 9998,
+      "Name": "InfinityTowerAffix.9998.1",
+      "Desc": "InfinityTowerAffix.9998.2",
+      "AddCamp": [
+        9998
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9998.1",
+          "zh_TW": "室内颱風",
+          "zh_CN": "室内台风",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9998.2",
+          "zh_TW": "所有單位獲得霸體。",
+          "zh_CN": "所有单位获得霸体",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9997": {
+      "Id": 9997,
+      "Name": "InfinityTowerAffix.9997.1",
+      "Desc": "InfinityTowerAffix.9997.2",
+      "AddCamp": [
+        9997
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9997.1",
+          "zh_TW": "生體硬殼",
+          "zh_CN": "生体硬壳",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9997.2",
+          "zh_TW": "所有怪物獲得霸體。",
+          "zh_CN": "所有怪物获得霸体",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9996": {
+      "Id": 9996,
+      "Name": "InfinityTowerAffix.9996.1",
+      "Desc": "InfinityTowerAffix.9996.2",
+      "AddCamp": [
+        12
+      ],
+      "Param1": "15",
+      "Param2": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9996.1",
+          "zh_TW": "危機漸起III",
+          "zh_CN": "危机渐起III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9996.2",
+          "zh_TW": "戰鬥開始時，每戰鬥{1}秒，敵人傷害提升{2}%。",
+          "zh_CN": "战斗开始时，每战斗{1}秒，敌人伤害提升{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9995": {
+      "Id": 9995,
+      "Name": "InfinityTowerAffix.9995.1",
+      "Desc": "InfinityTowerAffix.9995.2",
+      "AddCamp": [
+        11
+      ],
+      "Param1": "15",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9995.1",
+          "zh_TW": "危機漸起II",
+          "zh_CN": "危机渐起II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9995.2",
+          "zh_TW": "戰鬥開始時，每戰鬥{1}秒，敵人傷害提升{2}%。",
+          "zh_CN": "战斗开始时，每战斗{1}秒，敌人伤害提升{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9994": {
+      "Id": 9994,
+      "Name": "InfinityTowerAffix.9994.1",
+      "Desc": "InfinityTowerAffix.9994.2",
+      "AddCamp": [
+        10
+      ],
+      "Param1": "15",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9994.1",
+          "zh_TW": "危機漸起I",
+          "zh_CN": "危机渐起I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9994.2",
+          "zh_TW": "戰鬥開始時，每戰鬥{1}秒，敵人傷害提升{2}%。",
+          "zh_CN": "战斗开始时，每战斗{1}秒，敌人伤害提升{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9003": {
+      "Id": 9003,
+      "Name": "InfinityTowerAffix.9003.1",
+      "Desc": "InfinityTowerAffix.9003.2",
+      "AddCamp": [
+        9003
+      ],
+      "Param1": "150",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9003.1",
+          "zh_TW": "靈骸外甲III",
+          "zh_CN": "灵骸外甲III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9003.2",
+          "zh_TW": "【怪物】獲得生命值{1}%的護盾。",
+          "zh_CN": "【怪物】获得生命值{1}%的护盾",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9002": {
+      "Id": 9002,
+      "Name": "InfinityTowerAffix.9002.1",
+      "Desc": "InfinityTowerAffix.9002.2",
+      "AddCamp": [
+        9002
+      ],
+      "Param1": "100",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9002.1",
+          "zh_TW": "靈骸外甲II",
+          "zh_CN": "灵骸外甲II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9002.2",
+          "zh_TW": "【怪物】獲得生命值{1}%的護盾。",
+          "zh_CN": "【怪物】获得生命值{1}%的护盾",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "9001": {
+      "Id": 9001,
+      "Name": "InfinityTowerAffix.9001.1",
+      "Desc": "InfinityTowerAffix.9001.2",
+      "AddCamp": [
+        9001
+      ],
+      "Param1": "50",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.9001.1",
+          "zh_TW": "靈骸外甲I",
+          "zh_CN": "灵骸外甲I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.9001.2",
+          "zh_TW": "【怪物】獲得生命值{1}%的護盾。",
+          "zh_CN": "【怪物】获得生命值{1}%的护盾",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10011": {
+      "Id": 10011,
+      "Name": "InfinityTowerAffix.10011.1",
+      "Desc": "InfinityTowerAffix.10011.2",
+      "AddCamp": [
+        10011
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[5,2]",
+      "Param1": "2",
+      "Param2": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10011.1",
+          "zh_TW": "沐光之禮I",
+          "zh_CN": "沐光之礼I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10011.2",
+          "zh_TW": "配置光屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑光属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10012": {
+      "Id": 10012,
+      "Name": "InfinityTowerAffix.10012.1",
+      "Desc": "InfinityTowerAffix.10012.2",
+      "AddCamp": [
+        10012
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[5,2]",
+      "Param1": "2",
+      "Param2": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10012.1",
+          "zh_TW": "沐光之禮II",
+          "zh_CN": "沐光之礼II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10012.2",
+          "zh_TW": "配置光屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑光属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10013": {
+      "Id": 10013,
+      "Name": "InfinityTowerAffix.10013.1",
+      "Desc": "InfinityTowerAffix.10013.2",
+      "AddCamp": [
+        10013
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[5,2]",
+      "Param1": "2",
+      "Param2": "100",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10013.1",
+          "zh_TW": "沐光之禮III",
+          "zh_CN": "沐光之礼III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10013.2",
+          "zh_TW": "配置光屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑光属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10031": {
+      "Id": 10031,
+      "Name": "InfinityTowerAffix.10031.1",
+      "Desc": "InfinityTowerAffix.10031.2",
+      "AddCamp": [
+        10031
+      ],
+      "Param1": "30",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10031.1",
+          "zh_TW": "溢彩注力I",
+          "zh_CN": "溢彩注力I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10031.2",
+          "zh_TW": "當能量達到滿值時，造成的傷害提升{1}%，持續{2}秒。",
+          "zh_CN": "当能量达到满值时，造成伤害提升{1}%，持续{2}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10032": {
+      "Id": 10032,
+      "Name": "InfinityTowerAffix.10032.1",
+      "Desc": "InfinityTowerAffix.10032.2",
+      "AddCamp": [
+        10032
+      ],
+      "Param1": "50",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10032.1",
+          "zh_TW": "溢彩注力III",
+          "zh_CN": "溢彩注力III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10032.2",
+          "zh_TW": "當能量達到滿值時，造成的傷害提升{1}%，持續{2}秒。",
+          "zh_CN": "当能量达到满值时，造成伤害提升{1}%，持续{2}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10033": {
+      "Id": 10033,
+      "Name": "InfinityTowerAffix.10033.1",
+      "Desc": "InfinityTowerAffix.10033.2",
+      "AddCamp": [
+        10033
+      ],
+      "Param1": "50",
+      "Param2": "15",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10033.1",
+          "zh_TW": "溢彩注力IIII",
+          "zh_CN": "溢彩注力IIII",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10033.2",
+          "zh_TW": "當能量達到滿值時，造成的傷害提升{1}%，持續{2}秒。",
+          "zh_CN": "当能量达到满值时，造成伤害提升{1}%，持续{2}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10021": {
+      "Id": 10021,
+      "Name": "InfinityTowerAffix.10021.1",
+      "Desc": "InfinityTowerAffix.10021.2",
+      "AddCamp": [
+        10021
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[5,2]",
+      "Param1": "2",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10021.1",
+          "zh_TW": "光流傳導I",
+          "zh_CN": "光流传导I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10021.2",
+          "zh_TW": "配置光屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑光属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10022": {
+      "Id": 10022,
+      "Name": "InfinityTowerAffix.10022.1",
+      "Desc": "InfinityTowerAffix.10022.2",
+      "AddCamp": [
+        10022
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[5,2]",
+      "Param1": "2",
+      "Param2": "40",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10022.1",
+          "zh_TW": "光流傳導II",
+          "zh_CN": "光流传导II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10022.2",
+          "zh_TW": "配置光屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑光属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10023": {
+      "Id": 10023,
+      "Name": "InfinityTowerAffix.10023.1",
+      "Desc": "InfinityTowerAffix.10023.2",
+      "AddCamp": [
+        10023
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[5,2]",
+      "Param1": "2",
+      "Param2": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10023.1",
+          "zh_TW": "光流傳導III",
+          "zh_CN": "光流传导III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10023.2",
+          "zh_TW": "配置光屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑光属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10041": {
+      "Id": 10041,
+      "Name": "InfinityTowerAffix.10041.1",
+      "Desc": "InfinityTowerAffix.10041.2",
+      "AddCamp": [
+        10041
+      ],
+      "Param1": "30",
+      "Param2": "5",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10041.1",
+          "zh_TW": "熱度延續I",
+          "zh_CN": "热度延续I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10041.2",
+          "zh_TW": "施放主控或援護技能後，造成的傷害提高{1}%，持續{2}秒。",
+          "zh_CN": "释放主控或援护技能后，造成伤害提高{1}%，持续{2}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10042": {
+      "Id": 10042,
+      "Name": "InfinityTowerAffix.10042.1",
+      "Desc": "InfinityTowerAffix.10042.2",
+      "AddCamp": [
+        10042
+      ],
+      "Param1": "50",
+      "Param2": "5",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10042.1",
+          "zh_TW": "熱度延續II",
+          "zh_CN": "热度延续II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10042.2",
+          "zh_TW": "施放主控或援護技能後，造成的傷害提高{1}%，持續{2}秒。",
+          "zh_CN": "释放主控或援护技能后，造成伤害提高{1}%，持续{2}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10043": {
+      "Id": 10043,
+      "Name": "InfinityTowerAffix.10043.1",
+      "Desc": "InfinityTowerAffix.10043.2",
+      "AddCamp": [
+        10043
+      ],
+      "Param1": "50",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10043.1",
+          "zh_TW": "熱度延續III",
+          "zh_CN": "热度延续III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10043.2",
+          "zh_TW": "施放主控或援護技能後，造成的傷害提高{1}%，持續{2}秒。",
+          "zh_CN": "释放主控或援护技能后，造成伤害提高{1}%，持续{2}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10051": {
+      "Id": 10051,
+      "Name": "InfinityTowerAffix.10051.1",
+      "Desc": "InfinityTowerAffix.10051.2",
+      "AddCamp": [
+        10051
+      ],
+      "Param1": "2",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10051.1",
+          "zh_TW": "法力流失I",
+          "zh_CN": "法力流失I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10051.2",
+          "zh_TW": "當【旅人】被擊中時，流失{1}點絕招能量。",
+          "zh_CN": "当【旅人】被击中时，流失{1}点绝招能量",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10052": {
+      "Id": 10052,
+      "Name": "InfinityTowerAffix.10052.1",
+      "Desc": "InfinityTowerAffix.10052.2",
+      "AddCamp": [
+        10052
+      ],
+      "Param1": "4",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10052.1",
+          "zh_TW": "法力流失II",
+          "zh_CN": "法力流失II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10052.2",
+          "zh_TW": "當【旅人】被擊中時，流失{1}點絕招能量。",
+          "zh_CN": "当【旅人】被击中时，流失{1}点绝招能量",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10053": {
+      "Id": 10053,
+      "Name": "InfinityTowerAffix.10053.1",
+      "Desc": "InfinityTowerAffix.10053.2",
+      "AddCamp": [
+        10053
+      ],
+      "Param1": "6",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10053.1",
+          "zh_TW": "法力流失III",
+          "zh_CN": "法力流失III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10053.2",
+          "zh_TW": "當【旅人】被擊中時，流失{1}點絕招能量。",
+          "zh_CN": "当【旅人】被击中时，流失{1}点绝招能量",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10061": {
+      "Id": 10061,
+      "Name": "InfinityTowerAffix.10061.1",
+      "Desc": "InfinityTowerAffix.10061.2",
+      "AddCamp": [
+        10061
+      ],
+      "Param1": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10061.1",
+          "zh_TW": "熟手戰技I",
+          "zh_CN": "熟手战技I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10061.2",
+          "zh_TW": "【旅人】技能傷害提高{1}%。",
+          "zh_CN": "【旅人】技能伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10062": {
+      "Id": 10062,
+      "Name": "InfinityTowerAffix.10062.1",
+      "Desc": "InfinityTowerAffix.10062.2",
+      "AddCamp": [
+        10062
+      ],
+      "Param1": "40",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10062.1",
+          "zh_TW": "熟手戰技II",
+          "zh_CN": "熟手战技II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10062.2",
+          "zh_TW": "【旅人】技能傷害提高{1}%。",
+          "zh_CN": "【旅人】技能伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10063": {
+      "Id": 10063,
+      "Name": "InfinityTowerAffix.10063.1",
+      "Desc": "InfinityTowerAffix.10063.2",
+      "AddCamp": [
+        10063
+      ],
+      "Param1": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10063.1",
+          "zh_TW": "熟手戰技III",
+          "zh_CN": "熟手战技III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10063.2",
+          "zh_TW": "【旅人】技能傷害提高{1}%。",
+          "zh_CN": "【旅人】技能伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10071": {
+      "Id": 10071,
+      "Name": "InfinityTowerAffix.10071.1",
+      "Desc": "InfinityTowerAffix.10071.2",
+      "AddCamp": [
+        10071
+      ],
+      "Param1": "8",
+      "Param2": "9",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10071.1",
+          "zh_TW": "貪婪戰舞I",
+          "zh_CN": "贪婪战舞I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10071.2",
+          "zh_TW": "【旅人】消滅怪物後，技能冷卻減少{1}秒，每{2}秒觸發一次",
+          "zh_CN": "【旅人】消灭怪物后，技能冷却减少{1}秒，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10072": {
+      "Id": 10072,
+      "Name": "InfinityTowerAffix.10072.1",
+      "Desc": "InfinityTowerAffix.10072.2",
+      "AddCamp": [
+        10072
+      ],
+      "Param1": "10",
+      "Param2": "9",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10072.1",
+          "zh_TW": "貪婪戰舞II",
+          "zh_CN": "贪婪战舞II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10072.2",
+          "zh_TW": "【旅人】消滅怪物後，技能冷卻減少{1}秒，每{2}秒觸發一次",
+          "zh_CN": "【旅人】消灭怪物后，技能冷却减少{1}秒，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10073": {
+      "Id": 10073,
+      "Name": "InfinityTowerAffix.10073.1",
+      "Desc": "InfinityTowerAffix.10073.2",
+      "AddCamp": [
+        10073
+      ],
+      "Param1": "12",
+      "Param2": "9",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10073.1",
+          "zh_TW": "貪婪戰舞III",
+          "zh_CN": "贪婪战舞III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10073.2",
+          "zh_TW": "【旅人】消滅怪物後，技能冷卻減少{1}秒，每{2}秒觸發一次",
+          "zh_CN": "【旅人】消灭怪物后，技能冷却减少{1}秒，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10081": {
+      "Id": 10081,
+      "Name": "InfinityTowerAffix.10081.1",
+      "Desc": "InfinityTowerAffix.10081.2",
+      "AddCamp": [
+        10081
+      ],
+      "Param1": "3",
+      "Param2": "4",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10081.1",
+          "zh_TW": "體力流失I",
+          "zh_CN": "体力流失I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10081.2",
+          "zh_TW": "【旅人】每{1}秒流失目前生命值的{2}%。",
+          "zh_CN": "【旅人】每{1}秒流失当前{2}%的生命值",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10082": {
+      "Id": 10082,
+      "Name": "InfinityTowerAffix.10082.1",
+      "Desc": "InfinityTowerAffix.10082.2",
+      "AddCamp": [
+        10082
+      ],
+      "Param1": "3",
+      "Param2": "6",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10082.1",
+          "zh_TW": "體力流失II",
+          "zh_CN": "体力流失II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10082.2",
+          "zh_TW": "【旅人】每{1}秒流失目前生命值的{2}%。",
+          "zh_CN": "【旅人】每{1}秒流失当前{2}%的生命值",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10083": {
+      "Id": 10083,
+      "Name": "InfinityTowerAffix.10083.1",
+      "Desc": "InfinityTowerAffix.10083.2",
+      "AddCamp": [
+        10083
+      ],
+      "Param1": "3",
+      "Param2": "8",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10083.1",
+          "zh_TW": "體力流失III",
+          "zh_CN": "体力流失III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10083.2",
+          "zh_TW": "【旅人】每{1}秒流失目前生命值的{2}%。",
+          "zh_CN": "【旅人】每{1}秒流失当前{2}%的生命值",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10091": {
+      "Id": 10091,
+      "Name": "InfinityTowerAffix.10091.1",
+      "Desc": "InfinityTowerAffix.10091.2",
+      "AddCamp": [
+        10091
+      ],
+      "Param1": "8",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10091.1",
+          "zh_TW": "焕生戰舞I",
+          "zh_CN": "焕生战舞I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10091.2",
+          "zh_TW": "技能消滅怪物後，會恢復{1}%最大生命值，每{2}秒觸發一次",
+          "zh_CN": "技能消灭怪物后，会恢复{1}%最大生命值，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10092": {
+      "Id": 10092,
+      "Name": "InfinityTowerAffix.10092.1",
+      "Desc": "InfinityTowerAffix.10092.2",
+      "AddCamp": [
+        10092
+      ],
+      "Param1": "10",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10092.1",
+          "zh_TW": "焕生戰舞II",
+          "zh_CN": "焕生战舞II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10092.2",
+          "zh_TW": "技能消滅怪物後，會恢復{1}%最大生命值，每{2}秒觸發一次",
+          "zh_CN": "技能消灭怪物后，会恢复{1}%最大生命值，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10093": {
+      "Id": 10093,
+      "Name": "InfinityTowerAffix.10093.1",
+      "Desc": "InfinityTowerAffix.10093.2",
+      "AddCamp": [
+        10093
+      ],
+      "Param1": "12",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10093.1",
+          "zh_TW": "焕生戰舞III",
+          "zh_CN": "焕生战舞III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10093.2",
+          "zh_TW": "技能消滅怪物後，會恢復{1}%最大生命值，每{2}秒觸發一次",
+          "zh_CN": "技能消灭怪物后，会恢复{1}%最大生命值，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10101": {
+      "Id": 10101,
+      "Name": "InfinityTowerAffix.10101.1",
+      "Desc": "InfinityTowerAffix.10101.2",
+      "AddCamp": [
+        10101
+      ],
+      "Param1": "50",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10101.1",
+          "zh_TW": "持盾猛擊I",
+          "zh_CN": "持盾猛击I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10101.2",
+          "zh_TW": "【全體】擁有護盾時傷害提高{1}%。",
+          "zh_CN": "【全体】拥有护盾时伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10102": {
+      "Id": 10102,
+      "Name": "InfinityTowerAffix.10102.1",
+      "Desc": "InfinityTowerAffix.10102.2",
+      "AddCamp": [
+        10102
+      ],
+      "Param1": "80",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10102.1",
+          "zh_TW": "持盾猛擊II",
+          "zh_CN": "持盾猛击II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10102.2",
+          "zh_TW": "【全體】擁有護盾時傷害提高{1}%。",
+          "zh_CN": "【全体】拥有护盾时伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10103": {
+      "Id": 10103,
+      "Name": "InfinityTowerAffix.10103.1",
+      "Desc": "InfinityTowerAffix.10103.2",
+      "AddCamp": [
+        10103
+      ],
+      "Param1": "100",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10103.1",
+          "zh_TW": "持盾猛擊III",
+          "zh_CN": "持盾猛击III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10103.2",
+          "zh_TW": "【全體】擁有護盾時傷害提高{1}%。",
+          "zh_CN": "【全体】拥有护盾时伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10111": {
+      "Id": 10111,
+      "Name": "InfinityTowerAffix.10111.1",
+      "Desc": "InfinityTowerAffix.10111.2",
+      "AddCamp": [
+        10111
+      ],
+      "Param1": "50",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10111.1",
+          "zh_TW": "無相猛力I",
+          "zh_CN": "无相猛力I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10111.2",
+          "zh_TW": "【旅人】造成的傷害提高{1}%。",
+          "zh_CN": "【旅人】造成伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10112": {
+      "Id": 10112,
+      "Name": "InfinityTowerAffix.10112.1",
+      "Desc": "InfinityTowerAffix.10112.2",
+      "AddCamp": [
+        10112
+      ],
+      "Param1": "50",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10112.1",
+          "zh_TW": "無相猛力II",
+          "zh_CN": "无相猛力II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10112.2",
+          "zh_TW": "【旅人】造成的傷害提高{1}%。",
+          "zh_CN": "【旅人】造成伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10113": {
+      "Id": 10113,
+      "Name": "InfinityTowerAffix.10113.1",
+      "Desc": "InfinityTowerAffix.10113.2",
+      "AddCamp": [
+        10113
+      ],
+      "Param1": "50",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10113.1",
+          "zh_TW": "無相猛力III",
+          "zh_CN": "无相猛力III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10113.2",
+          "zh_TW": "【旅人】造成的傷害提高{1}%。",
+          "zh_CN": "【旅人】造成伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10121": {
+      "Id": 10121,
+      "Name": "InfinityTowerAffix.10121.1",
+      "Desc": "InfinityTowerAffix.10121.2",
+      "AddCamp": [
+        10121
+      ],
+      "Param1": "5",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10121.1",
+          "zh_TW": "以戰養戰I",
+          "zh_CN": "以战养战I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10121.2",
+          "zh_TW": "【旅人】消滅怪物後，獲得{1}%最大生命值護盾，每{2}秒觸發一次",
+          "zh_CN": "【旅人】消灭怪物后，获得{1}%最大生命值护盾，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10122": {
+      "Id": 10122,
+      "Name": "InfinityTowerAffix.10122.1",
+      "Desc": "InfinityTowerAffix.10122.2",
+      "AddCamp": [
+        10122
+      ],
+      "Param1": "10",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10122.1",
+          "zh_TW": "以戰養戰II",
+          "zh_CN": "以战养战II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10122.2",
+          "zh_TW": "【旅人】消滅怪物後，獲得{1}%最大生命值護盾，每{2}秒觸發一次",
+          "zh_CN": "【旅人】消灭怪物后，获得{1}%最大生命值护盾，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10123": {
+      "Id": 10123,
+      "Name": "InfinityTowerAffix.10123.1",
+      "Desc": "InfinityTowerAffix.10123.2",
+      "AddCamp": [
+        10123
+      ],
+      "Param1": "15",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10123.1",
+          "zh_TW": "以戰養戰III",
+          "zh_CN": "以战养战III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10123.2",
+          "zh_TW": "【旅人】消滅怪物後，獲得{1}%最大生命值護盾，每{2}秒觸發一次",
+          "zh_CN": "【旅人】消灭怪物后，获得{1}%最大生命值护盾，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10131": {
+      "Id": 10131,
+      "Name": "InfinityTowerAffix.10131.1",
+      "Desc": "InfinityTowerAffix.10131.2",
+      "AddCamp": [
+        10131
+      ],
+      "Param1": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10131.1",
+          "zh_TW": "場館散熱I",
+          "zh_CN": "场馆散热I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10131.2",
+          "zh_TW": "【旅人】技能冷卻時間減少{1}%。",
+          "zh_CN": "【旅人】技能冷却时间减少{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10132": {
+      "Id": 10132,
+      "Name": "InfinityTowerAffix.10132.1",
+      "Desc": "InfinityTowerAffix.10132.2",
+      "AddCamp": [
+        10132
+      ],
+      "Param1": "40",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10132.1",
+          "zh_TW": "場館散熱II",
+          "zh_CN": "场馆散热II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10132.2",
+          "zh_TW": "【旅人】技能冷卻時間減少{1}%。",
+          "zh_CN": "【旅人】技能冷却时间减少{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10133": {
+      "Id": 10133,
+      "Name": "InfinityTowerAffix.10133.1",
+      "Desc": "InfinityTowerAffix.10133.2",
+      "AddCamp": [
+        10133
+      ],
+      "Param1": "50",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10133.1",
+          "zh_TW": "場館散熱III",
+          "zh_CN": "场馆散热III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10133.2",
+          "zh_TW": "【旅人】技能冷卻時間減少{1}%。",
+          "zh_CN": "【旅人】技能冷却时间减少{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10141": {
+      "Id": 10141,
+      "Name": "InfinityTowerAffix.10141.1",
+      "Desc": "InfinityTowerAffix.10141.2",
+      "AddCamp": [
+        10141
+      ],
+      "Param1": "5",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10141.1",
+          "zh_TW": "恩賜加護I",
+          "zh_CN": "恩赐加护I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10141.2",
+          "zh_TW": "【旅人】施放技能後，獲得{1}%最大生命值護盾，每{2}秒觸發一次",
+          "zh_CN": "【旅人】释放技能后，获得{1}%最大生命值护盾，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10142": {
+      "Id": 10142,
+      "Name": "InfinityTowerAffix.10142.1",
+      "Desc": "InfinityTowerAffix.10142.2",
+      "AddCamp": [
+        10142
+      ],
+      "Param1": "10",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10142.1",
+          "zh_TW": "恩賜加護III",
+          "zh_CN": "恩赐加护III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10142.2",
+          "zh_TW": "【旅人】施放技能後，獲得{1}%最大生命值護盾，每{2}秒觸發一次",
+          "zh_CN": "【旅人】释放技能后，获得{1}%最大生命值护盾，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10143": {
+      "Id": 10143,
+      "Name": "InfinityTowerAffix.10143.1",
+      "Desc": "InfinityTowerAffix.10143.2",
+      "AddCamp": [
+        10143
+      ],
+      "Param1": "15",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10143.1",
+          "zh_TW": "恩賜加護IIII",
+          "zh_CN": "恩赐加护IIII",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10143.2",
+          "zh_TW": "【旅人】施放技能後，獲得{1}%最大生命值護盾，每{2}秒觸發一次",
+          "zh_CN": "【旅人】释放技能后，获得{1}%最大生命值护盾，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10151": {
+      "Id": 10151,
+      "Name": "InfinityTowerAffix.10151.1",
+      "Desc": "InfinityTowerAffix.10151.2",
+      "AddCamp": [
+        10151
+      ],
+      "Param1": "30",
+      "Param2": "5",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10151.1",
+          "zh_TW": "窮追猛打I",
+          "zh_CN": "穷追猛打I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10151.2",
+          "zh_TW": "【旅人】擊破護盾後，造成的傷害提升{1}%，持續{2}秒。",
+          "zh_CN": "【旅人】击破护盾后，造成伤害提升{1}%，持续{2}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10152": {
+      "Id": 10152,
+      "Name": "InfinityTowerAffix.10152.1",
+      "Desc": "InfinityTowerAffix.10152.2",
+      "AddCamp": [
+        10152
+      ],
+      "Param1": "50",
+      "Param2": "5",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10152.1",
+          "zh_TW": "窮追猛打II",
+          "zh_CN": "穷追猛打II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10152.2",
+          "zh_TW": "【旅人】擊破護盾後，造成的傷害提升{1}%，持續{2}秒。",
+          "zh_CN": "【旅人】击破护盾后，造成伤害提升{1}%，持续{2}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10153": {
+      "Id": 10153,
+      "Name": "InfinityTowerAffix.10153.1",
+      "Desc": "InfinityTowerAffix.10153.2",
+      "AddCamp": [
+        10153
+      ],
+      "Param1": "50",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10153.1",
+          "zh_TW": "窮追猛打III",
+          "zh_CN": "穷追猛打III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10153.2",
+          "zh_TW": "【旅人】擊破護盾後，造成的傷害提升{1}%，持續{2}秒。",
+          "zh_CN": "【旅人】击破护盾后，造成伤害提升{1}%，持续{2}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10161": {
+      "Id": 10161,
+      "Name": "InfinityTowerAffix.10161.1",
+      "Desc": "InfinityTowerAffix.10161.2",
+      "AddCamp": [
+        10161
+      ],
+      "Param1": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10161.1",
+          "zh_TW": "興奮異常I",
+          "zh_CN": "兴奋异常I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10161.2",
+          "zh_TW": "【怪物】移動速度提高{1}%。",
+          "zh_CN": "【怪物】移动速度提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10162": {
+      "Id": 10162,
+      "Name": "InfinityTowerAffix.10162.1",
+      "Desc": "InfinityTowerAffix.10162.2",
+      "AddCamp": [
+        10162
+      ],
+      "Param1": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10162.1",
+          "zh_TW": "興奮異常II",
+          "zh_CN": "兴奋异常II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10162.2",
+          "zh_TW": "【怪物】移動速度提高{1}%。",
+          "zh_CN": "【怪物】移动速度提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10163": {
+      "Id": 10163,
+      "Name": "InfinityTowerAffix.10163.1",
+      "Desc": "InfinityTowerAffix.10163.2",
+      "AddCamp": [
+        10163
+      ],
+      "Param1": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10163.1",
+          "zh_TW": "興奮異常III",
+          "zh_CN": "兴奋异常III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10163.2",
+          "zh_TW": "【怪物】移動速度提高{1}%。",
+          "zh_CN": "【怪物】移动速度提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10171": {
+      "Id": 10171,
+      "Name": "InfinityTowerAffix.10171.1",
+      "Desc": "InfinityTowerAffix.10171.2",
+      "AddCamp": [
+        10171
+      ],
+      "Param1": "30",
+      "Param2": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10171.1",
+          "zh_TW": "困獸之鬥I",
+          "zh_CN": "困兽之斗I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10171.2",
+          "zh_TW": "【怪物】生命值低於{1}%時，造成的傷害提高{2}%。",
+          "zh_CN": "【怪物】生命值低于{1}%时，造成伤害提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10172": {
+      "Id": 10172,
+      "Name": "InfinityTowerAffix.10172.1",
+      "Desc": "InfinityTowerAffix.10172.2",
+      "AddCamp": [
+        10172
+      ],
+      "Param1": "40",
+      "Param2": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10172.1",
+          "zh_TW": "困獸之鬥II",
+          "zh_CN": "困兽之斗II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10172.2",
+          "zh_TW": "【怪物】生命值低於{1}%時，造成的傷害提高{2}%。",
+          "zh_CN": "【怪物】生命值低于{1}%时，造成伤害提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10173": {
+      "Id": 10173,
+      "Name": "InfinityTowerAffix.10173.1",
+      "Desc": "InfinityTowerAffix.10173.2",
+      "AddCamp": [
+        10173
+      ],
+      "Param1": "50",
+      "Param2": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10173.1",
+          "zh_TW": "困獸之鬥III",
+          "zh_CN": "困兽之斗III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10173.2",
+          "zh_TW": "【怪物】生命值低於{1}%時，造成的傷害提高{2}%。",
+          "zh_CN": "【怪物】生命值低于{1}%时，造成伤害提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10181": {
+      "Id": 10181,
+      "Name": "InfinityTowerAffix.10181.1",
+      "Desc": "InfinityTowerAffix.10181.2",
+      "AddCamp": [
+        10181
+      ],
+      "Param1": "3",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10181.1",
+          "zh_TW": "精力旺盛I",
+          "zh_CN": "精力旺盛I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10181.2",
+          "zh_TW": "【怪物】每{1}秒恢復{2}%最大生命值。",
+          "zh_CN": "【怪物】每{1}秒恢复{2}%最大生命值",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10182": {
+      "Id": 10182,
+      "Name": "InfinityTowerAffix.10182.1",
+      "Desc": "InfinityTowerAffix.10182.2",
+      "AddCamp": [
+        10182
+      ],
+      "Param1": "3",
+      "Param2": "15",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10182.1",
+          "zh_TW": "精力旺盛II",
+          "zh_CN": "精力旺盛II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10182.2",
+          "zh_TW": "【怪物】每{1}秒恢復{2}%最大生命值。",
+          "zh_CN": "【怪物】每{1}秒恢复{2}%最大生命值",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10183": {
+      "Id": 10183,
+      "Name": "InfinityTowerAffix.10183.1",
+      "Desc": "InfinityTowerAffix.10183.2",
+      "AddCamp": [
+        10183
+      ],
+      "Param1": "3",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10183.1",
+          "zh_TW": "精力旺盛III",
+          "zh_CN": "精力旺盛III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10183.2",
+          "zh_TW": "【怪物】每{1}秒恢復{2}%最大生命值。",
+          "zh_CN": "【怪物】每{1}秒恢复{2}%最大生命值",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10191": {
+      "Id": 10191,
+      "Name": "InfinityTowerAffix.10191.1",
+      "Desc": "InfinityTowerAffix.10191.2",
+      "AddCamp": [
+        10191
+      ],
+      "Param1": "5",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10191.1",
+          "zh_TW": "硬蕊角鬥",
+          "zh_CN": "硬核角斗",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10191.2",
+          "zh_TW": "【全體】被擊中後禁療{1}秒。",
+          "zh_CN": "【全体】被击禁疗{1}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10221": {
+      "Id": 10221,
+      "Name": "InfinityTowerAffix.10221.1",
+      "Desc": "InfinityTowerAffix.10221.2",
+      "AddCamp": [
+        10221
+      ],
+      "Param1": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10221.1",
+          "zh_TW": "小小軍勢I",
+          "zh_CN": "小小军势I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10221.2",
+          "zh_TW": "【旅人】僕從傷害提高{1}%。",
+          "zh_CN": "【旅人】仆从伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10222": {
+      "Id": 10222,
+      "Name": "InfinityTowerAffix.10222.1",
+      "Desc": "InfinityTowerAffix.10222.2",
+      "AddCamp": [
+        10222
+      ],
+      "Param1": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10222.1",
+          "zh_TW": "小小軍勢II",
+          "zh_CN": "小小军势II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10222.2",
+          "zh_TW": "【旅人】僕從傷害提高{1}%。",
+          "zh_CN": "【旅人】仆从伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10223": {
+      "Id": 10223,
+      "Name": "InfinityTowerAffix.10223.1",
+      "Desc": "InfinityTowerAffix.10223.2",
+      "AddCamp": [
+        10223
+      ],
+      "Param1": "100",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10223.1",
+          "zh_TW": "小小軍勢III",
+          "zh_CN": "小小军势III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10223.2",
+          "zh_TW": "【旅人】僕從傷害提高{1}%。",
+          "zh_CN": "【旅人】仆从伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10231": {
+      "Id": 10231,
+      "Name": "InfinityTowerAffix.10231.1",
+      "Desc": "InfinityTowerAffix.10231.2",
+      "AddCamp": [
+        10231
+      ],
+      "Param1": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10231.1",
+          "zh_TW": "錦上添花I",
+          "zh_CN": "锦上添花I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10231.2",
+          "zh_TW": "【旅人】普通攻擊傷害提高{1}%。",
+          "zh_CN": "【旅人】普通攻击伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10232": {
+      "Id": 10232,
+      "Name": "InfinityTowerAffix.10232.1",
+      "Desc": "InfinityTowerAffix.10232.2",
+      "AddCamp": [
+        10232
+      ],
+      "Param1": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10232.1",
+          "zh_TW": "錦上添花II",
+          "zh_CN": "锦上添花II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10232.2",
+          "zh_TW": "【旅人】普通攻擊傷害提高{1}%。",
+          "zh_CN": "【旅人】普通攻击伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10233": {
+      "Id": 10233,
+      "Name": "InfinityTowerAffix.10233.1",
+      "Desc": "InfinityTowerAffix.10233.2",
+      "AddCamp": [
+        10233
+      ],
+      "Param1": "100",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10233.1",
+          "zh_TW": "錦上添花III",
+          "zh_CN": "锦上添花III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10233.2",
+          "zh_TW": "【旅人】普通攻擊傷害提高{1}%。",
+          "zh_CN": "【旅人】普通攻击伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10241": {
+      "Id": 10241,
+      "Name": "InfinityTowerAffix.10241.1",
+      "Desc": "InfinityTowerAffix.10241.2",
+      "AddCamp": [
+        10241
+      ],
+      "Param1": "30",
+      "Param2": "5",
+      "Param3": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10241.1",
+          "zh_TW": "印記連舞I",
+          "zh_CN": "印记连舞I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10241.2",
+          "zh_TW": "【旅人】觸發印記後，攻擊速度提高{1}%，持續{2}秒，每{3}秒觸發一次。",
+          "zh_CN": "【旅人】触发印记后，攻击速度提高{1}%，持续{2}秒，每{3}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10242": {
+      "Id": 10242,
+      "Name": "InfinityTowerAffix.10242.1",
+      "Desc": "InfinityTowerAffix.10242.2",
+      "AddCamp": [
+        10242
+      ],
+      "Param1": "50",
+      "Param2": "5",
+      "Param3": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10242.1",
+          "zh_TW": "印記連舞II",
+          "zh_CN": "印记连舞II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10242.2",
+          "zh_TW": "【旅人】觸發印記後，攻擊速度提高{1}%，持續{2}秒，每{3}秒觸發一次。",
+          "zh_CN": "【旅人】触发印记后，攻击速度提高{1}%，持续{2}秒，每{3}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10243": {
+      "Id": 10243,
+      "Name": "InfinityTowerAffix.10243.1",
+      "Desc": "InfinityTowerAffix.10243.2",
+      "AddCamp": [
+        10243
+      ],
+      "Param1": "50",
+      "Param2": "10",
+      "Param3": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10243.1",
+          "zh_TW": "印記連舞III",
+          "zh_CN": "印记连舞III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10243.2",
+          "zh_TW": "【旅人】觸發印記後，攻擊速度提高{1}%，持續{2}秒，每{3}秒觸發一次。",
+          "zh_CN": "【旅人】触发印记后，攻击速度提高{1}%，持续{2}秒，每{3}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10251": {
+      "Id": 10251,
+      "Name": "InfinityTowerAffix.10251.1",
+      "Desc": "InfinityTowerAffix.10251.2",
+      "AddCamp": [
+        10251
+      ],
+      "Param1": "3",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10251.1",
+          "zh_TW": "魔術彈匣I",
+          "zh_CN": "魔术弹夹I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10251.2",
+          "zh_TW": "【旅人】施放技能後，{1}秒内不消耗子彈，每{2}秒觸發一次",
+          "zh_CN": "【旅人】释放技能后，{1}秒内不消耗子弹，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10252": {
+      "Id": 10252,
+      "Name": "InfinityTowerAffix.10252.1",
+      "Desc": "InfinityTowerAffix.10252.2",
+      "AddCamp": [
+        10252
+      ],
+      "Param1": "5",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10252.1",
+          "zh_TW": "魔術彈匣II",
+          "zh_CN": "魔术弹夹II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10252.2",
+          "zh_TW": "【旅人】施放技能後，{1}秒内不消耗子彈，每{2}秒觸發一次",
+          "zh_CN": "【旅人】释放技能后，{1}秒内不消耗子弹，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10253": {
+      "Id": 10253,
+      "Name": "InfinityTowerAffix.10253.1",
+      "Desc": "InfinityTowerAffix.10253.2",
+      "AddCamp": [
+        10253
+      ],
+      "Param1": "7",
+      "Param2": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10253.1",
+          "zh_TW": "魔術彈匣III",
+          "zh_CN": "魔术弹夹III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10253.2",
+          "zh_TW": "【旅人】施放技能後，{1}秒内不消耗子彈，每{2}秒觸發一次",
+          "zh_CN": "【旅人】释放技能后，{1}秒内不消耗子弹，每{2}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10261": {
+      "Id": 10261,
+      "Name": "InfinityTowerAffix.10261.1",
+      "Desc": "InfinityTowerAffix.10261.2",
+      "AddCamp": [
+        10261
+      ],
+      "Param1": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10261.1",
+          "zh_TW": "軍勢如虹I",
+          "zh_CN": "军势如虹I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10261.2",
+          "zh_TW": "【旅人】僕從存在時，暴擊率提高{1}%。",
+          "zh_CN": "【旅人】仆从存在时，暴击率提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10262": {
+      "Id": 10262,
+      "Name": "InfinityTowerAffix.10262.1",
+      "Desc": "InfinityTowerAffix.10262.2",
+      "AddCamp": [
+        10262
+      ],
+      "Param1": "15",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10262.1",
+          "zh_TW": "軍勢如虹II",
+          "zh_CN": "军势如虹II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10262.2",
+          "zh_TW": "【旅人】僕從存在時，暴擊率提高{1}%。",
+          "zh_CN": "【旅人】仆从存在时，暴击率提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10263": {
+      "Id": 10263,
+      "Name": "InfinityTowerAffix.10263.1",
+      "Desc": "InfinityTowerAffix.10263.2",
+      "AddCamp": [
+        10263
+      ],
+      "Param1": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10263.1",
+          "zh_TW": "軍勢如虹III",
+          "zh_CN": "军势如虹III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10263.2",
+          "zh_TW": "【旅人】僕從存在時，暴擊率提高{1}%。",
+          "zh_CN": "【旅人】仆从存在时，暴击率提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10271": {
+      "Id": 10271,
+      "Name": "InfinityTowerAffix.10271.1",
+      "Desc": "InfinityTowerAffix.10271.2",
+      "AddCamp": [
+        10231
+      ],
+      "Param1": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10271.1",
+          "zh_TW": "錦上添花I",
+          "zh_CN": "锦上添花I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10271.2",
+          "zh_TW": "【旅人】普通攻擊傷害提高{1}%。",
+          "zh_CN": "【旅人】普通攻击伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10272": {
+      "Id": 10272,
+      "Name": "InfinityTowerAffix.10272.1",
+      "Desc": "InfinityTowerAffix.10272.2",
+      "AddCamp": [
+        10232
+      ],
+      "Param1": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10272.1",
+          "zh_TW": "錦上添花II",
+          "zh_CN": "锦上添花II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10272.2",
+          "zh_TW": "【旅人】普通攻擊傷害提高{1}%。",
+          "zh_CN": "【旅人】普通攻击伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10273": {
+      "Id": 10273,
+      "Name": "InfinityTowerAffix.10273.1",
+      "Desc": "InfinityTowerAffix.10273.2",
+      "AddCamp": [
+        10233
+      ],
+      "Param1": "100",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10273.1",
+          "zh_TW": "錦上添花III",
+          "zh_CN": "锦上添花III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10273.2",
+          "zh_TW": "【旅人】普通攻擊傷害提高{1}%。",
+          "zh_CN": "【旅人】普通攻击伤害提高{1}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10281": {
+      "Id": 10281,
+      "Name": "InfinityTowerAffix.10281.1",
+      "Desc": "InfinityTowerAffix.10281.2",
+      "AddCamp": [
+        10241
+      ],
+      "Param1": "30",
+      "Param2": "5",
+      "Param3": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10281.1",
+          "zh_TW": "印記連舞I",
+          "zh_CN": "印记连舞I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10281.2",
+          "zh_TW": "【旅人】觸發印記後，攻擊速度提高{1}%，持續{2}秒，每{3}秒觸發一次。",
+          "zh_CN": "【旅人】触发印记后，攻击速度提高{1}%，持续{2}秒，每{3}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10282": {
+      "Id": 10282,
+      "Name": "InfinityTowerAffix.10282.1",
+      "Desc": "InfinityTowerAffix.10282.2",
+      "AddCamp": [
+        10242
+      ],
+      "Param1": "50",
+      "Param2": "5",
+      "Param3": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10282.1",
+          "zh_TW": "印記連舞II",
+          "zh_CN": "印记连舞II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10282.2",
+          "zh_TW": "【旅人】觸發印記後，攻擊速度提高{1}%，持續{2}秒，每{3}秒觸發一次。",
+          "zh_CN": "【旅人】触发印记后，攻击速度提高{1}%，持续{2}秒，每{3}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10283": {
+      "Id": 10283,
+      "Name": "InfinityTowerAffix.10283.1",
+      "Desc": "InfinityTowerAffix.10283.2",
+      "AddCamp": [
+        10243
+      ],
+      "Param1": "50",
+      "Param2": "10",
+      "Param3": "10",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10283.1",
+          "zh_TW": "印記連舞III",
+          "zh_CN": "印记连舞III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10283.2",
+          "zh_TW": "【旅人】觸發印記後，攻擊速度提高{1}%，持續{2}秒，每{3}秒觸發一次。",
+          "zh_CN": "【旅人】触发印记后，攻击速度提高{1}%，持续{2}秒，每{3}秒触发一次",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10291": {
+      "Id": 10291,
+      "Name": "InfinityTowerAffix.10291.1",
+      "Desc": "InfinityTowerAffix.10291.2",
+      "AddCamp": [
+        10291
+      ],
+      "Param1": "30",
+      "Param2": "3",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10291.1",
+          "zh_TW": "咒縛反擊I",
+          "zh_CN": "咒缚反击I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10291.2",
+          "zh_TW": "【旅人】被擊中時，攻擊者減速{1}%，持續{2}秒。",
+          "zh_CN": "【旅人】被击中时，攻击者被减速{1}%，持续{2}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10292": {
+      "Id": 10292,
+      "Name": "InfinityTowerAffix.10292.1",
+      "Desc": "InfinityTowerAffix.10292.2",
+      "AddCamp": [
+        10292
+      ],
+      "Param1": "30",
+      "Param2": "5",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10292.1",
+          "zh_TW": "咒縛反擊II",
+          "zh_CN": "咒缚反击II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10292.2",
+          "zh_TW": "【旅人】被擊中時，攻擊者減速{1}%，持續{2}秒。",
+          "zh_CN": "【旅人】被击中时，攻击者被减速{1}%，持续{2}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10293": {
+      "Id": 10293,
+      "Name": "InfinityTowerAffix.10293.1",
+      "Desc": "InfinityTowerAffix.10293.2",
+      "AddCamp": [
+        10293
+      ],
+      "Param1": "30",
+      "Param2": "7",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10293.1",
+          "zh_TW": "咒縛反擊III",
+          "zh_CN": "咒缚反击III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10293.2",
+          "zh_TW": "【旅人】被擊中時，攻擊者減速{1}%，持續{2}秒。",
+          "zh_CN": "【旅人】被击中时，攻击者被减速{1}%，持续{2}秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10201": {
+      "Id": 10201,
+      "Name": "InfinityTowerAffix.10201.1",
+      "Desc": "InfinityTowerAffix.10201.2",
+      "AddCamp": [
+        10011
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[6,2]",
+      "Param1": "2",
+      "Param2": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10201.1",
+          "zh_TW": "頌暗回音I",
+          "zh_CN": "颂暗回音I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10201.2",
+          "zh_TW": "配置暗屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑暗属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10202": {
+      "Id": 10202,
+      "Name": "InfinityTowerAffix.10202.1",
+      "Desc": "InfinityTowerAffix.10202.2",
+      "AddCamp": [
+        10012
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[6,2]",
+      "Param1": "2",
+      "Param2": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10202.1",
+          "zh_TW": "頌暗回音II",
+          "zh_CN": "颂暗回音II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10202.2",
+          "zh_TW": "配置暗屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑暗属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10203": {
+      "Id": 10203,
+      "Name": "InfinityTowerAffix.10203.1",
+      "Desc": "InfinityTowerAffix.10203.2",
+      "AddCamp": [
+        10013
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[6,2]",
+      "Param1": "2",
+      "Param2": "100",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10203.1",
+          "zh_TW": "頌暗回音III",
+          "zh_CN": "颂暗回音III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10203.2",
+          "zh_TW": "配置暗屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑暗属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10211": {
+      "Id": 10211,
+      "Name": "InfinityTowerAffix.10211.1",
+      "Desc": "InfinityTowerAffix.10211.2",
+      "AddCamp": [
+        10021
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[6,2]",
+      "Param1": "2",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10211.1",
+          "zh_TW": "暗流湧動I",
+          "zh_CN": "暗流涌动I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10211.2",
+          "zh_TW": "配置暗屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑暗属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10212": {
+      "Id": 10212,
+      "Name": "InfinityTowerAffix.10212.1",
+      "Desc": "InfinityTowerAffix.10212.2",
+      "AddCamp": [
+        10022
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[6,2]",
+      "Param1": "2",
+      "Param2": "40",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10212.1",
+          "zh_TW": "暗流湧動II",
+          "zh_CN": "暗流涌动II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10212.2",
+          "zh_TW": "配置暗屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑暗属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10213": {
+      "Id": 10213,
+      "Name": "InfinityTowerAffix.10213.1",
+      "Desc": "InfinityTowerAffix.10213.2",
+      "AddCamp": [
+        10023
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[6,2]",
+      "Param1": "2",
+      "Param2": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10213.1",
+          "zh_TW": "暗流湧動III",
+          "zh_CN": "暗流涌动III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10213.2",
+          "zh_TW": "配置暗屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑暗属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10301": {
+      "Id": 10301,
+      "Name": "InfinityTowerAffix.10301.1",
+      "Desc": "InfinityTowerAffix.10301.2",
+      "AddCamp": [
+        10011
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[1,2]",
+      "Param1": "2",
+      "Param2": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10301.1",
+          "zh_TW": "水行翩翩I",
+          "zh_CN": "水行翩翩I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10301.2",
+          "zh_TW": "配置水屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑水属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10302": {
+      "Id": 10302,
+      "Name": "InfinityTowerAffix.10302.1",
+      "Desc": "InfinityTowerAffix.10302.2",
+      "AddCamp": [
+        10012
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[1,2]",
+      "Param1": "2",
+      "Param2": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10302.1",
+          "zh_TW": "水行翩翩II",
+          "zh_CN": "水行翩翩II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10302.2",
+          "zh_TW": "配置水屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑水属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10303": {
+      "Id": 10303,
+      "Name": "InfinityTowerAffix.10303.1",
+      "Desc": "InfinityTowerAffix.10303.2",
+      "AddCamp": [
+        10013
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[1,2]",
+      "Param1": "2",
+      "Param2": "100",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10303.1",
+          "zh_TW": "水行翩翩III",
+          "zh_CN": "水行翩翩III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10303.2",
+          "zh_TW": "配置水屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑水属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10311": {
+      "Id": 10311,
+      "Name": "InfinityTowerAffix.10311.1",
+      "Desc": "InfinityTowerAffix.10311.2",
+      "AddCamp": [
+        10021
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[1,2]",
+      "Param1": "2",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10311.1",
+          "zh_TW": "行雲流水I",
+          "zh_CN": "行云流水I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10311.2",
+          "zh_TW": "配置水屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑水属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10312": {
+      "Id": 10312,
+      "Name": "InfinityTowerAffix.10312.1",
+      "Desc": "InfinityTowerAffix.10312.2",
+      "AddCamp": [
+        10022
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[1,2]",
+      "Param1": "2",
+      "Param2": "40",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10312.1",
+          "zh_TW": "行雲流水II",
+          "zh_CN": "行云流水II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10312.2",
+          "zh_TW": "配置水屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑水属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10313": {
+      "Id": 10313,
+      "Name": "InfinityTowerAffix.10313.1",
+      "Desc": "InfinityTowerAffix.10313.2",
+      "AddCamp": [
+        10023
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[1,2]",
+      "Param1": "2",
+      "Param2": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10313.1",
+          "zh_TW": "行雲流水III",
+          "zh_CN": "行云流水III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10313.2",
+          "zh_TW": "配置水屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑水属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10321": {
+      "Id": 10321,
+      "Name": "InfinityTowerAffix.10321.1",
+      "Desc": "InfinityTowerAffix.10321.2",
+      "AddCamp": [
+        10011
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[2,2]",
+      "Param1": "2",
+      "Param2": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10321.1",
+          "zh_TW": "乾柴烈火I",
+          "zh_CN": "干柴烈火I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10321.2",
+          "zh_TW": "配置火屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑火属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10322": {
+      "Id": 10322,
+      "Name": "InfinityTowerAffix.10322.1",
+      "Desc": "InfinityTowerAffix.10322.2",
+      "AddCamp": [
+        10012
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[2,2]",
+      "Param1": "2",
+      "Param2": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10322.1",
+          "zh_TW": "乾柴烈火II",
+          "zh_CN": "干柴烈火II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10322.2",
+          "zh_TW": "配置火屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑火属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10323": {
+      "Id": 10323,
+      "Name": "InfinityTowerAffix.10323.1",
+      "Desc": "InfinityTowerAffix.10323.2",
+      "AddCamp": [
+        10013
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[2,2]",
+      "Param1": "2",
+      "Param2": "100",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10323.1",
+          "zh_TW": "乾柴烈火III",
+          "zh_CN": "干柴烈火III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10323.2",
+          "zh_TW": "配置火屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑火属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10331": {
+      "Id": 10331,
+      "Name": "InfinityTowerAffix.10331.1",
+      "Desc": "InfinityTowerAffix.10331.2",
+      "AddCamp": [
+        10021
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[2,2]",
+      "Param1": "2",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10331.1",
+          "zh_TW": "火舞流明I",
+          "zh_CN": "火舞流明I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10331.2",
+          "zh_TW": "配置火屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑火属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10332": {
+      "Id": 10332,
+      "Name": "InfinityTowerAffix.10332.1",
+      "Desc": "InfinityTowerAffix.10332.2",
+      "AddCamp": [
+        10022
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[2,2]",
+      "Param1": "2",
+      "Param2": "40",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10332.1",
+          "zh_TW": "火舞流明II",
+          "zh_CN": "火舞流明II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10332.2",
+          "zh_TW": "配置火屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑火属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10333": {
+      "Id": 10333,
+      "Name": "InfinityTowerAffix.10333.1",
+      "Desc": "InfinityTowerAffix.10333.2",
+      "AddCamp": [
+        10023
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[2,2]",
+      "Param1": "2",
+      "Param2": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10333.1",
+          "zh_TW": "火舞流明III",
+          "zh_CN": "火舞流明III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10333.2",
+          "zh_TW": "配置火屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑火属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10341": {
+      "Id": 10341,
+      "Name": "InfinityTowerAffix.10341.1",
+      "Desc": "InfinityTowerAffix.10341.2",
+      "AddCamp": [
+        10011
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[3,2]",
+      "Param1": "2",
+      "Param2": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10341.1",
+          "zh_TW": "地平天成I",
+          "zh_CN": "地平天成I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10341.2",
+          "zh_TW": "配置地屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑地属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10342": {
+      "Id": 10342,
+      "Name": "InfinityTowerAffix.10342.1",
+      "Desc": "InfinityTowerAffix.10342.2",
+      "AddCamp": [
+        10012
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[3,2]",
+      "Param1": "2",
+      "Param2": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10342.1",
+          "zh_TW": "地平天成II",
+          "zh_CN": "地平天成II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10342.2",
+          "zh_TW": "配置地屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑地属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10343": {
+      "Id": 10343,
+      "Name": "InfinityTowerAffix.10343.1",
+      "Desc": "InfinityTowerAffix.10343.2",
+      "AddCamp": [
+        10013
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[3,2]",
+      "Param1": "2",
+      "Param2": "100",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10343.1",
+          "zh_TW": "地平天成III",
+          "zh_CN": "地平天成III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10343.2",
+          "zh_TW": "配置地屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑地属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10351": {
+      "Id": 10351,
+      "Name": "InfinityTowerAffix.10351.1",
+      "Desc": "InfinityTowerAffix.10351.2",
+      "AddCamp": [
+        10021
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[3,2]",
+      "Param1": "2",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10351.1",
+          "zh_TW": "喜地歡天I",
+          "zh_CN": "喜地欢天I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10351.2",
+          "zh_TW": "配置地屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑地属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10352": {
+      "Id": 10352,
+      "Name": "InfinityTowerAffix.10352.1",
+      "Desc": "InfinityTowerAffix.10352.2",
+      "AddCamp": [
+        10022
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[3,2]",
+      "Param1": "2",
+      "Param2": "40",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10352.1",
+          "zh_TW": "喜地歡天II",
+          "zh_CN": "喜地欢天II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10352.2",
+          "zh_TW": "配置地屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑地属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10353": {
+      "Id": 10353,
+      "Name": "InfinityTowerAffix.10353.1",
+      "Desc": "InfinityTowerAffix.10353.2",
+      "AddCamp": [
+        10023
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[3,2]",
+      "Param1": "2",
+      "Param2": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10353.1",
+          "zh_TW": "喜地歡天III",
+          "zh_CN": "喜地欢天III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10353.2",
+          "zh_TW": "配置地屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑地属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10361": {
+      "Id": 10361,
+      "Name": "InfinityTowerAffix.10361.1",
+      "Desc": "InfinityTowerAffix.10361.2",
+      "AddCamp": [
+        10011
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[4,2]",
+      "Param1": "2",
+      "Param2": "30",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10361.1",
+          "zh_TW": "風生徐徐I",
+          "zh_CN": "风生徐徐I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10361.2",
+          "zh_TW": "配置風屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑风属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10362": {
+      "Id": 10362,
+      "Name": "InfinityTowerAffix.10362.1",
+      "Desc": "InfinityTowerAffix.10362.2",
+      "AddCamp": [
+        10012
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[4,2]",
+      "Param1": "2",
+      "Param2": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10362.1",
+          "zh_TW": "風生徐徐II",
+          "zh_CN": "风生徐徐II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10362.2",
+          "zh_TW": "配置風屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑风属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10363": {
+      "Id": 10363,
+      "Name": "InfinityTowerAffix.10363.1",
+      "Desc": "InfinityTowerAffix.10363.2",
+      "AddCamp": [
+        10013
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[4,2]",
+      "Param1": "2",
+      "Param2": "100",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10363.1",
+          "zh_TW": "風生徐徐III",
+          "zh_CN": "风生徐徐III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10363.2",
+          "zh_TW": "配置風屬性旅人數量≥{1}時，能量獲得效率提高{2}%。",
+          "zh_CN": "构筑风属性旅人数量≥{1}时，能量获取效率提高{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10371": {
+      "Id": 10371,
+      "Name": "InfinityTowerAffix.10371.1",
+      "Desc": "InfinityTowerAffix.10371.2",
+      "AddCamp": [
+        10021
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[4,2]",
+      "Param1": "2",
+      "Param2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10371.1",
+          "zh_TW": "順風勢起I",
+          "zh_CN": "顺风势起I",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10371.2",
+          "zh_TW": "配置風屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑风属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10372": {
+      "Id": 10372,
+      "Name": "InfinityTowerAffix.10372.1",
+      "Desc": "InfinityTowerAffix.10372.2",
+      "AddCamp": [
+        10022
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[4,2]",
+      "Param1": "2",
+      "Param2": "40",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10372.1",
+          "zh_TW": "順風勢起II",
+          "zh_CN": "顺风势起II",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10372.2",
+          "zh_TW": "配置風屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑风属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    },
+    "10373": {
+      "Id": 10373,
+      "Name": "InfinityTowerAffix.10373.1",
+      "Desc": "InfinityTowerAffix.10373.2",
+      "AddCamp": [
+        10023
+      ],
+      "TriggerCondition": 1,
+      "TriggerParam": "[4,2]",
+      "Param1": "2",
+      "Param2": "60",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerAffix.10373.1",
+          "zh_TW": "順風勢起III",
+          "zh_CN": "顺风势起III",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "InfinityTowerAffix.10373.2",
+          "zh_TW": "配置風屬性旅人數量≥{1}時，技能冷卻縮短{2}%。",
+          "zh_CN": "构筑风属性旅人数量≥{1}时，技能冷却缩短{2}%",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerAffix.json",
+            "zh_CN": "language/zh_CN/InfinityTowerAffix.json"
+          }
+        }
+      }
+    }
+  }
+}

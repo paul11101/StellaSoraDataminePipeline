@@ -1,0 +1,376 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "ui_system",
+    "name": "界面与系统配置",
+    "description": "UI 文本、顶部栏、弹窗、手柄、错误码和通用客户端配置。",
+    "table_count": 21,
+    "row_count": 5446,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "Config",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 267,
+      "data": "bin/Config.json",
+      "readable": "readable/Config.json",
+      "evidence": "evidence/tables/Config.json",
+      "source_sha256": "2cf9156d0759a1246e7cbbfed7e20b5c0501cd9fbef89a77c9007271926609f7",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DictionaryDiagram",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 204,
+      "data": "bin/DictionaryDiagram.json",
+      "readable": "readable/DictionaryDiagram.json",
+      "evidence": "evidence/tables/DictionaryDiagram.json",
+      "source_sha256": "84b305d815570cc03f727b82ea1b46ab1aa704d9b5b7747584812ca8df95caae",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DictionaryDiagram.json",
+      "zh_CN": "language/zh_CN/DictionaryDiagram.json"
+    },
+    {
+      "table": "DictionaryEntry",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 25,
+      "data": "bin/DictionaryEntry.json",
+      "readable": "readable/DictionaryEntry.json",
+      "evidence": "evidence/tables/DictionaryEntry.json",
+      "source_sha256": "035c0dcf59aeffab57edcd1b6d1d61c767f58c1201667484eeb8d7681c47e3fd",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DictionaryEntry.json",
+      "zh_CN": "language/zh_CN/DictionaryEntry.json"
+    },
+    {
+      "table": "DictionaryTab",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 3,
+      "data": "bin/DictionaryTab.json",
+      "readable": "readable/DictionaryTab.json",
+      "evidence": "evidence/tables/DictionaryTab.json",
+      "source_sha256": "84969be876bac450e2703e3ed78eb838bbfdb6dd17b9a50655c176d870773225",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DictionaryTab.json",
+      "zh_CN": "language/zh_CN/DictionaryTab.json"
+    },
+    {
+      "table": "DictionaryTopBarEntry",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 82,
+      "data": "bin/DictionaryTopBarEntry.json",
+      "readable": "readable/DictionaryTopBarEntry.json",
+      "evidence": "evidence/tables/DictionaryTopBarEntry.json",
+      "source_sha256": "650f1bb7066ddddf5d8998cea1cdb1542b08aab28204212e6ff0bd1012e5529c",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+      "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+    },
+    {
+      "table": "EnumDesc",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 87,
+      "data": "bin/EnumDesc.json",
+      "readable": "readable/EnumDesc.json",
+      "evidence": "evidence/tables/EnumDesc.json",
+      "source_sha256": "5b578125cbe3965496a673b674cee6cb692e37fef4a9f0d61477ba04971ec5f9",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ErrorCode",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 184,
+      "data": "bin/ErrorCode.json",
+      "readable": "readable/ErrorCode.json",
+      "evidence": "evidence/tables/ErrorCode.json",
+      "source_sha256": "008c6e002cb5caa61ef05dd72dd5840595531902b7d069aab92919c0f0e43005",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ErrorCode.json",
+      "zh_CN": "language/zh_CN/ErrorCode.json"
+    },
+    {
+      "table": "FollowSocialMediaLinkConfig",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 3,
+      "data": "bin/FollowSocialMediaLinkConfig.json",
+      "readable": "readable/FollowSocialMediaLinkConfig.json",
+      "evidence": "evidence/tables/FollowSocialMediaLinkConfig.json",
+      "source_sha256": "e303417c3efc1cf0fcab2e5832cee06e2d13c121860229eac0b01101397d6d52",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/FollowSocialMediaLinkConfig.json",
+      "zh_CN": "language/zh_CN/FollowSocialMediaLinkConfig.json"
+    },
+    {
+      "table": "GamepadAction",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 59,
+      "data": "bin/GamepadAction.json",
+      "readable": "readable/GamepadAction.json",
+      "evidence": "evidence/tables/GamepadAction.json",
+      "source_sha256": "e1cd722f3a31487e777a7b0134ab8c0cb7ce6a64ab5acde509f8c4fbe8668c37",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GamepadButton",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 27,
+      "data": "bin/GamepadButton.json",
+      "readable": "readable/GamepadButton.json",
+      "evidence": "evidence/tables/GamepadButton.json",
+      "source_sha256": "8a60a9b81046e02d2d55359448d74b1c8a2a5e01861340aca957ea35dde14e6c",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GoldenSpyConfig",
+      "categories": [
+        "stages_modes",
+        "ui_system"
+      ],
+      "row_count": 4,
+      "data": "bin/GoldenSpyConfig.json",
+      "readable": "readable/GoldenSpyConfig.json",
+      "evidence": "evidence/tables/GoldenSpyConfig.json",
+      "source_sha256": "6c4d08c5202d69a07dbadad8a584e79c68bdc62a2dc3297a324f6098127b416d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "HtmlConfig",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 1,
+      "data": "bin/HtmlConfig.json",
+      "readable": "readable/HtmlConfig.json",
+      "evidence": "evidence/tables/HtmlConfig.json",
+      "source_sha256": "01694c0952bb085a7b0f79dd275407157d67cc93ec79113ce2bad5cf35a9b2e0",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "JumpTo",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 161,
+      "data": "bin/JumpTo.json",
+      "readable": "readable/JumpTo.json",
+      "evidence": "evidence/tables/JumpTo.json",
+      "source_sha256": "157c0e76a10d3a7f990b66a1b1214807086dc388aedd08182be2f4b33034533d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/JumpTo.json",
+      "zh_CN": "language/zh_CN/JumpTo.json"
+    },
+    {
+      "table": "MiningDemoConfig",
+      "categories": [
+        "stages_modes",
+        "ui_system"
+      ],
+      "row_count": 12,
+      "data": "bin/MiningDemoConfig.json",
+      "readable": "readable/MiningDemoConfig.json",
+      "evidence": "evidence/tables/MiningDemoConfig.json",
+      "source_sha256": "426277e31a7baf3bb8ad8e7e601bb4d26cc5a4821a1a0f0af8ed5883785ec2c4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MiningDemoRewardConfig",
+      "categories": [
+        "items_rewards",
+        "stages_modes",
+        "ui_system"
+      ],
+      "row_count": 0,
+      "data": "bin/MiningDemoRewardConfig.json",
+      "readable": "readable/MiningDemoRewardConfig.json",
+      "evidence": "evidence/tables/MiningDemoRewardConfig.json",
+      "source_sha256": "67856884401c136c2d2d600e513d4e032fe90e0bac388b894b6a840d561a4c68",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "NotificationConfig",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 2,
+      "data": "bin/NotificationConfig.json",
+      "readable": "readable/NotificationConfig.json",
+      "evidence": "evidence/tables/NotificationConfig.json",
+      "source_sha256": "b589d727c1ad872661c09f293f578c7ecc586b88d2f1a4adf23fc4618647c1e5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/NotificationConfig.json",
+      "zh_CN": "language/zh_CN/NotificationConfig.json"
+    },
+    {
+      "table": "NPCConfig",
+      "categories": [
+        "world_npc",
+        "ui_system"
+      ],
+      "row_count": 9,
+      "data": "bin/NPCConfig.json",
+      "readable": "readable/NPCConfig.json",
+      "evidence": "evidence/tables/NPCConfig.json",
+      "source_sha256": "ae5e0c32173facf4798ed90b8a586e30d1d521556f888a8762e0c5c3b4db0d45",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/NPCConfig.json",
+      "zh_CN": "language/zh_CN/NPCConfig.json"
+    },
+    {
+      "table": "PopUp",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 44,
+      "data": "bin/PopUp.json",
+      "readable": "readable/PopUp.json",
+      "evidence": "evidence/tables/PopUp.json",
+      "source_sha256": "5df58f1f335c5e148d5185fe4016af03e63937d5937694fb7d952ed4e784290a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PopUpSequence",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 8,
+      "data": "bin/PopUpSequence.json",
+      "readable": "readable/PopUpSequence.json",
+      "evidence": "evidence/tables/PopUpSequence.json",
+      "source_sha256": "36faa8ddeadf545c506260b37c113b97c50dd791eadd78b5ee900f0e312db7e6",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TopBar",
+      "categories": [
+        "ui_system"
+      ],
+      "row_count": 215,
+      "data": "bin/TopBar.json",
+      "readable": "readable/TopBar.json",
+      "evidence": "evidence/tables/TopBar.json",
+      "source_sha256": "3bd95accfff5035bfcd4463f56b272442d21f7b45a1c44a19069453556f341c1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TopBar.json",
+      "zh_CN": "language/zh_CN/TopBar.json"
+    },
+    {
+      "table": "UIText",
+      "categories": [
+        "ui_system",
+        "localization_media"
+      ],
+      "row_count": 4049,
+      "data": "bin/UIText.json",
+      "readable": "readable/UIText.json",
+      "evidence": "evidence/tables/UIText.json",
+      "source_sha256": "1e901f5fe603e8caa1e23b8108eae71d1fc65002e80582d9c9b49c56a12a02fd",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/UIText.json",
+      "zh_CN": "language/zh_CN/UIText.json"
+    }
+  ]
+}

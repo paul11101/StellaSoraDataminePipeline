@@ -1,0 +1,1604 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "DictionaryTopBarEntry",
+    "categories": [
+      "ui_system"
+    ],
+    "row_count": 82,
+    "localization_hits": 82,
+    "source": "bin/DictionaryTopBarEntry.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "100101": {
+      "Id": 100101,
+      "Title": "DictionaryTopBarEntry.100101.1",
+      "DiagramList": [
+        10010101
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.100101.1",
+          "zh_TW": "旅人概述",
+          "zh_CN": "旅人概述",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "100201": {
+      "Id": 100201,
+      "Title": "DictionaryTopBarEntry.100201.1",
+      "DiagramList": [
+        10020101,
+        10020102,
+        10020103
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.100201.1",
+          "zh_TW": "升級與進階",
+          "zh_CN": "升级与进阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "100301": {
+      "Id": 100301,
+      "Title": "DictionaryTopBarEntry.100301.1",
+      "DiagramList": [
+        10030101,
+        10030102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.100301.1",
+          "zh_TW": "技能",
+          "zh_CN": "技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "100601": {
+      "Id": 100601,
+      "Title": "DictionaryTopBarEntry.100601.1",
+      "DiagramList": [
+        10060101,
+        10060102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.100601.1",
+          "zh_TW": "天賦",
+          "zh_CN": "天赋",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "100701": {
+      "Id": 100701,
+      "Title": "DictionaryTopBarEntry.100701.1",
+      "DiagramList": [
+        10070101,
+        10070102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.100701.1",
+          "zh_TW": "默契",
+          "zh_CN": "默契",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "100801": {
+      "Id": 100801,
+      "Title": "DictionaryTopBarEntry.100801.1",
+      "DiagramList": [
+        10080101,
+        10080102,
+        10080103,
+        10080104,
+        10080105,
+        10080106,
+        10080107
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.100801.1",
+          "zh_TW": "紋章",
+          "zh_CN": "纹章",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "200101": {
+      "Id": 200101,
+      "Title": "DictionaryTopBarEntry.200101.1",
+      "DiagramList": [
+        20010101
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.200101.1",
+          "zh_TW": "權限等級",
+          "zh_CN": "权限等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "200201": {
+      "Id": 200201,
+      "Title": "DictionaryTopBarEntry.200201.1",
+      "DiagramList": [
+        20020101,
+        20020102,
+        20020103,
+        20020104,
+        20020105,
+        20020107
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.200201.1",
+          "zh_TW": "星塔",
+          "zh_CN": "星塔",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "200202": {
+      "Id": 200202,
+      "Title": "DictionaryTopBarEntry.200202.1",
+      "DiagramList": [
+        20020201,
+        20020202,
+        20020203
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.200202.1",
+          "zh_TW": "星塔研究",
+          "zh_CN": "星塔研究",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "200302": {
+      "Id": 200302,
+      "Title": "DictionaryTopBarEntry.200302.1",
+      "DiagramList": [
+        20030201,
+        20030202,
+        20030203,
+        20030204
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.200302.1",
+          "zh_TW": "潛能預設",
+          "zh_CN": "潜能预设",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "200801": {
+      "Id": 200801,
+      "Title": "DictionaryTopBarEntry.200801.1",
+      "DiagramList": [
+        20080201,
+        20080202,
+        20080203,
+        20080204
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.200801.1",
+          "zh_TW": "巔峰秀場",
+          "zh_CN": "巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "201001": {
+      "Id": 201001,
+      "Title": "DictionaryTopBarEntry.201001.1",
+      "DiagramList": [
+        20100101,
+        20100102,
+        20100103
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.201001.1",
+          "zh_TW": "心鏈",
+          "zh_CN": "心链",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "201101": {
+      "Id": 201101,
+      "Title": "DictionaryTopBarEntry.201101.1",
+      "DiagramList": [
+        20110101,
+        20110102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.201101.1",
+          "zh_TW": "活力",
+          "zh_CN": "干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "201201": {
+      "Id": 201201,
+      "Title": "DictionaryTopBarEntry.201201.1",
+      "DiagramList": [
+        20120101,
+        20120102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.201201.1",
+          "zh_TW": "心危擂台",
+          "zh_CN": "心危擂台",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "201301": {
+      "Id": 201301,
+      "Title": "DictionaryTopBarEntry.201301.1",
+      "DiagramList": [
+        20130101,
+        20130102,
+        20130103,
+        20130104
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.201301.1",
+          "zh_TW": "災變防線",
+          "zh_CN": "灾变防线",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "201302": {
+      "Id": 201302,
+      "Title": "DictionaryTopBarEntry.201302.1",
+      "DiagramList": [
+        20130201,
+        20130202,
+        20130203
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.201302.1",
+          "zh_TW": "災變防線-戰鬥",
+          "zh_CN": "灾变防线-战斗",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "201401": {
+      "Id": 201401,
+      "Title": "DictionaryTopBarEntry.201401.1",
+      "DiagramList": [
+        20140101,
+        20140102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.201401.1",
+          "zh_TW": "真格挑戰",
+          "zh_CN": "真格挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "201501": {
+      "Id": 201501,
+      "Title": "DictionaryTopBarEntry.201501.1",
+      "DiagramList": [
+        20150101,
+        20150102,
+        20150103,
+        20150104,
+        20150105,
+        20150106
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.201501.1",
+          "zh_TW": "聯合討伐",
+          "zh_CN": "联合讨伐",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "201601": {
+      "Id": 201601,
+      "Title": "DictionaryTopBarEntry.201601.1",
+      "DiagramList": [
+        20160101,
+        20160102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.201601.1",
+          "zh_TW": "終焉絕響",
+          "zh_CN": "终焉绝响",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "201602": {
+      "Id": 201602,
+      "Title": "DictionaryTopBarEntry.201602.1",
+      "DiagramList": [
+        20160201
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.201602.1",
+          "zh_TW": "終焉絕響",
+          "zh_CN": "终焉绝响",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "201701": {
+      "Id": 201701,
+      "Title": "DictionaryTopBarEntry.201701.1",
+      "DiagramList": [
+        20170101,
+        20170102,
+        20170103,
+        20170104,
+        20170105
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.201701.1",
+          "zh_TW": "獵影重圍",
+          "zh_CN": "猎影合围",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300102": {
+      "Id": 300102,
+      "Title": "DictionaryTopBarEntry.300102.1",
+      "DiagramList": [
+        20030101,
+        20030102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300102.1",
+          "zh_TW": "紀錄",
+          "zh_CN": "纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300103": {
+      "Id": 300103,
+      "Title": "DictionaryTopBarEntry.300103.1",
+      "DiagramList": [
+        10050101
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300103.1",
+          "zh_TW": "潛能",
+          "zh_CN": "潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300104": {
+      "Id": 300104,
+      "Title": "DictionaryTopBarEntry.300104.1",
+      "DiagramList": [
+        20090101,
+        20090102,
+        20090103,
+        20090104
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300104.1",
+          "zh_TW": "音符",
+          "zh_CN": "音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300105": {
+      "Id": 300105,
+      "Title": "DictionaryTopBarEntry.300105.1",
+      "DiagramList": [
+        30010501
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300105.1",
+          "zh_TW": "普通攻擊",
+          "zh_CN": "普通攻击",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300106": {
+      "Id": 300106,
+      "Title": "DictionaryTopBarEntry.300106.1",
+      "DiagramList": [
+        30010601
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300106.1",
+          "zh_TW": "主控技能",
+          "zh_CN": "主控技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300107": {
+      "Id": 300107,
+      "Title": "DictionaryTopBarEntry.300107.1",
+      "DiagramList": [
+        30010701
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300107.1",
+          "zh_TW": "蓄能",
+          "zh_CN": "充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300108": {
+      "Id": 300108,
+      "Title": "DictionaryTopBarEntry.300108.1",
+      "DiagramList": [
+        30010801
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300108.1",
+          "zh_TW": "閃避",
+          "zh_CN": "闪避",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300109": {
+      "Id": 300109,
+      "Title": "DictionaryTopBarEntry.300109.1",
+      "DiagramList": [
+        30010901
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300109.1",
+          "zh_TW": "疾跑",
+          "zh_CN": "疾跑",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300110": {
+      "Id": 300110,
+      "Title": "DictionaryTopBarEntry.300110.1",
+      "DiagramList": [
+        30011001
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300110.1",
+          "zh_TW": "援護技能",
+          "zh_CN": "援护技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300111": {
+      "Id": 300111,
+      "Title": "DictionaryTopBarEntry.300111.1",
+      "DiagramList": [
+        30011101
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300111.1",
+          "zh_TW": "援護絕招",
+          "zh_CN": "援护绝招",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300112": {
+      "Id": 300112,
+      "Title": "DictionaryTopBarEntry.300112.1",
+      "DiagramList": [
+        30011202,
+        30011201
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300112.1",
+          "zh_TW": "元素印記",
+          "zh_CN": "元素印记",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300113": {
+      "Id": 300113,
+      "Title": "DictionaryTopBarEntry.300113.1",
+      "DiagramList": [
+        30011301,
+        30011302
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300113.1",
+          "zh_TW": "元素屬性",
+          "zh_CN": "元素属性",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300114": {
+      "Id": 300114,
+      "Title": "DictionaryTopBarEntry.300114.1",
+      "DiagramList": [
+        30011401
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300114.1",
+          "zh_TW": "推薦屬性",
+          "zh_CN": "推荐属性",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300115": {
+      "Id": 300115,
+      "Title": "DictionaryTopBarEntry.300115.1",
+      "DiagramList": [
+        30011501
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300115.1",
+          "zh_TW": "韌性",
+          "zh_CN": "韧性",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300116": {
+      "Id": 300116,
+      "Title": "DictionaryTopBarEntry.300116.1",
+      "DiagramList": [
+        30011601
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300116.1",
+          "zh_TW": "破韌",
+          "zh_CN": "破韧",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300117": {
+      "Id": 300117,
+      "Title": "DictionaryTopBarEntry.300117.1",
+      "DiagramList": [
+        30011701
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300117.1",
+          "zh_TW": "元素屬性-印記附加",
+          "zh_CN": "元素属性-印记附加",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300118": {
+      "Id": 300118,
+      "Title": "DictionaryTopBarEntry.300118.1",
+      "DiagramList": [
+        30011801
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300118.1",
+          "zh_TW": "音符來源",
+          "zh_CN": "音符来源",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "300119": {
+      "Id": 300119,
+      "Title": "DictionaryTopBarEntry.300119.1",
+      "DiagramList": [
+        20020103,
+        20020104
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.300119.1",
+          "zh_TW": "音符",
+          "zh_CN": "音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400101": {
+      "Id": 400101,
+      "Title": "DictionaryTopBarEntry.400101.1",
+      "DiagramList": [
+        40010101,
+        40010103,
+        40010104,
+        40010105,
+        40010106
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400101.1",
+          "zh_TW": "幸運尋寶鏟",
+          "zh_CN": "幸运寻宝铲",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400201": {
+      "Id": 400201,
+      "Title": "DictionaryTopBarEntry.400201.1",
+      "DiagramList": [
+        40020101,
+        40020102,
+        40020103
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400201.1",
+          "zh_TW": "遊棋保衛戰-基礎玩法",
+          "zh_CN": "游棋保卫战-基础玩法",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400202": {
+      "Id": 400202,
+      "Title": "DictionaryTopBarEntry.400202.1",
+      "DiagramList": [
+        40020201,
+        40020202,
+        40020203
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400202.1",
+          "zh_TW": "遊棋保衛戰-角色升級",
+          "zh_CN": "游棋保卫战-角色升级",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400203": {
+      "Id": 400203,
+      "Title": "DictionaryTopBarEntry.400203.1",
+      "DiagramList": [
+        40020301
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400203.1",
+          "zh_TW": "遊棋保衛戰-特殊道具",
+          "zh_CN": "游棋保卫战-特殊道具",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400204": {
+      "Id": 400204,
+      "Title": "DictionaryTopBarEntry.400204.1",
+      "DiagramList": [
+        40020401,
+        40020402,
+        40020403
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400204.1",
+          "zh_TW": "遊棋保衛戰-棋子介紹",
+          "zh_CN": "游棋保卫战-棋子介绍",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400301": {
+      "Id": 400301,
+      "Title": "DictionaryTopBarEntry.400301.1",
+      "DiagramList": [
+        40030101,
+        40030201,
+        40030301,
+        40030401,
+        40030501
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400301.1",
+          "zh_TW": "甜心夢工坊",
+          "zh_CN": "甜心梦工坊",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "900101": {
+      "Id": 900101,
+      "Title": "DictionaryTopBarEntry.900101.1",
+      "DiagramList": [
+        90020101,
+        90020102,
+        90010101,
+        90010102,
+        90010103
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.900101.1",
+          "zh_TW": "每日任務",
+          "zh_CN": "日常任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "900301": {
+      "Id": 900301,
+      "Title": "DictionaryTopBarEntry.900301.1",
+      "DiagramList": [
+        90030101,
+        90030102,
+        90030103,
+        90030104
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.900301.1",
+          "zh_TW": "創業基金",
+          "zh_CN": "创业基金",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400205": {
+      "Id": 400205,
+      "Title": "DictionaryTopBarEntry.400205.1",
+      "DiagramList": [
+        40020501
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400205.1",
+          "zh_TW": "遊棋保衛戰-落水",
+          "zh_CN": "游棋保卫战-落水",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400206": {
+      "Id": 400206,
+      "Title": "DictionaryTopBarEntry.400206.1",
+      "DiagramList": [
+        40020601
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400206.1",
+          "zh_TW": "遊棋保衛戰-推動",
+          "zh_CN": "游棋保卫战-推动",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400207": {
+      "Id": 400207,
+      "Title": "DictionaryTopBarEntry.400207.1",
+      "DiagramList": [
+        40020701
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400207.1",
+          "zh_TW": "遊棋保衛戰-重量",
+          "zh_CN": "游棋保卫战-重量",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400208": {
+      "Id": 400208,
+      "Title": "DictionaryTopBarEntry.400208.1",
+      "DiagramList": [
+        40020801
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400208.1",
+          "zh_TW": "遊棋保衛戰-能量沛沛",
+          "zh_CN": "游棋保卫战-能量沛沛",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400209": {
+      "Id": 400209,
+      "Title": "DictionaryTopBarEntry.400209.1",
+      "DiagramList": [
+        40020901
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400209.1",
+          "zh_TW": "遊棋保衛戰-翡冷翠",
+          "zh_CN": "游棋保卫战-翡冷翠",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400210": {
+      "Id": 400210,
+      "Title": "DictionaryTopBarEntry.400210.1",
+      "DiagramList": [
+        40021001
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400210.1",
+          "zh_TW": "遊棋保衛戰-首領重量",
+          "zh_CN": "游棋保卫战-首领重量",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400211": {
+      "Id": 400211,
+      "Title": "DictionaryTopBarEntry.400211.1",
+      "DiagramList": [
+        40020502
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400211.1",
+          "zh_TW": "遊棋保衛戰-拉動",
+          "zh_CN": "游棋保卫战-拉动",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400212": {
+      "Id": 400212,
+      "Title": "DictionaryTopBarEntry.400212.1",
+      "DiagramList": [
+        40021101,
+        40021102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400212.1",
+          "zh_TW": "遊棋保衛戰-草叢",
+          "zh_CN": "游棋保卫战-草丛",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400213": {
+      "Id": 400213,
+      "Title": "DictionaryTopBarEntry.400213.1",
+      "DiagramList": [
+        40021201
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400213.1",
+          "zh_TW": "遊棋保衛戰-注意草叢法術",
+          "zh_CN": "游棋保卫战-注意草丛法术",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400214": {
+      "Id": 400214,
+      "Title": "DictionaryTopBarEntry.400214.1",
+      "DiagramList": [
+        40021301
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400214.1",
+          "zh_TW": "遊棋保衛戰-注意大規模草叢法術",
+          "zh_CN": "游棋保卫战-注意大规模草丛法术",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400220": {
+      "Id": 400220,
+      "Title": "DictionaryTopBarEntry.400220.1",
+      "DiagramList": [
+        40022001
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400220.1",
+          "zh_TW": "遊棋保衛戰-炎熱",
+          "zh_CN": "游棋保卫战-炎热",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400221": {
+      "Id": 400221,
+      "Title": "DictionaryTopBarEntry.400221.1",
+      "DiagramList": [
+        40022101,
+        40022102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400221.1",
+          "zh_TW": "遊棋保衛戰-降溫",
+          "zh_CN": "游棋保卫战-降温",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400222": {
+      "Id": 400222,
+      "Title": "DictionaryTopBarEntry.400222.1",
+      "DiagramList": [
+        40022201,
+        40022202
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400222.1",
+          "zh_TW": "遊棋保衛戰-滅火",
+          "zh_CN": "游棋保卫战-灭火",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400223": {
+      "Id": 400223,
+      "Title": "DictionaryTopBarEntry.400223.1",
+      "DiagramList": [
+        40022301
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400223.1",
+          "zh_TW": "遊棋保衛戰-注意首領怪物",
+          "zh_CN": "游棋保卫战-注意首领怪物",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400401": {
+      "Id": 400401,
+      "Title": "DictionaryTopBarEntry.400401.1",
+      "DiagramList": [
+        40040101,
+        40040102,
+        40040103,
+        40040104
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400401.1",
+          "zh_TW": "繚亂碎晶球-基礎玩法",
+          "zh_CN": "缭乱碎晶球-基础玩法",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400402": {
+      "Id": 400402,
+      "Title": "DictionaryTopBarEntry.400402.1",
+      "DiagramList": [
+        40040201
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400402.1",
+          "zh_TW": "繚亂碎晶球-道具",
+          "zh_CN": "缭乱碎晶球-道具",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400403": {
+      "Id": 400403,
+      "Title": "DictionaryTopBarEntry.400403.1",
+      "DiagramList": [
+        40040301
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400403.1",
+          "zh_TW": "繚亂碎晶球-怪物",
+          "zh_CN": "缭乱碎晶球-怪物",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400404": {
+      "Id": 400404,
+      "Title": "DictionaryTopBarEntry.400404.1",
+      "DiagramList": [
+        40040402
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400404.1",
+          "zh_TW": "繚亂碎晶球-機關",
+          "zh_CN": "缭乱碎晶球-机关",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400501": {
+      "Id": 400501,
+      "Title": "DictionaryTopBarEntry.400501.1",
+      "DiagramList": [
+        40050101,
+        40050102,
+        40050103,
+        40050104
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400501.1",
+          "zh_TW": "命運星牌局",
+          "zh_CN": "命运星牌局",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400601": {
+      "Id": 400601,
+      "Title": "DictionaryTopBarEntry.400601.1",
+      "DiagramList": [
+        40060101,
+        40060102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400601.1",
+          "zh_TW": "豪禮拋物線-基礎玩法",
+          "zh_CN": "豪礼抛物线-基础玩法",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400602": {
+      "Id": 400602,
+      "Title": "DictionaryTopBarEntry.400602.1",
+      "DiagramList": [
+        40060201,
+        40060202,
+        40060203
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400602.1",
+          "zh_TW": "豪禮拋物線-道具",
+          "zh_CN": "豪礼抛物线-道具",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400603": {
+      "Id": 400603,
+      "Title": "DictionaryTopBarEntry.400603.1",
+      "DiagramList": [
+        40060301
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400603.1",
+          "zh_TW": "豪禮拋物線-鼓風機",
+          "zh_CN": "豪礼抛物线-鼓风机",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400604": {
+      "Id": 400604,
+      "Title": "DictionaryTopBarEntry.400604.1",
+      "DiagramList": [
+        40060401
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400604.1",
+          "zh_TW": "豪禮拋物線-傳送門",
+          "zh_CN": "豪礼抛物线-传送门",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400605": {
+      "Id": 400605,
+      "Title": "DictionaryTopBarEntry.400605.1",
+      "DiagramList": [
+        40060501
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400605.1",
+          "zh_TW": "豪禮拋物線-彈射夏洛克",
+          "zh_CN": "豪礼抛物线-弹射夏洛克",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400607": {
+      "Id": 400607,
+      "Title": "DictionaryTopBarEntry.400607.1",
+      "DiagramList": [
+        40060701
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400607.1",
+          "zh_TW": "豪禮拋物線-精準盲投",
+          "zh_CN": "豪礼抛物线-精准盲投",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400701": {
+      "Id": 400701,
+      "Title": "DictionaryTopBarEntry.400701.1",
+      "DiagramList": [
+        40070101,
+        40070102,
+        40070103
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400701.1",
+          "zh_TW": "月華竊夢人—基礎玩法",
+          "zh_CN": "月华窃梦人—基础玩法",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400702": {
+      "Id": 400702,
+      "Title": "DictionaryTopBarEntry.400702.1",
+      "DiagramList": [
+        40070201,
+        40070202
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400702.1",
+          "zh_TW": "月華竊夢人—提升",
+          "zh_CN": "月华窃梦人—提升",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400703": {
+      "Id": 400703,
+      "Title": "DictionaryTopBarEntry.400703.1",
+      "DiagramList": [
+        40070301,
+        40070302,
+        40070303,
+        40070304
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400703.1",
+          "zh_TW": "月華竊夢人—警戒",
+          "zh_CN": "月华窃梦人—警戒",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400704": {
+      "Id": 400704,
+      "Title": "DictionaryTopBarEntry.400704.1",
+      "DiagramList": [
+        40070401,
+        40070402
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400704.1",
+          "zh_TW": "月華竊夢人—雷射",
+          "zh_CN": "月华窃梦人—镭射",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400705": {
+      "Id": 400705,
+      "Title": "DictionaryTopBarEntry.400705.1",
+      "DiagramList": [
+        40070501,
+        40070502,
+        40070503
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400705.1",
+          "zh_TW": "月華竊夢人—神祕物資",
+          "zh_CN": "月华窃梦人—神秘物资",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400801": {
+      "Id": 400801,
+      "Title": "DictionaryTopBarEntry.400801.1",
+      "DiagramList": [
+        40080101,
+        40080102,
+        40080103,
+        40080104
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400801.1",
+          "zh_TW": "沁涼補給站—基礎玩法",
+          "zh_CN": "沁凉补给站—基础玩法",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400802": {
+      "Id": 400802,
+      "Title": "DictionaryTopBarEntry.400802.1",
+      "DiagramList": [
+        40080201,
+        40080202
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400802.1",
+          "zh_TW": "沁涼補給站—夏日酷飲",
+          "zh_CN": "沁凉补给站—夏日酷饮",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400803": {
+      "Id": 400803,
+      "Title": "DictionaryTopBarEntry.400803.1",
+      "DiagramList": [
+        40080301
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400803.1",
+          "zh_TW": "沁涼補給站—歡樂時光",
+          "zh_CN": "沁凉补给站—欢乐时光",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400804": {
+      "Id": 400804,
+      "Title": "DictionaryTopBarEntry.400804.1",
+      "DiagramList": [
+        40080401
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400804.1",
+          "zh_TW": "沁涼補給站—無限挑戰",
+          "zh_CN": "沁凉补给站—无限挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    },
+    "400901": {
+      "Id": 400901,
+      "Title": "DictionaryTopBarEntry.400901.1",
+      "DiagramList": [
+        40090101,
+        40090102,
+        40090103,
+        40090104,
+        40090204,
+        40090105,
+        40090106,
+        40090107,
+        40090108,
+        40090109,
+        40090110,
+        40090111,
+        40090112,
+        40090113,
+        40090114,
+        40090115,
+        40090116
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTopBarEntry.400901.1",
+          "zh_TW": "尖兵陷陣",
+          "zh_CN": "尖兵陷阵",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTopBarEntry.json",
+            "zh_CN": "language/zh_CN/DictionaryTopBarEntry.json"
+          }
+        }
+      }
+    }
+  }
+}

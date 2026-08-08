@@ -1,0 +1,394 @@
+{
+  "table": "TraceHuntLevel",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\72fff5bcdfc8d751.bin",
+  "source_sha256": "5071ac7b63471e7b6bc5ff5df5249ead5a73f5d86af470838111b1efe8f91fc4",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\TraceHuntLevel.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 0,
+    "key_type": 0,
+    "row_count": 20
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reference_field_order": [
+      "Level",
+      "Exp",
+      "WorldClass",
+      "MaxStar",
+      "TokenRate",
+      "DisplayLuckyRate",
+      "DisplayFreeRate",
+      "DisplayMaxStar",
+      "DisplayTokenRate",
+      "DisplayAddRate"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 10,
+    "remaining_name_count": 10,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Level",
+        "matching_reference_rows": 20,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Exp",
+        "matching_reference_rows": 20,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "WorldClass",
+        "matching_reference_rows": 20,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "MaxStar",
+        "matching_reference_rows": 20,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "TokenRate",
+        "matching_reference_rows": 20,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "DisplayMaxStar",
+        "matching_reference_rows": 4,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "7": {
+        "field": "DisplayTokenRate",
+        "matching_reference_rows": 7,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "8": {
+        "field": "DisplayLuckyRate",
+        "matching_reference_rows": 3,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "9": {
+        "field": "DisplayAddRate",
+        "matching_reference_rows": 3,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "10": {
+        "field": "DisplayFreeRate",
+        "matching_reference_rows": 3,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Level",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 20,
+      "compared_reference_rows": 20,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_int",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 20
+        }
+      ]
+    },
+    "2": {
+      "field": "Exp",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 20,
+      "compared_reference_rows": 20,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_int",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 20
+        }
+      ]
+    },
+    "3": {
+      "field": "WorldClass",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 20,
+      "compared_reference_rows": 20,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_int",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 20
+        }
+      ]
+    },
+    "4": {
+      "field": "MaxStar",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 20,
+      "compared_reference_rows": 20,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_int",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 20
+        }
+      ]
+    },
+    "5": {
+      "field": "TokenRate",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 20,
+      "compared_reference_rows": 20,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_int",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 20
+        }
+      ]
+    },
+    "6": {
+      "field": "DisplayMaxStar",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "7": {
+      "field": "DisplayTokenRate",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7,
+      "compared_reference_rows": 7,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7,
+          "compared": 7
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7
+        }
+      ]
+    },
+    "8": {
+      "field": "DisplayLuckyRate",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3,
+      "compared_reference_rows": 3,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3,
+          "compared": 3
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3,
+          "compared": 3
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3
+        }
+      ]
+    },
+    "9": {
+      "field": "DisplayAddRate",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3,
+      "compared_reference_rows": 3,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3,
+          "compared": 3
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3,
+          "compared": 3
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3
+        }
+      ]
+    },
+    "10": {
+      "field": "DisplayFreeRate",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3,
+      "compared_reference_rows": 3,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3,
+          "compared": 3
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3,
+          "compared": 3
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 20,
+    "reference_row_count": 20,
+    "shared_key_count": 20,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 20,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

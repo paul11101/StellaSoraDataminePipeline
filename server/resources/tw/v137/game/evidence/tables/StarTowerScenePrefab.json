@@ -1,0 +1,158 @@
+{
+  "table": "StarTowerScenePrefab",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f591ad0b51c4b9e7.bin",
+  "source_sha256": "e2f00b48c6ea5b4552e444f5e22cdebfec9601f9ec25999773931bd7fc946ed9",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\StarTowerScenePrefab.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 187
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reference_field_order": [
+      "Id",
+      "ConfigRes",
+      "BianQuan",
+      "GameplayTypes"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "ConfigRes",
+      "3": "BianQuan",
+      "4": "GameplayTypes"
+    },
+    "aot_field_count": 4,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 187,
+      "compared_reference_rows": 187,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 187,
+          "compared": 187
+        },
+        {
+          "codec": "varint_int",
+          "matches": 187,
+          "compared": 187
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 187
+        }
+      ]
+    },
+    "2": {
+      "field": "ConfigRes",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 187,
+      "compared_reference_rows": 187,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 187,
+          "compared": 187
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 187
+        }
+      ]
+    },
+    "3": {
+      "field": "BianQuan",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 68,
+      "compared_reference_rows": 68,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 68,
+          "compared": 68
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 68
+        }
+      ]
+    },
+    "4": {
+      "field": "GameplayTypes",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 71,
+      "compared_reference_rows": 71,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 71,
+          "compared": 71
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 71,
+          "compared": 71
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 71
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 187,
+    "reference_row_count": 187,
+    "shared_key_count": 187,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 187,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

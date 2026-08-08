@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message CharAffinityGiftSendReq {
+  uint32 CharId = 1;
+  repeated .proto.ItemTpl Items = 2;
+  bytes NextPackage = 2047;
+}
+
+message CharAffinityGiftSendResp {
+  .proto.AffinityInfo Info = 1;
+  .proto.ChangeInfo Change = 2;
+  uint32 SendGiftCnt = 3;
+  bytes NextPackage = 2047;
+}

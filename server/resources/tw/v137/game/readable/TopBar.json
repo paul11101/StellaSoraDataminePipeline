@@ -1,0 +1,3427 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TopBar",
+    "categories": [
+      "ui_system"
+    ],
+    "row_count": 215,
+    "localization_hits": 201,
+    "source": "bin/TopBar.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "CharInfo": {
+      "Id": "CharInfo",
+      "Title": "TopBar.CharInfo.1",
+      "EntryId": 100101,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharInfo.1",
+          "zh_TW": "旅人詳情",
+          "zh_CN": "旅人详情",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CharList": {
+      "Id": "CharList",
+      "Title": "TopBar.CharList.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharList.1",
+          "zh_TW": "旅人清單",
+          "zh_CN": "旅人列表",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "GachaSpin": {
+      "Id": "GachaSpin",
+      "Title": "TopBar.GachaSpin.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.GachaSpin.1",
+          "zh_TW": "旅人招募",
+          "zh_CN": "旅人招募",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ShopPanel": {
+      "Id": "ShopPanel",
+      "Title": "TopBar.ShopPanel.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ShopPanel.1",
+          "zh_TW": "採購",
+          "zh_CN": "采购",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ShopPopupPanel": {
+      "Id": "ShopPopupPanel",
+      "Title": "TopBar.ShopPopupPanel.1",
+      "HideBack": true,
+      "Coin": true,
+      "DelayShow": true
+    },
+    "DepotPanel": {
+      "Id": "DepotPanel",
+      "Title": "TopBar.DepotPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.DepotPanel.1",
+          "zh_TW": "物資",
+          "zh_CN": "物资",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CharSkill": {
+      "Id": "CharSkill",
+      "Title": "TopBar.CharSkill.1",
+      "EntryId": 100301,
+      "Coin": true,
+      "CoinIds": [
+        1
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharSkill.1",
+          "zh_TW": "旅人能力",
+          "zh_CN": "旅人能力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "RoguelikeBuildBriefList": {
+      "Id": "RoguelikeBuildBriefList",
+      "Title": "TopBar.RoguelikeBuildBriefList.1",
+      "EntryId": 300102,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.RoguelikeBuildBriefList.1",
+          "zh_TW": "紀錄管理",
+          "zh_CN": "纪录管理",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "RogueBossBuildBrief": {
+      "Id": "RogueBossBuildBrief",
+      "Title": "TopBar.RogueBossBuildBrief.1",
+      "EntryId": 300102,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.RogueBossBuildBrief.1",
+          "zh_TW": "紀錄管理",
+          "zh_CN": "纪录管理",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "RoguelikeBuildDetail": {
+      "Id": "RoguelikeBuildDetail",
+      "Title": "TopBar.RoguelikeBuildDetail.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.RoguelikeBuildDetail.1",
+          "zh_TW": "小隊資訊",
+          "zh_CN": "小队信息",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Quest": {
+      "Id": "Quest",
+      "Title": "TopBar.Quest.1",
+      "EntryId": 900101,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Quest.1",
+          "zh_TW": "任務",
+          "zh_CN": "任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TravelerDuelLevelQuestPanel": {
+      "Id": "TravelerDuelLevelQuestPanel",
+      "Title": "TopBar.TravelerDuelLevelQuestPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TravelerDuelLevelQuestPanel.1",
+          "zh_TW": "對決任務",
+          "zh_CN": "对决任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Mail": {
+      "Id": "Mail",
+      "Title": "TopBar.Mail.1",
+      "Coin": true,
+      "CoinIds": [
+        1,
+        2
+      ],
+      "HideCoinAdd": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Mail.1",
+          "zh_TW": "郵件",
+          "zh_CN": "邮件",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Friend": {
+      "Id": "Friend",
+      "Title": "TopBar.Friend.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Friend.1",
+          "zh_TW": "好友",
+          "zh_CN": "好友",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "LevelMenu": {
+      "Id": "LevelMenu",
+      "Title": "TopBar.LevelMenu.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.LevelMenu.1",
+          "zh_TW": "旅行",
+          "zh_CN": "旅行",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Mainline": {
+      "Id": "Mainline",
+      "Title": "TopBar.Mainline.1",
+      "Coin": true,
+      "CoinIds": [
+        1
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Mainline.1",
+          "zh_TW": "旅行故事",
+          "zh_CN": "旅行故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "RoguelikeLevel": {
+      "Id": "RoguelikeLevel",
+      "Title": "TopBar.RoguelikeLevel.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.RoguelikeLevel.1",
+          "zh_TW": "星塔探索",
+          "zh_CN": "星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MainlineFormation": {
+      "Id": "MainlineFormation",
+      "Title": "TopBar.MainlineFormation.1",
+      "EntryId": 200302,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MainlineFormation.1",
+          "zh_TW": "編隊",
+          "zh_CN": "编队",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MainlineFormationDisc": {
+      "Id": "MainlineFormationDisc",
+      "Title": "TopBar.MainlineFormationDisc.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MainlineFormationDisc.1",
+          "zh_TW": "祕紋組合",
+          "zh_CN": "秘纹组合",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "RegionBossFormation": {
+      "Id": "RegionBossFormation",
+      "Title": "TopBar.RegionBossFormation.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.RegionBossFormation.1",
+          "zh_TW": "紀錄",
+          "zh_CN": "纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "RogueBossLevel": {
+      "Id": "RogueBossLevel",
+      "Title": "TopBar.RogueBossLevel.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.RogueBossLevel.1",
+          "zh_TW": "晉升試煉",
+          "zh_CN": "晋升试炼",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CharUpPanel": {
+      "Id": "CharUpPanel",
+      "Title": "TopBar.CharUpPanel.1",
+      "EntryId": 100201,
+      "Coin": true,
+      "CoinIds": [
+        1
+      ]
+    },
+    "Achievement": {
+      "Id": "Achievement",
+      "Title": "TopBar.Achievement.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Achievement.1",
+          "zh_TW": "成就",
+          "zh_CN": "成就",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Mall": {
+      "Id": "Mall",
+      "Title": "TopBar.Mall.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Mall.1",
+          "zh_TW": "商城",
+          "zh_CN": "商城",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MallPopup": {
+      "Id": "MallPopup",
+      "Title": "TopBar.MallPopup.1",
+      "HideBack": true,
+      "Coin": true,
+      "DelayShow": true
+    },
+    "CharacterSkinPanel": {
+      "Id": "CharacterSkinPanel",
+      "Title": "TopBar.CharacterSkinPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharacterSkinPanel.1",
+          "zh_TW": "旅人形象",
+          "zh_CN": "旅人形象",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TrekkerVersus": {
+      "Id": "TrekkerVersus",
+      "Title": "TopBar.TrekkerVersus.1",
+      "EntryId": 200801,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TrekkerVersus.1",
+          "zh_TW": "巔峰秀場",
+          "zh_CN": "巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "DailyInstanceLevelSelect": {
+      "Id": "DailyInstanceLevelSelect",
+      "Title": "TopBar.DailyInstanceLevelSelect.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.DailyInstanceLevelSelect.1",
+          "zh_TW": "基礎試煉",
+          "zh_CN": "基础试炼",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ChooseHomePageRolePanel": {
+      "Id": "ChooseHomePageRolePanel",
+      "Title": "TopBar.ChooseHomePageRolePanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ChooseHomePageRolePanel.1",
+          "zh_TW": "設定看板",
+          "zh_CN": "设置看板",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ChooseHomePageSkinPanel": {
+      "Id": "ChooseHomePageSkinPanel",
+      "Title": "TopBar.ChooseHomePageSkinPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ChooseHomePageSkinPanel.1",
+          "zh_TW": "更換看板裝扮",
+          "zh_CN": "更换看板装扮",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CharacterPlot": {
+      "Id": "CharacterPlot",
+      "Title": "TopBar.CharacterPlot.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharacterPlot.1",
+          "zh_TW": "旅人劇情",
+          "zh_CN": "旅人剧情",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ExChangePanel": {
+      "Id": "ExChangePanel",
+      "Title": "TopBar.ExChangePanel.1",
+      "HideBack": true,
+      "Coin": true,
+      "CoinIds": [
+        2,
+        3
+      ],
+      "HideCoinAdd": true,
+      "DelayShow": true
+    },
+    "GachaPreview": {
+      "Id": "GachaPreview",
+      "Title": "TopBar.GachaPreview.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.GachaPreview.1",
+          "zh_TW": "旅人預覽",
+          "zh_CN": "旅人预览",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Raid": {
+      "Id": "Raid",
+      "Title": "TopBar.Raid.1",
+      "HideBack": true,
+      "Energy": true,
+      "DelayShow": true
+    },
+    "EnergyBuy": {
+      "Id": "EnergyBuy",
+      "Title": "TopBar.EnergyBuy.1",
+      "HideBack": true,
+      "Energy": true,
+      "Coin": true,
+      "CoinIds": [
+        2,
+        3
+      ],
+      "HideCoinAdd": true,
+      "DelayShow": true
+    },
+    "Dictionary": {
+      "Id": "Dictionary",
+      "Title": "TopBar.Dictionary.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Dictionary.1",
+          "zh_TW": "旅人百科",
+          "zh_CN": "旅人百科",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "DictionaryFR": {
+      "Id": "DictionaryFR",
+      "Title": "TopBar.DictionaryFR.1",
+      "HideHome": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.DictionaryFR.1",
+          "zh_TW": "旅人百科",
+          "zh_CN": "旅人百科",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Crafting": {
+      "Id": "Crafting",
+      "Title": "TopBar.Crafting.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Crafting.1",
+          "zh_TW": "材料合成",
+          "zh_CN": "材料合成",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CharacterRelation": {
+      "Id": "CharacterRelation",
+      "Title": "TopBar.CharacterRelation.1",
+      "EntryId": 100701,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharacterRelation.1",
+          "zh_TW": "旅人默契",
+          "zh_CN": "旅人默契",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityList": {
+      "Id": "ActivityList",
+      "Title": "TopBar.ActivityList.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityList.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "BattlePass": {
+      "Id": "BattlePass",
+      "Title": "TopBar.BattlePass.1",
+      "EntryId": 900301,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.BattlePass.1",
+          "zh_TW": "創業激勵基金",
+          "zh_CN": "创业激励基金",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "InfinityTowerSelectTower": {
+      "Id": "InfinityTowerSelectTower",
+      "Title": "TopBar.InfinityTowerSelectTower.1",
+      "EntryId": 201201,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.InfinityTowerSelectTower.1",
+          "zh_TW": "心危擂台",
+          "zh_CN": "心危擂台",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CharTalent": {
+      "Id": "CharTalent",
+      "Title": "TopBar.CharTalent.1",
+      "EntryId": 100601,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharTalent.1",
+          "zh_TW": "旅人天賦",
+          "zh_CN": "旅人天赋",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Disc": {
+      "Id": "Disc",
+      "Title": "TopBar.Disc.1",
+      "EntryId": 300104,
+      "Coin": true,
+      "CoinIds": [
+        1
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Disc.1",
+          "zh_TW": "祕紋",
+          "zh_CN": "秘纹",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "DiscList": {
+      "Id": "DiscList",
+      "Title": "TopBar.DiscList.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.DiscList.1",
+          "zh_TW": "祕紋清單",
+          "zh_CN": "秘纹列表",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "DiscSample": {
+      "Id": "DiscSample",
+      "Title": "TopBar.DiscSample.1",
+      "HideHome": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.DiscSample.1",
+          "zh_TW": "祕紋",
+          "zh_CN": "秘纹",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Equipment": {
+      "Id": "Equipment",
+      "Title": "TopBar.Equipment.1",
+      "Coin": true,
+      "CoinIds": [
+        1
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Equipment.1",
+          "zh_TW": "紋章",
+          "zh_CN": "纹章",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "EquipmentSelect": {
+      "Id": "EquipmentSelect",
+      "Title": "TopBar.EquipmentSelect.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.EquipmentSelect.1",
+          "zh_TW": "紋章替換",
+          "zh_CN": "纹章替换",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "EquipmentInstanceLevelSelect": {
+      "Id": "EquipmentInstanceLevelSelect",
+      "Title": "TopBar.EquipmentInstanceLevelSelect.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.EquipmentInstanceLevelSelect.1",
+          "zh_TW": "紋章試煉",
+          "zh_CN": "纹章试炼",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CharEquipment": {
+      "Id": "CharEquipment",
+      "Title": "TopBar.CharEquipment.1",
+      "EntryId": 100801,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharEquipment.1",
+          "zh_TW": "旅人紋章",
+          "zh_CN": "旅人纹章",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "StarTowerLevelSelect": {
+      "Id": "StarTowerLevelSelect",
+      "Title": "TopBar.StarTowerLevelSelect.1",
+      "EntryId": 200201,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.StarTowerLevelSelect.1",
+          "zh_TW": "星塔探索",
+          "zh_CN": "星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "StarTowerBuildDetail": {
+      "Id": "StarTowerBuildDetail",
+      "Title": "TopBar.StarTowerBuildDetail.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.StarTowerBuildDetail.1",
+          "zh_TW": "紀錄詳情",
+          "zh_CN": "纪录详情",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "StarTowerBuildBriefList": {
+      "Id": "StarTowerBuildBriefList",
+      "Title": "TopBar.StarTowerBuildBriefList.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.StarTowerBuildBriefList.1",
+          "zh_TW": "紀錄管理",
+          "zh_CN": "纪录管理",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ChangeGender": {
+      "Id": "ChangeGender",
+      "Title": "TopBar.ChangeGender.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ChangeGender.1",
+          "zh_TW": "切換形象",
+          "zh_CN": "切换形象",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CharPotential": {
+      "Id": "CharPotential",
+      "Title": "TopBar.CharPotential.1",
+      "EntryId": 300103,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharPotential.1",
+          "zh_TW": "旅人潛能",
+          "zh_CN": "旅人潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MainlineEx": {
+      "Id": "MainlineEx",
+      "Title": "TopBar.MainlineEx.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MainlineEx.1",
+          "zh_TW": "主線劇情",
+          "zh_CN": "主线剧情",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "StoryChapter": {
+      "Id": "StoryChapter",
+      "Title": "TopBar.StoryChapter.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.StoryChapter.1",
+          "zh_TW": "主線劇情",
+          "zh_CN": "主线剧情",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "DispatchPanel": {
+      "Id": "DispatchPanel",
+      "Title": "TopBar.DispatchPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.DispatchPanel.1",
+          "zh_TW": "委託",
+          "zh_CN": "委托",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "StarTowerBook": {
+      "Id": "StarTowerBook",
+      "Title": "TopBar.StarTowerBook.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.StarTowerBook.1",
+          "zh_TW": "星塔事典",
+          "zh_CN": "星塔事典",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "StarTowerGrowth": {
+      "Id": "StarTowerGrowth",
+      "Title": "TopBar.StarTowerGrowth.1",
+      "EntryId": 200202,
+      "Coin": true,
+      "CoinIds": [
+        51
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.StarTowerGrowth.1",
+          "zh_TW": "星塔研究",
+          "zh_CN": "星塔研究",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "StarTowerRankLevel": {
+      "Id": "StarTowerRankLevel",
+      "Title": "TopBar.StarTowerRankLevel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.StarTowerRankLevel.1",
+          "zh_TW": "競速塔",
+          "zh_CN": "竞速塔",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "StarTowerQuest": {
+      "Id": "StarTowerQuest",
+      "Title": "TopBar.StarTowerQuest.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.StarTowerQuest.1",
+          "zh_TW": "研究計畫",
+          "zh_CN": "研究计划",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "VampireSurvivorLevelSelectPanel": {
+      "Id": "VampireSurvivorLevelSelectPanel",
+      "Title": "TopBar.VampireSurvivorLevelSelectPanel.1",
+      "EntryId": 201301,
+      "Coin": true,
+      "CoinIds": [
+        31
+      ],
+      "HideCoinAdd": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.VampireSurvivorLevelSelectPanel.1",
+          "zh_TW": "災變防線",
+          "zh_CN": "灾变防线",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MiningGame": {
+      "Id": "MiningGame",
+      "Title": "TopBar.MiningGame.1",
+      "EntryId": 400101,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MiningGame.1",
+          "zh_TW": "幸運尋寶鏟",
+          "zh_CN": "幸运寻宝铲",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ScoreBossSelectPanel": {
+      "Id": "ScoreBossSelectPanel",
+      "Title": "TopBar.ScoreBossSelectPanel.1",
+      "EntryId": 201501,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ScoreBossSelectPanel.1",
+          "zh_TW": "聯合討伐",
+          "zh_CN": "联合讨伐",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SkillInstanceLevelSelect": {
+      "Id": "SkillInstanceLevelSelect",
+      "Title": "TopBar.SkillInstanceLevelSelect.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SkillInstanceLevelSelect.1",
+          "zh_TW": "技巧試煉",
+          "zh_CN": "技巧试炼",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "WeeklyCopiesPanel": {
+      "Id": "WeeklyCopiesPanel",
+      "Title": "TopBar.WeeklyCopiesPanel.1",
+      "EntryId": 201401,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.WeeklyCopiesPanel.1",
+          "zh_TW": "真格挑戰",
+          "zh_CN": "真格挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TrialLevelSelect": {
+      "Id": "TrialLevelSelect",
+      "Title": "TopBar.TrialLevelSelect.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TrialLevelSelect.1",
+          "zh_TW": "小試身手",
+          "zh_CN": "浅试身手",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "JointDrillBuildList_Mode1": {
+      "Id": "JointDrillBuildList_Mode1",
+      "Title": "TopBar.JointDrillBuildList_Mode1.1",
+      "EntryId": 201602,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.JointDrillBuildList_Mode1.1",
+          "zh_TW": "出戰配置",
+          "zh_CN": "出战配置",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "JointDrillLevelSelect_Mode1": {
+      "Id": "JointDrillLevelSelect_Mode1",
+      "Title": "TopBar.JointDrillLevelSelect_Mode1.1",
+      "EntryId": 201601,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.JointDrillLevelSelect_Mode1.1",
+          "zh_TW": "終焉絕響",
+          "zh_CN": "终焉绝响",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "JointDrillRanking_Mode1": {
+      "Id": "JointDrillRanking_Mode1",
+      "Title": "TopBar.JointDrillRanking_Mode1.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.JointDrillRanking_Mode1.1",
+          "zh_TW": "終焉絕響排行榜",
+          "zh_CN": "终焉绝响排行榜",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TowerDefenseCharacterDetailPanel": {
+      "Id": "TowerDefenseCharacterDetailPanel",
+      "Title": "TopBar.TowerDefenseCharacterDetailPanel.1",
+      "HideHome": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TowerDefenseCharacterDetailPanel.1",
+          "zh_TW": "角色詳情",
+          "zh_CN": "角色详情",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TowerDefenseSelectPanel": {
+      "Id": "TowerDefenseSelectPanel",
+      "Title": "TopBar.TowerDefenseSelectPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TowerDefenseSelectPanel.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TowerDefenseLevelDetailPanel": {
+      "Id": "TowerDefenseLevelDetailPanel",
+      "Title": "TopBar.TowerDefenseLevelDetailPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TowerDefenseLevelDetailPanel.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TrialFormation": {
+      "Id": "TrialFormation",
+      "Title": "TopBar.TrialFormation.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TrialFormation.1",
+          "zh_TW": "編隊",
+          "zh_CN": "编队",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TrialDepot": {
+      "Id": "TrialDepot",
+      "Title": "TopBar.TrialDepot.1",
+      "HideHome": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TrialDepot.1",
+          "zh_TW": "試玩詳情",
+          "zh_CN": "试玩详情",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ScoreBossRankingPanel": {
+      "Id": "ScoreBossRankingPanel",
+      "Title": "TopBar.ScoreBossRankingPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ScoreBossRankingPanel.1",
+          "zh_TW": "聯合討伐排行榜",
+          "zh_CN": "联合讨伐排行榜",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel": {
+      "Id": "ActivityLevelsSelectPanel",
+      "Title": "TopBar.ActivityLevelsSelectPanel.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SwimTheme": {
+      "Id": "SwimTheme",
+      "Title": "TopBar.SwimTheme.1",
+      "Coin": true,
+      "CoinIds": [
+        73101
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SwimTheme.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MiningGameGuidePanel": {
+      "Id": "MiningGameGuidePanel",
+      "Title": "TopBar.MiningGameGuidePanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MiningGameGuidePanel.1",
+          "zh_TW": "寶藏圖鑑",
+          "zh_CN": "宝藏图鉴",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "EquipmentRoll": {
+      "Id": "EquipmentRoll",
+      "Title": "TopBar.EquipmentRoll.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.EquipmentRoll.1",
+          "zh_TW": "紋章重鑄",
+          "zh_CN": "纹章重铸",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SwimThemeStory": {
+      "Id": "SwimThemeStory",
+      "Title": "TopBar.SwimThemeStory.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SwimThemeStory.1",
+          "zh_TW": "劇情故事",
+          "zh_CN": "剧情故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CharInfoTrial": {
+      "Id": "CharInfoTrial",
+      "Title": "TopBar.CharInfoTrial.1",
+      "EntryId": 100101,
+      "HideHome": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharInfoTrial.1",
+          "zh_TW": "角色預覽",
+          "zh_CN": "角色预览",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CharSkillTrial": {
+      "Id": "CharSkillTrial",
+      "Title": "TopBar.CharSkillTrial.1",
+      "EntryId": 100301,
+      "HideHome": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharSkillTrial.1",
+          "zh_TW": "技能預覽",
+          "zh_CN": "技能预览",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CharPotentialTrial": {
+      "Id": "CharPotentialTrial",
+      "Title": "TopBar.CharPotentialTrial.1",
+      "HideHome": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharPotentialTrial.1",
+          "zh_TW": "潛能預覽",
+          "zh_CN": "潜能预览",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CharTalentTrial": {
+      "Id": "CharTalentTrial",
+      "Title": "TopBar.CharTalentTrial.1",
+      "EntryId": 100601,
+      "HideHome": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CharTalentTrial.1",
+          "zh_TW": "天賦預覽",
+          "zh_CN": "天赋预览",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SwimShop": {
+      "Id": "SwimShop",
+      "Title": "TopBar.SwimShop.1",
+      "Coin": true,
+      "CoinIds": [
+        73101
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SwimShop.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SwimShopPopup": {
+      "Id": "SwimShopPopup",
+      "Title": "TopBar.SwimShopPopup.1",
+      "HideBack": true,
+      "Coin": true,
+      "DelayShow": true
+    },
+    "SwimTask": {
+      "Id": "SwimTask",
+      "Title": "TopBar.SwimTask.1",
+      "Coin": true,
+      "CoinIds": [
+        73101
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SwimTask.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MallSkinPreview": {
+      "Id": "MallSkinPreview",
+      "Title": "TopBar.MallSkinPreview.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MallSkinPreview.1",
+          "zh_TW": "商城",
+          "zh_CN": "商城",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "StorySet": {
+      "Id": "StorySet",
+      "Title": "TopBar.StorySet.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.StorySet.1",
+          "zh_TW": "諾瓦異聞",
+          "zh_CN": "诺瓦异闻",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SkinPreviewPanel": {
+      "Id": "SkinPreviewPanel",
+      "Title": "TopBar.SkinPreviewPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SkinPreviewPanel.1",
+          "zh_TW": "旅人形象",
+          "zh_CN": "旅人形象",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CookieBoardPanel": {
+      "Id": "CookieBoardPanel",
+      "Title": "TopBar.CookieBoardPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CookieBoardPanel.1",
+          "zh_TW": "甜心夢工坊",
+          "zh_CN": "甜心梦工坊",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CookieGamePanel": {
+      "Id": "CookieGamePanel",
+      "Title": "TopBar.CookieGamePanel.1",
+      "EntryId": 400301,
+      "Coin": true,
+      "CoinIds": [
+        73102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CookieGamePanel.1",
+          "zh_TW": "甜心夢工坊",
+          "zh_CN": "甜心梦工坊",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CookieQuestPanel": {
+      "Id": "CookieQuestPanel",
+      "Title": "TopBar.CookieQuestPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CookieQuestPanel.1",
+          "zh_TW": "工坊考核",
+          "zh_CN": "工坊考核",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "OurRegimentThemePanel": {
+      "Id": "OurRegimentThemePanel",
+      "Title": "TopBar.OurRegimentThemePanel.1",
+      "Coin": true,
+      "CoinIds": [
+        73102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.OurRegimentThemePanel.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "DreamThemePanel": {
+      "Id": "DreamThemePanel",
+      "Title": "TopBar.DreamThemePanel.1",
+      "Coin": true,
+      "CoinIds": [
+        73103
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.DreamThemePanel.1",
+          "zh_TW": "夢的彼岸",
+          "zh_CN": "梦的彼岸",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_10101": {
+      "Id": "Shop_10101",
+      "Title": "TopBar.Shop_10101.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_10101.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ShopPopup_10101": {
+      "Id": "ShopPopup_10101",
+      "Title": "TopBar.ShopPopup_10101.1",
+      "HideBack": true,
+      "Coin": true,
+      "DelayShow": true
+    },
+    "Shop_10102": {
+      "Id": "Shop_10102",
+      "Title": "TopBar.Shop_10102.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_10102.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ShopPopup_10102": {
+      "Id": "ShopPopup_10102",
+      "Title": "TopBar.ShopPopup_10102.1",
+      "HideBack": true,
+      "Coin": true,
+      "DelayShow": true
+    },
+    "ActivityLevelsSelectPanel_10101": {
+      "Id": "ActivityLevelsSelectPanel_10101",
+      "Title": "TopBar.ActivityLevelsSelectPanel_10101.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_10101.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel_10102": {
+      "Id": "ActivityLevelsSelectPanel_10102",
+      "Title": "TopBar.ActivityLevelsSelectPanel_10102.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_10102.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_10101": {
+      "Id": "Task_10101",
+      "Title": "TopBar.Task_10101.1",
+      "Coin": true,
+      "CoinIds": [
+        73102
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_10101.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_10102": {
+      "Id": "Task_10102",
+      "Title": "TopBar.Task_10102.1",
+      "Coin": true,
+      "CoinIds": [
+        73103
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_10102.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "BdConvertPanel": {
+      "Id": "BdConvertPanel",
+      "Title": "TopBar.BdConvertPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.BdConvertPanel.1",
+          "zh_TW": "紀錄徵集",
+          "zh_CN": "纪录征集",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "BdConvertBuildDetail": {
+      "Id": "BdConvertBuildDetail",
+      "Title": "TopBar.BdConvertBuildDetail.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.BdConvertBuildDetail.1",
+          "zh_TW": "紀錄詳情",
+          "zh_CN": "纪录详情",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MiningGame_400002": {
+      "Id": "MiningGame_400002",
+      "Title": "TopBar.MiningGame_400002.1",
+      "EntryId": 400101,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MiningGame_400002.1",
+          "zh_TW": "幸運尋寶鏟",
+          "zh_CN": "幸运寻宝铲",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MiningGame_400003": {
+      "Id": "MiningGame_400003",
+      "Title": "TopBar.MiningGame_400003.1",
+      "EntryId": 400101,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MiningGame_400003.1",
+          "zh_TW": "幸運尋寶鏟",
+          "zh_CN": "幸运寻宝铲",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MiningGame_400007": {
+      "Id": "MiningGame_400007",
+      "Title": "TopBar.MiningGame_400007.1",
+      "EntryId": 400101,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MiningGame_400007.1",
+          "zh_TW": "幸運尋寶鏟",
+          "zh_CN": "幸运寻宝铲",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MiningGameGuidePanel_400002": {
+      "Id": "MiningGameGuidePanel_400002",
+      "Title": "TopBar.MiningGameGuidePanel_400002.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MiningGameGuidePanel_400002.1",
+          "zh_TW": "寶藏圖鑑",
+          "zh_CN": "宝藏图鉴",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MiningGameGuidePanel_400003": {
+      "Id": "MiningGameGuidePanel_400003",
+      "Title": "TopBar.MiningGameGuidePanel_400003.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MiningGameGuidePanel_400003.1",
+          "zh_TW": "回收清單",
+          "zh_CN": "回收清单",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MiningGameGuidePanel_400007": {
+      "Id": "MiningGameGuidePanel_400007",
+      "Title": "TopBar.MiningGameGuidePanel_400007.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MiningGameGuidePanel_400007.1",
+          "zh_TW": "寶藏圖鑑",
+          "zh_CN": "宝藏图鉴",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_30101": {
+      "Id": "Shop_30101",
+      "Title": "TopBar.Shop_30101.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_30101.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ShopPopup_30101": {
+      "Id": "ShopPopup_30101",
+      "Title": "TopBar.ShopPopup_30101.1",
+      "HideBack": true,
+      "Coin": true,
+      "DelayShow": true
+    },
+    "BreakOutThemePanel": {
+      "Id": "BreakOutThemePanel",
+      "Title": "TopBar.BreakOutThemePanel.1",
+      "Coin": true,
+      "CoinIds": [
+        73202
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.BreakOutThemePanel.1",
+          "zh_TW": "繚亂碎晶球",
+          "zh_CN": "缭乱碎晶球",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_30101": {
+      "Id": "Task_30101",
+      "Title": "TopBar.Task_30101.1",
+      "Coin": true,
+      "CoinIds": [
+        73202
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_30101.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "QuestNewbie": {
+      "Id": "QuestNewbie",
+      "Title": "TopBar.QuestNewbie.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.QuestNewbie.1",
+          "zh_TW": "教學",
+          "zh_CN": "教学",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "BreakOutLevelDetailPanel": {
+      "Id": "BreakOutLevelDetailPanel",
+      "Title": "TopBar.BreakOutLevelDetailPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.BreakOutLevelDetailPanel.1",
+          "zh_TW": "繚亂碎晶球",
+          "zh_CN": "缭乱碎晶球",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "StarTowerBuildDetailPreview": {
+      "Id": "StarTowerBuildDetailPreview",
+      "Title": "TopBar.StarTowerBuildDetailPreview.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.StarTowerBuildDetailPreview.1",
+          "zh_TW": "紀錄詳情",
+          "zh_CN": "纪录详情",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Main_10103": {
+      "Id": "Main_10103",
+      "Title": "TopBar.Main_10103.1",
+      "Coin": true,
+      "CoinIds": [
+        73105
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Main_10103.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_10103": {
+      "Id": "Shop_10103",
+      "Title": "TopBar.Shop_10103.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_10103.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ShopPopup_10103": {
+      "Id": "ShopPopup_10103",
+      "Title": "TopBar.ShopPopup_10103.1",
+      "HideBack": true,
+      "Coin": true,
+      "DelayShow": true
+    },
+    "Task_10103": {
+      "Id": "Task_10103",
+      "Title": "TopBar.Task_10103.1",
+      "Coin": true,
+      "CoinIds": [
+        73105
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_10103.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_20101": {
+      "Id": "Shop_20101",
+      "Title": "TopBar.Shop_20101.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_20101.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ShopPopup_20101": {
+      "Id": "ShopPopup_20101",
+      "Title": "TopBar.ShopPopup_20101.1",
+      "HideBack": true,
+      "Coin": true,
+      "DelayShow": true
+    },
+    "Task_20101": {
+      "Id": "Task_20101",
+      "Title": "TopBar.Task_20101.1",
+      "Coin": true,
+      "CoinIds": [
+        73104
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_20101.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ChristmasThemePanel": {
+      "Id": "ChristmasThemePanel",
+      "Title": "TopBar.ChristmasThemePanel.1",
+      "Coin": true,
+      "CoinIds": [
+        73104
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ChristmasThemePanel.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityStory_20101": {
+      "Id": "ActivityStory_20101",
+      "Title": "TopBar.ActivityStory_20101.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityStory_20101.1",
+          "zh_TW": "劇情故事",
+          "zh_CN": "剧情故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CookieBoardPanel_400004": {
+      "Id": "CookieBoardPanel_400004",
+      "Title": "TopBar.CookieBoardPanel_400004.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CookieBoardPanel_400004.1",
+          "zh_TW": "甜心夢工坊",
+          "zh_CN": "甜心梦工坊",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CookieGamePanel_400004": {
+      "Id": "CookieGamePanel_400004",
+      "Title": "TopBar.CookieGamePanel_400004.1",
+      "EntryId": 400301,
+      "Coin": true,
+      "CoinIds": [
+        73104
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CookieGamePanel_400004.1",
+          "zh_TW": "甜心夢工坊",
+          "zh_CN": "甜心梦工坊",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel_10103": {
+      "Id": "ActivityLevelsSelectPanel_10103",
+      "Title": "TopBar.ActivityLevelsSelectPanel_10103.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_10103.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel_20101": {
+      "Id": "ActivityLevelsSelectPanel_20101",
+      "Title": "TopBar.ActivityLevelsSelectPanel_20101.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_20101.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityShopPopup": {
+      "Id": "ActivityShopPopup",
+      "Title": "TopBar.ActivityShopPopup.1",
+      "HideBack": true,
+      "Coin": true,
+      "DelayShow": true
+    },
+    "ThrowGiftPanel": {
+      "Id": "ThrowGiftPanel",
+      "Title": "TopBar.ThrowGiftPanel.1",
+      "Coin": true,
+      "CoinIds": [
+        73107
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ThrowGiftPanel.1",
+          "zh_TW": "豪禮拋物線",
+          "zh_CN": "豪礼抛物线",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ThrowGiftPanel_400009": {
+      "Id": "ThrowGiftPanel_400009",
+      "Title": "TopBar.ThrowGiftPanel_400009.1",
+      "Coin": true,
+      "CoinIds": [
+        73110
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ThrowGiftPanel_400009.1",
+          "zh_TW": "豪禮拋物線",
+          "zh_CN": "豪礼抛物线",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "JointDrillBuildList_Mode2": {
+      "Id": "JointDrillBuildList_Mode2",
+      "Title": "TopBar.JointDrillBuildList_Mode2.1",
+      "EntryId": 201602,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.JointDrillBuildList_Mode2.1",
+          "zh_TW": "出戰配置",
+          "zh_CN": "出战配置",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "JointDrillLevelSelect_Mode2": {
+      "Id": "JointDrillLevelSelect_Mode2",
+      "Title": "TopBar.JointDrillLevelSelect_Mode2.1",
+      "EntryId": 201601,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.JointDrillLevelSelect_Mode2.1",
+          "zh_TW": "終焉絕響",
+          "zh_CN": "终焉绝响",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "JointDrillRanking_Mode2": {
+      "Id": "JointDrillRanking_Mode2",
+      "Title": "TopBar.JointDrillRanking_Mode2.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.JointDrillRanking_Mode2.1",
+          "zh_TW": "終焉絕響排行榜",
+          "zh_CN": "终焉绝响排行榜",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_10104": {
+      "Id": "Shop_10104",
+      "Title": "TopBar.Shop_10104.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_10104.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel_10104": {
+      "Id": "ActivityLevelsSelectPanel_10104",
+      "Title": "TopBar.ActivityLevelsSelectPanel_10104.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_10104.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_10104": {
+      "Id": "Task_10104",
+      "Title": "TopBar.Task_10104.1",
+      "Coin": true,
+      "CoinIds": [
+        73106
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_10104.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "PenguinCardLevel": {
+      "Id": "PenguinCardLevel",
+      "Title": "TopBar.PenguinCardLevel.1",
+      "EntryId": 400501,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.PenguinCardLevel.1",
+          "zh_TW": "命運星牌局",
+          "zh_CN": "命运星牌局",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SpringFestivalStory": {
+      "Id": "SpringFestivalStory",
+      "Title": "TopBar.SpringFestivalStory.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SpringFestivalStory.1",
+          "zh_TW": "劇情故事",
+          "zh_CN": "剧情故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SpringFestivalThemePanel": {
+      "Id": "SpringFestivalThemePanel",
+      "Title": "TopBar.SpringFestivalThemePanel.1",
+      "Coin": true,
+      "CoinIds": [
+        73106
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SpringFestivalThemePanel.1",
+          "zh_TW": "春節活動",
+          "zh_CN": "春节活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CookieGamePanel_400006": {
+      "Id": "CookieGamePanel_400006",
+      "Title": "TopBar.CookieGamePanel_400006.1",
+      "EntryId": 400301,
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CookieGamePanel_400006.1",
+          "zh_TW": "甜心夢工坊",
+          "zh_CN": "甜心梦工坊",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CookieBoardPanel_400006": {
+      "Id": "CookieBoardPanel_400006",
+      "Title": "TopBar.CookieBoardPanel_400006.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CookieBoardPanel_400006.1",
+          "zh_TW": "甜心夢工坊",
+          "zh_CN": "甜心梦工坊",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel_10105": {
+      "Id": "ActivityLevelsSelectPanel_10105",
+      "Title": "TopBar.ActivityLevelsSelectPanel_10105.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_10105.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_10105": {
+      "Id": "Task_10105",
+      "Title": "TopBar.Task_10105.1",
+      "Coin": true,
+      "CoinIds": [
+        73107
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_10105.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_10105": {
+      "Id": "Shop_10105",
+      "Title": "TopBar.Shop_10105.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_10105.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "WinterNightThemePanel": {
+      "Id": "WinterNightThemePanel",
+      "Title": "TopBar.WinterNightThemePanel.1",
+      "Coin": true,
+      "CoinIds": [
+        73107
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.WinterNightThemePanel.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "WinterNightStory": {
+      "Id": "WinterNightStory",
+      "Title": "TopBar.WinterNightStory.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.WinterNightStory.1",
+          "zh_TW": "劇情故事",
+          "zh_CN": "剧情故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel_10106": {
+      "Id": "ActivityLevelsSelectPanel_10106",
+      "Title": "TopBar.ActivityLevelsSelectPanel_10106.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_10106.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_10106": {
+      "Id": "Shop_10106",
+      "Title": "TopBar.Shop_10106.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_10106.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_10106": {
+      "Id": "Task_10106",
+      "Title": "TopBar.Task_10106.1",
+      "Coin": true,
+      "CoinIds": [
+        73108
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_10106.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "PostalStory": {
+      "Id": "PostalStory",
+      "Title": "TopBar.PostalStory.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.PostalStory.1",
+          "zh_TW": "劇情故事",
+          "zh_CN": "剧情故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "PostalThemePanel": {
+      "Id": "PostalThemePanel",
+      "Title": "TopBar.PostalThemePanel.1",
+      "Coin": true,
+      "CoinIds": [
+        73108
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.PostalThemePanel.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "RankBuildDetail": {
+      "Id": "RankBuildDetail",
+      "Title": "TopBar.RankBuildDetail.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.RankBuildDetail.1",
+          "zh_TW": "紀錄詳情",
+          "zh_CN": "纪录详情",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TrekkerVersus_600002": {
+      "Id": "TrekkerVersus_600002",
+      "Title": "TopBar.TrekkerVersus_600002.1",
+      "EntryId": 200801,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TrekkerVersus_600002.1",
+          "zh_TW": "巔峰秀場",
+          "zh_CN": "巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "EquipmentUpgrade": {
+      "Id": "EquipmentUpgrade",
+      "Title": "TopBar.EquipmentUpgrade.1",
+      "HideBack": true,
+      "Coin": true,
+      "CoinIds": [
+        1,
+        35010
+      ],
+      "DelayShow": true
+    },
+    "PotentialPreselectionList": {
+      "Id": "PotentialPreselectionList",
+      "Title": "TopBar.PotentialPreselectionList.1",
+      "EntryId": 200302,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.PotentialPreselectionList.1",
+          "zh_TW": "潛能預設",
+          "zh_CN": "潜能预设",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "PotentialPreselectionEdit": {
+      "Id": "PotentialPreselectionEdit",
+      "Title": "TopBar.PotentialPreselectionEdit.1",
+      "EntryId": 200302,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.PotentialPreselectionEdit.1",
+          "zh_TW": "潛能預設",
+          "zh_CN": "潜能预设",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel_20102": {
+      "Id": "ActivityLevelsSelectPanel_20102",
+      "Title": "TopBar.ActivityLevelsSelectPanel_20102.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_20102.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_20102": {
+      "Id": "Task_20102",
+      "Title": "TopBar.Task_20102.1",
+      "Coin": true,
+      "CoinIds": [
+        73109
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_20102.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_20102": {
+      "Id": "Shop_20102",
+      "Title": "TopBar.Shop_20102.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_20102.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SolodanceThemePanel": {
+      "Id": "SolodanceThemePanel",
+      "Title": "TopBar.SolodanceThemePanel.1",
+      "Coin": true,
+      "CoinIds": [
+        73109
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SolodanceThemePanel.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SolodanceStory": {
+      "Id": "SolodanceStory",
+      "Title": "TopBar.SolodanceStory.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SolodanceStory.1",
+          "zh_TW": "劇情故事",
+          "zh_CN": "剧情故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "GoldenSpyLevelSelectPanel_400008": {
+      "Id": "GoldenSpyLevelSelectPanel_400008",
+      "Title": "TopBar.GoldenSpyLevelSelectPanel_400008.1",
+      "Coin": true,
+      "CoinIds": [
+        73109
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.GoldenSpyLevelSelectPanel_400008.1",
+          "zh_TW": "月華竊夢人",
+          "zh_CN": "月华窃梦人",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "GoldenSpyLevelSelectPanel_400012": {
+      "Id": "GoldenSpyLevelSelectPanel_400012",
+      "Title": "TopBar.GoldenSpyLevelSelectPanel_400012.1",
+      "Coin": true,
+      "CoinIds": [
+        73112
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.GoldenSpyLevelSelectPanel_400012.1",
+          "zh_TW": "月華竊夢人",
+          "zh_CN": "月华窃梦人",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel_10107": {
+      "Id": "ActivityLevelsSelectPanel_10107",
+      "Title": "TopBar.ActivityLevelsSelectPanel_10107.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_10107.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_10107": {
+      "Id": "Task_10107",
+      "Title": "TopBar.Task_10107.1",
+      "Coin": true,
+      "CoinIds": [
+        73110
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_10107.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_10107": {
+      "Id": "Shop_10107",
+      "Title": "TopBar.Shop_10107.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_10107.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "BreakOutThemePanel_S2": {
+      "Id": "BreakOutThemePanel_S2",
+      "Title": "TopBar.BreakOutThemePanel_S2.1",
+      "Coin": true,
+      "CoinIds": [
+        73202
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.BreakOutThemePanel_S2.1",
+          "zh_TW": "繚亂碎晶球",
+          "zh_CN": "缭乱碎晶球",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_30102": {
+      "Id": "Shop_30102",
+      "Title": "TopBar.Shop_30102.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_30102.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_30102": {
+      "Id": "Task_30102",
+      "Title": "TopBar.Task_30102.1",
+      "Coin": true,
+      "CoinIds": [
+        73202
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_30102.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "BreakOutLevelDetailPanelS2": {
+      "Id": "BreakOutLevelDetailPanelS2",
+      "Title": "TopBar.BreakOutLevelDetailPanelS2.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.BreakOutLevelDetailPanelS2.1",
+          "zh_TW": "繚亂碎晶球",
+          "zh_CN": "缭乱碎晶球",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Main_10107": {
+      "Id": "Main_10107",
+      "Title": "TopBar.Main_10107.1",
+      "Coin": true,
+      "CoinIds": [
+        73110
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Main_10107.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ViewfinderStory": {
+      "Id": "ViewfinderStory",
+      "Title": "TopBar.ViewfinderStory.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ViewfinderStory.1",
+          "zh_TW": "劇情故事",
+          "zh_CN": "剧情故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_10108": {
+      "Id": "Task_10108",
+      "Title": "TopBar.Task_10108.1",
+      "Coin": true,
+      "CoinIds": [
+        73111
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_10108.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_10108": {
+      "Id": "Shop_10108",
+      "Title": "TopBar.Shop_10108.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_10108.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Main_10108": {
+      "Id": "Main_10108",
+      "Title": "TopBar.Main_10108.1",
+      "Coin": true,
+      "CoinIds": [
+        73111
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Main_10108.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel_10108": {
+      "Id": "ActivityLevelsSelectPanel_10108",
+      "Title": "TopBar.ActivityLevelsSelectPanel_10108.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_10108.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TechStory": {
+      "Id": "TechStory",
+      "Title": "TopBar.TechStory.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TechStory.1",
+          "zh_TW": "劇情故事",
+          "zh_CN": "剧情故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CookieGamePanel_400010": {
+      "Id": "CookieGamePanel_400010",
+      "Title": "TopBar.CookieGamePanel_400010.1",
+      "EntryId": 400301,
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CookieGamePanel_400010.1",
+          "zh_TW": "甜心夢工坊",
+          "zh_CN": "甜心梦工坊",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "CookieBoardPanel_400010": {
+      "Id": "CookieBoardPanel_400010",
+      "Title": "TopBar.CookieBoardPanel_400010.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.CookieBoardPanel_400010.1",
+          "zh_TW": "甜心夢工坊",
+          "zh_CN": "甜心梦工坊",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_11100": {
+      "Id": "Task_11100",
+      "Title": "TopBar.Task_11100.1",
+      "Coin": true,
+      "CoinIds": [
+        73101
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_11100.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel_11100": {
+      "Id": "ActivityLevelsSelectPanel_11100",
+      "Title": "TopBar.ActivityLevelsSelectPanel_11100.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_11100.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SwimTheme_11100": {
+      "Id": "SwimTheme_11100",
+      "Title": "TopBar.SwimTheme_11100.1",
+      "Coin": true,
+      "CoinIds": [
+        73101
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SwimTheme_11100.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SwimThemeStory_11100": {
+      "Id": "SwimThemeStory_11100",
+      "Title": "TopBar.SwimThemeStory_11100.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SwimThemeStory_11100.1",
+          "zh_TW": "劇情故事",
+          "zh_CN": "剧情故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_11100": {
+      "Id": "Shop_11100",
+      "Title": "TopBar.Shop_11100.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_11100.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MiningGame_400011": {
+      "Id": "MiningGame_400011",
+      "Title": "TopBar.MiningGame_400011.1",
+      "EntryId": 400101,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MiningGame_400011.1",
+          "zh_TW": "幸運尋寶鏟",
+          "zh_CN": "幸运寻宝铲",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MiningGameGuidePanel_400011": {
+      "Id": "MiningGameGuidePanel_400011",
+      "Title": "TopBar.MiningGameGuidePanel_400011.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MiningGameGuidePanel_400011.1",
+          "zh_TW": "寶藏圖鑑",
+          "zh_CN": "宝藏图鉴",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel_10109": {
+      "Id": "ActivityLevelsSelectPanel_10109",
+      "Title": "TopBar.ActivityLevelsSelectPanel_10109.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_10109.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_10109": {
+      "Id": "Shop_10109",
+      "Title": "TopBar.Shop_10109.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_10109.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_10109": {
+      "Id": "Task_10109",
+      "Title": "TopBar.Task_10109.1",
+      "Coin": true,
+      "CoinIds": [
+        73112
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_10109.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "GunStormStory_10109": {
+      "Id": "GunStormStory_10109",
+      "Title": "TopBar.GunStormStory_10109.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.GunStormStory_10109.1",
+          "zh_TW": "劇情故事",
+          "zh_CN": "剧情故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "GunStormPanel": {
+      "Id": "GunStormPanel",
+      "Title": "TopBar.GunStormPanel.1",
+      "Coin": true,
+      "CoinIds": [
+        73112
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.GunStormPanel.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SoldierTestEnter": {
+      "Id": "SoldierTestEnter",
+      "Title": "TopBar.SoldierTestEnter.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SoldierTestEnter.1",
+          "zh_TW": "自走棋測試",
+          "zh_CN": "自走棋测试",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TraceHunt": {
+      "Id": "TraceHunt",
+      "Title": "TopBar.TraceHunt.1",
+      "EntryId": 201701,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TraceHunt.1",
+          "zh_TW": "獵影重圍",
+          "zh_CN": "猎影合围",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TraceHuntHelp": {
+      "Id": "TraceHuntHelp",
+      "Title": "TopBar.TraceHuntHelp.1",
+      "EntryId": 201701,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TraceHuntHelp.1",
+          "zh_TW": "協助討伐",
+          "zh_CN": "协助讨伐",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "TraceHuntHandBook": {
+      "Id": "TraceHuntHandBook",
+      "Title": "TopBar.TraceHuntHandBook.1",
+      "EntryId": 201701,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.TraceHuntHandBook.1",
+          "zh_TW": "圍獵筆記",
+          "zh_CN": "围猎笔记",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "ActivityLevelsSelectPanel_20103": {
+      "Id": "ActivityLevelsSelectPanel_20103",
+      "Title": "TopBar.ActivityLevelsSelectPanel_20103.1",
+      "Energy": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.ActivityLevelsSelectPanel_20103.1",
+          "zh_TW": "戰鬥關卡",
+          "zh_CN": "战斗关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Shop_20103": {
+      "Id": "Shop_20103",
+      "Title": "TopBar.Shop_20103.1",
+      "Coin": true,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Shop_20103.1",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Task_20103": {
+      "Id": "Task_20103",
+      "Title": "TopBar.Task_20103.1",
+      "Coin": true,
+      "CoinIds": [
+        73113
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Task_20103.1",
+          "zh_TW": "活動任務",
+          "zh_CN": "活动任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SummerCheckinStory_20103": {
+      "Id": "SummerCheckinStory_20103",
+      "Title": "TopBar.SummerCheckinStory_20103.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SummerCheckinStory_20103.1",
+          "zh_TW": "劇情故事",
+          "zh_CN": "剧情故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "Main_20103": {
+      "Id": "Main_20103",
+      "Title": "TopBar.Main_20103.1",
+      "Coin": true,
+      "CoinIds": [
+        73113
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.Main_20103.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "IceCreamLevelsSelectPanel": {
+      "Id": "IceCreamLevelsSelectPanel",
+      "Title": "TopBar.IceCreamLevelsSelectPanel.1",
+      "Coin": true,
+      "CoinIds": [
+        73113
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.IceCreamLevelsSelectPanel.1",
+          "zh_TW": "沁涼補給站",
+          "zh_CN": "沁凉补给站",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MiningGame_400014": {
+      "Id": "MiningGame_400014",
+      "Title": "TopBar.MiningGame_400014.1",
+      "EntryId": 400101,
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MiningGame_400014.1",
+          "zh_TW": "幸運尋寶鏟",
+          "zh_CN": "幸运寻宝铲",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "MiningGameGuidePanel_400014": {
+      "Id": "MiningGameGuidePanel_400014",
+      "Title": "TopBar.MiningGameGuidePanel_400014.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.MiningGameGuidePanel_400014.1",
+          "zh_TW": "寶藏圖鑑",
+          "zh_CN": "宝藏图鉴",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SoldierMainViewPanel": {
+      "Id": "SoldierMainViewPanel",
+      "Title": "TopBar.SoldierMainViewPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SoldierMainViewPanel.1",
+          "zh_TW": "尖兵陷陣",
+          "zh_CN": "尖兵陷阵",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SoldierLevelSelectPanel": {
+      "Id": "SoldierLevelSelectPanel",
+      "Title": "TopBar.SoldierLevelSelectPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SoldierLevelSelectPanel.1",
+          "zh_TW": "挑戰",
+          "zh_CN": "挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SoldierHandbookPanel": {
+      "Id": "SoldierHandbookPanel",
+      "Title": "TopBar.SoldierHandbookPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SoldierHandbookPanel.1",
+          "zh_TW": "圖鑑",
+          "zh_CN": "图鉴",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SoldierRecommendPanel": {
+      "Id": "SoldierRecommendPanel",
+      "Title": "TopBar.SoldierRecommendPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SoldierRecommendPanel.1",
+          "zh_TW": "棋組攻略",
+          "zh_CN": "棋组攻略",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SoldierHandbookSelectPanel": {
+      "Id": "SoldierHandbookSelectPanel",
+      "Title": "TopBar.SoldierHandbookSelectPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SoldierHandbookSelectPanel.1",
+          "zh_TW": "圖鑑",
+          "zh_CN": "图鉴",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    },
+    "SoldierRecommendDetailPanel": {
+      "Id": "SoldierRecommendDetailPanel",
+      "Title": "TopBar.SoldierRecommendDetailPanel.1",
+      "_localized": {
+        "/Title": {
+          "key": "TopBar.SoldierRecommendDetailPanel.1",
+          "zh_TW": "攻略詳情",
+          "zh_CN": "攻略详情",
+          "sources": {
+            "zh_TW": "language/zh_TW/TopBar.json",
+            "zh_CN": "language/zh_CN/TopBar.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "table": "StarTowerMap",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\677f2d200b5606b7.bin",
+  "source_sha256": "312bf8c047338f523e51570f22baf18e9e936038edad053201dda318ed631cde",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\StarTowerMap.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 466
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "reference_field_order": [
+      "Id",
+      "SceneRes",
+      "BGSceneRes",
+      "Theme",
+      "PrefabNum",
+      "Mir",
+      "OutPortNum",
+      "OutPortHint",
+      "BGMRes",
+      "CompleteSoundEffectRes",
+      "LevelScript",
+      "IntroCutscene"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "SceneRes",
+      "3": "BGSceneRes",
+      "4": "Theme",
+      "5": "PrefabNum",
+      "6": "Mir",
+      "7": "OutPortNum",
+      "8": "OutPortHint",
+      "9": "BGMRes",
+      "10": "CompleteSoundEffectRes",
+      "11": "IntroCutscene",
+      "12": "LevelScript"
+    },
+    "aot_field_count": 12,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 466,
+      "compared_reference_rows": 466,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 466,
+          "compared": 466
+        },
+        {
+          "codec": "varint_int",
+          "matches": 466,
+          "compared": 466
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 466
+        }
+      ]
+    },
+    "2": {
+      "field": "SceneRes",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 466,
+      "compared_reference_rows": 466,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 466,
+          "compared": 466
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 466
+        }
+      ]
+    },
+    "3": {
+      "field": "BGSceneRes",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 357,
+      "compared_reference_rows": 357,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 357,
+          "compared": 357
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 357
+        }
+      ]
+    },
+    "4": {
+      "field": "Theme",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 466,
+      "compared_reference_rows": 466,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 466,
+          "compared": 466
+        },
+        {
+          "codec": "varint_int",
+          "matches": 466,
+          "compared": 466
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 466
+        }
+      ]
+    },
+    "5": {
+      "field": "PrefabNum",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 466,
+      "compared_reference_rows": 466,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 466,
+          "compared": 466
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 466,
+          "compared": 466
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 466
+        }
+      ]
+    },
+    "6": {
+      "field": "Mir",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 324,
+      "compared_reference_rows": 324,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 324,
+          "compared": 324
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 324
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 324
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 324
+        }
+      ]
+    },
+    "7": {
+      "field": "OutPortNum",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 466,
+      "compared_reference_rows": 466,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 466,
+          "compared": 466
+        },
+        {
+          "codec": "varint_int",
+          "matches": 466,
+          "compared": 466
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 466
+        }
+      ]
+    },
+    "8": {
+      "field": "OutPortHint",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 461,
+      "compared_reference_rows": 461,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 461,
+          "compared": 461
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 461
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 461
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 461
+        }
+      ]
+    },
+    "9": {
+      "field": "BGMRes",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 465,
+      "compared_reference_rows": 465,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 465,
+          "compared": 465
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 465
+        }
+      ]
+    },
+    "10": {
+      "field": "CompleteSoundEffectRes",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 466,
+      "compared_reference_rows": 466,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 466,
+          "compared": 466
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 466
+        }
+      ]
+    },
+    "11": {
+      "field": "IntroCutscene",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 24,
+      "compared_reference_rows": 24,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 24,
+          "compared": 24
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 24
+        }
+      ]
+    },
+    "12": {
+      "field": "LevelScript",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 466,
+    "reference_row_count": 466,
+    "shared_key_count": 466,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 466,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

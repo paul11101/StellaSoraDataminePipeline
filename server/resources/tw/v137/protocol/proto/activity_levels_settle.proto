@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message ActivityLevelsSettleReq {
+  uint32 ActivityId = 1;
+  uint32 Star = 2;
+  .proto.Events Events = 3;
+  bytes NextPackage = 2047;
+}
+
+message ActivityLevelsSettleResp {
+  .proto.ChangeInfo ChangeInfo = 1;
+  repeated .proto.ItemTpl First = 2;
+  uint32 Exp = 3;
+  repeated .proto.ItemTpl Fixed = 4;
+  bytes NextPackage = 2047;
+}

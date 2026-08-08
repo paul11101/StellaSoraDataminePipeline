@@ -1,0 +1,353 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StarTowerBookEntrance",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 13,
+    "localization_hits": 26,
+    "source": "bin/StarTowerBookEntrance.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Icon": "Icon/Handbook/Handbook_city_alley_daylight",
+      "Position": "StarTowerBookEntrance.1.1",
+      "Desc": "StarTowerBookEntrance.1.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.1.1",
+          "zh_TW": "拍攝於埃摩市集，晴",
+          "zh_CN": "拍摄于埃摩市集，晴",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.1.2",
+          "zh_TW": "佇立在那，令人心安",
+          "zh_CN": "伫立在那，令人心安",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Icon": "Icon/Handbook/Handbook_city_alley_dusk",
+      "Position": "StarTowerBookEntrance.2.1",
+      "Desc": "StarTowerBookEntrance.2.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.2.1",
+          "zh_TW": "拍攝於埃摩市集，黃昏",
+          "zh_CN": "拍摄于埃摩市集，黄昏",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.2.2",
+          "zh_TW": "佇立在那，令人心安",
+          "zh_CN": "伫立在那，令人心安",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Icon": "Icon/Handbook/Handbook_city_street_daylight",
+      "Position": "StarTowerBookEntrance.3.1",
+      "Desc": "StarTowerBookEntrance.3.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.3.1",
+          "zh_TW": "拍攝於埃摩街頭，晴",
+          "zh_CN": "拍摄于埃摩街头，晴",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.3.2",
+          "zh_TW": "「它只是他們所享有之物罷了」",
+          "zh_CN": "“它只是他们所享有之物罢了”",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "Icon": "Icon/Handbook/Handbook_city_street_night",
+      "Position": "StarTowerBookEntrance.4.1",
+      "Desc": "StarTowerBookEntrance.4.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.4.1",
+          "zh_TW": "拍攝於埃摩街頭，夜",
+          "zh_CN": "拍摄于埃摩街头，夜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.4.2",
+          "zh_TW": "「它只是他們所享有之物罷了」",
+          "zh_CN": "“它只是他们所享有之物罢了”",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "Icon": "Icon/Handbook/Handbook_city_street_water",
+      "Position": "StarTowerBookEntrance.5.1",
+      "Desc": "StarTowerBookEntrance.5.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.5.1",
+          "zh_TW": "拍攝於菲萊的街道，晴",
+          "zh_CN": "拍摄于菲莱的街道，晴",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.5.2",
+          "zh_TW": "「謊言說了一千遍也不會成真」",
+          "zh_CN": "“谎言说了一千遍也不会成真”",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "Icon": "Icon/Handbook/Handbook_city_street_water_rain",
+      "Position": "StarTowerBookEntrance.6.1",
+      "Desc": "StarTowerBookEntrance.6.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.6.1",
+          "zh_TW": "拍攝於菲萊的街道，雨",
+          "zh_CN": "拍摄于菲莱的街道，雨",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.6.2",
+          "zh_TW": "「謊言說了一千遍也不會成真」",
+          "zh_CN": "“谎言说了一千遍也不会成真”",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "Icon": "Icon/Handbook/Handbook_desert_daylight",
+      "Position": "StarTowerBookEntrance.7.1",
+      "Desc": "StarTowerBookEntrance.7.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.7.1",
+          "zh_TW": "拍攝於米拉什城外，風沙",
+          "zh_CN": "拍摄于米拉什城外，风沙",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.7.2",
+          "zh_TW": "命運的相會，是此刻嗎？",
+          "zh_CN": "命运的相会，是此刻吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    },
+    "8": {
+      "Id": 8,
+      "Icon": "Icon/Handbook/Handbook_field_daylight",
+      "Position": "StarTowerBookEntrance.8.1",
+      "Desc": "StarTowerBookEntrance.8.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.8.1",
+          "zh_TW": "拍攝於菲萊的田野，晴",
+          "zh_CN": "拍摄于菲莱的田野，晴",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.8.2",
+          "zh_TW": "牆外的想走進去，牆內的想逃出來",
+          "zh_CN": "墙外的想走进去，墙里的想逃出来",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    },
+    "9": {
+      "Id": 9,
+      "Icon": "Icon/Handbook/Handbook_forest_daylight_2",
+      "Position": "StarTowerBookEntrance.9.1",
+      "Desc": "StarTowerBookEntrance.9.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.9.1",
+          "zh_TW": "拍攝於菲萊的森林，晴",
+          "zh_CN": "拍摄于菲莱的森林，晴",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.9.2",
+          "zh_TW": "一切就像水車一樣循環著",
+          "zh_CN": "一切就像水车一样循环着",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    },
+    "10": {
+      "Id": 10,
+      "Icon": "Icon/Handbook/Handbook_uniseed_greenhouse_outside",
+      "Position": "StarTowerBookEntrance.10.1",
+      "Desc": "StarTowerBookEntrance.10.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.10.1",
+          "zh_TW": "拍攝於菲萊的溫室，晴",
+          "zh_CN": "拍摄于菲莱的温室，晴",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.10.2",
+          "zh_TW": "就像鎖住陽光一樣，鎖住財富",
+          "zh_CN": "就像锁住阳光一样，锁住财富",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    },
+    "11": {
+      "Id": 11,
+      "Icon": "Icon/Handbook/Handbook_ttc_harbour_daylight",
+      "Position": "StarTowerBookEntrance.11.1",
+      "Desc": "StarTowerBookEntrance.11.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.11.1",
+          "zh_TW": "拍攝於埃摩的港口，晴",
+          "zh_CN": "拍摄于埃摩的港口，晴",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.11.2",
+          "zh_TW": "向未知與貪婪揚帆啟航",
+          "zh_CN": "向未知与贪婪扬帆起航",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Icon": "Icon/Handbook/Handbook_ttc_parkbase_night",
+      "Position": "StarTowerBookEntrance.12.1",
+      "Desc": "StarTowerBookEntrance.12.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.12.1",
+          "zh_TW": "拍攝於埃摩灰城區，夜",
+          "zh_CN": "拍摄于埃摩灰城区，夜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.12.2",
+          "zh_TW": "最溫暖的地方，是家裡的被窩",
+          "zh_CN": "最温暖的地方，是家里的被窝",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Icon": "Icon/Handbook/Handbook_story_main_015",
+      "Position": "StarTowerBookEntrance.13.1",
+      "Desc": "StarTowerBookEntrance.13.2",
+      "_localized": {
+        "/Position": {
+          "key": "StarTowerBookEntrance.13.1",
+          "zh_TW": "拍攝於埃摩的郊區，清晨",
+          "zh_CN": "拍摄于埃摩的远郊，清晨",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerBookEntrance.13.2",
+          "zh_TW": "出發吧，挑戰荒野的勇者們",
+          "zh_CN": "出发吧，挑战荒野的勇者们",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookEntrance.json",
+            "zh_CN": "language/zh_CN/StarTowerBookEntrance.json"
+          }
+        }
+      }
+    }
+  }
+}

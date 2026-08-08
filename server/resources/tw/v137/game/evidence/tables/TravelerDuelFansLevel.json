@@ -1,0 +1,168 @@
+{
+  "table": "TravelerDuelFansLevel",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2fd6e95b29612b1b.bin",
+  "source_sha256": "af469b7b5586b4f14460462db28e98616116bb79c4e3a5eecdaad62a59b52235",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\TravelerDuelFansLevel.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 36
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reference_field_order": [
+      "Id",
+      "GroupId",
+      "Level",
+      "NeedExp"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "GroupId",
+      "3": "Level",
+      "4": "NeedExp"
+    },
+    "aot_field_count": 4,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "2": {
+      "field": "GroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "3": {
+      "field": "Level",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "4": {
+      "field": "NeedExp",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 34,
+      "compared_reference_rows": 34,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 34,
+          "compared": 34
+        },
+        {
+          "codec": "varint_int",
+          "matches": 34,
+          "compared": 34
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 34
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 36,
+    "reference_row_count": 36,
+    "shared_key_count": 36,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 36,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

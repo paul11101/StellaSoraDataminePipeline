@@ -1,0 +1,244 @@
+{
+  "table": "AdControl",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9bf22cf1d532e591.bin",
+  "source_sha256": "190f1c1f447c409c86c84cd2cca934663807b96825d7e63d72dddad5f7f008a1",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\AdControl.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 14
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "reference_field_order": [
+      "Id",
+      "UIAssets",
+      "CtrlName",
+      "StartTime",
+      "JumpTo",
+      "IsMove"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 6,
+    "remaining_name_count": 6,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 14,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "UIAssets",
+        "matching_reference_rows": 14,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "CtrlName",
+        "matching_reference_rows": 14,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "StartTime",
+        "matching_reference_rows": 12,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "JumpTo",
+        "matching_reference_rows": 13,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "IsMove",
+        "matching_reference_rows": 1,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 14,
+      "compared_reference_rows": 14,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 14,
+          "compared": 14
+        },
+        {
+          "codec": "varint_int",
+          "matches": 14,
+          "compared": 14
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 14
+        }
+      ]
+    },
+    "3": {
+      "field": "UIAssets",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 14,
+      "compared_reference_rows": 14,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 14,
+          "compared": 14
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 14
+        }
+      ]
+    },
+    "4": {
+      "field": "CtrlName",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 14,
+      "compared_reference_rows": 14,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 14,
+          "compared": 14
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 14
+        }
+      ]
+    },
+    "5": {
+      "field": "StartTime",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 12,
+      "compared_reference_rows": 12,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 12,
+          "compared": 12
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 12
+        }
+      ]
+    },
+    "6": {
+      "field": "JumpTo",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 13,
+      "compared_reference_rows": 13,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 13,
+          "compared": 13
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 13,
+          "compared": 13
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 13
+        }
+      ]
+    },
+    "8": {
+      "field": "IsMove",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 1
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 1
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 14,
+    "reference_row_count": 14,
+    "shared_key_count": 14,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 14,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "checks": {
+    "all_archive_entries_named": true,
+    "all_binary_tables_decoded": true,
+    "no_decoder_failures": true,
+    "all_active_fields_named": true,
+    "no_unknown_protobuf_fields": true,
+    "readable_table_count_matches": true,
+    "zh_TW_table_count": true,
+    "zh_CN_table_count": true,
+    "reference_shared_values_match": true
+  },
+  "decoder_statistics": {
+    "requested_tables": 480,
+    "decoded_tables": 480,
+    "failed_tables": 0,
+    "exact_reference_matches": 479,
+    "tables_with_unknown_fields": 0,
+    "tables_with_complete_field_alignment": 480,
+    "total_local_rows": 144095,
+    "total_different_shared_rows": 0
+  },
+  "reference_crosscheck": "validation/reference_crosscheck.json",
+  "json_validation": {
+    "json_files_checked": 1904,
+    "json_parse_failures": [],
+    "all_json_valid": true
+  },
+  "all_checks_passed": true
+}

@@ -1,0 +1,4856 @@
+{
+  "schema_version": "1.0.0",
+  "files": [
+    {
+      "path": "bubble/_tw/BubbleData.json",
+      "kind": "json",
+      "item_count": 3971,
+      "name_hash_hex": "1798ef50909d5b5d",
+      "source_sha256": "c854c496804588551edf273de98d9f2a9b2371ddd5ca726dc2e429dd35bd7d84",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1798ef50909d5b5d.bin",
+      "naming_evidence": [
+        "local_content_structure_inference"
+      ]
+    },
+    {
+      "path": "bubble/BubbleOffset.json",
+      "kind": "json",
+      "item_count": 95,
+      "name_hash_hex": "3a30f909d778b645",
+      "source_sha256": "dca38860a9aa8954cb9ef920e11c24db29b03eca40a170c232b960cbe4784101",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3a30f909d778b645.bin",
+      "naming_evidence": [
+        "local_content_structure_inference"
+      ]
+    },
+    {
+      "path": "bubble/VoResLen.json",
+      "kind": "json",
+      "item_count": 10001,
+      "name_hash_hex": "abe51ccf1d221ed3",
+      "source_sha256": "ecd198c4b1e12b2642874ecfab2f9e7d80df0dd3620713d4b47a36114c3f5d80",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\abe51ccf1d221ed3.bin",
+      "naming_evidence": [
+        "local_content_structure_inference"
+      ]
+    },
+    {
+      "path": "dirty_words/CharacterRegex.txt",
+      "kind": "text",
+      "item_count": null,
+      "name_hash_hex": "da943d933734a48b",
+      "source_sha256": "b3e694233eb8c0019d2fed84431aef847c95a09fef79b149068ca510053b60f9",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\da943d933734a48b.bin",
+      "naming_evidence": [
+        "local_il2cpp_string_literal"
+      ]
+    },
+    {
+      "path": "dirty_words/DirtyWords.txt",
+      "kind": "text",
+      "item_count": null,
+      "name_hash_hex": "80f35009403614f0",
+      "source_sha256": "88c8ceda35e7a39aa93d6cd169054c4b37f25da9739f7c9ff528d0dd9f41463b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\80f35009403614f0.bin",
+      "naming_evidence": [
+        "local_il2cpp_string_literal"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Achievement.json",
+      "kind": "json",
+      "item_count": 1270,
+      "name_hash_hex": "c6b14b95a169004c",
+      "source_sha256": "200a301f1ce538396af11d82c11e363b9fa4591cf0ebd6247c1b37a299c9d949",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c6b14b95a169004c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityAvgLevel.json",
+      "kind": "json",
+      "item_count": 33,
+      "name_hash_hex": "7755565a891302d0",
+      "source_sha256": "c21f2bf81d342b04639967d4078a248ca8dfdfa3361f566c3f6d5da3a10b9a5b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7755565a891302d0.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityDouble.json",
+      "kind": "json",
+      "item_count": 2,
+      "name_hash_hex": "80f7d82a9006c836",
+      "source_sha256": "4fe6b25af68e098cd17b072dad1d610ffcc2876e7052c830fc49ad41d3e2caf6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\80f7d82a9006c836.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityDoubleQuest.json",
+      "kind": "json",
+      "item_count": 14,
+      "name_hash_hex": "8c32f7a081076f6a",
+      "source_sha256": "f2303110e9b2974e96373a0b8493c64b20f68ed2f861d1d1ef114a8fcb66bf85",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8c32f7a081076f6a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityGoods.json",
+      "kind": "json",
+      "item_count": 666,
+      "name_hash_hex": "6685539fd40c9e98",
+      "source_sha256": "41c2c62d14fa478787dd83b88a4b395c33eb8587d5126d879deaf191013197eb",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6685539fd40c9e98.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityGroup.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "6980877ddfba68fb",
+      "source_sha256": "7e24f8813cd91978c54e3a43cd5b5c6873c4a85c99aea95046e4871f15c14bc8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6980877ddfba68fb.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityIceCreamLevel.json",
+      "kind": "json",
+      "item_count": 27,
+      "name_hash_hex": "a3ab81651c10fe1d",
+      "source_sha256": "5e9631f9d338d4692ebdde4119ca8f29f3b86f168ab68b5c680133960139456e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a3ab81651c10fe1d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityLevelsLevel.json",
+      "kind": "json",
+      "item_count": 1300,
+      "name_hash_hex": "be49b4045cb35242",
+      "source_sha256": "b0333752e14cedfd7bc776c338220e02724c381120186a8dc365b8a4cf4597cb",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\be49b4045cb35242.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityPenguinCardLevel.json",
+      "kind": "json",
+      "item_count": 17,
+      "name_hash_hex": "15bd9309c4fc87ae",
+      "source_sha256": "604e4f019d4a1721e5c7c5f042578532796d795de615c95486421d4e5cd541a1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\15bd9309c4fc87ae.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityPenguinCardQuest.json",
+      "kind": "json",
+      "item_count": 30,
+      "name_hash_hex": "4f9cdfbd859261ea",
+      "source_sha256": "288656d1c577b6f6a8e4ead5409dfbb2620b855558d3fd8e16ce52ace7dec9bc",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\4f9cdfbd859261ea.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityPenguinCardQuestGroup.json",
+      "kind": "json",
+      "item_count": 5,
+      "name_hash_hex": "3356ca686dc8c7e9",
+      "source_sha256": "94e5d004952443f658008a82421087eb0ab4fbf9f6fb7810aa25886544858763",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3356ca686dc8c7e9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityShop.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "8bf7db7376750be8",
+      "source_sha256": "cdc395edef0171f8e55b09b6f05c18205676e215dce857810b7a04a3dd59905b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8bf7db7376750be8.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityStory.json",
+      "kind": "json",
+      "item_count": 306,
+      "name_hash_hex": "789e881d02a7ddcb",
+      "source_sha256": "5926b9583de7fb299ec8b34a30fa33bcfaa6388e08ce7039423752c88e885b43",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\789e881d02a7ddcb.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityTask.json",
+      "kind": "json",
+      "item_count": 751,
+      "name_hash_hex": "c316bcdb179b0d6e",
+      "source_sha256": "130ac10850865388694ef7380f502fb74b982b26b96afb30a66b35363c7235b1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c316bcdb179b0d6e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ActivityTaskGroup.json",
+      "kind": "json",
+      "item_count": 65,
+      "name_hash_hex": "1fd8db42d95f8a8a",
+      "source_sha256": "ca96cc72d8abf50cc78e5474b2e90070e636e3f338ea31d91818652352aa0042",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1fd8db42d95f8a8a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/AffinityLevel.json",
+      "kind": "json",
+      "item_count": 100,
+      "name_hash_hex": "6fbcd5b0a0a51776",
+      "source_sha256": "cea31549fc5cedffdfe79157ca83a8b10b15d75b8b7de52f8e50a60027049ef9",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6fbcd5b0a0a51776.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/AffinityQuest.json",
+      "kind": "json",
+      "item_count": 333,
+      "name_hash_hex": "1e77dcffbbba3b93",
+      "source_sha256": "9e74a7fc72cf3d65e3b15bc3ce2c3e2e767126feb23b7ea14dfd652da9a8a911",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1e77dcffbbba3b93.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/AffinityUpReward.json",
+      "kind": "json",
+      "item_count": 1628,
+      "name_hash_hex": "aa8312ae07d84ae0",
+      "source_sha256": "8d74b7cac5f402c5ec67c0bb98319fe400ab0e4dcc7d32b8629d2826f11a0159",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\aa8312ae07d84ae0.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Agent.json",
+      "kind": "json",
+      "item_count": 144,
+      "name_hash_hex": "8f0f28fa7a2bd690",
+      "source_sha256": "87bf44c5c1669c0200d886057639d062c315eac114d7675961f8cbc8204a7454",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8f0f28fa7a2bd690.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/AgentTab.json",
+      "kind": "json",
+      "item_count": 5,
+      "name_hash_hex": "8a6a0b5912e2eb92",
+      "source_sha256": "d9315b606b2d80f99be8899b11d39e42b4e1db403d8399e2adc7440352a62a01",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8a6a0b5912e2eb92.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/AssistAttribute.json",
+      "kind": "json",
+      "item_count": 10,
+      "name_hash_hex": "83e358c8a40ed17b",
+      "source_sha256": "13992d8707569a2e6a68720194f7abc04329a3c57273a81607188e771c9ac9b5",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\83e358c8a40ed17b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/AssistQuest.json",
+      "kind": "json",
+      "item_count": 78,
+      "name_hash_hex": "7dfe5920378a52b8",
+      "source_sha256": "cdaa287df1cc793be1617274b1dd3f925fd99975d1856c663e8715cd09440bc9",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7dfe5920378a52b8.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/BattlePassQuest.json",
+      "kind": "json",
+      "item_count": 17,
+      "name_hash_hex": "c9ecd1ace6167c1e",
+      "source_sha256": "cdd0e043c07b01f16152fe52f512b0457d45f0d370a630146899afa79dc16301",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c9ecd1ace6167c1e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/BdConvertCondition.json",
+      "kind": "json",
+      "item_count": 68,
+      "name_hash_hex": "a6fa71089796b394",
+      "source_sha256": "c8b939db8b747c6d023cb8cc321aa8df56687d50b899d43a10a31cd900bac7f8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a6fa71089796b394.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/BdConvertContent.json",
+      "kind": "json",
+      "item_count": 27,
+      "name_hash_hex": "7829798b2f7d3277",
+      "source_sha256": "1e6990973c132b764c66521d001ed7842d2b1d2a419ab5c1cc0a612eb06ca473",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7829798b2f7d3277.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/BdConvertControl.json",
+      "kind": "json",
+      "item_count": 9,
+      "name_hash_hex": "7bfac6460221ca3d",
+      "source_sha256": "999c744a1143836e2076d186d36fae0db4cd33d1dd84bf8ff76f0cc2626d69ea",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7bfac6460221ca3d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/BdConvertRewardGroup.json",
+      "kind": "json",
+      "item_count": 108,
+      "name_hash_hex": "18419cfac9de3742",
+      "source_sha256": "0b5e53f00083634d70357cb23b73b850dadb4fb7e305b98822662e76948949c8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\18419cfac9de3742.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/BoardNPC.json",
+      "kind": "json",
+      "item_count": 98,
+      "name_hash_hex": "bbe1748acf88934d",
+      "source_sha256": "67de11746a85fa390f014a201d4c9d8ea04cbdf7e61d7db0367656c45e2bf77d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\bbe1748acf88934d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/BreakOutCharacter.json",
+      "kind": "json",
+      "item_count": 5,
+      "name_hash_hex": "2854972033e1abe8",
+      "source_sha256": "d4c6934022360c2e8dbddc326aba370499dce201d102e3ecaea70ade21583a53",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2854972033e1abe8.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/BreakOutLevel.json",
+      "kind": "json",
+      "item_count": 32,
+      "name_hash_hex": "7bad498363069b27",
+      "source_sha256": "d9a03028978d0a112fecd057f4b3a69277c871a7d251837e7aa6a0d892b8967b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7bad498363069b27.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Chapter.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "6d774870dca66f0a",
+      "source_sha256": "f9433193294558c4190c755257993ea5013188320aa11b6e113ace20f7fe8a4d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6d774870dca66f0a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Character.json",
+      "kind": "json",
+      "item_count": 37,
+      "name_hash_hex": "44902e68a2db423f",
+      "source_sha256": "db6227e9555f942c0e1539535b533e1ffb36a3fd1ce0ba31196b1b2b7b6bbc18",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\44902e68a2db423f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/CharacterArchiveBaseInfo.json",
+      "kind": "json",
+      "item_count": 597,
+      "name_hash_hex": "b3e15e23afb27dd6",
+      "source_sha256": "162b90ce712f19807e252a9f14c18ca02b3a64a29b2c665f47181ee60d4e295b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b3e15e23afb27dd6.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/CharacterArchiveContent.json",
+      "kind": "json",
+      "item_count": 967,
+      "name_hash_hex": "4a3c44844ee817d1",
+      "source_sha256": "258b35728326b8eeff2e823fda95749a203ba056edd2065872819d5de630a275",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\4a3c44844ee817d1.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/CharacterArchiveVoice.json",
+      "kind": "json",
+      "item_count": 3293,
+      "name_hash_hex": "65c021091de910ba",
+      "source_sha256": "80db460f0b70b31a155ef40c836b850b1e9bc7c997b2f369f8d69aa76058f5d2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\65c021091de910ba.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/CharacterCG.json",
+      "kind": "json",
+      "item_count": 37,
+      "name_hash_hex": "6d9b4f0e58279dad",
+      "source_sha256": "adedb9096195f7f2509f26e7bf5b343bc207e339a18c3d881c6b5f4cb29630a3",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6d9b4f0e58279dad.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/CharacterDes.json",
+      "kind": "json",
+      "item_count": 444,
+      "name_hash_hex": "fc1bc7670ae9c953",
+      "source_sha256": "c3d31c2d32e7673863f773ddf1fe549586429694c8e9b5d3b8501b991b154f41",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\fc1bc7670ae9c953.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/CharacterSkin.json",
+      "kind": "json",
+      "item_count": 120,
+      "name_hash_hex": "e9523ad410d60587",
+      "source_sha256": "82efb1286f2c333a1b62e6f08d33fa8e08bc5f7c6c0e4e99f8eee258619f7a86",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e9523ad410d60587.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/CharacterTag.json",
+      "kind": "json",
+      "item_count": 27,
+      "name_hash_hex": "3ca97583ee7d0791",
+      "source_sha256": "871855bf7728182c0ca27a6c22aef0588c3a7551c516f1da03ebf6d1858c83ef",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3ca97583ee7d0791.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/CharGem.json",
+      "kind": "json",
+      "item_count": 18,
+      "name_hash_hex": "4eb414b9ee2835d6",
+      "source_sha256": "d1a4a47ce4f4771ed80c9ef26e973ce8ad07021249a91b0002cf9619a6292f5a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\4eb414b9ee2835d6.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/CharGemInstance.json",
+      "kind": "json",
+      "item_count": 18,
+      "name_hash_hex": "0d36376051a3b2b8",
+      "source_sha256": "8b02f0a74f156cb1c0d20f32f29f857f5b10d322b89bc6acd7d9b120ed4c771d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\0d36376051a3b2b8.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/CharGemInstanceType.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "8f52984ee542c842",
+      "source_sha256": "e19b5a2c85fb407b16d37a08b6603b1187ef5970878643fa28b79eeac2843776",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8f52984ee542c842.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/CharGetLines.json",
+      "kind": "json",
+      "item_count": 171,
+      "name_hash_hex": "17ba1c051ea16c44",
+      "source_sha256": "3cc486656af920b200f8077645ca3230ee5b89c5c95ed455d36db102b9fbb131",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\17ba1c051ea16c44.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ContentWord.json",
+      "kind": "json",
+      "item_count": 11,
+      "name_hash_hex": "7f8eb957e8f26835",
+      "source_sha256": "565aa7bb0739d7fb69349c8d5b0a8f4105a450ed7273d94e989791d8c9459f99",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7f8eb957e8f26835.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/CookieLevel.json",
+      "kind": "json",
+      "item_count": 64,
+      "name_hash_hex": "6e46089ac5192bb8",
+      "source_sha256": "78771cdb3247c125e60fae3a5bc3c08dec59978b55811a29f380e94ff680b3c6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6e46089ac5192bb8.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DailyInstance.json",
+      "kind": "json",
+      "item_count": 35,
+      "name_hash_hex": "06f8ab65de9b666f",
+      "source_sha256": "e6bbd0654344e998dfb9b0aa640855cb05947b9bca755fdd2d722a7cb22830a4",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\06f8ab65de9b666f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DailyInstanceRewardGroup.json",
+      "kind": "json",
+      "item_count": 42,
+      "name_hash_hex": "bcbefae963cfab6f",
+      "source_sha256": "0b2589115d827a0ff58ef8f7849ac220b1612bf2e6045f665436616eac6577fa",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\bcbefae963cfab6f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DailyInstanceType.json",
+      "kind": "json",
+      "item_count": 1,
+      "name_hash_hex": "3b6b772672040658",
+      "source_sha256": "db75b5441cff14d66a97b56621dca0b409e004656bc15552a8afa74a4a406ff9",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3b6b772672040658.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DailyQuest.json",
+      "kind": "json",
+      "item_count": 15,
+      "name_hash_hex": "f7c2a15da50f0aee",
+      "source_sha256": "93966e331633f9f2b8123b394cfc18869355bc832365f97e94737ea722d06005",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f7c2a15da50f0aee.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DatingBranch.json",
+      "kind": "json",
+      "item_count": 28,
+      "name_hash_hex": "14ba5ceec9bcc8ec",
+      "source_sha256": "a97487089cad0eba7b4699518db9c0f1f85c3f74f661e7e41f2b9c99dd5ef347",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\14ba5ceec9bcc8ec.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DatingCharacterEvent.json",
+      "kind": "json",
+      "item_count": 634,
+      "name_hash_hex": "733ee8fdb8a6a976",
+      "source_sha256": "7e85db390035a74c96c072d953b0057ac9b4b677781bb640258296c6d89b0e0e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\733ee8fdb8a6a976.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DatingLandmark.json",
+      "kind": "json",
+      "item_count": 12,
+      "name_hash_hex": "93632507478e03a5",
+      "source_sha256": "5f88d9addbe35e489fcd8c12200946b9724f8aebdb201b127088eab883d8f972",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\93632507478e03a5.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DatingLandmarkEvent.json",
+      "kind": "json",
+      "item_count": 262,
+      "name_hash_hex": "43ac532f7df5c82a",
+      "source_sha256": "7ac4d14ddefeef8ccd40a5e8a1cd4b2389a20767863af2eabe0426c107e9e725",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\43ac532f7df5c82a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DatingStartEndEvent.json",
+      "kind": "json",
+      "item_count": 148,
+      "name_hash_hex": "a39d4e5d49be469d",
+      "source_sha256": "b1a9af2e35731b0e341825ae768898e5fbca2c2ed14b2d08f8ab6ca0345fb0f1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a39d4e5d49be469d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DemonAdvance.json",
+      "kind": "json",
+      "item_count": 1,
+      "name_hash_hex": "5c3ce8810d85ff27",
+      "source_sha256": "bfa3f84d3d80536b78a81078daa3ad76337f3422e1c8a9896434d89514e3daec",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\5c3ce8810d85ff27.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DictionaryDiagram.json",
+      "kind": "json",
+      "item_count": 408,
+      "name_hash_hex": "11a828a290791d7f",
+      "source_sha256": "e5dbf1713ca1fdae623cdd5299db9d2c82d5de2b574d2af21dbcbcfe5a9a8faf",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\11a828a290791d7f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DictionaryEntry.json",
+      "kind": "json",
+      "item_count": 25,
+      "name_hash_hex": "1cd9350fe07bf8a6",
+      "source_sha256": "25a2121cd48f5fd415cd11f674d32287f7b9f8736aa2f8bf0f63c61cba20f340",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1cd9350fe07bf8a6.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DictionaryTab.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "de586d7e22d97c5a",
+      "source_sha256": "cd8d16219fb8af0019132847b8534fcc6d75c568472cf4e4567048e2a4e1d9ae",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\de586d7e22d97c5a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DictionaryTopBarEntry.json",
+      "kind": "json",
+      "item_count": 82,
+      "name_hash_hex": "aab071b930587b21",
+      "source_sha256": "7dd1e6b665772041c0636a0103cba4e0aacffa48615e11007a047da755f3864c",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\aab071b930587b21.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DiscIP.json",
+      "kind": "json",
+      "item_count": 384,
+      "name_hash_hex": "5d07838c4787cc54",
+      "source_sha256": "af213ea59bb8f04032703c1e533b0cdfe8e56d10e379ecf4a5501626334f86f1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\5d07838c4787cc54.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/DiscTag.json",
+      "kind": "json",
+      "item_count": 24,
+      "name_hash_hex": "d8280a9c81b33b8b",
+      "source_sha256": "4bd74883ef34112cf35b7332acdc3af083d1b323b3cf3fb9d1ce10a42bad04e9",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d8280a9c81b33b8b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/EffectDesc.json",
+      "kind": "json",
+      "item_count": 656,
+      "name_hash_hex": "276186f7972c180f",
+      "source_sha256": "80f6f81504536bb0656da37acbaa379c3c3a504f3bf20a7a4780bd7fa1ad8e72",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\276186f7972c180f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/EnergyBuy.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "4f30e8d35f07b627",
+      "source_sha256": "23e95506a59923c24ff102ba9751076b11f8083ddd83b42b57ff14ebe6dffbdd",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\4f30e8d35f07b627.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ErrorCode.json",
+      "kind": "json",
+      "item_count": 184,
+      "name_hash_hex": "36e4ea1d13ec07f4",
+      "source_sha256": "1f8b236ef50f6859a51729308eddcb1989b5fa627568db088e4d6b4e70c972b5",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\36e4ea1d13ec07f4.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/EventOptions.json",
+      "kind": "json",
+      "item_count": 86,
+      "name_hash_hex": "bb61d590204de7f2",
+      "source_sha256": "14eafd57ab95a87685c85509b89f6acd227ee16dfc4bd2ebb940f0b031c8040f",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\bb61d590204de7f2.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/FateCard.json",
+      "kind": "json",
+      "item_count": 468,
+      "name_hash_hex": "86f53f32d1f74ab6",
+      "source_sha256": "7a5afe0642e9e16cc746d40e52a0255a42eb9d63d57d61e432b4d52dea0b064e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\86f53f32d1f74ab6.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/FollowSocialMediaLinkConfig.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "cd56e196f92b655c",
+      "source_sha256": "f5c51ea32361946a538731254bc3e30c586294299781a9ed828e8848bf77eed1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\cd56e196f92b655c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Force.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "3e3708008250f965",
+      "source_sha256": "066ee9ca6c0b09c08138e6f28111c92467bdffb68c28788d654fb209d8dfa840",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3e3708008250f965.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Gacha.json",
+      "kind": "json",
+      "item_count": 55,
+      "name_hash_hex": "7b0a2a29ce7d024e",
+      "source_sha256": "457ccfa13aaf93a48e4909975d5a8f5eb291817f9aa68a6f98f076a5bc333b99",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7b0a2a29ce7d024e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/GachaStorage.json",
+      "kind": "json",
+      "item_count": 5,
+      "name_hash_hex": "07f8babd51f803d6",
+      "source_sha256": "a2269e814667052170e1aee4258b0bbcfbfe212e8c5dc132b9a9c9322561d6e8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\07f8babd51f803d6.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/GachaType.json",
+      "kind": "json",
+      "item_count": 141,
+      "name_hash_hex": "244b924d0e05f10c",
+      "source_sha256": "d2cd5bd295d48509677efcfbd762bd58591a43c491354eb3242ae958592113a7",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\244b924d0e05f10c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/GoldenSpyBuffCard.json",
+      "kind": "json",
+      "item_count": 118,
+      "name_hash_hex": "a6a295c7835826c4",
+      "source_sha256": "298d30e17ffda610b7a0753695586f9a8a937c2b38e82dd5714147c730cfa336",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a6a295c7835826c4.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/GoldenSpyItem.json",
+      "kind": "json",
+      "item_count": 18,
+      "name_hash_hex": "72e494f82696f29f",
+      "source_sha256": "c60ca39932dbffe609aa2b31094cbac2248bfdf2fa59fd2d81223091863f83e1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\72e494f82696f29f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/GoldenSpyLevel.json",
+      "kind": "json",
+      "item_count": 42,
+      "name_hash_hex": "34ad36393551fb8e",
+      "source_sha256": "b10e4e7196063eeeddd1e969b93bac941857bd37492a74517eabec0f6dfc89ad",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\34ad36393551fb8e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/GoldenSpyLevelGroup.json",
+      "kind": "json",
+      "item_count": 8,
+      "name_hash_hex": "5fa3b15dcab6df77",
+      "source_sha256": "4ce4fb97409b11255d74e03887c1aa260f83c72fc4ec0112ab270fd19ef62e9a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\5fa3b15dcab6df77.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Honor.json",
+      "kind": "json",
+      "item_count": 144,
+      "name_hash_hex": "fc1aebb9034b35b2",
+      "source_sha256": "2ad2edacad077ca754f695688b105f02b32067d985324ef8659ce060986d003f",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\fc1aebb9034b35b2.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/IceCreamBuff.json",
+      "kind": "json",
+      "item_count": 10,
+      "name_hash_hex": "6b6b9306d8e56dc1",
+      "source_sha256": "85ec33cc84c13b563fd4f3bc337fb7d4c6edba9ddc6c6a66fb6c32bb21fe24f4",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6b6b9306d8e56dc1.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/InfinityTower.json",
+      "kind": "json",
+      "item_count": 7,
+      "name_hash_hex": "e46b0b841d23e9ec",
+      "source_sha256": "97321e1d47c57a5236ceed779e094c5c1a52f8a0fcccc7bbefc2dfe8c74ec671",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e46b0b841d23e9ec.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/InfinityTowerAffix.json",
+      "kind": "json",
+      "item_count": 250,
+      "name_hash_hex": "3c521130e224a7ef",
+      "source_sha256": "de3b4034b144036cc2a6b78e5585637c802f25df2b29e614052a9c5111ca872e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3c521130e224a7ef.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/InfinityTowerDifficulty.json",
+      "kind": "json",
+      "item_count": 257,
+      "name_hash_hex": "6db415c71b789800",
+      "source_sha256": "3ee27d04a895a50c549a4b4b5677e5815ef6e0279683c5eab88350dc598baee8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6db415c71b789800.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/InfinityTowerLevel.json",
+      "kind": "json",
+      "item_count": 1290,
+      "name_hash_hex": "5f94907385f62b63",
+      "source_sha256": "b48ef9ee8f9040513633bbd08a9699f5710cd2638c95d83233a67ed8dfc37b9e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\5f94907385f62b63.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/InfinityTowerMsg.json",
+      "kind": "json",
+      "item_count": 184,
+      "name_hash_hex": "d980e20688ed9857",
+      "source_sha256": "c0c1626bc8902e9eea2c0dc669cbd77cafddab001b8e3cab7eb8c0654811f937",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d980e20688ed9857.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/InteractiveAction.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "81a6906594450ffe",
+      "source_sha256": "307c361598bcaf9d7ceb48de92a65b115b3cbdef6379f6bd8f2c9ca37f2b082a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\81a6906594450ffe.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Item.json",
+      "kind": "json",
+      "item_count": 3476,
+      "name_hash_hex": "db546f14f2f79a11",
+      "source_sha256": "fb5164e0fc0f5666e94df04255145592a0d43274277cb976ba2a55d43ac4eeee",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\db546f14f2f79a11.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ItemPackMark.json",
+      "kind": "json",
+      "item_count": 2,
+      "name_hash_hex": "d384fbd333125aa9",
+      "source_sha256": "adeeb12c54711663fefa5b927e54bd47014d5027bd910a9fca20519998a9613c",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d384fbd333125aa9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/JointDrill_2_Level.json",
+      "kind": "json",
+      "item_count": 32,
+      "name_hash_hex": "ced574935d7a6375",
+      "source_sha256": "c14aea2ab23dbcaeff86577e6b53234ed082f85eda7b5ea1dc059392bb5afd11",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ced574935d7a6375.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/JointDrillAffix.json",
+      "kind": "json",
+      "item_count": 34,
+      "name_hash_hex": "d3a03c7dc91bc892",
+      "source_sha256": "3d769dddb170af69c95390386d1abac5febf27bc6a25c20d06ed26e9c5e7ade6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d3a03c7dc91bc892.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/JointDrillControl.json",
+      "kind": "json",
+      "item_count": 12,
+      "name_hash_hex": "4424e0e83d354e1f",
+      "source_sha256": "16c1ef56666598f03884d4bce11ad583fbacc096be188683713ec22b64f39e4a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\4424e0e83d354e1f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/JointDrillLevel.json",
+      "kind": "json",
+      "item_count": 14,
+      "name_hash_hex": "eafb495b76f5e16f",
+      "source_sha256": "4c5d82d3ebafe541aea9345c85a05c0b7515510342ae537818c4d296806a0688",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\eafb495b76f5e16f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/JointDrillQuest.json",
+      "kind": "json",
+      "item_count": 42,
+      "name_hash_hex": "8eeb4579c813df88",
+      "source_sha256": "9b7c2a72fdd1d5a3b3ac5b770b75e0fa24e8ed4a58c3102d45cce30306c71e88",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8eeb4579c813df88.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/JumpTo.json",
+      "kind": "json",
+      "item_count": 159,
+      "name_hash_hex": "bd268e296c727b91",
+      "source_sha256": "f61d0eaffbced27a628e9c394909f6699be907864e06be0cd44f17c06dcc6903",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\bd268e296c727b91.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/LevelQuest.json",
+      "kind": "json",
+      "item_count": 31,
+      "name_hash_hex": "13e37acdd784cdf3",
+      "source_sha256": "76ca681d59f37ae83e67366b58c45dbfdf35c5c5a58519edc709f6f587916d75",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\13e37acdd784cdf3.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/LevelQuestTarget.json",
+      "kind": "json",
+      "item_count": 580,
+      "name_hash_hex": "fd4b6e4d27222ec2",
+      "source_sha256": "d44ba99246808a49f3d9ba2ba1cf912594db855d6c3a2718f2bd5803f2149f97",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\fd4b6e4d27222ec2.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/LoginRewardControl.json",
+      "kind": "json",
+      "item_count": 1,
+      "name_hash_hex": "058b58cf2e9d0d7e",
+      "source_sha256": "548ecd069f301a601db8438355114d47dab7f591f737b0556f946677ecb555d5",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\058b58cf2e9d0d7e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/LoginRewardGroup.json",
+      "kind": "json",
+      "item_count": 30,
+      "name_hash_hex": "98e3a4e6c54dc0c6",
+      "source_sha256": "58dfdc7a888cff3b8a6eb46aed550e53ed20d63f96605183ed088a00a62544e7",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\98e3a4e6c54dc0c6.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MailTemplate.json",
+      "kind": "json",
+      "item_count": 270,
+      "name_hash_hex": "40118cbd54257e0f",
+      "source_sha256": "822f4696062facf732a8f029daa71d9b89986ad40315f6ddd5610019b94e2c22",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\40118cbd54257e0f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MainScreenCG.json",
+      "kind": "json",
+      "item_count": 83,
+      "name_hash_hex": "51cde1ec19b08648",
+      "source_sha256": "537dbdb161796cfe9d60cff2edada4884314ecbb38d4f57c25a29b9fe5777bed",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\51cde1ec19b08648.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MainSkill.json",
+      "kind": "json",
+      "item_count": 1155,
+      "name_hash_hex": "b09952a17d27201c",
+      "source_sha256": "214db33881632c3f921b070778a73aa86deef847e3c41b8e510e3059245e761a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b09952a17d27201c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MallGem.json",
+      "kind": "json",
+      "item_count": 14,
+      "name_hash_hex": "c034e043f60bd36b",
+      "source_sha256": "d17218b0e0a36e51da9cea6225118e8f215d3d362ef1b05660e6ed167b4bac72",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c034e043f60bd36b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MallMonthlyCard.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "7ed3bf11a84a6aac",
+      "source_sha256": "00ab86097f4d2170ec29a6c6aa642d7a51b45e0ec850607fbea63e0d5fbad608",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7ed3bf11a84a6aac.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MallPackage.json",
+      "kind": "json",
+      "item_count": 365,
+      "name_hash_hex": "6f0361474c111904",
+      "source_sha256": "7e7cc15758766aca652201602004a11d1e2af955b8420151e3f31c3ba0bcee35",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6f0361474c111904.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MallPackagePage.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "b1a3535c27245640",
+      "source_sha256": "1e80bb4b2cb7f466aacdde3c91d03165d4ae13e84a107761c7e9227444825624",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b1a3535c27245640.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MallRecommendGroup.json",
+      "kind": "json",
+      "item_count": 25,
+      "name_hash_hex": "ed456fb33879ea07",
+      "source_sha256": "a629bbcbc9031f11e92ad41fdaa7fc8c08a7f191e498f5192e67f8bf507951fa",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ed456fb33879ea07.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MallShop.json",
+      "kind": "json",
+      "item_count": 52,
+      "name_hash_hex": "35382216453fa025",
+      "source_sha256": "0f2bd038e6012d2858446fdea6f0d1b0afb2ad17e33279e063153b2fc90b4e1a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\35382216453fa025.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MallShopPage.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "480d8822e54fb6b4",
+      "source_sha256": "881027b650f8a8681c0feabf72a1e1cd034638f27921d98ce3b9ca6f8676a832",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\480d8822e54fb6b4.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MangaLoading.json",
+      "kind": "json",
+      "item_count": 49,
+      "name_hash_hex": "a2c802ab77ba3367",
+      "source_sha256": "b972b0a923f8ab526c667516283c90e471cbd9c8dae3f2de7f780a7eec7b9591",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a2c802ab77ba3367.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MiningControl.json",
+      "kind": "json",
+      "item_count": 1,
+      "name_hash_hex": "b8a70d6f538fb0ac",
+      "source_sha256": "7ecb426b1919e42751a14c7ae91ed42443ecf76146b2da19f6893a6279180b66",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b8a70d6f538fb0ac.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MiningQuest.json",
+      "kind": "json",
+      "item_count": 21,
+      "name_hash_hex": "13d44303685b701d",
+      "source_sha256": "95b22790405b63350c0f42a00fcd67dcae72b354bb54916bb3c9ca69405f323a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\13d44303685b701d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MiningQuestGroup.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "38a64b2d4c24e816",
+      "source_sha256": "7724ebc1346b99b6b32b5a8a8a198d7c05871c353e08d20078ab33b3dbde9111",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\38a64b2d4c24e816.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MiningSupport.json",
+      "kind": "json",
+      "item_count": 84,
+      "name_hash_hex": "ff021f71e71baae0",
+      "source_sha256": "9dcd2b2486a67180a6d850ec45f72ade51fe0b802faa7b05a05eeb81a8904ec2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ff021f71e71baae0.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MiningTreasure.json",
+      "kind": "json",
+      "item_count": 144,
+      "name_hash_hex": "0ce10018a98a7bed",
+      "source_sha256": "7cd08551f5de3226b492137a0d4f9848069f3a7ec410ea6e4b557ef41271aa35",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\0ce10018a98a7bed.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/MonsterManual.json",
+      "kind": "json",
+      "item_count": 678,
+      "name_hash_hex": "2207738d5c2b2d11",
+      "source_sha256": "920e6329aacfedb84d43bf198afbe5f9c2056144d0d84c6487f4039439a2a1bc",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2207738d5c2b2d11.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/NotificationConfig.json",
+      "kind": "json",
+      "item_count": 4,
+      "name_hash_hex": "1f9deba33b29b1d4",
+      "source_sha256": "6df5ff220319ad96401a34f1f0e6a4e10ea5a28ab6714c12ffb58c2a7920a3c6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1f9deba33b29b1d4.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/NPCAffinityGroup.json",
+      "kind": "json",
+      "item_count": 204,
+      "name_hash_hex": "b101ffae39620c9e",
+      "source_sha256": "5bd909f15dbd999286f8deeab3eaa36dc9d8d614c2c2e66622bcc4dcd098009b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b101ffae39620c9e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/NPCAffinityPlot.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "b1258918ebd5d9ce",
+      "source_sha256": "ae6abbaa4ff5d0406c11106b2d5f4555240332594593c8222da32bc892dcc917",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b1258918ebd5d9ce.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/NPCConfig.json",
+      "kind": "json",
+      "item_count": 19,
+      "name_hash_hex": "30afeb124bd217ac",
+      "source_sha256": "0f070ebf47097a1258ff736795806b173057bd4882347e87b2594b044454486b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\30afeb124bd217ac.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/OpenFunc.json",
+      "kind": "json",
+      "item_count": 67,
+      "name_hash_hex": "41f2290a80c0413a",
+      "source_sha256": "33761d29bc5a0c2d444d47de080a14154c29f61c085ca32c9287bd72f2854d91",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\41f2290a80c0413a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/PenguinBaseCard.json",
+      "kind": "json",
+      "item_count": 8,
+      "name_hash_hex": "1115cb09e0dfcc0e",
+      "source_sha256": "5f81d3014cb01d70dbd3a002c0b49a951c0a87911a43e43ccd11b9d518048390",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1115cb09e0dfcc0e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/PenguinCard.json",
+      "kind": "json",
+      "item_count": 328,
+      "name_hash_hex": "469c8ae265bf9745",
+      "source_sha256": "0e2bdb4f8c0f31ccff62e16dcd525bbfbc782ccd1ebaf41ada70a7dbeb51aa9e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\469c8ae265bf9745.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/PenguinCardBuff.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "74310dad068376cf",
+      "source_sha256": "fe63f9346584d690e8d6c231d188ef16dcb13453a88a0fa330678d6792424e99",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\74310dad068376cf.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/PenguinCardControl.json",
+      "kind": "json",
+      "item_count": 2,
+      "name_hash_hex": "45490ef278d11c18",
+      "source_sha256": "460da5757b60bc97d4a8c32d8b97273674cfa150fef4518c81a42f4f00eac594",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\45490ef278d11c18.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/PenguinCardFloor.json",
+      "kind": "json",
+      "item_count": 15,
+      "name_hash_hex": "aa250c260dfdad95",
+      "source_sha256": "ebf3bea44836d35a1069b8dc3fe8a673502fde7e45168f218643c583b153849a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\aa250c260dfdad95.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/PenguinCardHandRank.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "3c7b87d252d2b724",
+      "source_sha256": "58f91dee42bcc48fb28e7042c7a6fed88f4dc5f37c9e3517ebd1b53b9e107064",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3c7b87d252d2b724.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/PenguinCardQuest.json",
+      "kind": "json",
+      "item_count": 28,
+      "name_hash_hex": "30a5cd3585455aad",
+      "source_sha256": "32e9c5f3bf12db64b05669cbd073d2165078a336523b45b8b2693ecc08969e1f",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\30a5cd3585455aad.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/PeriodicQuest.json",
+      "kind": "json",
+      "item_count": 70,
+      "name_hash_hex": "9da3c270ed58ed1b",
+      "source_sha256": "5161e5cf62225c66da55ada15daabdcd1928016e8cc78becd934c9bd59746f5e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9da3c270ed58ed1b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/PeriodicQuestControl.json",
+      "kind": "json",
+      "item_count": 1,
+      "name_hash_hex": "3fd9c5d05c5c8525",
+      "source_sha256": "6c66dd2ce44549b3e3e19c7f476a7871ff4934aad0dd8c08aa8f6ce8cef23c25",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3fd9c5d05c5c8525.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/PlayerHead.json",
+      "kind": "json",
+      "item_count": 33,
+      "name_hash_hex": "3e4fc929f56355c6",
+      "source_sha256": "c7ba824e0b28fff08c5c47853b89c54740d3945a3004c43e21946df0a08d9489",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3e4fc929f56355c6.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Plot.json",
+      "kind": "json",
+      "item_count": 222,
+      "name_hash_hex": "c694fcb01ad6b937",
+      "source_sha256": "709efe95b04c2e599b440128f5a16b6851410954ee84265eb98cdbb76b8a44a6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c694fcb01ad6b937.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Potential.json",
+      "kind": "json",
+      "item_count": 2150,
+      "name_hash_hex": "aa3d5eea04d1e767",
+      "source_sha256": "07945af70132619d76a91747db50a69e6462ad62b4dd939832fd5ae8004c4824",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\aa3d5eea04d1e767.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Production.json",
+      "kind": "json",
+      "item_count": 78,
+      "name_hash_hex": "ffb3c0022546b963",
+      "source_sha256": "bd131626e4eed94877e89c87b08a37741d563db779fb5ad691c65d6309d98e76",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ffb3c0022546b963.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ProductionType.json",
+      "kind": "json",
+      "item_count": 4,
+      "name_hash_hex": "521acb29af221710",
+      "source_sha256": "6118ad6a7659095e1c172ba5e7037e8a082d18756a309c6c66d4ecfdfddb0959",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\521acb29af221710.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/RegionBoss.json",
+      "kind": "json",
+      "item_count": 18,
+      "name_hash_hex": "0314cab070138063",
+      "source_sha256": "8fa67fa6089999ecaa090f147c0717a685db3b8ad8a2a6fb76f63ee195493d80",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\0314cab070138063.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/RegionBossAffix.json",
+      "kind": "json",
+      "item_count": 30,
+      "name_hash_hex": "e01c017a867792f4",
+      "source_sha256": "f8e2bb69370c92613913e378d1caccf73421cef06e12f6f540e0cc46ab78f347",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e01c017a867792f4.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/RegionBossLevel.json",
+      "kind": "json",
+      "item_count": 54,
+      "name_hash_hex": "d184ba9bf121fc28",
+      "source_sha256": "2d713850afb8d791a6b71791df38bda01e52fa0efe996ebec483d72cbc02e258",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d184ba9bf121fc28.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ResidentGoods.json",
+      "kind": "json",
+      "item_count": 94,
+      "name_hash_hex": "8eb070c89e8435d1",
+      "source_sha256": "c99a3936c3b222c218e8e573dca12e4760262a992e06075aa999818b28a9833b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8eb070c89e8435d1.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ResidentShop.json",
+      "kind": "json",
+      "item_count": 4,
+      "name_hash_hex": "f890c7a552a8f3b7",
+      "source_sha256": "2d51a413711d8a80b8c78752798206767943900e9ed0a9370ff2211458a256e1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f890c7a552a8f3b7.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ScoreBossAbility.json",
+      "kind": "json",
+      "item_count": 42,
+      "name_hash_hex": "f21585ff88193489",
+      "source_sha256": "88ed96e66553534ca393093d2d5fd63f2900aa33ce1fae4b7473d2b06c42f3aa",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f21585ff88193489.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ScoreBossGetControl.json",
+      "kind": "json",
+      "item_count": 48,
+      "name_hash_hex": "2ac1e8649c25d011",
+      "source_sha256": "0e0ef829ecc5ba23d93448b77d4a37063864f4bd615cdb271b9ab6cd5f9bf14e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2ac1e8649c25d011.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SecondarySkill.json",
+      "kind": "json",
+      "item_count": 1322,
+      "name_hash_hex": "439a5df5068af46c",
+      "source_sha256": "a36214fbdde2b93584549e50e64db203cc6b7f7a940e6dea776b3f25ff7177c1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\439a5df5068af46c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Skill.json",
+      "kind": "json",
+      "item_count": 1256,
+      "name_hash_hex": "e2b9fc03308736f9",
+      "source_sha256": "28e4ffd6bf7262a79fddf2037f0673d2df324c5444635bba1c5aeb78f1792a74",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e2b9fc03308736f9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SkillInstance.json",
+      "kind": "json",
+      "item_count": 36,
+      "name_hash_hex": "e7e8c2a81ad8b5d9",
+      "source_sha256": "0ae0bd171dbe904b2086a1580da6ca4bec9e091f8742a35bb94503f52a310eb2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e7e8c2a81ad8b5d9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SkillInstanceType.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "bea1a12c1a7beee4",
+      "source_sha256": "ca598ea737f42d11ea868cc55ec410edf946f1e4d9b0f2dab797fa05a34027c0",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\bea1a12c1a7beee4.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierCharacter.json",
+      "kind": "json",
+      "item_count": 40,
+      "name_hash_hex": "3d8eb5957cfffe7a",
+      "source_sha256": "4edb8557d62b3e9cdc54e5462a358b9390e04c7cbd55c533cbf26de1abdd9eaa",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3d8eb5957cfffe7a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierChessType.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "2e1bfda5f5ec6b0b",
+      "source_sha256": "5660e4692cd9cd98dedb32521dae56158cba9efb7bba3e2a58be0f26059f169b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2e1bfda5f5ec6b0b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierControl.json",
+      "kind": "json",
+      "item_count": 1,
+      "name_hash_hex": "60fff7a7601cf44a",
+      "source_sha256": "15c05c19be9d04bcf824b3137223bf6f6932adda19b0c7ac52c470df4c43ec5a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\60fff7a7601cf44a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierEventBattlePool.json",
+      "kind": "json",
+      "item_count": 48,
+      "name_hash_hex": "3e21910dae023f0d",
+      "source_sha256": "0a9e55efe467b370675aaea9cc3b04684fb0fa1c7d2558533ff0947e76669c53",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3e21910dae023f0d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierGradeChallenge.json",
+      "kind": "json",
+      "item_count": 2,
+      "name_hash_hex": "3172b12301346b00",
+      "source_sha256": "8ceb3a9125730b4d6545dda3406ce7604d84f19df8d6149e4a5894ba131e65c1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3172b12301346b00.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierKeyGrade.json",
+      "kind": "json",
+      "item_count": 2,
+      "name_hash_hex": "08b2e9d7898eead1",
+      "source_sha256": "72ea2dc73a8f6259eabfcba4b9f3feb3f84a6b8278c4e8ec6e7f8b39045070a4",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\08b2e9d7898eead1.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierPartner.json",
+      "kind": "json",
+      "item_count": 88,
+      "name_hash_hex": "e7493639dedc5ceb",
+      "source_sha256": "2243bf7e5dae2afb7c76610e8cedc8ae88cfb54df206010c4570352e6dfb5370",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e7493639dedc5ceb.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierPartnerGroup.json",
+      "kind": "json",
+      "item_count": 38,
+      "name_hash_hex": "9883c18c25808c91",
+      "source_sha256": "51a155362c166edba3242fd44a0b94c3258ecc6c9f5d7f4f1d56d7ae676ef3b3",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9883c18c25808c91.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierPositionEffect.json",
+      "kind": "json",
+      "item_count": 12,
+      "name_hash_hex": "3088101be3adf7c0",
+      "source_sha256": "342bfc267668f636fd689636e8fb5bc38f208835489e44a56f2da0f110287850",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3088101be3adf7c0.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierPotential.json",
+      "kind": "json",
+      "item_count": 160,
+      "name_hash_hex": "83ce0b1a015cdf7e",
+      "source_sha256": "bbd31f69207920da4c721e44eadbe9d96ef897205fd1379b954445ab967b7e76",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\83ce0b1a015cdf7e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierQuest.json",
+      "kind": "json",
+      "item_count": 12,
+      "name_hash_hex": "a83ec38844134e1c",
+      "source_sha256": "18156ce4c7c41ddf85f3c0b6dbc5caa84894f9ce46a3f28bac5601d8c75966b1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a83ec38844134e1c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierQuestGroup.json",
+      "kind": "json",
+      "item_count": 2,
+      "name_hash_hex": "7ee432cbe060444d",
+      "source_sha256": "00f58a2138d6eda26811573e5df1a179f483f8da3089095403e4462c70807c86",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7ee432cbe060444d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierRecommendBuilds.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "d8aba7f2bb1a3db9",
+      "source_sha256": "c8c0925411e577556befceb6099bd4d9743b873c5282796d6a6d283926569d4e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d8aba7f2bb1a3db9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierSkin.json",
+      "kind": "json",
+      "item_count": 40,
+      "name_hash_hex": "b83143fbc178e464",
+      "source_sha256": "a491345ce54fdd3df930e3739f4cd68e868b5d3144ed14b5ff8d13ff9b1c9e00",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b83143fbc178e464.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierStarterCard.json",
+      "kind": "json",
+      "item_count": 117,
+      "name_hash_hex": "9836077f01bb9b66",
+      "source_sha256": "53996d36a03dc7a6b54ef4c7ba2e973107ece93e50b2bd7775c1988ef1bc1ec6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9836077f01bb9b66.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SoldierStrategyCard.json",
+      "kind": "json",
+      "item_count": 135,
+      "name_hash_hex": "b64bf96368ab65fd",
+      "source_sha256": "eb1200c3b2b1d745335a0bef5d15276b8850307362d89349578ce4abe47419f9",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b64bf96368ab65fd.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTower.json",
+      "kind": "json",
+      "item_count": 50,
+      "name_hash_hex": "8ac6293fc26853f7",
+      "source_sha256": "b330afb1634fab3a789113bcbb3a1c654db32aedc0adea9f979d709ecb5bd8ca",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8ac6293fc26853f7.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerBookEntrance.json",
+      "kind": "json",
+      "item_count": 26,
+      "name_hash_hex": "e9ff26c0c0d90af2",
+      "source_sha256": "36e8ac2aa46f64c0db94da3c0ccbe3ebbc72e21fb9dc5794f7d3444ae22f426b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e9ff26c0c0d90af2.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerBookEventReward.json",
+      "kind": "json",
+      "item_count": 369,
+      "name_hash_hex": "d38825d384fa7955",
+      "source_sha256": "39edd136b13a07cc8fd71fbdb11d5c9d217591757060861c2f3d65b3e120278c",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d38825d384fa7955.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerBookFateCard.json",
+      "kind": "json",
+      "item_count": 234,
+      "name_hash_hex": "31254251397bda69",
+      "source_sha256": "cc2516d94066b95e41be7c9bdda6c5acbbaec5ddb3e20f5c79c9b5696fc86ec1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\31254251397bda69.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerBookFateCardBundle.json",
+      "kind": "json",
+      "item_count": 30,
+      "name_hash_hex": "7ac60e82398d0d01",
+      "source_sha256": "b667a73920a737992bff7f751f5aa7185ef6d16c0df1c06a6e3faa4bd197af06",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7ac60e82398d0d01.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerBookFateCardQuest.json",
+      "kind": "json",
+      "item_count": 33,
+      "name_hash_hex": "b0696c55d43d5cb9",
+      "source_sha256": "5e6faeed7fe99610fce6b00aa805469bbd5828426fc72bdf21e8786ccbc27494",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b0696c55d43d5cb9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerEventAction.json",
+      "kind": "json",
+      "item_count": 112,
+      "name_hash_hex": "3f7567ba7a3ab35e",
+      "source_sha256": "01c14ed4c15bc09e958cf3697698ecab06ddee68e1d7a691428f2052ecd77940",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3f7567ba7a3ab35e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerEventOptionAction.json",
+      "kind": "json",
+      "item_count": 344,
+      "name_hash_hex": "ff368e08861418f2",
+      "source_sha256": "a2064229d014795a4a445ebd45cc9d5f743e779b56f193d2822a6bf2f1b8b58b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ff368e08861418f2.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerGroup.json",
+      "kind": "json",
+      "item_count": 4,
+      "name_hash_hex": "f6137d41317b76d7",
+      "source_sha256": "6e52de6b3449f63cb58b54a0c18af81177892cd20b415257edccda111cd8da40",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f6137d41317b76d7.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerGrowthGroup.json",
+      "kind": "json",
+      "item_count": 4,
+      "name_hash_hex": "fefd783279c52106",
+      "source_sha256": "7f0c6b58836166980405f0c2aa340d92d90339b46d06b90f0bd226d638b2bfb2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\fefd783279c52106.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerGrowthNode.json",
+      "kind": "json",
+      "item_count": 116,
+      "name_hash_hex": "a5314bacab7c685b",
+      "source_sha256": "3f442e726084f492d46505e6397695ba017b5cbed9f3715fb164df221d7e5072",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a5314bacab7c685b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerNPC.json",
+      "kind": "json",
+      "item_count": 8,
+      "name_hash_hex": "0e530e4ed0b5b5f2",
+      "source_sha256": "ea1123ca3e0fd65ff00953d37039da3032aac5bb91e8d353daf8962622a5b22c",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\0e530e4ed0b5b5f2.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerQuest.json",
+      "kind": "json",
+      "item_count": 57,
+      "name_hash_hex": "63747ffd75913c4f",
+      "source_sha256": "421790dc0b3bdbdd9c821ddd752b827f44a76390a493a202c613055d2ee64ef0",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\63747ffd75913c4f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StarTowerTalk.json",
+      "kind": "json",
+      "item_count": 240,
+      "name_hash_hex": "43be878a1ea77cbe",
+      "source_sha256": "9d293f6a3cfb10d672557a3fdf2c667beaeeae319852c6f22cb2d4a2d82b196e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\43be878a1ea77cbe.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Story.json",
+      "kind": "json",
+      "item_count": 510,
+      "name_hash_hex": "939d4390e6e6b8fd",
+      "source_sha256": "1886bae0d07188a63ddb1f99d8f332b8aa748fc6cdcb6c0064b931e3974c7d3f",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\939d4390e6e6b8fd.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StoryChapter.json",
+      "kind": "json",
+      "item_count": 27,
+      "name_hash_hex": "e5d6727df8a2b2fe",
+      "source_sha256": "4a919c728cf6dd28cca4dcdbb96606a0d503ca6c05ecb57c8fb8f06a4970e26f",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e5d6727df8a2b2fe.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StoryChapterTimeStamp.json",
+      "kind": "json",
+      "item_count": 126,
+      "name_hash_hex": "2e4eaded945ae307",
+      "source_sha256": "03775b9eb2c16a214762d3add50bfde6fe03b405ac480a78675df7de2dbbbf36",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2e4eaded945ae307.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StoryEvidence.json",
+      "kind": "json",
+      "item_count": 42,
+      "name_hash_hex": "a337d89d7266b87e",
+      "source_sha256": "8c0a34edb37340f1968887afd381b123d16cd7bf6db5e0d1bf91c3a85f5efde8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a337d89d7266b87e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StoryPersonality.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "f8bdf1c30a0e0bbf",
+      "source_sha256": "b73bdf447a8eaee981aec33041b383a9ee78412c9602661ce099c89a878ca62e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f8bdf1c30a0e0bbf.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StoryPreview.json",
+      "kind": "json",
+      "item_count": 15,
+      "name_hash_hex": "6835b7ab9323d76c",
+      "source_sha256": "6da2bd438dfa045385d5fcf72f3ef84e861597ee5d1e615bd4e8e98c85097a67",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6835b7ab9323d76c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StoryRolePersonality.json",
+      "kind": "json",
+      "item_count": 10,
+      "name_hash_hex": "1f48ecdd986d97b9",
+      "source_sha256": "7735b482fdf9a4794d0bef7224b0318987d66e962f10ef78a3f78965c8a90cb5",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1f48ecdd986d97b9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StorySetChapter.json",
+      "kind": "json",
+      "item_count": 32,
+      "name_hash_hex": "9095ae22eb9bc171",
+      "source_sha256": "04aaa6b62b03f3d36e6c602a096cc80e6f365fda73273d11948fd4e18f497ef3",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9095ae22eb9bc171.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StorySetSection.json",
+      "kind": "json",
+      "item_count": 100,
+      "name_hash_hex": "c59160e3fa87b11d",
+      "source_sha256": "ba58a04a4c3c87ef0b59ed0a10856c97aa03b9fbb3f66fd1efdaf97b7aea89e1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c59160e3fa87b11d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/StorySetTab.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "fea80692111421b6",
+      "source_sha256": "3e98078df56aa81a4161302f4c21f493650fb2565700f268314cb1efacd3d437",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\fea80692111421b6.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/SubNoteSkill.json",
+      "kind": "json",
+      "item_count": 39,
+      "name_hash_hex": "ff5f282448682d9c",
+      "source_sha256": "10c9ce641a053f8689b89c971afa6f039ef29965e58bb00e18e864cd881b03c0",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ff5f282448682d9c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Talent.json",
+      "kind": "json",
+      "item_count": 4020,
+      "name_hash_hex": "2ae3485bc9698293",
+      "source_sha256": "804ba4d4e3548631086ed33c43d9938dc8cc58b504502e16778e4489c2fa80e0",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2ae3485bc9698293.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TalentGroup.json",
+      "kind": "json",
+      "item_count": 185,
+      "name_hash_hex": "bcc9a75cf6f9866b",
+      "source_sha256": "e4187c0714a8d289e709c38c1a014c044339c53d3ae003cddf14d0198eeaed9b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\bcc9a75cf6f9866b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ThrowGiftItem.json",
+      "kind": "json",
+      "item_count": 20,
+      "name_hash_hex": "0cae08b25a582e2a",
+      "source_sha256": "c85889c0a901f7106ab0c5235a27ea24194d7caa8909a93dbf03bb35422481fe",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\0cae08b25a582e2a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/ThrowGiftLevel.json",
+      "kind": "json",
+      "item_count": 48,
+      "name_hash_hex": "42e548fe4d00e239",
+      "source_sha256": "22cfafb9b89a2b3ebbe1b5bca695feca9ff1c440a84f0def8ffe583087b77960",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\42e548fe4d00e239.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Title.json",
+      "kind": "json",
+      "item_count": 38,
+      "name_hash_hex": "2ccb2b606123818a",
+      "source_sha256": "4a0f53b0149ebd5a0581826b8767614d40f5621a8826e3a9f5f886f811ed079d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2ccb2b606123818a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TopBar.json",
+      "kind": "json",
+      "item_count": 201,
+      "name_hash_hex": "80fe12b895323941",
+      "source_sha256": "f83c18cdf29e848813ef48cd50c65829d652d04b57dfd58b4dcfdd50437cf49e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\80fe12b895323941.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TourGuideQuest.json",
+      "kind": "json",
+      "item_count": 59,
+      "name_hash_hex": "c7f648f864b751da",
+      "source_sha256": "508816d58226c5c005d57b399bb83ac35d5b0df125a5a9678b4e531e40d14b32",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c7f648f864b751da.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TowerDefenseCharacter.json",
+      "kind": "json",
+      "item_count": 21,
+      "name_hash_hex": "1f1c991746de107c",
+      "source_sha256": "6ab2e10f6af9c95ecc117c7fdd04ed673a8b07bd1bb23f156d63b7b27a997aa6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1f1c991746de107c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TowerDefenseControl.json",
+      "kind": "json",
+      "item_count": 4,
+      "name_hash_hex": "aefea5e049ae5fc7",
+      "source_sha256": "8c7c16aa01cd84cd9808517bfead62bdff446cd1ebfdc7cdab51534212938669",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\aefea5e049ae5fc7.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TowerDefenseItem.json",
+      "kind": "json",
+      "item_count": 8,
+      "name_hash_hex": "a32dbe93997fa0c3",
+      "source_sha256": "6fcce4a19063bfb5202e94469c4f882533961a238bf0b59d49ce0be2f0abea34",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a32dbe93997fa0c3.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TowerDefenseLevel.json",
+      "kind": "json",
+      "item_count": 156,
+      "name_hash_hex": "687e715753388260",
+      "source_sha256": "ffe20da24147b45ad79ac2c35f3580b32816e2d24e53f394f0049468e8fffc1d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\687e715753388260.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TowerDefenseMonster.json",
+      "kind": "json",
+      "item_count": 18,
+      "name_hash_hex": "f19236f43fe0978a",
+      "source_sha256": "89125a8ee1df7a9ee2b6d41bdac869a93eb9059c2a868f9a01e904f49dc962e2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f19236f43fe0978a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TowerDefensePotential.json",
+      "kind": "json",
+      "item_count": 198,
+      "name_hash_hex": "02cdaedaadecaf4e",
+      "source_sha256": "fa22f2ca73a4b1cb1bc031a8deb93468a483417fc1391efe649b841e8bd66760",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\02cdaedaadecaf4e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TowerDefenseQuest.json",
+      "kind": "json",
+      "item_count": 99,
+      "name_hash_hex": "7657a4ddf01842a0",
+      "source_sha256": "4b27f1f6bf02d7d46255739da30fa1f24de90c0b9f3fdb36eb44d3495e0a1d9c",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7657a4ddf01842a0.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TowerDefenseQuestGroup.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "c7a9ed3ca20c5c30",
+      "source_sha256": "9ed82c6946a26c563dc4ee09d5ac6dd310e3cdc2c7b81bb0f83853ee58364e12",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c7a9ed3ca20c5c30.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TraceHuntLogEntryTemplate.json",
+      "kind": "json",
+      "item_count": 21,
+      "name_hash_hex": "f70b7cf74e770a5a",
+      "source_sha256": "0747f3c7eb3e3a8da1330930420081a4966e35153fa60b44a0430ee1a0980ebb",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f70b7cf74e770a5a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TravelerDuelBoss.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "d68910bd7b7b21b8",
+      "source_sha256": "7d0ebf26cc7e2dc3da27bf127e1fa2a2a0a508e91eba7ea5c917a491334632d0",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d68910bd7b7b21b8.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TravelerDuelBossLevel.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "3af3a2323cbae797",
+      "source_sha256": "1e6093d329f2b97e38f4c1322a0d80f38ce887499158c6f8453af43b5ecd0b85",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3af3a2323cbae797.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TravelerDuelChallengeAffix.json",
+      "kind": "json",
+      "item_count": 304,
+      "name_hash_hex": "e09ceaa2e4952fa3",
+      "source_sha256": "c12cc51487b5f1ef2cf55dce22d40b9a462d494069adf1e15636aa169c392886",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e09ceaa2e4952fa3.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TravelerDuelChallengeQuest.json",
+      "kind": "json",
+      "item_count": 59,
+      "name_hash_hex": "64736f5301664629",
+      "source_sha256": "f723320469f1dfe7dba504409ace0dd281b94b51c0b04a6982965778f4e0a2e3",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\64736f5301664629.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TravelerDuelTarget.json",
+      "kind": "json",
+      "item_count": 14,
+      "name_hash_hex": "7cadc741a8ae2528",
+      "source_sha256": "75f7b0f878acf0444ff4beb89baf3db519ba804e4462a89d9101c29ef7c55ff7",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7cadc741a8ae2528.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TrialBuild.json",
+      "kind": "json",
+      "item_count": 49,
+      "name_hash_hex": "1ab176e179aa5467",
+      "source_sha256": "a3c0a92f20449909237c744532a61f8206d8084a9f4c2c7876140693746a1688",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1ab176e179aa5467.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TrialCharacter.json",
+      "kind": "json",
+      "item_count": 162,
+      "name_hash_hex": "b37da580fb88c744",
+      "source_sha256": "541f78bf601b5e30138c2e880656c047000edd3f6efafa6118bef6f3d35e5735",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b37da580fb88c744.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/TutorialLevel.json",
+      "kind": "json",
+      "item_count": 8,
+      "name_hash_hex": "cfa4d1e356443de3",
+      "source_sha256": "580f5f748a6a20cc5a3d1267c18dcee9c2672de04103fc4f0edb6ced93df5c25",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\cfa4d1e356443de3.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/UIText.json",
+      "kind": "json",
+      "item_count": 4044,
+      "name_hash_hex": "363690c09b175230",
+      "source_sha256": "56d7665c8e481b47a0bd39d245544978f8d4e6bbe3af5cff84a16b02985aef82",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\363690c09b175230.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/VampireSurvivor.json",
+      "kind": "json",
+      "item_count": 74,
+      "name_hash_hex": "9104260b5cd6cf3c",
+      "source_sha256": "6a77bc70d3d2e2f0c96e18dbe20c93d3606ab0d63df5d18a28dbfe485e4edeb9",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9104260b5cd6cf3c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/VampireSurvivorQuest.json",
+      "kind": "json",
+      "item_count": 128,
+      "name_hash_hex": "dabdc2e01187122c",
+      "source_sha256": "de1b2583ebcff587932ab2a31f3e5a5cacc18081a72c2e25abeb27ff4eef8ff7",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\dabdc2e01187122c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/VampireTalent.json",
+      "kind": "json",
+      "item_count": 32,
+      "name_hash_hex": "e47ced3f8ce1f335",
+      "source_sha256": "eb70fc16e053f99569c41ea0a639dfe81c880dec372608b2460d0b6122bbe0f4",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e47ced3f8ce1f335.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/VampireTalentDesc.json",
+      "kind": "json",
+      "item_count": 20,
+      "name_hash_hex": "d33aaf8c3a207111",
+      "source_sha256": "5289be62be7a4c92091cbcc30b77e46c52fd9e6b84c6178597686d628a9eb7c1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d33aaf8c3a207111.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/WeekBossAffix.json",
+      "kind": "json",
+      "item_count": 60,
+      "name_hash_hex": "a3ee44ecc76f861c",
+      "source_sha256": "448d24a7c9c89ebcccdbb07c6b0973eb40bf1a0b0b9a9da45430c2cac612b191",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a3ee44ecc76f861c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/WeekBossLevel.json",
+      "kind": "json",
+      "item_count": 18,
+      "name_hash_hex": "2e406a90ee9cbada",
+      "source_sha256": "0c71aaaf55e337886316694baa7a8e13e70bd3617e9430db1e5f764e6e8f85c2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2e406a90ee9cbada.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/WeekBossType.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "4d5a6009e3e439b5",
+      "source_sha256": "4aa4c133eed61bdab3ded98beab8faf96deeecab3408d96a78aada02c1d0b092",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\4d5a6009e3e439b5.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/WeeklyQuest.json",
+      "kind": "json",
+      "item_count": 13,
+      "name_hash_hex": "3b40a5a60896a0ff",
+      "source_sha256": "26e19fae8098f042e4607414a6062e8bf6faf2d1eca63d7ab0af5b78c6db9b41",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3b40a5a60896a0ff.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/Word.json",
+      "kind": "json",
+      "item_count": 322,
+      "name_hash_hex": "740d729a46a8d407",
+      "source_sha256": "0dda080c083b77709fdb44ce880a8d820e532d21958e9b8b5a10717f07b69d04",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\740d729a46a8d407.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_CN/WorldClass.json",
+      "kind": "json",
+      "item_count": 8,
+      "name_hash_hex": "5a9e8ed932073940",
+      "source_sha256": "4ac839837339aa052a70fc922255385785fb15c8c1f7ef967e72e5060556088c",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\5a9e8ed932073940.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Achievement.json",
+      "kind": "json",
+      "item_count": 1270,
+      "name_hash_hex": "ac991a85badf18a5",
+      "source_sha256": "6d0b4808a2170f3e3b92057f013550c284d9309b5a1f8f747348c6a4bd4a5ded",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ac991a85badf18a5.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityAvgLevel.json",
+      "kind": "json",
+      "item_count": 33,
+      "name_hash_hex": "22885097fd586aab",
+      "source_sha256": "3e87b23f62b1d6e1c6de6ad6ad60c47f1e3504a65690b4e72441272c7eade5cf",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\22885097fd586aab.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityDouble.json",
+      "kind": "json",
+      "item_count": 2,
+      "name_hash_hex": "d942ff3d24635aff",
+      "source_sha256": "63cfbe20a44ceac1b37b9d26b53e8cac66df85cde18efc2fe786266559226706",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d942ff3d24635aff.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityDoubleQuest.json",
+      "kind": "json",
+      "item_count": 14,
+      "name_hash_hex": "bbda6e9bb0cf074d",
+      "source_sha256": "c8b1973330f9a867538502f53c217c0997365ba0cc29310d37cb7486a8f3e75b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\bbda6e9bb0cf074d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityGoods.json",
+      "kind": "json",
+      "item_count": 666,
+      "name_hash_hex": "ac9a5b9527adec5a",
+      "source_sha256": "a4b3a9c62d6d560bc717de766725a7fbc979695aa05a33f7718b48414785c903",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ac9a5b9527adec5a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityGroup.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "ea8240a96f17a18e",
+      "source_sha256": "2355f07d119cd0308f9967934d0a63dc8a557a71b90ad66d306b67548eeff369",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ea8240a96f17a18e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityIceCreamLevel.json",
+      "kind": "json",
+      "item_count": 27,
+      "name_hash_hex": "3b459b77df1b66a9",
+      "source_sha256": "9de9e012886192f8dc90c079e0c54309613cc1cc8b7a51201dbbad42e57e9109",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3b459b77df1b66a9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityLevelsLevel.json",
+      "kind": "json",
+      "item_count": 1300,
+      "name_hash_hex": "a5104a4170c63dcd",
+      "source_sha256": "a90ef92ab31e3c2cc2b474352d7a35eb549bee6b6926fb3ee1c33e8ca4183ac4",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a5104a4170c63dcd.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityPenguinCardLevel.json",
+      "kind": "json",
+      "item_count": 17,
+      "name_hash_hex": "fed3578670e7ee5d",
+      "source_sha256": "7a109caa74f1bfe6cf86a40389e33d1049a514fa464f6fe7f733ccd1a55d1e51",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\fed3578670e7ee5d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityPenguinCardQuest.json",
+      "kind": "json",
+      "item_count": 30,
+      "name_hash_hex": "4d055375737c8ae3",
+      "source_sha256": "ef6525c8c9765a707ba0337afe2dd11cfcafbe8caf6218d5a55e91ab5b8470cd",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\4d055375737c8ae3.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityPenguinCardQuestGroup.json",
+      "kind": "json",
+      "item_count": 5,
+      "name_hash_hex": "6788a34992ce304d",
+      "source_sha256": "fb1e46c6b57ffa1b192c0ce82d4051e4dcac8a5073d2f2d2cf4fe66e5e470c01",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6788a34992ce304d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityShop.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "d126a07dac8edd0e",
+      "source_sha256": "8af8bc062e8a5af838906914e45009b2de1b11fe7b100db83de574d8d508a491",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d126a07dac8edd0e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityStory.json",
+      "kind": "json",
+      "item_count": 306,
+      "name_hash_hex": "088c5d59b4c38c23",
+      "source_sha256": "0af981ab89927711cbb6303e198611061f061b615f7799a180c148330740171c",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\088c5d59b4c38c23.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityTask.json",
+      "kind": "json",
+      "item_count": 751,
+      "name_hash_hex": "bf1dc2ea55e02dc0",
+      "source_sha256": "8c6f93eb3999ae89a06e78e5b97c70fa8a2af11c8e32d2b9552014013994783f",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\bf1dc2ea55e02dc0.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ActivityTaskGroup.json",
+      "kind": "json",
+      "item_count": 65,
+      "name_hash_hex": "c987115e20415548",
+      "source_sha256": "cf22da2ac0d34b51144b3446ed193c8fbc5962f2f6859ebd6313a88795abb954",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c987115e20415548.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/AffinityLevel.json",
+      "kind": "json",
+      "item_count": 100,
+      "name_hash_hex": "216f1fb0465e0f45",
+      "source_sha256": "a40e35a212a1672cf020d74fee9e812a6429e58fbeec3e67d6c4031205799068",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\216f1fb0465e0f45.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/AffinityQuest.json",
+      "kind": "json",
+      "item_count": 333,
+      "name_hash_hex": "abe3d0b99045f241",
+      "source_sha256": "5ea6bc7283be3d86b687b52e9da1471db43050d8ae072f0861c15dba0caf11c9",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\abe3d0b99045f241.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/AffinityUpReward.json",
+      "kind": "json",
+      "item_count": 1628,
+      "name_hash_hex": "16f357f140f13e84",
+      "source_sha256": "f80b1ebffbf1c49f2fee77664ff268da13907afd8f079d5fb1921b0914467e7c",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\16f357f140f13e84.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Agent.json",
+      "kind": "json",
+      "item_count": 144,
+      "name_hash_hex": "e773205eb4acf919",
+      "source_sha256": "618ceecfa87ef0c06aa79c4c8d006eca686c54be1744d17dd9a291e166b0d41c",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e773205eb4acf919.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/AgentTab.json",
+      "kind": "json",
+      "item_count": 5,
+      "name_hash_hex": "3c349654243ee7be",
+      "source_sha256": "c6cd4406ad90cf21297f7d3e9887b977d009fe100cbb2473d71954022f19cfe5",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3c349654243ee7be.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/AssistAttribute.json",
+      "kind": "json",
+      "item_count": 10,
+      "name_hash_hex": "0cd0973cf6099245",
+      "source_sha256": "cb51674a9b7b4d28ff75a17d57273b158cd9f90add1039e47ef6c23fa04b7eb9",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\0cd0973cf6099245.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/AssistQuest.json",
+      "kind": "json",
+      "item_count": 78,
+      "name_hash_hex": "3581a64f98baa70a",
+      "source_sha256": "cbca5a625ae6f35d025843e02cd847bfd1faf411f1f5779f3aba52af0e357a3f",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3581a64f98baa70a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/BattlePassQuest.json",
+      "kind": "json",
+      "item_count": 17,
+      "name_hash_hex": "1249d5b507aee992",
+      "source_sha256": "c4c60db3fde089057ba4b3b94af10334f594e418bb03a6dadf11f941ecb75df8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1249d5b507aee992.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/BdConvertCondition.json",
+      "kind": "json",
+      "item_count": 68,
+      "name_hash_hex": "8e96f6717dfbf73f",
+      "source_sha256": "c9972a81b594581da098fa8e144f9ef032f4a4f52fce5ab9f5550f46ba33fa12",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8e96f6717dfbf73f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/BdConvertContent.json",
+      "kind": "json",
+      "item_count": 27,
+      "name_hash_hex": "7dc573ca52d559ba",
+      "source_sha256": "ba45518301ab8eeaa054ac0b44d8aa91d2a9caf0d991873fe62731d05745218d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7dc573ca52d559ba.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/BdConvertControl.json",
+      "kind": "json",
+      "item_count": 9,
+      "name_hash_hex": "24550c52d676baef",
+      "source_sha256": "3ba9b11ae4947645b3412e63476c734da967a39d0486bb074dc43a3908292ad4",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\24550c52d676baef.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/BdConvertRewardGroup.json",
+      "kind": "json",
+      "item_count": 108,
+      "name_hash_hex": "21f190901d1cd795",
+      "source_sha256": "4a0d32ca92b1b1b7e97544db7fc269a7390be87ab5c96aaa92eb10cd4c2d456c",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\21f190901d1cd795.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/BoardNPC.json",
+      "kind": "json",
+      "item_count": 98,
+      "name_hash_hex": "d51e7cac3aa531dd",
+      "source_sha256": "20e24351b19d52dbba494b839363402a7b810c0c708bab77109290277c7766da",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d51e7cac3aa531dd.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/BreakOutCharacter.json",
+      "kind": "json",
+      "item_count": 5,
+      "name_hash_hex": "9fc1f2ef0646ac08",
+      "source_sha256": "c3e2b856ca3a9a34427173656efd97ee6f9065a2a67f0dc3e27c03990e24c767",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9fc1f2ef0646ac08.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/BreakOutLevel.json",
+      "kind": "json",
+      "item_count": 32,
+      "name_hash_hex": "f98803238b82b128",
+      "source_sha256": "c416ca90d566e26b26500061c4cb976a75d87d06b6b9319a23a03c4201bc96f9",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f98803238b82b128.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Chapter.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "3466426ee650f106",
+      "source_sha256": "df75a67891cad893f6817f8f98a0088f976c0116ede760db0f06c30adf968ff9",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3466426ee650f106.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Character.json",
+      "kind": "json",
+      "item_count": 37,
+      "name_hash_hex": "33f55044891ebf66",
+      "source_sha256": "a6f35ffbb751ab81fc88b1147c09d56e6746e761a46cddd50b439d0b2ce6aeef",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\33f55044891ebf66.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/CharacterArchiveBaseInfo.json",
+      "kind": "json",
+      "item_count": 597,
+      "name_hash_hex": "978ec1d6fde680c7",
+      "source_sha256": "ef9297ee4a84ba631b271c51f7237461059bb6d64ded459f11c7df3ede198aa0",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\978ec1d6fde680c7.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/CharacterArchiveContent.json",
+      "kind": "json",
+      "item_count": 967,
+      "name_hash_hex": "238e0292f7bb645b",
+      "source_sha256": "f10644e227a03e7ebfa2ffb7422609e745cb2b515d2e7843c9c40322a842251b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\238e0292f7bb645b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/CharacterArchiveVoice.json",
+      "kind": "json",
+      "item_count": 3293,
+      "name_hash_hex": "4b600920f9bf91f0",
+      "source_sha256": "a183cbc35dc379814111ab1dc51d929747d6d1fde7229dc05b91a18f7a953a79",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\4b600920f9bf91f0.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/CharacterCG.json",
+      "kind": "json",
+      "item_count": 37,
+      "name_hash_hex": "166bd0ec2e4588dd",
+      "source_sha256": "17dad305f1dcf88e5613f16d90df4775acc0c1139bc638a724c58dad33360eac",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\166bd0ec2e4588dd.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/CharacterDes.json",
+      "kind": "json",
+      "item_count": 444,
+      "name_hash_hex": "db8700164f209730",
+      "source_sha256": "87e90d09bffb6568ecd4d17f7164349fef50f4211c422e45c0002c44e272fb9a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\db8700164f209730.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/CharacterSkin.json",
+      "kind": "json",
+      "item_count": 120,
+      "name_hash_hex": "58f64d2d78eaec29",
+      "source_sha256": "e70c56790eb19aeb0421f6cdc5de4118393f1be25c542bcf406e123ef210e7e6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\58f64d2d78eaec29.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/CharacterTag.json",
+      "kind": "json",
+      "item_count": 27,
+      "name_hash_hex": "94ff4e873340a4a3",
+      "source_sha256": "ec14256a9efb637c90b9613de2174fb1cf97c008c4b0c88303b14b7ac7e594da",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\94ff4e873340a4a3.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/CharGem.json",
+      "kind": "json",
+      "item_count": 18,
+      "name_hash_hex": "65d931fff54593bf",
+      "source_sha256": "ee24816d5da708002d374058aa09839126a97e4dc8b7196f8c6f1901e4c937b7",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\65d931fff54593bf.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/CharGemInstance.json",
+      "kind": "json",
+      "item_count": 18,
+      "name_hash_hex": "c43c824540ad2051",
+      "source_sha256": "09ca4436cc9206d924c07b12e59230641889ca20fde179c477d1d7559c47e5d9",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c43c824540ad2051.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/CharGemInstanceType.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "c442fc072f56d117",
+      "source_sha256": "4d811efe593743fe7ae6f0865f3bac44b2c1324a4292699fa7e775a67a3fec1b",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c442fc072f56d117.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/CharGetLines.json",
+      "kind": "json",
+      "item_count": 171,
+      "name_hash_hex": "7eb25fd2028447f6",
+      "source_sha256": "bc5922508ee4593f9c66a5949e263eae06c6e81b1696903c844d5473d8371627",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7eb25fd2028447f6.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ContentWord.json",
+      "kind": "json",
+      "item_count": 11,
+      "name_hash_hex": "911022f3a4b08a1d",
+      "source_sha256": "ad4f8f6ab3b9ae7bc4df3fc4baec23b9c35cc11ac6237bf7c46b8ba499993d33",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\911022f3a4b08a1d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/CookieLevel.json",
+      "kind": "json",
+      "item_count": 64,
+      "name_hash_hex": "7d9d876354378e58",
+      "source_sha256": "a4380069d299143bf1971058958b395f4f6dc49f2304200f45ae39d60dab66c5",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7d9d876354378e58.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DailyInstance.json",
+      "kind": "json",
+      "item_count": 35,
+      "name_hash_hex": "a0ab79d6d92dde45",
+      "source_sha256": "f36d524be117e0b768d039d442ad41278c532e953af91bf15f1d59a271a55ba2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a0ab79d6d92dde45.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DailyInstanceRewardGroup.json",
+      "kind": "json",
+      "item_count": 42,
+      "name_hash_hex": "a0216a63cb3f4fcf",
+      "source_sha256": "654bf8443c09c0ba5544350f6bb23c031416f983334ea0304c5782e15d8abe0c",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a0216a63cb3f4fcf.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DailyInstanceType.json",
+      "kind": "json",
+      "item_count": 1,
+      "name_hash_hex": "cecb98d01114a78e",
+      "source_sha256": "0cd5cbeb2631a458ea5e8edb3a07873ad0d273716e76ea9c202079f5d70bfec2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\cecb98d01114a78e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DailyQuest.json",
+      "kind": "json",
+      "item_count": 15,
+      "name_hash_hex": "2b6429e33423524b",
+      "source_sha256": "73c008382ae0e85f6180566fa22596202b9bec5206979b80a3805f78a9487a7c",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2b6429e33423524b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DatingBranch.json",
+      "kind": "json",
+      "item_count": 28,
+      "name_hash_hex": "79ba25bb1a853e5d",
+      "source_sha256": "b5edf55d526f216c79e1f3cee4656f210eb27d7a28bf819a4f04af4ddc5fc889",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\79ba25bb1a853e5d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DatingCharacterEvent.json",
+      "kind": "json",
+      "item_count": 634,
+      "name_hash_hex": "b7ed459211fb964c",
+      "source_sha256": "62c9a6108ea7a7bc9e3b1715f88fe157c7d8149debd16c3f7985adab02894e3d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b7ed459211fb964c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DatingLandmark.json",
+      "kind": "json",
+      "item_count": 12,
+      "name_hash_hex": "fb4b92f2a32c9832",
+      "source_sha256": "e712426c1c092b160b72d1ce9f57ad02f54cdd5c9da9cae3b7750bfa23b5e554",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\fb4b92f2a32c9832.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DatingLandmarkEvent.json",
+      "kind": "json",
+      "item_count": 262,
+      "name_hash_hex": "f307a26c0abe29c8",
+      "source_sha256": "710f86e41b4dfdea1dabdf79e1db1841e676cddd423e210582110f4d37c51603",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f307a26c0abe29c8.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DatingStartEndEvent.json",
+      "kind": "json",
+      "item_count": 148,
+      "name_hash_hex": "05317ffb39d59b67",
+      "source_sha256": "0d0a215051db5a78739d3daa5e970d9ad77562f870742db6325db4d8379ccf25",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\05317ffb39d59b67.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DemonAdvance.json",
+      "kind": "json",
+      "item_count": 1,
+      "name_hash_hex": "2d413edd08490f7e",
+      "source_sha256": "5347e2288819d9c0767f45d870e42b0c8e1a946de0ff746a006e4cb39e0ac012",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2d413edd08490f7e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DictionaryDiagram.json",
+      "kind": "json",
+      "item_count": 408,
+      "name_hash_hex": "63e5951a1d72c068",
+      "source_sha256": "3d8c4557dd17783e5f6cd33faeee4f620dcdd5c06512ff209a7968d1cb6e061d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\63e5951a1d72c068.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DictionaryEntry.json",
+      "kind": "json",
+      "item_count": 25,
+      "name_hash_hex": "62ed6e9f4433501f",
+      "source_sha256": "c22b53018f78056ac3f57a8ccee249c4b88d9fa23c54c748feaeccbff5bec38e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\62ed6e9f4433501f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DictionaryTab.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "c4b1e4609fab7d1a",
+      "source_sha256": "fc1aea2371eed09defd0aadc6cd6a0dda2e11affd6045cb2d9df10093e0ab7bf",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c4b1e4609fab7d1a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DictionaryTopBarEntry.json",
+      "kind": "json",
+      "item_count": 82,
+      "name_hash_hex": "ab65e7959615ca36",
+      "source_sha256": "e4582b533724ddd2852f698815b1d34340c4bfe7774f5706185a2c8ffb60741e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ab65e7959615ca36.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DiscIP.json",
+      "kind": "json",
+      "item_count": 384,
+      "name_hash_hex": "f6a85356cf1dd005",
+      "source_sha256": "b67a99f7549fd3e4faef77cc0fb2d50052eba5b628249b954e1ceb8546d5ca02",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f6a85356cf1dd005.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/DiscTag.json",
+      "kind": "json",
+      "item_count": 24,
+      "name_hash_hex": "0d721a42cf340033",
+      "source_sha256": "f1832bf15273a15a41b2cb69f8c9e38b961c09088f01b3db7030460a1ec2f37d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\0d721a42cf340033.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/EffectDesc.json",
+      "kind": "json",
+      "item_count": 656,
+      "name_hash_hex": "8ae3aa1069ef88f4",
+      "source_sha256": "1cfbf052334476be4de68fe2156512e4d8cc8222649e87acab2a37cae5d4d427",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8ae3aa1069ef88f4.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/EnergyBuy.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "486ade89713d9ccf",
+      "source_sha256": "c5b476fbffe9e917eab3a5c216ae6fded029cb868d46bb9620a656950fed1587",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\486ade89713d9ccf.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ErrorCode.json",
+      "kind": "json",
+      "item_count": 184,
+      "name_hash_hex": "9ff4b3e074c383f8",
+      "source_sha256": "c2239505eaf47255de4c8d5d4fba79aa02729b0e3d95325eab1c681bb69fd1c7",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9ff4b3e074c383f8.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/EventOptions.json",
+      "kind": "json",
+      "item_count": 86,
+      "name_hash_hex": "9d0d58fb27ca62d3",
+      "source_sha256": "49b8a766b225da5574bed35988ffe18845f04e6be4025e1cefd66d1c46454937",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9d0d58fb27ca62d3.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/FateCard.json",
+      "kind": "json",
+      "item_count": 468,
+      "name_hash_hex": "51705b523e421fce",
+      "source_sha256": "85bfde04c885eef203599864c08ff087f839a7bffe63670a18fe25a8c27736df",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\51705b523e421fce.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/FollowSocialMediaLinkConfig.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "e653e3972431dac2",
+      "source_sha256": "f5c51ea32361946a538731254bc3e30c586294299781a9ed828e8848bf77eed1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e653e3972431dac2.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Force.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "a267944025eeac7b",
+      "source_sha256": "cbb256441917c9a8f93e7c367440507f7e2cef86c0655fbf3bfa91b907ce9834",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a267944025eeac7b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Gacha.json",
+      "kind": "json",
+      "item_count": 55,
+      "name_hash_hex": "aea769b6208d2371",
+      "source_sha256": "a2e6fab217e7769b400b18f3151e3970a492b1eb4a42719c96a37534dfe31e67",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\aea769b6208d2371.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/GachaStorage.json",
+      "kind": "json",
+      "item_count": 5,
+      "name_hash_hex": "13e3f8760c67bc73",
+      "source_sha256": "927cf99a8c777141b7a3728124c9b5d6eb549ae95231fa1aebba9d155d558a12",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\13e3f8760c67bc73.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/GachaType.json",
+      "kind": "json",
+      "item_count": 141,
+      "name_hash_hex": "a63a92905f77d9a4",
+      "source_sha256": "a03a39415a03f3ca9c02c9f997c51f308a807c2d04b6db1a744a84eecdf609e7",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a63a92905f77d9a4.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/GoldenSpyBuffCard.json",
+      "kind": "json",
+      "item_count": 118,
+      "name_hash_hex": "accd185e854f3ce8",
+      "source_sha256": "e20abc0481e45889daf1525e7183fdfed6518a20f70f6138a02a08114b03b57e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\accd185e854f3ce8.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/GoldenSpyItem.json",
+      "kind": "json",
+      "item_count": 18,
+      "name_hash_hex": "cbd14e145d02b7cd",
+      "source_sha256": "38519d7ec2a72129e37fa76f3e24b042681134dafb5475e7be721117528c45f1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\cbd14e145d02b7cd.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/GoldenSpyLevel.json",
+      "kind": "json",
+      "item_count": 42,
+      "name_hash_hex": "d1d48812a4d1784f",
+      "source_sha256": "7ffee171c96d818c461cdc78ac7fa0e4453faa49074634907eb442dcd92f5b8a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d1d48812a4d1784f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/GoldenSpyLevelGroup.json",
+      "kind": "json",
+      "item_count": 8,
+      "name_hash_hex": "66df70e4ab4e228e",
+      "source_sha256": "7cf3e462b3a032dcafa4040000afd1247f846db2ddfa17a2ce1960adb6fd0e25",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\66df70e4ab4e228e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Honor.json",
+      "kind": "json",
+      "item_count": 144,
+      "name_hash_hex": "ca728c2a154335d0",
+      "source_sha256": "3bf5533cd9ff8038282998816d16783b6429c713dba7949f293098f2357d5956",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ca728c2a154335d0.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/IceCreamBuff.json",
+      "kind": "json",
+      "item_count": 10,
+      "name_hash_hex": "88df881dec298925",
+      "source_sha256": "4da29c087a77629a7624b07690dcafa88b36f67bbb8aa84eccca4312cb8ef8af",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\88df881dec298925.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/InfinityTower.json",
+      "kind": "json",
+      "item_count": 7,
+      "name_hash_hex": "c73cba44009b6c0e",
+      "source_sha256": "1e88134f4d895b31a0e67b7cb62eb9377cfe0eead2ff213702db149930c3c0dc",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c73cba44009b6c0e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/InfinityTowerAffix.json",
+      "kind": "json",
+      "item_count": 250,
+      "name_hash_hex": "e373e8c29b42ad31",
+      "source_sha256": "603d9fec3023d52cc912431f342f4b838be35155cf4783d1d5b41d46b0d92167",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e373e8c29b42ad31.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/InfinityTowerDifficulty.json",
+      "kind": "json",
+      "item_count": 257,
+      "name_hash_hex": "6cb2d15f2b8546d9",
+      "source_sha256": "e445ac5dc9a425ce7ac67202f463546af1eed8f4e82f4a7f73a12f2eee5debfc",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6cb2d15f2b8546d9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/InfinityTowerLevel.json",
+      "kind": "json",
+      "item_count": 1290,
+      "name_hash_hex": "c60158ece106f921",
+      "source_sha256": "aefca64af08a50998a176382f4466987133c5335b73d25c710a8441e93728c85",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c60158ece106f921.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/InfinityTowerMsg.json",
+      "kind": "json",
+      "item_count": 184,
+      "name_hash_hex": "09f8360937b337d2",
+      "source_sha256": "1a8d369e98733161cd90b6063220ae3a0fa6441438c88bf5453345c537396fa5",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\09f8360937b337d2.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/InteractiveAction.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "98c928ecaf7f9b9d",
+      "source_sha256": "e54a4620b158d2094e5e2f28e3a7a2502678dd4c25347fc802abae701affb467",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\98c928ecaf7f9b9d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Item.json",
+      "kind": "json",
+      "item_count": 3476,
+      "name_hash_hex": "efdab9022bdd3293",
+      "source_sha256": "eacd028c77fc016cfa3a72d612e221d92bca9d07a462e72146cb0e480f9e8456",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\efdab9022bdd3293.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ItemPackMark.json",
+      "kind": "json",
+      "item_count": 2,
+      "name_hash_hex": "292449ef807e3669",
+      "source_sha256": "a49c01a9792828f5647cbe32211adef03f788349a148039f8a6677d267741ce2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\292449ef807e3669.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/JointDrill_2_Level.json",
+      "kind": "json",
+      "item_count": 32,
+      "name_hash_hex": "ad8775e1c3c89793",
+      "source_sha256": "fb939cc357fde0a28954f51ab2890001cc669fe7f92cfbbfe56b1c77904292e3",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ad8775e1c3c89793.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/JointDrillAffix.json",
+      "kind": "json",
+      "item_count": 34,
+      "name_hash_hex": "35642c3019f9fd89",
+      "source_sha256": "e57a7a8edaec3c8b670bd33a72fced3b864bf439dffa0781f4b3deba943a41b8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\35642c3019f9fd89.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/JointDrillControl.json",
+      "kind": "json",
+      "item_count": 12,
+      "name_hash_hex": "41c3d0c30cda9f74",
+      "source_sha256": "96184b94ebab32c1bae14f3a71bda81aeb35b31bebdbb90c8577987de06599d0",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\41c3d0c30cda9f74.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/JointDrillLevel.json",
+      "kind": "json",
+      "item_count": 14,
+      "name_hash_hex": "01053702a9ad69b3",
+      "source_sha256": "56777c7c4d287294a68b9e026a96021544603e03fa16b25407b7aaba9fcab63e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\01053702a9ad69b3.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/JointDrillQuest.json",
+      "kind": "json",
+      "item_count": 42,
+      "name_hash_hex": "d86f2a198c752cf8",
+      "source_sha256": "a8c7692a71d127ef61668e2bdd2bb79d426a7a7036116e439123d5e04f7aedec",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d86f2a198c752cf8.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/JumpTo.json",
+      "kind": "json",
+      "item_count": 159,
+      "name_hash_hex": "9e246c85ce9d32d3",
+      "source_sha256": "4b389caf764227106ced63f7dd2c8b0db55110857472649155689783ab55359a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9e246c85ce9d32d3.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/LevelQuest.json",
+      "kind": "json",
+      "item_count": 31,
+      "name_hash_hex": "69fd227693a466e2",
+      "source_sha256": "039fc7b6298a3d0a3a54dafb6dff1353c2ecce40cd9bd6ec349c60e35f45faad",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\69fd227693a466e2.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/LevelQuestTarget.json",
+      "kind": "json",
+      "item_count": 580,
+      "name_hash_hex": "bd3a7dfd4e1ada2a",
+      "source_sha256": "bc4f4a749fd7ee97e83765c0dcf6fc91facf561bc294587785389cb6dc9a30d1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\bd3a7dfd4e1ada2a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/LoginRewardControl.json",
+      "kind": "json",
+      "item_count": 1,
+      "name_hash_hex": "9769a2ba23513932",
+      "source_sha256": "66e4f85b15ecdf10351220872d6ce53a8077f601ae0e1c504bc74019deeec8eb",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9769a2ba23513932.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/LoginRewardGroup.json",
+      "kind": "json",
+      "item_count": 30,
+      "name_hash_hex": "b04cb15a7ef62d79",
+      "source_sha256": "86986b3717a312d09ab0e7f92dbe6eff81deb2fb721f0533d26e4c4820e35df0",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b04cb15a7ef62d79.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MailTemplate.json",
+      "kind": "json",
+      "item_count": 270,
+      "name_hash_hex": "0ae4b398c510906e",
+      "source_sha256": "ae1d0a5d30fbea0509946779fb5664e87a0a5df1ce993a4c8d75c6e08f6abd17",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\0ae4b398c510906e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MainScreenCG.json",
+      "kind": "json",
+      "item_count": 83,
+      "name_hash_hex": "fb286ef3058b6423",
+      "source_sha256": "5ab5afdb107ef5bf0d31902d28191b15a1a8b78b6b3a9c56656d1973e2cf63b2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\fb286ef3058b6423.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MainSkill.json",
+      "kind": "json",
+      "item_count": 1155,
+      "name_hash_hex": "dac007ff40d51423",
+      "source_sha256": "98bc35ef6ca2ba35a3d976113fb8332ad24b98acc224553014843106f9c72e6d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\dac007ff40d51423.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MallGem.json",
+      "kind": "json",
+      "item_count": 14,
+      "name_hash_hex": "d2bdc8dd4ddf56cc",
+      "source_sha256": "23171d78ab3bfe852916c669894a24e26d67bcc68da177b2245e4f960de320e8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d2bdc8dd4ddf56cc.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MallMonthlyCard.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "18783e4bf3e308c0",
+      "source_sha256": "e0416f8536d7c5797986c10869b2713500fb634ce9cc0a55a398f43732d6c4a3",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\18783e4bf3e308c0.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MallPackage.json",
+      "kind": "json",
+      "item_count": 365,
+      "name_hash_hex": "1c21a22987b941fe",
+      "source_sha256": "088a6795ec60a747ffe403e5a7a8c8a8d0fea71e44306b7059c938fe6b79d864",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1c21a22987b941fe.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MallPackagePage.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "aa3c27853b26cbda",
+      "source_sha256": "aaccac0c8a60d44420608b84e68b4947e40903e81bc09382891f87afbd5a9afa",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\aa3c27853b26cbda.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MallRecommendGroup.json",
+      "kind": "json",
+      "item_count": 25,
+      "name_hash_hex": "dc89370b7593df3e",
+      "source_sha256": "cfc4c584c45544838e27f2fe9e2023eaf1cb383c60e31dffa0ac541cad6c7a7a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\dc89370b7593df3e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MallShop.json",
+      "kind": "json",
+      "item_count": 52,
+      "name_hash_hex": "d4c8e90b24b3ef96",
+      "source_sha256": "3670c0d87121212a805a7e4e9e29b8063a23ad82938e1f2e2997c29ceb4e444a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d4c8e90b24b3ef96.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MallShopPage.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "540a7d97b021e63f",
+      "source_sha256": "b7277fe49b046b0e97ae06e0ac327ac9e7396fe2c6a2e4ead125be3e8da986e8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\540a7d97b021e63f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MangaLoading.json",
+      "kind": "json",
+      "item_count": 49,
+      "name_hash_hex": "a7b09b61f474f1e5",
+      "source_sha256": "4c00c38c34b0113890475c83b27657350247969b328098adf0c8333975f47586",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a7b09b61f474f1e5.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MiningControl.json",
+      "kind": "json",
+      "item_count": 1,
+      "name_hash_hex": "8eeef66ef9ba02e0",
+      "source_sha256": "7a46a378930010ae9dfe2eb62e244bfe75964e064d072020d5432b5e5db2d8a5",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8eeef66ef9ba02e0.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MiningQuest.json",
+      "kind": "json",
+      "item_count": 21,
+      "name_hash_hex": "8685d66e457272c9",
+      "source_sha256": "2210d43a4a98aa0355f5d7f3b53b06a18aeed81a760f2b0405d6b58fea684ffa",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8685d66e457272c9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MiningQuestGroup.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "2e4d9fcb640d72c8",
+      "source_sha256": "416d0e54f2d3fb3b9ca33522b5070dc7d7fec7ab53ef411cc394a986ee942d98",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2e4d9fcb640d72c8.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MiningSupport.json",
+      "kind": "json",
+      "item_count": 84,
+      "name_hash_hex": "0840895446ec046b",
+      "source_sha256": "ea1acf18791642962d5ca146190e5f3e71ddf93cb366c81b1e67ff35ff5741e3",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\0840895446ec046b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MiningTreasure.json",
+      "kind": "json",
+      "item_count": 144,
+      "name_hash_hex": "29f6c5bc236c6bb9",
+      "source_sha256": "bb3a5a2458dc570aaa7f8269c39df1a804466029f1cb115e9b8c3314e5e8cf08",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\29f6c5bc236c6bb9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/MonsterManual.json",
+      "kind": "json",
+      "item_count": 678,
+      "name_hash_hex": "3e7cff55a783a3f1",
+      "source_sha256": "a1af86c0bbc8aae65261c7287c8688c5bdfe6ffc9e0b948a17b8f8eac761191f",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3e7cff55a783a3f1.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/NotificationConfig.json",
+      "kind": "json",
+      "item_count": 4,
+      "name_hash_hex": "20f2374f21fbb3ba",
+      "source_sha256": "526d9cb966f904915869e55181ea05851d264ce440dbf71591e8eb25008139c7",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\20f2374f21fbb3ba.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/NPCAffinityGroup.json",
+      "kind": "json",
+      "item_count": 204,
+      "name_hash_hex": "f83520f91dcbec9b",
+      "source_sha256": "69cf356f8a96a328e4ae82f72d0481ec975397f268ebd6225640ca64defab003",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f83520f91dcbec9b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/NPCAffinityPlot.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "ad09d4ac1062d455",
+      "source_sha256": "6fc9166468f3812bf7acb56e3c758b7481e92aa3bfdf75b0744ec0ab0f4923e6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ad09d4ac1062d455.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/NPCConfig.json",
+      "kind": "json",
+      "item_count": 19,
+      "name_hash_hex": "9409849904407200",
+      "source_sha256": "96857f926df86710ac8c7dd95168d2f8f8cffcd9b918ed9a432896f8f9134311",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9409849904407200.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/OpenFunc.json",
+      "kind": "json",
+      "item_count": 67,
+      "name_hash_hex": "7c73e106a9e48b58",
+      "source_sha256": "a7eadbcf87c37dd7fd75b92b4aeb55b86a3eda0b6405121932833cfc30311251",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7c73e106a9e48b58.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/PenguinBaseCard.json",
+      "kind": "json",
+      "item_count": 8,
+      "name_hash_hex": "251a571b211e8f9d",
+      "source_sha256": "90a060b104ad8e36759b2a03fec3b4fc34fbad189319c0acc8b72051edcf976a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\251a571b211e8f9d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/PenguinCard.json",
+      "kind": "json",
+      "item_count": 328,
+      "name_hash_hex": "565cbf8532a5ae70",
+      "source_sha256": "6ace64239d444c69dd9455c738010d98296d3f7285aba8d9ce0c86c921e16cd0",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\565cbf8532a5ae70.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/PenguinCardBuff.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "a10472377f280389",
+      "source_sha256": "a9e5b61133fa37be31621ca9b6f8e064b811ccdc3900d5fe184f3eff2481bde8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a10472377f280389.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/PenguinCardControl.json",
+      "kind": "json",
+      "item_count": 2,
+      "name_hash_hex": "454526361cd81764",
+      "source_sha256": "e739c9d44ba434755eb837f527dd1bc427179c5f997a1bb2b207bef14d032952",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\454526361cd81764.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/PenguinCardFloor.json",
+      "kind": "json",
+      "item_count": 15,
+      "name_hash_hex": "98db48360da20539",
+      "source_sha256": "a51c4d394f04a1806fbfe77ac8de662b7d1e7592a0e60b5383ec20ce689ab3f1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\98db48360da20539.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/PenguinCardHandRank.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "18e6b6f27bbff9a5",
+      "source_sha256": "fa1015b67b19f28ced3b708c1d720ef710e42e5d918b0f4fb666175239c4f3f8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\18e6b6f27bbff9a5.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/PenguinCardQuest.json",
+      "kind": "json",
+      "item_count": 28,
+      "name_hash_hex": "8982e0037106d419",
+      "source_sha256": "2b692919bae681e07995cd750a64ecbd82f2cfefefae06f3efc9b3e01add2544",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8982e0037106d419.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/PeriodicQuest.json",
+      "kind": "json",
+      "item_count": 70,
+      "name_hash_hex": "43b35a2184595ccb",
+      "source_sha256": "887b55ad26a6446915e429e9ee0739e093b2162b4dd3b665796e30890d08d9db",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\43b35a2184595ccb.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/PeriodicQuestControl.json",
+      "kind": "json",
+      "item_count": 1,
+      "name_hash_hex": "03f143d1ad091b69",
+      "source_sha256": "8d496414f12cb2d841e591a20d40ea612efbc61b87655e510389d0a0e6804a98",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\03f143d1ad091b69.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/PlayerHead.json",
+      "kind": "json",
+      "item_count": 33,
+      "name_hash_hex": "358d58cb815f9c30",
+      "source_sha256": "db7026bc15b6219e0ac873e9d13f4c56d08a7ce69ced3bb7cd7c726df787736d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\358d58cb815f9c30.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Plot.json",
+      "kind": "json",
+      "item_count": 222,
+      "name_hash_hex": "cfcedd6f02584af5",
+      "source_sha256": "8c38bfbfce138f1bedbcacc9db8f9703cb48978815426d773cde519cbdf28be6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\cfcedd6f02584af5.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Potential.json",
+      "kind": "json",
+      "item_count": 2150,
+      "name_hash_hex": "3b1ed57c9d5d0307",
+      "source_sha256": "1a5d6adb7a9f391e01f5089fc5a42207b8728d44708fcca5522ff5e9346d06b6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3b1ed57c9d5d0307.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Production.json",
+      "kind": "json",
+      "item_count": 78,
+      "name_hash_hex": "e8a37eb99e416cb6",
+      "source_sha256": "2e1830ac165a7e10458025ff8a2ab33dd67784985d780e3944e28f7be8289faa",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e8a37eb99e416cb6.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ProductionType.json",
+      "kind": "json",
+      "item_count": 4,
+      "name_hash_hex": "7282a61a11cc14c1",
+      "source_sha256": "aa5e23c3286943c96bfea6dc139572405d3c648695be2ee1bfd1b51f657303f8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7282a61a11cc14c1.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/RegionBoss.json",
+      "kind": "json",
+      "item_count": 18,
+      "name_hash_hex": "e396ec5d0aa82545",
+      "source_sha256": "a0b8dcc1e82312d7c7d845258d1bfb2e8392fe111bbfbf634894ad3023a93127",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e396ec5d0aa82545.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/RegionBossAffix.json",
+      "kind": "json",
+      "item_count": 30,
+      "name_hash_hex": "cb8a94d6800d8f86",
+      "source_sha256": "f1abb6975f4134817bd5e96b1f1abebc6d10cb7cd07b44669772699908dac6a8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\cb8a94d6800d8f86.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/RegionBossLevel.json",
+      "kind": "json",
+      "item_count": 54,
+      "name_hash_hex": "107fb83951921d6d",
+      "source_sha256": "010ae01bc3bd1cc32d4159b101f1ae3c2367b79929cd2eaa65e2f650817c7913",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\107fb83951921d6d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ResidentGoods.json",
+      "kind": "json",
+      "item_count": 94,
+      "name_hash_hex": "e2849bfbdf4a7597",
+      "source_sha256": "61f75d44bb40d60aa420eb98e1b3b7da51ebd6365e8a2d3960d2186a30e165a0",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e2849bfbdf4a7597.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ResidentShop.json",
+      "kind": "json",
+      "item_count": 4,
+      "name_hash_hex": "cea889e1392561c5",
+      "source_sha256": "65e06fef91795cd2961b162c74f1da32a870a5b68c367a80940c5bfb2b1dd6dc",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\cea889e1392561c5.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ScoreBossAbility.json",
+      "kind": "json",
+      "item_count": 42,
+      "name_hash_hex": "3823cf7f01ba25ef",
+      "source_sha256": "fd159fc5e9bb6c8b45ec8a21353e9866bc6fef9e608ae3158c30a3c92f798d6e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3823cf7f01ba25ef.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ScoreBossGetControl.json",
+      "kind": "json",
+      "item_count": 48,
+      "name_hash_hex": "0ba10442ad6d19bb",
+      "source_sha256": "8222ae2bc9e044f74d9286e9eccc2d575cc1b94978e2e8cf36a4c6ecf097c98d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\0ba10442ad6d19bb.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SecondarySkill.json",
+      "kind": "json",
+      "item_count": 1322,
+      "name_hash_hex": "83bd37da8b512c08",
+      "source_sha256": "719d5e5bee0d408ffb938157f7b583b1ed968d6029e157e18f6c9382b85f7a06",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\83bd37da8b512c08.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Skill.json",
+      "kind": "json",
+      "item_count": 1256,
+      "name_hash_hex": "32bef294c83f34ec",
+      "source_sha256": "419eb980049c80f7a1f632d01a78d80fba3b545bf3f931971630b0ef9e17e424",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\32bef294c83f34ec.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SkillInstance.json",
+      "kind": "json",
+      "item_count": 36,
+      "name_hash_hex": "9adb1f1e7b639e70",
+      "source_sha256": "8fa048dcf96ee470ac0fffea621591fe1507cc26b68da803fc8a5cf34ee1a618",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9adb1f1e7b639e70.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SkillInstanceType.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "89fb9c998abfd10b",
+      "source_sha256": "2ee787f878915b4f43762a73572fd048a08e4e2ad59fab8cd00a34d3aa9758df",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\89fb9c998abfd10b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierCharacter.json",
+      "kind": "json",
+      "item_count": 40,
+      "name_hash_hex": "505e897f8eab83ad",
+      "source_sha256": "257525a21f4cac972e2ab6ba9294afd87ccf451388681d39a9550a27ca5403a6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\505e897f8eab83ad.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierChessType.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "202f7524561781de",
+      "source_sha256": "34460636830f22387ba7c8b8dd8cca6a1a4e7a19d9ae164470624489fb6f1ad3",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\202f7524561781de.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierControl.json",
+      "kind": "json",
+      "item_count": 1,
+      "name_hash_hex": "ba0c34d0cf946d27",
+      "source_sha256": "8eaeff2be7a1b6afc87bbe9c73bdfcccd6988d387c5ae929d92b4a24e84ed497",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ba0c34d0cf946d27.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierEventBattlePool.json",
+      "kind": "json",
+      "item_count": 48,
+      "name_hash_hex": "0c89311f27b4d6dd",
+      "source_sha256": "45072d6eae0d7bd63b6216c570800ec5d47513c81eebf80bf44affa99980e990",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\0c89311f27b4d6dd.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierGradeChallenge.json",
+      "kind": "json",
+      "item_count": 2,
+      "name_hash_hex": "c63fed1251d1ddec",
+      "source_sha256": "8ceb3a9125730b4d6545dda3406ce7604d84f19df8d6149e4a5894ba131e65c1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c63fed1251d1ddec.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierKeyGrade.json",
+      "kind": "json",
+      "item_count": 2,
+      "name_hash_hex": "892a8050be5d248e",
+      "source_sha256": "27b9f14da14c4176807303ea278777c01d9405f4bbece9dfbdced0025226c4a7",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\892a8050be5d248e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierPartner.json",
+      "kind": "json",
+      "item_count": 88,
+      "name_hash_hex": "cd372dbc22ce0195",
+      "source_sha256": "38f5e7ce84d7ed54245b809d34d63f488f9d934886e37858fe1b9c9c78d8c09f",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\cd372dbc22ce0195.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierPartnerGroup.json",
+      "kind": "json",
+      "item_count": 38,
+      "name_hash_hex": "d8634a826de68118",
+      "source_sha256": "401447a6ee8ff8537c5baae1c6be5af0e5b3ff86a06cd9761ae59fdc229a6c62",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d8634a826de68118.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierPositionEffect.json",
+      "kind": "json",
+      "item_count": 12,
+      "name_hash_hex": "46deb55fa42d126b",
+      "source_sha256": "30add5152f70deb0c3bf87d9144ee68247b230adc4dbf2df79756fe51b88834a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\46deb55fa42d126b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierPotential.json",
+      "kind": "json",
+      "item_count": 160,
+      "name_hash_hex": "158d81278e528ed4",
+      "source_sha256": "a4d2b910ac85f29b9119525042f6f6ce28824933699b8e9a6c705ae6316d3d18",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\158d81278e528ed4.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierQuest.json",
+      "kind": "json",
+      "item_count": 12,
+      "name_hash_hex": "8186c32bf3b478d0",
+      "source_sha256": "5dd7e1c4c6ac4a9f2207770681bfd8b706c9eb7abac1efdaed844b84f205ff77",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8186c32bf3b478d0.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierQuestGroup.json",
+      "kind": "json",
+      "item_count": 2,
+      "name_hash_hex": "16a54fe6eb4379c8",
+      "source_sha256": "4f9663fb87d4932827b34df123b77ccb5ad0dc708362b5b21671c4297f8be083",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\16a54fe6eb4379c8.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierRecommendBuilds.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "173836e2ca8a735d",
+      "source_sha256": "c15b45930df13ccd07c782dd1353e738545b106ddef27a9d4e60759e28d42800",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\173836e2ca8a735d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierSkin.json",
+      "kind": "json",
+      "item_count": 40,
+      "name_hash_hex": "59a90174dbe1cff7",
+      "source_sha256": "9f5320c1751319bc4aa0fcf3e625b67e43b6c47407e702f6f57ab796c06021e2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\59a90174dbe1cff7.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierStarterCard.json",
+      "kind": "json",
+      "item_count": 117,
+      "name_hash_hex": "5026c80617820401",
+      "source_sha256": "18a56bc18923631735db52948d5c0672692eab6588654dfa61d91c3aa028cf9d",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\5026c80617820401.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SoldierStrategyCard.json",
+      "kind": "json",
+      "item_count": 135,
+      "name_hash_hex": "1d23558885954eba",
+      "source_sha256": "c5f8d695ba469d89ea9ebfb0caa76e9825d9fcfa12f504141aa18d6ba0245d7a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1d23558885954eba.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTower.json",
+      "kind": "json",
+      "item_count": 50,
+      "name_hash_hex": "7865f36ee4486b9b",
+      "source_sha256": "bf3b46ab8400058eaedeb14bf238f50769088a18e6e3fd74a03ad6f0679771ee",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7865f36ee4486b9b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerBookEntrance.json",
+      "kind": "json",
+      "item_count": 26,
+      "name_hash_hex": "6680ff1f9bcdf125",
+      "source_sha256": "ec3f814ca9d56ec9e9fd307b7823395f2c5875b9379ee69b86644231d3b6c478",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6680ff1f9bcdf125.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerBookEventReward.json",
+      "kind": "json",
+      "item_count": 369,
+      "name_hash_hex": "434209f732c4dd43",
+      "source_sha256": "57be909636f02bee39db582f7b44cd4859fb0542f092d8d6e71e7d80cecb2586",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\434209f732c4dd43.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerBookFateCard.json",
+      "kind": "json",
+      "item_count": 234,
+      "name_hash_hex": "86547795c1da0c6c",
+      "source_sha256": "3e4aedc21ce6145ef689f9d96af65fbf727433f25462052a9e7cf989e6a3c861",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\86547795c1da0c6c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerBookFateCardBundle.json",
+      "kind": "json",
+      "item_count": 30,
+      "name_hash_hex": "a428e05d007f1752",
+      "source_sha256": "fe2fc4a7941f15af49a5e5134275cd5ad0010ddd9b6a1521b20236cde3c78832",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a428e05d007f1752.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerBookFateCardQuest.json",
+      "kind": "json",
+      "item_count": 33,
+      "name_hash_hex": "9bb3cbc29191cd53",
+      "source_sha256": "53ce343b8b16e87657c664188ec3fec24a45dd618f26735cb6d00fc6fe8f9cf7",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9bb3cbc29191cd53.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerEventAction.json",
+      "kind": "json",
+      "item_count": 112,
+      "name_hash_hex": "6805324bb805b4ab",
+      "source_sha256": "5028fa885c13967fdd54b7a2e4103f6f6144b84ba5346e7f90669af4d575039a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6805324bb805b4ab.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerEventOptionAction.json",
+      "kind": "json",
+      "item_count": 344,
+      "name_hash_hex": "3dda50fe031ec15d",
+      "source_sha256": "10d342f090d23dde8dd81a8f9634349bc033caeddf76c448fb4a0d61a87d7585",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3dda50fe031ec15d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerGroup.json",
+      "kind": "json",
+      "item_count": 4,
+      "name_hash_hex": "748cea6699ca045d",
+      "source_sha256": "5544529a211573275550a2e22a37deaf5809bc346bc95c65c6d45494db93cf21",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\748cea6699ca045d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerGrowthGroup.json",
+      "kind": "json",
+      "item_count": 4,
+      "name_hash_hex": "186e979fb7a4ec88",
+      "source_sha256": "7f0c6b58836166980405f0c2aa340d92d90339b46d06b90f0bd226d638b2bfb2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\186e979fb7a4ec88.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerGrowthNode.json",
+      "kind": "json",
+      "item_count": 116,
+      "name_hash_hex": "6cc0dd4164612940",
+      "source_sha256": "c0b3aa0d603f96b94e8c011b1ebbf3dace457d8d0510ff75627d5fcb774e64d8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6cc0dd4164612940.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerNPC.json",
+      "kind": "json",
+      "item_count": 8,
+      "name_hash_hex": "539287121ae9b996",
+      "source_sha256": "27d0860308088349bd71f7432a83f1974d448abaca87a9cfb74dacfef312f126",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\539287121ae9b996.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerQuest.json",
+      "kind": "json",
+      "item_count": 57,
+      "name_hash_hex": "87530f6b64efd865",
+      "source_sha256": "89f275804e3207c3b1c7e5a5d0a404af8df693ce94f5811d8846c5a42d0f66fd",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\87530f6b64efd865.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StarTowerTalk.json",
+      "kind": "json",
+      "item_count": 240,
+      "name_hash_hex": "4713149dd5003ad7",
+      "source_sha256": "25ebc76d0f95d7f022feb8cd0d235e6f37ebbde791d39749769674ef831c610e",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\4713149dd5003ad7.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Story.json",
+      "kind": "json",
+      "item_count": 510,
+      "name_hash_hex": "5a749e8ceae51023",
+      "source_sha256": "09ef42934f2c5f29a9cacaf56dd7368237ba33ca754eae6ee43d58ca5e5e3335",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\5a749e8ceae51023.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StoryChapter.json",
+      "kind": "json",
+      "item_count": 27,
+      "name_hash_hex": "337377a750cba969",
+      "source_sha256": "5541a655ef5be9d929494d48f9b11d9a5d97b64cc100f8ef7b3588ece15a7f65",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\337377a750cba969.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StoryChapterTimeStamp.json",
+      "kind": "json",
+      "item_count": 126,
+      "name_hash_hex": "d04afb77e7f137f3",
+      "source_sha256": "182e6f950e4d7b9ccf633e3b2c509cc08e6f2bf84751ad1a5c5102b8ebc101e6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d04afb77e7f137f3.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StoryEvidence.json",
+      "kind": "json",
+      "item_count": 42,
+      "name_hash_hex": "77c67edab92aef09",
+      "source_sha256": "d02a91ebe0b44b7f80b19f18e4b9d7a276d75fb83433e75df2b8fb9b6829ec95",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\77c67edab92aef09.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StoryPersonality.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "f882c8b9eff72cbb",
+      "source_sha256": "4e5fae608df4f5c312368c6a2ca86acf48c0d1b751e44754bb80d26919cd2ce3",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f882c8b9eff72cbb.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StoryPreview.json",
+      "kind": "json",
+      "item_count": 15,
+      "name_hash_hex": "aaaee4b4f9cd1e1e",
+      "source_sha256": "92ca1ce197418c5a6eb8a097d623bd290aa714a2249f85a6dedebfdfa6967630",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\aaaee4b4f9cd1e1e.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StoryRolePersonality.json",
+      "kind": "json",
+      "item_count": 10,
+      "name_hash_hex": "e320b3c82a87e4d5",
+      "source_sha256": "ac94dfd3b2db57b58724874ef2ef1fd6f98bb61bfac97529734a9cccbdee7780",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e320b3c82a87e4d5.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StorySetChapter.json",
+      "kind": "json",
+      "item_count": 32,
+      "name_hash_hex": "1800336a4e5bdf32",
+      "source_sha256": "5627e593c4d2277fc2c447af5323112e7b992ce3e3beb464c537f40712d25815",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1800336a4e5bdf32.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StorySetSection.json",
+      "kind": "json",
+      "item_count": 100,
+      "name_hash_hex": "eb5133a9850f0790",
+      "source_sha256": "c3e7452e877a832ecb73428307d7b890d265b8d3de6597dfc61fd094bee112fe",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\eb5133a9850f0790.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/StorySetTab.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "cf2d82c306ae3ea2",
+      "source_sha256": "9d89499284544c5bdfa3f6d67945afe195b79e65e2c0eb593090935b37589e97",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\cf2d82c306ae3ea2.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/SubNoteSkill.json",
+      "kind": "json",
+      "item_count": 39,
+      "name_hash_hex": "d877a080abd9c729",
+      "source_sha256": "43cfdf90d58a481659f5412d5cec742a648e715fb4c21e45784e59f427dd1291",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d877a080abd9c729.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Talent.json",
+      "kind": "json",
+      "item_count": 4020,
+      "name_hash_hex": "726eb5bef01e39a2",
+      "source_sha256": "2a3b6a5d0e8bde563d7e2981f9e902a79cda3f7d4a8e0cfc9c9314077aac2103",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\726eb5bef01e39a2.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TalentGroup.json",
+      "kind": "json",
+      "item_count": 185,
+      "name_hash_hex": "91e9cf28425459b9",
+      "source_sha256": "78ddea91cbdbf74050a9e8a6bb5c9b8cd2c01ba8abdf3788ec0f2febca2db099",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\91e9cf28425459b9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ThrowGiftItem.json",
+      "kind": "json",
+      "item_count": 20,
+      "name_hash_hex": "208e7d533fe68b9f",
+      "source_sha256": "7947d59d699ff3479bbfed689b758ed42071a81bd480b18427d10584e20ecc35",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\208e7d533fe68b9f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/ThrowGiftLevel.json",
+      "kind": "json",
+      "item_count": 48,
+      "name_hash_hex": "dfbde6ca4c298007",
+      "source_sha256": "1824d4d31675b40e7e308d928de2c917a66545cdc4ebe617e91e04ee829f95b0",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\dfbde6ca4c298007.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Title.json",
+      "kind": "json",
+      "item_count": 38,
+      "name_hash_hex": "24a1d660c8f635ca",
+      "source_sha256": "01bdd0714bd40eedcacf1f236d7ee6a9ebf049e13ed1a0c5c3842a8cfb217982",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\24a1d660c8f635ca.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TopBar.json",
+      "kind": "json",
+      "item_count": 201,
+      "name_hash_hex": "1ccd08a90fac74ea",
+      "source_sha256": "23d8645f3c40df929f246d017fac6f75d58372474a1a7c599f9e67a8d3b651da",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1ccd08a90fac74ea.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TourGuideQuest.json",
+      "kind": "json",
+      "item_count": 59,
+      "name_hash_hex": "6ecfa302bbc3fb63",
+      "source_sha256": "0d020fbe48a267219081af2fdbca2609272db7924281c33d6cd2c5817335d039",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6ecfa302bbc3fb63.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TowerDefenseCharacter.json",
+      "kind": "json",
+      "item_count": 21,
+      "name_hash_hex": "eb87a0d24fc9fd77",
+      "source_sha256": "6afc45c08a0137d50d77d1074370ae61eb7003c853ee99bee592c3ae09459e96",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\eb87a0d24fc9fd77.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TowerDefenseControl.json",
+      "kind": "json",
+      "item_count": 4,
+      "name_hash_hex": "c8671d28f998a02f",
+      "source_sha256": "0afb542889f660cb8bbd1d4440b82c338450c9fadfe488382be3060392f7d863",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c8671d28f998a02f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TowerDefenseItem.json",
+      "kind": "json",
+      "item_count": 8,
+      "name_hash_hex": "8dd24c38d492757a",
+      "source_sha256": "26e0173b16cd36ca6594a9f1469d0eb1f5d8c9045e9f4d70470167afda4405c1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8dd24c38d492757a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TowerDefenseLevel.json",
+      "kind": "json",
+      "item_count": 156,
+      "name_hash_hex": "ecc041e97a2ab2e9",
+      "source_sha256": "722f9f7b4fbc48fe9ad4fd4e76f20b35e1f56692359b362ee52e411ad64081fc",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ecc041e97a2ab2e9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TowerDefenseMonster.json",
+      "kind": "json",
+      "item_count": 18,
+      "name_hash_hex": "2d6dc3f7cd42b818",
+      "source_sha256": "25e2ab63d8c1a911d6cdc10ce1010461c9a7512986773c54f73e9951c2e085e1",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2d6dc3f7cd42b818.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TowerDefensePotential.json",
+      "kind": "json",
+      "item_count": 198,
+      "name_hash_hex": "63f96d62f20c0d9c",
+      "source_sha256": "9ec16592a644927b5b47f8189e54dc5fbe6b1d85444e075e4a4162ab444127c6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\63f96d62f20c0d9c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TowerDefenseQuest.json",
+      "kind": "json",
+      "item_count": 99,
+      "name_hash_hex": "231ec368f55cc465",
+      "source_sha256": "6500a88b3afcacc5a93a68562a0637e463c0be228df7b1a323fb79268906b4b2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\231ec368f55cc465.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TowerDefenseQuestGroup.json",
+      "kind": "json",
+      "item_count": 16,
+      "name_hash_hex": "5878e9650e4efef9",
+      "source_sha256": "cfbdda2e6ad9ccaffded11668d744845685054d9ae125c1d614e1af2f275922a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\5878e9650e4efef9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+      "kind": "json",
+      "item_count": 21,
+      "name_hash_hex": "d1dd6270cfa4749f",
+      "source_sha256": "79fb5f71da914c028e98829a0716f86483feb252d831e709cecb47c839edd434",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d1dd6270cfa4749f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TravelerDuelBoss.json",
+      "kind": "json",
+      "item_count": 3,
+      "name_hash_hex": "a3d034f209982f8c",
+      "source_sha256": "e04c9f348447bb06eca4b02f3b764d840d44d327a2a0b7671119ce673b88fad6",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a3d034f209982f8c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TravelerDuelBossLevel.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "e8c8bd4f6f04efab",
+      "source_sha256": "9322879581af67d67ad0c391d858a3e4e3e1950e1323e75ad4c7f4b509fde2e8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e8c8bd4f6f04efab.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TravelerDuelChallengeAffix.json",
+      "kind": "json",
+      "item_count": 304,
+      "name_hash_hex": "b233353d35fbc2d6",
+      "source_sha256": "2fddde3d6063e5b548e5940cbaf741c3ff502e89a0ee909997ea161f8b0cf7f2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b233353d35fbc2d6.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TravelerDuelChallengeQuest.json",
+      "kind": "json",
+      "item_count": 59,
+      "name_hash_hex": "52ba078eaaac0d8c",
+      "source_sha256": "ef1a46fd3c3435cde950324aeb3f856c92ee5d8fc04d47c138f10a531d8cd7ca",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\52ba078eaaac0d8c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TravelerDuelTarget.json",
+      "kind": "json",
+      "item_count": 14,
+      "name_hash_hex": "35272c8931c34fb9",
+      "source_sha256": "fe88efa9f202cefdeaec4c724822f186717ca38709d30a580e9c8c29c658695f",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\35272c8931c34fb9.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TrialBuild.json",
+      "kind": "json",
+      "item_count": 49,
+      "name_hash_hex": "ac3063c789f88a3c",
+      "source_sha256": "0b35be4e1e7e4a31d13bc267e8cfffb3f27447fdcbfaef6176b0474bf89463e2",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ac3063c789f88a3c.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TrialCharacter.json",
+      "kind": "json",
+      "item_count": 162,
+      "name_hash_hex": "04b667d4570d018d",
+      "source_sha256": "c784b6e516935fe542cefec07b6c2e4a88602e14e1ed041116617a2cc892f8a3",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\04b667d4570d018d.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/TutorialLevel.json",
+      "kind": "json",
+      "item_count": 8,
+      "name_hash_hex": "2e38cbead458c473",
+      "source_sha256": "6ab64ea865a4c5cdc62d87d546aa4bc93ce12e3bc39b33800244abdd541416c3",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2e38cbead458c473.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/UIText.json",
+      "kind": "json",
+      "item_count": 4044,
+      "name_hash_hex": "415e2cbe866ee892",
+      "source_sha256": "87bc09e1445a237ef58ad6ece38838e7563c19ffa733a84aa8ce13a7362c61d8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\415e2cbe866ee892.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/VampireSurvivor.json",
+      "kind": "json",
+      "item_count": 74,
+      "name_hash_hex": "500e72e6b2848017",
+      "source_sha256": "1bf7a8104964d7b71d3c1808d1cc44768d931d5d784d8070608048b7c83c702a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\500e72e6b2848017.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/VampireSurvivorQuest.json",
+      "kind": "json",
+      "item_count": 128,
+      "name_hash_hex": "5050bd0d316a2deb",
+      "source_sha256": "4617ad11fec6db88f9918be38cae3e2495223c9c1257c610acf228fc3a8ed593",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\5050bd0d316a2deb.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/VampireTalent.json",
+      "kind": "json",
+      "item_count": 32,
+      "name_hash_hex": "b037bb46ed664619",
+      "source_sha256": "ad5df7198c4fb69b523829a8a474d09c53ff3b4154715d856d2774ad1cc8a7e5",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b037bb46ed664619.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/VampireTalentDesc.json",
+      "kind": "json",
+      "item_count": 20,
+      "name_hash_hex": "f2cc0153da92020f",
+      "source_sha256": "3d78733c1b30a758c1e9d77d13aa306a328a3b815af560a556b445d8bd4b978a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f2cc0153da92020f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/WeekBossAffix.json",
+      "kind": "json",
+      "item_count": 60,
+      "name_hash_hex": "72263d6209f0423b",
+      "source_sha256": "9057afd2b749cd7bc7d07f9df782d2c8559520ada92b3825a5f75244964e31cb",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\72263d6209f0423b.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/WeekBossLevel.json",
+      "kind": "json",
+      "item_count": 18,
+      "name_hash_hex": "9e85fe70e3ad9b50",
+      "source_sha256": "ca9acf5b0dac324f441f901deba61075274116dabb0d49160f0b359270a8282a",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9e85fe70e3ad9b50.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/WeekBossType.json",
+      "kind": "json",
+      "item_count": 6,
+      "name_hash_hex": "8a088b2a5a4e0bb5",
+      "source_sha256": "a69424db055b6eeaf021cbf3a73d340f6193973b92438e748b6bc71f57747ef8",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8a088b2a5a4e0bb5.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/WeeklyQuest.json",
+      "kind": "json",
+      "item_count": 13,
+      "name_hash_hex": "257ac0afe2a0e79a",
+      "source_sha256": "3243326380e41d35d783200b0c44d2921aeb8561b502b4cdb069a2583e0ca758",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\257ac0afe2a0e79a.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/Word.json",
+      "kind": "json",
+      "item_count": 322,
+      "name_hash_hex": "274b617961408c40",
+      "source_sha256": "401bb5f5a0742bc9d66db039c6904d17a0497c99a1e2431d72e6a7795904b908",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\274b617961408c40.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    },
+    {
+      "path": "language/zh_TW/WorldClass.json",
+      "kind": "json",
+      "item_count": 8,
+      "name_hash_hex": "c0fae336269e8a3f",
+      "source_sha256": "10c72e0219d8ecafdf2023dec33390a1ded99ab6ba7cacc7fac1f6397acc53b5",
+      "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c0fae336269e8a3f.bin",
+      "naming_evidence": [
+        "local_language_key_prefix"
+      ]
+    }
+  ]
+}

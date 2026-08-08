@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+import public "public_soldier.proto";
+
+message SoldierInteractReq {
+  uint32 Id = 1;
+  bytes NextPackage = 2047;
+
+  oneof Action {
+    .proto.InteractShopReq ShopReq = 2;
+    .proto.InteractFightReq FightReq = 3;
+    .proto.InteractSoldierBattleReq BattleReq = 4;
+    .proto.InteractSoldierSelectReq SelectReq = 5;
+    .proto.InteractEventSettlementOfDisputeReq EventSettlementOfDisputeReq = 6;
+    .proto.InteractEventSettlementOfDisputeBattleReq EventSettlementOfDisputeBattleReq = 7;
+    .proto.InteractDeploySyncReq DeploySyncReq = 14;
+    .proto.InteractClientEventReq ClientEventReq = 15;
+  }
+}
+
+message SoldierInteractResp {
+  uint32 Id = 1;
+  repeated .proto.SoldierCase Cases = 2;
+  .proto.ChangeInfo Change = 3;
+  .proto.SoldierNodeData Node = 4;
+  .proto.SoldierSyncData SyncData = 5;
+  repeated .proto.SoldierEffect Effects = 6;
+  bytes NextPackage = 2047;
+
+  oneof Action {
+    .proto.InteractShopResp ShopResp = 8;
+    .proto.InteractSoldierBattleResp BattleResp = 9;
+    .proto.InteractSoldierSelectResp SelectResp = 10;
+    .proto.InteractEventSettlementOfDisputeResp EventSettlementOfDisputeResp = 11;
+    .proto.InteractEventSettlementOfDisputeBattleResp EventSettlementOfDisputeBattleResp = 12;
+    .proto.Nil NilResp = 14;
+    .proto.SoldierSettleDataResp Settle = 15;
+  }
+}

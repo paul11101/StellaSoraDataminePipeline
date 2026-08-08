@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "PenguinCardControl",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 4,
+    "localization_hits": 2,
+    "source": "bin/PenguinCardControl.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "800001": {
+      "Id": 800001,
+      "UIAssets": "_800001/Entrance",
+      "CtrlName": "PenguinCardActCtrl",
+      "RewardsShow": "[503,35000,35001,35002,35003,1]",
+      "DesText": "PenguinCardControl.800001.1",
+      "_localized": {
+        "/DesText": {
+          "key": "PenguinCardControl.800001.1",
+          "zh_TW": "\u000b【活動時間】\u000b2026/03/10 12:00~2026/03/17 11:00 \u000b\u000b【參與條件】\u000b權限等級≥5級\u000b\u000b【活動說明】\u000b請依循珀爾娜和維嘉爾的指引，來一場有趣的命運星牌局吧！",
+          "zh_CN": "\u000b【活动时间】\u000b2026/03/10 12:00~2026/03/17 11:00 \u000b\u000b【参与条件】\u000b权限等级≥5级\u000b\u000b【活动说明】\u000b请跟随珀尔娜与维嘉尔的指引，来一场有趣的命运星牌局吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardControl.json",
+            "zh_CN": "language/zh_CN/PenguinCardControl.json"
+          }
+        }
+      }
+    },
+    "800002": {
+      "Id": 800002,
+      "UIAssets": "_800001/Entrance",
+      "CtrlName": "PenguinCardActCtrl",
+      "RewardsShow": "[503,35000,35001,35002,35003,1]",
+      "DesText": "PenguinCardControl.800002.1"
+    },
+    "800003": {
+      "Id": 800003,
+      "UIAssets": "_800001/Entrance",
+      "CtrlName": "PenguinCardActCtrl",
+      "RewardsShow": "[503,35000,35001,35002,35003,1]",
+      "DesText": "PenguinCardControl.800003.1",
+      "_localized": {
+        "/DesText": {
+          "key": "PenguinCardControl.800003.1",
+          "zh_TW": "\u000b【活動時間】\u000b2026/06/16 12:00~2026/06/23 11:00\u000b\u000b【參與條件】\u000b權限等級≥5級\u000b\u000b【活動說明】\u000b請依循珀爾娜和維嘉爾的指引，來一場有趣的命運星牌局吧！",
+          "zh_CN": "\u000b【活动时间】\u000b2026/06/16 12:00~2026/06/23 11:00 \u000b\u000b【参与条件】\u000b权限等级≥5级\u000b\u000b【活动说明】\u000b请跟随珀尔娜与维嘉尔的指引，来一场有趣的命运星牌局吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardControl.json",
+            "zh_CN": "language/zh_CN/PenguinCardControl.json"
+          }
+        }
+      }
+    },
+    "800004": {
+      "Id": 800004,
+      "UIAssets": "_800001/Entrance",
+      "CtrlName": "PenguinCardActCtrl",
+      "RewardsShow": "[503,35000,35001,35002,35003,1]",
+      "DesText": "PenguinCardControl.800004.1"
+    }
+  }
+}

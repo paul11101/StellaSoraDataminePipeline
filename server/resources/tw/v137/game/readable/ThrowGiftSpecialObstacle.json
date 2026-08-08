@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ThrowGiftSpecialObstacle",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 5,
+    "localization_hits": 0,
+    "source": "bin/ThrowGiftSpecialObstacle.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1010102": {
+      "Id": 1010102,
+      "Type": 1,
+      "Param": [
+        100
+      ],
+      "Reset": true
+    },
+    "1010201": {
+      "Id": 1010201,
+      "Type": 1,
+      "Param": [
+        100
+      ],
+      "Reset": true
+    },
+    "2020101": {
+      "Id": 2020101,
+      "Type": 3,
+      "Param": [
+        400
+      ],
+      "Reset": true
+    },
+    "2020201": {
+      "Id": 2020201,
+      "Type": 4,
+      "Param": [
+        2020202
+      ],
+      "Reset": true
+    },
+    "2020202": {
+      "Id": 2020202,
+      "Type": 5,
+      "Param": [
+        2020201
+      ],
+      "Reset": true
+    }
+  }
+}

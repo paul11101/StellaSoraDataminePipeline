@@ -1,0 +1,1919 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StarTowerEventAction",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 112,
+    "localization_hits": 112,
+    "source": "bin/StarTowerEventAction.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1019133": {
+      "Id": 1019133,
+      "EventId": 101,
+      "Desc": "StarTowerEventAction.1019133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1019133.1",
+          "zh_TW": "我身上帶了點東西…你要嗎？",
+          "zh_CN": "我身上还带着些东西……你要吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1029133": {
+      "Id": 1029133,
+      "EventId": 102,
+      "Desc": "StarTowerEventAction.1029133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1029133.1",
+          "zh_TW": "我身上帶了點東西…你要嗎？",
+          "zh_CN": "我身上还带着些东西……你要吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1039133": {
+      "Id": 1039133,
+      "EventId": 103,
+      "Desc": "StarTowerEventAction.1039133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1039133.1",
+          "zh_TW": "我迷路了，得循著聲音才知道怎麼走…",
+          "zh_CN": "我迷路了，得循着声音才知道怎么走……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1049133": {
+      "Id": 1049133,
+      "EventId": 104,
+      "Desc": "StarTowerEventAction.1049133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1049133.1",
+          "zh_TW": "這可是限定商品！不過價格嘛…",
+          "zh_CN": "这可是限定商品！不过价格嘛……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1059133": {
+      "Id": 1059133,
+      "EventId": 105,
+      "Desc": "StarTowerEventAction.1059133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1059133.1",
+          "zh_TW": "什麼，想和我賭一下運氣？",
+          "zh_CN": "什么，想和我赌一下运气？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1069133": {
+      "Id": 1069133,
+      "EventId": 106,
+      "Desc": "StarTowerEventAction.1069133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1069133.1",
+          "zh_TW": "什麼，想和我賭一下運氣？",
+          "zh_CN": "什么，想和我赌一下运气？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1079133": {
+      "Id": 1079133,
+      "EventId": 107,
+      "Desc": "StarTowerEventAction.1079133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1079133.1",
+          "zh_TW": "要聽歌嗎？來，一起聽吧。",
+          "zh_CN": "要听歌吗？来，一起听吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1089133": {
+      "Id": 1089133,
+      "EventId": 108,
+      "Desc": "StarTowerEventAction.1089133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1089133.1",
+          "zh_TW": "要聽歌嗎？來，一起聽吧。",
+          "zh_CN": "要听歌吗？来，一起听吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1099133": {
+      "Id": 1099133,
+      "EventId": 109,
+      "Desc": "StarTowerEventAction.1099133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1099133.1",
+          "zh_TW": "這個盲盒，你要買嗎？",
+          "zh_CN": "这个盲盒，你要买吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1109133": {
+      "Id": 1109133,
+      "EventId": 110,
+      "Desc": "StarTowerEventAction.1109133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1109133.1",
+          "zh_TW": "這個盲盒，你要買嗎？",
+          "zh_CN": "这个盲盒，你要买吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1119133": {
+      "Id": 1119133,
+      "EventId": 111,
+      "Desc": "StarTowerEventAction.1119133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1119133.1",
+          "zh_TW": "你好像很餓？還是說…",
+          "zh_CN": "你好像很饿？还是说……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1129133": {
+      "Id": 1129133,
+      "EventId": 112,
+      "Desc": "StarTowerEventAction.1129133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1129133.1",
+          "zh_TW": "你好像很餓？還是說…",
+          "zh_CN": "你好像很饿？还是说……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1139133": {
+      "Id": 1139133,
+      "EventId": 113,
+      "Desc": "StarTowerEventAction.1139133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1139133.1",
+          "zh_TW": "你好像很餓？還是說…",
+          "zh_CN": "你好像很饿？还是说……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1149133": {
+      "Id": 1149133,
+      "EventId": 114,
+      "Desc": "StarTowerEventAction.1149133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1149133.1",
+          "zh_TW": "你覺得熬到幾點算熬夜？",
+          "zh_CN": "你觉得熬到几点算熬夜？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1159133": {
+      "Id": 1159133,
+      "EventId": 115,
+      "Desc": "StarTowerEventAction.1159133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1159133.1",
+          "zh_TW": "猜猜看…星塔最喜歡哪個數字？",
+          "zh_CN": "猜猜看……星塔最喜欢哪个数字？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1169133": {
+      "Id": 1169133,
+      "EventId": 116,
+      "Desc": "StarTowerEventAction.1169133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1169133.1",
+          "zh_TW": "考考你，二的十次方是多少？",
+          "zh_CN": "考考你，二的十次方是多少？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1179133": {
+      "Id": 1179133,
+      "EventId": 117,
+      "Desc": "StarTowerEventAction.1179133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1179133.1",
+          "zh_TW": "想玩玩看嗎？這個神奇的遊戲機…",
+          "zh_CN": "想玩玩看吗？这个神奇的游戏机……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1189133": {
+      "Id": 1189133,
+      "EventId": 118,
+      "Desc": "StarTowerEventAction.1189133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1189133.1",
+          "zh_TW": "想玩玩看嗎？這個神奇的遊戲機…",
+          "zh_CN": "想玩玩看吗？这个神奇的游戏机……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1199133": {
+      "Id": 1199133,
+      "EventId": 119,
+      "Desc": "StarTowerEventAction.1199133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1199133.1",
+          "zh_TW": "想玩玩看嗎？這個神奇的遊戲機…",
+          "zh_CN": "想玩玩看吗？这个神奇的游戏机……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1209133": {
+      "Id": 1209133,
+      "EventId": 120,
+      "Desc": "StarTowerEventAction.1209133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1209133.1",
+          "zh_TW": "這是我帶來的商品，你要買一些嗎？",
+          "zh_CN": "这是我带出来的商品，你要买一些吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1219133": {
+      "Id": 1219133,
+      "EventId": 121,
+      "Desc": "StarTowerEventAction.1219133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1219133.1",
+          "zh_TW": "這些都是我帶來的好東西，你要買一些嗎？",
+          "zh_CN": "这些都是我带的好东西，你要买一些吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1229133": {
+      "Id": 1229133,
+      "EventId": 122,
+      "Desc": "StarTowerEventAction.1229133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1229133.1",
+          "zh_TW": "我好不容易帶來的高檔貨！要買一些嗎？",
+          "zh_CN": "我好不容易带出来的高档货！要买一些吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1239133": {
+      "Id": 1239133,
+      "EventId": 123,
+      "Desc": "StarTowerEventAction.1239133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1239133.1",
+          "zh_TW": "其實你也可以被當做商品出售哦？",
+          "zh_CN": "其实你也可以被当做商品出售哦？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1249133": {
+      "Id": 1249133,
+      "EventId": 124,
+      "Desc": "StarTowerEventAction.1249133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1249133.1",
+          "zh_TW": "想玩玩看嗎？這個神奇的遊戲機…",
+          "zh_CN": "想玩玩看吗？这个神奇的游戏机……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1259133": {
+      "Id": 1259133,
+      "EventId": 125,
+      "Desc": "StarTowerEventAction.1259133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1259133.1",
+          "zh_TW": "想玩玩看嗎？這個神奇的遊戲機…",
+          "zh_CN": "想玩玩看吗？这个神奇的游戏机……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1269133": {
+      "Id": 1269133,
+      "EventId": 126,
+      "Desc": "StarTowerEventAction.1269133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1269133.1",
+          "zh_TW": "有朋友，真好…",
+          "zh_CN": "有朋友，真好……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1279133": {
+      "Id": 1279133,
+      "EventId": 127,
+      "Desc": "StarTowerEventAction.1279133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1279133.1",
+          "zh_TW": "有朋友，真好…",
+          "zh_CN": "有朋友，真好……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1289133": {
+      "Id": 1289133,
+      "EventId": 128,
+      "Desc": "StarTowerEventAction.1289133.1",
+      "Group": 9133,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1289133.1",
+          "zh_TW": "有朋友，真好…",
+          "zh_CN": "有朋友，真好……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1019172": {
+      "Id": 1019172,
+      "EventId": 101,
+      "Desc": "StarTowerEventAction.1019172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1019172.1",
+          "zh_TW": "想要變強嗎？",
+          "zh_CN": "想要变强吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1029172": {
+      "Id": 1029172,
+      "EventId": 102,
+      "Desc": "StarTowerEventAction.1029172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1029172.1",
+          "zh_TW": "你還可以變得更強大…",
+          "zh_CN": "你还可以变得更强大……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1039172": {
+      "Id": 1039172,
+      "EventId": 103,
+      "Desc": "StarTowerEventAction.1039172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1039172.1",
+          "zh_TW": "我在收集可以用於治療的音符…",
+          "zh_CN": "我在收集音符，它也可以用于治疗……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1049172": {
+      "Id": 1049172,
+      "EventId": 104,
+      "Desc": "StarTowerEventAction.1049172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1049172.1",
+          "zh_TW": "我可以幫你，但你得付出一些…",
+          "zh_CN": "我可以帮你，但你得付出一些……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1059172": {
+      "Id": 1059172,
+      "EventId": 105,
+      "Desc": "StarTowerEventAction.1059172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1059172.1",
+          "zh_TW": "是時候，獻上你的財富了。",
+          "zh_CN": "是时候，献上你的财富了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1069172": {
+      "Id": 1069172,
+      "EventId": 106,
+      "Desc": "StarTowerEventAction.1069172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1069172.1",
+          "zh_TW": "是時候，獻上你的生命了。",
+          "zh_CN": "是时候，献上你的生命了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1079172": {
+      "Id": 1079172,
+      "EventId": 107,
+      "Desc": "StarTowerEventAction.1079172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1079172.1",
+          "zh_TW": "音樂，也是治療的方法。",
+          "zh_CN": "音乐，也是治疗的方法。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1089172": {
+      "Id": 1089172,
+      "EventId": 108,
+      "Desc": "StarTowerEventAction.1089172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1089172.1",
+          "zh_TW": "音樂，也是治療的方法。",
+          "zh_CN": "音乐，也是治疗的方法。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1099172": {
+      "Id": 1099172,
+      "EventId": 109,
+      "Desc": "StarTowerEventAction.1099172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1099172.1",
+          "zh_TW": "這只是禮尚往來罷了。",
+          "zh_CN": "这只是礼尚往来罢了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1109172": {
+      "Id": 1109172,
+      "EventId": 110,
+      "Desc": "StarTowerEventAction.1109172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1109172.1",
+          "zh_TW": "這只是禮尚往來罷了。",
+          "zh_CN": "这只是礼尚往来罢了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1119172": {
+      "Id": 1119172,
+      "EventId": 111,
+      "Desc": "StarTowerEventAction.1119172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1119172.1",
+          "zh_TW": "需要額外的治療嗎？還是說…",
+          "zh_CN": "需要额外的治疗吗？还是说……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1129172": {
+      "Id": 1129172,
+      "EventId": 112,
+      "Desc": "StarTowerEventAction.1129172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1129172.1",
+          "zh_TW": "需要額外的治療嗎？還是說…",
+          "zh_CN": "需要额外的治疗吗？还是说……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1139172": {
+      "Id": 1139172,
+      "EventId": 113,
+      "Desc": "StarTowerEventAction.1139172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1139172.1",
+          "zh_TW": "需要額外的治療嗎？還是說…",
+          "zh_CN": "需要额外的治疗吗？还是说……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1149172": {
+      "Id": 1149172,
+      "EventId": 114,
+      "Desc": "StarTowerEventAction.1149172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1149172.1",
+          "zh_TW": "做以下哪件事有益身體健康？",
+          "zh_CN": "做以下哪件事有利于身体健康？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1159172": {
+      "Id": 1159172,
+      "EventId": 115,
+      "Desc": "StarTowerEventAction.1159172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1159172.1",
+          "zh_TW": "吃哪種食物更有益身體健康？",
+          "zh_CN": "吃哪种食物更有利于身体健康？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1169172": {
+      "Id": 1169172,
+      "EventId": 116,
+      "Desc": "StarTowerEventAction.1169172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1169172.1",
+          "zh_TW": "以下哪件事要少做，才有益身體健康？",
+          "zh_CN": "以下哪件事要少做，才有利于身体健康？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1179172": {
+      "Id": 1179172,
+      "EventId": 117,
+      "Desc": "StarTowerEventAction.1179172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1179172.1",
+          "zh_TW": "這是不知道會發生什麼的藥劑，想試試嗎？",
+          "zh_CN": "这是不知道会发生什么的药剂，想试试吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1189172": {
+      "Id": 1189172,
+      "EventId": 118,
+      "Desc": "StarTowerEventAction.1189172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1189172.1",
+          "zh_TW": "這是不知道會發生什麼的藥劑，想試試嗎？",
+          "zh_CN": "这是不知道会发生什么的药剂，想试试吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1199172": {
+      "Id": 1199172,
+      "EventId": 119,
+      "Desc": "StarTowerEventAction.1199172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1199172.1",
+          "zh_TW": "這是不知道會發生什麼的藥劑，想試試嗎？",
+          "zh_CN": "这是不知道会发生什么的药剂，想试试吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1209172": {
+      "Id": 1209172,
+      "EventId": 120,
+      "Desc": "StarTowerEventAction.1209172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1209172.1",
+          "zh_TW": "聽完這段音樂…你可能會有意外的收穫。",
+          "zh_CN": "听完这段音乐……你可能会有意外的收获。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1219172": {
+      "Id": 1219172,
+      "EventId": 121,
+      "Desc": "StarTowerEventAction.1219172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1219172.1",
+          "zh_TW": "服下這個藥劑，你會有一些驚喜的。",
+          "zh_CN": "服下这个药剂，你会有一些惊喜的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1229172": {
+      "Id": 1229172,
+      "EventId": 122,
+      "Desc": "StarTowerEventAction.1229172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1229172.1",
+          "zh_TW": "貼上這個膏藥，你會有明顯不同的感受。",
+          "zh_CN": "贴上这个膏药，你会……大有不同。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1239172": {
+      "Id": 1239172,
+      "EventId": 123,
+      "Desc": "StarTowerEventAction.1239172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1239172.1",
+          "zh_TW": "你想要療傷，還是交易？",
+          "zh_CN": "你想要疗伤，还是交易？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1249172": {
+      "Id": 1249172,
+      "EventId": 124,
+      "Desc": "StarTowerEventAction.1249172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1249172.1",
+          "zh_TW": "這是不知道會發生什麼的藥劑，想試試嗎？",
+          "zh_CN": "这是不知道会发生什么的药剂，想试试吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1259172": {
+      "Id": 1259172,
+      "EventId": 125,
+      "Desc": "StarTowerEventAction.1259172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1259172.1",
+          "zh_TW": "這是不知道會發生什麼的藥劑，想試試嗎？",
+          "zh_CN": "这是不知道会发生什么的药剂，想试试吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1269172": {
+      "Id": 1269172,
+      "EventId": 126,
+      "Desc": "StarTowerEventAction.1269172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1269172.1",
+          "zh_TW": "攀登星塔的路上，別忘了相互扶持的同伴。",
+          "zh_CN": "攀登星塔的路上，别忘了相互扶持的同伴。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1279172": {
+      "Id": 1279172,
+      "EventId": 127,
+      "Desc": "StarTowerEventAction.1279172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1279172.1",
+          "zh_TW": "攀登星塔的路上，別忘了相互扶持的同伴。",
+          "zh_CN": "攀登星塔的路上，别忘了相互扶持的同伴。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1289172": {
+      "Id": 1289172,
+      "EventId": 128,
+      "Desc": "StarTowerEventAction.1289172.1",
+      "Group": 9172,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1289172.1",
+          "zh_TW": "攀登星塔的路上，別忘了相互扶持的同伴。",
+          "zh_CN": "攀登星塔的路上，别忘了相互扶持的同伴。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1019173": {
+      "Id": 1019173,
+      "EventId": 101,
+      "Desc": "StarTowerEventAction.1019173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1019173.1",
+          "zh_TW": "想用你的運氣獲得一些好處嗎？",
+          "zh_CN": "想用你的运气获得些好处吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1029173": {
+      "Id": 1029173,
+      "EventId": 102,
+      "Desc": "StarTowerEventAction.1029173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1029173.1",
+          "zh_TW": "來吧…用你的幸運下注吧？",
+          "zh_CN": "来吧……用你的幸运下注吧？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1039173": {
+      "Id": 1039173,
+      "EventId": 103,
+      "Desc": "StarTowerEventAction.1039173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1039173.1",
+          "zh_TW": "你討厭這音符嗎？交給我處理吧。",
+          "zh_CN": "你讨厌这音符吗？交给我处理吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1049173": {
+      "Id": 1049173,
+      "EventId": 104,
+      "Desc": "StarTowerEventAction.1049173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1049173.1",
+          "zh_TW": "你願意付出多少來獲得命運的饋贈？",
+          "zh_CN": "你愿意付出多少来获得命运的馈赠？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1059173": {
+      "Id": 1059173,
+      "EventId": 105,
+      "Desc": "StarTowerEventAction.1059173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1059173.1",
+          "zh_TW": "這就是…命運的賭局！",
+          "zh_CN": "这就是……命运的赌局！",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1069173": {
+      "Id": 1069173,
+      "EventId": 106,
+      "Desc": "StarTowerEventAction.1069173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1069173.1",
+          "zh_TW": "這就是…命運的賭局！",
+          "zh_CN": "这就是……命运的赌局！",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1079173": {
+      "Id": 1079173,
+      "EventId": 107,
+      "Desc": "StarTowerEventAction.1079173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1079173.1",
+          "zh_TW": "旋律…如何影響著你的命運？",
+          "zh_CN": "旋律……如何影响着你的命运？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1089173": {
+      "Id": 1089173,
+      "EventId": 108,
+      "Desc": "StarTowerEventAction.1089173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1089173.1",
+          "zh_TW": "旋律…如何影響著你的命運？",
+          "zh_CN": "旋律……如何影响着你的命运？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1099173": {
+      "Id": 1099173,
+      "EventId": 109,
+      "Desc": "StarTowerEventAction.1099173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1099173.1",
+          "zh_TW": "只是一個小小的賭局而已…",
+          "zh_CN": "只是一个小小的赌局而已……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1109173": {
+      "Id": 1109173,
+      "EventId": 110,
+      "Desc": "StarTowerEventAction.1109173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1109173.1",
+          "zh_TW": "只是一個小小的賭局而已…",
+          "zh_CN": "只是一个小小的赌局而已……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1119173": {
+      "Id": 1119173,
+      "EventId": 111,
+      "Desc": "StarTowerEventAction.1119173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1119173.1",
+          "zh_TW": "生命力也可以成為籌碼哦？",
+          "zh_CN": "生命力也可以成为筹码哦？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1129173": {
+      "Id": 1129173,
+      "EventId": 112,
+      "Desc": "StarTowerEventAction.1129173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1129173.1",
+          "zh_TW": "生命力也可以成為籌碼哦？",
+          "zh_CN": "生命力也可以成为筹码哦？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1139173": {
+      "Id": 1139173,
+      "EventId": 113,
+      "Desc": "StarTowerEventAction.1139173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1139173.1",
+          "zh_TW": "生命力也可以成為籌碼哦？",
+          "zh_CN": "生命力也可以成为筹码哦？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1149173": {
+      "Id": 1149173,
+      "EventId": 114,
+      "Desc": "StarTowerEventAction.1149173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1149173.1",
+          "zh_TW": "所謂的忠於慾望啊…你認為是？",
+          "zh_CN": "所谓的忠于欲望啊……你认为是？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1159173": {
+      "Id": 1159173,
+      "EventId": 115,
+      "Desc": "StarTowerEventAction.1159173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1159173.1",
+          "zh_TW": "猜猜看，我更欣賞哪種旅人？",
+          "zh_CN": "猜猜看，我更欣赏哪种旅人？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1169173": {
+      "Id": 1169173,
+      "EventId": 116,
+      "Desc": "StarTowerEventAction.1169173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1169173.1",
+          "zh_TW": "考考你，一個八度裡共有幾個音？",
+          "zh_CN": "考考你，一个八度里共有几个音？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1179173": {
+      "Id": 1179173,
+      "EventId": 117,
+      "Desc": "StarTowerEventAction.1179173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1179173.1",
+          "zh_TW": "命運的賭局，為你點燈了！",
+          "zh_CN": "命运的赌局，为你而点灯了！",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1189173": {
+      "Id": 1189173,
+      "EventId": 118,
+      "Desc": "StarTowerEventAction.1189173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1189173.1",
+          "zh_TW": "命運的賭局，為你點燈了！",
+          "zh_CN": "命运的赌局，为你而点灯了！",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1199173": {
+      "Id": 1199173,
+      "EventId": 119,
+      "Desc": "StarTowerEventAction.1199173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1199173.1",
+          "zh_TW": "命運的賭局，為你點燈了！",
+          "zh_CN": "命运的赌局，为你而点灯了！",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1209173": {
+      "Id": 1209173,
+      "EventId": 120,
+      "Desc": "StarTowerEventAction.1209173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1209173.1",
+          "zh_TW": "想和命運做交易，還是接受我的施捨？",
+          "zh_CN": "想与命运做个交易，还是接受我的施舍？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1219173": {
+      "Id": 1219173,
+      "EventId": 121,
+      "Desc": "StarTowerEventAction.1219173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1219173.1",
+          "zh_TW": "想和命運做交易，還是接受我的施捨？",
+          "zh_CN": "想与命运做个交易，还是接受我的施舍？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1229173": {
+      "Id": 1229173,
+      "EventId": 122,
+      "Desc": "StarTowerEventAction.1229173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1229173.1",
+          "zh_TW": "想和命運做交易，還是接受我的施捨？",
+          "zh_CN": "想与命运做个交易，还是接受我的施舍？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1239173": {
+      "Id": 1239173,
+      "EventId": 123,
+      "Desc": "StarTowerEventAction.1239173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1239173.1",
+          "zh_TW": "你的生命…也可以作為籌碼。",
+          "zh_CN": "你的生命……也可以作为筹码。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1249173": {
+      "Id": 1249173,
+      "EventId": 124,
+      "Desc": "StarTowerEventAction.1249173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1249173.1",
+          "zh_TW": "命運的賭局，為你點燈了！",
+          "zh_CN": "命运的赌局，为你而点灯了！",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1259173": {
+      "Id": 1259173,
+      "EventId": 125,
+      "Desc": "StarTowerEventAction.1259173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1259173.1",
+          "zh_TW": "命運的賭局，為你點燈了！",
+          "zh_CN": "命运的赌局，为你而点灯了！",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1269173": {
+      "Id": 1269173,
+      "EventId": 126,
+      "Desc": "StarTowerEventAction.1269173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1269173.1",
+          "zh_TW": "命運將你們連繫在一起…",
+          "zh_CN": "命运将你们联系在一起……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1279173": {
+      "Id": 1279173,
+      "EventId": 127,
+      "Desc": "StarTowerEventAction.1279173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1279173.1",
+          "zh_TW": "命運將你們連繫在一起…",
+          "zh_CN": "命运将你们联系在一起……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1289173": {
+      "Id": 1289173,
+      "EventId": 128,
+      "Desc": "StarTowerEventAction.1289173.1",
+      "Group": 9173,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1289173.1",
+          "zh_TW": "命運將你們連繫在一起…",
+          "zh_CN": "命运将你们联系在一起……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1019174": {
+      "Id": 1019174,
+      "EventId": 101,
+      "Desc": "StarTowerEventAction.1019174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1019174.1",
+          "zh_TW": "想要驗證一下你的運氣嗎？",
+          "zh_CN": "想要验证一下你的运气吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1029174": {
+      "Id": 1029174,
+      "EventId": 102,
+      "Desc": "StarTowerEventAction.1029174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1029174.1",
+          "zh_TW": "此刻，你的理性會做出什麼決定呢？",
+          "zh_CN": "你的理性会在此刻做出何种抉择呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1039174": {
+      "Id": 1039174,
+      "EventId": 103,
+      "Desc": "StarTowerEventAction.1039174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1039174.1",
+          "zh_TW": "這不是你真正喜歡的聲音，對吧？",
+          "zh_CN": "你真正喜欢的声音，不是这个吧？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1049174": {
+      "Id": 1049174,
+      "EventId": 104,
+      "Desc": "StarTowerEventAction.1049174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1049174.1",
+          "zh_TW": "命運已準備好眷顧你，你打算如何感謝？",
+          "zh_CN": "命运已准备好眷顾你，你打算如何感谢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1059174": {
+      "Id": 1059174,
+      "EventId": 105,
+      "Desc": "StarTowerEventAction.1059174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1059174.1",
+          "zh_TW": "這是你…理性的決斷！",
+          "zh_CN": "这是你……理性的决断！",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1069174": {
+      "Id": 1069174,
+      "EventId": 106,
+      "Desc": "StarTowerEventAction.1069174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1069174.1",
+          "zh_TW": "這是你…理性的決斷！",
+          "zh_CN": "这是你……理性的决断！",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1079174": {
+      "Id": 1079174,
+      "EventId": 107,
+      "Desc": "StarTowerEventAction.1079174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1079174.1",
+          "zh_TW": "你會如何傾聽…命運的旋律？",
+          "zh_CN": "你会如何倾听……命运的旋律？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1089174": {
+      "Id": 1089174,
+      "EventId": 108,
+      "Desc": "StarTowerEventAction.1089174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1089174.1",
+          "zh_TW": "你會如何傾聽…命運的旋律？",
+          "zh_CN": "你会如何倾听……命运的旋律？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1099174": {
+      "Id": 1099174,
+      "EventId": 109,
+      "Desc": "StarTowerEventAction.1099174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1099174.1",
+          "zh_TW": "你只是主動邁出了這步而已…",
+          "zh_CN": "你只是主动迈出了这步而已……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1109174": {
+      "Id": 1109174,
+      "EventId": 110,
+      "Desc": "StarTowerEventAction.1109174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1109174.1",
+          "zh_TW": "你只是主動邁出了這步而已…",
+          "zh_CN": "你只是主动迈出了这步而已……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1119174": {
+      "Id": 1119174,
+      "EventId": 111,
+      "Desc": "StarTowerEventAction.1119174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1119174.1",
+          "zh_TW": "所以你想…用生命力交換些什麼？",
+          "zh_CN": "所以你想……用生命力交换些什么吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1129174": {
+      "Id": 1129174,
+      "EventId": 112,
+      "Desc": "StarTowerEventAction.1129174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1129174.1",
+          "zh_TW": "你想用生命力交換些什麼？",
+          "zh_CN": "你想用生命力交换些什么吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1139174": {
+      "Id": 1139174,
+      "EventId": 113,
+      "Desc": "StarTowerEventAction.1139174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1139174.1",
+          "zh_TW": "你想用生命力交換些什麼？",
+          "zh_CN": "你想用生命力交换些什么吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1149174": {
+      "Id": 1149174,
+      "EventId": 114,
+      "Desc": "StarTowerEventAction.1149174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1149174.1",
+          "zh_TW": "你認為，什麼才算是有遠大抱負？",
+          "zh_CN": "你觉得，如何才算是志存高远？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1159174": {
+      "Id": 1159174,
+      "EventId": 115,
+      "Desc": "StarTowerEventAction.1159174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1159174.1",
+          "zh_TW": "猜猜看…我更喜歡和哪種旅人搭話？",
+          "zh_CN": "猜猜看……我更喜欢和哪种旅人搭话？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1169174": {
+      "Id": 1169174,
+      "EventId": 116,
+      "Desc": "StarTowerEventAction.1169174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1169174.1",
+          "zh_TW": "考考你，一個立方體有幾個面？",
+          "zh_CN": "考考你，一个立方体有几个面？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1179174": {
+      "Id": 1179174,
+      "EventId": 117,
+      "Desc": "StarTowerEventAction.1179174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1179174.1",
+          "zh_TW": "你也想踏入命運之鏡，是嗎？",
+          "zh_CN": "你也想踏入命运的镜中，是吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1189174": {
+      "Id": 1189174,
+      "EventId": 118,
+      "Desc": "StarTowerEventAction.1189174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1189174.1",
+          "zh_TW": "你也想踏入命運之鏡，是嗎？",
+          "zh_CN": "你也想踏入命运的镜中，是吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1199174": {
+      "Id": 1199174,
+      "EventId": 119,
+      "Desc": "StarTowerEventAction.1199174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1199174.1",
+          "zh_TW": "你也想踏入命運之鏡，是嗎？",
+          "zh_CN": "你也想踏入命运的镜中，是吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1209174": {
+      "Id": 1209174,
+      "EventId": 120,
+      "Desc": "StarTowerEventAction.1209174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1209174.1",
+          "zh_TW": "想和命運談判，還是主動尋求我的好意？",
+          "zh_CN": "想和命运来场谈判，还是主动寻求我的好意？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1219174": {
+      "Id": 1219174,
+      "EventId": 121,
+      "Desc": "StarTowerEventAction.1219174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1219174.1",
+          "zh_TW": "想和命運談判，還是主動尋求我的好意？",
+          "zh_CN": "想和命运来场谈判，还是主动寻求我的好意？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1229174": {
+      "Id": 1229174,
+      "EventId": 122,
+      "Desc": "StarTowerEventAction.1229174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1229174.1",
+          "zh_TW": "想和命運談判，還是主動尋求我的好意？",
+          "zh_CN": "想和命运来场谈判，还是主动寻求我的好意？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1239174": {
+      "Id": 1239174,
+      "EventId": 123,
+      "Desc": "StarTowerEventAction.1239174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1239174.1",
+          "zh_TW": "獻上一點恰到好處的生命的話，你就可以…",
+          "zh_CN": "献上一点恰到好处的生命的话，你就可以……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1249174": {
+      "Id": 1249174,
+      "EventId": 124,
+      "Desc": "StarTowerEventAction.1249174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1249174.1",
+          "zh_TW": "你也想踏入命運之鏡，是嗎？",
+          "zh_CN": "你也想踏入命运的镜中，是吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1259174": {
+      "Id": 1259174,
+      "EventId": 125,
+      "Desc": "StarTowerEventAction.1259174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1259174.1",
+          "zh_TW": "你也想踏入命運之鏡，是嗎？",
+          "zh_CN": "你也想踏入命运的镜中，是吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1269174": {
+      "Id": 1269174,
+      "EventId": 126,
+      "Desc": "StarTowerEventAction.1269174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1269174.1",
+          "zh_TW": "你們追尋著同樣的命運…",
+          "zh_CN": "你们追寻着同样的命运……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1279174": {
+      "Id": 1279174,
+      "EventId": 127,
+      "Desc": "StarTowerEventAction.1279174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1279174.1",
+          "zh_TW": "你們追尋著同樣的命運…",
+          "zh_CN": "你们追寻着同样的命运……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    },
+    "1289174": {
+      "Id": 1289174,
+      "EventId": 128,
+      "Desc": "StarTowerEventAction.1289174.1",
+      "Group": 9174,
+      "_localized": {
+        "/Desc": {
+          "key": "StarTowerEventAction.1289174.1",
+          "zh_TW": "你們追尋著同樣的命運…",
+          "zh_CN": "你们追寻着同样的命运……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerEventAction.json",
+            "zh_CN": "language/zh_CN/StarTowerEventAction.json"
+          }
+        }
+      }
+    }
+  }
+}

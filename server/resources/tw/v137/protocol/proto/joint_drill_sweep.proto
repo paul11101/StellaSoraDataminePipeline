@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message JointDrillSweepReq {
+  uint32 LevelId = 1;
+  uint32 Count = 2;
+  bytes NextPackage = 2047;
+}
+
+message JointDrillSweepResp {
+  .proto.ChangeInfo Change = 1;
+  repeated .proto.ItemTpls Rewards = 2;
+  uint32 Score = 3;
+  bytes NextPackage = 2047;
+}

@@ -1,0 +1,453 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+import public "traveler_duel_rank_upload.proto";
+
+message StarTowerInfo {
+  .proto.StarTowerMeta Meta = 1;
+  .proto.StarTowerRoom Room = 2;
+  .proto.StarTowerBag Bag = 3;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerMeta {
+  uint32 Id = 1;
+  uint32 CharHp = 2;
+  uint32 TeamLevel = 3;
+  uint32 TeamExp = 4;
+  repeated .proto.StarTowerChar Chars = 5;
+  repeated .proto.StarTowerDisc Discs = 6;
+  uint32 DateLen = 7;
+  string ClientData = 8;
+  repeated uint32 ActiveSecondaryIds = 9;
+  uint32 NPCInteractions = 10;
+  repeated uint32 TowerGrowthNodes = 11;
+  uint32 ResurrectionCnt = 12;
+  uint32 TotalTime = 14;
+  repeated uint64 TotalDamages = 15;
+  uint64 BuildId = 16;
+  uint32 DataVersion = 17;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerDisc {
+  uint32 Id = 1;
+  uint32 Level = 2;
+  uint32 Phase = 3;
+  uint32 Star = 4;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerChar {
+  uint32 Id = 1;
+  repeated .proto.StarTowerCharGem Gems = 2;
+  uint32 Level = 3;
+  repeated uint32 SkillLvs = 4;
+  uint32 AffinityLevel = 5;
+  uint32 Advance = 6;
+  bytes TalentNodes = 7;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerCharGem {
+  repeated uint32 Attributes = 1;
+  uint32 SlotId = 2;
+  repeated uint32 OverlockCount = 3;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerBag {
+  repeated .proto.FateCardInfo FateCard = 1;
+  repeated .proto.PotentialInfo Potentials = 2;
+  repeated .proto.TowerItemInfo Items = 3;
+  repeated .proto.TowerResInfo Res = 4;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerRoom {
+  .proto.StarTowerRoomData Data = 1;
+  repeated .proto.StarTowerRoomCase Cases = 2;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerRoomData {
+  uint32 Floor = 1;
+  uint32 MapId = 2;
+  uint32 ParamId = 3;
+  uint32 RoomType = 4;
+  string MapParam = 5;
+  uint32 MapTableId = 6;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerRoomCase {
+  uint32 Id = 1;
+  bytes NextPackage = 2047;
+
+  oneof Data {
+    .proto.BattleCaseData BattleCase = 2;
+    .proto.DoorCaseData DoorCase = 3;
+    .proto.SelectSpecialPotentialCaseData SelectSpecialPotentialCase = 4;
+    .proto.SelectPotentialCaseData SelectPotentialCase = 5;
+    .proto.SelectFateCardCaseData SelectFateCardCase = 6;
+    .proto.SelectOptionsEventCaseData SelectOptionsEventCase = 8;
+    .proto.RecoveryHPCaseData RecoveryHPCase = 9;
+    .proto.NpcRecoveryHPCaseData NpcRecoveryHPCase = 10;
+    .proto.HawkerCaseData HawkerCase = 11;
+    .proto.StrengthenMachineCaseData StrengthenMachineCase = 12;
+    .proto.SyncHPCaseData SyncHPCase = 15;
+  }
+}
+
+message BattleCaseData {
+  bool TimeLimit = 1;
+  bool FateCard = 2;
+  uint32 SubNoteSkillNum = 3;
+  bytes NextPackage = 2047;
+}
+
+message DoorCaseData {
+  uint32 Floor = 1;
+  uint32 Type = 2;
+  bytes NextPackage = 2047;
+}
+
+message SelectSpecialPotentialCaseData {
+  repeated uint32 Ids = 1;
+  uint32 TeamLevel = 2;
+  repeated uint32 NewIds = 3;
+  bool CanReRoll = 7;
+  uint32 ReRollPrice = 8;
+  bytes NextPackage = 2047;
+}
+
+message SelectPotentialCaseData {
+  repeated .proto.PotentialInfo Infos = 1;
+  uint32 TeamLevel = 2;
+  repeated uint32 NewIds = 3;
+  repeated uint32 LuckyIds = 12;
+  bool CanReRoll = 13;
+  uint32 ReRollPrice = 14;
+  uint32 Type = 15;
+  bytes NextPackage = 2047;
+}
+
+message SelectOptionsEventCaseData {
+  uint32 EvtId = 1;
+  repeated uint32 Options = 2;
+  repeated uint32 FailedIdxes = 3;
+  uint32 NPCId = 4;
+  bool Done = 5;
+  repeated .proto.NPCAffinityInfo Infos = 6;
+  bytes NextPackage = 2047;
+}
+
+message SelectFateCardCaseData {
+  repeated uint32 Ids = 1;
+  repeated uint32 NewIds = 2;
+  bool Give = 3;
+  bool CanReRoll = 7;
+  uint32 ReRollPrice = 8;
+  bytes NextPackage = 2047;
+}
+
+message RecoveryHPCaseData {
+  uint32 EffectId = 1;
+  bytes NextPackage = 2047;
+}
+
+message NpcRecoveryHPCaseData {
+  uint32 EffectId = 1;
+  bytes NextPackage = 2047;
+}
+
+message SyncHPCaseData {
+  bytes NextPackage = 2047;
+}
+
+message HawkerGoods {
+  uint32 Sid = 1;
+  uint32 Idx = 2;
+  uint32 CharPos = 3;
+  int32 Price = 4;
+  int32 Discount = 5;
+  uint32 Type = 6;
+  uint32 GoodsId = 7;
+  uint32 Tag = 15;
+  bytes NextPackage = 2047;
+}
+
+message HawkerCaseData {
+  repeated .proto.HawkerGoods List = 1;
+  repeated uint32 Purchase = 2;
+  bool CanReRoll = 7;
+  uint32 ReRollPrice = 8;
+  uint32 ReRollTimes = 9;
+  bytes NextPackage = 2047;
+}
+
+message InteractHawkerReq {
+  bytes NextPackage = 2047;
+
+  oneof Action {
+    uint32 Sid = 1;
+    bool ReRoll = 2;
+  }
+}
+
+message InteractStrengthenMachineResp {
+  bool BuySucceed = 1;
+  bytes NextPackage = 2047;
+}
+
+message StrengthenMachineCaseData {
+  uint32 Times = 1;
+  bool FirstFree = 7;
+  uint32 Discount = 8;
+  bytes NextPackage = 2047;
+}
+
+message InteractEnterReq {
+  uint32 MapId = 1;
+  uint32 ParamId = 2;
+  uint32 DateLen = 3;
+  string ClientData = 4;
+  string MapParam = 5;
+  uint32 MapTableId = 6;
+  uint32 DataVersion = 7;
+  bytes NextPackage = 2047;
+}
+
+message InteractEnterResp {
+  .proto.StarTowerRoom Room = 1;
+  bytes NextPackage = 2047;
+}
+
+message InteractBattleEndReq {
+  message VictoryData {
+    uint32 HP = 1;
+    uint32 Time = 2;
+    uint32 DateLen = 3;
+    string ClientData = 4;
+    repeated .proto.FateCardUsage fateCardUsage = 5;
+    repeated uint32 Damages = 6;
+    uint32 DataVersion = 7;
+    .proto.Events Events = 15;
+  }
+
+  bytes NextPackage = 2047;
+
+  oneof Result {
+    .proto.InteractBattleEndReq.VictoryData Victory = 1;
+    bool Defeat = 2;
+  }
+}
+
+message InteractBattleEndResp {
+  message VictoryData {
+    uint32 Exp = 1;
+    uint32 Lv = 2;
+    uint32 BattleTime = 10;
+  }
+
+  message DefeatData {
+    uint32 Lv = 1;
+  }
+
+  bytes NextPackage = 2047;
+
+  oneof Result {
+    .proto.InteractBattleEndResp.VictoryData Victory = 1;
+    .proto.InteractBattleEndResp.DefeatData Defeat = 2;
+  }
+}
+
+message InteractRecoveryHPReq {
+  uint32 Hp = 1;
+  bytes NextPackage = 2047;
+}
+
+message FateCardUsage {
+  uint32 Id = 1;
+  uint32 Times = 2;
+  bytes NextPackage = 2047;
+}
+
+message InteractSelectReq {
+  bytes NextPackage = 2047;
+
+  oneof Select {
+    uint32 Index = 1;
+    bool ReRoll = 2;
+  }
+}
+
+message InteractSelectResp {
+  message Success {
+    repeated .proto.ItemTpl Items = 1;
+    bool OptionsResult = 2;
+    repeated .proto.FateCardInfo FateCard = 3;
+    repeated .proto.SubNoteSkillInfo SubNoteSkills = 4;
+    uint32 OptionsParamId = 5;
+    repeated .proto.NPCAffinityChange AffinityChange = 6;
+  }
+
+  bytes NextPackage = 2047;
+
+  oneof Result {
+    .proto.InteractSelectResp.Success Resp = 1;
+    .proto.SelectSpecialPotentialCaseData SelectSpecialPotentialCase = 2;
+    .proto.SelectPotentialCaseData SelectPotentialCase = 3;
+    .proto.SelectFateCardCaseData SelectFateCardCase = 4;
+    .proto.HawkerCaseData HawkerCase = 5;
+  }
+}
+
+message FateCardInfo {
+  uint32 Tid = 1;
+  int32 Qty = 2;
+  int32 Remain = 3;
+  int32 Room = 4;
+  bytes NextPackage = 2047;
+}
+
+message PotentialInfo {
+  uint32 Tid = 1;
+  int32 Level = 2;
+  bytes NextPackage = 2047;
+}
+
+message TowerItemInfo {
+  uint32 Tid = 1;
+  int32 Qty = 2;
+  bytes NextPackage = 2047;
+}
+
+message TowerResInfo {
+  uint32 Tid = 1;
+  int32 Qty = 2;
+  bytes NextPackage = 2047;
+}
+
+message SubNoteSkillInfo {
+  uint32 Tid = 1;
+  int32 Qty = 2;
+  bool New = 3;
+  uint32 LuckyLevel = 4;
+  bytes NextPackage = 2047;
+}
+
+message FirstAward {
+  uint32 TowerId = 1;
+  repeated .proto.ItemTpl Items = 2;
+  bytes NextPackage = 2047;
+}
+
+message SettleDataResp {
+  .proto.ChangeInfo Change = 1;
+  .proto.StarTowerBuildInfo Build = 2;
+  repeated .proto.FirstAward Awards = 3;
+  repeated .proto.NPCAffinityLevelReward Reward = 4;
+  uint32 NpcInteraction = 5;
+  repeated .proto.ItemTpl TowerRewards = 6;
+  uint32 TotalTime = 14;
+  repeated uint64 TotalDamages = 15;
+  bytes NextPackage = 2047;
+}
+
+message TowerBuildChar {
+  uint32 CharId = 1;
+  uint32 PotentialCnt = 2;
+  bytes NextPackage = 2047;
+}
+
+message BuildPotential {
+  uint32 PotentialId = 1;
+  uint32 Level = 2;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerBuildInfo {
+  .proto.StarTowerBuildBrief Brief = 1;
+  .proto.StarTowerBuildDetail Detail = 2;
+  uint32 BuildCoin = 3;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerBuildBrief {
+  uint64 Id = 1;
+  string Name = 2;
+  bool Lock = 3;
+  bool Preference = 4;
+  uint32 Score = 5;
+  repeated uint32 DiscIds = 6;
+  repeated .proto.TowerBuildChar Chars = 7;
+  uint32 StarTowerId = 8;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerBuildDetail {
+  repeated .proto.BuildPotential Potentials = 1;
+  repeated .proto.ItemTpl SubNoteSkills = 2;
+  repeated uint32 ActiveSecondaryIds = 3;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerBookCharPotentialBrief {
+  uint32 CharId = 1;
+  uint32 Count = 2;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerBookPotential {
+  uint32 Id = 1;
+  uint32 Level = 2;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerBookCharPotential {
+  uint32 CharId = 1;
+  repeated .proto.StarTowerBookPotential Potentials = 2;
+  bytes NextPackage = 2047;
+}
+
+message TowerChangeData {
+  repeated .proto.SubNoteSkillInfo Infos = 1;
+  repeated .proto.ActiveSecondaryChange Secondaries = 2;
+  bytes NextPackage = 2047;
+}
+
+message ActiveSecondaryChange {
+  uint32 SecondaryId = 1;
+  bool Active = 2;
+  bytes NextPackage = 2047;
+}
+
+message NPCAffinityInfo {
+  uint32 NPCId = 1;
+  uint32 Affinity = 2;
+  bytes NextPackage = 2047;
+}
+
+message NPCAffinityChange {
+  uint32 NPCId = 1;
+  uint32 Affinity = 2;
+  uint32 Increase = 3;
+  bytes NextPackage = 2047;
+}
+
+message NPCAffinityLevelReward {
+  .proto.NPCAffinityChange Change = 1;
+  repeated .proto.ItemTpl Items = 2;
+  bytes NextPackage = 2047;
+}
+
+message PotentialPreselection {
+  uint64 Id = 1;
+  string Name = 2;
+  bool Preference = 3;
+  repeated .proto.StarTowerBookCharPotential CharPotentials = 4;
+  uint64 Timestamp = 5;
+  bytes NextPackage = 2047;
+}

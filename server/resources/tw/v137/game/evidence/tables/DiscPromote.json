@@ -1,0 +1,324 @@
+{
+  "table": "DiscPromote",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3568c1a43b092c8f.bin",
+  "source_sha256": "7b3e4eb0ab8ede67ee37d28bddd65b7a11de602cfab9e4cb4866648bd00f3e60",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\DiscPromote.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 72
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10
+    ],
+    "reference_field_order": [
+      "Id",
+      "ItemId1",
+      "Num1",
+      "ItemId2",
+      "Num2",
+      "ItemId3",
+      "Num3",
+      "ExpenseGold"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 8,
+    "remaining_name_count": 8,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 72,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "ItemId1",
+        "matching_reference_rows": 72,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Num1",
+        "matching_reference_rows": 54,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "ItemId2",
+        "matching_reference_rows": 63,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Num2",
+        "matching_reference_rows": 63,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "ItemId3",
+        "matching_reference_rows": 27,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "Num3",
+        "matching_reference_rows": 27,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "ExpenseGold",
+        "matching_reference_rows": 72,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 72,
+      "compared_reference_rows": 72,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 72,
+          "compared": 72
+        },
+        {
+          "codec": "varint_int",
+          "matches": 72,
+          "compared": 72
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 72
+        }
+      ]
+    },
+    "2": {
+      "field": "ItemId1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 72,
+      "compared_reference_rows": 72,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 72,
+          "compared": 72
+        },
+        {
+          "codec": "varint_int",
+          "matches": 72,
+          "compared": 72
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 72
+        }
+      ]
+    },
+    "3": {
+      "field": "Num1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 54,
+      "compared_reference_rows": 54,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 54,
+          "compared": 54
+        },
+        {
+          "codec": "varint_int",
+          "matches": 54,
+          "compared": 54
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 54
+        }
+      ]
+    },
+    "4": {
+      "field": "ItemId2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 63,
+      "compared_reference_rows": 63,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 63,
+          "compared": 63
+        },
+        {
+          "codec": "varint_int",
+          "matches": 63,
+          "compared": 63
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 63
+        }
+      ]
+    },
+    "5": {
+      "field": "Num2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 63,
+      "compared_reference_rows": 63,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 63,
+          "compared": 63
+        },
+        {
+          "codec": "varint_int",
+          "matches": 63,
+          "compared": 63
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 63
+        }
+      ]
+    },
+    "6": {
+      "field": "ItemId3",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "7": {
+      "field": "Num3",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "10": {
+      "field": "ExpenseGold",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 72,
+      "compared_reference_rows": 72,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 72,
+          "compared": 72
+        },
+        {
+          "codec": "varint_int",
+          "matches": 72,
+          "compared": 72
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 72
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 72,
+    "reference_row_count": 72,
+    "shared_key_count": 72,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 72,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

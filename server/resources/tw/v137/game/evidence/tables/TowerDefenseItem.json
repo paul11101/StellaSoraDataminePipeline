@@ -1,0 +1,399 @@
+{
+  "table": "TowerDefenseItem",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ed2d5eba85a9f82b.bin",
+  "source_sha256": "72d32587ac07794375d35c1f7536f99e35af15fa21738c8b529b8802d049fd20",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\TowerDefenseItem.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 4
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "reference_field_order": [
+      "Id",
+      "Name",
+      "Des",
+      "Amount",
+      "Cd",
+      "ChargeScript",
+      "ChargeParam1",
+      "ChargeParam2",
+      "Script",
+      "CardIcon",
+      "Head"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 11,
+    "remaining_name_count": 11,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Name",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Des",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Amount",
+        "matching_reference_rows": 2,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Cd",
+        "matching_reference_rows": 3,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "ChargeScript",
+        "matching_reference_rows": 1,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "ChargeParam1",
+        "matching_reference_rows": 1,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "ChargeParam2",
+        "matching_reference_rows": 1,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "Script",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "CardIcon",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "Head",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "2": {
+      "field": "Name",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "3": {
+      "field": "Des",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "4": {
+      "field": "Amount",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "5": {
+      "field": "Cd",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3,
+      "compared_reference_rows": 3,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3,
+          "compared": 3
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3,
+          "compared": 3
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3
+        }
+      ]
+    },
+    "6": {
+      "field": "ChargeScript",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    },
+    "7": {
+      "field": "ChargeParam1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    },
+    "8": {
+      "field": "ChargeParam2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    },
+    "10": {
+      "field": "Script",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "11": {
+      "field": "CardIcon",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "12": {
+      "field": "Head",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 4,
+    "reference_row_count": 4,
+    "shared_key_count": 4,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 4,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+import public "public_joint_drill.proto";
+
+message ActivityMsg {
+  uint32 Id = 1;
+  bytes NextPackage = 2047;
+
+  oneof Data {
+    .proto.ActivityPeriodic Periodic = 2;
+    .proto.ActivityLogin Login = 3;
+    .proto.ActivityMining Mining = 4;
+    .proto.ActivityJointDrill JointDrill = 5;
+    .proto.ActivityCookie Cookie = 6;
+    .proto.ActivityTowerDefense TowerDefense = 7;
+    .proto.ActivityTrial Trial = 8;
+    .proto.ActivityCG CG = 9;
+    .proto.ActivityLevels Levels = 10;
+    .proto.ActivityAvg Avg = 11;
+    .proto.ActivityTask Task = 12;
+    .proto.ActivityShop Shop = 13;
+    .proto.ActivityBuildConvert BdConvert = 14;
+    .proto.ActivityTrekkerVersus TrekkerVersus = 15;
+    .proto.ActivityStoryChapter StoryChapter = 16;
+    .proto.Milkout Milkout = 17;
+    .proto.ActivityPenguinCard PenguinCard = 18;
+    .proto.ActivityThrowGift ThrowGift = 19;
+    .proto.ActivityGDS GDS = 20;
+    .proto.ActivityDouble Double = 21;
+    .proto.ActivityHistoryStoryChapter HistoryStoryChapter = 22;
+    .proto.ActivityShare Share = 23;
+    .proto.ActivityIceCream IceCream = 24;
+    .proto.ActivitySoldier Soldier = 25;
+  }
+}
+
+message ActivityResp {
+  repeated .proto.ActivityMsg List = 1;
+  bytes NextPackage = 2047;
+}

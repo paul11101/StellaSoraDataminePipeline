@@ -1,0 +1,944 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "OpenFunc",
+    "categories": [
+      "quests"
+    ],
+    "row_count": 31,
+    "localization_hits": 67,
+    "source": "bin/OpenFunc.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Name": "OpenFunc.Char.1",
+      "Desc": "OpenFunc.Char.2",
+      "Tips": "OpenFunc.Char.3",
+      "Param1": "0",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.Char.1",
+          "zh_TW": "角色",
+          "zh_CN": "角色",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Name": "OpenFunc.Gacha.1",
+      "Desc": "OpenFunc.Gacha.2",
+      "Tips": "OpenFunc.Gacha.3",
+      "Param1": "0",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.Gacha.1",
+          "zh_TW": "招募",
+          "zh_CN": "招募",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Name": "OpenFunc.Mail.1",
+      "Desc": "OpenFunc.Mail.2",
+      "Tips": "OpenFunc.Mail.3",
+      "Param1": "0",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.Mail.1",
+          "zh_TW": "郵件",
+          "zh_CN": "邮件",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "Name": "OpenFunc.StarTower.1",
+      "PopWindows": true,
+      "Desc": "OpenFunc.StarTower.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_Mainline",
+      "Tips": "OpenFunc.StarTower.3",
+      "Param1": "0",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.StarTower.1",
+          "zh_TW": "星塔探索",
+          "zh_CN": "星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Desc": {
+          "key": "OpenFunc.StarTower.2",
+          "zh_TW": "探索星塔遺跡，獲得強力紀錄",
+          "zh_CN": "对星塔遗迹进行探索，获得强力纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.StarTower.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "Name": "OpenFunc.DailyInstance.1",
+      "Desc": "OpenFunc.DailyInstance.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_DailyInstance",
+      "Tips": "OpenFunc.DailyInstance.3",
+      "Param1": "0",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.DailyInstance.1",
+          "zh_TW": "懸賞行動",
+          "zh_CN": "悬赏行动",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "Name": "OpenFunc.RegionBoss.1",
+      "NeedWorldClass": 3,
+      "PopWindows": true,
+      "Desc": "OpenFunc.RegionBoss.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_RegionBoss",
+      "Tips": "OpenFunc.RegionBoss.3",
+      "Param1": "3",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.RegionBoss.1",
+          "zh_TW": "晉升試煉",
+          "zh_CN": "晋升试炼",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Desc": {
+          "key": "OpenFunc.RegionBoss.2",
+          "zh_TW": "消耗活力獲得各類養成材料！",
+          "zh_CN": "消耗干劲获得各类养成素材！",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.RegionBoss.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "Name": "OpenFunc.TravelerDuel.1",
+      "NeedWorldClass": 10,
+      "Desc": "OpenFunc.TravelerDuel.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_TravelerDuel",
+      "Tips": "OpenFunc.TravelerDuel.3",
+      "Param1": "10",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.TravelerDuel.1",
+          "zh_TW": "巔峰揭幕",
+          "zh_CN": "巅峰揭幕",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.TravelerDuel.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "8": {
+      "Id": 8,
+      "Name": "OpenFunc.SignIn.1",
+      "NeedWorldClass": 3,
+      "Desc": "OpenFunc.SignIn.2",
+      "Tips": "OpenFunc.SignIn.3",
+      "Param1": "3",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.SignIn.1",
+          "zh_TW": "簽到",
+          "zh_CN": "签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.SignIn.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "9": {
+      "Id": 9,
+      "Name": "OpenFunc.InfinityTower.1",
+      "NeedWorldClass": 4,
+      "PopWindows": true,
+      "Desc": "OpenFunc.InfinityTower.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_InfinityTower",
+      "Tips": "OpenFunc.InfinityTower.3",
+      "Param1": "4",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.InfinityTower.1",
+          "zh_TW": "心危擂台",
+          "zh_CN": "心危擂台",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Desc": {
+          "key": "OpenFunc.InfinityTower.2",
+          "zh_TW": "使用紀錄勇闖擂台，獲得大量獎勵",
+          "zh_CN": "使用纪录勇闯擂台，获得大量奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.InfinityTower.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "10": {
+      "Id": 10,
+      "Name": "OpenFunc.SkillInstance.1",
+      "NeedWorldClass": 5,
+      "PopWindows": true,
+      "Desc": "OpenFunc.SkillInstance.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_SkillInstance",
+      "Tips": "OpenFunc.SkillInstance.3",
+      "Param1": "5",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.SkillInstance.1",
+          "zh_TW": "技巧試煉",
+          "zh_CN": "技巧试炼",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Desc": {
+          "key": "OpenFunc.SkillInstance.2",
+          "zh_TW": "來挑戰技巧試煉，提升能力等級吧！",
+          "zh_CN": "挑战技巧试炼，提升能力等级吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.SkillInstance.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "11": {
+      "Id": 11,
+      "Name": "OpenFunc.StarTowerRank.1",
+      "NeedWorldClass": 99,
+      "Desc": "OpenFunc.StarTowerRank.2",
+      "Tips": "OpenFunc.StarTowerRank.3",
+      "Param1": "99",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.StarTowerRank.1",
+          "zh_TW": "星塔排行榜",
+          "zh_CN": "星塔排行榜",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.StarTowerRank.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Name": "OpenFunc.Agent.1",
+      "NeedWorldClass": 6,
+      "PopWindows": true,
+      "Desc": "OpenFunc.Agent.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_Agent",
+      "Tips": "OpenFunc.Agent.3",
+      "Param1": "6",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.Agent.1",
+          "zh_TW": "委託派遣",
+          "zh_CN": "委托派遣",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Desc": {
+          "key": "OpenFunc.Agent.2",
+          "zh_TW": "執行委託派遣旅人，獲得各類獎勵吧！",
+          "zh_CN": "执行委托派遣旅人获得各类奖励吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.Agent.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "OpenFunc.RegionBossChallenge.1",
+      "NeedWorldClass": 999,
+      "Desc": "OpenFunc.RegionBossChallenge.2",
+      "Tips": "OpenFunc.RegionBossChallenge.3",
+      "Param1": "999",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.RegionBossChallenge.1",
+          "zh_TW": "強敵討伐挑戰模式",
+          "zh_CN": "强敌讨伐挑战模式",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.RegionBossChallenge.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "15": {
+      "Id": 15,
+      "Name": "OpenFunc.VampireSurvivor.1",
+      "NeedWorldClass": 11,
+      "PopWindows": true,
+      "Desc": "OpenFunc.VampireSurvivor.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_VampireSurvivor",
+      "Tips": "OpenFunc.VampireSurvivor.3",
+      "Param1": "11",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.VampireSurvivor.1",
+          "zh_TW": "災變防線",
+          "zh_CN": "灾变防线",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Desc": {
+          "key": "OpenFunc.VampireSurvivor.2",
+          "zh_TW": "在限定時間內消滅更多的怪物贏取積分吧！",
+          "zh_CN": "在限定时间内消灭更多的怪物赢取积分吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.VampireSurvivor.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Name": "OpenFunc.Quest.1",
+      "Desc": "OpenFunc.Quest.2",
+      "Tips": "OpenFunc.Quest.3",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.Quest.1",
+          "zh_TW": "王權",
+          "zh_CN": "王权",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "17": {
+      "Id": 17,
+      "Name": "OpenFunc.Phone.1",
+      "NeedWorldClass": 5,
+      "PopWindows": true,
+      "Desc": "OpenFunc.Phone.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_Phone",
+      "Tips": "OpenFunc.Phone.3",
+      "Param1": "5",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.Phone.1",
+          "zh_TW": "心鏈",
+          "zh_CN": "心链",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Desc": {
+          "key": "OpenFunc.Phone.2",
+          "zh_TW": "使用心鏈與旅人們培養默契度吧！",
+          "zh_CN": "使用心链与各位旅人培养默契度吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.Phone.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Name": "OpenFunc.Activity.1",
+      "Desc": "OpenFunc.Activity.2",
+      "Tips": "OpenFunc.Activity.3",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.Activity.1",
+          "zh_TW": "活動",
+          "zh_CN": "活动",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "19": {
+      "Id": 19,
+      "Name": "OpenFunc.Crafting.1",
+      "NeedWorldClass": 5,
+      "Desc": "OpenFunc.Crafting.2",
+      "Tips": "OpenFunc.Crafting.3",
+      "Param1": "5",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.Crafting.1",
+          "zh_TW": "材料合成",
+          "zh_CN": "材料合成",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.Crafting.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "20": {
+      "Id": 20,
+      "Name": "OpenFunc.ScoreBoss.1",
+      "NeedWorldClass": 21,
+      "PopWindows": true,
+      "Desc": "OpenFunc.ScoreBoss.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_ScoreBoss",
+      "Tips": "OpenFunc.ScoreBoss.3",
+      "Param1": "21",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.ScoreBoss.1",
+          "zh_TW": "聯合討伐",
+          "zh_CN": "联合讨伐",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Desc": {
+          "key": "OpenFunc.ScoreBoss.2",
+          "zh_TW": "在限定時間內盡可能造成傷害，贏得積分吧！",
+          "zh_CN": "在限定时间造成更多伤害赢取积分吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.ScoreBoss.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "21": {
+      "Id": 21,
+      "Name": "OpenFunc.WeeklyCopies.1",
+      "NeedWorldClass": 15,
+      "PopWindows": true,
+      "Desc": "OpenFunc.WeeklyCopies.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_WeekBoos",
+      "Tips": "OpenFunc.WeeklyCopies.3",
+      "Param1": "15",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.WeeklyCopies.1",
+          "zh_TW": "真格挑戰",
+          "zh_CN": "真格挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Desc": {
+          "key": "OpenFunc.WeeklyCopies.2",
+          "zh_TW": "戰勝強大的區域領主，贏取用於升級技能的材料",
+          "zh_CN": "战胜强大的区域领主，赢取用于升级技能的材料",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.WeeklyCopies.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "22": {
+      "Id": 22,
+      "Name": "OpenFunc.DailyQuest.1",
+      "NeedWorldClass": 3,
+      "Desc": "OpenFunc.DailyQuest.2",
+      "Tips": "OpenFunc.DailyQuest.3",
+      "Param1": "3",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.DailyQuest.1",
+          "zh_TW": "今日事務",
+          "zh_CN": "今日事务",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.DailyQuest.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "23": {
+      "Id": 23,
+      "Name": "OpenFunc.DailyReward.1",
+      "NeedWorldClass": 3,
+      "Desc": "OpenFunc.DailyReward.2",
+      "Tips": "OpenFunc.DailyReward.3",
+      "Param1": "3",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.DailyReward.1",
+          "zh_TW": "每日贈禮",
+          "zh_CN": "每日赠礼",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.DailyReward.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "24": {
+      "Id": 24,
+      "Name": "OpenFunc.CharGemInstance.1",
+      "NeedWorldClass": 20,
+      "PopWindows": true,
+      "Desc": "OpenFunc.CharGemInstance.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_GemInstance",
+      "Tips": "OpenFunc.CharGemInstance.3",
+      "Param1": "20",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.CharGemInstance.1",
+          "zh_TW": "紋章試煉",
+          "zh_CN": "纹章试炼",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Desc": {
+          "key": "OpenFunc.CharGemInstance.2",
+          "zh_TW": "累積不同勢力的貢獻貨幣，換取角色專屬紋章",
+          "zh_CN": "积累不同势力的贡献货币，换取角色专属纹章",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.CharGemInstance.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "25": {
+      "Id": 25,
+      "Name": "OpenFunc.CharDating.1",
+      "NeedWorldClass": 5,
+      "Desc": "OpenFunc.CharDating.2",
+      "Tips": "OpenFunc.CharDating.3",
+      "Param1": "5",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.CharDating.1",
+          "zh_TW": "角色邀約",
+          "zh_CN": "角色邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.CharDating.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Name": "OpenFunc.JointDrill.1",
+      "NeedWorldClass": 10,
+      "Desc": "OpenFunc.JointDrill.2",
+      "Tips": "OpenFunc.JointDrill.3",
+      "Param1": "10",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.JointDrill.1",
+          "zh_TW": "終焉絕響",
+          "zh_CN": "终焉绝响",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.JointDrill.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "27": {
+      "Id": 27,
+      "Name": "OpenFunc.TutorialLevel.1",
+      "NeedWorldClass": 4,
+      "Desc": "OpenFunc.TutorialLevel.2",
+      "Tips": "OpenFunc.TutorialLevel.3",
+      "Param1": "4",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.TutorialLevel.1",
+          "zh_TW": "新手教學",
+          "zh_CN": "新手教学",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.TutorialLevel.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "28": {
+      "Id": 28,
+      "Name": "OpenFunc.BattlePass.1",
+      "NeedWorldClass": 3,
+      "PopWindows": true,
+      "Desc": "OpenFunc.BattlePass.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_BattlePass",
+      "Tips": "OpenFunc.BattlePass.3",
+      "Param1": "3",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.BattlePass.1",
+          "zh_TW": "創業激勵基金",
+          "zh_CN": "创业激励基金",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Desc": {
+          "key": "OpenFunc.BattlePass.2",
+          "zh_TW": "完成任務提升基金等級，獲得大量獎勵！",
+          "zh_CN": "完成任务提升基金等级获得大量奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.BattlePass.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "29": {
+      "Id": 29,
+      "Name": "OpenFunc.NickNameReset.1",
+      "NeedWorldClass": 7,
+      "Desc": "OpenFunc.NickNameReset.2",
+      "Tips": "OpenFunc.NickNameReset.3",
+      "Param1": "7",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.NickNameReset.1",
+          "zh_TW": "修改暱稱",
+          "zh_CN": "修改昵称",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.NickNameReset.3",
+          "zh_TW": "修改暱稱需要權限等級{1}",
+          "zh_CN": "修改昵称需要权限等级{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "30": {
+      "Id": 30,
+      "Name": "OpenFunc.WeeklyQuest.1",
+      "NeedWorldClass": 3,
+      "Desc": "OpenFunc.WeeklyQuest.2",
+      "Tips": "OpenFunc.WeeklyQuest.3",
+      "Param1": "3",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.WeeklyQuest.1",
+          "zh_TW": "每週任務",
+          "zh_CN": "每周任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.WeeklyQuest.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "31": {
+      "Id": 31,
+      "Name": "OpenFunc.QuestNewbie.1",
+      "NeedWorldClass": 4,
+      "Desc": "OpenFunc.QuestNewbie.2",
+      "Tips": "OpenFunc.QuestNewbie.3",
+      "Param1": "4",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.QuestNewbie.1",
+          "zh_TW": "新手指引任務",
+          "zh_CN": "新手引导任务",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Tips": {
+          "key": "OpenFunc.QuestNewbie.3",
+          "zh_TW": "權限等級{1}級解鎖",
+          "zh_CN": "权限等级{1}级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    },
+    "32": {
+      "Id": 32,
+      "Name": "OpenFunc.TraceHunt.1",
+      "NeedWorldClass": 9,
+      "PopWindows": true,
+      "Desc": "OpenFunc.TraceHunt.2",
+      "Icon": "Icon/ZZZOther/zs_openfunc_TraceHunt",
+      "Tips": "OpenFunc.TraceHunt.3",
+      "_localized": {
+        "/Name": {
+          "key": "OpenFunc.TraceHunt.1",
+          "zh_TW": "獵影重圍",
+          "zh_CN": "猎影合围",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        },
+        "/Desc": {
+          "key": "OpenFunc.TraceHunt.2",
+          "zh_TW": "追蹤重要目標，與其他旅團合作完成討伐！",
+          "zh_CN": "追踪重要目标，与其他旅团合作完成讨伐！",
+          "sources": {
+            "zh_TW": "language/zh_TW/OpenFunc.json",
+            "zh_CN": "language/zh_CN/OpenFunc.json"
+          }
+        }
+      }
+    }
+  }
+}

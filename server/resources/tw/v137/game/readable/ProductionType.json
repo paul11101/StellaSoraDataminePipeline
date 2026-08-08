@@ -1,0 +1,79 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ProductionType",
+    "categories": [
+      "items_rewards"
+    ],
+    "row_count": 4,
+    "localization_hits": 4,
+    "source": "bin/ProductionType.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "TypeName": "ProductionType.101.1",
+      "SortId": 2,
+      "_localized": {
+        "/TypeName": {
+          "key": "ProductionType.101.1",
+          "zh_TW": "怪物材料",
+          "zh_CN": "怪物素材",
+          "sources": {
+            "zh_TW": "language/zh_TW/ProductionType.json",
+            "zh_CN": "language/zh_CN/ProductionType.json"
+          }
+        }
+      }
+    },
+    "102": {
+      "Id": 102,
+      "TypeName": "ProductionType.102.1",
+      "SortId": 3,
+      "_localized": {
+        "/TypeName": {
+          "key": "ProductionType.102.1",
+          "zh_TW": "技能卡帶",
+          "zh_CN": "技能卡带",
+          "sources": {
+            "zh_TW": "language/zh_TW/ProductionType.json",
+            "zh_CN": "language/zh_CN/ProductionType.json"
+          }
+        }
+      }
+    },
+    "103": {
+      "Id": 103,
+      "TypeName": "ProductionType.103.1",
+      "SortId": 1,
+      "_localized": {
+        "/TypeName": {
+          "key": "ProductionType.103.1",
+          "zh_TW": "禮物合成",
+          "zh_CN": "礼物合成",
+          "sources": {
+            "zh_TW": "language/zh_TW/ProductionType.json",
+            "zh_CN": "language/zh_CN/ProductionType.json"
+          }
+        }
+      }
+    },
+    "104": {
+      "Id": 104,
+      "TypeName": "ProductionType.104.1",
+      "SortId": 4,
+      "_localized": {
+        "/TypeName": {
+          "key": "ProductionType.104.1",
+          "zh_TW": "真格挑戰",
+          "zh_CN": "真格挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/ProductionType.json",
+            "zh_CN": "language/zh_CN/ProductionType.json"
+          }
+        }
+      }
+    }
+  }
+}

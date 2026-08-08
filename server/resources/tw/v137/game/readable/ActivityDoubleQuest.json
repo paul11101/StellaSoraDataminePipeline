@@ -1,0 +1,296 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ActivityDoubleQuest",
+    "categories": [
+      "quests",
+      "activities"
+    ],
+    "row_count": 14,
+    "localization_hits": 14,
+    "source": "bin/ActivityDoubleQuest.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101001": {
+      "Id": 101001,
+      "ActivityId": 103001,
+      "Desc": "ActivityDoubleQuest.101001.1",
+      "QuestType": 39,
+      "QuestParams": "[200]",
+      "ItemId": 1,
+      "ItemQty": 60000,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.101001.1",
+          "zh_TW": "累計消耗200點活力",
+          "zh_CN": "累积消耗200干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "101002": {
+      "Id": 101002,
+      "ActivityId": 103001,
+      "Desc": "ActivityDoubleQuest.101002.1",
+      "QuestType": 39,
+      "QuestParams": "[300]",
+      "ItemId": 32000,
+      "ItemQty": 25,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.101002.1",
+          "zh_TW": "累計消耗300點活力",
+          "zh_CN": "累积消耗300干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "101003": {
+      "Id": 101003,
+      "ActivityId": 103001,
+      "Desc": "ActivityDoubleQuest.101003.1",
+      "QuestType": 39,
+      "QuestParams": "[400]",
+      "ItemId": 82007,
+      "ItemQty": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.101003.1",
+          "zh_TW": "累計消耗400點活力",
+          "zh_CN": "累积消耗400干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "101004": {
+      "Id": 101004,
+      "ActivityId": 103001,
+      "Desc": "ActivityDoubleQuest.101004.1",
+      "QuestType": 39,
+      "QuestParams": "[600]",
+      "ItemId": 1,
+      "ItemQty": 60000,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.101004.1",
+          "zh_TW": "累計消耗600點活力",
+          "zh_CN": "累积消耗600干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "101005": {
+      "Id": 101005,
+      "ActivityId": 103001,
+      "Desc": "ActivityDoubleQuest.101005.1",
+      "QuestType": 39,
+      "QuestParams": "[800]",
+      "ItemId": 32000,
+      "ItemQty": 25,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.101005.1",
+          "zh_TW": "累計消耗800點活力",
+          "zh_CN": "累积消耗800干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "101006": {
+      "Id": 101006,
+      "ActivityId": 103001,
+      "Desc": "ActivityDoubleQuest.101006.1",
+      "QuestType": 39,
+      "QuestParams": "[1000]",
+      "ItemId": 1,
+      "ItemQty": 60000,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.101006.1",
+          "zh_TW": "累計消耗1000點活力",
+          "zh_CN": "累积消耗1000干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "101007": {
+      "Id": 101007,
+      "ActivityId": 103001,
+      "Desc": "ActivityDoubleQuest.101007.1",
+      "QuestType": 39,
+      "QuestParams": "[1200]",
+      "ItemId": 82007,
+      "ItemQty": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.101007.1",
+          "zh_TW": "累計消耗1200點活力",
+          "zh_CN": "累积消耗1200干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "102001": {
+      "Id": 102001,
+      "ActivityId": 103002,
+      "Desc": "ActivityDoubleQuest.102001.1",
+      "QuestType": 39,
+      "QuestParams": "[200]",
+      "ItemId": 1,
+      "ItemQty": 60000,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.102001.1",
+          "zh_TW": "累計消耗200點活力",
+          "zh_CN": "累积消耗200干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "102002": {
+      "Id": 102002,
+      "ActivityId": 103002,
+      "Desc": "ActivityDoubleQuest.102002.1",
+      "QuestType": 39,
+      "QuestParams": "[300]",
+      "ItemId": 32000,
+      "ItemQty": 25,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.102002.1",
+          "zh_TW": "累計消耗300點活力",
+          "zh_CN": "累积消耗300干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "102003": {
+      "Id": 102003,
+      "ActivityId": 103002,
+      "Desc": "ActivityDoubleQuest.102003.1",
+      "QuestType": 39,
+      "QuestParams": "[400]",
+      "ItemId": 82007,
+      "ItemQty": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.102003.1",
+          "zh_TW": "累計消耗400點活力",
+          "zh_CN": "累积消耗400干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "102004": {
+      "Id": 102004,
+      "ActivityId": 103002,
+      "Desc": "ActivityDoubleQuest.102004.1",
+      "QuestType": 39,
+      "QuestParams": "[600]",
+      "ItemId": 1,
+      "ItemQty": 60000,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.102004.1",
+          "zh_TW": "累計消耗600點活力",
+          "zh_CN": "累积消耗600干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "102005": {
+      "Id": 102005,
+      "ActivityId": 103002,
+      "Desc": "ActivityDoubleQuest.102005.1",
+      "QuestType": 39,
+      "QuestParams": "[800]",
+      "ItemId": 32000,
+      "ItemQty": 25,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.102005.1",
+          "zh_TW": "累計消耗800點活力",
+          "zh_CN": "累积消耗800干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "102006": {
+      "Id": 102006,
+      "ActivityId": 103002,
+      "Desc": "ActivityDoubleQuest.102006.1",
+      "QuestType": 39,
+      "QuestParams": "[1000]",
+      "ItemId": 1,
+      "ItemQty": 60000,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.102006.1",
+          "zh_TW": "累計消耗1000點活力",
+          "zh_CN": "累积消耗1000干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    },
+    "102007": {
+      "Id": 102007,
+      "ActivityId": 103002,
+      "Desc": "ActivityDoubleQuest.102007.1",
+      "QuestType": 39,
+      "QuestParams": "[1200]",
+      "ItemId": 82007,
+      "ItemQty": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "ActivityDoubleQuest.102007.1",
+          "zh_TW": "累計消耗1200點活力",
+          "zh_CN": "累积消耗1200干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+            "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+          }
+        }
+      }
+    }
+  }
+}

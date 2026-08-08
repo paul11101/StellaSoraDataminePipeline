@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "stella-sora-tw-pipeline"
-version = "0.1.0"
+version = "0.2.0"
 description = "Reproducible local datamine pipeline for Stella Sora TW"
 requires-python = ">=3.12"
 dependencies = [
-  "cryptography>=42,<48",
-  "xxhash>=3.4,<4"
+  "cryptography>=42,<49",
+  "protobuf>=5,<8"
 ]
 
 [project.scripts]

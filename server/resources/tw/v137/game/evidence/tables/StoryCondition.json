@@ -1,0 +1,369 @@
+{
+  "table": "StoryCondition",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\4f08ffd5186b102a.bin",
+  "source_sha256": "47636b28764e05728ca8cdae836b871440dae46c1d8513c86efab076d06fd5fb",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\StoryCondition.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 169
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      9
+    ],
+    "reference_field_order": [
+      "Id",
+      "ConditionId",
+      "EvIds_a",
+      "StoryId_a",
+      "AchieveIds",
+      "StoryId_b"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 6,
+    "remaining_name_count": 6,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 169,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "ConditionId",
+        "matching_reference_rows": 169,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "EvIds_a",
+        "matching_reference_rows": 33,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "StoryId_a",
+        "matching_reference_rows": 160,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "StoryId_b",
+        "matching_reference_rows": 10,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "9": {
+        "field": "AchieveIds",
+        "matching_reference_rows": 1,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 169,
+      "compared_reference_rows": 169,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 169,
+          "compared": 169
+        },
+        {
+          "codec": "varint_int",
+          "matches": 169,
+          "compared": 169
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 169
+        }
+      ]
+    },
+    "2": {
+      "field": "ConditionId",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 169,
+      "compared_reference_rows": 169,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 169,
+          "compared": 169
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 169
+        }
+      ]
+    },
+    "4": {
+      "field": "EvIds_a",
+      "json_kind": "string",
+      "repeated": true,
+      "wire_types": [
+        2
+      ],
+      "selected": "repeated_utf8",
+      "matching_reference_rows": 33,
+      "compared_reference_rows": 33,
+      "candidate_scores": [
+        {
+          "codec": "repeated_utf8",
+          "matches": 33,
+          "compared": 33
+        },
+        {
+          "codec": "repeated_base64",
+          "matches": 0,
+          "compared": 33
+        },
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 0,
+          "compared": 33
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 0,
+          "compared": 33
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 33
+        },
+        {
+          "codec": "repeated_fixed32_uint",
+          "matches": 0,
+          "compared": 33
+        },
+        {
+          "codec": "repeated_fixed32_int",
+          "matches": 0,
+          "compared": 33
+        },
+        {
+          "codec": "repeated_float32",
+          "matches": 0,
+          "compared": 33
+        },
+        {
+          "codec": "repeated_fixed64_uint",
+          "matches": 0,
+          "compared": 33
+        },
+        {
+          "codec": "repeated_fixed64_int",
+          "matches": 0,
+          "compared": 33
+        },
+        {
+          "codec": "repeated_float64",
+          "matches": 0,
+          "compared": 33
+        }
+      ]
+    },
+    "6": {
+      "field": "StoryId_a",
+      "json_kind": "string",
+      "repeated": true,
+      "wire_types": [
+        2
+      ],
+      "selected": "repeated_utf8",
+      "matching_reference_rows": 160,
+      "compared_reference_rows": 160,
+      "candidate_scores": [
+        {
+          "codec": "repeated_utf8",
+          "matches": 160,
+          "compared": 160
+        },
+        {
+          "codec": "repeated_base64",
+          "matches": 0,
+          "compared": 160
+        },
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 0,
+          "compared": 160
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 0,
+          "compared": 160
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 160
+        },
+        {
+          "codec": "repeated_fixed32_uint",
+          "matches": 0,
+          "compared": 160
+        },
+        {
+          "codec": "repeated_fixed32_int",
+          "matches": 0,
+          "compared": 160
+        },
+        {
+          "codec": "repeated_float32",
+          "matches": 0,
+          "compared": 160
+        },
+        {
+          "codec": "repeated_fixed64_uint",
+          "matches": 0,
+          "compared": 160
+        },
+        {
+          "codec": "repeated_fixed64_int",
+          "matches": 0,
+          "compared": 160
+        },
+        {
+          "codec": "repeated_float64",
+          "matches": 0,
+          "compared": 160
+        }
+      ]
+    },
+    "7": {
+      "field": "StoryId_b",
+      "json_kind": "string",
+      "repeated": true,
+      "wire_types": [
+        2
+      ],
+      "selected": "repeated_utf8",
+      "matching_reference_rows": 10,
+      "compared_reference_rows": 10,
+      "candidate_scores": [
+        {
+          "codec": "repeated_utf8",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "repeated_base64",
+          "matches": 0,
+          "compared": 10
+        },
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 0,
+          "compared": 10
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 0,
+          "compared": 10
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 10
+        },
+        {
+          "codec": "repeated_fixed32_uint",
+          "matches": 0,
+          "compared": 10
+        },
+        {
+          "codec": "repeated_fixed32_int",
+          "matches": 0,
+          "compared": 10
+        },
+        {
+          "codec": "repeated_float32",
+          "matches": 0,
+          "compared": 10
+        },
+        {
+          "codec": "repeated_fixed64_uint",
+          "matches": 0,
+          "compared": 10
+        },
+        {
+          "codec": "repeated_fixed64_int",
+          "matches": 0,
+          "compared": 10
+        },
+        {
+          "codec": "repeated_float64",
+          "matches": 0,
+          "compared": 10
+        }
+      ]
+    },
+    "9": {
+      "field": "AchieveIds",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 169,
+    "reference_row_count": 169,
+    "shared_key_count": 169,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 169,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

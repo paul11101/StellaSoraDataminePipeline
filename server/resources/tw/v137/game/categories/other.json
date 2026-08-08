@@ -1,0 +1,319 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "other",
+    "name": "其他未归类表",
+    "description": "未命中高置信度业务命名规则的配置表。",
+    "table_count": 18,
+    "row_count": 2150,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "AdControl",
+      "categories": [
+        "other"
+      ],
+      "row_count": 14,
+      "data": "bin/AdControl.json",
+      "readable": "readable/AdControl.json",
+      "evidence": "evidence/tables/AdControl.json",
+      "source_sha256": "190f1c1f447c409c86c84cd2cca934663807b96825d7e63d72dddad5f7f008a1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DemonAdvance",
+      "categories": [
+        "other"
+      ],
+      "row_count": 1,
+      "data": "bin/DemonAdvance.json",
+      "readable": "readable/DemonAdvance.json",
+      "evidence": "evidence/tables/DemonAdvance.json",
+      "source_sha256": "f7699eea7aa8e3d16e0020b835bcef6b0d66eda2d1070945a2ea15ba262b04f1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DemonAdvance.json",
+      "zh_CN": "language/zh_CN/DemonAdvance.json"
+    },
+    {
+      "table": "DestroyObject",
+      "categories": [
+        "other"
+      ],
+      "row_count": 8,
+      "data": "bin/DestroyObject.json",
+      "readable": "readable/DestroyObject.json",
+      "evidence": "evidence/tables/DestroyObject.json",
+      "source_sha256": "4f41d6fb791d93c4ca0d3311a14159edba8506b1c2c31c26346e607ab310ffbc",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DestroyObjectSpr",
+      "categories": [
+        "other"
+      ],
+      "row_count": 4,
+      "data": "bin/DestroyObjectSpr.json",
+      "readable": "readable/DestroyObjectSpr.json",
+      "evidence": "evidence/tables/DestroyObjectSpr.json",
+      "source_sha256": "8287c10a8521c6d7e2a8da867a7488d3e688579e39e82f7a520dc5322006f2e3",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "EndSceneType",
+      "categories": [
+        "other"
+      ],
+      "row_count": 73,
+      "data": "bin/EndSceneType.json",
+      "readable": "readable/EndSceneType.json",
+      "evidence": "evidence/tables/EndSceneType.json",
+      "source_sha256": "6567b5da3ada9192c81a815c544e65d177740ae46a86a5b47ee11f7df06070a9",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "EventOptions",
+      "categories": [
+        "other"
+      ],
+      "row_count": 86,
+      "data": "bin/EventOptions.json",
+      "readable": "readable/EventOptions.json",
+      "evidence": "evidence/tables/EventOptions.json",
+      "source_sha256": "b6686f98f7f3e89c42c498a0c536f5522dd32cb9276b8cd7b400a6c00a4146f0",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/EventOptions.json",
+      "zh_CN": "language/zh_CN/EventOptions.json"
+    },
+    {
+      "table": "EventOptionsRules",
+      "categories": [
+        "other"
+      ],
+      "row_count": 28,
+      "data": "bin/EventOptionsRules.json",
+      "readable": "readable/EventOptionsRules.json",
+      "evidence": "evidence/tables/EventOptionsRules.json",
+      "source_sha256": "b937c2b241010fb1787d1d750ec2abf4db76c62b3e27e735dbdf571a5949cfc3",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "EventResult",
+      "categories": [
+        "other"
+      ],
+      "row_count": 113,
+      "data": "bin/EventResult.json",
+      "readable": "readable/EventResult.json",
+      "evidence": "evidence/tables/EventResult.json",
+      "source_sha256": "fa20c0109dcae0bc442dd10ce4aea858d02ff00cf950c38606d883fd5f3cfa8c",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "FollowSocialMediaControl",
+      "categories": [
+        "other"
+      ],
+      "row_count": 1,
+      "data": "bin/FollowSocialMediaControl.json",
+      "readable": "readable/FollowSocialMediaControl.json",
+      "evidence": "evidence/tables/FollowSocialMediaControl.json",
+      "source_sha256": "15d7d704bee1eeba3731f71d4b265cefafe1b3feaacb0f8157c45f0031bcb4f5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "FormationScene",
+      "categories": [
+        "other"
+      ],
+      "row_count": 10,
+      "data": "bin/FormationScene.json",
+      "readable": "readable/FormationScene.json",
+      "evidence": "evidence/tables/FormationScene.json",
+      "source_sha256": "beb50e480f7aed535fd0a271d14f0061f95dd6c3d2703b051b0d9e71d0affe3b",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Handbook",
+      "categories": [
+        "other"
+      ],
+      "row_count": 323,
+      "data": "bin/Handbook.json",
+      "readable": "readable/Handbook.json",
+      "evidence": "evidence/tables/Handbook.json",
+      "source_sha256": "ed6afc7e6098e4cc406e46019bdfbfe6206b225f11c3850e2238ef377285cd5f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Mainline",
+      "categories": [
+        "other"
+      ],
+      "row_count": 0,
+      "data": "bin/Mainline.json",
+      "readable": "readable/Mainline.json",
+      "evidence": "evidence/tables/Mainline.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Perk",
+      "categories": [
+        "other"
+      ],
+      "row_count": 0,
+      "data": "bin/Perk.json",
+      "readable": "readable/Perk.json",
+      "evidence": "evidence/tables/Perk.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PlayerHead",
+      "categories": [
+        "other"
+      ],
+      "row_count": 109,
+      "data": "bin/PlayerHead.json",
+      "readable": "readable/PlayerHead.json",
+      "evidence": "evidence/tables/PlayerHead.json",
+      "source_sha256": "83f04d4ddc4bdf7468d301533cf21dd17d55652e3f87a5ea79ad4d4e27c11d15",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PlayerHead.json",
+      "zh_CN": "language/zh_CN/PlayerHead.json"
+    },
+    {
+      "table": "ProduceHelper",
+      "categories": [
+        "other"
+      ],
+      "row_count": 39,
+      "data": "bin/ProduceHelper.json",
+      "readable": "readable/ProduceHelper.json",
+      "evidence": "evidence/tables/ProduceHelper.json",
+      "source_sha256": "96947b47e3ae931c14ad65aa05c357812c5cef219e3767b0a36a802a0f903053",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ScoreGetSwitch",
+      "categories": [
+        "other"
+      ],
+      "row_count": 1300,
+      "data": "bin/ScoreGetSwitch.json",
+      "readable": "readable/ScoreGetSwitch.json",
+      "evidence": "evidence/tables/ScoreGetSwitch.json",
+      "source_sha256": "e24dd232db6018b0c9914f327790d0041456c67a501c727a34b3bd81232dc0ad",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Title",
+      "categories": [
+        "other"
+      ],
+      "row_count": 38,
+      "data": "bin/Title.json",
+      "readable": "readable/Title.json",
+      "evidence": "evidence/tables/Title.json",
+      "source_sha256": "4a13c347d15053132225d6844bf1cf3f6c92615b1d0e2ff39498033c56b7562c",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Title.json",
+      "zh_CN": "language/zh_CN/Title.json"
+    },
+    {
+      "table": "WeightParameter",
+      "categories": [
+        "other"
+      ],
+      "row_count": 3,
+      "data": "bin/WeightParameter.json",
+      "readable": "readable/WeightParameter.json",
+      "evidence": "evidence/tables/WeightParameter.json",
+      "source_sha256": "64a0f4d33db130daad47b73f19cfbeb3910888554fa212dddd46bfd1d2e69f28",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    }
+  ]
+}

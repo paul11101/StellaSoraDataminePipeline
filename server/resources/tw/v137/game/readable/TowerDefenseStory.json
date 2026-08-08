@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TowerDefenseStory",
+    "categories": [
+      "story_social",
+      "stages_modes"
+    ],
+    "row_count": 0,
+    "localization_hits": 0,
+    "source": "bin/TowerDefenseStory.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {}
+}

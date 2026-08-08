@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package proto;
+import public "public_star_tower.proto";
+
+message PotentialPreselectionList {
+  repeated .proto.PotentialPreselection List = 1;
+  bytes NextPackage = 2047;
+}

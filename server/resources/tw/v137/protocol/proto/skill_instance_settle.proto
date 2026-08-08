@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message SkillInstanceSettleReq {
+  uint32 Star = 1;
+  .proto.Events Events = 15;
+  bytes NextPackage = 2047;
+}
+
+message SkillInstanceSettleResp {
+  bool First = 1;
+  bool ThreeStar = 2;
+  .proto.ChangeInfo Change = 3;
+  repeated .proto.ItemTpl AwardItems = 4;
+  repeated .proto.ItemTpl FirstItems = 5;
+  repeated .proto.ItemTpl ThreeStarItems = 6;
+  uint32 Exp = 7;
+  repeated .proto.ItemTpl SurpriseItems = 8;
+  repeated .proto.ItemTpl DoubleItems = 9;
+  bytes NextPackage = 2047;
+}

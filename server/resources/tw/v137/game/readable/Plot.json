@@ -1,0 +1,3530 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "Plot",
+    "categories": [
+      "story_social"
+    ],
+    "row_count": 111,
+    "localization_hits": 222,
+    "source": "bin/Plot.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "10301": {
+      "Id": 10301,
+      "Char": 103,
+      "Name": "Plot.10301.1",
+      "Desc": "Plot.10301.2",
+      "AvgId": "CG_103_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_10301",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.10301.1",
+          "zh_TW": "尋貓記 上",
+          "zh_CN": "寻猫记 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.10301.2",
+          "zh_TW": "一場「狩獵」，一個失誤，一雙無辜的眼睛。",
+          "zh_CN": "一场“狩猎”，一个失误，一双无辜的眼睛。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "10302": {
+      "Id": 10302,
+      "Char": 103,
+      "Name": "Plot.10302.1",
+      "Desc": "Plot.10302.2",
+      "AvgId": "CG_103_02",
+      "PlotType": 1,
+      "PrePlot": 10301,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_10302",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.10302.1",
+          "zh_TW": "尋貓記 中",
+          "zh_CN": "寻猫记 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.10302.2",
+          "zh_TW": "貓與少女與你的大冒險。",
+          "zh_CN": "猫与少女与你的大冒险。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "10303": {
+      "Id": 10303,
+      "Char": 103,
+      "Name": "Plot.10303.1",
+      "Desc": "Plot.10303.2",
+      "AvgId": "CG_103_03",
+      "PlotType": 1,
+      "PrePlot": 10302,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_10303",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.10303.1",
+          "zh_TW": "尋貓記 下",
+          "zh_CN": "寻猫记 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.10303.2",
+          "zh_TW": "吐露心扉的話語，以及立下的約定。",
+          "zh_CN": "吐露心扉的话语，以及立下的约定。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "10701": {
+      "Id": 10701,
+      "Char": 107,
+      "Name": "Plot.10701.1",
+      "Desc": "Plot.10701.2",
+      "AvgId": "CG_107_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_10701",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.10701.1",
+          "zh_TW": "蒙面騎士緹莉婭 上",
+          "zh_CN": "蒙面骑士缇莉娅 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.10701.2",
+          "zh_TW": "危機將至！暴風雨從未停息。",
+          "zh_CN": "危机将至！暴风雨从未停歇。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "10702": {
+      "Id": 10702,
+      "Char": 107,
+      "Name": "Plot.10702.1",
+      "Desc": "Plot.10702.2",
+      "AvgId": "CG_107_02",
+      "PlotType": 1,
+      "PrePlot": 10701,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_10702",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.10702.1",
+          "zh_TW": "蒙面騎士緹莉婭 中",
+          "zh_CN": "蒙面骑士缇莉娅 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.10702.2",
+          "zh_TW": "正義之心覺醒！狩獵巨人的騎士。",
+          "zh_CN": "正义之心觉醒！狩猎巨人的骑士。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "10703": {
+      "Id": 10703,
+      "Char": 107,
+      "Name": "Plot.10703.1",
+      "Desc": "Plot.10703.2",
+      "AvgId": "CG_107_03",
+      "PlotType": 1,
+      "PrePlot": 10702,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_10703",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.10703.1",
+          "zh_TW": "蒙面騎士緹莉婭 下",
+          "zh_CN": "蒙面骑士缇莉娅 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.10703.2",
+          "zh_TW": "友誼與羈絆！英雄騎乘駿鷹歸來。",
+          "zh_CN": "友谊与羁绊！英雄驾着骏鹰归来。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "10801": {
+      "Id": 10801,
+      "Char": 108,
+      "Name": "Plot.10801.1",
+      "Desc": "Plot.10801.2",
+      "AvgId": "CG_108_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_10801",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.10801.1",
+          "zh_TW": "幸運的一天 上",
+          "zh_CN": "幸运的一天 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.10801.2",
+          "zh_TW": "幸運符丟了？那不是超級大事嗎！",
+          "zh_CN": "幸运符丢了？那不是头等大事吗！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "10802": {
+      "Id": 10802,
+      "Char": 108,
+      "Name": "Plot.10802.1",
+      "Desc": "Plot.10802.2",
+      "AvgId": "CG_108_02",
+      "PlotType": 1,
+      "PrePlot": 10801,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_10802",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.10802.1",
+          "zh_TW": "幸運的一天 中",
+          "zh_CN": "幸运的一天 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.10802.2",
+          "zh_TW": "去哪才能找到新的幸運符呢？野外？還是幸運餅乾店？",
+          "zh_CN": "去哪才能找到新的幸运符呢？是野外？还是幸运饼干店？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "10803": {
+      "Id": 10803,
+      "Char": 108,
+      "Name": "Plot.10803.1",
+      "Desc": "Plot.10803.2",
+      "AvgId": "CG_108_03",
+      "PlotType": 1,
+      "PrePlot": 10802,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_10803",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.10803.1",
+          "zh_TW": "幸運的一天 下",
+          "zh_CN": "幸运的一天 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.10803.2",
+          "zh_TW": "為了不弄丟自己的鞋子！奔跑吧！魔王！",
+          "zh_CN": "为了不丢失自己的鞋子！奔跑吧！魔王！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11001": {
+      "Id": 11001,
+      "Char": 110,
+      "Name": "Plot.11001.1",
+      "Desc": "Plot.11001.2",
+      "AvgId": "CG_110_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11001",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11001.1",
+          "zh_TW": "菲萊假日 上",
+          "zh_CN": "菲莱假日 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11001.2",
+          "zh_TW": "從未見過的，她的另一面。",
+          "zh_CN": "从未见过的，她的另一面。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11002": {
+      "Id": 11002,
+      "Char": 110,
+      "Name": "Plot.11002.1",
+      "Desc": "Plot.11002.2",
+      "AvgId": "CG_110_02",
+      "PlotType": 1,
+      "PrePlot": 11001,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11002",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11002.1",
+          "zh_TW": "菲萊假日 中",
+          "zh_CN": "菲莱假日 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11002.2",
+          "zh_TW": "超人氣「姐姐大人」登場？！",
+          "zh_CN": "超人气“姐姐大人”登场？！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11003": {
+      "Id": 11003,
+      "Char": 110,
+      "Name": "Plot.11003.1",
+      "Desc": "Plot.11003.2",
+      "AvgId": "CG_110_03",
+      "PlotType": 1,
+      "PrePlot": 11002,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11003",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11003.1",
+          "zh_TW": "菲萊假日 下",
+          "zh_CN": "菲莱假日 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11003.2",
+          "zh_TW": "想與你品嘗相同的味道，因它曾與記憶相連。",
+          "zh_CN": "想与你品尝相同的味道，因它曾与记忆相连。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11101": {
+      "Id": 11101,
+      "Char": 111,
+      "Name": "Plot.11101.1",
+      "Desc": "Plot.11101.2",
+      "AvgId": "CG_111_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11101",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11101.1",
+          "zh_TW": "購物大作戰 上",
+          "zh_CN": "购物大作战 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11101.2",
+          "zh_TW": "出大事了！賭上一切，只為拯救鳶尾的未來！",
+          "zh_CN": "出大事了！赌上一切，只为拯救鸢尾的未来！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11102": {
+      "Id": 11102,
+      "Char": 111,
+      "Name": "Plot.11102.1",
+      "Desc": "Plot.11102.2",
+      "AvgId": "CG_111_02",
+      "PlotType": 1,
+      "PrePlot": 11101,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11102",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11102.1",
+          "zh_TW": "購物大作戰 中",
+          "zh_CN": "购物大作战 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11102.2",
+          "zh_TW": "時間就是生命，速度攸關生死，即便猶豫也不能停下腳步。",
+          "zh_CN": "时间就是生命，速度关乎存亡，即便犹豫也不能停下脚步。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11103": {
+      "Id": 11103,
+      "Char": 111,
+      "Name": "Plot.11103.1",
+      "Desc": "Plot.11103.2",
+      "AvgId": "CG_111_03",
+      "PlotType": 1,
+      "PrePlot": 11102,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11103",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11103.1",
+          "zh_TW": "購物大作戰 下",
+          "zh_CN": "购物大作战 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11103.2",
+          "zh_TW": "將沮喪與壞心情丟到一旁，沈醉在奶油與砂糖的香甜之中吧。",
+          "zh_CN": "将沮丧与坏心情丢到一旁，沉醉在黄油与砂糖的香甜之中吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11201": {
+      "Id": 11201,
+      "Char": 112,
+      "Name": "Plot.11201.1",
+      "Desc": "Plot.11201.2",
+      "AvgId": "CG_112_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11201",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11201.1",
+          "zh_TW": "極速環遊 上",
+          "zh_CN": "极速环游 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11201.2",
+          "zh_TW": "塵沙熱情地邀請你乘坐由她改造完成的小綠，一起來場「悠閒」的兜風。",
+          "zh_CN": "尘沙热情地邀请你乘坐由她改造完成的小绿，一起来次“悠闲”的兜风。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11202": {
+      "Id": 11202,
+      "Char": 112,
+      "Name": "Plot.11202.1",
+      "Desc": "Plot.11202.2",
+      "AvgId": "CG_112_02",
+      "PlotType": 1,
+      "PrePlot": 11201,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11202",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11202.1",
+          "zh_TW": "極速環遊 中",
+          "zh_CN": "极速环游 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11202.2",
+          "zh_TW": "她狂野的駕駛風格令你擔憂起自己的人身安全。隨後，這不祥的預感應驗了…",
+          "zh_CN": "她狂野的驾驶风格令你担忧起自己的人身安全。随后，这不详的预感应验了……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11203": {
+      "Id": 11203,
+      "Char": 112,
+      "Name": "Plot.11203.1",
+      "Desc": "Plot.11203.2",
+      "AvgId": "CG_112_03",
+      "PlotType": 1,
+      "PrePlot": 11202,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11203",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11203.1",
+          "zh_TW": "極速環遊 下",
+          "zh_CN": "极速环游 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11203.2",
+          "zh_TW": "你們與飆車族進行了一場緊張刺激的追逐戰。危險時刻，塵沙做出了她的選擇…",
+          "zh_CN": "你们与飙车族进行了一场紧张刺激的追逐战。危险时刻，尘沙做出了她的选择……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11301": {
+      "Id": 11301,
+      "Char": 113,
+      "Name": "Plot.11301.1",
+      "Desc": "Plot.11301.2",
+      "AvgId": "CG_113_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11301",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11301.1",
+          "zh_TW": "鍋中見真情 上",
+          "zh_CN": "锅中见真情 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11301.2",
+          "zh_TW": "來自師渺的委託：案件調查。…等等，為什麼聽起來很危險？",
+          "zh_CN": "来自师渺的委托：案件调查。……等等，为什么听上去很危险？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11302": {
+      "Id": 11302,
+      "Char": 113,
+      "Name": "Plot.11302.1",
+      "Desc": "Plot.11302.2",
+      "AvgId": "CG_113_02",
+      "PlotType": 1,
+      "PrePlot": 11301,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11302",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11302.1",
+          "zh_TW": "鍋中見真情 中",
+          "zh_CN": "锅中见真情 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11302.2",
+          "zh_TW": "破案第一步，追溯玄師們的行動軌跡！",
+          "zh_CN": "破案第一步，还原玄师们的行动轨迹！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11303": {
+      "Id": 11303,
+      "Char": 113,
+      "Name": "Plot.11303.1",
+      "Desc": "Plot.11303.2",
+      "AvgId": "CG_113_03",
+      "PlotType": 1,
+      "PrePlot": 11302,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11303",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11303.1",
+          "zh_TW": "鍋中見真情 下",
+          "zh_CN": "锅中见真情 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11303.2",
+          "zh_TW": "案件真相大白之際，又有新的委託出現了？！",
+          "zh_CN": "案件真相大白之际，又有新的委托出现了？！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11401": {
+      "Id": 11401,
+      "Char": 114,
+      "Name": "Plot.11401.1",
+      "Desc": "Plot.11401.2",
+      "AvgId": "CG_114_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11401",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11401.1",
+          "zh_TW": "名為「魔王試煉」的委託 上",
+          "zh_CN": "名为“魔王试炼”的委托 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11401.2",
+          "zh_TW": "為了解放你真正的力量，貓眼邀請你一起做委託。",
+          "zh_CN": "为了解放你真正的力量，猫眼邀请你一起做委托。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11402": {
+      "Id": 11402,
+      "Char": 114,
+      "Name": "Plot.11402.1",
+      "Desc": "Plot.11402.2",
+      "AvgId": "CG_114_02",
+      "PlotType": 1,
+      "PrePlot": 11401,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11402",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11402.1",
+          "zh_TW": "名為「魔王試煉」的委託 中",
+          "zh_CN": "名为“魔王试炼”的委托 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11402.2",
+          "zh_TW": "魔王軍的培育，必須從小做起。",
+          "zh_CN": "魔王军的培养，要从小孩子抓起。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11403": {
+      "Id": 11403,
+      "Char": 114,
+      "Name": "Plot.11403.1",
+      "Desc": "Plot.11403.2",
+      "AvgId": "CG_114_03",
+      "PlotType": 1,
+      "PrePlot": 11402,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11403",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11403.1",
+          "zh_TW": "名為「魔王試煉」的委託 下",
+          "zh_CN": "名为“魔王试炼”的委托 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11403.2",
+          "zh_TW": "狀態絕佳，手感正熱！正是刷新紀錄的好時機！",
+          "zh_CN": "精神焕发，手感正热！是刷记录的好时机！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11501": {
+      "Id": 11501,
+      "Char": 115,
+      "Name": "Plot.11501.1",
+      "Desc": "Plot.11501.2",
+      "AvgId": "CG_115_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11501",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11501.1",
+          "zh_TW": "找呀找呀找朋友 上",
+          "zh_CN": "找呀找呀找朋友 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11501.2",
+          "zh_TW": "你決定幫火垂找個新朋友。",
+          "zh_CN": "你决定帮火垂找个新朋友。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11502": {
+      "Id": 11502,
+      "Char": 115,
+      "Name": "Plot.11502.1",
+      "Desc": "Plot.11502.2",
+      "AvgId": "CG_115_02",
+      "PlotType": 1,
+      "PrePlot": 11501,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11502",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11502.1",
+          "zh_TW": "找呀找呀找朋友 中",
+          "zh_CN": "找呀找呀找朋友 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11502.2",
+          "zh_TW": "找到新朋友候選人了！但…好像有點不對勁？",
+          "zh_CN": "找到朋友新候选人了！但……好像有点不对劲？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11503": {
+      "Id": 11503,
+      "Char": 115,
+      "Name": "Plot.11503.1",
+      "Desc": "Plot.11503.2",
+      "AvgId": "CG_115_03",
+      "PlotType": 1,
+      "PrePlot": 11502,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11503",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11503.1",
+          "zh_TW": "找呀找呀找朋友 下",
+          "zh_CN": "找呀找呀找朋友 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11503.2",
+          "zh_TW": "捉弄、鬧彆扭，以及超快和好。",
+          "zh_CN": "捉弄，闹别扭，以及超快和好。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11601": {
+      "Id": 11601,
+      "Char": 116,
+      "Name": "Plot.11601.1",
+      "Desc": "Plot.11601.2",
+      "AvgId": "CG_116_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11601",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11601.1",
+          "zh_TW": "非典型溫室 上",
+          "zh_CN": "非典型温室 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11601.2",
+          "zh_TW": "你受邀前往嶺川的溫室，等一下…這真的可以被稱為溫室嗎？",
+          "zh_CN": "受邀前往岭川的温室，等一下……这真的可以被称为温室吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11602": {
+      "Id": 11602,
+      "Char": 116,
+      "Name": "Plot.11602.1",
+      "Desc": "Plot.11602.2",
+      "AvgId": "CG_116_02",
+      "PlotType": 1,
+      "PrePlot": 11601,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11602",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11602.1",
+          "zh_TW": "非典型溫室 中",
+          "zh_CN": "非典型温室 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11602.2",
+          "zh_TW": "你和嶺川抓住了偷竊糧食的竊賊，什麼？原來竊賊也有苦衷。",
+          "zh_CN": "和岭川抓住了偷窃粮食的窃贼，什么？窃贼原来也有苦衷。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11603": {
+      "Id": 11603,
+      "Char": 116,
+      "Name": "Plot.11603.1",
+      "Desc": "Plot.11603.2",
+      "AvgId": "CG_116_03",
+      "PlotType": 1,
+      "PrePlot": 11602,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11603",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11603.1",
+          "zh_TW": "非典型溫室 下",
+          "zh_CN": "非典型温室 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11603.2",
+          "zh_TW": "豌豆在嶺川的催化下長勢喜人，不過這也未免太大了吧。天啊，豌豆苗要吃人啦！",
+          "zh_CN": "豌豆在岭川的催化下长势喜人，不过这是不是过于庞大了。天呐，豌豆苗要吃人啦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11701": {
+      "Id": 11701,
+      "Char": 117,
+      "Name": "Plot.11701.1",
+      "Desc": "Plot.11701.2",
+      "AvgId": "CG_117_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11701",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11701.1",
+          "zh_TW": "糖果藏在約定裡 上",
+          "zh_CN": "糖果藏在约定里 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11701.2",
+          "zh_TW": "你面前的這家店，可是菲萊人氣第一的餐館喔！——小店長搖晃著尾巴，自豪地介紹。",
+          "zh_CN": "你面前的这家店，可是菲莱人气第一的餐馆哦！——小店长正摇晃着尾巴，自豪地介绍道。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11702": {
+      "Id": 11702,
+      "Char": 117,
+      "Name": "Plot.11702.1",
+      "Desc": "Plot.11702.2",
+      "AvgId": "CG_117_02",
+      "PlotType": 1,
+      "PrePlot": 11701,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11702",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11702.1",
+          "zh_TW": "糖果藏在約定裡 中",
+          "zh_CN": "糖果藏在约定里 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11702.2",
+          "zh_TW": "玩麻雀牌贏過龍裔高手？這個挑戰，魔王想必沒問題吧！",
+          "zh_CN": "在麻雀牌上打败龙裔高手？这个挑战，魔王想必不在话下吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11703": {
+      "Id": 11703,
+      "Char": 117,
+      "Name": "Plot.11703.1",
+      "Desc": "Plot.11703.2",
+      "AvgId": "CG_117_03",
+      "PlotType": 1,
+      "PrePlot": 11702,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11703",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11703.1",
+          "zh_TW": "糖果藏在約定裡 下",
+          "zh_CN": "糖果藏在约定里 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11703.2",
+          "zh_TW": "「謝謝你…願意陪著這樣不正經的我…」",
+          "zh_CN": "“谢谢你……愿意陪着这个不着调的我~”",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11801": {
+      "Id": 11801,
+      "Char": 118,
+      "Name": "Plot.11801.1",
+      "Desc": "Plot.11801.2",
+      "AvgId": "CG_118_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11801",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11801.1",
+          "zh_TW": "黑色的骨頭 上",
+          "zh_CN": "黑色的骨头 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11801.2",
+          "zh_TW": "為了確認魔王是否罹患絕症，旅團的大家來到了柯洛妮絲的診療室。從三人的表情中，你意識到自己似乎命不久矣…",
+          "zh_CN": "为了确认魔王是否身患绝症，旅团的大家来到了科洛妮丝诊室。从三人的表情中，你意识到自己似乎命不久矣……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11802": {
+      "Id": 11802,
+      "Char": 118,
+      "Name": "Plot.11802.1",
+      "Desc": "Plot.11802.2",
+      "AvgId": "CG_118_02",
+      "PlotType": 1,
+      "PrePlot": 11801,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11802",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11802.1",
+          "zh_TW": "黑色的骨頭 中",
+          "zh_CN": "黑色的骨头 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11802.2",
+          "zh_TW": "被留下養病的你，見識到了柯洛妮絲精湛的醫術。擁有如此能力的醫生，究竟是否能起死回生…",
+          "zh_CN": "被留下养病的你，见识到了科洛妮丝精湛的医术。拥有如此能力的医生，究竟是否能起死回生……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11803": {
+      "Id": 11803,
+      "Char": 118,
+      "Name": "Plot.11803.1",
+      "Desc": "Plot.11803.2",
+      "AvgId": "CG_118_03",
+      "PlotType": 1,
+      "PrePlot": 11802,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11803",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11803.1",
+          "zh_TW": "黑色的骨頭 下",
+          "zh_CN": "黑色的骨头 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11803.2",
+          "zh_TW": "臨別之際，柯洛妮絲將珍藏的標本贈予你。",
+          "zh_CN": "临别之际，科洛妮丝将珍藏的标本赠予了你。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11901": {
+      "Id": 11901,
+      "Char": 119,
+      "Name": "Plot.11901.1",
+      "Desc": "Plot.11901.2",
+      "AvgId": "CG_119_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11901",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11901.1",
+          "zh_TW": "女僕的祕密任務 上",
+          "zh_CN": "女仆的秘密任务 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11901.2",
+          "zh_TW": "女僕的任務一：分享甜蜜。",
+          "zh_CN": "女仆的任务一：分享甜蜜。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11902": {
+      "Id": 11902,
+      "Char": 119,
+      "Name": "Plot.11902.1",
+      "Desc": "Plot.11902.2",
+      "AvgId": "CG_119_02",
+      "PlotType": 1,
+      "PrePlot": 11901,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11902",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11902.1",
+          "zh_TW": "女僕的祕密任務 中",
+          "zh_CN": "女仆的秘密任务 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11902.2",
+          "zh_TW": "女僕的任務二：赢得大獎。",
+          "zh_CN": "女仆的任务二：赢下大奖。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "11903": {
+      "Id": 11903,
+      "Char": 119,
+      "Name": "Plot.11903.1",
+      "Desc": "Plot.11903.2",
+      "AvgId": "CG_119_03",
+      "PlotType": 1,
+      "PrePlot": 11902,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_11903",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.11903.1",
+          "zh_TW": "女僕的祕密任務 下",
+          "zh_CN": "女仆的秘密任务 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.11903.2",
+          "zh_TW": "女僕的任務三：…骗你的，哪有什麼任務！",
+          "zh_CN": "女仆的任务三：……骗你的，哪有什么任务！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12001": {
+      "Id": 12001,
+      "Char": 120,
+      "Name": "Plot.12001.1",
+      "Desc": "Plot.12001.2",
+      "AvgId": "CG_120_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12001",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12001.1",
+          "zh_TW": "課後的祕密論文 上",
+          "zh_CN": "课后的秘密论文 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12001.2",
+          "zh_TW": "沒人說過自由旅人也要寫論文啊！",
+          "zh_CN": "没人提过自由旅人也要写论文啊！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12002": {
+      "Id": 12002,
+      "Char": 120,
+      "Name": "Plot.12002.1",
+      "Desc": "Plot.12002.2",
+      "AvgId": "CG_120_02",
+      "PlotType": 1,
+      "PrePlot": 12001,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12002",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12002.1",
+          "zh_TW": "課後的祕密論文 中",
+          "zh_CN": "课后的秘密论文 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12002.2",
+          "zh_TW": "突進！突發！！突然到訪！！！",
+          "zh_CN": "突进！突发！！突然到访！！！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12003": {
+      "Id": 12003,
+      "Char": 120,
+      "Name": "Plot.12003.1",
+      "Desc": "Plot.12003.2",
+      "AvgId": "CG_120_03",
+      "PlotType": 1,
+      "PrePlot": 12002,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12003",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12003.1",
+          "zh_TW": "課後的祕密論文 下",
+          "zh_CN": "课后的秘密论文 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12003.2",
+          "zh_TW": "還有人記得我們是來寫論文的嗎？",
+          "zh_CN": "还有人记得我们是来写论文的吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12301": {
+      "Id": 12301,
+      "Char": 123,
+      "Name": "Plot.12301.1",
+      "Desc": "Plot.12301.2",
+      "AvgId": "CG_123_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12301",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12301.1",
+          "zh_TW": "睡不著的小守護者 上",
+          "zh_CN": "睡不着的小守护者 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12301.2",
+          "zh_TW": "森林守護者這個職業是沒有年齡限制的。",
+          "zh_CN": "森林守护者这个职业是没有年龄限制的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12302": {
+      "Id": 12302,
+      "Char": 123,
+      "Name": "Plot.12302.1",
+      "Desc": "Plot.12302.2",
+      "AvgId": "CG_123_02",
+      "PlotType": 1,
+      "PrePlot": 12301,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12302",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12302.1",
+          "zh_TW": "睡不著的小守護者 中",
+          "zh_CN": "睡不着的小守护者 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12302.2",
+          "zh_TW": "處理陷阱、搗藥治療、動物溝通。別驚訝，這些都是必修課。",
+          "zh_CN": "处理陷阱、捣药治伤、动物沟通。别惊讶，都是必修课。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12303": {
+      "Id": 12303,
+      "Char": 123,
+      "Name": "Plot.12303.1",
+      "Desc": "Plot.12303.2",
+      "AvgId": "CG_123_03",
+      "PlotType": 1,
+      "PrePlot": 12302,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12303",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12303.1",
+          "zh_TW": "睡不著的小守護者 下",
+          "zh_CN": "睡不着的小守护者 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12303.2",
+          "zh_TW": "有事情想不通就先睡一覺，總有一天會明白的。",
+          "zh_CN": "想不通的事先睡一觉，总有一天会明白的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12501": {
+      "Id": 12501,
+      "Char": 125,
+      "Name": "Plot.12501.1",
+      "Desc": "Plot.12501.2",
+      "AvgId": "CG_125_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12501",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12501.1",
+          "zh_TW": "勝利者法則 上",
+          "zh_CN": "胜利者法则 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12501.2",
+          "zh_TW": "成為萬送屋的「特別來賓」，代價是什麼？",
+          "zh_CN": "成为万送屋的“特邀嘉宾”，代价是什么？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12502": {
+      "Id": 12502,
+      "Char": 125,
+      "Name": "Plot.12502.1",
+      "Desc": "Plot.12502.2",
+      "AvgId": "CG_125_02",
+      "PlotType": 1,
+      "PrePlot": 12501,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12502",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12502.1",
+          "zh_TW": "勝利者法則 中",
+          "zh_CN": "胜利者法则 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12502.2",
+          "zh_TW": "當少女揮動巨斧，大地為之震動。",
+          "zh_CN": "当少女挥动巨斧，大地为之震动。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12503": {
+      "Id": 12503,
+      "Char": 125,
+      "Name": "Plot.12503.1",
+      "Desc": "Plot.12503.2",
+      "AvgId": "CG_125_03",
+      "PlotType": 1,
+      "PrePlot": 12502,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12503",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12503.1",
+          "zh_TW": "勝利者法則 下",
+          "zh_CN": "胜利者法则 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12503.2",
+          "zh_TW": "這一次，站在擂台對面的人——是你。",
+          "zh_CN": "这一次，站在擂台对面的，是你。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12601": {
+      "Id": 12601,
+      "Char": 126,
+      "Name": "Plot.12601.1",
+      "Desc": "Plot.12601.2",
+      "AvgId": "CG_126_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12601",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12601.1",
+          "zh_TW": "蝶說 上",
+          "zh_CN": "蝶说 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12601.2",
+          "zh_TW": "魔術大師的華美舞台，今天請你來當座上賓。",
+          "zh_CN": "魔术大师的华美舞台，今天请你来当座上宾。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12602": {
+      "Id": 12602,
+      "Char": 126,
+      "Name": "Plot.12602.1",
+      "Desc": "Plot.12602.2",
+      "AvgId": "CG_126_02",
+      "PlotType": 1,
+      "PrePlot": 12601,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12602",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12602.1",
+          "zh_TW": "蝶說 中",
+          "zh_CN": "蝶说 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12602.2",
+          "zh_TW": "當大明星貼身助理的機會，可要好好把握。",
+          "zh_CN": "给大明星当贴身助理的机会，可要好好把握。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12603": {
+      "Id": 12603,
+      "Char": 126,
+      "Name": "Plot.12603.1",
+      "Desc": "Plot.12603.2",
+      "AvgId": "CG_126_03",
+      "PlotType": 1,
+      "PrePlot": 12602,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12603",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12603.1",
+          "zh_TW": "蝶說 下",
+          "zh_CN": "蝶说 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12603.2",
+          "zh_TW": "褪去光環的她，為你揭開「魔術」的奧祕。",
+          "zh_CN": "褪去光环的她，为你揭开“魔术”的奥秘。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12701": {
+      "Id": 12701,
+      "Char": 127,
+      "Name": "Plot.12701.1",
+      "Desc": "Plot.12701.2",
+      "AvgId": "CG_127_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12701",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12701.1",
+          "zh_TW": "機靈信使不會受傷 上",
+          "zh_CN": "机敏信使不会受伤 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12701.2",
+          "zh_TW": "雖說近朱者赤近墨者黑，但這也…",
+          "zh_CN": "虽说常在河边走哪有不湿鞋，但这也……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12702": {
+      "Id": 12702,
+      "Char": 127,
+      "Name": "Plot.12702.1",
+      "Desc": "Plot.12702.2",
+      "AvgId": "CG_127_02",
+      "PlotType": 1,
+      "PrePlot": 12701,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12702",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12702.1",
+          "zh_TW": "機靈信使不會受傷 中",
+          "zh_CN": "机敏信使不会受伤 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12702.2",
+          "zh_TW": "總有人把奇怪的天賦發展得特別厲害。",
+          "zh_CN": "总有人把奇怪的天赋点得特别高。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "12703": {
+      "Id": 12703,
+      "Char": 127,
+      "Name": "Plot.12703.1",
+      "Desc": "Plot.12703.2",
+      "AvgId": "CG_127_03",
+      "PlotType": 1,
+      "PrePlot": 12702,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_12703",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.12703.1",
+          "zh_TW": "機靈信使不會受傷 下",
+          "zh_CN": "机敏信使不会受伤 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.12703.2",
+          "zh_TW": "OK繃能遮住傷口，卻不能遮住受傷的事實。",
+          "zh_CN": "创可贴能遮住伤口，却不能遮住受伤的事实。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13001": {
+      "Id": 13001,
+      "Char": 130,
+      "Name": "Plot.13001.1",
+      "Desc": "Plot.13001.2",
+      "AvgId": "CG_130_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13001",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13001.1",
+          "zh_TW": "不一樣的多娜 上",
+          "zh_CN": "不一样的多娜 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13001.2",
+          "zh_TW": "信使多娜了解這個城鎮的每個角落，這是你熟悉的多娜。",
+          "zh_CN": "信使多娜了解这个城镇的每个角落，这是你熟悉的多娜。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13002": {
+      "Id": 13002,
+      "Char": 130,
+      "Name": "Plot.13002.1",
+      "Desc": "Plot.13002.2",
+      "AvgId": "CG_130_02",
+      "PlotType": 1,
+      "PrePlot": 13001,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13002",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13002.1",
+          "zh_TW": "不一樣的多娜 中",
+          "zh_CN": "不一样的多娜 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13002.2",
+          "zh_TW": "萬送屋的多娜喜歡打扮大家，看，這是她做的新衣服！",
+          "zh_CN": "万送屋的多娜喜欢打扮大家，看，这是她做的新衣服！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13003": {
+      "Id": 13003,
+      "Char": 130,
+      "Name": "Plot.13003.1",
+      "Desc": "Plot.13003.2",
+      "AvgId": "CG_130_03",
+      "PlotType": 1,
+      "PrePlot": 13002,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13003",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13003.1",
+          "zh_TW": "不一樣的多娜 下",
+          "zh_CN": "不一样的多娜 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13003.2",
+          "zh_TW": "那麼你現在看到的多娜是哪一面呢？",
+          "zh_CN": "那你现在看到的多娜是哪一面呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13201": {
+      "Id": 13201,
+      "Char": 132,
+      "Name": "Plot.13201.1",
+      "Desc": "Plot.13201.2",
+      "AvgId": "CG_132_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13201",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13201.1",
+          "zh_TW": "不良少女的一天 上",
+          "zh_CN": "不良少女的一天 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13201.2",
+          "zh_TW": "賭上名譽和地盤的幹架，是不良少女的日常工作。",
+          "zh_CN": "赌上名誉和地盘的约架，是不良少女的日常工作。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13202": {
+      "Id": 13202,
+      "Char": 132,
+      "Name": "Plot.13202.1",
+      "Desc": "Plot.13202.2",
+      "AvgId": "CG_132_02",
+      "PlotType": 1,
+      "PrePlot": 13201,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13202",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13202.1",
+          "zh_TW": "不良少女的一天 中",
+          "zh_CN": "不良少女的一天 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13202.2",
+          "zh_TW": "使用紙筆的戰場，是不良少女的主動加班。",
+          "zh_CN": "使用纸笔的战场，是不良少女的主动加班。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13203": {
+      "Id": 13203,
+      "Char": 132,
+      "Name": "Plot.13203.1",
+      "Desc": "Plot.13203.2",
+      "AvgId": "CG_132_03",
+      "PlotType": 1,
+      "PrePlot": 13202,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13203",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13203.1",
+          "zh_TW": "不良少女的一天 下",
+          "zh_CN": "不良少女的一天 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13203.2",
+          "zh_TW": "「炸彈」，更多的「炸彈」，是不良少女的祕密愛好。",
+          "zh_CN": "“炸弹”，更多的“炸弹”，是不良少女的秘密爱好。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13301": {
+      "Id": 13301,
+      "Char": 133,
+      "Name": "Plot.13301.1",
+      "Desc": "Plot.13301.2",
+      "AvgId": "CG_133_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13301",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13301.1",
+          "zh_TW": "風中密語 上",
+          "zh_CN": "风中密语 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13301.2",
+          "zh_TW": "風車的象徵是秘密，絕不告訴你。",
+          "zh_CN": "风车的象征是秘密，绝不告诉你。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13302": {
+      "Id": 13302,
+      "Char": 133,
+      "Name": "Plot.13302.1",
+      "Desc": "Plot.13302.2",
+      "AvgId": "CG_133_02",
+      "PlotType": 1,
+      "PrePlot": 13301,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13302",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13302.1",
+          "zh_TW": "風中密語 中",
+          "zh_CN": "风中密语 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13302.2",
+          "zh_TW": "遲到的真相是秘密，想要為你分擔壓力。",
+          "zh_CN": "迟到的真相是秘密，想要为你分担压力。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13303": {
+      "Id": 13303,
+      "Char": 133,
+      "Name": "Plot.13303.1",
+      "Desc": "Plot.13303.2",
+      "AvgId": "CG_133_03",
+      "PlotType": 1,
+      "PrePlot": 13302,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13303",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13303.1",
+          "zh_TW": "風中密語 下",
+          "zh_CN": "风中密语 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13303.2",
+          "zh_TW": "那天說過的話是秘密，總有一天會向你傾訴真心。",
+          "zh_CN": "那天说过的话是秘密，总有一天会向你倾诉真心。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13401": {
+      "Id": 13401,
+      "Char": 134,
+      "Name": "Plot.13401.1",
+      "Desc": "Plot.13401.2",
+      "AvgId": "CG_134_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13401",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13401.1",
+          "zh_TW": "初雪來時 上",
+          "zh_CN": "初雪来时 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13401.2",
+          "zh_TW": "冒險暫告結束，成長帶來新的煩惱，菲萊的飄雪下，你與那位有些怯懦的白髮少女再度相遇。",
+          "zh_CN": "冒险暂告结束，成长带来新的烦恼，菲莱的飘雪下，你与那位有些怯懦的白发少女再度相遇。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13402": {
+      "Id": 13402,
+      "Char": 134,
+      "Name": "Plot.13402.1",
+      "Desc": "Plot.13402.2",
+      "AvgId": "CG_134_02",
+      "PlotType": 1,
+      "PrePlot": 13401,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13402",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13402.1",
+          "zh_TW": "初雪來時 中",
+          "zh_CN": "初雪来时 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13402.2",
+          "zh_TW": "她的努力笨拙卻真誠，改變正在不知不覺間發生。",
+          "zh_CN": "她的努力笨拙却真诚，改变正在不知不觉间发生。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13403": {
+      "Id": 13403,
+      "Char": 134,
+      "Name": "Plot.13403.1",
+      "Desc": "Plot.13403.2",
+      "AvgId": "CG_134_03",
+      "PlotType": 1,
+      "PrePlot": 13402,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13403",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13403.1",
+          "zh_TW": "初雪來時 下",
+          "zh_CN": "初雪来时 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13403.2",
+          "zh_TW": "用臺上的演講告別過去，在你的關照下，她闡釋了真實的自己。",
+          "zh_CN": "用台上的演讲告别过去，在你的关照下，她阐释了真实的自己。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13501": {
+      "Id": 13501,
+      "Char": 135,
+      "Name": "Plot.13501.1",
+      "Desc": "Plot.13501.2",
+      "AvgId": "CG_135_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13501",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13501.1",
+          "zh_TW": "魔女的特別採訪 上",
+          "zh_CN": "魔女的特别专访 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13501.2",
+          "zh_TW": "身後的惡寒，讓你發現了正在鬼鬼祟祟靠近自己的魔女——原來她想要自己造一個勁爆新聞！",
+          "zh_CN": "感受到身后恶寒，你发现魔女正在鬼鬼祟祟的靠近中——原来她想要搞个大新闻！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13502": {
+      "Id": 13502,
+      "Char": 135,
+      "Name": "Plot.13502.1",
+      "Desc": "Plot.13502.2",
+      "AvgId": "CG_135_02",
+      "PlotType": 1,
+      "PrePlot": 13501,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13502",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13502.1",
+          "zh_TW": "魔女的特別採訪 中",
+          "zh_CN": "魔女的特别专访 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13502.2",
+          "zh_TW": "魔王與魔女相約進行貼身專訪，竟遭神祕歹徒襲擊！",
+          "zh_CN": "魔王与魔女相约进行贴身专访，神秘歹徒竟乱入其中！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "13503": {
+      "Id": 13503,
+      "Char": 135,
+      "Name": "Plot.13503.1",
+      "Desc": "Plot.13503.2",
+      "AvgId": "CG_135_03",
+      "PlotType": 1,
+      "PrePlot": 13502,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_13503",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.13503.1",
+          "zh_TW": "魔女的特別採訪 下",
+          "zh_CN": "魔女的特别专访 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.13503.2",
+          "zh_TW": "與魔女坦誠交心過後！兩人最特殊的祕密即將在此揭開！",
+          "zh_CN": "与魔女坦诚交心的事后！两人最特殊的秘密，即将在此揭开！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14001": {
+      "Id": 14001,
+      "Char": 140,
+      "Name": "Plot.14001.1",
+      "Desc": "Plot.14001.2",
+      "AvgId": "CG_140_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14001",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14001.1",
+          "zh_TW": "斯帕克拉的煩惱 上",
+          "zh_CN": "斯帕克拉的烦恼 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14001.2",
+          "zh_TW": "天才發明家竟意外陷入瓶頸期，我該去哪裡尋找新的靈感？",
+          "zh_CN": "天才发明家竟意外陷入瓶颈期，我该去哪里寻找新的灵感？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14002": {
+      "Id": 14002,
+      "Char": 140,
+      "Name": "Plot.14002.1",
+      "Desc": "Plot.14002.2",
+      "AvgId": "CG_140_02",
+      "PlotType": 1,
+      "PrePlot": 14001,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14002",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14002.1",
+          "zh_TW": "斯帕克拉的煩惱 中",
+          "zh_CN": "斯帕克拉的烦恼 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14002.2",
+          "zh_TW": "我只認同，懂我的發明的人~",
+          "zh_CN": "我只认可，懂我发明的人~",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14003": {
+      "Id": 14003,
+      "Char": 140,
+      "Name": "Plot.14003.1",
+      "Desc": "Plot.14003.2",
+      "AvgId": "CG_140_03",
+      "PlotType": 1,
+      "PrePlot": 14002,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14003",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14003.1",
+          "zh_TW": "斯帕克拉的煩惱 下",
+          "zh_CN": "斯帕克拉的烦恼 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14003.2",
+          "zh_TW": "魔王，你想幫魔王派加點什麼功能呢？放心，我都能實現～",
+          "zh_CN": "魔王，你想给魔王派，加点什么功能呢？我啊，都能满足~",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14101": {
+      "Id": 14101,
+      "Char": 141,
+      "Name": "Plot.14101.1",
+      "Desc": "Plot.14101.2",
+      "AvgId": "CG_141_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14101",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14101.1",
+          "zh_TW": "荒村驚魂 上",
+          "zh_CN": "荒村惊魂 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14101.2",
+          "zh_TW": "城外荒村怪事連連，或有「鬧鬼」的嫌疑，膽小的玄師臨危受命，卻從踏入村口就開始尖叫——",
+          "zh_CN": "城外荒村怪事连连，或有“闹鬼”的嫌疑，胆小的玄师临危受命，却从踏入村口就开始尖叫——",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14102": {
+      "Id": 14102,
+      "Char": 141,
+      "Name": "Plot.14102.1",
+      "Desc": "Plot.14102.2",
+      "AvgId": "CG_141_02",
+      "PlotType": 1,
+      "PrePlot": 14101,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14102",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14102.1",
+          "zh_TW": "荒村驚魂 中",
+          "zh_CN": "荒村惊魂 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14102.2",
+          "zh_TW": "舊日記本紀錄的那場婚禮是否留有遺憾？未知的黑影閃現，難道真的有「鬼」？",
+          "zh_CN": "旧日记本记录的那场婚礼是否留有遗憾？未知的黑影闪现，难道是真的有“鬼”？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14103": {
+      "Id": 14103,
+      "Char": 141,
+      "Name": "Plot.14103.1",
+      "Desc": "Plot.14103.2",
+      "AvgId": "CG_141_03",
+      "PlotType": 1,
+      "PrePlot": 14102,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14103",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14103.1",
+          "zh_TW": "荒村驚魂 下",
+          "zh_CN": "荒村惊魂 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14103.2",
+          "zh_TW": "藏在黑夜中的祕密，到底是真的有「鬼」，還是人為的惡作劇？燭火搖曳，指向紅綢緞下的那一段往事。",
+          "zh_CN": "藏在黑夜中的秘密，到底是真的有“鬼”还是人为的捉弄，烛火摇曳，指向红绸缎下的那一段往事。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14201": {
+      "Id": 14201,
+      "Char": 142,
+      "Name": "Plot.14201.1",
+      "Desc": "Plot.14201.2",
+      "AvgId": "CG_142_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14201",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14201.1",
+          "zh_TW": "「約會」風波 上",
+          "zh_CN": "“约会”风波 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14201.2",
+          "zh_TW": "說是約會邀約…但絕對不會是正常的約會吧！？",
+          "zh_CN": "说是约会邀约……但绝对不会是正常的约会吧！？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14202": {
+      "Id": 14202,
+      "Char": 142,
+      "Name": "Plot.14202.1",
+      "Desc": "Plot.14202.2",
+      "AvgId": "CG_142_02",
+      "PlotType": 1,
+      "PrePlot": 14201,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14202",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14202.1",
+          "zh_TW": "「約會」風波 中",
+          "zh_CN": "“约会”风波 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14202.2",
+          "zh_TW": "時刻記得「約會」的優先目標，是打探…嗯？？什麼飲料？？！",
+          "zh_CN": "时刻记得“约会”的首要目的，是打探……嗯？？什么饮料？？！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14203": {
+      "Id": 14203,
+      "Char": 142,
+      "Name": "Plot.14203.1",
+      "Desc": "Plot.14203.2",
+      "AvgId": "CG_142_03",
+      "PlotType": 1,
+      "PrePlot": 14202,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14203",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14203.1",
+          "zh_TW": "「約會」風波 下",
+          "zh_CN": "“约会”风波 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14203.2",
+          "zh_TW": "「約會」好像還挺好玩的…糟糕！把任務給忘了！",
+          "zh_CN": "“约会”好像还挺开心的……糟了！把任务忘记了！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14301": {
+      "Id": 14301,
+      "Char": 143,
+      "Name": "Plot.14301.1",
+      "Desc": "Plot.14301.2",
+      "AvgId": "CG_143_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14301",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14301.1",
+          "zh_TW": "我所認識的你 上",
+          "zh_CN": "我所认识的你 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14301.2",
+          "zh_TW": "精銳的戰士，也有精銳的胃…嗯？什麼叫忘記吃飯差點餓死了？",
+          "zh_CN": "精锐的战士，也有精锐的胃……嗯？什么叫忘记吃饭差点饿死了？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14302": {
+      "Id": 14302,
+      "Char": 143,
+      "Name": "Plot.14302.1",
+      "Desc": "Plot.14302.2",
+      "AvgId": "CG_143_02",
+      "PlotType": 1,
+      "PrePlot": 14301,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14302",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14302.1",
+          "zh_TW": "我所認識的你 中",
+          "zh_CN": "我所认识的你 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14302.2",
+          "zh_TW": "你說要去找點野味，但這頭熊是怎麼回事？",
+          "zh_CN": "你说要去搞点野味，但这头熊是怎么回事？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14303": {
+      "Id": 14303,
+      "Char": 143,
+      "Name": "Plot.14303.1",
+      "Desc": "Plot.14303.2",
+      "AvgId": "CG_143_03",
+      "PlotType": 1,
+      "PrePlot": 14302,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14303",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14303.1",
+          "zh_TW": "我所認識的你 下",
+          "zh_CN": "我所认识的你 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14303.2",
+          "zh_TW": "要脫了嗎！？現在！？在這裡！？",
+          "zh_CN": "要脱了吗！？现在！？在这里！？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14401": {
+      "Id": 14401,
+      "Char": 144,
+      "Name": "Plot.14401.1",
+      "Desc": "Plot.14401.2",
+      "AvgId": "CG_144_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14401",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14401.1",
+          "zh_TW": "人刀合一的修行 上",
+          "zh_CN": "人刀合一的修行 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14401.2",
+          "zh_TW": "與千都世在街上偶然碰面，聊起了關於「人刀合一」的修行…",
+          "zh_CN": "与千都世在街上偶然会面，然后聊起了关于“人刀合一”的修行……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14402": {
+      "Id": 14402,
+      "Char": 144,
+      "Name": "Plot.14402.1",
+      "Desc": "Plot.14402.2",
+      "AvgId": "CG_144_02",
+      "PlotType": 1,
+      "PrePlot": 14401,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14402",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14402.1",
+          "zh_TW": "人刀合一的修行 中",
+          "zh_CN": "人刀合一的修行 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14402.2",
+          "zh_TW": "據說，屏氣凝神，注視彼此，就能心意相通…總是錯過的雙方，努力嘗試能成功嗎？",
+          "zh_CN": "据说，屏气凝神，注视彼此，就能心意相通……总是错位的彼此，努力能否成功？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14403": {
+      "Id": 14403,
+      "Char": 144,
+      "Name": "Plot.14403.1",
+      "Desc": "Plot.14403.2",
+      "AvgId": "CG_144_03",
+      "PlotType": 1,
+      "PrePlot": 14402,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14403",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14403.1",
+          "zh_TW": "人刀合一的修行 下",
+          "zh_CN": "人刀合一的修行 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14403.2",
+          "zh_TW": "傾盆大雨落下，她顯得有些失落。此時，你意識到了「持刀人」應盡的責任…",
+          "zh_CN": "大雨倾盆，她略显失落。此刻，你意识到了作为“持刀人”的应尽之责……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14501": {
+      "Id": 14501,
+      "Char": 145,
+      "Name": "Plot.14501.1",
+      "Desc": "Plot.14501.2",
+      "AvgId": "CG_145_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14501",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14501.1",
+          "zh_TW": "千面演者 上",
+          "zh_CN": "千面演者 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14501.2",
+          "zh_TW": "懷著不可告人的目的，她精心製造了一場偶遇。",
+          "zh_CN": "怀着不可告人的目的，她精心制造了一场偶遇。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14502": {
+      "Id": 14502,
+      "Char": 145,
+      "Name": "Plot.14502.1",
+      "Desc": "Plot.14502.2",
+      "AvgId": "CG_145_02",
+      "PlotType": 1,
+      "PrePlot": 14501,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14502",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14502.1",
+          "zh_TW": "千面演者 中",
+          "zh_CN": "千面演者 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14502.2",
+          "zh_TW": "你跟隨著她的指引，一步步走上早已布置好的舞台。",
+          "zh_CN": "你跟随着她的引导，一步步走上早已布置好的舞台。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14503": {
+      "Id": 14503,
+      "Char": 145,
+      "Name": "Plot.14503.1",
+      "Desc": "Plot.14503.2",
+      "AvgId": "CG_145_03",
+      "PlotType": 1,
+      "PrePlot": 14502,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14503",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14503.1",
+          "zh_TW": "千面演者 下",
+          "zh_CN": "千面演者 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14503.2",
+          "zh_TW": "表演落幕之後，真實與偽裝，又該如何分辨？",
+          "zh_CN": "表演落幕之后，真实与伪装，又该如何分辨？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14701": {
+      "Id": 14701,
+      "Char": 147,
+      "Name": "Plot.14701.1",
+      "Desc": "Plot.14701.2",
+      "AvgId": "CG_147_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14701",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14701.1",
+          "zh_TW": "星與心的迴響 上",
+          "zh_CN": "星与心的回响 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14701.2",
+          "zh_TW": "接受了「治愈旅人心傷」的委託之後，煩惱的魔王在弗拉維奧聽見了熟悉的旋律…",
+          "zh_CN": "接受了“治愈旅人心伤”的委托，烦恼的魔王在弗拉维奥遇见了熟悉的旋律……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14702": {
+      "Id": 14702,
+      "Char": 147,
+      "Name": "Plot.14702.1",
+      "Desc": "Plot.14702.2",
+      "AvgId": "CG_147_02",
+      "PlotType": 1,
+      "PrePlot": 14701,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14702",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14702.1",
+          "zh_TW": "星與心的迴響 中",
+          "zh_CN": "星与心的回响 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14702.2",
+          "zh_TW": "焦糖拜託你成為她的製作人，而你在尋覓靈感上給出的答案是…",
+          "zh_CN": "焦糖拜托你成为她的制作人，而你给出的寻觅灵感的答案是……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14703": {
+      "Id": 14703,
+      "Char": 147,
+      "Name": "Plot.14703.1",
+      "Desc": "Plot.14703.2",
+      "AvgId": "CG_147_03",
+      "PlotType": 1,
+      "PrePlot": 14702,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14703",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14703.1",
+          "zh_TW": "星與心的迴響 下",
+          "zh_CN": "星与心的回响 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14703.2",
+          "zh_TW": "在星塔之下的旅人營地，你和焦糖邁向舞台，弗拉維奧的傳說即將在此鑄就…",
+          "zh_CN": "在星塔之下的旅人营地，你和焦糖迈向舞台，弗拉维奥的传说即将在此铸就……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14901": {
+      "Id": 14901,
+      "Char": 149,
+      "Name": "Plot.14901.1",
+      "Desc": "Plot.14901.2",
+      "AvgId": "CG_149_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14901",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14901.1",
+          "zh_TW": "項圈與繩索 上",
+          "zh_CN": "项圈与绳索 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14901.2",
+          "zh_TW": "一段無法斬斷的孽緣，一場意料之外的重逢。",
+          "zh_CN": "一段无法斩断的孽缘，一场意料之外的重逢。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14902": {
+      "Id": 14902,
+      "Char": 149,
+      "Name": "Plot.14902.1",
+      "Desc": "Plot.14902.2",
+      "AvgId": "CG_149_02",
+      "PlotType": 1,
+      "PrePlot": 14901,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14902",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14902.1",
+          "zh_TW": "項圈與繩索 中",
+          "zh_CN": "项圈与绳索 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14902.2",
+          "zh_TW": "在那狂亂不羈、玩世不恭的眼神背後，有什麼不可告人的祕密？",
+          "zh_CN": "在那狂乱无序，玩世不恭的眼神背后，有着怎样不可告人的秘密？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "14903": {
+      "Id": 14903,
+      "Char": 149,
+      "Name": "Plot.14903.1",
+      "Desc": "Plot.14903.2",
+      "AvgId": "CG_149_03",
+      "PlotType": 1,
+      "PrePlot": 14902,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_14903",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.14903.1",
+          "zh_TW": "項圈與繩索 下",
+          "zh_CN": "项圈与绳索 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.14903.2",
+          "zh_TW": "命運的韁繩已經交到你手上，馴服眼前飢渴的怪物是你的使命。",
+          "zh_CN": "命运的缰绳已经递到了你的手上，你注定要驯服眼前饥渴的怪物。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15001": {
+      "Id": 15001,
+      "Char": 150,
+      "Name": "Plot.15001.1",
+      "Desc": "Plot.15001.2",
+      "AvgId": "CG_150_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15001",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15001.1",
+          "zh_TW": "闖禍的薯條 上",
+          "zh_CN": "闯祸的薯条 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15001.2",
+          "zh_TW": "摸魚時間不談工作，不過你要是釣到魚了，菈露願意聽你說說~",
+          "zh_CN": "摸鱼时间不谈工作，不过你要是钓到鱼了，菈露愿意听你说说~",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15002": {
+      "Id": 15002,
+      "Char": 150,
+      "Name": "Plot.15002.1",
+      "Desc": "Plot.15002.2",
+      "AvgId": "CG_150_02",
+      "PlotType": 1,
+      "PrePlot": 15001,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15002",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15002.1",
+          "zh_TW": "闖禍的薯條 中",
+          "zh_CN": "闯祸的薯条 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15002.2",
+          "zh_TW": "就算只有一根水草也不算槓龜，但你說到薯條訂購？什麼薯條？！",
+          "zh_CN": "就算只有一根水草也不算空军，但你说薯条订购，什么薯条？！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15003": {
+      "Id": 15003,
+      "Char": 150,
+      "Name": "Plot.15003.1",
+      "Desc": "Plot.15003.2",
+      "AvgId": "CG_150_03",
+      "PlotType": 1,
+      "PrePlot": 15002,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15003",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15003.1",
+          "zh_TW": "闖禍的薯條 下",
+          "zh_CN": "闯祸的薯条 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15003.2",
+          "zh_TW": "事已至此，菈露的未來就只能指望你了…！",
+          "zh_CN": "事已至此，菈露的未来就只能指望你了……！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15501": {
+      "Id": 15501,
+      "Char": 155,
+      "Name": "Plot.15501.1",
+      "Desc": "Plot.15501.2",
+      "AvgId": "CG_155_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15501",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15501.1",
+          "zh_TW": "氣味的線索 上",
+          "zh_CN": "气味的痕迹 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15501.2",
+          "zh_TW": "飄散在海風中，令人懷念的氣味。",
+          "zh_CN": "飘散在海风中，令人怀念的气味。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15502": {
+      "Id": 15502,
+      "Char": 155,
+      "Name": "Plot.15502.1",
+      "Desc": "Plot.15502.2",
+      "AvgId": "CG_155_02",
+      "PlotType": 1,
+      "PrePlot": 15501,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15502",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15502.1",
+          "zh_TW": "氣味的線索 中",
+          "zh_CN": "气味的痕迹 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15502.2",
+          "zh_TW": "迴盪於街巷間，已經消失的氣味。",
+          "zh_CN": "回荡于街巷间，已然消失的气味。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15503": {
+      "Id": 15503,
+      "Char": 155,
+      "Name": "Plot.15503.1",
+      "Desc": "Plot.15503.2",
+      "AvgId": "CG_155_03",
+      "PlotType": 1,
+      "PrePlot": 15502,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15503",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15503.1",
+          "zh_TW": "氣味的線索 下",
+          "zh_CN": "气味的痕迹 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15503.2",
+          "zh_TW": "緊跟在身後，永恆不變的氣味。",
+          "zh_CN": "紧贴在背后的，永恒不变的气味。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15601": {
+      "Id": 15601,
+      "Char": 156,
+      "Name": "Plot.15601.1",
+      "Desc": "Plot.15601.2",
+      "AvgId": "CG_156_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15601",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15601.1",
+          "zh_TW": "小房間大掃除 上",
+          "zh_CN": "小房间大扫除 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15601.2",
+          "zh_TW": "死神下達了最後的判決，終結將至。這時，那個人出現了。",
+          "zh_CN": "死神下达了最后的判决，终结将至。这时，那个人出现了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15602": {
+      "Id": 15602,
+      "Char": 156,
+      "Name": "Plot.15602.1",
+      "Desc": "Plot.15602.2",
+      "AvgId": "CG_156_02",
+      "PlotType": 1,
+      "PrePlot": 15601,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15602",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15602.1",
+          "zh_TW": "小房間大掃除 中",
+          "zh_CN": "小房间大扫除 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15602.2",
+          "zh_TW": "就算雙眼被慾望蒙蔽、靈魂受時間折磨，那個人也未曾停下腳步。",
+          "zh_CN": "就算双眼被欲望蒙蔽、灵魂被时间折磨，那个人也未曾停下脚步。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15603": {
+      "Id": 15603,
+      "Char": 156,
+      "Name": "Plot.15603.1",
+      "Desc": "Plot.15603.2",
+      "AvgId": "CG_156_03",
+      "PlotType": 1,
+      "PrePlot": 15602,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15603",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15603.1",
+          "zh_TW": "小房間大掃除 下",
+          "zh_CN": "小房间大扫除 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15603.2",
+          "zh_TW": "危機解除了。追隨著那個人的腳步，她的冒險才剛剛開始。",
+          "zh_CN": "危机解除了。追随着那个人的脚步，她的冒险才刚刚开始。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15801": {
+      "Id": 15801,
+      "Char": 158,
+      "Name": "Plot.15801.1",
+      "Desc": "Plot.15801.2",
+      "AvgId": "CG_158_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15801",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15801.1",
+          "zh_TW": "派送的禮物 上",
+          "zh_CN": "派送的礼物 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15801.2",
+          "zh_TW": "雪願節已經過去，但工作不會結束，新的任務是…嗯？大砲？！",
+          "zh_CN": "雪愿节已经过去，但工作不会结束，新的任务是……嗯？大炮？！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15802": {
+      "Id": 15802,
+      "Char": 158,
+      "Name": "Plot.15802.1",
+      "Desc": "Plot.15802.2",
+      "AvgId": "CG_158_02",
+      "PlotType": 1,
+      "PrePlot": 15801,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15802",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15802.1",
+          "zh_TW": "派送的禮物 中",
+          "zh_CN": "派送的礼物 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15802.2",
+          "zh_TW": "大砲配送系統首次測試，發射出去的膠囊…為什麼飛回來了？",
+          "zh_CN": "大炮配送系统首次测试，发射出去的胶囊……为什么飞回来了？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15803": {
+      "Id": 15803,
+      "Char": 158,
+      "Name": "Plot.15803.1",
+      "Desc": "Plot.15803.2",
+      "AvgId": "CG_158_03",
+      "PlotType": 1,
+      "PrePlot": 15802,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15803",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15803.1",
+          "zh_TW": "派送的禮物 下",
+          "zh_CN": "派送的礼物 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15803.2",
+          "zh_TW": "感恩的禮物如果是我的話，這當然是開玩笑的啦！",
+          "zh_CN": "感恩的礼物如果是我的话，这当然是开玩笑的啦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15901": {
+      "Id": 15901,
+      "Char": 159,
+      "Name": "Plot.15901.1",
+      "Desc": "Plot.15901.2",
+      "AvgId": "CG_159_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15901",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15901.1",
+          "zh_TW": "消食秘方 上",
+          "zh_CN": "消食秘方 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15901.2",
+          "zh_TW": "來到蒼梧度假的她，又順手開了幾個處方。",
+          "zh_CN": "来到苍梧度假的她，又顺手开了几个处方。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15902": {
+      "Id": 15902,
+      "Char": 159,
+      "Name": "Plot.15902.1",
+      "Desc": "Plot.15902.2",
+      "AvgId": "CG_159_02",
+      "PlotType": 1,
+      "PrePlot": 15901,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15902",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15902.1",
+          "zh_TW": "消食秘方 中",
+          "zh_CN": "消食秘方 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15902.2",
+          "zh_TW": "因為一杯消食茶，醫生陷入了困境——「助手」，快來幫幫她！",
+          "zh_CN": "因为一杯消食茶，医生陷入了困境——“助手”，快来帮帮她！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "15903": {
+      "Id": 15903,
+      "Char": 159,
+      "Name": "Plot.15903.1",
+      "Desc": "Plot.15903.2",
+      "AvgId": "CG_159_03",
+      "PlotType": 1,
+      "PrePlot": 15902,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_15903",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.15903.1",
+          "zh_TW": "消食秘方 下",
+          "zh_CN": "消食秘方 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.15903.2",
+          "zh_TW": "說起龍裔最著名的養生技巧——那當然是按摩。",
+          "zh_CN": "说起龙裔最著名的养生技巧——那自然是按摩。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "16001": {
+      "Id": 16001,
+      "Char": 160,
+      "Name": "Plot.16001.1",
+      "Desc": "Plot.16001.2",
+      "AvgId": "CG_160_01",
+      "PlotType": 1,
+      "UnlockAffinityLevel": 1,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_16001",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.16001.1",
+          "zh_TW": "奔忙的假期 上",
+          "zh_CN": "奔忙的假期 上",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.16001.2",
+          "zh_TW": "珍貴的假期開始，但事與願違，突發的事件還是佔據了所有時間。",
+          "zh_CN": "珍贵的假期开始，但事与愿违，突发的事件还是填满了所有时间。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "16002": {
+      "Id": 16002,
+      "Char": 160,
+      "Name": "Plot.16002.1",
+      "Desc": "Plot.16002.2",
+      "AvgId": "CG_160_02",
+      "PlotType": 1,
+      "PrePlot": 16001,
+      "UnlockAffinityLevel": 5,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_16002",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.16002.1",
+          "zh_TW": "奔忙的假期 中",
+          "zh_CN": "奔忙的假期 中",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.16002.2",
+          "zh_TW": "工作？？度假？？別想了，又有新的事件發生了！",
+          "zh_CN": "工作？？度假？？别想了又有新的事件发生了！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    },
+    "16003": {
+      "Id": 16003,
+      "Char": 160,
+      "Name": "Plot.16003.1",
+      "Desc": "Plot.16003.2",
+      "AvgId": "CG_160_03",
+      "PlotType": 1,
+      "PrePlot": 16002,
+      "UnlockAffinityLevel": 10,
+      "Rewards": "{\"2\":30}",
+      "PicSource": "Icon/MapEpisode/ep_character_16003",
+      "_localized": {
+        "/Name": {
+          "key": "Plot.16003.1",
+          "zh_TW": "奔忙的假期 下",
+          "zh_CN": "奔忙的假期 下",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        },
+        "/Desc": {
+          "key": "Plot.16003.2",
+          "zh_TW": "這是一次難得的假期，不如暫時放下工作，去享受假日吧。",
+          "zh_CN": "这是一次难得的假期，不如就暂时放下工作，去享受假日吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Plot.json",
+            "zh_CN": "language/zh_CN/Plot.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "MallPackagePage",
+    "categories": [
+      "shop_economy"
+    ],
+    "row_count": 6,
+    "localization_hits": 6,
+    "source": "bin/MallPackagePage.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Name": "MallPackagePage.1.1",
+      "Type": 1,
+      "Sort": 2,
+      "_localized": {
+        "/Name": {
+          "key": "MallPackagePage.1.1",
+          "zh_TW": "新人贈禮",
+          "zh_CN": "新人赠礼",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallPackagePage.json",
+            "zh_CN": "language/zh_CN/MallPackagePage.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Name": "MallPackagePage.2.1",
+      "Type": 1,
+      "Sort": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallPackagePage.2.1",
+          "zh_TW": "活動賣場",
+          "zh_CN": "活动卖场",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallPackagePage.json",
+            "zh_CN": "language/zh_CN/MallPackagePage.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Name": "MallPackagePage.3.1",
+      "Type": 1,
+      "Sort": 3,
+      "_localized": {
+        "/Name": {
+          "key": "MallPackagePage.3.1",
+          "zh_TW": "星之貨架",
+          "zh_CN": "星之货架",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallPackagePage.json",
+            "zh_CN": "language/zh_CN/MallPackagePage.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "Name": "MallPackagePage.4.1",
+      "Type": 1,
+      "Sort": 4,
+      "_localized": {
+        "/Name": {
+          "key": "MallPackagePage.4.1",
+          "zh_TW": "旅行伴侶",
+          "zh_CN": "旅行伴侣",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallPackagePage.json",
+            "zh_CN": "language/zh_CN/MallPackagePage.json"
+          }
+        }
+      }
+    },
+    "11": {
+      "Id": 11,
+      "Name": "MallPackagePage.11.1",
+      "Type": 2,
+      "Sort": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallPackagePage.11.1",
+          "zh_TW": "時令新品",
+          "zh_CN": "时令新品",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallPackagePage.json",
+            "zh_CN": "language/zh_CN/MallPackagePage.json"
+          }
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Name": "MallPackagePage.12.1",
+      "Type": 2,
+      "Sort": 2,
+      "_localized": {
+        "/Name": {
+          "key": "MallPackagePage.12.1",
+          "zh_TW": "歷季精選",
+          "zh_CN": "往季精选",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallPackagePage.json",
+            "zh_CN": "language/zh_CN/MallPackagePage.json"
+          }
+        }
+      }
+    }
+  }
+}

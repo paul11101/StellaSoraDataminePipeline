@@ -1,0 +1,689 @@
+{
+  "table": "ActivityGroup",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c467bd3d5b81bc3c.bin",
+  "source_sha256": "6e37f865b24fa81baea3b07d1bb2e7cefcccfb1aefae88a9927cd816f71675e4",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\ActivityGroup.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 16
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24
+    ],
+    "reference_field_order": [
+      "Id",
+      "ActivityGroupType",
+      "ActivityThemeType",
+      "StartTime",
+      "EndTime",
+      "EnterEndTime",
+      "StoryShowTime",
+      "EnterRes",
+      "PanelId",
+      "PreLimit",
+      "LimitParam",
+      "StartCondType",
+      "StartCondParams",
+      "Enter",
+      "UIAssetsPrefab",
+      "CtrlName",
+      "RewardsShow",
+      "DesText",
+      "TabBgRes",
+      "TransitionId"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 20,
+    "remaining_name_count": 20,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "ActivityGroupType",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "ActivityThemeType",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "StartTime",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "EndTime",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "EnterEndTime",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "StoryShowTime",
+        "matching_reference_rows": 1,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "EnterRes",
+        "matching_reference_rows": 14,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "PanelId",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "PreLimit",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "LimitParam",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "StartCondType",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "14": {
+        "field": "StartCondParams",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "16": {
+        "field": "Enter",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "18": {
+        "field": "UIAssetsPrefab",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "19": {
+        "field": "CtrlName",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "20": {
+        "field": "RewardsShow",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "21": {
+        "field": "DesText",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "23": {
+        "field": "TabBgRes",
+        "matching_reference_rows": 16,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "24": {
+        "field": "TransitionId",
+        "matching_reference_rows": 5,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "2": {
+      "field": "ActivityGroupType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "3": {
+      "field": "ActivityThemeType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "4": {
+      "field": "StartTime",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "5": {
+      "field": "EndTime",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "6": {
+      "field": "EnterEndTime",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "7": {
+      "field": "StoryShowTime",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    },
+    "8": {
+      "field": "EnterRes",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 14,
+      "compared_reference_rows": 14,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 14,
+          "compared": 14
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 14
+        }
+      ]
+    },
+    "9": {
+      "field": "PanelId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "11": {
+      "field": "PreLimit",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "12": {
+      "field": "LimitParam",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "13": {
+      "field": "StartCondType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "14": {
+      "field": "StartCondParams",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "16": {
+      "field": "Enter",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "18": {
+      "field": "UIAssetsPrefab",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "19": {
+      "field": "CtrlName",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "20": {
+      "field": "RewardsShow",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "21": {
+      "field": "DesText",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "23": {
+      "field": "TabBgRes",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "24": {
+      "field": "TransitionId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_int",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 16,
+    "reference_row_count": 16,
+    "shared_key_count": 16,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 16,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

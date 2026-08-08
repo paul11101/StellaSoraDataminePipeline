@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+import "public_star_tower.proto";
+
+message StarTowerInteractReq {
+  uint32 Id = 1;
+  bytes NextPackage = 2047;
+
+  oneof Action {
+    .proto.InteractEnterReq EnterReq = 2;
+    .proto.InteractBattleEndReq BattleEndReq = 3;
+    .proto.InteractSelectReq SelectReq = 4;
+    .proto.InteractRecoveryHPReq RecoveryHPReq = 5;
+    .proto.InteractHawkerReq HawkerReq = 6;
+  }
+}
+
+message StarTowerInteractResp {
+  uint32 Id = 1;
+  repeated .proto.StarTowerRoomCase Cases = 2;
+  .proto.ChangeInfo Change = 3;
+  .proto.TowerChangeData Data = 4;
+  bytes NextPackage = 2047;
+
+  oneof Action {
+    .proto.InteractEnterResp EnterResp = 7;
+    .proto.InteractBattleEndResp BattleEndResp = 8;
+    .proto.InteractSelectResp SelectResp = 9;
+    .proto.InteractStrengthenMachineResp StrengthenMachineResp = 10;
+    .proto.SettleDataResp Settle = 14;
+    .proto.Nil NilResp = 15;
+  }
+}

@@ -1,0 +1,158 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+import "public_star_tower.proto";
+import "public_soldier.proto";
+
+message GmWorldClass {
+  uint32 FinalClass = 1;
+  int32 LastExp = 2;
+  uint32 Stage = 3;
+  bytes RewardsFlag = 15;
+  bytes NextPackage = 2047;
+}
+
+message GmClearAllVampireSurvivor {
+  repeated .proto.VampireSurvivorLevel Records = 1;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerSubNoteSkillInfo {
+  message FloorNum {
+    uint32 Floor = 1;
+    uint32 Num = 2;
+  }
+
+  message StageFloorNum {
+    uint32 StageId = 1;
+    repeated .proto.StarTowerSubNoteSkillInfo.FloorNum Infos = 2;
+  }
+
+  repeated .proto.StarTowerSubNoteSkillInfo.StageFloorNum SubNoteSkillInfo = 1;
+  bytes NextPackage = 2047;
+}
+
+message AgentInfos {
+  repeated .proto.AgentInfo Infos = 1;
+  bytes NextPackage = 2047;
+}
+
+message GmClearAllDailyInstance {
+  repeated .proto.DailyInstance DailyInstances = 1;
+  .proto.ChangeInfo Change = 2;
+  bytes NextPackage = 2047;
+}
+
+message WeekBossLevels {
+  repeated .proto.WeekBossLevel WeekBossLevels = 1;
+  bytes NextPackage = 2047;
+}
+
+message GmClearAllRegionBossLevel {
+  repeated .proto.RegionBossLevel RegionBossLevels = 1;
+  .proto.ChangeInfo Change = 2;
+  bytes NextPackage = 2047;
+}
+
+message GmClearAllTravelerDue {
+  repeated .proto.TravelerDuelBossLevel Levels = 1;
+  .proto.ChangeInfo Change = 2;
+  bytes NextPackage = 2047;
+}
+
+message GmClearAllSkillInstance {
+  repeated .proto.SkillInstance SkillInstances = 1;
+  bytes NextPackage = 2047;
+}
+
+message CharAffinity {
+  .proto.AffinityInfo Info = 1;
+  .proto.ChangeInfo Change = 2;
+  bytes NextPackage = 2047;
+}
+
+message GmSTClearAllStarTower {
+  repeated uint32 Ids = 1;
+  bytes NextPackage = 2047;
+}
+
+message STAddTeamExpNtf {
+  uint32 Level = 1;
+  uint32 Exp = 2;
+  repeated .proto.StarTowerRoomCase Cases = 3;
+  bytes NextPackage = 2047;
+}
+
+message GmClearAllEquipmentInstance {
+  repeated .proto.EquipmentInstance EquipmentInstances = 1;
+  .proto.ChangeInfo Change = 2;
+  bytes NextPackage = 2047;
+}
+
+message GmAllInfinityTowerInfos {
+  repeated .proto.InfinityTowerLevelInfo Infos = 1;
+  bytes NextPackage = 2047;
+}
+
+message GmStory {
+  repeated uint32 Evidences = 1;
+  repeated .proto.Story Stories = 2;
+  .proto.ChangeInfo Change = 3;
+  bytes NextPackage = 2047;
+}
+
+message GmHarmonySkillNotify {
+  repeated uint32 List = 1;
+  bytes NextPackage = 2047;
+}
+
+message GmTowerGrowthNodesNotify {
+  repeated uint32 Detail = 1;
+  bytes NextPackage = 2047;
+}
+
+message GmCharUpNotify {
+  .proto.Char Char = 1;
+  repeated .proto.HandbookInfo Handbook = 2;
+  bytes NextPackage = 2047;
+}
+
+message GmClearAllCharGemInstance {
+  repeated .proto.CharGemInstance CharGemInstances = 1;
+  bytes NextPackage = 2047;
+}
+
+message GmImportCharGemsNotify {
+  uint32 CharId = 1;
+  repeated .proto.CharGemSlot CharGemSlots = 2;
+  .proto.CharGemPresets CharGemPresets = 3;
+  bytes NextPackage = 2047;
+}
+
+message GmClearAllActivityAvgNotify {
+  repeated .proto.ActivityAvg Avgs = 1;
+  bytes NextPackage = 2047;
+}
+
+message GmClearAllActivityLevelsNotify {
+  repeated .proto.ActivityLevels levels = 1;
+  bytes NextPackage = 2047;
+}
+
+message AssistAddBuildNotify {
+  .proto.ChangeInfo Change = 1;
+  repeated .proto.ItemTpl BuildRewards = 2;
+  .proto.StarTowerBuildInfo BuildInfo = 3;
+  bytes NextPackage = 2047;
+}
+
+message SoldierEffectNtf {
+  repeated .proto.SoldierEffect Effects = 1;
+  bytes NextPackage = 2047;
+}
+
+message GmClearAllActivityIceCreamLevelsNotify {
+  repeated .proto.ActivityIceCreamLevel levels = 1;
+  bytes NextPackage = 2047;
+}

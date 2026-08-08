@@ -1,0 +1,261 @@
+{
+  "table": "InfinityTowerEnemySet",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\41820ece34867f99.bin",
+  "source_sha256": "1195dfb07e9fb62a1f8da7eba06b306c0481f9b50e767420c37f3ddd5427fbfc",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\InfinityTowerEnemySet.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 0,
+    "key_type": 0,
+    "row_count": 7440
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "reference_field_order": [
+      "SetId",
+      "WaveNum",
+      "GroupNum",
+      "MaxNum",
+      "MaxNumPerWave",
+      "MonsterId",
+      "CommonGameplayType"
+    ],
+    "local_aot_field_numbers": {
+      "1": "SetId",
+      "2": "WaveNum",
+      "3": "GroupNum",
+      "4": "MaxNum",
+      "5": "MaxNumPerWave",
+      "6": "MonsterId",
+      "8": "CommonGameplayType"
+    },
+    "aot_field_count": 7,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "SetId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7440,
+      "compared_reference_rows": 7440,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7440
+        }
+      ]
+    },
+    "2": {
+      "field": "WaveNum",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7440,
+      "compared_reference_rows": 7440,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7440
+        }
+      ]
+    },
+    "3": {
+      "field": "GroupNum",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7440,
+      "compared_reference_rows": 7440,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7440
+        }
+      ]
+    },
+    "4": {
+      "field": "MaxNum",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7440,
+      "compared_reference_rows": 7440,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7440
+        }
+      ]
+    },
+    "5": {
+      "field": "MaxNumPerWave",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7440,
+      "compared_reference_rows": 7440,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7440
+        }
+      ]
+    },
+    "6": {
+      "field": "MonsterId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7440,
+      "compared_reference_rows": 7440,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7440
+        }
+      ]
+    },
+    "8": {
+      "field": "CommonGameplayType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7440,
+      "compared_reference_rows": 7440,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7440,
+          "compared": 7440
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7440
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 7440,
+    "reference_row_count": 7440,
+    "shared_key_count": 7440,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 7440,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

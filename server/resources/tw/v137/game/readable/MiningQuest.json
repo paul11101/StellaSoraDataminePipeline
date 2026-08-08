@@ -1,0 +1,457 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "MiningQuest",
+    "categories": [
+      "quests",
+      "stages_modes"
+    ],
+    "row_count": 21,
+    "localization_hits": 21,
+    "source": "bin/MiningQuest.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "GroupId": 101,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.101.1",
+      "CompleteCond": 51,
+      "CompleteCondParams": "[1]",
+      "RewardId": 120006,
+      "RewardQty": 30,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.101.1",
+          "zh_TW": "活動期間累積登入1天",
+          "zh_CN": "活动期间累计登录1天",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "102": {
+      "Id": 102,
+      "GroupId": 101,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.102.1",
+      "CompleteCond": 51,
+      "CompleteCondParams": "[2]",
+      "RewardId": 120006,
+      "RewardQty": 40,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.102.1",
+          "zh_TW": "活動期間累積登入2天",
+          "zh_CN": "活动期间累计登录2天",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "103": {
+      "Id": 103,
+      "GroupId": 101,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.103.1",
+      "CompleteCond": 51,
+      "CompleteCondParams": "[3]",
+      "RewardId": 120006,
+      "RewardQty": 60,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.103.1",
+          "zh_TW": "活動期間累積登入3天",
+          "zh_CN": "活动期间累计登录3天",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "104": {
+      "Id": 104,
+      "GroupId": 101,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.104.1",
+      "CompleteCond": 51,
+      "CompleteCondParams": "[4]",
+      "RewardId": 120006,
+      "RewardQty": 100,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.104.1",
+          "zh_TW": "活動期間累積登入4天",
+          "zh_CN": "活动期间累计登录4天",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "105": {
+      "Id": 105,
+      "GroupId": 101,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.105.1",
+      "CompleteCond": 51,
+      "CompleteCondParams": "[5]",
+      "RewardId": 120006,
+      "RewardQty": 120,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.105.1",
+          "zh_TW": "活動期間累積登入5天",
+          "zh_CN": "活动期间累计登录5天",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "111": {
+      "Id": 111,
+      "GroupId": 102,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.111.1",
+      "CompleteCond": 39,
+      "CompleteCondParams": "[200]",
+      "RewardId": 120006,
+      "RewardQty": 10,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.111.1",
+          "zh_TW": "累計消耗200點活力",
+          "zh_CN": "累计消耗200干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "112": {
+      "Id": 112,
+      "GroupId": 102,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.112.1",
+      "CompleteCond": 39,
+      "CompleteCondParams": "[300]",
+      "RewardId": 120006,
+      "RewardQty": 10,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.112.1",
+          "zh_TW": "累計消耗300點活力",
+          "zh_CN": "累计消耗300干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "113": {
+      "Id": 113,
+      "GroupId": 102,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.113.1",
+      "CompleteCond": 39,
+      "CompleteCondParams": "[400]",
+      "RewardId": 120006,
+      "RewardQty": 20,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.113.1",
+          "zh_TW": "累計消耗400點活力",
+          "zh_CN": "累计消耗400干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "114": {
+      "Id": 114,
+      "GroupId": 102,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.114.1",
+      "CompleteCond": 39,
+      "CompleteCondParams": "[600]",
+      "RewardId": 120006,
+      "RewardQty": 40,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.114.1",
+          "zh_TW": "累計消耗600點活力",
+          "zh_CN": "累计消耗600干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "115": {
+      "Id": 115,
+      "GroupId": 102,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.115.1",
+      "CompleteCond": 39,
+      "CompleteCondParams": "[800]",
+      "RewardId": 120006,
+      "RewardQty": 50,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.115.1",
+          "zh_TW": "累計消耗800點活力",
+          "zh_CN": "累计消耗800干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "116": {
+      "Id": 116,
+      "GroupId": 102,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.116.1",
+      "CompleteCond": 39,
+      "CompleteCondParams": "[1000]",
+      "RewardId": 120006,
+      "RewardQty": 80,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.116.1",
+          "zh_TW": "累計消耗1000點活力",
+          "zh_CN": "累计消耗1000干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "121": {
+      "Id": 121,
+      "GroupId": 103,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.121.1",
+      "CompleteCond": 107,
+      "CompleteCondParams": "[400014,500]",
+      "RewardId": 1,
+      "RewardQty": 2000000,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.121.1",
+          "zh_TW": "累計獲得500點活動積分",
+          "zh_CN": "累计获得500点活动积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "122": {
+      "Id": 122,
+      "GroupId": 103,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.122.1",
+      "CompleteCond": 107,
+      "CompleteCondParams": "[400014,1000]",
+      "RewardId": 50003,
+      "RewardQty": 40,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.122.1",
+          "zh_TW": "累計獲得1000點活動積分",
+          "zh_CN": "累计获得1000点活动积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "123": {
+      "Id": 123,
+      "GroupId": 103,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.123.1",
+      "CompleteCond": 107,
+      "CompleteCondParams": "[400014,1500]",
+      "RewardId": 32000,
+      "RewardQty": 200,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.123.1",
+          "zh_TW": "累計獲得1500點活動積分",
+          "zh_CN": "累计获得1500点活动积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "124": {
+      "Id": 124,
+      "GroupId": 103,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.124.1",
+      "CompleteCond": 107,
+      "CompleteCondParams": "[400014,2000]",
+      "RewardId": 30,
+      "RewardQty": 10,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.124.1",
+          "zh_TW": "累計獲得2000點活動積分",
+          "zh_CN": "累计获得2000点活动积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "125": {
+      "Id": 125,
+      "GroupId": 103,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.125.1",
+      "CompleteCond": 107,
+      "CompleteCondParams": "[400014,2500]",
+      "RewardId": 82007,
+      "RewardQty": 300,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.125.1",
+          "zh_TW": "累計獲得2500點活動積分",
+          "zh_CN": "累计获得2500点活动积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "126": {
+      "Id": 126,
+      "GroupId": 103,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.126.1",
+      "CompleteCond": 107,
+      "CompleteCondParams": "[400014,3000]",
+      "RewardId": 50004,
+      "RewardQty": 20,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.126.1",
+          "zh_TW": "累計獲得3000點活動積分",
+          "zh_CN": "累计获得3000点活动积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "127": {
+      "Id": 127,
+      "GroupId": 103,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.127.1",
+      "CompleteCond": 107,
+      "CompleteCondParams": "[400014,3500]",
+      "RewardId": 32000,
+      "RewardQty": 200,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.127.1",
+          "zh_TW": "累計獲得3500點活動積分",
+          "zh_CN": "累计获得3500点活动积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "128": {
+      "Id": 128,
+      "GroupId": 103,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.128.1",
+      "CompleteCond": 107,
+      "CompleteCondParams": "[400014,4000]",
+      "RewardId": 33912,
+      "RewardQty": 10,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.128.1",
+          "zh_TW": "累計獲得4000點活動積分",
+          "zh_CN": "累计获得4000点活动积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "129": {
+      "Id": 129,
+      "GroupId": 103,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.129.1",
+      "CompleteCond": 107,
+      "CompleteCondParams": "[400014,4500]",
+      "RewardId": 82007,
+      "RewardQty": 300,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.129.1",
+          "zh_TW": "累計獲得4500點活動積分",
+          "zh_CN": "累计获得4500点活动积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    },
+    "130": {
+      "Id": 130,
+      "GroupId": 103,
+      "ActivityId": 400014,
+      "QuestDes": "MiningQuest.130.1",
+      "CompleteCond": 107,
+      "CompleteCondParams": "[400014,5000]",
+      "RewardId": 35000,
+      "RewardQty": 20,
+      "_localized": {
+        "/QuestDes": {
+          "key": "MiningQuest.130.1",
+          "zh_TW": "累計獲得5000點活動積分",
+          "zh_CN": "累计获得5000点活动积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuest.json",
+            "zh_CN": "language/zh_CN/MiningQuest.json"
+          }
+        }
+      }
+    }
+  }
+}

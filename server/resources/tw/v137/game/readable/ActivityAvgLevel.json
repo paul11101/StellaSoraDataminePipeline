@@ -1,0 +1,472 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ActivityAvgLevel",
+    "categories": [
+      "stages_modes",
+      "activities"
+    ],
+    "row_count": 11,
+    "localization_hits": 33,
+    "source": "bin/ActivityAvgLevel.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "10001": {
+      "Id": 10001,
+      "ActivityId": 1010002,
+      "Index": "ActivityAvgLevel.10001.1",
+      "Name": "ActivityAvgLevel.10001.2",
+      "IconRes": "Icon/ActivityStory/ep_event01_01",
+      "Type": 3,
+      "StoryId": "STev_01_01",
+      "Desc": "ActivityAvgLevel.10001.3",
+      "FirstCompleteRewardPreview": "[[2,30,1]]",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityAvgLevel.10001.1",
+          "zh_TW": "第一話",
+          "zh_CN": "第一话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityAvgLevel.10001.2",
+          "zh_TW": "閃爍的微光",
+          "zh_CN": "闪烁的微光",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityAvgLevel.10001.3",
+          "zh_TW": "夏日的海濱小鎮，流傳著一則恐怖傳說：\n遠海之上閃爍著「幽靈船」的綠光。\n你目睹了那詭異的光芒被大海吞沒…",
+          "zh_CN": "夏日的海滨小镇，流传着一则恐怖传说：\n远海之上，闪烁着“幽灵船”的绿光。\n你目睹了那诡异的光芒，被大海吞没……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        }
+      }
+    },
+    "10002": {
+      "Id": 10002,
+      "ActivityId": 1010002,
+      "Index": "ActivityAvgLevel.10002.1",
+      "Name": "ActivityAvgLevel.10002.2",
+      "IconRes": "Icon/ActivityStory/ep_event01_02",
+      "Type": 3,
+      "PreLevelId": 10001,
+      "StoryId": "STev_01_02",
+      "Desc": "ActivityAvgLevel.10002.3",
+      "FirstCompleteRewardPreview": "[[2,30,1]]",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityAvgLevel.10002.1",
+          "zh_TW": "第二話",
+          "zh_CN": "第二话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityAvgLevel.10002.2",
+          "zh_TW": "來自幽靈船",
+          "zh_CN": "来自幽灵船",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityAvgLevel.10002.3",
+          "zh_TW": "兩位陌生的兔子少女救了你。\n她們要去尋找「幽靈船」光芒的源頭。",
+          "zh_CN": "两位陌生的兔子少女搭救了你。\n她们要去寻找“幽灵船”光芒的源头。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        }
+      }
+    },
+    "10003": {
+      "Id": 10003,
+      "ActivityId": 1010002,
+      "Index": "ActivityAvgLevel.10003.1",
+      "Name": "ActivityAvgLevel.10003.2",
+      "IconRes": "Icon/ActivityStory/ep_event01_03",
+      "Type": 3,
+      "PreLevelId": 10002,
+      "StoryId": "STev_01_03",
+      "Desc": "ActivityAvgLevel.10003.3",
+      "FirstCompleteRewardPreview": "[[2,30,1]]",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityAvgLevel.10003.1",
+          "zh_TW": "第三話",
+          "zh_CN": "第三话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityAvgLevel.10003.2",
+          "zh_TW": "謎團與氣味",
+          "zh_CN": "谜团与气味",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityAvgLevel.10003.3",
+          "zh_TW": "你得知了希婭和花鈴此行的目的：\n她們要為奶奶正名。\n不知為何，希婭對你異常親近…",
+          "zh_CN": "你得知了希娅和花铃此行的目的：\n她们要为奶奶正名。\n不知为何，希娅对你异常亲近……",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        }
+      }
+    },
+    "10004": {
+      "Id": 10004,
+      "ActivityId": 1010002,
+      "Index": "ActivityAvgLevel.10004.1",
+      "Name": "ActivityAvgLevel.10004.2",
+      "IconRes": "Icon/ActivityStory/ep_event01_04",
+      "Type": 3,
+      "PreLevelId": 10003,
+      "StoryId": "STev_01_04",
+      "Desc": "ActivityAvgLevel.10004.3",
+      "FirstCompleteRewardPreview": "[[2,30,1]]",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityAvgLevel.10004.1",
+          "zh_TW": "第四話",
+          "zh_CN": "第四话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityAvgLevel.10004.2",
+          "zh_TW": "聲音的指示",
+          "zh_CN": "声音的指示",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityAvgLevel.10004.3",
+          "zh_TW": "行程過半，你們途徑一座小島，暫時停留休息。\n在島上，花鈴聽到了異樣的聲音——\n一夥圖謀不軌的旅人現身了。",
+          "zh_CN": "行程过半，你们途经一座小岛，暂时休整。\n在岛上，花铃听到了异样的声音——\n一伙图谋不轨的旅人现身了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        }
+      }
+    },
+    "10005": {
+      "Id": 10005,
+      "ActivityId": 1010002,
+      "Index": "ActivityAvgLevel.10005.1",
+      "Name": "ActivityAvgLevel.10005.2",
+      "IconRes": "Icon/ActivityStory/ep_event01_05",
+      "Type": 3,
+      "PreLevelId": 10004,
+      "StoryId": "STev_01_05",
+      "Desc": "ActivityAvgLevel.10005.3",
+      "FirstCompleteRewardPreview": "[[2,30,1]]",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityAvgLevel.10005.1",
+          "zh_TW": "第五話",
+          "zh_CN": "第五话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityAvgLevel.10005.2",
+          "zh_TW": "眼見非實",
+          "zh_CN": "眼见非实",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityAvgLevel.10005.3",
+          "zh_TW": "種種線索表明，奶奶撒謊了。\n「幽靈船」只是掩人耳目的幌子。\n「面對真相，我們需要一些勇氣。」",
+          "zh_CN": "种种线索表明，奶奶撒谎了。\n“幽灵船”只是掩人耳目的幌子。\n“面对真相，我们需要一些勇气。”",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        }
+      }
+    },
+    "10006": {
+      "Id": 10006,
+      "ActivityId": 1010002,
+      "DayOpen": 1,
+      "Index": "ActivityAvgLevel.10006.1",
+      "Name": "ActivityAvgLevel.10006.2",
+      "IconRes": "Icon/ActivityStory/ep_event01_06",
+      "Type": 3,
+      "PreLevelId": 10005,
+      "StoryId": "STev_01_06",
+      "Desc": "ActivityAvgLevel.10006.3",
+      "FirstCompleteRewardPreview": "[[2,30,1]]",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityAvgLevel.10006.1",
+          "zh_TW": "第六話",
+          "zh_CN": "第六话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityAvgLevel.10006.2",
+          "zh_TW": "相似之人",
+          "zh_CN": "相似之人",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityAvgLevel.10006.3",
+          "zh_TW": "對於奶奶的隱瞞，希婭早已有所察覺。\n她決定先走一步，去前方探查情況。\n然而，黑暗中有一個身影始終注視著她。",
+          "zh_CN": "对于奶奶的隐瞒，希娅早已有所察觉。\n她决定先走一步，去前方探查情况。\n然而，黑暗中有一个身影始终注视着她。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        }
+      }
+    },
+    "10007": {
+      "Id": 10007,
+      "ActivityId": 1010002,
+      "DayOpen": 1,
+      "Index": "ActivityAvgLevel.10007.1",
+      "Name": "ActivityAvgLevel.10007.2",
+      "IconRes": "Icon/ActivityStory/ep_event01_07",
+      "Type": 3,
+      "PreLevelId": 10006,
+      "StoryId": "STev_01_07",
+      "Desc": "ActivityAvgLevel.10007.3",
+      "FirstCompleteRewardPreview": "[[2,30,1]]",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityAvgLevel.10007.1",
+          "zh_TW": "第七話",
+          "zh_CN": "第七话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityAvgLevel.10007.2",
+          "zh_TW": "陰影之下",
+          "zh_CN": "阴影之下",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityAvgLevel.10007.3",
+          "zh_TW": "巨大的六角鯨來襲，你和花鈴合力甩掉了牠。\n就在你以為危機解除時，希婭卻陷入了漩渦。\n就在絕望之際，那片幽綠的光芒悄然降臨。",
+          "zh_CN": "巨大的六角鲸袭来，你和花铃合力甩掉了它。\n就在你以为危机消散时，希娅却陷入了漩涡。\n绝望之际，那片幽绿的光芒悄然降临。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        }
+      }
+    },
+    "10008": {
+      "Id": 10008,
+      "ActivityId": 1010002,
+      "DayOpen": 1,
+      "Index": "ActivityAvgLevel.10008.1",
+      "Name": "ActivityAvgLevel.10008.2",
+      "IconRes": "Icon/ActivityStory/ep_event01_08",
+      "Type": 3,
+      "PreLevelId": 10007,
+      "StoryId": "STev_01_08",
+      "Desc": "ActivityAvgLevel.10008.3",
+      "FirstCompleteRewardPreview": "[[2,30,1]]",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityAvgLevel.10008.1",
+          "zh_TW": "第八話",
+          "zh_CN": "第八话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityAvgLevel.10008.2",
+          "zh_TW": "迴響之地",
+          "zh_CN": "回响之地",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityAvgLevel.10008.3",
+          "zh_TW": "你們終於來到了光芒的源頭。\n沒有幽靈船，只有一片荒蕪的島嶼。\n朝著最終的目標，出發！",
+          "zh_CN": "你们终于来到了光芒的源头。\n没有幽灵船，只有一片荒芜的岛屿。\n朝着最终的目标，出发！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        }
+      }
+    },
+    "10009": {
+      "Id": 10009,
+      "ActivityId": 1010002,
+      "DayOpen": 1,
+      "Index": "ActivityAvgLevel.10009.1",
+      "Name": "ActivityAvgLevel.10009.2",
+      "IconRes": "Icon/ActivityStory/ep_event01_09",
+      "Type": 3,
+      "PreLevelId": 10008,
+      "StoryId": "STev_01_09",
+      "Desc": "ActivityAvgLevel.10009.3",
+      "FirstCompleteRewardPreview": "[[2,30,1]]",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityAvgLevel.10009.1",
+          "zh_TW": "第九話",
+          "zh_CN": "第九话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityAvgLevel.10009.2",
+          "zh_TW": "光的原點",
+          "zh_CN": "光的原点",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityAvgLevel.10009.3",
+          "zh_TW": "暴雨之中，六角鯨的骸骨散發出強烈的光芒。\n這裡是牠們的棲息地、墳墓。\n也是無數旅人誤以為埋藏寶藏的天國。",
+          "zh_CN": "暴雨之中，六角鲸的骸骨散发着强烈的光。\n这里是它们的栖息地、坟墓。\n也是无数旅人误以为埋藏宝藏的天国。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        }
+      }
+    },
+    "10010": {
+      "Id": 10010,
+      "ActivityId": 1010002,
+      "DayOpen": 2,
+      "Index": "ActivityAvgLevel.10010.1",
+      "Name": "ActivityAvgLevel.10010.2",
+      "IconRes": "Icon/ActivityStory/ep_event01_10",
+      "Type": 3,
+      "PreLevelId": 10009,
+      "StoryId": "STev_01_10",
+      "Desc": "ActivityAvgLevel.10010.3",
+      "FirstCompleteRewardPreview": "[[2,30,1]]",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityAvgLevel.10010.1",
+          "zh_TW": "第十話",
+          "zh_CN": "第十话",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityAvgLevel.10010.2",
+          "zh_TW": "海水的祕密",
+          "zh_CN": "海水的秘密",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityAvgLevel.10010.3",
+          "zh_TW": "你們擊退了一路尾隨的尋寶旅人。\n在混亂之中，意外找回了奶奶當初留下的日記。\n你洞悉了光芒的祕密。",
+          "zh_CN": "你们击退了一路尾随的寻宝旅人。\n混乱之中，意外找回了奶奶当初留下的日记。\n你洞悉了光芒的秘密。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        }
+      }
+    },
+    "10011": {
+      "Id": 10011,
+      "ActivityId": 1010002,
+      "DayOpen": 2,
+      "Index": "ActivityAvgLevel.10011.1",
+      "Name": "ActivityAvgLevel.10011.2",
+      "IconRes": "Icon/ActivityStory/ep_event01_11",
+      "Type": 3,
+      "PreLevelId": 10010,
+      "StoryId": "STev_01_11",
+      "Desc": "ActivityAvgLevel.10011.3",
+      "FirstCompleteRewardPreview": "[[2,50,1]]",
+      "_localized": {
+        "/Index": {
+          "key": "ActivityAvgLevel.10011.1",
+          "zh_TW": "尾聲",
+          "zh_CN": "尾声",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Name": {
+          "key": "ActivityAvgLevel.10011.2",
+          "zh_TW": "漫無止境的夏天",
+          "zh_CN": "漫无止境的夏天",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        },
+        "/Desc": {
+          "key": "ActivityAvgLevel.10011.3",
+          "zh_TW": "事情圓滿結束，你終於可以安心享受。\n屬於你的、你們的、永不結束的夏天。",
+          "zh_CN": "事情圆满结束，你终于可以安心享受。\n属于你的、你们的、永不结束的夏天。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+            "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+          }
+        }
+      }
+    }
+  }
+}

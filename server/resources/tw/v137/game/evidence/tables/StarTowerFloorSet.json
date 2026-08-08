@@ -1,0 +1,323 @@
+{
+  "table": "StarTowerFloorSet",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7395f2d2fdfb6759.bin",
+  "source_sha256": "956d8ac366a0eda890adbd80f95182e495e1973e9ca0438b0b68c547295571c4",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\StarTowerFloorSet.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 307
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "reference_field_order": [
+      "Id",
+      "BattleLvs",
+      "Stage",
+      "RoomType",
+      "MapID",
+      "FloorID",
+      "MonsterLv",
+      "ThemeSkillLv",
+      "Weight"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "BattleLvs",
+      "3": "Stage",
+      "4": "RoomType",
+      "5": "MapID",
+      "6": "FloorID",
+      "7": "MonsterLv",
+      "8": "ThemeSkillLv",
+      "9": "Weight"
+    },
+    "aot_field_count": 9,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 307,
+      "compared_reference_rows": 307,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 307,
+          "compared": 307
+        },
+        {
+          "codec": "varint_int",
+          "matches": 307,
+          "compared": 307
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 307
+        }
+      ]
+    },
+    "2": {
+      "field": "BattleLvs",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 307,
+      "compared_reference_rows": 307,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 307,
+          "compared": 307
+        },
+        {
+          "codec": "varint_int",
+          "matches": 307,
+          "compared": 307
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 307
+        }
+      ]
+    },
+    "3": {
+      "field": "Stage",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 307,
+      "compared_reference_rows": 307,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 307,
+          "compared": 307
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 307,
+          "compared": 307
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 307
+        }
+      ]
+    },
+    "4": {
+      "field": "RoomType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 165,
+      "compared_reference_rows": 165,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 165,
+          "compared": 165
+        },
+        {
+          "codec": "varint_int",
+          "matches": 165,
+          "compared": 165
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 165
+        }
+      ]
+    },
+    "5": {
+      "field": "MapID",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 307,
+      "compared_reference_rows": 307,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 307,
+          "compared": 307
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 307,
+          "compared": 307
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 307
+        }
+      ]
+    },
+    "6": {
+      "field": "FloorID",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 137,
+      "compared_reference_rows": 137,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 137,
+          "compared": 137
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 137,
+          "compared": 137
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 137
+        }
+      ]
+    },
+    "7": {
+      "field": "MonsterLv",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 275,
+      "compared_reference_rows": 275,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 275,
+          "compared": 275
+        },
+        {
+          "codec": "varint_int",
+          "matches": 275,
+          "compared": 275
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 275
+        }
+      ]
+    },
+    "8": {
+      "field": "ThemeSkillLv",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 307,
+      "compared_reference_rows": 307,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 307,
+          "compared": 307
+        },
+        {
+          "codec": "varint_int",
+          "matches": 307,
+          "compared": 307
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 307
+        }
+      ]
+    },
+    "9": {
+      "field": "Weight",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 307,
+      "compared_reference_rows": 307,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 307,
+          "compared": 307
+        },
+        {
+          "codec": "varint_int",
+          "matches": 307,
+          "compared": 307
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 307
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 307,
+    "reference_row_count": 307,
+    "shared_key_count": 307,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 307,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

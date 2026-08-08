@@ -1,0 +1,168 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "developer_test",
+    "name": "开发、GM 与测试数据",
+    "description": "GM、测试阵容、脚本参数和开发期辅助配置。",
+    "table_count": 9,
+    "row_count": 1018,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "GMBuild",
+      "categories": [
+        "developer_test"
+      ],
+      "row_count": 9,
+      "data": "bin/GMBuild.json",
+      "readable": "readable/GMBuild.json",
+      "evidence": "evidence/tables/GMBuild.json",
+      "source_sha256": "c68771c5cc59f5f83a576d461425a0855d7cb561e7dbc90f4cadd2b77ff29733",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GMOrder",
+      "categories": [
+        "developer_test"
+      ],
+      "row_count": 47,
+      "data": "bin/GMOrder.json",
+      "readable": "readable/GMOrder.json",
+      "evidence": "evidence/tables/GMOrder.json",
+      "source_sha256": "286a860dd20978fe866f2219bf69b83abc8060c47346b61a19068ee54d649a68",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GMSuperman",
+      "categories": [
+        "developer_test"
+      ],
+      "row_count": 32,
+      "data": "bin/GMSuperman.json",
+      "readable": "readable/GMSuperman.json",
+      "evidence": "evidence/tables/GMSuperman.json",
+      "source_sha256": "434f847743ca8188b8e04ca995c255c86e5a8ca82d4e6a75458dbeb93ca04460",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GMTeam",
+      "categories": [
+        "developer_test"
+      ],
+      "row_count": 7,
+      "data": "bin/GMTeam.json",
+      "readable": "readable/GMTeam.json",
+      "evidence": "evidence/tables/GMTeam.json",
+      "source_sha256": "27527d26fc85055a11648e239be7ce57cb0bfabe580c350dd98174b49c267c44",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ScriptParameter",
+      "categories": [
+        "developer_test"
+      ],
+      "row_count": 274,
+      "data": "bin/ScriptParameter.json",
+      "readable": "readable/ScriptParameter.json",
+      "evidence": "evidence/tables/ScriptParameter.json",
+      "source_sha256": "38be46f38aeb49d6a786afdc8e618df9ab6ec692abad1b03a634afd0b8a89d94",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ScriptParameterValue",
+      "categories": [
+        "developer_test"
+      ],
+      "row_count": 606,
+      "data": "bin/ScriptParameterValue.json",
+      "readable": "readable/ScriptParameterValue.json",
+      "evidence": "evidence/tables/ScriptParameterValue.json",
+      "source_sha256": "ed5e0d93dff32c208ed18bc8882531a72518b1910693e7231c716049fd68437d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TestCharacterAtt",
+      "categories": [
+        "characters",
+        "developer_test"
+      ],
+      "row_count": 7,
+      "data": "bin/TestCharacterAtt.json",
+      "readable": "readable/TestCharacterAtt.json",
+      "evidence": "evidence/tables/TestCharacterAtt.json",
+      "source_sha256": "7c12f2d890fcdf6289a010b56078a0c51200499b22c95b654a63a20a73ff9be8",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TestCharacterList",
+      "categories": [
+        "characters",
+        "developer_test"
+      ],
+      "row_count": 30,
+      "data": "bin/TestCharacterList.json",
+      "readable": "readable/TestCharacterList.json",
+      "evidence": "evidence/tables/TestCharacterList.json",
+      "source_sha256": "2c29eb41bc3981f596987daf0f0676e6128cead3cff05a2144828360785d7998",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TestTeamData",
+      "categories": [
+        "developer_test"
+      ],
+      "row_count": 6,
+      "data": "bin/TestTeamData.json",
+      "readable": "readable/TestTeamData.json",
+      "evidence": "evidence/tables/TestTeamData.json",
+      "source_sha256": "c69866407c218a208b1868a9176bb1ae1adadf11dd65a286b9a54ca8944d604d",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    }
+  ]
+}

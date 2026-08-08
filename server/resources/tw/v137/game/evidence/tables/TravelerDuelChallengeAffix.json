@@ -1,0 +1,694 @@
+{
+  "table": "TravelerDuelChallengeAffix",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9f2d1f2c7f449dd4.bin",
+  "source_sha256": "917466a2d6f89f8fdd4656d17a16fa8094f73ea72ba9cd09c1f0edda5fe39de4",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\TravelerDuelChallengeAffix.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 152
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      25
+    ],
+    "reference_field_order": [
+      "Id",
+      "GroupId",
+      "Difficulty",
+      "UnlockDifficulty",
+      "UnlockDurationTime",
+      "Name",
+      "Desc",
+      "Icon",
+      "Element",
+      "AddCamp",
+      "AddClass",
+      "SkillId",
+      "BranchId",
+      "Param1",
+      "Value1",
+      "LogicTag",
+      "Param2",
+      "Param3",
+      "Param4",
+      "Param5"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 20,
+    "remaining_name_count": 20,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 152,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "GroupId",
+        "matching_reference_rows": 144,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Difficulty",
+        "matching_reference_rows": 144,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "UnlockDifficulty",
+        "matching_reference_rows": 21,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "UnlockDurationTime",
+        "matching_reference_rows": 55,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "Name",
+        "matching_reference_rows": 152,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "Desc",
+        "matching_reference_rows": 152,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "Icon",
+        "matching_reference_rows": 152,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "Element",
+        "matching_reference_rows": 152,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "AddCamp",
+        "matching_reference_rows": 152,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "AddClass",
+        "matching_reference_rows": 152,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "SkillId",
+        "matching_reference_rows": 128,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "BranchId",
+        "matching_reference_rows": 6,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "14": {
+        "field": "LogicTag",
+        "matching_reference_rows": 18,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "15": {
+        "field": "Param1",
+        "matching_reference_rows": 120,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "16": {
+        "field": "Param2",
+        "matching_reference_rows": 73,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "17": {
+        "field": "Param3",
+        "matching_reference_rows": 28,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "18": {
+        "field": "Param4",
+        "matching_reference_rows": 11,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "19": {
+        "field": "Param5",
+        "matching_reference_rows": 1,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "25": {
+        "field": "Value1",
+        "matching_reference_rows": 18,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 152,
+      "compared_reference_rows": 152,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "varint_int",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 152
+        }
+      ]
+    },
+    "2": {
+      "field": "GroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 144,
+      "compared_reference_rows": 144,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 144,
+          "compared": 144
+        },
+        {
+          "codec": "varint_int",
+          "matches": 144,
+          "compared": 144
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 144
+        }
+      ]
+    },
+    "3": {
+      "field": "Difficulty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 144,
+      "compared_reference_rows": 144,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 144,
+          "compared": 144
+        },
+        {
+          "codec": "varint_int",
+          "matches": 144,
+          "compared": 144
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 144
+        }
+      ]
+    },
+    "4": {
+      "field": "UnlockDifficulty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "varint_int",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    },
+    "5": {
+      "field": "UnlockDurationTime",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 55,
+      "compared_reference_rows": 55,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 55,
+          "compared": 55
+        },
+        {
+          "codec": "varint_int",
+          "matches": 55,
+          "compared": 55
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 55
+        }
+      ]
+    },
+    "6": {
+      "field": "Name",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 152,
+      "compared_reference_rows": 152,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 152
+        }
+      ]
+    },
+    "7": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 152,
+      "compared_reference_rows": 152,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 152
+        }
+      ]
+    },
+    "8": {
+      "field": "Icon",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 152,
+      "compared_reference_rows": 152,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 152
+        }
+      ]
+    },
+    "9": {
+      "field": "Element",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 152,
+      "compared_reference_rows": 152,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "varint_int",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 152
+        }
+      ]
+    },
+    "10": {
+      "field": "AddCamp",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 152,
+      "compared_reference_rows": 152,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 152
+        }
+      ]
+    },
+    "11": {
+      "field": "AddClass",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 152,
+      "compared_reference_rows": 152,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 152,
+          "compared": 152
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 152
+        }
+      ]
+    },
+    "12": {
+      "field": "SkillId",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 128,
+      "compared_reference_rows": 128,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 128,
+          "compared": 128
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 128,
+          "compared": 128
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 128
+        }
+      ]
+    },
+    "13": {
+      "field": "BranchId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 6,
+      "compared_reference_rows": 6,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_int",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 6
+        }
+      ]
+    },
+    "14": {
+      "field": "LogicTag",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 18,
+      "compared_reference_rows": 18,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 18,
+          "compared": 18
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 18
+        }
+      ]
+    },
+    "15": {
+      "field": "Param1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 120,
+      "compared_reference_rows": 120,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 120,
+          "compared": 120
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 120
+        }
+      ]
+    },
+    "16": {
+      "field": "Param2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 73,
+      "compared_reference_rows": 73,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 73,
+          "compared": 73
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 73
+        }
+      ]
+    },
+    "17": {
+      "field": "Param3",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 28,
+      "compared_reference_rows": 28,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 28,
+          "compared": 28
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 28
+        }
+      ]
+    },
+    "18": {
+      "field": "Param4",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "19": {
+      "field": "Param5",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    },
+    "25": {
+      "field": "Value1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 18,
+      "compared_reference_rows": 18,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 18,
+          "compared": 18
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 18
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 152,
+    "reference_row_count": 152,
+    "shared_key_count": 152,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 152,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

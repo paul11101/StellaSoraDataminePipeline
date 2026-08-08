@@ -1,0 +1,289 @@
+{
+  "table": "EventResult",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6e5c4054f981180d.bin",
+  "source_sha256": "fa20c0109dcae0bc442dd10ce4aea858d02ff00cf950c38606d883fd5f3cfa8c",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\EventResult.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 113
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "reference_field_order": [
+      "Id",
+      "Effect1",
+      "Parameter1",
+      "Effect2",
+      "Parameter2",
+      "Effect3",
+      "Parameter3"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 7,
+    "remaining_name_count": 7,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 113,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Effect1",
+        "matching_reference_rows": 113,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Parameter1",
+        "matching_reference_rows": 113,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Effect2",
+        "matching_reference_rows": 48,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Parameter2",
+        "matching_reference_rows": 48,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "Effect3",
+        "matching_reference_rows": 1,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "Parameter3",
+        "matching_reference_rows": 1,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 113,
+      "compared_reference_rows": 113,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 113,
+          "compared": 113
+        },
+        {
+          "codec": "varint_int",
+          "matches": 113,
+          "compared": 113
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 113
+        }
+      ]
+    },
+    "2": {
+      "field": "Effect1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 113,
+      "compared_reference_rows": 113,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 113,
+          "compared": 113
+        },
+        {
+          "codec": "varint_int",
+          "matches": 113,
+          "compared": 113
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 113
+        }
+      ]
+    },
+    "3": {
+      "field": "Parameter1",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 113,
+      "compared_reference_rows": 113,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 113,
+          "compared": 113
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 113,
+          "compared": 113
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 113
+        }
+      ]
+    },
+    "4": {
+      "field": "Effect2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 48,
+      "compared_reference_rows": 48,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 48,
+          "compared": 48
+        },
+        {
+          "codec": "varint_int",
+          "matches": 48,
+          "compared": 48
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 48
+        }
+      ]
+    },
+    "5": {
+      "field": "Parameter2",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 48,
+      "compared_reference_rows": 48,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 48,
+          "compared": 48
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 48,
+          "compared": 48
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 48
+        }
+      ]
+    },
+    "6": {
+      "field": "Effect3",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    },
+    "7": {
+      "field": "Parameter3",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 113,
+    "reference_row_count": 113,
+    "shared_key_count": 113,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 113,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "GoldenSpyObstacle",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 1,
+    "localization_hits": 0,
+    "source": "bin/GoldenSpyObstacle.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "GoldenSpyObstacle": 1,
+      "Params": [
+        -90,
+        90,
+        3,
+        5
+      ],
+      "PrefabName": "101",
+      "luaCtrl": "GoldenSpyLaserTrap"
+    }
+  }
+}

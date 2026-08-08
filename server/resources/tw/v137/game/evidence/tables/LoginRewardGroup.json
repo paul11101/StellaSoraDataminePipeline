@@ -1,0 +1,494 @@
+{
+  "table": "LoginRewardGroup",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8a0b35dce8b20c24.bin",
+  "source_sha256": "ee9b917ddfb7bdf36a18bc844118b09d9a608500565ed7c6cfc2b4233b4a8bb8",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\LoginRewardGroup.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 68
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "reference_field_order": [
+      "Id",
+      "RewardGroupId",
+      "Order",
+      "RewardId1",
+      "Qty1",
+      "RewardIcon",
+      "RewardCount",
+      "RewardId2",
+      "Qty2",
+      "RewardDesc",
+      "DisRare",
+      "NpcId",
+      "VoiceId"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 13,
+    "remaining_name_count": 13,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 68,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "RewardGroupId",
+        "matching_reference_rows": 68,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Order",
+        "matching_reference_rows": 68,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "RewardId1",
+        "matching_reference_rows": 68,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Qty1",
+        "matching_reference_rows": 68,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "RewardId2",
+        "matching_reference_rows": 37,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "7": {
+        "field": "Qty2",
+        "matching_reference_rows": 37,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "10": {
+        "field": "RewardIcon",
+        "matching_reference_rows": 31,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "11": {
+        "field": "RewardCount",
+        "matching_reference_rows": 31,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "12": {
+        "field": "RewardDesc",
+        "matching_reference_rows": 68,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "DisRare",
+        "matching_reference_rows": 26,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "14": {
+        "field": "NpcId",
+        "matching_reference_rows": 38,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "15": {
+        "field": "VoiceId",
+        "matching_reference_rows": 38,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 68,
+      "compared_reference_rows": 68,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 68,
+          "compared": 68
+        },
+        {
+          "codec": "varint_int",
+          "matches": 68,
+          "compared": 68
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 68
+        }
+      ]
+    },
+    "2": {
+      "field": "RewardGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 68,
+      "compared_reference_rows": 68,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 68,
+          "compared": 68
+        },
+        {
+          "codec": "varint_int",
+          "matches": 68,
+          "compared": 68
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 68
+        }
+      ]
+    },
+    "3": {
+      "field": "Order",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 68,
+      "compared_reference_rows": 68,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 68,
+          "compared": 68
+        },
+        {
+          "codec": "varint_int",
+          "matches": 68,
+          "compared": 68
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 68
+        }
+      ]
+    },
+    "4": {
+      "field": "RewardId1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 68,
+      "compared_reference_rows": 68,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 68,
+          "compared": 68
+        },
+        {
+          "codec": "varint_int",
+          "matches": 68,
+          "compared": 68
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 68
+        }
+      ]
+    },
+    "5": {
+      "field": "Qty1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 68,
+      "compared_reference_rows": 68,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 68,
+          "compared": 68
+        },
+        {
+          "codec": "varint_int",
+          "matches": 68,
+          "compared": 68
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 68
+        }
+      ]
+    },
+    "6": {
+      "field": "RewardId2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "varint_int",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "7": {
+      "field": "Qty2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "varint_int",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "10": {
+      "field": "RewardIcon",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 31,
+      "compared_reference_rows": 31,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 31,
+          "compared": 31
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 31
+        }
+      ]
+    },
+    "11": {
+      "field": "RewardCount",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 31,
+      "compared_reference_rows": 31,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 31,
+          "compared": 31
+        },
+        {
+          "codec": "varint_int",
+          "matches": 31,
+          "compared": 31
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 31
+        }
+      ]
+    },
+    "12": {
+      "field": "RewardDesc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 68,
+      "compared_reference_rows": 68,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 68,
+          "compared": 68
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 68
+        }
+      ]
+    },
+    "13": {
+      "field": "DisRare",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 26,
+      "compared_reference_rows": 26,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 26,
+          "compared": 26
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 26
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 26
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 26
+        }
+      ]
+    },
+    "14": {
+      "field": "NpcId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 38,
+      "compared_reference_rows": 38,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 38,
+          "compared": 38
+        },
+        {
+          "codec": "varint_int",
+          "matches": 38,
+          "compared": 38
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 38
+        }
+      ]
+    },
+    "15": {
+      "field": "VoiceId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_int",
+      "matching_reference_rows": 38,
+      "compared_reference_rows": 38,
+      "candidate_scores": [
+        {
+          "codec": "varint_int",
+          "matches": 38,
+          "compared": 38
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 1,
+          "compared": 38
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 38
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 68,
+    "reference_row_count": 68,
+    "shared_key_count": 68,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 68,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

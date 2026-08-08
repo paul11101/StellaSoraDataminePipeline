@@ -1,0 +1,2916 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TowerDefensePotential",
+    "categories": [
+      "characters",
+      "stages_modes"
+    ],
+    "row_count": 126,
+    "localization_hits": 198,
+    "source": "bin/TowerDefensePotential.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1030101": {
+      "Id": 1030101,
+      "Name": "TowerDefensePotential.1030101.1",
+      "Icon": "Icon/Potential/10301_Potential_02",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1030101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1030101.1",
+          "zh_TW": "熱情扳機",
+          "zh_CN": "热情扳机",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1030101.2",
+          "zh_TW": "普通攻擊期間，攻擊力逐漸提升，施放技能時重置。",
+          "zh_CN": "普通攻击期间，攻击力逐渐提升，释放技能时重置。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1030102": {
+      "Id": 1030102,
+      "Name": "TowerDefensePotential.1030102.1",
+      "Icon": "Icon/Potential/10301_Potential_03",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1030102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1030102.1",
+          "zh_TW": "精準控溫",
+          "zh_CN": "精准控温",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1030102.2",
+          "zh_TW": "施放技能時，每消滅一個目標都會為技能蓄能，最多蓄能50%。",
+          "zh_CN": "释放技能时，每消灭一个目标都会为技能进行充能，最多充能50%。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1030103": {
+      "Id": 1030103,
+      "Name": "TowerDefensePotential.1030103.1",
+      "Icon": "Icon/Potential/10301_Potential_02",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1030103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1030103.1",
+          "zh_TW": "優勢火力",
+          "zh_CN": "优势火力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1030103.2",
+          "zh_TW": "施放技能後，普通攻擊強化為範圍攻擊，持續一段時間。",
+          "zh_CN": "释放技能后，普通攻击强化为范围攻击，持续一段时间。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1030104": {
+      "Id": 1030104,
+      "Name": "TowerDefensePotential.1030104.1",
+      "Icon": "Icon/Potential/10301_Potential_22",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1030104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1030104.1",
+          "zh_TW": "散落舞步",
+          "zh_CN": "散落舞步",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1030104.2",
+          "zh_TW": "施放技能時，會在目標位置產生琥珀的幻影並進行旋轉射擊。",
+          "zh_CN": "释放技能时，会在目标位置生成琥珀的幻影并进行旋转射击。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1030105": {
+      "Id": 1030105,
+      "Name": "TowerDefensePotential.1030105.1",
+      "Rarity": 3,
+      "Effect1": 801039010,
+      "PotentialDes": "TowerDefensePotential.1030105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1030105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1030106": {
+      "Id": 1030106,
+      "Name": "TowerDefensePotential.1030106.1",
+      "Rarity": 3,
+      "Effect1": 801039110,
+      "PotentialDes": "TowerDefensePotential.1030106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1030106.1",
+          "zh_TW": "攻擊速度",
+          "zh_CN": "攻击速度",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1030107": {
+      "Id": 1030107,
+      "Name": "TowerDefensePotential.1030107.1",
+      "Rarity": 3,
+      "Effect1": 801039210,
+      "PotentialDes": "TowerDefensePotential.1030107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1030107.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1110101": {
+      "Id": 1110101,
+      "Name": "TowerDefensePotential.1110101.1",
+      "Icon": "Icon/Potential/11101_Potential_21",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1110101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1110101.1",
+          "zh_TW": "暴風漫雪",
+          "zh_CN": "暴风漫雪",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1110101.2",
+          "zh_TW": "「冰柱陣列」的打擊頻率提升，總傷害增加。",
+          "zh_CN": "「冰柱阵列」的打击频率提升，总伤害增加。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1110102": {
+      "Id": 1110102,
+      "Name": "TowerDefensePotential.1110102.1",
+      "Icon": "Icon/Potential/11101_Potential_04",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1110102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1110102.1",
+          "zh_TW": "一日之寒",
+          "zh_CN": "一日之寒",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1110102.2",
+          "zh_TW": "「冰柱陣列」的減速疊加上限提升，達到上限層數後將目標冰凍。",
+          "zh_CN": "「冰柱阵列」的减速叠加上限提升，到达上限层数后将目标冰冻。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1110103": {
+      "Id": 1110103,
+      "Name": "TowerDefensePotential.1110103.1",
+      "Icon": "Icon/Potential/11101_Potential_21",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1110103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1110103.1",
+          "zh_TW": "常量·擴散",
+          "zh_CN": "常量·扩散",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1110103.2",
+          "zh_TW": "「冰柱陣列」的範圍擴大。",
+          "zh_CN": "「冰柱阵列」的范围扩大。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1110104": {
+      "Id": 1110104,
+      "Name": "TowerDefensePotential.1110104.1",
+      "Icon": "Icon/Potential/11101_Potential_23",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1110104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1110104.1",
+          "zh_TW": "常量·堆疊",
+          "zh_CN": "常量·堆叠",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1110104.2",
+          "zh_TW": "施放「冰柱陣列」時，產生一次冰山打擊，造成額外傷害與暈眩。",
+          "zh_CN": "释放「冰柱阵列」时，产生一次冰山打击，造成额外伤害与眩晕。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1110105": {
+      "Id": 1110105,
+      "Name": "TowerDefensePotential.1110105.1",
+      "Rarity": 3,
+      "Effect1": 801119010,
+      "PotentialDes": "TowerDefensePotential.1110105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1110105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1110106": {
+      "Id": 1110106,
+      "Name": "TowerDefensePotential.1110106.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1110106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1110106.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1110107": {
+      "Id": 1110107,
+      "Name": "TowerDefensePotential.1110107.1",
+      "Rarity": 3,
+      "Effect1": 801119110,
+      "PotentialDes": "TowerDefensePotential.1110107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1110107.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1120101": {
+      "Id": 1120101,
+      "Name": "TowerDefensePotential.1120101.1",
+      "Icon": "Icon/Potential/11201_Potential_01",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1120101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1120101.1",
+          "zh_TW": "斷風斬",
+          "zh_CN": "断风斩",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1120101.2",
+          "zh_TW": "施放技能時，附加貫穿敵人的劍氣。",
+          "zh_CN": "释放技能时，附加贯穿敌人的剑气。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1120102": {
+      "Id": 1120102,
+      "Name": "TowerDefensePotential.1120102.1",
+      "Icon": "Icon/Potential/11201_Potential_03",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1120102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1120102.1",
+          "zh_TW": "閃·追風！",
+          "zh_CN": "闪·追风！",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1120102.2",
+          "zh_TW": "普通攻擊造成傷害時，有機率在目標處施放多重劍氣。此效果每5秒最多觸發1次。",
+          "zh_CN": "普通攻击造成伤害时，有概率在目标处施放多重剑气。该效果每5秒最多触发1次。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1120103": {
+      "Id": 1120103,
+      "Name": "TowerDefensePotential.1120103.1",
+      "Icon": "Icon/Potential/11201_Potential_02",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1120103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1120103.1",
+          "zh_TW": "閃·爍影！",
+          "zh_CN": "闪·烁影！",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1120103.2",
+          "zh_TW": "追加二段技能「迴旋斬」。",
+          "zh_CN": "追加二段技能「回旋斩」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1120104": {
+      "Id": 1120104,
+      "Name": "TowerDefensePotential.1120104.1",
+      "Icon": "Icon/Potential/11201_Potential_01",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1120104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1120104.1",
+          "zh_TW": "閃·二重！",
+          "zh_CN": "闪·二重！",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1120104.2",
+          "zh_TW": "追加二段技能「昇龍斬」。",
+          "zh_CN": "追加二段技能「升龙斩」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1120105": {
+      "Id": 1120105,
+      "Name": "TowerDefensePotential.1120105.1",
+      "Rarity": 3,
+      "Effect1": 801129010,
+      "PotentialDes": "TowerDefensePotential.1120105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1120105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1120106": {
+      "Id": 1120106,
+      "Name": "TowerDefensePotential.1120106.1",
+      "Rarity": 3,
+      "Effect1": 801129110,
+      "PotentialDes": "TowerDefensePotential.1120106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1120106.1",
+          "zh_TW": "攻擊速度",
+          "zh_CN": "攻击速度",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1120107": {
+      "Id": 1120107,
+      "Name": "TowerDefensePotential.1120107.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1120107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1120107.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1270101": {
+      "Id": 1270101,
+      "Name": "TowerDefensePotential.1270101.1",
+      "Icon": "Icon/Potential/12701_Potential_21",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1270101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1270101.1",
+          "zh_TW": "很厲害吧！",
+          "zh_CN": "很厉害吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1270101.2",
+          "zh_TW": "「浪域」追加效果：處於「浪域」內的隊友攻速提升。",
+          "zh_CN": "「浪域」追加效果：处于「浪域」内的队友攻速提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1270102": {
+      "Id": 1270102,
+      "Name": "TowerDefensePotential.1270102.1",
+      "Icon": "Icon/Potential/12701_Potential_24",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1270102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1270102.1",
+          "zh_TW": "這樣如何！",
+          "zh_CN": "这样如何！",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1270102.2",
+          "zh_TW": "「浪域」追加效果：處於「浪域」內的隊友造成傷害時，有一定機率在目標處產生噴泉，造成傷害與小力度的擊飛。此效果每3秒最多觸發1次。",
+          "zh_CN": "「浪域」追加效果：处于「浪域」内的队友造成伤害时，一定概率在目标处产生喷泉造成伤害与小力度的击飞。该效果每3秒最多触发1次。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1270103": {
+      "Id": 1270103,
+      "Name": "TowerDefensePotential.1270103.1",
+      "Icon": "Icon/Potential/12701_Potential_23",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1270103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1270103.1",
+          "zh_TW": "絕湧·不息",
+          "zh_CN": "绝涌·不息",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1270103.2",
+          "zh_TW": "「浪域」的持續時間延長。",
+          "zh_CN": "「浪域」的持续时间延长。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1270104": {
+      "Id": 1270104,
+      "Name": "TowerDefensePotential.1270104.1",
+      "Icon": "Icon/Potential/12701_Potential_24",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1270104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1270104.1",
+          "zh_TW": "絕湧·快霆",
+          "zh_CN": "绝涌·快霆",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1270104.2",
+          "zh_TW": "「浪域」追加效果：特麗莎施放波浪的攻擊範圍與傷害增加，並造成小力度的擊退。",
+          "zh_CN": "「浪域」追加效果：特丽莎施放的波浪的攻击范围与伤害增加，并造成小力度的击退。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1270105": {
+      "Id": 1270105,
+      "Name": "TowerDefensePotential.1270105.1",
+      "Rarity": 3,
+      "Effect1": 801279010,
+      "PotentialDes": "TowerDefensePotential.1270105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1270105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1270106": {
+      "Id": 1270106,
+      "Name": "TowerDefensePotential.1270106.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1270106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1270106.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1270107": {
+      "Id": 1270107,
+      "Name": "TowerDefensePotential.1270107.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1270107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1270107.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1340101": {
+      "Id": 1340101,
+      "Name": "TowerDefensePotential.1340101.1",
+      "Icon": "Icon/Potential/13401_Potential_01",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1340101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1340101.1",
+          "zh_TW": "炎能烙印",
+          "zh_CN": "炎能烙印",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1340101.2",
+          "zh_TW": "施放技能時，自身被火環籠罩，造成持續傷害。",
+          "zh_CN": "释放技能时，自身被火环笼罩，造成持续伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1340102": {
+      "Id": 1340102,
+      "Name": "TowerDefensePotential.1340102.1",
+      "Icon": "Icon/Potential/13401_Potential_04",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1340102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1340102.1",
+          "zh_TW": "快拳連打",
+          "zh_CN": "快拳连打",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1340102.2",
+          "zh_TW": "施放技能後，一段時間內攻擊速度提升。",
+          "zh_CN": "释放技能后，一段时间内攻击速度提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1340103": {
+      "Id": 1340103,
+      "Name": "TowerDefensePotential.1340103.1",
+      "Icon": "Icon/Potential/13401_Potential_01",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1340103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1340103.1",
+          "zh_TW": "再裝填",
+          "zh_CN": "再装填",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1340103.2",
+          "zh_TW": "技能的揮拳次數增加到9次。",
+          "zh_CN": "技能的挥拳次数提升到9次。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1340104": {
+      "Id": 1340104,
+      "Name": "TowerDefensePotential.1340104.1",
+      "Icon": "Icon/Potential/13401_Potential_03",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1340104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1340104.1",
+          "zh_TW": "貓貓拳",
+          "zh_CN": "猫猫拳",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1340104.2",
+          "zh_TW": "普通攻擊每次造成傷害時累積「貓爪」，施放技能時，根據「貓爪」疊加層數提升此次技能傷害，並消耗所有「貓爪」。",
+          "zh_CN": "普通攻击每次造成伤害时累积「猫爪」，施放技能时，根据「猫爪」叠加层数，提升此次技能伤害，并消耗所有「猫爪」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1340105": {
+      "Id": 1340105,
+      "Name": "TowerDefensePotential.1340105.1",
+      "Rarity": 3,
+      "Effect1": 801349010,
+      "PotentialDes": "TowerDefensePotential.1340105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1340105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1340106": {
+      "Id": 1340106,
+      "Name": "TowerDefensePotential.1340106.1",
+      "Rarity": 3,
+      "Effect1": 801349110,
+      "PotentialDes": "TowerDefensePotential.1340106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1340106.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1340107": {
+      "Id": 1340107,
+      "Name": "TowerDefensePotential.1340107.1",
+      "Rarity": 3,
+      "Effect1": 801349210,
+      "PotentialDes": "TowerDefensePotential.1340107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1340107.1",
+          "zh_TW": "攻擊速度",
+          "zh_CN": "攻击速度",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1560101": {
+      "Id": 1560101,
+      "Name": "TowerDefensePotential.1560101.1",
+      "Icon": "Icon/Potential/15601_Potential_05",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1560101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1560101.1",
+          "zh_TW": "驚嚇擁抱",
+          "zh_CN": "惊吓拥抱",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1560101.2",
+          "zh_TW": "企鵝玩偶自爆傷害提升，移動結束時會嘗試撲向目標。",
+          "zh_CN": "企鹅玩偶自爆伤害提升，在移动结束时会尝试扑向目标。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1560102": {
+      "Id": 1560102,
+      "Name": "TowerDefensePotential.1560102.1",
+      "Icon": "Icon/Potential/15601_Potential_05",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1560102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1560102.1",
+          "zh_TW": "協同火力",
+          "zh_CN": "协同火力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1560102.2",
+          "zh_TW": "企鵝玩偶自爆時會對目標附加易傷效果。",
+          "zh_CN": "企鹅玩偶自爆时会对目标附加易伤效果。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1560103": {
+      "Id": 1560103,
+      "Name": "TowerDefensePotential.1560103.1",
+      "Icon": "Icon/Potential/15601_Potential_01",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1560103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1560103.1",
+          "zh_TW": "小小軍勢",
+          "zh_CN": "小小军势",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1560103.2",
+          "zh_TW": "企鵝玩偶的體積與自爆傷害提升，附加的易傷效果強化。",
+          "zh_CN": "企鹅玩偶的体积与自爆伤害提升，附加的易伤效果强化。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1560104": {
+      "Id": 1560104,
+      "Name": "TowerDefensePotential.1560104.1",
+      "Icon": "Icon/Potential/15601_Potential_02",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1560104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1560104.1",
+          "zh_TW": "搖搖舞步",
+          "zh_CN": "摇摇舞步",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1560104.2",
+          "zh_TW": "企鵝玩偶在場上熱舞的時間延長，對周圍造成持續傷害並附加易傷效果。",
+          "zh_CN": "企鹅玩偶在场上进行持续时间更久的热舞，对周围造成持续性的伤害并附加易伤效果。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1560105": {
+      "Id": 1560105,
+      "Name": "TowerDefensePotential.1560105.1",
+      "Rarity": 3,
+      "Effect1": 801569010,
+      "PotentialDes": "TowerDefensePotential.1560105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1560105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1560106": {
+      "Id": 1560106,
+      "Name": "TowerDefensePotential.1560106.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1560106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1560106.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1560107": {
+      "Id": 1560107,
+      "Name": "TowerDefensePotential.1560107.1",
+      "Rarity": 3,
+      "Effect1": 801569020,
+      "PotentialDes": "TowerDefensePotential.1560107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1560107.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1330101": {
+      "Id": 1330101,
+      "Name": "TowerDefensePotential.1330101.1",
+      "Icon": "Icon/Potential/Common_Potential_13",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1330101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1330101.1",
+          "zh_TW": "身如柳絮",
+          "zh_CN": "身如柳絮",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1330101.2",
+          "zh_TW": "技能具有更強的推動效果，傷害提升。",
+          "zh_CN": "技能具有更强的推动效果，伤害提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1330102": {
+      "Id": 1330102,
+      "Name": "TowerDefensePotential.1330102.1",
+      "Icon": "Icon/Potential/13301_Potential_02",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1330102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1330102.1",
+          "zh_TW": "風蝕衝擊",
+          "zh_CN": "风蚀冲击",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1330102.2",
+          "zh_TW": "技能在造成傷害的同時附加易傷效果。",
+          "zh_CN": "技能在造成伤害的同时附加易伤效果。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1330103": {
+      "Id": 1330103,
+      "Name": "TowerDefensePotential.1330103.1",
+      "Icon": "Icon/Potential/13301_Potential_02",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1330103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1330103.1",
+          "zh_TW": "風華永續",
+          "zh_CN": "风华永续",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1330103.2",
+          "zh_TW": "技能的持續時間提升。",
+          "zh_CN": "技能的持续时长提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1330104": {
+      "Id": 1330104,
+      "Name": "TowerDefensePotential.1330104.1",
+      "Icon": "Icon/Potential/13301_Potential_01",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1330104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1330104.1",
+          "zh_TW": "花影旋風",
+          "zh_CN": "花影旋风",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1330104.2",
+          "zh_TW": "技能的攻擊範圍大幅提升。",
+          "zh_CN": "技能的攻击范围大幅度提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1330105": {
+      "Id": 1330105,
+      "Name": "TowerDefensePotential.1330105.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1330105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1330105.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1330106": {
+      "Id": 1330106,
+      "Name": "TowerDefensePotential.1330106.1",
+      "Rarity": 3,
+      "Effect1": 801339010,
+      "PotentialDes": "TowerDefensePotential.1330106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1330106.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1330107": {
+      "Id": 1330107,
+      "Name": "TowerDefensePotential.1330107.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1330107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1330107.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1180101": {
+      "Id": 1180101,
+      "Name": "TowerDefensePotential.1180101.1",
+      "Icon": "Icon/Potential/11801_Potential_24",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1180101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1180101.1",
+          "zh_TW": "靈魂封禁",
+          "zh_CN": "灵魂封禁",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1180101.2",
+          "zh_TW": "技能具有更強的拉動效果，扯斷鎖鏈的傷害提升。",
+          "zh_CN": "技能具有更强的拉动效果，扯断锁链的伤害提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1180102": {
+      "Id": 1180102,
+      "Name": "TowerDefensePotential.1180102.1",
+      "Icon": "Icon/Potential/11801_Potential_21",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1180102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1180102.1",
+          "zh_TW": "骸骨雕刻",
+          "zh_CN": "骸骨雕刻",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1180102.2",
+          "zh_TW": "技能鎖敵範圍提升，橫斬時額外投擲一把暗影飛鐮，被命中的前數名敵人也會被掛上鎖鏈並拉回。",
+          "zh_CN": "技能索敌范围提升，横斩时额外投掷一把暗影飞镰，被命中的前数名敌人也会被挂上锁链并拉回。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1180103": {
+      "Id": 1180103,
+      "Name": "TowerDefensePotential.1180103.1",
+      "Icon": "Icon/Potential/11801_Potential_21",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1180103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1180103.1",
+          "zh_TW": "靈魂典藏",
+          "zh_CN": "灵魂典藏",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1180103.2",
+          "zh_TW": "技能的鎖鏈連接3名以下目標時，會額外大力橫斬，並對目標額外附加長時間的易傷效果。",
+          "zh_CN": "当技能的锁链连接3名及以下目标时，会额外进行大力横斩，并对目标额外附加长时间的易伤效果。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1180104": {
+      "Id": 1180104,
+      "Name": "TowerDefensePotential.1180104.1",
+      "Icon": "Icon/Potential/Common_Potential_5",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1180104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1180104.1",
+          "zh_TW": "奇術收藏",
+          "zh_CN": "奇术收藏",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1180104.2",
+          "zh_TW": "技能的鎖鏈連接3名以上目標時，扯斷鎖鏈的傷害大幅提升。",
+          "zh_CN": "当技能的锁链连接3名及以上目标时，扯断锁链的伤害大幅度提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1180105": {
+      "Id": 1180105,
+      "Name": "TowerDefensePotential.1180105.1",
+      "Rarity": 3,
+      "Effect1": 801189010,
+      "PotentialDes": "TowerDefensePotential.1180105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1180105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1180106": {
+      "Id": 1180106,
+      "Name": "TowerDefensePotential.1180106.1",
+      "Rarity": 3,
+      "Effect1": 801189020,
+      "PotentialDes": "TowerDefensePotential.1180106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1180106.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1180107": {
+      "Id": 1180107,
+      "Name": "TowerDefensePotential.1180107.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1180107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1180107.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1100101": {
+      "Id": 1100101,
+      "Name": "TowerDefensePotential.1100101.1",
+      "Icon": "Icon/Potential/11001_Potential_03",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1100101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1100101.1",
+          "zh_TW": "延時駐場",
+          "zh_CN": "延时在岗",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1100101.2",
+          "zh_TW": "「分身」的持續時間提升。",
+          "zh_CN": "「分身」的持续时间提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1100102": {
+      "Id": 1100102,
+      "Name": "TowerDefensePotential.1100102.1",
+      "Icon": "Icon/Potential/11001_Potential_01",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1100102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1100102.1",
+          "zh_TW": "高度風險",
+          "zh_CN": "高危风险",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1100102.2",
+          "zh_TW": "「分身」的持續時間減少，攻擊力大幅提升。",
+          "zh_CN": "「分身」的持续时间减少，攻击力大幅度提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1100103": {
+      "Id": 1100103,
+      "Name": "TowerDefensePotential.1100103.1",
+      "Icon": "Icon/Potential/11001_Potential_02",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1100103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1100103.1",
+          "zh_TW": "幻舞步",
+          "zh_CN": "幻舞步",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1100103.2",
+          "zh_TW": "每隔數秒在場上召喚一個額外的「分身」。",
+          "zh_CN": "每隔数秒在场上召唤一个额外的「分身」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1100104": {
+      "Id": 1100104,
+      "Name": "TowerDefensePotential.1100104.1",
+      "Icon": "Icon/Potential/11001_Potential_03",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1100104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1100104.1",
+          "zh_TW": "愁雲慘霧",
+          "zh_CN": "愁云惨雾",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1100104.2",
+          "zh_TW": "「分身」消失時，造成小範圍自爆傷害。",
+          "zh_CN": "「分身」消失时，造成小范围自爆伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1100105": {
+      "Id": 1100105,
+      "Name": "TowerDefensePotential.1100105.1",
+      "Rarity": 3,
+      "Effect1": 801109010,
+      "PotentialDes": "TowerDefensePotential.1100105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1100105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1100106": {
+      "Id": 1100106,
+      "Name": "TowerDefensePotential.1100106.1",
+      "Rarity": 3,
+      "Effect1": 801109110,
+      "PotentialDes": "TowerDefensePotential.1100106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1100106.1",
+          "zh_TW": "攻擊速度",
+          "zh_CN": "攻击速度",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1100107": {
+      "Id": 1100107,
+      "Name": "TowerDefensePotential.1100107.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1100107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1100107.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1230101": {
+      "Id": 1230101,
+      "Name": "TowerDefensePotential.1230101.1",
+      "Icon": "Icon/Potential/12301_Potential_01",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1230101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1230101.1",
+          "zh_TW": "風之吐息",
+          "zh_CN": "风之吐息",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1230101.2",
+          "zh_TW": "杏子的第3段普通攻擊也可以引發「風爆」。",
+          "zh_CN": "杏子的第3段普通攻击也可以引发「风爆」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1230102": {
+      "Id": 1230102,
+      "Name": "TowerDefensePotential.1230102.1",
+      "Icon": "Icon/Potential/12301_Potential_03",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1230102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1230102.1",
+          "zh_TW": "凌風勢起",
+          "zh_CN": "凌风势起",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1230102.2",
+          "zh_TW": "「泡泡」的攻擊速度增加。",
+          "zh_CN": "「泡泡」的攻击速度增加。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1230103": {
+      "Id": 1230103,
+      "Name": "TowerDefensePotential.1230103.1",
+      "Icon": "Icon/Potential/12301_Potential_02",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1230103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1230103.1",
+          "zh_TW": "輕搖風鈴",
+          "zh_CN": "轻摇风铃",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1230103.2",
+          "zh_TW": "「風爆」施加的減重效果更有效，持續時間增加。",
+          "zh_CN": "「风爆」施加的减重效果更有效，持续时长增加。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1230104": {
+      "Id": 1230104,
+      "Name": "TowerDefensePotential.1230104.1",
+      "Icon": "Icon/Potential/12301_Potential_03",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1230104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1230104.1",
+          "zh_TW": "炫光漩渦",
+          "zh_CN": "炫光漩涡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1230104.2",
+          "zh_TW": "「泡泡」的普通攻擊改為發射雷射光，擊飛所有命中的目標並附加減重效果。",
+          "zh_CN": "「泡泡」的普通攻击改为发射激光，击飞所有命中的目标并附加减重效果。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1230105": {
+      "Id": 1230105,
+      "Name": "TowerDefensePotential.1230105.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1230105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1230105.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1230106": {
+      "Id": 1230106,
+      "Name": "TowerDefensePotential.1230106.1",
+      "Rarity": 3,
+      "Effect1": 801239110,
+      "PotentialDes": "TowerDefensePotential.1230106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1230106.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1230107": {
+      "Id": 1230107,
+      "Name": "TowerDefensePotential.1230107.1",
+      "Rarity": 3,
+      "Effect1": 801239210,
+      "PotentialDes": "TowerDefensePotential.1230107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1230107.1",
+          "zh_TW": "攻擊速度",
+          "zh_CN": "攻击速度",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1070101": {
+      "Id": 1070101,
+      "Name": "TowerDefensePotential.1070101.1",
+      "Icon": "Icon/Potential/10701_Potential_01",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1070101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1070101.1",
+          "zh_TW": "堅壁信條",
+          "zh_CN": "坚壁信条",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1070101.2",
+          "zh_TW": "施放技能後，緹莉婭普攻獲得強化，持續一段時間。",
+          "zh_CN": "施放技能后，缇莉娅普攻获得强化，持续一段时间。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1070102": {
+      "Id": 1070102,
+      "Name": "TowerDefensePotential.1070102.1",
+      "Icon": "Icon/Potential/10701_Potential_23",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1070102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1070102.1",
+          "zh_TW": "絕妙接力",
+          "zh_CN": "绝妙接力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1070102.2",
+          "zh_TW": "「聖光之盾」在命中時暈眩目標。",
+          "zh_CN": "「圣光之盾」在命中时眩晕目标。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1070103": {
+      "Id": 1070103,
+      "Name": "TowerDefensePotential.1070103.1",
+      "Icon": "Icon/Potential/10701_Potential_21",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1070103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1070103.1",
+          "zh_TW": "聖光領域",
+          "zh_CN": "圣光领域",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1070103.2",
+          "zh_TW": "施放技能時產生結界，持續一段時間。結界內的目標持續受到傷害，並附加易傷效果。",
+          "zh_CN": "施放技能时生成结界，持续一段时间。结界内的目标持续受到伤害，并附加易伤效果。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1070104": {
+      "Id": 1070104,
+      "Name": "TowerDefensePotential.1070104.1",
+      "Icon": "Icon/Potential/10701_Potential_24",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1070104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1070104.1",
+          "zh_TW": "回轉的奧義",
+          "zh_CN": "回转的奥义",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1070104.2",
+          "zh_TW": "技能對最多5個目標同時擲出「聖光之盾」。",
+          "zh_CN": "技能对最多5个目标同时掷出「圣光之盾」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1070105": {
+      "Id": 1070105,
+      "Name": "TowerDefensePotential.1070105.1",
+      "Rarity": 3,
+      "Effect1": 801070040,
+      "PotentialDes": "TowerDefensePotential.1070105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1070105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1070106": {
+      "Id": 1070106,
+      "Name": "TowerDefensePotential.1070106.1",
+      "Rarity": 3,
+      "Effect1": 801070050,
+      "PotentialDes": "TowerDefensePotential.1070106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1070106.1",
+          "zh_TW": "攻擊速度",
+          "zh_CN": "攻击速度",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1070107": {
+      "Id": 1070107,
+      "Name": "TowerDefensePotential.1070107.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1070107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1070107.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1300101": {
+      "Id": 1300101,
+      "Name": "TowerDefensePotential.1300101.1",
+      "Icon": "Icon/Potential/13001_Potential_21",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1300101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1300101.1",
+          "zh_TW": "喧鬧餘音",
+          "zh_CN": "喧闹余音",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1300101.2",
+          "zh_TW": "施放技能後永久獲得1層「靈巧」：使多娜攻擊速度提升，且射擊時額外射出冰箭，最多獲得4層。",
+          "zh_CN": "施放技能后永久获得1层「灵巧」：使多娜攻击速度提升且射击时额外射出冰箭，最多获得4层。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1300102": {
+      "Id": 1300102,
+      "Name": "TowerDefensePotential.1300102.1",
+      "Icon": "Icon/Potential/13001_Potential_03",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1300102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1300102.1",
+          "zh_TW": "精準行銷",
+          "zh_CN": "精准营销",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1300102.2",
+          "zh_TW": "「宣傳人偶」的攻擊頻率加快，且「宣傳人偶」存在期間使多娜攻擊力提升。",
+          "zh_CN": "「宣传人偶」的攻击频率加快，且「宣传人偶」存在期间使多娜攻击力提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1300103": {
+      "Id": 1300103,
+      "Name": "TowerDefensePotential.1300103.1",
+      "Icon": "Icon/Potential/13001_Potential_02",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1300103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1300103.1",
+          "zh_TW": "綻藍之夜",
+          "zh_CN": "绽蓝之夜",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1300103.2",
+          "zh_TW": "施放技能後，多娜普攻獲得強化，持續一段時間。",
+          "zh_CN": "施放技能后多娜普攻获得强化，持续一段时间。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1300104": {
+      "Id": 1300104,
+      "Name": "TowerDefensePotential.1300104.1",
+      "Icon": "Icon/Potential/13001_Potential_04",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1300104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1300104.1",
+          "zh_TW": "換班響鈴",
+          "zh_CN": "换班响铃",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1300104.2",
+          "zh_TW": "「宣傳人偶」的攻擊能短暫控制目標，並在離場時額外造成傷害。",
+          "zh_CN": "「宣传人偶」的攻击能短暂控制目标，且在离场时额外造成伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1300105": {
+      "Id": 1300105,
+      "Name": "TowerDefensePotential.1300105.1",
+      "Rarity": 3,
+      "Effect1": 801300040,
+      "PotentialDes": "TowerDefensePotential.1300105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1300105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1300106": {
+      "Id": 1300106,
+      "Name": "TowerDefensePotential.1300106.1",
+      "Rarity": 3,
+      "Effect1": 801300050,
+      "PotentialDes": "TowerDefensePotential.1300106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1300106.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1300107": {
+      "Id": 1300107,
+      "Name": "TowerDefensePotential.1300107.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1300107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1300107.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1430101": {
+      "Id": 1430101,
+      "Name": "TowerDefensePotential.1430101.1",
+      "Icon": "Icon/Potential/14301_Potential_21",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1430101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1430101.1",
+          "zh_TW": "風塵絕息",
+          "zh_CN": "风尘绝息",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1430101.2",
+          "zh_TW": "施放技能時產生「小旋風」：持續造成範圍傷害。",
+          "zh_CN": "施放技能时生成「小旋风」：持续造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1430102": {
+      "Id": 1430102,
+      "Name": "TowerDefensePotential.1430102.1",
+      "Icon": "Icon/Potential/14301_Potential_04",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1430102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1430102.1",
+          "zh_TW": "穿風激蕩",
+          "zh_CN": "穿风激荡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1430102.2",
+          "zh_TW": "技能的子彈變為雷射光彈。",
+          "zh_CN": "技能的子弹变为激光弹。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1430103": {
+      "Id": 1430103,
+      "Name": "TowerDefensePotential.1430103.1",
+      "Icon": "Icon/Potential/14301_Potential_24",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1430103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1430103.1",
+          "zh_TW": "裂風彈丸",
+          "zh_CN": "裂风弹丸",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1430103.2",
+          "zh_TW": "技能的子彈數量增加4發。施放技能時，風影攻擊力大幅提升，持續一段時間。",
+          "zh_CN": "技能的子弹数量增加4发。施放技能时风影攻击力大幅提升，持续一段时间。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1430104": {
+      "Id": 1430104,
+      "Name": "TowerDefensePotential.1430104.1",
+      "Icon": "Icon/Potential/14301_Potential_02",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1430104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1430104.1",
+          "zh_TW": "雙影同狩",
+          "zh_CN": "双影同狩",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1430104.2",
+          "zh_TW": "技能會連續施放多次。",
+          "zh_CN": "技能会连续施放多次。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1430105": {
+      "Id": 1430105,
+      "Name": "TowerDefensePotential.1430105.1",
+      "Rarity": 3,
+      "Effect1": 801430020,
+      "PotentialDes": "TowerDefensePotential.1430105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1430105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1430106": {
+      "Id": 1430106,
+      "Name": "TowerDefensePotential.1430106.1",
+      "Rarity": 3,
+      "Effect1": 801430030,
+      "PotentialDes": "TowerDefensePotential.1430106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1430106.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1430107": {
+      "Id": 1430107,
+      "Name": "TowerDefensePotential.1430107.1",
+      "Rarity": 3,
+      "Effect1": 801430040,
+      "PotentialDes": "TowerDefensePotential.1430107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1430107.1",
+          "zh_TW": "攻擊速度",
+          "zh_CN": "攻击速度",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1410101": {
+      "Id": 1410101,
+      "Name": "TowerDefensePotential.1410101.1",
+      "Icon": "Icon/Potential/Common_Potential_11",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1410101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1410101.1",
+          "zh_TW": "揮毫焚墨",
+          "zh_CN": "挥毫焚墨",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1410101.2",
+          "zh_TW": "施放技能後，赤霞攻擊力提升，持續一段時間。",
+          "zh_CN": "施放技能后赤霞攻击力提升，持续一段时间。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1410102": {
+      "Id": 1410102,
+      "Name": "TowerDefensePotential.1410102.1",
+      "Icon": "Icon/Potential/14101_Potential_04",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1410102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1410102.1",
+          "zh_TW": "長虹焰陣",
+          "zh_CN": "长虹焰阵",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1410102.2",
+          "zh_TW": "技能的攻擊範圍提升。",
+          "zh_CN": "技能的攻击范围提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1410103": {
+      "Id": 1410103,
+      "Name": "TowerDefensePotential.1410103.1",
+      "Icon": "Icon/Potential/14101_Potential_02",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1410103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1410103.1",
+          "zh_TW": "星焰流光",
+          "zh_CN": "星焰流光",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1410103.2",
+          "zh_TW": "施放技能後，赤霞獲得3層熱量，普攻獲得強化，每次消耗1層熱量。",
+          "zh_CN": "施放技能后赤霞获得3层热量，赤霞普攻获得强化每次消耗1层热量。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1410104": {
+      "Id": 1410104,
+      "Name": "TowerDefensePotential.1410104.1",
+      "Icon": "Icon/Potential/14101_Potential_01",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1410104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1410104.1",
+          "zh_TW": "焰光不眠",
+          "zh_CN": "焰光不眠",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1410104.2",
+          "zh_TW": "技能持續時間增加，且技能對目標造成傷害時引燃目標。",
+          "zh_CN": "技能持续时间增加，且技能对目标造成伤害时引燃目标。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1410105": {
+      "Id": 1410105,
+      "Name": "TowerDefensePotential.1410105.1",
+      "Rarity": 3,
+      "Effect1": 801410040,
+      "PotentialDes": "TowerDefensePotential.1410105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1410105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1410106": {
+      "Id": 1410106,
+      "Name": "TowerDefensePotential.1410106.1",
+      "Rarity": 3,
+      "Effect1": 801410050,
+      "PotentialDes": "TowerDefensePotential.1410106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1410106.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1410107": {
+      "Id": 1410107,
+      "Name": "TowerDefensePotential.1410107.1",
+      "Rarity": 3,
+      "Effect1": 801410060,
+      "PotentialDes": "TowerDefensePotential.1410107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1410107.1",
+          "zh_TW": "攻擊速度",
+          "zh_CN": "攻击速度",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1140101": {
+      "Id": 1140101,
+      "Name": "TowerDefensePotential.1140101.1",
+      "Icon": "Icon/Potential/11401_Potential_22",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1140101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1140101.1",
+          "zh_TW": "連招起手",
+          "zh_CN": "连招起手",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1140101.2",
+          "zh_TW": "技能會向目前方向連續施放2次雷射。",
+          "zh_CN": "技能会向当前方向连续释放2次激光。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1140102": {
+      "Id": 1140102,
+      "Name": "TowerDefensePotential.1140102.1",
+      "Icon": "Icon/Potential/11401_Potential_02",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1140102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1140102.1",
+          "zh_TW": "彈跳炸彈",
+          "zh_CN": "弹跳炸弹",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1140102.2",
+          "zh_TW": "每12次普攻會向範圍內隨機目標丟出2顆「彈跳炸彈」。",
+          "zh_CN": "每12次普攻会向范围内随机目标丢出2颗「弹跳炸弹」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1140103": {
+      "Id": 1140103,
+      "Name": "TowerDefensePotential.1140103.1",
+      "Icon": "Icon/Potential/11401_Potential_04",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1140103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1140103.1",
+          "zh_TW": "喵神時刻",
+          "zh_CN": "喵神时刻",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1140103.2",
+          "zh_TW": "帶有「標記」的目標受到貓眼所有傷害提升。再次被雷射光命中時，更新「標記」時間並強化其效果。",
+          "zh_CN": "带有「标记」的目标受到猫眼所有伤害提升。再次被激光命中时，刷新「标记」时间并强化其效果。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1140104": {
+      "Id": 1140104,
+      "Name": "TowerDefensePotential.1140104.1",
+      "Icon": "Icon/Potential/11401_Potential_21",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1140104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1140104.1",
+          "zh_TW": "狙擊天才",
+          "zh_CN": "狙击天才",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1140104.2",
+          "zh_TW": "施放技能後的一段時間內，普攻變為高速連射模式。",
+          "zh_CN": "释放技能后的一段时间内，普攻变为高速连射模式。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1140105": {
+      "Id": 1140105,
+      "Name": "TowerDefensePotential.1140105.1",
+      "Rarity": 3,
+      "Effect1": 801140040,
+      "PotentialDes": "TowerDefensePotential.1140105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1140105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1140106": {
+      "Id": 1140106,
+      "Name": "TowerDefensePotential.1140106.1",
+      "Rarity": 3,
+      "Effect1": 801140050,
+      "PotentialDes": "TowerDefensePotential.1140106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1140106.1",
+          "zh_TW": "攻擊速度",
+          "zh_CN": "攻击速度",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1140107": {
+      "Id": 1140107,
+      "Name": "TowerDefensePotential.1140107.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1140107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1140107.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1350101": {
+      "Id": 1350101,
+      "Name": "TowerDefensePotential.1350101.1",
+      "Icon": "Icon/Potential/13501_Potential_22",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1350101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1350101.1",
+          "zh_TW": "現世侵蝕",
+          "zh_CN": "现世侵蚀",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1350101.2",
+          "zh_TW": "逐漸提升同一法陣中召喚的「提燈影靈」傷害和體型。",
+          "zh_CN": "同一法阵中召唤的「提灯影灵」伤害和体型逐渐提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1350102": {
+      "Id": 1350102,
+      "Name": "TowerDefensePotential.1350102.1",
+      "Icon": "Icon/Potential/13501_Potential_21",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1350102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1350102.1",
+          "zh_TW": "惡意",
+          "zh_CN": "恶意",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1350102.2",
+          "zh_TW": "法陣會對內部目標造成傷害，並可緩慢追蹤目標。",
+          "zh_CN": "法阵会对内部目标造成伤害，并可缓慢追踪目标。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1350103": {
+      "Id": 1350103,
+      "Name": "TowerDefensePotential.1350103.1",
+      "Icon": "Icon/Potential/13501_Potential_24",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1350103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1350103.1",
+          "zh_TW": "招魂",
+          "zh_CN": "招魂",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1350103.2",
+          "zh_TW": "法陣召喚「提燈影靈」的間隔縮短。",
+          "zh_CN": "法阵召唤「提灯影灵」的间隔缩短。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1350104": {
+      "Id": 1350104,
+      "Name": "TowerDefensePotential.1350104.1",
+      "Icon": "Icon/Potential/13501_Potential_23",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1350104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1350104.1",
+          "zh_TW": "邀約入眠",
+          "zh_CN": "邀约入眠",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1350104.2",
+          "zh_TW": "法陣範圍擴大，且可朝中心緩慢牽引弱小目標。",
+          "zh_CN": "法阵范围增大，且可向中心缓慢牵引弱小目标。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1350105": {
+      "Id": 1350105,
+      "Name": "TowerDefensePotential.1350105.1",
+      "Rarity": 3,
+      "Effect1": 801350020,
+      "PotentialDes": "TowerDefensePotential.1350105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1350105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1350106": {
+      "Id": 1350106,
+      "Name": "TowerDefensePotential.1350106.1",
+      "Rarity": 3,
+      "Effect1": 801350030,
+      "PotentialDes": "TowerDefensePotential.1350106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1350106.1",
+          "zh_TW": "攻擊速度",
+          "zh_CN": "攻击速度",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1350107": {
+      "Id": 1350107,
+      "Name": "TowerDefensePotential.1350107.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1350107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1350107.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1260101": {
+      "Id": 1260101,
+      "Name": "TowerDefensePotential.1260101.1",
+      "Icon": "Icon/Potential/12601_Potential_24",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1260101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1260101.1",
+          "zh_TW": "幕後的支援",
+          "zh_CN": "幕后的支援",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1260101.2",
+          "zh_TW": "每隻「沐蝶」都會額外提升友方技能蓄能速度。",
+          "zh_CN": "每只「沐蝶」都会额外提升友方技能充能速度。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1260102": {
+      "Id": 1260102,
+      "Name": "TowerDefensePotential.1260102.1",
+      "Icon": "Icon/Potential/12601_Potential_22",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1260102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1260102.1",
+          "zh_TW": "薪火的再燃",
+          "zh_CN": "薪火的再燃",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1260102.2",
+          "zh_TW": "帶有「蝶之印」的目標受到傷害時，都有機率產生額外「炎蝶」攻擊其他目標。",
+          "zh_CN": "带有「蝶之印」的目标受到伤害时，有概率生成额外「炎蝶」攻击其他目标。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1260103": {
+      "Id": 1260103,
+      "Name": "TowerDefensePotential.1260103.1",
+      "Icon": "Icon/Potential/12601_Potential_23",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1260103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1260103.1",
+          "zh_TW": "往日·餘燼",
+          "zh_CN": "往日·余烬",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1260103.2",
+          "zh_TW": "技能額外產生2隻「沐蝶」。",
+          "zh_CN": "技能额外生成2只「沐蝶」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1260104": {
+      "Id": 1260104,
+      "Name": "TowerDefensePotential.1260104.1",
+      "Icon": "Icon/Potential/12601_Potential_21",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1260104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1260104.1",
+          "zh_TW": "明日·薪火",
+          "zh_CN": "明日·薪火",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1260104.2",
+          "zh_TW": "技能額外產生2隻「炎蝶」。",
+          "zh_CN": "技能额外生成2只「炎蝶」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1260105": {
+      "Id": 1260105,
+      "Name": "TowerDefensePotential.1260105.1",
+      "Rarity": 3,
+      "Effect1": 801260040,
+      "PotentialDes": "TowerDefensePotential.1260105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1260105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1260106": {
+      "Id": 1260106,
+      "Name": "TowerDefensePotential.1260106.1",
+      "Rarity": 3,
+      "Effect1": 801260050,
+      "PotentialDes": "TowerDefensePotential.1260106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1260106.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1260107": {
+      "Id": 1260107,
+      "Name": "TowerDefensePotential.1260107.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1260107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1260107.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1400101": {
+      "Id": 1400101,
+      "Name": "TowerDefensePotential.1400101.1",
+      "Icon": "Icon/Potential/14001_Potential_01",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1400101.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1400101.1",
+          "zh_TW": "躍耳極射",
+          "zh_CN": "跃耳极射",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1400101.2",
+          "zh_TW": "「速射砲」形態下，每隔一段時間便會進行一次快速連射。",
+          "zh_CN": "「速射炮」形态下，每隔一段时间便会进行一次快速连射。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1400102": {
+      "Id": 1400102,
+      "Name": "TowerDefensePotential.1400102.1",
+      "Icon": "Icon/Potential/14001_Potential_03",
+      "Rarity": 2,
+      "PotentialDes": "TowerDefensePotential.1400102.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1400102.1",
+          "zh_TW": "兔兔大開口",
+          "zh_CN": "兔兔大开口",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1400102.2",
+          "zh_TW": "技能變為進入「坦克」形態，射速降低，但會發射砲彈造成大範圍傷害。",
+          "zh_CN": "技能变为进入「坦克」形态，射速降低，但会发射炮弹造成大范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1400103": {
+      "Id": 1400103,
+      "Name": "TowerDefensePotential.1400103.1",
+      "Icon": "Icon/Potential/14001_Potential_02",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1400103.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1400103.1",
+          "zh_TW": "喀噠疊響",
+          "zh_CN": "咔哒叠响",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1400103.2",
+          "zh_TW": "變形狀態下攻擊會對目標附加「晶體附著」，累積一定層數後使其短暫暈眩，並在受到斯帕克拉攻擊時額外附加傷害。",
+          "zh_CN": "变形状态下攻击对目标附加「晶体附着」，累积一定层数后使其短暂眩晕，并在受到斯帕克拉攻击时额外附加伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1400104": {
+      "Id": 1400104,
+      "Name": "TowerDefensePotential.1400104.1",
+      "Icon": "Icon/Potential/14001_Potential_08",
+      "Rarity": 1,
+      "PotentialDes": "TowerDefensePotential.1400104.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1400104.1",
+          "zh_TW": "旋鈕氣浪",
+          "zh_CN": "旋钮气浪",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        },
+        "/PotentialDes": {
+          "key": "TowerDefensePotential.1400104.2",
+          "zh_TW": "「坦克」狀態下，每次射擊時還會朝前方釋放扇形能量，造成傷害並推動目標。",
+          "zh_CN": "「坦克」状态下，每次射击时还会对前方释放扇形能量，造成伤害并推动目标。",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1400105": {
+      "Id": 1400105,
+      "Name": "TowerDefensePotential.1400105.1",
+      "Rarity": 3,
+      "Effect1": 801400040,
+      "PotentialDes": "TowerDefensePotential.1400105.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1400105.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1400106": {
+      "Id": 1400106,
+      "Name": "TowerDefensePotential.1400106.1",
+      "Rarity": 3,
+      "Effect1": 801400050,
+      "PotentialDes": "TowerDefensePotential.1400106.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1400106.1",
+          "zh_TW": "攻擊力",
+          "zh_CN": "攻击力",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    },
+    "1400107": {
+      "Id": 1400107,
+      "Name": "TowerDefensePotential.1400107.1",
+      "Rarity": 3,
+      "PotentialDes": "TowerDefensePotential.1400107.2",
+      "_localized": {
+        "/Name": {
+          "key": "TowerDefensePotential.1400107.1",
+          "zh_TW": "技能蓄能",
+          "zh_CN": "技能充能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefensePotential.json",
+            "zh_CN": "language/zh_CN/TowerDefensePotential.json"
+          }
+        }
+      }
+    }
+  }
+}

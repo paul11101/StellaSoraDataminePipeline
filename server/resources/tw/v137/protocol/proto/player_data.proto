@@ -1,0 +1,96 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message PlayerInfo {
+  .proto.AccInfo Acc = 1;
+  repeated .proto.Res Res = 2;
+  repeated .proto.Item Items = 3;
+  repeated .proto.Char Chars = 4;
+  .proto.TowerFormation Formation = 5;
+  .proto.EnergyInfo Energy = 7;
+  .proto.WorldClassInfo WorldClass = 8;
+  .proto.AgentData Agent = 9;
+  repeated uint32 RglPassedIds = 10;
+  repeated .proto.EquipmentInfo Equipments = 11;
+  repeated .proto.RegionBossLevel RegionBossLevels = 12;
+  .proto.Quests Quests = 13;
+  .proto.StateInfo State = 14;
+  uint32 SendGiftCnt = 15;
+  repeated uint32 Board = 16;
+  repeated uint32 DatingCharIds = 17;
+  bytes Achievements = 18;
+  repeated .proto.HandbookInfo Handbook = 19;
+  uint32 SigninIndex = 20;
+  repeated .proto.Title Titles = 21;
+  repeated .proto.DailyInstance DailyInstances = 22;
+  repeated .proto.DictionaryTab Dictionaries = 23;
+  repeated .proto.Activity Activities = 24;
+  .proto.PhoneInfo Phone = 25;
+  int64 TalentResetTime = 26;
+  uint32 EquipmentDoubleCount = 27;
+  repeated .proto.Disc Discs = 28;
+  repeated .proto.EquipmentInstance EquipmentInstances = 29;
+  .proto.StoryInfo Story = 30;
+  .proto.VampireSurvivorRecordInfo VampireSurvivorRecord = 31;
+  repeated uint32 DailyActiveIds = 32;
+  uint32 TourGuideQuestGroup = 33;
+  repeated .proto.SkillInstance SkillInstances = 34;
+  repeated .proto.WeekBossLevel WeekBossLevels = 35;
+  repeated .proto.CharGemInstance CharGemInstances = 36;
+  repeated .proto.TutorialLevel TutorialLevels = 37;
+  repeated uint32 WeeklyActiveIds = 38;
+  repeated .proto.AssistInfo Assists = 39;
+  bool DailyMallRewardStatus = 40;
+  repeated .proto.ActivityHonor ActivityHonors = 41;
+  .proto.TraceHuntItemInfo HuntPermit = 118;
+  .proto.TraceHuntItemInfo TraceRequest = 119;
+  repeated .proto.ActivityPersonalityModel PersonalityModels = 120;
+  int64 NicknameResetTime = 121;
+  int64 MusicInfo = 122;
+  repeated uint32 HonorList = 123;
+  repeated .proto.HonorInfo Honors = 124;
+  bool DailyShopRewardStatus = 125;
+  uint32 TowerTicket = 126;
+  int64 ServerTs = 127;
+  .proto.LastRead LastRead = 128;
+  bytes NextPackage = 2047;
+}
+
+message PhoneInfo {
+  uint32 NewMessage = 1;
+  uint32 ProgressMessage = 2;
+  bytes NextPackage = 2047;
+}
+
+message DictionaryEntry {
+  uint32 Index = 1;
+  uint32 Status = 2;
+  bytes NextPackage = 2047;
+}
+
+message DictionaryTab {
+  uint32 TabId = 1;
+  repeated .proto.DictionaryEntry Entries = 2;
+  bytes NextPackage = 2047;
+}
+
+message EnergyInfo {
+  .proto.Energy Energy = 1;
+  uint32 Count = 2;
+  bytes NextPackage = 2047;
+}
+
+message WorldClassInfo {
+  uint32 Cur = 1;
+  int32 LastExp = 2;
+  uint32 Stage = 3;
+  bytes NextPackage = 2047;
+}
+
+message AssistInfo {
+  uint32 Attribute = 1;
+  uint32 Group = 2;
+  bytes NextPackage = 2047;
+}

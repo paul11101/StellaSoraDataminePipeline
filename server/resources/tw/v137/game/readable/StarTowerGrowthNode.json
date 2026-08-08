@@ -1,0 +1,2431 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StarTowerGrowthNode",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 58,
+    "localization_hits": 116,
+    "source": "bin/StarTowerGrowthNode.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "10101": {
+      "Id": 10101,
+      "NodeId": 1,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10101.1",
+      "IsServer": true,
+      "Type": 1,
+      "EffectClient": 27,
+      "Clientlvl": 1,
+      "Priority": 1,
+      "Position": [
+        1,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.10101.2",
+      "ItemId1": 51,
+      "ItemQty1": 10,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10101.1",
+          "zh_TW": "同諧的心弦I",
+          "zh_CN": "同谐的心弦Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10101.2",
+          "zh_TW": "在星塔探索中，戰鬥之間獲得音符的機率提升15%",
+          "zh_CN": "星塔探索中，战斗之间获得音符的概率提升15%",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10102": {
+      "Id": 10102,
+      "NodeId": 2,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10102.1",
+      "IsServer": true,
+      "Type": 1,
+      "EffectClient": 28,
+      "Clientlvl": 1,
+      "Priority": 2,
+      "Position": [
+        1,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.10102.2",
+      "ItemId1": 51,
+      "ItemQty1": 10,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10102.1",
+          "zh_TW": "源初的歌謠",
+          "zh_CN": "源初的歌谣",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10102.2",
+          "zh_TW": "星塔探索開始時，額外獲得3個音符",
+          "zh_CN": "星塔探索开始时，额外获得3个音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10103": {
+      "Id": 10103,
+      "NodeId": 3,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10103.1",
+      "IsServer": true,
+      "Type": 1,
+      "EffectClient": 11,
+      "Clientlvl": 1,
+      "Priority": 3,
+      "Position": [
+        1,
+        3
+      ],
+      "Desc": "StarTowerGrowthNode.10103.2",
+      "ItemId1": 51,
+      "ItemQty1": 10,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10103.1",
+          "zh_TW": "第一桶金I",
+          "zh_CN": "第一桶金Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10103.2",
+          "zh_TW": "星塔探索開始時，額外獲得50<sprite name=item_11_small>。",
+          "zh_CN": "星塔探索开始时额外获得50<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10201": {
+      "Id": 10201,
+      "NodeId": 4,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10201.1",
+      "IsServer": true,
+      "IsClient": true,
+      "Type": 1,
+      "PreNodes": [
+        10101
+      ],
+      "EffectClient": 21,
+      "ClientParams": "[500]",
+      "Clientlvl": 1,
+      "Priority": 4,
+      "Position": [
+        2,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.10201.2",
+      "ItemId1": 51,
+      "ItemQty1": 20,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10201.1",
+          "zh_TW": "超限理論I",
+          "zh_CN": "超限理论Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10201.2",
+          "zh_TW": "每週獲得的征途票根上限提高500",
+          "zh_CN": "每周获取征途票根上限提高500",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10202": {
+      "Id": 10202,
+      "NodeId": 5,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10202.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        10102
+      ],
+      "EffectClient": 15,
+      "Clientlvl": 1,
+      "Priority": 5,
+      "Position": [
+        2,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.10202.2",
+      "ItemId1": 51,
+      "ItemQty1": 20,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10202.1",
+          "zh_TW": "額外的小確幸",
+          "zh_CN": "额外的小确幸",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10202.2",
+          "zh_TW": "成功探索星塔時，額外獲得少量禮物。",
+          "zh_CN": "成功探索星塔时，额外获得少量礼物",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10203": {
+      "Id": 10203,
+      "NodeId": 6,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10203.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        10103
+      ],
+      "EffectClient": 12,
+      "Clientlvl": 1,
+      "Priority": 6,
+      "Position": [
+        2,
+        3
+      ],
+      "Desc": "StarTowerGrowthNode.10203.2",
+      "ItemId1": 51,
+      "ItemQty1": 20,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10203.1",
+          "zh_TW": "刮刮樂I",
+          "zh_CN": "刮刮乐Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10203.2",
+          "zh_TW": "在星塔探索中，每通過1個戰鬥房間，有10%機率額外獲得10<sprite name=item_11_small>，單局星塔探索最多觸發5次",
+          "zh_CN": "星塔探索中，每通过1个战斗房间，有10%的概率额外获得10<sprite name=item_11_small>，单局星塔探索最大触发5次",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10301": {
+      "Id": 10301,
+      "NodeId": 7,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10301.1",
+      "IsServer": true,
+      "IsClient": true,
+      "Type": 2,
+      "Color": 1,
+      "PreNodes": [
+        10201,
+        10202,
+        10203
+      ],
+      "EffectClient": 4,
+      "Clientlvl": 1,
+      "Priority": 7,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_1",
+      "Position": [
+        3,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.10301.2",
+      "ItemId1": 51,
+      "ItemQty1": 50,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10301.1",
+          "zh_TW": "星梯的密碼",
+          "zh_CN": "星梯的密码",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10301.2",
+          "zh_TW": "解鎖「星塔速通」功能：\n消耗星梯搭乘票，可快速通過星塔，獲得紀錄。",
+          "zh_CN": "解锁「星塔速通」功能：\n消耗星梯搭乘票，可快速通关星塔，获取纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10401": {
+      "Id": 10401,
+      "NodeId": 8,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10401.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        10301
+      ],
+      "EffectClient": 27,
+      "Clientlvl": 2,
+      "Priority": 8,
+      "Position": [
+        4,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.10401.2",
+      "ItemId1": 51,
+      "ItemQty1": 20,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10401.1",
+          "zh_TW": "同諧的心弦II",
+          "zh_CN": "同谐的心弦Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10401.2",
+          "zh_TW": "在難度2以上的星塔探索中，戰鬥之間獲得音符的機率提升30%",
+          "zh_CN": "难度2及以上的星塔探索中，战斗之间获得音符的概率提升30%",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10402": {
+      "Id": 10402,
+      "NodeId": 9,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10402.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        10301
+      ],
+      "EffectClient": 13,
+      "Clientlvl": 1,
+      "Priority": 9,
+      "Position": [
+        4,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.10402.2",
+      "ItemId1": 51,
+      "ItemQty1": 20,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10402.1",
+          "zh_TW": "星塔嚴選I",
+          "zh_CN": "星塔严选Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10402.2",
+          "zh_TW": "在星塔探索中，商店會額外更新2件商品。",
+          "zh_CN": "星塔探索中，商店会额外刷新2件商品",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10403": {
+      "Id": 10403,
+      "NodeId": 10,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10403.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        10301
+      ],
+      "EffectClient": 11,
+      "Clientlvl": 1,
+      "Priority": 10,
+      "Position": [
+        4,
+        3
+      ],
+      "Desc": "StarTowerGrowthNode.10403.2",
+      "ItemId1": 51,
+      "ItemQty1": 20,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10403.1",
+          "zh_TW": "第一桶金II",
+          "zh_CN": "第一桶金Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10403.2",
+          "zh_TW": "星塔探索開始時，額外獲得100<sprite name=item_11_small>。",
+          "zh_CN": "星塔探索开始时额外获得100<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10501": {
+      "Id": 10501,
+      "NodeId": 11,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10501.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        10401
+      ],
+      "EffectClient": 20,
+      "Clientlvl": 1,
+      "Priority": 11,
+      "Position": [
+        5,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.10501.2",
+      "ItemId1": 51,
+      "ItemQty1": 20,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10501.1",
+          "zh_TW": "增效定律I",
+          "zh_CN": "增效定律Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10501.2",
+          "zh_TW": "星塔探索獲得的征途票根數量增加30%",
+          "zh_CN": "星塔探索获取征途票根数量增加30%",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10502": {
+      "Id": 10502,
+      "NodeId": 12,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10502.1",
+      "IsServer": true,
+      "IsClient": true,
+      "Type": 1,
+      "PreNodes": [
+        10402
+      ],
+      "EffectClient": 21,
+      "ClientParams": "[1000]",
+      "Clientlvl": 1,
+      "Priority": 12,
+      "Position": [
+        5,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.10502.2",
+      "ItemId1": 51,
+      "ItemQty1": 20,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10502.1",
+          "zh_TW": "超限理論II",
+          "zh_CN": "超限理论Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10502.2",
+          "zh_TW": "每週獲得的征途票根上限提高1,000",
+          "zh_CN": "每周获取征途票根上限提高1000",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10503": {
+      "Id": 10503,
+      "NodeId": 13,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10503.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        10403
+      ],
+      "EffectClient": 12,
+      "Clientlvl": 2,
+      "Priority": 13,
+      "Position": [
+        5,
+        3
+      ],
+      "Desc": "StarTowerGrowthNode.10503.2",
+      "ItemId1": 51,
+      "ItemQty1": 20,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10503.1",
+          "zh_TW": "刮刮樂II",
+          "zh_CN": "刮刮乐Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10503.2",
+          "zh_TW": "在難度2以上的星塔探索中，每通過1個戰鬥房間，有30%的機率額外獲得30<sprite name=item_11_small>，單局星塔探索最多觸發5次",
+          "zh_CN": "难度2及以上的星塔探索中，每通过1个战斗房间，有30%的概率额外获得30<sprite name=item_11_small>，单局星塔探索最大触发5次",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10601": {
+      "Id": 10601,
+      "NodeId": 14,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10601.1",
+      "IsServer": true,
+      "Type": 2,
+      "Color": 2,
+      "PreNodes": [
+        10501,
+        10502
+      ],
+      "EffectClient": 7,
+      "Clientlvl": 2,
+      "Priority": 14,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_2",
+      "Position": [
+        6,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.10601.2",
+      "ItemId1": 51,
+      "ItemQty1": 50,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10601.1",
+          "zh_TW": "衝線的褒獎",
+          "zh_CN": "冲线的褒奖",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10601.2",
+          "zh_TW": "在難度2以上的星塔探索中，通過星塔時可使用「強化機」功能：\n消耗<sprite name=item_11_small>，強化已擁有的潛能等級。",
+          "zh_CN": "难度2及以上的星塔探索中，通关星塔时可使用「强化机」功能：\n消耗<sprite name=item_11_small>，强化已拥有的潜能等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10602": {
+      "Id": 10602,
+      "NodeId": 15,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10602.1",
+      "IsServer": true,
+      "IsClient": true,
+      "Type": 2,
+      "Color": 2,
+      "PreNodes": [
+        10502,
+        10503
+      ],
+      "EffectClient": 26,
+      "ClientParams": "[1]",
+      "Clientlvl": 1,
+      "Priority": 15,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_1",
+      "Position": [
+        6,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.10602.2",
+      "ItemId1": 51,
+      "ItemQty1": 50,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10602.1",
+          "zh_TW": "唱機改造I",
+          "zh_CN": "唱机改造Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10602.2",
+          "zh_TW": "在星塔探索中，隊伍可攜帶2張輔位祕紋",
+          "zh_CN": "星塔探索中，队伍可携带2张辅位秘纹",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10701": {
+      "Id": 10701,
+      "NodeId": 16,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10701.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        10601,
+        10602
+      ],
+      "EffectClient": 25,
+      "Clientlvl": 3,
+      "Priority": 16,
+      "Position": [
+        7,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.10701.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10701.1",
+          "zh_TW": "幸運音符Ⅰ",
+          "zh_CN": "幸运音符Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10701.2",
+          "zh_TW": "在難度3以上的星塔探索中，於首領之間或魔王之間戰鬥後，有50%機率額外獲得3個音符",
+          "zh_CN": "难度3及以上的星塔探索中，首领之间与魔王之间战斗后有50%概率获得额外3个音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10702": {
+      "Id": 10702,
+      "NodeId": 17,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10702.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        10601,
+        10602
+      ],
+      "EffectClient": 11,
+      "Clientlvl": 1,
+      "Priority": 17,
+      "Position": [
+        7,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.10702.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10702.1",
+          "zh_TW": "第一桶金III",
+          "zh_CN": "第一桶金Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10702.2",
+          "zh_TW": "星塔探索開始時，額外獲得200<sprite name=item_11_small>。",
+          "zh_CN": "星塔探索开始时额外获得200<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10801": {
+      "Id": 10801,
+      "NodeId": 18,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10801.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        10701
+      ],
+      "EffectClient": 9,
+      "Clientlvl": 1,
+      "Priority": 18,
+      "Position": [
+        8,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.10801.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10801.1",
+          "zh_TW": "幸運幣",
+          "zh_CN": "幸运币",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10801.2",
+          "zh_TW": "在星塔探索中，首次使用強化機免費。",
+          "zh_CN": "星塔探索中，首次使用强化机免费",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10802": {
+      "Id": 10802,
+      "NodeId": 19,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10802.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        10702
+      ],
+      "EffectClient": 12,
+      "Clientlvl": 3,
+      "Priority": 19,
+      "Position": [
+        8,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.10802.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10802.1",
+          "zh_TW": "刮刮樂III",
+          "zh_CN": "刮刮乐Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10802.2",
+          "zh_TW": "在難度3以上的星塔探索中，每通過1個戰鬥房間，有50%的機率額外獲得50<sprite name=item_11_small>，單局星塔探索最多觸發5次",
+          "zh_CN": "难度3及以上的星塔探索中，每通过1个战斗房间，有50%的概率额外获得50<sprite name=item_11_small>，单局星塔探索最大触发5次",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "10901": {
+      "Id": 10901,
+      "NodeId": 20,
+      "Group": 1,
+      "Name": "StarTowerGrowthNode.10901.1",
+      "IsServer": true,
+      "Type": 2,
+      "Color": 2,
+      "PreNodes": [
+        10801,
+        10802
+      ],
+      "EffectClient": 31,
+      "Clientlvl": 3,
+      "Priority": 20,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_1",
+      "Position": [
+        9,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.10901.2",
+      "ItemId1": 51,
+      "ItemQty1": 60,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.10901.1",
+          "zh_TW": "命運的選擇I",
+          "zh_CN": "命运的选择Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.10901.2",
+          "zh_TW": "在難度3以上的星塔探索中，完成戰鬥之間後有20%的機率出現隨機事件，單局星塔探索最多觸發3次",
+          "zh_CN": "难度3及以上的星塔，战斗之间完成后有20%的概率出现随机事件，单局星塔探索最大触发3次",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20101": {
+      "Id": 20101,
+      "NodeId": 1,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20101.1",
+      "IsServer": true,
+      "Type": 1,
+      "EffectClient": 27,
+      "Clientlvl": 3,
+      "Priority": 21,
+      "Position": [
+        1,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.20101.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20101.1",
+          "zh_TW": "同諧的心弦III",
+          "zh_CN": "同谐的心弦Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20101.2",
+          "zh_TW": "在難度3以上的星塔探索中，戰鬥之間獲得音符的機率提升45%",
+          "zh_CN": "难度3及以上的星塔探索中，战斗之间获得音符的概率提升45%",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20102": {
+      "Id": 20102,
+      "NodeId": 2,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20102.1",
+      "IsServer": true,
+      "Type": 1,
+      "EffectClient": 20,
+      "Clientlvl": 1,
+      "Priority": 22,
+      "Position": [
+        1,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.20102.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20102.1",
+          "zh_TW": "增效定律II",
+          "zh_CN": "增效定律Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20102.2",
+          "zh_TW": "星塔探索獲得的征途票根數量增加60%",
+          "zh_CN": "星塔探索获取征途票根数量增加60%",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20201": {
+      "Id": 20201,
+      "NodeId": 3,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20201.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        20101
+      ],
+      "EffectClient": 29,
+      "Clientlvl": 3,
+      "Priority": 23,
+      "Position": [
+        2,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.20201.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20201.1",
+          "zh_TW": "驚喜音符I",
+          "zh_CN": "惊喜音符Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20201.2",
+          "zh_TW": "在難度3以上的星塔探索中，獲得音符時有10%機率額外獲得3個音符，單局星塔探索最多觸發2次",
+          "zh_CN": "难度3及以上的星塔探索中，获得音符时10%概率获得额外3个音符，单局星塔探索最大触发2次",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20202": {
+      "Id": 20202,
+      "NodeId": 4,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20202.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        20102
+      ],
+      "EffectClient": 14,
+      "Clientlvl": 3,
+      "Priority": 24,
+      "Position": [
+        2,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.20202.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20202.1",
+          "zh_TW": "會員折扣I",
+          "zh_CN": "会员折扣Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20202.2",
+          "zh_TW": "在難度3以上的星塔探索中，商店的隨機2件商品獲得80%折扣",
+          "zh_CN": "难度3及以上的星塔探索中，商店的货物随机2件获得80%折扣",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20301": {
+      "Id": 20301,
+      "NodeId": 5,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20301.1",
+      "IsServer": true,
+      "Type": 2,
+      "Color": 1,
+      "PreNodes": [
+        20201,
+        20202
+      ],
+      "EffectClient": 7,
+      "Clientlvl": 4,
+      "Priority": 25,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_1",
+      "Position": [
+        3,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.20301.2",
+      "ItemId1": 51,
+      "ItemQty1": 80,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20301.1",
+          "zh_TW": "吞金的陷阱",
+          "zh_CN": "吞金的陷阱",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20301.2",
+          "zh_TW": "難度4以上的星塔探索中，商店會出現強化機。",
+          "zh_CN": "难度4及以上的星塔探索中，商店房会出现强化机。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20302": {
+      "Id": 20302,
+      "NodeId": 6,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20302.1",
+      "IsServer": true,
+      "IsClient": true,
+      "Type": 2,
+      "Color": 1,
+      "PreNodes": [
+        20201,
+        20202
+      ],
+      "EffectClient": 26,
+      "ClientParams": "[2]",
+      "Clientlvl": 1,
+      "Priority": 26,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_1",
+      "Position": [
+        3,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.20302.2",
+      "ItemId1": 51,
+      "ItemQty1": 80,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20302.1",
+          "zh_TW": "唱機改造II",
+          "zh_CN": "唱机改造Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20302.2",
+          "zh_TW": "在星塔探索中，隊伍可攜帶3張輔位祕紋",
+          "zh_CN": "星塔探索中，队伍可携带3张辅位秘纹",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20401": {
+      "Id": 20401,
+      "NodeId": 7,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20401.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        20301
+      ],
+      "EffectClient": 27,
+      "Clientlvl": 4,
+      "Priority": 27,
+      "Position": [
+        4,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.20401.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20401.1",
+          "zh_TW": "同諧的心弦Ⅳ",
+          "zh_CN": "同谐的心弦Ⅳ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20401.2",
+          "zh_TW": "在難度4以上的星塔探索中，戰鬥之間獲得音符的機率提升60%",
+          "zh_CN": "难度4及以上的星塔探索中，战斗之间获得音符的概率提升60%",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20402": {
+      "Id": 20402,
+      "NodeId": 8,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20402.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        20301,
+        20302
+      ],
+      "EffectClient": 13,
+      "Clientlvl": 4,
+      "Priority": 28,
+      "Position": [
+        4,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.20402.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20402.1",
+          "zh_TW": "星塔嚴選Ⅱ",
+          "zh_CN": "星塔严选Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20402.2",
+          "zh_TW": "難度4以上的星塔探索中，商店會額外更新4件商品",
+          "zh_CN": "难度4及以上的星塔探索中，商店会额外刷新4件商品",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20403": {
+      "Id": 20403,
+      "NodeId": 9,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20403.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        20302
+      ],
+      "EffectClient": 20,
+      "Clientlvl": 1,
+      "Priority": 29,
+      "Position": [
+        4,
+        3
+      ],
+      "Desc": "StarTowerGrowthNode.20403.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20403.1",
+          "zh_TW": "增效定律Ⅲ",
+          "zh_CN": "增效定律Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20403.2",
+          "zh_TW": "星塔探索獲得的征途票根數量增加100%",
+          "zh_CN": "星塔探索获取征途票根数量增加100%",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20501": {
+      "Id": 20501,
+      "NodeId": 10,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20501.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        20401
+      ],
+      "EffectClient": 29,
+      "Clientlvl": 4,
+      "Priority": 30,
+      "Position": [
+        5,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.20501.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20501.1",
+          "zh_TW": "驚喜音符II",
+          "zh_CN": "惊喜音符Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20501.2",
+          "zh_TW": "在難度4以上的星塔探索中，獲得音符時有10%機率額外獲得6個音符，單局星塔探索最多觸發2次",
+          "zh_CN": "难度4及以上的星塔探索中，获得音符时10%概率获得额外6个音符，单局星塔探索最大触发2次",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20502": {
+      "Id": 20502,
+      "NodeId": 11,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20502.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        20402
+      ],
+      "EffectClient": 14,
+      "Clientlvl": 4,
+      "Priority": 31,
+      "Position": [
+        5,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.20502.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20502.1",
+          "zh_TW": "會員折扣II",
+          "zh_CN": "会员折扣Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20502.2",
+          "zh_TW": "在難度4以上的星塔探索中，商店的隨機3件商品將以80%折扣計算；其中最多1件折扣商品有30%機率提高到50%折扣",
+          "zh_CN": "难度4及以上的星塔探索中，商店的货物随机3件获得80%折扣；最多1件折扣商品有30%概率提高到50%折扣",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20503": {
+      "Id": 20503,
+      "NodeId": 12,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20503.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        20403
+      ],
+      "EffectClient": 31,
+      "Clientlvl": 4,
+      "Priority": 32,
+      "Position": [
+        5,
+        3
+      ],
+      "Desc": "StarTowerGrowthNode.20503.2",
+      "ItemId1": 51,
+      "ItemQty1": 30,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20503.1",
+          "zh_TW": "命運的選擇II",
+          "zh_CN": "命运的选择Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20503.2",
+          "zh_TW": "在難度4以上的星塔探索中，完成戰鬥之間後有30%的機率出現隨機事件，單局星塔探索最多觸發5次",
+          "zh_CN": "难度4及以上的星塔，战斗之间完成后有30%的概率出现随机事件，单局星塔探索最大触发5次",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20601": {
+      "Id": 20601,
+      "NodeId": 13,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20601.1",
+      "IsServer": true,
+      "IsClient": true,
+      "Type": 2,
+      "Color": 3,
+      "PreNodes": [
+        20501,
+        20502,
+        20503
+      ],
+      "EffectClient": 30,
+      "ClientParams": "[1]",
+      "Clientlvl": 1,
+      "Priority": 33,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_1",
+      "Position": [
+        6,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.20601.2",
+      "ItemId1": 51,
+      "ItemQty1": 80,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20601.1",
+          "zh_TW": "無際心海I",
+          "zh_CN": "无际心海Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20601.2",
+          "zh_TW": "星塔探索中，潛能等級上限提升至4級。",
+          "zh_CN": "星塔探索中潜能等级上限提升至4级",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20701": {
+      "Id": 20701,
+      "NodeId": 14,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20701.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        20601
+      ],
+      "EffectClient": 25,
+      "Clientlvl": 5,
+      "Priority": 34,
+      "Position": [
+        7,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.20701.2",
+      "ItemId1": 51,
+      "ItemQty1": 40,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20701.1",
+          "zh_TW": "幸運音符Ⅱ",
+          "zh_CN": "幸运音符Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20701.2",
+          "zh_TW": "在難度5以上的星塔探索中，於首領之間或魔王之間戰鬥後，有50%機率額外獲得6個音符",
+          "zh_CN": "难度5及以上的星塔探索中，首领之间与魔王之间战斗后有50%概率获得额外6个音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20702": {
+      "Id": 20702,
+      "NodeId": 15,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20702.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        20601
+      ],
+      "EffectClient": 13,
+      "Clientlvl": 5,
+      "Priority": 35,
+      "Position": [
+        7,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.20702.2",
+      "ItemId1": 51,
+      "ItemQty1": 40,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20702.1",
+          "zh_TW": "星塔嚴選III",
+          "zh_CN": "星塔严选Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20702.2",
+          "zh_TW": "難度5以上的星塔探索中，商店會額外更新6件商品。",
+          "zh_CN": "难度5及以上的星塔探索中，商店会额外刷新6件商品",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20801": {
+      "Id": 20801,
+      "NodeId": 16,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20801.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        20701
+      ],
+      "EffectClient": 6,
+      "Clientlvl": 5,
+      "Priority": 36,
+      "Position": [
+        8,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.20801.2",
+      "ItemId1": 51,
+      "ItemQty1": 40,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20801.1",
+          "zh_TW": "心花怒放I",
+          "zh_CN": "心花怒放Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20801.2",
+          "zh_TW": "在難度5以上的星塔探索中，獲得新潛能時，有5%的機率額外提升1級，單局星塔探索最多觸發1次",
+          "zh_CN": "难度5及以上的星塔探索中，获取新潜能时，有5%的概率额外提升1级，单局星塔探索最大触发1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20802": {
+      "Id": 20802,
+      "NodeId": 17,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20802.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        20702
+      ],
+      "EffectClient": 14,
+      "Clientlvl": 5,
+      "Priority": 37,
+      "Position": [
+        8,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.20802.2",
+      "ItemId1": 51,
+      "ItemQty1": 40,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20802.1",
+          "zh_TW": "會員折扣III",
+          "zh_CN": "会员折扣Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20802.2",
+          "zh_TW": "在難度5以上的星塔探索中，商店的隨機4件商品將以80%折扣計算；其中最多2件折扣商品有70%機率提高到50%折扣",
+          "zh_CN": "难度5及以上的星塔探索中，商店的货物随机4件获得80%折扣；最多2件折扣商品有70%概率提高到50%折扣",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20901": {
+      "Id": 20901,
+      "NodeId": 18,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20901.1",
+      "IsServer": true,
+      "Type": 2,
+      "Color": 3,
+      "PreNodes": [
+        20801,
+        20802
+      ],
+      "EffectClient": 1,
+      "Clientlvl": 1,
+      "Priority": 38,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_1",
+      "Position": [
+        9,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.20901.2",
+      "ItemId1": 51,
+      "ItemQty1": 80,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20901.1",
+          "zh_TW": "雲彩的骰子",
+          "zh_CN": "云彩的骰子",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20901.2",
+          "zh_TW": "解鎖「潛能更新」功能：\n可消耗<sprite name=item_11_small>，重新抽取一次「潛能」。",
+          "zh_CN": "解锁「潜能刷新」功能：\n可消耗<sprite name=item_11_small>，重新抽取一次「潜能」",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "20902": {
+      "Id": 20902,
+      "NodeId": 19,
+      "Group": 2,
+      "Name": "StarTowerGrowthNode.20902.1",
+      "IsServer": true,
+      "Type": 2,
+      "Color": 3,
+      "PreNodes": [
+        20801,
+        20802
+      ],
+      "EffectClient": 5,
+      "Clientlvl": 1,
+      "Priority": 39,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_2",
+      "Position": [
+        9,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.20902.2",
+      "ItemId1": 51,
+      "ItemQty1": 80,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.20902.1",
+          "zh_TW": "貨倉的鑰匙",
+          "zh_CN": "货仓的钥匙",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.20902.2",
+          "zh_TW": "解鎖「商店補貨」功能：\n可消耗<sprite name=item_11_small>，更新商店的商品，每次星塔探索限定1次。",
+          "zh_CN": "解锁「商店补货」功能：\n可消耗<sprite name=item_11_small>，刷新商店的货物，每次星塔探索限定1次。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30101": {
+      "Id": 30101,
+      "NodeId": 1,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30101.1",
+      "IsServer": true,
+      "Type": 1,
+      "EffectClient": 1,
+      "Clientlvl": 1,
+      "Priority": 40,
+      "Position": [
+        1,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.30101.2",
+      "ItemId1": 51,
+      "ItemQty1": 60,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30101.1",
+          "zh_TW": "星空之命I",
+          "zh_CN": "星空之命Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30101.2",
+          "zh_TW": "潛能重抽價格減少30。",
+          "zh_CN": "潜能重随价格降低30",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30102": {
+      "Id": 30102,
+      "NodeId": 2,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30102.1",
+      "IsServer": true,
+      "Type": 1,
+      "EffectClient": 10,
+      "Clientlvl": 1,
+      "Priority": 41,
+      "Position": [
+        1,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.30102.2",
+      "ItemId1": 51,
+      "ItemQty1": 60,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30102.1",
+          "zh_TW": "套餐協議I",
+          "zh_CN": "套餐协议Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30102.2",
+          "zh_TW": "強化機強化消耗降低30。",
+          "zh_CN": "强化机强化消耗降低30",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30201": {
+      "Id": 30201,
+      "NodeId": 3,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30201.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        30101
+      ],
+      "EffectClient": 6,
+      "Clientlvl": 6,
+      "Priority": 42,
+      "Position": [
+        2,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.30201.2",
+      "ItemId1": 51,
+      "ItemQty1": 80,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30201.1",
+          "zh_TW": "心花怒放II",
+          "zh_CN": "心花怒放Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30201.2",
+          "zh_TW": "在難度6以上的星塔探索中，獲得新潛能時，有10%的機率額外提升1級，單局星塔探索觸發次數不限",
+          "zh_CN": "难度6及以上的星塔探索中，获取新潜能时，有10%的概率额外提升1级，单局星塔探索触发次数不限",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30202": {
+      "Id": 30202,
+      "NodeId": 4,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30202.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        30102
+      ],
+      "EffectClient": 8,
+      "Clientlvl": 6,
+      "Priority": 43,
+      "Position": [
+        2,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.30202.2",
+      "ItemId1": 51,
+      "ItemQty1": 80,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30202.1",
+          "zh_TW": "潛能飛升I",
+          "zh_CN": "潜能飞升Ⅰ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30202.2",
+          "zh_TW": "在難度6以上的星塔探索中，強化潛能時，有10%的機率額外強化1級，單局星塔探索最多觸發1次",
+          "zh_CN": "难度6及以上的星塔探索中，强化潜能时，有10%的概率额外强化1级，单局星塔探索最大触发1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30301": {
+      "Id": 30301,
+      "NodeId": 5,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30301.1",
+      "IsServer": true,
+      "IsClient": true,
+      "Type": 2,
+      "Color": 1,
+      "PreNodes": [
+        30201,
+        30202
+      ],
+      "EffectClient": 30,
+      "ClientParams": "[3]",
+      "Clientlvl": 1,
+      "Priority": 44,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_1",
+      "Position": [
+        3,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.30301.2",
+      "ItemId1": 51,
+      "ItemQty1": 120,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30301.1",
+          "zh_TW": "無際心海II",
+          "zh_CN": "无际心海Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30301.2",
+          "zh_TW": "星塔探索中，潛能等級上限提升至6級。",
+          "zh_CN": "星塔探索中潜能等级上限提升至6级",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30401": {
+      "Id": 30401,
+      "NodeId": 6,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30401.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        30301
+      ],
+      "EffectClient": 1,
+      "Clientlvl": 1,
+      "Priority": 45,
+      "Position": [
+        4,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.30401.2",
+      "ItemId1": 51,
+      "ItemQty1": 100,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30401.1",
+          "zh_TW": "星空之命II",
+          "zh_CN": "星空之命Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30401.2",
+          "zh_TW": "潛能重抽價格減少40",
+          "zh_CN": "潜能重随价格降低40",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30402": {
+      "Id": 30402,
+      "NodeId": 7,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30402.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        30301
+      ],
+      "EffectClient": 10,
+      "Clientlvl": 1,
+      "Priority": 46,
+      "Position": [
+        4,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.30402.2",
+      "ItemId1": 51,
+      "ItemQty1": 100,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30402.1",
+          "zh_TW": "套餐協議II",
+          "zh_CN": "套餐协议Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30402.2",
+          "zh_TW": "強化機強化消耗降低60。",
+          "zh_CN": "强化机强化消耗降低60",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30501": {
+      "Id": 30501,
+      "NodeId": 8,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30501.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        30401
+      ],
+      "EffectClient": 29,
+      "Clientlvl": 6,
+      "Priority": 47,
+      "Position": [
+        5,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.30501.2",
+      "ItemId1": 51,
+      "ItemQty1": 120,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30501.1",
+          "zh_TW": "驚喜音符III",
+          "zh_CN": "惊喜音符Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30501.2",
+          "zh_TW": "在難度6以上的星塔探索中，獲得音符時有20%機率額外獲得6個音符，單局星塔探索最多觸發4次",
+          "zh_CN": "难度6及以上的星塔探索中，获得音符时20%概率获得额外6个音符，单局星塔探索最大触发4次",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30502": {
+      "Id": 30502,
+      "NodeId": 9,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30502.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        30402
+      ],
+      "EffectClient": 8,
+      "Clientlvl": 6,
+      "Priority": 48,
+      "Position": [
+        5,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.30502.2",
+      "ItemId1": 51,
+      "ItemQty1": 120,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30502.1",
+          "zh_TW": "潛能飛升II",
+          "zh_CN": "潜能飞升Ⅱ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30502.2",
+          "zh_TW": "在難度6以上的星塔探索中，強化潛能時，有20%的機率額外強化1級，單局星塔探索最多觸發2次",
+          "zh_CN": "难度6及以上的星塔探索中，强化潜能时，有20%的概率额外强化1级，单局星塔探索最大触发2次",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30601": {
+      "Id": 30601,
+      "NodeId": 10,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30601.1",
+      "IsServer": true,
+      "Type": 2,
+      "Color": 2,
+      "PreNodes": [
+        30501,
+        30502
+      ],
+      "EffectClient": 5,
+      "Clientlvl": 1,
+      "Priority": 49,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_2",
+      "Position": [
+        6,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.30601.2",
+      "ItemId1": 51,
+      "ItemQty1": 200,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30601.1",
+          "zh_TW": "倉管的權能",
+          "zh_CN": "仓管的权能",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30601.2",
+          "zh_TW": "「商店補貨」次數+1。",
+          "zh_CN": "「商店补货」次数+1",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30701": {
+      "Id": 30701,
+      "NodeId": 11,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30701.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        30601
+      ],
+      "EffectClient": 25,
+      "Clientlvl": 7,
+      "Priority": 50,
+      "Position": [
+        7,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.30701.2",
+      "ItemId1": 51,
+      "ItemQty1": 150,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30701.1",
+          "zh_TW": "幸運音符III",
+          "zh_CN": "幸运音符Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30701.2",
+          "zh_TW": "在難度7以上的星塔探索中，於首領之間或魔王之間戰鬥後，有50%機率額外獲得9個音符",
+          "zh_CN": "难度7及以上的星塔探索中，首领之间与魔王之间战斗后有50%概率获得额外9个音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30702": {
+      "Id": 30702,
+      "NodeId": 12,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30702.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        30601
+      ],
+      "EffectClient": 1,
+      "Clientlvl": 1,
+      "Priority": 51,
+      "Position": [
+        7,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.30702.2",
+      "ItemId1": 51,
+      "ItemQty1": 150,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30702.1",
+          "zh_TW": "星空之命III",
+          "zh_CN": "星空之命Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30702.2",
+          "zh_TW": "潛能重抽價格減少60",
+          "zh_CN": "潜能重随价格降低60",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30801": {
+      "Id": 30801,
+      "NodeId": 13,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30801.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        30701
+      ],
+      "EffectClient": 6,
+      "Clientlvl": 7,
+      "Priority": 52,
+      "Position": [
+        8,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.30801.2",
+      "ItemId1": 51,
+      "ItemQty1": 150,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30801.1",
+          "zh_TW": "心花怒放III",
+          "zh_CN": "心花怒放Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30801.2",
+          "zh_TW": "在難度7以上的星塔探索中，獲得新潛能時，有20%的機率額外提升1級，單局星塔探索觸發次數不限",
+          "zh_CN": "难度7及以上的星塔探索中，获取新潜能时，有20%的概率额外提升1级，单局星塔探索触发次数不限",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30802": {
+      "Id": 30802,
+      "NodeId": 14,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30802.1",
+      "IsServer": true,
+      "Type": 1,
+      "PreNodes": [
+        30702
+      ],
+      "EffectClient": 8,
+      "Clientlvl": 7,
+      "Priority": 53,
+      "Position": [
+        8,
+        2
+      ],
+      "Desc": "StarTowerGrowthNode.30802.2",
+      "ItemId1": 51,
+      "ItemQty1": 150,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30802.1",
+          "zh_TW": "潛能飛升III",
+          "zh_CN": "潜能飞升Ⅲ",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30802.2",
+          "zh_TW": "在難度7以上的星塔探索中，強化潛能時，有30%的機率額外強化1級，單局星塔探索最多觸發5次",
+          "zh_CN": "难度7及以上的星塔探索中，强化潜能时，有30%的概率额外强化1级，单局星塔探索最大触发5次",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "30901": {
+      "Id": 30901,
+      "NodeId": 15,
+      "Group": 3,
+      "Name": "StarTowerGrowthNode.30901.1",
+      "IsServer": true,
+      "Type": 2,
+      "Color": 3,
+      "PreNodes": [
+        30801,
+        30802
+      ],
+      "EffectClient": 33,
+      "Clientlvl": 7,
+      "Priority": 54,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_1",
+      "Position": [
+        9,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.30901.2",
+      "ItemId1": 51,
+      "ItemQty1": 310,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.30901.1",
+          "zh_TW": "輝光的奇蹟",
+          "zh_CN": "辉光的奇迹",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.30901.2",
+          "zh_TW": "在難度7以上的星塔探索中，前10次觸發「心花怒放」效果時，有一定機率額外提升1級",
+          "zh_CN": "难度7及以上的星塔探索中，前10次触发「心花怒放」效果时，一定概率额外提升1级",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "40101": {
+      "Id": 40101,
+      "NodeId": 1,
+      "Group": 4,
+      "Name": "StarTowerGrowthNode.40101.1",
+      "IsServer": true,
+      "Type": 2,
+      "Color": 1,
+      "EffectClient": 32,
+      "Clientlvl": 8,
+      "Priority": 55,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_1",
+      "Position": [
+        1,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.40101.2",
+      "ItemId1": 51,
+      "ItemQty1": 300,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.40101.1",
+          "zh_TW": "聖潔的共鳴",
+          "zh_CN": "圣洁的共鸣",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.40101.2",
+          "zh_TW": "在難度8以上的星塔探索中，當主控旅人元素屬性與星塔屬性一致時，只會出現相同屬性的元素音符",
+          "zh_CN": "难度8及以上的星塔探索中，当主控旅人元素属性与星塔属性一致时，仅会出现相同属性的元素音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "40201": {
+      "Id": 40201,
+      "NodeId": 2,
+      "Group": 4,
+      "Name": "StarTowerGrowthNode.40201.1",
+      "IsServer": true,
+      "Type": 2,
+      "Color": 2,
+      "PreNodes": [
+        40101
+      ],
+      "EffectClient": 20,
+      "Clientlvl": 1,
+      "Priority": 56,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_2",
+      "Position": [
+        2,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.40201.2",
+      "ItemId1": 51,
+      "ItemQty1": 300,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.40201.1",
+          "zh_TW": "慾望的增殖",
+          "zh_CN": "欲望的增殖",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.40201.2",
+          "zh_TW": "星塔探索獲得的征途票根數量增加200%",
+          "zh_CN": "星塔探索获取征途票根数量增加200%",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "40301": {
+      "Id": 40301,
+      "NodeId": 3,
+      "Group": 4,
+      "Name": "StarTowerGrowthNode.40301.1",
+      "IsServer": true,
+      "Type": 2,
+      "Color": 1,
+      "PreNodes": [
+        40201
+      ],
+      "EffectClient": 35,
+      "Clientlvl": 8,
+      "Priority": 57,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_2",
+      "Position": [
+        3,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.40301.2",
+      "ItemId1": 51,
+      "ItemQty1": 300,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.40301.1",
+          "zh_TW": "公平的貪婪",
+          "zh_CN": "公平的贪婪",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.40301.2",
+          "zh_TW": "在難度8以上的星塔探索中，觸發「潛能飛升」時，本次的三張潛能均觸發等級強化，且只消耗一次次數",
+          "zh_CN": "难度8及以上的星塔探索中，触发「潜能飞升」时，本次的三张潜能均触发等级强化，且仅消耗一次次数",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    },
+    "40401": {
+      "Id": 40401,
+      "NodeId": 4,
+      "Group": 4,
+      "Name": "StarTowerGrowthNode.40401.1",
+      "IsServer": true,
+      "Type": 2,
+      "Color": 3,
+      "PreNodes": [
+        40301
+      ],
+      "EffectClient": 34,
+      "Clientlvl": 8,
+      "Priority": 58,
+      "Icon": "Icon/ZZZOther/startowergrowth_keypoint_1",
+      "Position": [
+        4,
+        1
+      ],
+      "Desc": "StarTowerGrowthNode.40401.2",
+      "ItemId1": 51,
+      "ItemQty1": 300,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerGrowthNode.40401.1",
+          "zh_TW": "後付的代價",
+          "zh_CN": "后付的代价",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        },
+        "/Desc": {
+          "key": "StarTowerGrowthNode.40401.2",
+          "zh_TW": "在難度8以上的星塔探索中，「輝光的奇蹟」強化為在實際選取時再消耗觸發次數",
+          "zh_CN": "难度8及以上的星塔探索中，「辉光的奇迹」强化为在实际选取时再消耗触发次数",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerGrowthNode.json",
+            "zh_CN": "language/zh_CN/StarTowerGrowthNode.json"
+          }
+        }
+      }
+    }
+  }
+}

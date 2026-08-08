@@ -1,0 +1,193 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "InfinityTower",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 7,
+    "localization_hits": 7,
+    "source": "bin/InfinityTower.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Name": "InfinityTower.1.1",
+      "ElementType": 7,
+      "FormationSceneName": "SelectRole_InfinityTower_None",
+      "Bg": "bg_infinitytower_pk_01",
+      "OpenDay": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "OpenDayDesc": "Infinity_OpenDay_Type1",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTower.1.1",
+          "zh_TW": "無限競技",
+          "zh_CN": "无极角斗",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTower.json",
+            "zh_CN": "language/zh_CN/InfinityTower.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Name": "InfinityTower.2.1",
+      "ElementType": 2,
+      "FormationSceneName": "SelectRole_InfinityTower_Wind",
+      "Bg": "bg_infinitytower_pk_02",
+      "PreTowerLevelId": 11020,
+      "OpenDay": [
+        0,
+        1,
+        4
+      ],
+      "OpenDayDesc": "Infinity_OpenDay_Type2",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTower.2.1",
+          "zh_TW": "颯爽疾奏",
+          "zh_CN": "飒爽疾奏",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTower.json",
+            "zh_CN": "language/zh_CN/InfinityTower.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Name": "InfinityTower.3.1",
+      "ElementType": 4,
+      "FormationSceneName": "SelectRole_InfinityTower_Earth",
+      "Bg": "bg_infinitytower_pk_03",
+      "PreTowerLevelId": 11020,
+      "OpenDay": [
+        0,
+        2,
+        5
+      ],
+      "OpenDayDesc": "Infinity_OpenDay_Type3",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTower.3.1",
+          "zh_TW": "荒壘震音",
+          "zh_CN": "荒垒震音",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTower.json",
+            "zh_CN": "language/zh_CN/InfinityTower.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "Name": "InfinityTower.4.1",
+      "ElementType": 5,
+      "FormationSceneName": "SelectRole_InfinityTower_Dark",
+      "Bg": "bg_infinitytower_pk_04",
+      "PreTowerLevelId": 11020,
+      "OpenDay": [
+        0,
+        3,
+        6
+      ],
+      "OpenDayDesc": "Infinity_OpenDay_Type4",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTower.4.1",
+          "zh_TW": "幽閉儀式",
+          "zh_CN": "幽闭仪典",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTower.json",
+            "zh_CN": "language/zh_CN/InfinityTower.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "Name": "InfinityTower.5.1",
+      "ElementType": 1,
+      "FormationSceneName": "SelectRole_InfinityTower_Fire",
+      "Bg": "bg_infinitytower_pk_05",
+      "PreTowerLevelId": 11020,
+      "OpenDay": [
+        0,
+        1,
+        4
+      ],
+      "OpenDayDesc": "Infinity_OpenDay_Type2",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTower.5.1",
+          "zh_TW": "熾熱狂舞",
+          "zh_CN": "炽热狂舞",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTower.json",
+            "zh_CN": "language/zh_CN/InfinityTower.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "Name": "InfinityTower.6.1",
+      "ElementType": 3,
+      "FormationSceneName": "SelectRole_InfinityTower_Aqua",
+      "Bg": "bg_infinitytower_pk_06",
+      "PreTowerLevelId": 11020,
+      "OpenDay": [
+        0,
+        2,
+        5
+      ],
+      "OpenDayDesc": "Infinity_OpenDay_Type3",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTower.6.1",
+          "zh_TW": "清雅流歌",
+          "zh_CN": "清雅流歌",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTower.json",
+            "zh_CN": "language/zh_CN/InfinityTower.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "Name": "InfinityTower.7.1",
+      "ElementType": 6,
+      "FormationSceneName": "SelectRole_InfinityTower_Light",
+      "Bg": "bg_infinitytower_pk_07",
+      "PreTowerLevelId": 11020,
+      "OpenDay": [
+        0,
+        3,
+        6
+      ],
+      "OpenDayDesc": "Infinity_OpenDay_Type4",
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTower.7.1",
+          "zh_TW": "紛閃派對",
+          "zh_CN": "纷闪派对",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTower.json",
+            "zh_CN": "language/zh_CN/InfinityTower.json"
+          }
+        }
+      }
+    }
+  }
+}

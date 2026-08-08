@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "DictionaryTab",
+    "categories": [
+      "ui_system"
+    ],
+    "row_count": 3,
+    "localization_hits": 3,
+    "source": "bin/DictionaryTab.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Icon": "Icon/Dict/icon_dict_tab_01",
+      "Icon2": "Icon/Dict/icon_dict_tab_01_select",
+      "Title": "DictionaryTab.1.1",
+      "HideInBattle": true,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTab.1.1",
+          "zh_TW": "旅人相關",
+          "zh_CN": "旅人相关",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTab.json",
+            "zh_CN": "language/zh_CN/DictionaryTab.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Icon": "Icon/Dict/icon_dict_tab_02",
+      "Icon2": "Icon/Dict/icon_dict_tab_02_select",
+      "Title": "DictionaryTab.2.1",
+      "HideInBattle": true,
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTab.2.1",
+          "zh_TW": "系統玩法",
+          "zh_CN": "系统玩法",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTab.json",
+            "zh_CN": "language/zh_CN/DictionaryTab.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Icon": "Icon/Dict/icon_dict_tab_03",
+      "Icon2": "Icon/Dict/icon_dict_tab_03_select",
+      "Title": "DictionaryTab.3.1",
+      "_localized": {
+        "/Title": {
+          "key": "DictionaryTab.3.1",
+          "zh_TW": "戰鬥相關",
+          "zh_CN": "战斗相关",
+          "sources": {
+            "zh_TW": "language/zh_TW/DictionaryTab.json",
+            "zh_CN": "language/zh_CN/DictionaryTab.json"
+          }
+        }
+      }
+    }
+  }
+}

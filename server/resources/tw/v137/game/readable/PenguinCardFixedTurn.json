@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "PenguinCardFixedTurn",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 3,
+    "localization_hits": 0,
+    "source": "bin/PenguinCardFixedTurn.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "10201": {
+      "Id": 10201,
+      "GroupId": 1,
+      "Turn": 2,
+      "Round": 1,
+      "BaseCardId": [
+        101,
+        101,
+        102,
+        102,
+        102
+      ]
+    },
+    "10302": {
+      "Id": 10302,
+      "GroupId": 1,
+      "Turn": 3,
+      "Round": 2,
+      "BaseCardId": [
+        103,
+        103,
+        103,
+        103,
+        102
+      ]
+    },
+    "10402": {
+      "Id": 10402,
+      "GroupId": 1,
+      "Turn": 4,
+      "Round": 2,
+      "BaseCardId": [
+        101,
+        101,
+        101,
+        101,
+        101
+      ]
+    }
+  }
+}

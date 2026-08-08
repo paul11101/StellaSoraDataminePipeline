@@ -1,0 +1,114 @@
+{
+  "table": "IceCreamFever",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\05bef2ab71cd06d8.bin",
+  "source_sha256": "1d2caff7446c3faba0c762eba22198baf66f549ffc5dfec291582f32dbf549c0",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\IceCreamFever.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 0,
+    "key_type": 0,
+    "row_count": 4
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2
+    ],
+    "reference_field_order": [
+      "Combo",
+      "Magnification"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 2,
+    "remaining_name_count": 2,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Combo",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Magnification",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Combo",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "2": {
+      "field": "Magnification",
+      "json_kind": "float",
+      "repeated": false,
+      "wire_types": [
+        5
+      ],
+      "selected": "float32",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "float32",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "fixed32_uint",
+          "matches": 0,
+          "compared": 4
+        },
+        {
+          "codec": "fixed32_int",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 4,
+    "reference_row_count": 4,
+    "shared_key_count": 4,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 4,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "CharGemInstance",
+    "categories": [
+      "characters",
+      "items_rewards",
+      "stages_modes"
+    ],
+    "row_count": 9,
+    "localization_hits": 18,
+    "source": "bin/CharGemInstance.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1000": {
+      "Id": 1000,
+      "Type": 1,
+      "Difficulty": 1,
+      "Name": "CharGemInstance.1000.1",
+      "Desc": "CharGemInstance.1000.2",
+      "SuggestedPower": 62,
+      "SuggestedBuild": 21,
+      "NeedWorldClass": 20,
+      "FloorId": 6100201,
+      "PreviewMonsterGroupId": 10200,
+      "OneStarCondition": "[1]",
+      "TwoStarCondition": "[2,60]",
+      "ThreeStarCondition": "[2,40]",
+      "SequentialDropId": 8052,
+      "EnergyConsume": 30,
+      "BaseAwardPreview": "[[2,50,1],[35003,8,0]]",
+      "Icon": "Icon/MapChallenge/dailyInstance_003",
+      "_localized": {
+        "/Name": {
+          "key": "CharGemInstance.1000.1",
+          "zh_TW": "街市激鬥",
+          "zh_CN": "街市激斗",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        },
+        "/Desc": {
+          "key": "CharGemInstance.1000.2",
+          "zh_TW": "灰風俱樂部又在亂飆滑板了！\u000b戰勝滿月、新月和灰風成員，整頓交通安全，贏取好市民點數！",
+          "zh_CN": "灰风俱乐部又在乱飙滑板了！\u000b战胜满月新月和灰风成员，整顿交通安全，赢取好市民点数！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        }
+      }
+    },
+    "1001": {
+      "Id": 1001,
+      "Type": 1,
+      "Difficulty": 2,
+      "Name": "CharGemInstance.1001.1",
+      "Desc": "CharGemInstance.1001.2",
+      "SuggestedPower": 72,
+      "SuggestedBuild": 26,
+      "PreLevelId": 1000,
+      "PreLevelStar": 1,
+      "NeedWorldClass": 25,
+      "FloorId": 6100202,
+      "PreviewMonsterGroupId": 10200,
+      "OneStarCondition": "[1]",
+      "TwoStarCondition": "[2,60]",
+      "ThreeStarCondition": "[2,40]",
+      "SequentialDropId": 8053,
+      "EnergyConsume": 30,
+      "BaseAwardPreview": "[[2,50,1],[35003,11,0]]",
+      "Icon": "Icon/MapChallenge/dailyInstance_003",
+      "_localized": {
+        "/Name": {
+          "key": "CharGemInstance.1001.1",
+          "zh_TW": "街市激鬥",
+          "zh_CN": "街市激斗",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        },
+        "/Desc": {
+          "key": "CharGemInstance.1001.2",
+          "zh_TW": "灰風俱樂部又在亂飆滑板了！\u000b戰勝滿月、新月和灰風成員，整頓交通安全，贏取好市民點數！",
+          "zh_CN": "灰风俱乐部又在乱飙滑板了！\u000b战胜满月新月和灰风成员，整顿交通安全，赢取好市民点数！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        }
+      }
+    },
+    "1002": {
+      "Id": 1002,
+      "Type": 1,
+      "Difficulty": 3,
+      "Name": "CharGemInstance.1002.1",
+      "Desc": "CharGemInstance.1002.2",
+      "SuggestedPower": 82,
+      "SuggestedBuild": 29,
+      "PreLevelId": 1001,
+      "PreLevelStar": 1,
+      "NeedWorldClass": 30,
+      "FloorId": 6100203,
+      "PreviewMonsterGroupId": 10200,
+      "OneStarCondition": "[1]",
+      "TwoStarCondition": "[2,60]",
+      "ThreeStarCondition": "[2,40]",
+      "SequentialDropId": 8054,
+      "EnergyConsume": 30,
+      "BaseAwardPreview": "[[2,50,1],[35003,15,0]]",
+      "Icon": "Icon/MapChallenge/dailyInstance_003",
+      "_localized": {
+        "/Name": {
+          "key": "CharGemInstance.1002.1",
+          "zh_TW": "街市激鬥",
+          "zh_CN": "街市激斗",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        },
+        "/Desc": {
+          "key": "CharGemInstance.1002.2",
+          "zh_TW": "灰風俱樂部又在亂飆滑板了！\u000b戰勝滿月、新月和灰風成員，整頓交通安全，贏取好市民點數！",
+          "zh_CN": "灰风俱乐部又在乱飙滑板了！\u000b战胜满月新月和灰风成员，整顿交通安全，赢取好市民点数！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        }
+      }
+    },
+    "2000": {
+      "Id": 2000,
+      "Type": 2,
+      "Difficulty": 1,
+      "Name": "CharGemInstance.2000.1",
+      "Desc": "CharGemInstance.2000.2",
+      "SuggestedPower": 62,
+      "SuggestedBuild": 21,
+      "NeedWorldClass": 20,
+      "FloorId": 6100301,
+      "PreviewMonsterGroupId": 10300,
+      "OneStarCondition": "[1]",
+      "TwoStarCondition": "[2,60]",
+      "ThreeStarCondition": "[2,40]",
+      "SequentialDropId": 8055,
+      "EnergyConsume": 30,
+      "BaseAwardPreview": "[[2,50,1],[35002,8,0]]",
+      "Icon": "Icon/MapChallenge/dailyInstance_004",
+      "_localized": {
+        "/Name": {
+          "key": "CharGemInstance.2000.1",
+          "zh_TW": "霧境突圍",
+          "zh_CN": "雾境突围",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        },
+        "/Desc": {
+          "key": "CharGemInstance.2000.2",
+          "zh_TW": "幫助地理協會調查迷霧森林！\u000b在毒霧中堅持抵抗，盡速消滅樹樹鼠群，贏取協會貢獻證！",
+          "zh_CN": "帮助地理协会调查迷雾森林！\u000b在毒雾中坚持抵抗，尽速消灭树树鼠群，赢取协会贡献证！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        }
+      }
+    },
+    "2001": {
+      "Id": 2001,
+      "Type": 2,
+      "Difficulty": 2,
+      "Name": "CharGemInstance.2001.1",
+      "Desc": "CharGemInstance.2001.2",
+      "SuggestedPower": 72,
+      "SuggestedBuild": 26,
+      "PreLevelId": 2000,
+      "PreLevelStar": 1,
+      "NeedWorldClass": 25,
+      "FloorId": 6100302,
+      "PreviewMonsterGroupId": 10300,
+      "OneStarCondition": "[1]",
+      "TwoStarCondition": "[2,60]",
+      "ThreeStarCondition": "[2,40]",
+      "SequentialDropId": 8056,
+      "EnergyConsume": 30,
+      "BaseAwardPreview": "[[2,50,1],[35002,11,0]]",
+      "Icon": "Icon/MapChallenge/dailyInstance_004",
+      "_localized": {
+        "/Name": {
+          "key": "CharGemInstance.2001.1",
+          "zh_TW": "霧境突圍",
+          "zh_CN": "雾境突围",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        },
+        "/Desc": {
+          "key": "CharGemInstance.2001.2",
+          "zh_TW": "幫助地理協會調查迷霧森林！\u000b在毒霧中堅持抵抗，盡速消滅樹樹鼠群，贏取協會貢獻證！",
+          "zh_CN": "帮助地理协会调查迷雾森林！\u000b在毒雾中坚持抵抗，尽速消灭树树鼠群，赢取协会贡献证！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        }
+      }
+    },
+    "2002": {
+      "Id": 2002,
+      "Type": 2,
+      "Difficulty": 3,
+      "Name": "CharGemInstance.2002.1",
+      "Desc": "CharGemInstance.2002.2",
+      "SuggestedPower": 82,
+      "SuggestedBuild": 29,
+      "PreLevelId": 2001,
+      "PreLevelStar": 1,
+      "NeedWorldClass": 30,
+      "FloorId": 6100303,
+      "PreviewMonsterGroupId": 10300,
+      "OneStarCondition": "[1]",
+      "TwoStarCondition": "[2,60]",
+      "ThreeStarCondition": "[2,40]",
+      "SequentialDropId": 8057,
+      "EnergyConsume": 30,
+      "BaseAwardPreview": "[[2,50,1],[35002,15,0]]",
+      "Icon": "Icon/MapChallenge/dailyInstance_004",
+      "_localized": {
+        "/Name": {
+          "key": "CharGemInstance.2002.1",
+          "zh_TW": "霧境突圍",
+          "zh_CN": "雾境突围",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        },
+        "/Desc": {
+          "key": "CharGemInstance.2002.2",
+          "zh_TW": "幫助地理協會調查迷霧森林！\u000b在毒霧中堅持抵抗，盡速消滅樹樹鼠群，贏取協會貢獻證！",
+          "zh_CN": "帮助地理协会调查迷雾森林！\u000b在毒雾中坚持抵抗，尽速消灭树树鼠群，赢取协会贡献证！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        }
+      }
+    },
+    "3000": {
+      "Id": 3000,
+      "Type": 3,
+      "Difficulty": 1,
+      "Name": "CharGemInstance.3000.1",
+      "Desc": "CharGemInstance.3000.2",
+      "SuggestedPower": 62,
+      "SuggestedBuild": 21,
+      "NeedWorldClass": 20,
+      "FloorId": 6100101,
+      "PreviewMonsterGroupId": 10000,
+      "OneStarCondition": "[1]",
+      "TwoStarCondition": "[2,60]",
+      "ThreeStarCondition": "[2,40]",
+      "SequentialDropId": 8058,
+      "EnergyConsume": 30,
+      "BaseAwardPreview": "[[2,50,1],[35001,8,0]]",
+      "Icon": "Icon/MapChallenge/dailyInstance_001",
+      "_localized": {
+        "/Name": {
+          "key": "CharGemInstance.3000.1",
+          "zh_TW": "深境清掃",
+          "zh_CN": "深境清扫",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        },
+        "/Desc": {
+          "key": "CharGemInstance.3000.2",
+          "zh_TW": "無窮無盡的凍凍來襲！\u000b消滅凍凍重置戰技，幫助恩賜意志控制星塔，贏取恩賜消費券！",
+          "zh_CN": "无穷无尽的冻冻来袭！\u000b消灭冻冻刷新战技，帮助恩赐意志控制星塔，赢取恩赐消费券！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        }
+      }
+    },
+    "3001": {
+      "Id": 3001,
+      "Type": 3,
+      "Difficulty": 2,
+      "Name": "CharGemInstance.3001.1",
+      "Desc": "CharGemInstance.3001.2",
+      "SuggestedPower": 72,
+      "SuggestedBuild": 26,
+      "PreLevelId": 3000,
+      "PreLevelStar": 1,
+      "NeedWorldClass": 25,
+      "FloorId": 6100102,
+      "PreviewMonsterGroupId": 10000,
+      "OneStarCondition": "[1]",
+      "TwoStarCondition": "[2,60]",
+      "ThreeStarCondition": "[2,40]",
+      "SequentialDropId": 8059,
+      "EnergyConsume": 30,
+      "BaseAwardPreview": "[[2,50,1],[35001,11,0]]",
+      "Icon": "Icon/MapChallenge/dailyInstance_001",
+      "_localized": {
+        "/Name": {
+          "key": "CharGemInstance.3001.1",
+          "zh_TW": "深境清掃",
+          "zh_CN": "深境清扫",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        },
+        "/Desc": {
+          "key": "CharGemInstance.3001.2",
+          "zh_TW": "無窮無盡的凍凍來襲！\u000b消滅凍凍重置戰技，幫助恩賜意志控制星塔，贏取恩賜消費券！",
+          "zh_CN": "无穷无尽的冻冻来袭！\u000b消灭冻冻刷新战技，帮助恩赐意志控制星塔，赢取恩赐消费券！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        }
+      }
+    },
+    "3002": {
+      "Id": 3002,
+      "Type": 3,
+      "Difficulty": 3,
+      "Name": "CharGemInstance.3002.1",
+      "Desc": "CharGemInstance.3002.2",
+      "SuggestedPower": 82,
+      "SuggestedBuild": 29,
+      "PreLevelId": 3001,
+      "PreLevelStar": 1,
+      "NeedWorldClass": 30,
+      "FloorId": 6100103,
+      "PreviewMonsterGroupId": 10000,
+      "OneStarCondition": "[1]",
+      "TwoStarCondition": "[2,60]",
+      "ThreeStarCondition": "[2,40]",
+      "SequentialDropId": 8060,
+      "EnergyConsume": 30,
+      "BaseAwardPreview": "[[2,50,1],[35001,15,0]]",
+      "Icon": "Icon/MapChallenge/dailyInstance_001",
+      "_localized": {
+        "/Name": {
+          "key": "CharGemInstance.3002.1",
+          "zh_TW": "深境清掃",
+          "zh_CN": "深境清扫",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        },
+        "/Desc": {
+          "key": "CharGemInstance.3002.2",
+          "zh_TW": "無窮無盡的凍凍來襲！\u000b消滅凍凍重置戰技，幫助恩賜意志控制星塔，贏取恩賜消費券！",
+          "zh_CN": "无穷无尽的冻冻来袭！\u000b消灭冻冻刷新战技，帮助恩赐意志控制星塔，赢取恩赐消费券！",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstance.json",
+            "zh_CN": "language/zh_CN/CharGemInstance.json"
+          }
+        }
+      }
+    }
+  }
+}

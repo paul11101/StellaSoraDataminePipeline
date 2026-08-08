@@ -1,0 +1,168 @@
+{
+  "table": "OnceAdditionalAttribute",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\cbfbb125ce237d17.bin",
+  "source_sha256": "63b132b99ab59977de0a90e86a5165e029b8fdc1b1c9b7361a52f9ec2d8a521c",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\OnceAdditionalAttribute.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 1386
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reference_field_order": [
+      "Id",
+      "levelTypeData",
+      "LevelData",
+      "MainOrSupport"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "levelTypeData",
+      "3": "LevelData",
+      "4": "MainOrSupport"
+    },
+    "aot_field_count": 4,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1386,
+      "compared_reference_rows": 1386,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1386,
+          "compared": 1386
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1386,
+          "compared": 1386
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1386
+        }
+      ]
+    },
+    "2": {
+      "field": "levelTypeData",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 427,
+      "compared_reference_rows": 427,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 427,
+          "compared": 427
+        },
+        {
+          "codec": "varint_int",
+          "matches": 427,
+          "compared": 427
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 427
+        }
+      ]
+    },
+    "3": {
+      "field": "LevelData",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 426,
+      "compared_reference_rows": 426,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 426,
+          "compared": 426
+        },
+        {
+          "codec": "varint_int",
+          "matches": 426,
+          "compared": 426
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 426
+        }
+      ]
+    },
+    "4": {
+      "field": "MainOrSupport",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 1386,
+    "reference_row_count": 1386,
+    "shared_key_count": 1386,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 1386,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

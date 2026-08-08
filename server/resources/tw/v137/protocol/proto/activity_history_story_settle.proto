@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+import "activity_story_settle.proto";
+
+message ActivityHistoryStorySettleReq {
+  uint32 ActivityId = 1;
+  repeated .proto.ActivityStorySettle List = 2;
+  .proto.Events Events = 14;
+  repeated uint32 Evidences = 15;
+  bytes NextPackage = 2047;
+}

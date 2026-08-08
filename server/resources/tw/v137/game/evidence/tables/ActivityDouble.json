@@ -1,0 +1,274 @@
+{
+  "table": "ActivityDouble",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\98d72a0adbcd8db3.bin",
+  "source_sha256": "07b0493f5b581c6d622c6517cb705cf24b7388970599665f33590b81653084de",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\ActivityDouble.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 2
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "reference_field_order": [
+      "Id",
+      "InstanceType",
+      "DailyTimes",
+      "RewardType",
+      "UIAssets",
+      "CtrlName",
+      "DesText"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 7,
+    "remaining_name_count": 7,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 2,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "InstanceType",
+        "matching_reference_rows": 2,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "DailyTimes",
+        "matching_reference_rows": 2,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "RewardType",
+        "matching_reference_rows": 2,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "UIAssets",
+        "matching_reference_rows": 2,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "CtrlName",
+        "matching_reference_rows": 2,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "DesText",
+        "matching_reference_rows": 2,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "2": {
+      "field": "InstanceType",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "3": {
+      "field": "DailyTimes",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "4": {
+      "field": "RewardType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "5": {
+      "field": "UIAssets",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "6": {
+      "field": "CtrlName",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "7": {
+      "field": "DesText",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 2,
+    "reference_row_count": 2,
+    "shared_key_count": 2,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 2,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

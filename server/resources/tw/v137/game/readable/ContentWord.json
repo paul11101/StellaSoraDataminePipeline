@@ -1,0 +1,182 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ContentWord",
+    "categories": [
+      "localization_media"
+    ],
+    "row_count": 11,
+    "localization_hits": 11,
+    "source": "bin/ContentWord.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1000": {
+      "Id": 1000,
+      "PresetColor": "#0000ffff",
+      "Word": "ContentWord.1000.1",
+      "_localized": {
+        "/Word": {
+          "key": "ContentWord.1000.1",
+          "zh_TW": "諾瓦帝國",
+          "zh_CN": "诺瓦帝国",
+          "sources": {
+            "zh_TW": "language/zh_TW/ContentWord.json",
+            "zh_CN": "language/zh_CN/ContentWord.json"
+          }
+        }
+      }
+    },
+    "1001": {
+      "Id": 1001,
+      "PresetColor": "#a52a2aff",
+      "Word": "ContentWord.1001.1",
+      "_localized": {
+        "/Word": {
+          "key": "ContentWord.1001.1",
+          "zh_TW": "恩賜意志",
+          "zh_CN": "恩赐意志",
+          "sources": {
+            "zh_TW": "language/zh_TW/ContentWord.json",
+            "zh_CN": "language/zh_CN/ContentWord.json"
+          }
+        }
+      }
+    },
+    "1002": {
+      "Id": 1002,
+      "Word": "ContentWord.1002.1",
+      "_localized": {
+        "/Word": {
+          "key": "ContentWord.1002.1",
+          "zh_TW": "緋瞳傳訊",
+          "zh_CN": "绯曈传讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/ContentWord.json",
+            "zh_CN": "language/zh_CN/ContentWord.json"
+          }
+        }
+      }
+    },
+    "1003": {
+      "Id": 1003,
+      "Word": "ContentWord.1003.1",
+      "_localized": {
+        "/Word": {
+          "key": "ContentWord.1003.1",
+          "zh_TW": "萬送屋",
+          "zh_CN": "万送屋",
+          "sources": {
+            "zh_TW": "language/zh_TW/ContentWord.json",
+            "zh_CN": "language/zh_CN/ContentWord.json"
+          }
+        }
+      }
+    },
+    "1004": {
+      "Id": 1004,
+      "Word": "ContentWord.1004.1",
+      "_localized": {
+        "/Word": {
+          "key": "ContentWord.1004.1",
+          "zh_TW": "聯合種業",
+          "zh_CN": "联合种业",
+          "sources": {
+            "zh_TW": "language/zh_TW/ContentWord.json",
+            "zh_CN": "language/zh_CN/ContentWord.json"
+          }
+        }
+      }
+    },
+    "1005": {
+      "Id": 1005,
+      "Word": "ContentWord.1005.1",
+      "_localized": {
+        "/Word": {
+          "key": "ContentWord.1005.1",
+          "zh_TW": "柔光會社",
+          "zh_CN": "柔光会社",
+          "sources": {
+            "zh_TW": "language/zh_TW/ContentWord.json",
+            "zh_CN": "language/zh_CN/ContentWord.json"
+          }
+        }
+      }
+    },
+    "1006": {
+      "Id": 1006,
+      "Word": "ContentWord.1006.1",
+      "_localized": {
+        "/Word": {
+          "key": "ContentWord.1006.1",
+          "zh_TW": "谷風家政",
+          "zh_CN": "谷风家政",
+          "sources": {
+            "zh_TW": "language/zh_TW/ContentWord.json",
+            "zh_CN": "language/zh_CN/ContentWord.json"
+          }
+        }
+      }
+    },
+    "1007": {
+      "Id": 1007,
+      "Word": "ContentWord.1007.1",
+      "_localized": {
+        "/Word": {
+          "key": "ContentWord.1007.1",
+          "zh_TW": "鳳凰炒蛋",
+          "zh_CN": "凤凰炒蛋",
+          "sources": {
+            "zh_TW": "language/zh_TW/ContentWord.json",
+            "zh_CN": "language/zh_CN/ContentWord.json"
+          }
+        }
+      }
+    },
+    "1008": {
+      "Id": 1008,
+      "Word": "ContentWord.1008.1",
+      "_localized": {
+        "/Word": {
+          "key": "ContentWord.1008.1",
+          "zh_TW": "雛菊之家",
+          "zh_CN": "雏菊之家",
+          "sources": {
+            "zh_TW": "language/zh_TW/ContentWord.json",
+            "zh_CN": "language/zh_CN/ContentWord.json"
+          }
+        }
+      }
+    },
+    "1009": {
+      "Id": 1009,
+      "Word": "ContentWord.1009.1",
+      "_localized": {
+        "/Word": {
+          "key": "ContentWord.1009.1",
+          "zh_TW": "餘燼",
+          "zh_CN": "余烬",
+          "sources": {
+            "zh_TW": "language/zh_TW/ContentWord.json",
+            "zh_CN": "language/zh_CN/ContentWord.json"
+          }
+        }
+      }
+    },
+    "1010": {
+      "Id": 1010,
+      "Word": "ContentWord.1010.1",
+      "_localized": {
+        "/Word": {
+          "key": "ContentWord.1010.1",
+          "zh_TW": "諾瓦盾",
+          "zh_CN": "诺瓦盾",
+          "sources": {
+            "zh_TW": "language/zh_TW/ContentWord.json",
+            "zh_CN": "language/zh_CN/ContentWord.json"
+          }
+        }
+      }
+    }
+  }
+}

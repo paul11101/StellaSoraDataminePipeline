@@ -1,0 +1,354 @@
+{
+  "table": "PlayerHead",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\50521e20b9587455.bin",
+  "source_sha256": "83f04d4ddc4bdf7468d301533cf21dd17d55652e3f87a5ea79ad4d4e27c11d15",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\PlayerHead.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 109
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reference_field_order": [
+      "Id",
+      "HeadType",
+      "Desc",
+      "IsShow",
+      "TrId",
+      "TrQty",
+      "UnlockChar",
+      "UnlockSkin",
+      "Icon"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 9,
+    "remaining_name_count": 9,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 109,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "HeadType",
+        "matching_reference_rows": 109,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Desc",
+        "matching_reference_rows": 109,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "IsShow",
+        "matching_reference_rows": 109,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "UnlockChar",
+        "matching_reference_rows": 97,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "7": {
+        "field": "UnlockSkin",
+        "matching_reference_rows": 97,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "8": {
+        "field": "TrId",
+        "matching_reference_rows": 10,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "9": {
+        "field": "TrQty",
+        "matching_reference_rows": 10,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "10": {
+        "field": "Icon",
+        "matching_reference_rows": 109,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 109,
+      "compared_reference_rows": 109,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 109,
+          "compared": 109
+        },
+        {
+          "codec": "varint_int",
+          "matches": 109,
+          "compared": 109
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 109
+        }
+      ]
+    },
+    "2": {
+      "field": "HeadType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 109,
+      "compared_reference_rows": 109,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 109,
+          "compared": 109
+        },
+        {
+          "codec": "varint_int",
+          "matches": 109,
+          "compared": 109
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 109
+        }
+      ]
+    },
+    "3": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 109,
+      "compared_reference_rows": 109,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 109,
+          "compared": 109
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 109
+        }
+      ]
+    },
+    "4": {
+      "field": "IsShow",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 109,
+      "compared_reference_rows": 109,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 109,
+          "compared": 109
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 109
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 109
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 109
+        }
+      ]
+    },
+    "6": {
+      "field": "UnlockChar",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 97,
+      "compared_reference_rows": 97,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 97,
+          "compared": 97
+        },
+        {
+          "codec": "varint_int",
+          "matches": 97,
+          "compared": 97
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 97
+        }
+      ]
+    },
+    "7": {
+      "field": "UnlockSkin",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 97,
+      "compared_reference_rows": 97,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 97,
+          "compared": 97
+        },
+        {
+          "codec": "varint_int",
+          "matches": 97,
+          "compared": 97
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 97
+        }
+      ]
+    },
+    "8": {
+      "field": "TrId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 10,
+      "compared_reference_rows": 10,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "varint_int",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 10
+        }
+      ]
+    },
+    "9": {
+      "field": "TrQty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 10,
+      "compared_reference_rows": 10,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "varint_int",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 10
+        }
+      ]
+    },
+    "10": {
+      "field": "Icon",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 109,
+      "compared_reference_rows": 109,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 109,
+          "compared": 109
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 109
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 109,
+    "reference_row_count": 109,
+    "shared_key_count": 109,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 109,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

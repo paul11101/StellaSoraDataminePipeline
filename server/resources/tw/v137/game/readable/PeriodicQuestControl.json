@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "PeriodicQuestControl",
+    "categories": [
+      "quests"
+    ],
+    "row_count": 1,
+    "localization_hits": 1,
+    "source": "bin/PeriodicQuestControl.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101002": {
+      "Id": 101002,
+      "FinalReward1": 86002,
+      "FinalRewardQty1": 1,
+      "DesText": "PeriodicQuestControl.101002.1",
+      "UIAssets": "_101002/periodic_act_01",
+      "CtrlName": "_101002/PeriodicQuestCtrl_01",
+      "PreviewType": 2,
+      "_localized": {
+        "/DesText": {
+          "key": "PeriodicQuestControl.101002.1",
+          "zh_TW": "\u000b【活動時間】\u000b活動開放後將持續存在，直到完成所有任務，領取全部獎勵。\u000b\u000b【參與條件】\u000b權限等級≥1級，解鎖「活動」功能後即可參與。\u000b\u000b【活動說明】\u000b1、活動開放期間，每日開放1組新任務，玩家完成任務後可獲得豐厚獎勵。所有任務完成後，可獲得五星祕紋自選包",
+          "zh_CN": "\u000b【活动时间】\u000b活动开启后持续存在，直到完成所有任务，领取全部奖励。\u000b\u000b【参与条件】\u000b权限等级≥1级，解锁「活动」功能后即可参与。\u000b\u000b【活动说明】\u000b1、活动开启期间，每日开启1组新任务，玩家完成任务后可获得丰厚奖励。所有任务完成后，可获得五星秘纹自选包",
+          "sources": {
+            "zh_TW": "language/zh_TW/PeriodicQuestControl.json",
+            "zh_CN": "language/zh_CN/PeriodicQuestControl.json"
+          }
+        }
+      }
+    }
+  }
+}

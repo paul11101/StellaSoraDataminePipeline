@@ -1,0 +1,675 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "items_rewards",
+    "name": "道具、掉落与奖励",
+    "description": "道具、宝箱、掉落包、奖励组、宝石和生产材料。",
+    "table_count": 37,
+    "row_count": 6852,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "AcquireReward",
+      "categories": [
+        "items_rewards"
+      ],
+      "row_count": 22,
+      "data": "bin/AcquireReward.json",
+      "readable": "readable/AcquireReward.json",
+      "evidence": "evidence/tables/AcquireReward.json",
+      "source_sha256": "97e93a715015628c72b9608824f0ec3efc9d3a54ade2ca95ab2326a365c05d02",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "AffinityUpReward",
+      "categories": [
+        "characters",
+        "items_rewards"
+      ],
+      "row_count": 592,
+      "data": "bin/AffinityUpReward.json",
+      "readable": "readable/AffinityUpReward.json",
+      "evidence": "evidence/tables/AffinityUpReward.json",
+      "source_sha256": "74f4b04a56fdb86ac8578e9e2fef7fdb3bc5c9a17a8c2794736c4332778b1424",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/AffinityUpReward.json",
+      "zh_CN": "language/zh_CN/AffinityUpReward.json"
+    },
+    {
+      "table": "BattlePassReward",
+      "categories": [
+        "combat",
+        "items_rewards",
+        "activities"
+      ],
+      "row_count": 690,
+      "data": "bin/BattlePassReward.json",
+      "readable": "readable/BattlePassReward.json",
+      "evidence": "evidence/tables/BattlePassReward.json",
+      "source_sha256": "960d9cb9843f2946d05d54b66ab24108bb4bcfa05113dfaeaa5a695ba9ac4ddc",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BdConvertRewardGroup",
+      "categories": [
+        "items_rewards",
+        "shop_economy"
+      ],
+      "row_count": 108,
+      "data": "bin/BdConvertRewardGroup.json",
+      "readable": "readable/BdConvertRewardGroup.json",
+      "evidence": "evidence/tables/BdConvertRewardGroup.json",
+      "source_sha256": "a648186bc1f824613c281cccaaa3243730e76312c67c0a990ba21ef50bef905a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+      "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+    },
+    {
+      "table": "CharGem",
+      "categories": [
+        "characters",
+        "items_rewards"
+      ],
+      "row_count": 9,
+      "data": "bin/CharGem.json",
+      "readable": "readable/CharGem.json",
+      "evidence": "evidence/tables/CharGem.json",
+      "source_sha256": "8263d6fa1d7020446f35245a99946444fa4582c3a468ce897297fa0a41318e0c",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharGem.json",
+      "zh_CN": "language/zh_CN/CharGem.json"
+    },
+    {
+      "table": "CharGemAttrValue",
+      "categories": [
+        "characters",
+        "items_rewards"
+      ],
+      "row_count": 423,
+      "data": "bin/CharGemAttrValue.json",
+      "readable": "readable/CharGemAttrValue.json",
+      "evidence": "evidence/tables/CharGemAttrValue.json",
+      "source_sha256": "714deecbbfc4d7468c1aacafb5b2b1a98c3700207fe624fd31415fd9cb82e204",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharGemInstance",
+      "categories": [
+        "characters",
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 9,
+      "data": "bin/CharGemInstance.json",
+      "readable": "readable/CharGemInstance.json",
+      "evidence": "evidence/tables/CharGemInstance.json",
+      "source_sha256": "41cb56b5491999deb8fac4c02c985e3e6f0ac450ad5cb7e873a3afd3f9fbb270",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharGemInstance.json",
+      "zh_CN": "language/zh_CN/CharGemInstance.json"
+    },
+    {
+      "table": "CharGemInstanceFloor",
+      "categories": [
+        "characters",
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 9,
+      "data": "bin/CharGemInstanceFloor.json",
+      "readable": "readable/CharGemInstanceFloor.json",
+      "evidence": "evidence/tables/CharGemInstanceFloor.json",
+      "source_sha256": "2fc4dd855ded83d2ab91c88a0469a80f9b07c9f5fc471964826639a65d14c116",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharGemInstanceType",
+      "categories": [
+        "characters",
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/CharGemInstanceType.json",
+      "readable": "readable/CharGemInstanceType.json",
+      "evidence": "evidence/tables/CharGemInstanceType.json",
+      "source_sha256": "bbaea14542de3d470a4420686950493039d862d392d3038706e267f3f932714d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharGemInstanceType.json",
+      "zh_CN": "language/zh_CN/CharGemInstanceType.json"
+    },
+    {
+      "table": "CharGemSlotControl",
+      "categories": [
+        "characters",
+        "items_rewards"
+      ],
+      "row_count": 3,
+      "data": "bin/CharGemSlotControl.json",
+      "readable": "readable/CharGemSlotControl.json",
+      "evidence": "evidence/tables/CharGemSlotControl.json",
+      "source_sha256": "2a6762e95dca0dde3541f0b1e2a61b5d253068ce383f88a1bcb82a04d3a247f2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "CharItemExp",
+      "categories": [
+        "characters",
+        "items_rewards"
+      ],
+      "row_count": 4,
+      "data": "bin/CharItemExp.json",
+      "readable": "readable/CharItemExp.json",
+      "evidence": "evidence/tables/CharItemExp.json",
+      "source_sha256": "2c411810d026e69205727dc3b7b0f1e3a13f47c0dd59a59b19a66d33e112a6b8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Chest",
+      "categories": [
+        "items_rewards"
+      ],
+      "row_count": 77,
+      "data": "bin/Chest.json",
+      "readable": "readable/Chest.json",
+      "evidence": "evidence/tables/Chest.json",
+      "source_sha256": "4d392ad404d7643d1cdb3fa8b47d157f28786bdca6bd40ce270ae3dffe9db61d",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DailyInstanceRewardGroup",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 21,
+      "data": "bin/DailyInstanceRewardGroup.json",
+      "readable": "readable/DailyInstanceRewardGroup.json",
+      "evidence": "evidence/tables/DailyInstanceRewardGroup.json",
+      "source_sha256": "2c8cf402fef71e6ec341a1155afe4e677d3e7263850b9a17f3e4bcd9ad9eab66",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DailyInstanceRewardGroup.json",
+      "zh_CN": "language/zh_CN/DailyInstanceRewardGroup.json"
+    },
+    {
+      "table": "DiscItemExp",
+      "categories": [
+        "discs",
+        "items_rewards"
+      ],
+      "row_count": 4,
+      "data": "bin/DiscItemExp.json",
+      "readable": "readable/DiscItemExp.json",
+      "evidence": "evidence/tables/DiscItemExp.json",
+      "source_sha256": "952f7bcb291140af7f62ac8ac1b780fe1d9b9a4476b167720d2725e16015884a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Drop",
+      "categories": [
+        "items_rewards"
+      ],
+      "row_count": 1516,
+      "data": "bin/Drop.json",
+      "readable": "readable/Drop.json",
+      "evidence": "evidence/tables/Drop.json",
+      "source_sha256": "0b2638606f60dd0434981745969c50ff776b96a9df3d54bcc4f5a2dae9185f5c",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DropItemShow",
+      "categories": [
+        "items_rewards"
+      ],
+      "row_count": 34,
+      "data": "bin/DropItemShow.json",
+      "readable": "readable/DropItemShow.json",
+      "evidence": "evidence/tables/DropItemShow.json",
+      "source_sha256": "98c69d1473d74dca6a2b33470c81f2c314fe5322f3da16a1f5ed95b98ecdec9d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DropObject",
+      "categories": [
+        "items_rewards"
+      ],
+      "row_count": 36,
+      "data": "bin/DropObject.json",
+      "readable": "readable/DropObject.json",
+      "evidence": "evidence/tables/DropObject.json",
+      "source_sha256": "0f56797d1a9940759406ad7f0f843137ee592b88f056e889ecca3d502be82e09",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DropObjectGroup",
+      "categories": [
+        "items_rewards"
+      ],
+      "row_count": 9,
+      "data": "bin/DropObjectGroup.json",
+      "readable": "readable/DropObjectGroup.json",
+      "evidence": "evidence/tables/DropObjectGroup.json",
+      "source_sha256": "b8ac87cc4cc3c3ded7686c0012e402bd13785e3d38201029820e8604b39c6787",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DropPkg",
+      "categories": [
+        "items_rewards"
+      ],
+      "row_count": 603,
+      "data": "bin/DropPkg.json",
+      "readable": "readable/DropPkg.json",
+      "evidence": "evidence/tables/DropPkg.json",
+      "source_sha256": "36e412f7143e4004a544188d6398db03af455c0053eb8a92328a0aae23adc26b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GoldenSpyItem",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 18,
+      "data": "bin/GoldenSpyItem.json",
+      "readable": "readable/GoldenSpyItem.json",
+      "evidence": "evidence/tables/GoldenSpyItem.json",
+      "source_sha256": "0406a0c537f2b00b599ad90d12ea2c2aac0787745707f9b2ed49449ffe10651d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/GoldenSpyItem.json",
+      "zh_CN": "language/zh_CN/GoldenSpyItem.json"
+    },
+    {
+      "table": "Item",
+      "categories": [
+        "items_rewards"
+      ],
+      "row_count": 2165,
+      "data": "bin/Item.json",
+      "readable": "readable/Item.json",
+      "evidence": "evidence/tables/Item.json",
+      "source_sha256": "d354f4a6b35bb7b05187342a61c9ce605c9486603d006ba22f1f5668318f62dc",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Item.json",
+      "zh_CN": "language/zh_CN/Item.json"
+    },
+    {
+      "table": "ItemPackMark",
+      "categories": [
+        "items_rewards"
+      ],
+      "row_count": 2,
+      "data": "bin/ItemPackMark.json",
+      "readable": "readable/ItemPackMark.json",
+      "evidence": "evidence/tables/ItemPackMark.json",
+      "source_sha256": "38f485965030885414dcdf3e2424059e1f33cd93761de43603c8db5b23b955c2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ItemPackMark.json",
+      "zh_CN": "language/zh_CN/ItemPackMark.json"
+    },
+    {
+      "table": "LoginRewardControl",
+      "categories": [
+        "items_rewards",
+        "activities"
+      ],
+      "row_count": 10,
+      "data": "bin/LoginRewardControl.json",
+      "readable": "readable/LoginRewardControl.json",
+      "evidence": "evidence/tables/LoginRewardControl.json",
+      "source_sha256": "0be1c75841b78e3d4564f8c28edd68c1f2620f53fd97e02171b5e9eb955166e3",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/LoginRewardControl.json",
+      "zh_CN": "language/zh_CN/LoginRewardControl.json"
+    },
+    {
+      "table": "LoginRewardGroup",
+      "categories": [
+        "items_rewards",
+        "activities"
+      ],
+      "row_count": 68,
+      "data": "bin/LoginRewardGroup.json",
+      "readable": "readable/LoginRewardGroup.json",
+      "evidence": "evidence/tables/LoginRewardGroup.json",
+      "source_sha256": "ee9b917ddfb7bdf36a18bc844118b09d9a608500565ed7c6cfc2b4233b4a8bb8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/LoginRewardGroup.json",
+      "zh_CN": "language/zh_CN/LoginRewardGroup.json"
+    },
+    {
+      "table": "MallGem",
+      "categories": [
+        "items_rewards",
+        "shop_economy"
+      ],
+      "row_count": 7,
+      "data": "bin/MallGem.json",
+      "readable": "readable/MallGem.json",
+      "evidence": "evidence/tables/MallGem.json",
+      "source_sha256": "51b05b36f288b07942ccca43cc651d55290c451e0b90a6bde1869a437ad30985",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MallGem.json",
+      "zh_CN": "language/zh_CN/MallGem.json"
+    },
+    {
+      "table": "MiningDemoRewardConfig",
+      "categories": [
+        "items_rewards",
+        "stages_modes",
+        "ui_system"
+      ],
+      "row_count": 0,
+      "data": "bin/MiningDemoRewardConfig.json",
+      "readable": "readable/MiningDemoRewardConfig.json",
+      "evidence": "evidence/tables/MiningDemoRewardConfig.json",
+      "source_sha256": "67856884401c136c2d2d600e513d4e032fe90e0bac388b894b6a840d561a4c68",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Production",
+      "categories": [
+        "items_rewards"
+      ],
+      "row_count": 39,
+      "data": "bin/Production.json",
+      "readable": "readable/Production.json",
+      "evidence": "evidence/tables/Production.json",
+      "source_sha256": "7259f8fe5a5e1ece391a76c4b0ab8df7158e2d61b853348892ab320c5cf1f299",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Production.json",
+      "zh_CN": "language/zh_CN/Production.json"
+    },
+    {
+      "table": "ProductionType",
+      "categories": [
+        "items_rewards"
+      ],
+      "row_count": 4,
+      "data": "bin/ProductionType.json",
+      "readable": "readable/ProductionType.json",
+      "evidence": "evidence/tables/ProductionType.json",
+      "source_sha256": "663022799aa24bc7679cf857b9580a3e745a2ddfddd213e45cbcead009f8e5d8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ProductionType.json",
+      "zh_CN": "language/zh_CN/ProductionType.json"
+    },
+    {
+      "table": "ScoreBossReward",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 7,
+      "data": "bin/ScoreBossReward.json",
+      "readable": "readable/ScoreBossReward.json",
+      "evidence": "evidence/tables/ScoreBossReward.json",
+      "source_sha256": "cdc2881b676df204193049483728d88bae305d9a8d63b4a62c6e45802e70b32e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerBookEventReward",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 123,
+      "data": "bin/StarTowerBookEventReward.json",
+      "readable": "readable/StarTowerBookEventReward.json",
+      "evidence": "evidence/tables/StarTowerBookEventReward.json",
+      "source_sha256": "2713ab7f1083dee5a1b20c18c51898f012951b502e02591d59dabf024ca977ca",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerBookEventReward.json",
+      "zh_CN": "language/zh_CN/StarTowerBookEventReward.json"
+    },
+    {
+      "table": "StarTowerBookPotentialReward",
+      "categories": [
+        "characters",
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 111,
+      "data": "bin/StarTowerBookPotentialReward.json",
+      "readable": "readable/StarTowerBookPotentialReward.json",
+      "evidence": "evidence/tables/StarTowerBookPotentialReward.json",
+      "source_sha256": "6afbd1fe693f8fb300f759438b0e14f08d5c79fc4d31b6e7fd4e9ab35102578a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerDropItem",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 5,
+      "data": "bin/StarTowerDropItem.json",
+      "readable": "readable/StarTowerDropItem.json",
+      "evidence": "evidence/tables/StarTowerDropItem.json",
+      "source_sha256": "8fac8651e9c15843ff7e46f638256c25a400b556667e80151ffc56714e939d48",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SubNoteSkillDropGroup",
+      "categories": [
+        "discs",
+        "combat",
+        "items_rewards"
+      ],
+      "row_count": 34,
+      "data": "bin/SubNoteSkillDropGroup.json",
+      "readable": "readable/SubNoteSkillDropGroup.json",
+      "evidence": "evidence/tables/SubNoteSkillDropGroup.json",
+      "source_sha256": "2b346c390194636ea3694f494b6b7969236bcf87b0803e96705850dbe825d948",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ThrowGiftItem",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 10,
+      "data": "bin/ThrowGiftItem.json",
+      "readable": "readable/ThrowGiftItem.json",
+      "evidence": "evidence/tables/ThrowGiftItem.json",
+      "source_sha256": "ef7e0ec8a63436032f6d51a4a324c2dc645113899b2f70049ccf76c3b04b4e6a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ThrowGiftItem.json",
+      "zh_CN": "language/zh_CN/ThrowGiftItem.json"
+    },
+    {
+      "table": "ThrowGiftItemPool",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 70,
+      "data": "bin/ThrowGiftItemPool.json",
+      "readable": "readable/ThrowGiftItemPool.json",
+      "evidence": "evidence/tables/ThrowGiftItemPool.json",
+      "source_sha256": "de261887c94a6d535f12c39707f25689541f74f853f661616a2b16e222efa547",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TowerDefenseItem",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/TowerDefenseItem.json",
+      "readable": "readable/TowerDefenseItem.json",
+      "evidence": "evidence/tables/TowerDefenseItem.json",
+      "source_sha256": "72d32587ac07794375d35c1f7536f99e35af15fa21738c8b529b8802d049fd20",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefenseItem.json",
+      "zh_CN": "language/zh_CN/TowerDefenseItem.json"
+    },
+    {
+      "table": "TravelerDuelHotValueItem",
+      "categories": [
+        "items_rewards",
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/TravelerDuelHotValueItem.json",
+      "readable": "readable/TravelerDuelHotValueItem.json",
+      "evidence": "evidence/tables/TravelerDuelHotValueItem.json",
+      "source_sha256": "e82a793022b051e483e0450d223e5a40266ae0189a976c1480c0a1aa58659685",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    }
+  ]
+}

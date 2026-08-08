@@ -1,0 +1,3525 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "MailTemplate",
+    "categories": [
+      "story_social"
+    ],
+    "row_count": 90,
+    "localization_hits": 270,
+    "source": "bin/MailTemplate.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "90001": {
+      "Id": 90001,
+      "Explanation": "新手体验问卷",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.90001.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.90001.2",
+      "Desc": "MailTemplate.90001.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.90001.1",
+          "zh_TW": "《星塔旅人》營運團隊",
+          "zh_CN": "《星塔旅人》运营团队",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.90001.2",
+          "zh_TW": "旅程體驗調查·一",
+          "zh_CN": "旅程体验调研·其一",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.90001.3",
+          "zh_TW": "尊敬的魔王大人：\u000b為進一步提升遊戲品質，我們在此準備了一份問卷，希望能了解您在本次測試中的體驗，方便的話請透過下方的「前往問卷」參與填寫。\u000b完成問卷後可獲得【星之砂x100】。我們非常重視您本次體驗的意見和建議，希望能與您一起在諾瓦大陸登塔摘星，實現願望！",
+          "zh_CN": "嗨，尊敬的魔王大人！\n为了提升游戏初期体验品质，我们准备了一份问卷用来收集您的反馈。您可以通过下方「前往问卷」参与填写。\n完成问卷后可获得【青空礼券*10】。\n“星塔的员工们”非常重视您在本次冒险旅途中的反馈和建议，感谢您宝贵的时间！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "90002": {
+      "Id": 90002,
+      "Explanation": "玩法深度问卷",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.90002.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.90002.2",
+      "Desc": "MailTemplate.90002.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.90002.1",
+          "zh_TW": "《星塔旅人》營運團隊",
+          "zh_CN": "《星塔旅人》运营团队",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.90002.2",
+          "zh_TW": "旅程體驗調查·二",
+          "zh_CN": "旅程体验调研·其二",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.90002.3",
+          "zh_TW": "尊敬的魔王大人：\u000b為進一步提升遊戲品質，我們在此準備了一份問卷，希望能了解您在本次測試中的體驗，方便的話請透過下方的「前往問卷」參與填寫。\u000b完成問卷後可獲得【星之砂x100】。我們非常重視您本次體驗的意見和建議，希望能與您一起在諾瓦大陸登塔摘星，實現願望！",
+          "zh_CN": "嗨，尊敬的魔王大人！\n我们希望进一步了解您对游戏的看法，以优化游戏体验。您可以通过下方「前往问卷」参与填写。\n完成问卷后可获得【青空礼券*10】。\n“星塔的员工们”非常重视您在本次冒险旅途中的反馈和建议，感谢您宝贵的时间！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "90003": {
+      "Id": 90003,
+      "Explanation": "测试结束问卷",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.90003.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.90003.2",
+      "Desc": "MailTemplate.90003.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.90003.1",
+          "zh_TW": "《星塔旅人》營運團隊",
+          "zh_CN": "《星塔旅人》运营团队",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.90003.2",
+          "zh_TW": "旅程體驗調查·三",
+          "zh_CN": "旅程体验调研·其三",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.90003.3",
+          "zh_TW": "尊敬的魔王大人：\u000b為進一步提升遊戲品質，我們在此準備了一份問卷，希望能了解您在本次測試中的體驗，方便的話請透過下方的「前往問卷」參與填寫。\u000b完成問卷後可獲得【星之砂x100】。我們非常重視您本次體驗的意見和建議，希望能與您一起在諾瓦大陸登塔摘星，實現願望！",
+          "zh_CN": "嗨，尊敬的魔王大人！\n在测试的最后，我们希望向您了解更多关于游戏内容的看法和意见。您可以通过下方「前往问卷」参与填写。\n完成问卷后可获得【青空礼券*100+星彩礼券*100】。\n今后也请继续支持《星塔旅人》！谢谢！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2011": {
+      "Id": 2011,
+      "Explanation": "道具超上限补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2011.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2011.2",
+      "Desc": "MailTemplate.2011.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2011.1",
+          "zh_TW": "旅團管理部",
+          "zh_CN": "旅团管理部",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2011.2",
+          "zh_TW": "補發內容-背包寄送服務",
+          "zh_CN": "补发快件 - 背包寄送服务",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2011.3",
+          "zh_TW": "貴團賺到的物資多到包裹都裝不下了！\n不過協會已經貼心地把多出來的獎勵都打包寄送到貴團辦公室了，請查收。\n探索之旅，還請時常整理背包空間哦！",
+          "zh_CN": "贵团赚到的物资多到包裹都装不下了！\n不过协会已经贴心地把多出来的奖励都打包寄送到贵团办公室了，请查收。\n探索之旅，还请时常整理背包空间哦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2021": {
+      "Id": 2021,
+      "Explanation": "任务过期补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2021.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2021.2",
+      "Desc": "MailTemplate.2021.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2021.1",
+          "zh_TW": "旅團管理部",
+          "zh_CN": "旅团管理部",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2021.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "补发快件 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2021.3",
+          "zh_TW": "上次的任務，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "上次的任务，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2031": {
+      "Id": 2031,
+      "Explanation": "充值后未领取成功",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2031.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2031.2",
+      "Desc": "MailTemplate.2031.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2031.1",
+          "zh_TW": "旅團管理部",
+          "zh_CN": "旅团管理部",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2031.2",
+          "zh_TW": "补发快件 - 商品寄送服务",
+          "zh_CN": "补发快件 - 商品寄送服务",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2031.3",
+          "zh_TW": "上次购买的道具！\n已经贴心的打包好奖励寄送到贵团办公室了，请查收。",
+          "zh_CN": "上次购买的道具！\n已经贴心地打包好奖励寄送到贵团办公室了，请查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2041": {
+      "Id": 2041,
+      "Explanation": "战令赛季结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2041.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2041.2",
+      "Desc": "MailTemplate.2041.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2041.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2041.2",
+          "zh_TW": "補發內容-基金獎勵",
+          "zh_CN": "补发快件 - 基金奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2041.3",
+          "zh_TW": "上次的基金任务，领赏期限已经过啦！\n不过协会已经贴心的打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "zh_CN": "上次的基金任务，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2051": {
+      "Id": 2051,
+      "Explanation": "旅人对决任务过期补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2051.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2051.2",
+      "Desc": "MailTemplate.2051.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2051.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2051.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "补发快件 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2051.3",
+          "zh_TW": "上次的任務，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "上次的任务，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2052": {
+      "Id": 2052,
+      "Explanation": "旅人对决排名奖励",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2052.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2052.2",
+      "Desc": "MailTemplate.2052.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2052.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2052.2",
+          "zh_TW": "旅人对决排名奖励",
+          "zh_CN": "旅人对决排名奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2052.3",
+          "zh_TW": "您的排名為：第{0}名\n請查收獎勵",
+          "zh_CN": "您的排名为：第{0}名\n请查收奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2061": {
+      "Id": 2061,
+      "Explanation": "联合讨伐排名奖励",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2061.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2061.2",
+      "Desc": "MailTemplate.2061.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2061.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2061.2",
+          "zh_TW": "聯合討伐排名獎勵",
+          "zh_CN": "联合讨伐排名奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2061.3",
+          "zh_TW": "您的排名為：第{0}名\n請查收獎勵",
+          "zh_CN": "您的排名为：第{0}名\n请查收奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2062": {
+      "Id": 2062,
+      "Explanation": "星塔排名过期补偿",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2062.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2062.2",
+      "Desc": "MailTemplate.2062.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2062.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2062.2",
+          "zh_TW": "星塔排名过期补偿",
+          "zh_CN": "星塔排名过期补偿",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2062.3",
+          "zh_TW": "上次的任務，期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "上次的任务，期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2071": {
+      "Id": 2071,
+      "Explanation": "终焉绝响排名奖励",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2071.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2071.2",
+      "Desc": "MailTemplate.2071.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2071.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2071.2",
+          "zh_TW": "終焉絕響排名獎勵",
+          "zh_CN": "终焉绝响排名奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2071.3",
+          "zh_TW": "您的排名為：第{0}名\n請查收獎勵",
+          "zh_CN": "您的排名为：第{0}名\n请查收奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2072": {
+      "Id": 2072,
+      "Explanation": "灾变防线未领取奖励",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2072.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2072.2",
+      "Desc": "MailTemplate.2072.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2072.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2072.2",
+          "zh_TW": "災變防線未領取獎勵",
+          "zh_CN": "灾变防线未领取奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2072.3",
+          "zh_TW": "上次的任務，期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "上次的任务，期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2081": {
+      "Id": 2081,
+      "Explanation": "联合讨伐未领取奖励",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2081.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2081.2",
+      "Desc": "MailTemplate.2081.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2081.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2081.2",
+          "zh_TW": "聯合討伐未領取獎勵",
+          "zh_CN": "联合讨伐未领取奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2081.3",
+          "zh_TW": "上次的任務，期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "上次的任务，期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2091": {
+      "Id": 2091,
+      "Explanation": "终焉绝响未领取奖励",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2091.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2091.2",
+      "Desc": "MailTemplate.2091.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2091.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2091.2",
+          "zh_TW": "終焉絕響未領取獎勵",
+          "zh_CN": "终焉绝响未领取奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2091.3",
+          "zh_TW": "上次的任務，期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "上次的任务，期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2092": {
+      "Id": 2092,
+      "Explanation": "终焉绝响挑战结算",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2092.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2092.2",
+      "Desc": "MailTemplate.2092.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2092.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2092.2",
+          "zh_TW": "終焉絕響戰鬥獎勵",
+          "zh_CN": "终焉绝响战斗奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2092.3",
+          "zh_TW": "以下是您進行「終焉絕響」挑戰的結算獎勵，請查收",
+          "zh_CN": "以下是您进行「终焉绝响」挑战的结算奖励，请查收",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2101": {
+      "Id": 2101,
+      "Explanation": "抽卡天井补发",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2101.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2101.2",
+      "Desc": "MailTemplate.2101.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2101.1",
+          "zh_TW": "旅團管理部",
+          "zh_CN": "旅团管理部",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2101.2",
+          "zh_TW": "補發內容-旅人招募獎勵",
+          "zh_CN": "补发快件 - 旅人招募奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2101.3",
+          "zh_TW": "上次招募的旅人已經到了報告日期！\n旅人自己找到了貴團辦公室，請留意喔。\n下次達成目標後，一定要記得招募喔！",
+          "zh_CN": "上次招募的旅人已经到了报告日期！\n旅人自己找到了贵团办公室，请注意喔。\n下次达成目标后，务必记得招募喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2111": {
+      "Id": 2111,
+      "Explanation": "猎影合围讨伐结算",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2111.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2111.2",
+      "Desc": "MailTemplate.2111.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2111.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2111.2",
+          "zh_TW": "獵影重圍未領取獎勵",
+          "zh_CN": "猎影合围奖励补发",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2111.3",
+          "zh_TW": "上一期獵影重圍已結束，以下是您未領取的討伐獎勵，請查收。",
+          "zh_CN": "上一期猎影合围已结束，以下是您尚未领取的讨伐奖励，请查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "2121": {
+      "Id": 2121,
+      "Explanation": "紧急悬赏未领取奖励",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.2121.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.2121.2",
+      "Desc": "MailTemplate.2121.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.2121.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.2121.2",
+          "zh_TW": "緊急懸賞未領取獎勵",
+          "zh_CN": "紧急悬赏未领取奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.2121.3",
+          "zh_TW": "上次的任務，期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "上次的任务，期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "3011": {
+      "Id": 3011,
+      "Explanation": "月卡1到期提醒-3天",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.3011.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.3011.2",
+      "Desc": "MailTemplate.3011.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.3011.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.3011.2",
+          "zh_TW": "「盈月星願-星砂」到期提醒",
+          "zh_CN": "「盈月星愿-星砂」到期提示",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.3011.3",
+          "zh_TW": "客人～\n您訂閱的「盈月星願-星砂」服務還有3天就到期了，如果有意願續訂，請聯絡我就好…嘿嘿，期待能繼續為您服務。",
+          "zh_CN": "客人~\n您订阅的「盈月星愿-星砂」服务还有3天就要到期了，如有续订意愿，联络我就好……嘿嘿，期待能继续为您服务。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "3012": {
+      "Id": 3012,
+      "Explanation": "月卡1到期提醒-1天",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.3012.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.3012.2",
+      "Desc": "MailTemplate.3012.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.3012.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.3012.2",
+          "zh_TW": "「盈月星願-星砂」到期提醒",
+          "zh_CN": "「盈月星愿-星砂」到期提示",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.3012.3",
+          "zh_TW": "客人～\n您訂閱的「盈月星願-星砂」服務今天就要到期了！如果有意願續訂，請快來聯絡我吧…嘿嘿，感謝您的支持！",
+          "zh_CN": "客人~\n您订阅的「盈月星愿-星砂」服务今天就要到期了！如有续订意愿，就快来联络我吧……嘿嘿，感谢您的支持！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "3013": {
+      "Id": 3013,
+      "Explanation": "幸运寻宝铲活动-3天",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.3013.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.3013.2",
+      "Desc": "MailTemplate.3013.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.3013.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.3013.2",
+          "zh_TW": "到期提醒",
+          "zh_CN": "到期提示",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.3013.3",
+          "zh_TW": "親愛的旅行團代表\n「幸運尋寶鏟」活動還有3天就要到期了，相關道具會在活動結束後回收，請您審慎規劃使用。",
+          "zh_CN": "亲爱的旅行团代表\n「幸运寻宝铲」活动还有3天就要到期了，相关道具会在活动结束后回收，请您合理规划。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "3014": {
+      "Id": 3014,
+      "Explanation": "游棋保卫战-3天",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.3014.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.3014.2",
+      "Desc": "MailTemplate.3014.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.3014.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.3014.2",
+          "zh_TW": "到期提醒",
+          "zh_CN": "到期提示",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.3014.3",
+          "zh_TW": "親愛的旅行團代表\n「遊棋保衛戰」活動快要結束了，請務必記得參加喔。",
+          "zh_CN": "亲爱的旅行团代表\n「游棋保卫战」活动快要结束了，请务必记得参与喔。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "3015": {
+      "Id": 3015,
+      "Explanation": "攻略纪录大征集-3天",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.3015.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.3015.2",
+      "Desc": "MailTemplate.3015.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.3015.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.3015.2",
+          "zh_TW": "到期提醒",
+          "zh_CN": "到期提示",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.3015.3",
+          "zh_TW": "親愛的旅行團代表\n「攻略紀錄大徵集」活動快要結束了，請務必記得參加喔。",
+          "zh_CN": "亲爱的旅行团代表\n「攻略纪录大征集」活动快要结束了，请务必记得参与喔。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "3016": {
+      "Id": 3016,
+      "Explanation": "月卡2到期提醒-3天",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.3016.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.3016.2",
+      "Desc": "MailTemplate.3016.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.3016.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.3016.2",
+          "zh_TW": "「盈月星願-攀登」到期提醒",
+          "zh_CN": "「盈月星愿-攀登」到期提示",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.3016.3",
+          "zh_TW": "客人～\n您訂閱的「盈月星願-攀登」服務還有3天就到期了，如果有意願續訂，請聯絡我就好…嘿嘿，期待能繼續為您服務。",
+          "zh_CN": "客人~\n您订阅的「盈月星愿-攀登」服务还有3天就要到期了，如有续订意愿，联络我就好……嘿嘿，期待能继续为您服务。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "3017": {
+      "Id": 3017,
+      "Explanation": "月卡2到期提醒-1天",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.3017.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.3017.2",
+      "Desc": "MailTemplate.3017.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.3017.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.3017.2",
+          "zh_TW": "「盈月星願-攀登」到期提醒",
+          "zh_CN": "「盈月星愿-攀登」到期提示",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.3017.3",
+          "zh_TW": "客人～\n您訂閱的「盈月星願-攀登」服務今天就要到期了！如果有意願續訂，請快來聯絡我吧…嘿嘿，感謝您的支持！",
+          "zh_CN": "客人~\n您订阅的「盈月星愿-攀登」服务今天就要到期了！如有续订意愿，就快来联络我吧……嘿嘿，感谢您的支持！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4001": {
+      "Id": 4001,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4001.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4001.2",
+      "Desc": "MailTemplate.4001.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4001.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4001.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4001.3",
+          "zh_TW": "「啟明計畫」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「启明计划」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4002": {
+      "Id": 4002,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4002.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4002.2",
+      "Desc": "MailTemplate.4002.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4002.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4002.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4002.3",
+          "zh_TW": "「幸運尋寶鏟」活動已結束\n未使用的尋寶鏟已轉換並發放至辦公室，請查收~",
+          "zh_CN": "「幸运寻宝铲」活动已结束\n未使用的寻宝铲已转化发放至办公室，请查收~",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4003": {
+      "Id": 4003,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4003.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4003.2",
+      "Desc": "MailTemplate.4003.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4003.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4003.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4003.3",
+          "zh_TW": "「遊棋保衛戰」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「游棋保卫战」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4004": {
+      "Id": 4004,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4004.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4004.2",
+      "Desc": "MailTemplate.4004.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4004.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4004.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4004.3",
+          "zh_TW": "「攻略紀錄大徵集」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「攻略纪录大征集」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4005": {
+      "Id": 4005,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4005.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4005.2",
+      "Desc": "MailTemplate.4005.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4005.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4005.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4005.3",
+          "zh_TW": "「巔峰秀場」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「巅峰秀场」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4006": {
+      "Id": 4006,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4006.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4006.2",
+      "Desc": "MailTemplate.4006.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4006.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4006.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4006.3",
+          "zh_TW": "「聖夜的狂歡派送」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「圣夜的狂欢派送」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4007": {
+      "Id": 4007,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4007.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4007.2",
+      "Desc": "MailTemplate.4007.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4007.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4007.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4007.3",
+          "zh_TW": "「雪願節的祝福禮」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「雪愿节的祝福礼」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4008": {
+      "Id": 4008,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4008.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4008.2",
+      "Desc": "MailTemplate.4008.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4008.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4008.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4008.3",
+          "zh_TW": "「元旦啟程煥新之章」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「元旦启程焕新之章」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4009": {
+      "Id": 4009,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4009.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4009.2",
+      "Desc": "MailTemplate.4009.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4009.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4009.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4009.3",
+          "zh_TW": "「命運星牌局」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「命运星牌局」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4010": {
+      "Id": 4010,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4010.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4010.2",
+      "Desc": "MailTemplate.4010.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4010.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4010.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4010.3",
+          "zh_TW": "「戀慕滿溢·濃情蜜語」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「恋心满溢 · 浓情蜜语」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4011": {
+      "Id": 4011,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4011.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4011.2",
+      "Desc": "MailTemplate.4011.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4011.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4011.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4011.3",
+          "zh_TW": "「駿馬踏春·錦繡開運」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「骏马踏春 · 锦绣开运」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4012": {
+      "Id": 4012,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4012.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4012.2",
+      "Desc": "MailTemplate.4012.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4012.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4012.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4012.3",
+          "zh_TW": "「沐星前禮」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「沐星前礼」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4013": {
+      "Id": 4013,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4013.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4013.2",
+      "Desc": "MailTemplate.4013.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4013.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4013.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4013.3",
+          "zh_TW": "「拾憶赴新程」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「拾忆赴新程」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4014": {
+      "Id": 4014,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4014.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4014.2",
+      "Desc": "MailTemplate.4014.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4014.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4014.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4014.3",
+          "zh_TW": "「為星標價」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「星之竞拍」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4015": {
+      "Id": 4015,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4015.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4015.2",
+      "Desc": "MailTemplate.4015.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4015.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4015.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4015.3",
+          "zh_TW": "「碧波蕩漾，盛夏啟航！」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「碧波荡漾~盛夏启航！」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "4016": {
+      "Id": 4016,
+      "Explanation": "活动结束补偿邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.4016.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.4016.2",
+      "Desc": "MailTemplate.4016.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.4016.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.4016.2",
+          "zh_TW": "補發內容-活動獎勵",
+          "zh_CN": "补发快件 - 活动奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.4016.3",
+          "zh_TW": "「昔日餘溫」活動已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「往日残影」活动已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "5001": {
+      "Id": 5001,
+      "Explanation": "问卷调查奖励邮件",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.5001.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.5001.2",
+      "Desc": "MailTemplate.5001.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.5001.1",
+          "zh_TW": "《星塔旅人》營運團隊",
+          "zh_CN": "《星塔旅人》运营团队",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.5001.2",
+          "zh_TW": "感謝您參與{0}",
+          "zh_CN": "感谢您参与{0}调查",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.5001.3",
+          "zh_TW": "非常感謝您參與本次問卷調查，在此為您準備了一些禮物，請查收。",
+          "zh_CN": "非常感谢您参与本次调查，特为您准备了些礼品，请查收",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "5002": {
+      "Id": 5002,
+      "Explanation": "兑换码奖励邮件",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.5002.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.5002.2",
+      "Desc": "MailTemplate.5002.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.5002.1",
+          "zh_TW": "《星塔旅人》營運團隊",
+          "zh_CN": "《星塔旅人》运营团队",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.5002.2",
+          "zh_TW": "感謝您的支持",
+          "zh_CN": "感谢您的支持",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.5002.3",
+          "zh_TW": "非常感謝您的支持，在此為您準備了一些禮物，請查收",
+          "zh_CN": "非常感谢您的支持，特为您准备了如下礼品，请查收",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10001": {
+      "Id": 10001,
+      "Explanation": "泳装活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10001.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10001.2",
+      "Desc": "MailTemplate.10001.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10001.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10001.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10001.3",
+          "zh_TW": "「驚奇冒險！淵海幽靈船傳說！」活動將於3天後結束！\n您辛苦收集的「魷魚米餅」在活動結束後就會過期失效喔！\n請務必在活動結束前進入活動商店使用「魷魚米餅」兌換各項獎勵！",
+          "zh_CN": "「惊奇冒险！渊海幽灵船传说！」活动即将于{0}天后结束。\n辛苦收集的「鱿鱼米饼」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「鱿鱼米饼」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10002": {
+      "Id": 10002,
+      "Explanation": "泳装活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10002.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10002.2",
+      "Desc": "MailTemplate.10002.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10002.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10002.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10002.3",
+          "zh_TW": "「驚奇冒險！淵海幽靈船傳說！」活動已正式結束！\n尚未使用的「魷魚米餅」已全數兌換為「朵拉」並寄送到貴旅團的貨倉了，請查收。",
+          "zh_CN": "「惊奇冒险！渊海幽灵船传说！」活动已正式结束。\n尚未消耗的「鱿鱼米饼」已全数兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10003": {
+      "Id": 10003,
+      "Explanation": "泳装活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10003.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10003.2",
+      "Desc": "MailTemplate.10003.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10003.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10003.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10003.3",
+          "zh_TW": "「驚奇冒險！淵海幽靈船傳說！」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「惊奇冒险！渊海幽灵船传说！」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10101": {
+      "Id": 10101,
+      "Explanation": "第三章剧情活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10101.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10101.2",
+      "Desc": "MailTemplate.10101.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10101.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10101.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10101.3",
+          "zh_TW": "「我們的旅團」活動將於{0}天後結束！\n您辛苦收集的「玻璃彈珠」在活動結束後就會過期失效喔！\n請務必在活動結束前進入活動商店使用「玻璃彈珠」兌換各項獎勵！",
+          "zh_CN": "「我们的旅团」活动即将于{0}天后结束。\n辛苦收集的「玻璃弹珠」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「玻璃弹珠」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10102": {
+      "Id": 10102,
+      "Explanation": "第三章剧情活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10102.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10102.2",
+      "Desc": "MailTemplate.10102.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10102.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10102.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10102.3",
+          "zh_TW": "「我們的旅團」活動已正式結束！\n尚未使用的「玻璃彈珠」已全數兌換為「朵拉」並寄送到貴旅團的貨倉了，請查收。",
+          "zh_CN": "「我们的旅团」活动已正式结束。\n尚未消耗的「玻璃弹珠」已全数兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10103": {
+      "Id": 10103,
+      "Explanation": "第三章剧情活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10103.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10103.2",
+      "Desc": "MailTemplate.10103.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10103.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10103.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10103.3",
+          "zh_TW": "「我們的旅團」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「我们的旅团」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10201": {
+      "Id": 10201,
+      "Explanation": "梦的彼岸活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10201.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10201.2",
+      "Desc": "MailTemplate.10201.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10201.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10201.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10201.3",
+          "zh_TW": "「夢的彼岸」活動將於{0}天後結束！\n您辛苦收集的「營養飯糰」在活動結束後就會過期失效喔！\n請務必在活動結束前進入活動商店使用「營養飯糰」兌換各項獎勵！",
+          "zh_CN": "「梦的彼岸」活动即将于{0}天后结束。\n辛苦收集的「营养饭团」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「营养饭团」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10202": {
+      "Id": 10202,
+      "Explanation": "梦的彼岸活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10202.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10202.2",
+      "Desc": "MailTemplate.10202.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10202.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10202.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10202.3",
+          "zh_TW": "「夢的彼岸」活動已正式結束！\n尚未使用的「營養飯糰」和「森林尋寶鏟」已兌換為「朵拉」並寄送到貴旅團的貨倉了，請查收。",
+          "zh_CN": "「梦的彼岸」活动已正式结束。\n尚未消耗的「营养饭团」和「森林寻宝铲」已兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10203": {
+      "Id": 10203,
+      "Explanation": "梦的彼岸活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10203.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10203.2",
+      "Desc": "MailTemplate.10203.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10203.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10203.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10203.3",
+          "zh_TW": "「夢的彼岸」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「梦的彼岸」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10301": {
+      "Id": 10301,
+      "Explanation": "微火的奇迹活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10301.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10301.2",
+      "Desc": "MailTemplate.10301.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10301.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10301.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10301.3",
+          "zh_TW": "「微火的奇跡」活動將於{0}天後結束。\n您辛苦收集的「報帳憑證」在活動商店關閉後就會過期失效喔！\n請務必在活動商店關閉前進入商店使用「報帳憑證」兌換各項獎勵！",
+          "zh_CN": "「微火的奇迹」活动即将于{0}天后结束。\n辛苦收集的「报销凭证」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「报销凭证」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10302": {
+      "Id": 10302,
+      "Explanation": "微火的奇迹活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10302.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10302.2",
+      "Desc": "MailTemplate.10302.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10302.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10302.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10302.3",
+          "zh_TW": "「微火的奇跡」活動已正式結束。\n尚未消耗的「報帳憑證」和「花房尋寶鏟」已兌換為「朵拉」並寄送到貴旅團的貨倉，請注意查收。",
+          "zh_CN": "「微火的奇迹」活动已正式结束。\n尚未消耗的「报销凭证」和「花房寻宝铲」已兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10303": {
+      "Id": 10303,
+      "Explanation": "微火的奇迹活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10303.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10303.2",
+      "Desc": "MailTemplate.10303.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10303.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10303.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10303.3",
+          "zh_TW": "「微火的奇跡」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「微火的奇迹」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10401": {
+      "Id": 10401,
+      "Explanation": "烟火绮丽寻春意活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10401.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10401.2",
+      "Desc": "MailTemplate.10401.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10401.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10401.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10401.3",
+          "zh_TW": "「煙火綺麗尋春意」活動將於{0}天後結束。\n您辛苦收集的「美味糖葫蘆」在活動商店關閉後就會過期失效喔！\n請務必在活動商店關閉前，進入商店使用「美味糖葫蘆」兌換各項獎勵！",
+          "zh_CN": "「烟火绮丽寻春意」活动即将于{0}天后结束。\n辛苦收集的「美味糖葫芦」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「美味糖葫芦」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10402": {
+      "Id": 10402,
+      "Explanation": "烟火绮丽寻春意活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10402.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10402.2",
+      "Desc": "MailTemplate.10402.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10402.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10402.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10402.3",
+          "zh_TW": "「煙火綺麗尋春意」活動已正式結束。\n尚未消耗的「美味糖葫蘆」已兌換為「朵拉」並寄送到貴旅團的貨倉，請注意查收。",
+          "zh_CN": "「烟火绮丽寻春意」活动已正式结束。\n尚未消耗的「美味糖葫芦」已兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10403": {
+      "Id": 10403,
+      "Explanation": "烟火绮丽寻春意活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10403.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10403.2",
+      "Desc": "MailTemplate.10403.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10403.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10403.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10403.3",
+          "zh_TW": "「煙火綺麗尋春意」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「烟火绮丽寻春意」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "20101": {
+      "Id": 20101,
+      "Explanation": "圣诞活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.20101.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.20101.2",
+      "Desc": "MailTemplate.20101.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.20101.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.20101.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.20101.3",
+          "zh_TW": "「閃耀的使者與聖夜的精靈」活動將於{0}天後結束。\n您辛苦收集的「雪願薑餅人」在活動商店關閉後就會過期失效喔！\n請務必在活動商店關閉前進入商店使用「雪願薑餅人」兌換各項獎勵！",
+          "zh_CN": "「闪耀的使者与圣夜的精灵」活动即将于{0}天后结束。\n辛苦收集的「雪愿姜饼人」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「雪愿姜饼人」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "20102": {
+      "Id": 20102,
+      "Explanation": "圣诞活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.20102.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.20102.2",
+      "Desc": "MailTemplate.20102.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.20102.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.20102.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.20102.3",
+          "zh_TW": "「閃耀的使者與聖夜的精靈」活動已正式結束。\n尚未消耗的「雪願薑餅人」已兌換為「朵拉」並寄送到貴旅團的貨倉，請注意查收。",
+          "zh_CN": "「闪耀的使者与圣夜的精灵」活动已正式结束。\n尚未消耗的「雪愿姜饼人」已兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "20103": {
+      "Id": 20103,
+      "Explanation": "圣诞活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.20103.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.20103.2",
+      "Desc": "MailTemplate.20103.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.20103.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.20103.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.20103.3",
+          "zh_TW": "「閃耀的使者與聖夜的精靈」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「闪耀的使者与圣夜的精灵」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "30101": {
+      "Id": 30101,
+      "Explanation": "缭乱弹珠台结束倒计时邮件",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.30101.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.30101.2",
+      "Desc": "MailTemplate.30101.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.30101.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.30101.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.30101.3",
+          "zh_TW": "「繚亂碎晶球」活動將於{0}天後結束。\n您辛苦收集的「聯合理事會代幣」在活動商店關閉後就會過期失效喔！\n請務必在活動商店關閉前，進入商店使用「聯合理事會代幣」兌換各項獎勵！",
+          "zh_CN": "「缭乱碎晶球」活动即将于{0}天后结束。\n辛苦收集的「联合理事会代币」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「联合理事会代币」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "30102": {
+      "Id": 30102,
+      "Explanation": "缭乱弹珠台活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.30102.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.30102.2",
+      "Desc": "MailTemplate.30102.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.30102.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.30102.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.30102.3",
+          "zh_TW": "「繚亂碎晶球」活動已正式結束。\n尚未消耗的「聯合理事會代幣」已兌換為「朵拉」並寄送到貴旅團的貨倉，請注意查收。",
+          "zh_CN": "「缭乱碎晶球」活动已正式结束。\n尚未消耗的「联合理事会代币」已兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "30103": {
+      "Id": 30103,
+      "Explanation": "缭乱弹珠台活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.30103.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.30103.2",
+      "Desc": "MailTemplate.30103.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.30103.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.30103.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.30103.3",
+          "zh_TW": "「繚亂碎晶球」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「缭乱碎晶球」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10501": {
+      "Id": 10501,
+      "Explanation": "冬夜镇魂曲与破晓扳机活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10501.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10501.2",
+      "Desc": "MailTemplate.10501.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10501.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10501.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10501.3",
+          "zh_TW": "「冬夜鎮魂曲與破曉扳機」活動將於{0}天後結束。\n您辛苦收集的「防災罐頭」在活動商店關閉後就會過期失效喔！\n請務必在活動商店關閉前，進入商店使用「防災罐頭」兌換各項獎勵！",
+          "zh_CN": "「冬夜镇魂曲与破晓扳机」活动即将于{0}天后结束。\n辛苦收集的「应急罐头」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「应急罐头」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10502": {
+      "Id": 10502,
+      "Explanation": "冬夜镇魂曲与破晓扳机活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10502.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10502.2",
+      "Desc": "MailTemplate.10502.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10502.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10502.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10502.3",
+          "zh_TW": "「冬夜鎮魂曲與破曉扳機」活動已正式結束。\n尚未消耗的「防災罐頭」已兌換為「朵拉」並寄送到貴旅團的貨倉，請注意查收。",
+          "zh_CN": "「冬夜镇魂曲与破晓扳机」活动已正式结束。\n尚未消耗的「应急罐头」已兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10503": {
+      "Id": 10503,
+      "Explanation": "冬夜镇魂曲与破晓扳机活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10503.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10503.2",
+      "Desc": "MailTemplate.10503.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10503.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10503.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10503.3",
+          "zh_TW": "「冬夜鎮魂曲與破曉扳機」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「冬夜镇魂曲与破晓扳机」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10601": {
+      "Id": 10601,
+      "Explanation": "敬启，致珍重的你 活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10601.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10601.2",
+      "Desc": "MailTemplate.10601.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10601.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10601.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10601.3",
+          "zh_TW": "「敬啟，致珍重的你」活動將於{0}天後結束。\n您辛苦收集的「青梟片羽」在活動商店關閉後就會過期失效喔！\n請務必在活動商店關閉前，進入商店使用「青梟片羽」兌換各項獎勵！",
+          "zh_CN": "「敬启，致珍重的你」活动即将于{0}天后结束。\n辛苦收集的「青枭片羽」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「青枭片羽」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10602": {
+      "Id": 10602,
+      "Explanation": "敬启，致珍重的你 活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10602.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10602.2",
+      "Desc": "MailTemplate.10602.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10602.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10602.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10602.3",
+          "zh_TW": "「敬啟，致珍重的你」活動已正式結束。\n尚未消耗的「青梟片羽」已兌換為「朵拉」並寄送到貴旅團的貨倉，請注意查收。",
+          "zh_CN": "「敬启，致珍重的你」活动已正式结束。\n尚未消耗的「青枭片羽」已兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10603": {
+      "Id": 10603,
+      "Explanation": "敬启，致珍重的你 活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10603.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10603.2",
+      "Desc": "MailTemplate.10603.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10603.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10603.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10603.3",
+          "zh_TW": "「敬啟，致珍重的你」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「敬启，致珍重的你」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "20201": {
+      "Id": 20201,
+      "Explanation": "幽夜独舞孤影乱 活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.20201.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.20201.2",
+      "Desc": "MailTemplate.20201.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.20201.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.20201.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.20201.3",
+          "zh_TW": "「幽夜獨舞孤影亂」活動將於{0}天後結束。\n您辛苦收集的「午夜來信」在活動商店關閉後就會過期失效喔！\n請務必在活動商店關閉前，進入商店使用「午夜來信」兌換各項獎勵！",
+          "zh_CN": "「幽夜独舞孤影乱」活动即将于{0}天后结束。\n辛苦收集的「午夜来信」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「午夜来信」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "20202": {
+      "Id": 20202,
+      "Explanation": "幽夜独舞孤影乱 活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.20202.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.20202.2",
+      "Desc": "MailTemplate.20202.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.20202.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.20202.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.20202.3",
+          "zh_TW": "「幽夜獨舞孤影亂」活動已正式結束。\n尚未消耗的「午夜來信」已兌換為「朵拉」並寄送到貴旅團的貨倉，請注意查收。",
+          "zh_CN": "「幽夜独舞孤影乱」活动已正式结束。\n尚未消耗的「午夜来信」已兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "20203": {
+      "Id": 20203,
+      "Explanation": "幽夜独舞孤影乱 活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.20203.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.20203.2",
+      "Desc": "MailTemplate.20203.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.20203.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.20203.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.20203.3",
+          "zh_TW": "「幽夜獨舞孤影亂」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「幽夜独舞孤影乱」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10701": {
+      "Id": 10701,
+      "Explanation": "穿透心壁的取景框活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10701.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10701.2",
+      "Desc": "MailTemplate.10701.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10701.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10701.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10701.3",
+          "zh_TW": "「穿透心扉的觀景窗」活動將於{0}天後結束。\n您辛苦收集的「小兔兔貼紙」在活動商店關閉後就會過期失效喔！\n請務必在活動商店關閉前，進入商店使用「小兔兔貼紙」兌換各項獎勵！",
+          "zh_CN": "「穿透心壁的取景框」活动即将于{0}天后结束。\n辛苦收集的「小兔子贴纸」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「小兔子贴纸」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10702": {
+      "Id": 10702,
+      "Explanation": "穿透心壁的取景框活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10702.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10702.2",
+      "Desc": "MailTemplate.10702.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10702.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10702.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10702.3",
+          "zh_TW": "「穿透心扉的觀景窗」活動已正式結束。\n尚未消耗的「小兔兔貼紙」已兌換為「朵拉」並寄送到貴旅團的貨倉，請注意查收。",
+          "zh_CN": "「穿透心壁的取景框」活动已正式结束。\n尚未消耗的「小兔子贴纸」已兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10703": {
+      "Id": 10703,
+      "Explanation": "穿透心壁的取景框活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10703.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10703.2",
+      "Desc": "MailTemplate.10703.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10703.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10703.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10703.3",
+          "zh_TW": "「穿透心扉的觀景窗」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「穿透心壁的取景框」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "9999": {
+      "Id": 9999,
+      "Explanation": "商品延迟到账提示",
+      "Icon": "Icon/Head/head_npc13301",
+      "Author": "MailTemplate.9999.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.9999.2",
+      "Desc": "MailTemplate.9999.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.9999.1",
+          "zh_TW": "《星塔旅人》營運團隊",
+          "zh_CN": "《星塔旅人》运营团队",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.9999.2",
+          "zh_TW": "付費商品入帳通知",
+          "zh_CN": "付费商品到账提示",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.9999.3",
+          "zh_TW": "您已成功購買{0}x{1}，相關物品及權益已入帳，歡迎下次光臨！",
+          "zh_CN": "您已成功购买{0}x{1}，相关物品及权益已到账，欢迎下次光临！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "910158": {
+      "Id": 910158,
+      "Explanation": "圣夜送礼大作战！卡池关闭提示",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.910158.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.910158.2",
+      "Desc": "MailTemplate.910158.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.910158.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.910158.2",
+          "zh_TW": "「聖夜送禮大作戰！」到期提醒",
+          "zh_CN": "「圣夜送礼大作战！」到期提示",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.910158.3",
+          "zh_TW": "「聖夜送禮大作戰！」限時限定招募將於{0}天後結束。\n「雪願限定招募禮券」在招募關閉後就會過期失效。\n請在招募關閉前及時招募，別錯過最後的招募時機喔！",
+          "zh_CN": "「圣夜送礼大作战！」限时限定招募即将于{0}天后结束。\n「雪愿限定招募礼券」将会在招募关闭后过期失效。\n请在招募关闭前及时进行招募，别错过最后的招募时机喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "910145": {
+      "Id": 910145,
+      "Explanation": "夜樱尽头暗月沉卡池关闭提示",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.910145.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.910145.2",
+      "Desc": "MailTemplate.910145.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.910145.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.910145.2",
+          "zh_TW": "「夜櫻落盡月沉淪」到期提醒",
+          "zh_CN": "「夜樱尽头暗月沉」到期提示",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.910145.3",
+          "zh_TW": "「夜櫻落盡月沉淪」限時限定招募將於{0}天後結束。\n「夜櫻限定招募禮券」在招募關閉後就會過期失效。\n請在招募關閉前及時招募，別錯過最後的招募時機喔！",
+          "zh_CN": "「夜樱尽头暗月沉」限时限定招募即将于{0}天后结束。\n「夜樱限定招募礼券」将会在招募关闭后过期失效。\n请在招募关闭前及时进行招募，别错过最后的招募时机喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "910160": {
+      "Id": 910160,
+      "Explanation": "下水之前别忘热身！卡池关闭提示",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.910160.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.910160.2",
+      "Desc": "MailTemplate.910160.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.910160.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.910160.2",
+          "zh_TW": "「踏浪之前先暖暖身！」到期提醒",
+          "zh_CN": "「下水之前别忘热身！」到期提示",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.910160.3",
+          "zh_TW": "「踏浪之前先暖暖身！」限時限定招募將於{0}天後結束。\n「夜櫻限定招募禮券」在招募關閉後就會過期失效。\n請在招募關閉前及時招募，別錯過最後的招募時機喔！",
+          "zh_CN": "「下水之前别忘热身！」限时限定招募即将于{0}天后结束。\n「盛夏限定招募礼券」将会在招募关闭后过期失效。\n请在招募关闭前及时进行招募，别错过最后的招募时机喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10801": {
+      "Id": 10801,
+      "Explanation": "心跳！柔光狂想曲 活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10801.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10801.2",
+      "Desc": "MailTemplate.10801.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10801.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10801.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10801.3",
+          "zh_TW": "「心跳！柔光狂想曲」活動將於{0}天後結束！\n您辛苦收集的「多餘的零件」在活動結束後就會過期失效喔！\n請務必在活動結束前進入活動商店使用「多餘的零件」兌換各項獎勵！",
+          "zh_CN": "「心跳！柔光狂想曲」活动即将于{0}天后结束。\n辛苦收集的「多余的零件」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「多余的零件」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10802": {
+      "Id": 10802,
+      "Explanation": "心跳！柔光狂想曲 活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10802.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10802.2",
+      "Desc": "MailTemplate.10802.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10802.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10802.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10802.3",
+          "zh_TW": "「心跳！柔光狂想曲」活動已正式結束。\n尚未消耗的「多餘的零件」已兌換為「朵拉」並寄送到貴旅團的貨倉，請注意查收。",
+          "zh_CN": "「心跳！柔光狂想曲」活动已正式结束。\n尚未消耗的「多余的零件」已兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10803": {
+      "Id": 10803,
+      "Explanation": "心跳！柔光狂想曲 活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10803.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10803.2",
+      "Desc": "MailTemplate.10803.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10803.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10803.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10803.3",
+          "zh_TW": "「心跳！柔光狂想曲」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「心跳！柔光狂想曲」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10901": {
+      "Id": 10901,
+      "Explanation": "枪林弹雨覆黄沙 活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10901.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10901.2",
+      "Desc": "MailTemplate.10901.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10901.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10901.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10901.3",
+          "zh_TW": "「槍林彈雨染黃沙」活動將於{0}天後結束！\n您辛苦收集的「暗黑魔彈」在活動結束後就會過期失效喔！\n請務必在活動結束前進入活動商店使用「暗黑魔彈」兌換各項獎勵！",
+          "zh_CN": "「枪林弹雨覆黄沙」活动即将于{0}天后结束。\n辛苦收集的「暗黑魔弹」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「暗黑魔弹」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10902": {
+      "Id": 10902,
+      "Explanation": "枪林弹雨覆黄沙 活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10902.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10902.2",
+      "Desc": "MailTemplate.10902.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10902.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10902.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10902.3",
+          "zh_TW": "「槍林彈雨染黃沙」活動已正式結束。\n尚未消耗的「暗黑魔彈」已兌換為「朵拉」並寄送到貴旅團的貨倉，請注意查收。",
+          "zh_CN": "「枪林弹雨覆黄沙」活动已正式结束。\n尚未消耗的「暗黑魔弹」已兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "10903": {
+      "Id": 10903,
+      "Explanation": "枪林弹雨覆黄沙 活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.10903.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.10903.2",
+      "Desc": "MailTemplate.10903.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.10903.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.10903.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.10903.3",
+          "zh_TW": "「槍林彈雨染黃沙」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「枪林弹雨覆黄沙」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "20301": {
+      "Id": 20301,
+      "Explanation": "晴风碧海 · 悠哉盛夏依然打卡~ 活动结束倒计时邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.20301.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.20301.2",
+      "Desc": "MailTemplate.20301.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.20301.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.20301.2",
+          "zh_TW": "活動代幣到期提醒",
+          "zh_CN": "活动代币到期提醒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.20301.3",
+          "zh_TW": "「晴風碧海 慵懶盛夏 記得打卡～」活動將於{0}天後結束！\n您辛苦收集的「夏日海螺」在活動結束後就會過期失效喔！\n請務必在活動結束前進入活動商店使用「夏日海螺」兌換各項獎勵！",
+          "zh_CN": "「晴风碧海 · 悠哉盛夏依然打卡~」活动即将于{0}天后结束。\n辛苦收集的「夏日海螺」将会在活动商店关闭后就过期失效喔！\n请务必在活动商店关闭前，进入商店使用「夏日海螺」兑换各项奖励！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "20302": {
+      "Id": 20302,
+      "Explanation": "晴风碧海 · 悠哉盛夏依然打卡~ 活动结束货币转换邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.20302.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.20302.2",
+      "Desc": "MailTemplate.20302.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.20302.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.20302.2",
+          "zh_TW": "補發內容-到期代幣",
+          "zh_CN": "快件补发 - 到期代币",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.20302.3",
+          "zh_TW": "「晴風碧海 慵懶盛夏 記得打卡～」活動已正式結束。\n尚未消耗的「夏日海螺」已兌換為「朵拉」並寄送到貴旅團的貨倉，請注意查收。",
+          "zh_CN": "「晴风碧海 · 悠哉盛夏依然打卡~」活动已正式结束。\n尚未消耗的「夏日海螺」已兑换为「朵拉」寄送至贵旅团的货仓，请注意查收。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    },
+    "20303": {
+      "Id": 20303,
+      "Explanation": "晴风碧海 · 悠哉盛夏依然打卡~ 活动任务结束未领取邮件",
+      "Icon": "Icon/Head/head_12501",
+      "Author": "MailTemplate.20303.1",
+      "LetterPaper": "background2",
+      "Subject": "MailTemplate.20303.2",
+      "Desc": "MailTemplate.20303.3",
+      "Type": 1,
+      "_localized": {
+        "/Author": {
+          "key": "MailTemplate.20303.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Subject": {
+          "key": "MailTemplate.20303.2",
+          "zh_TW": "補發內容-任務獎勵",
+          "zh_CN": "快件补发 - 任务奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        },
+        "/Desc": {
+          "key": "MailTemplate.20303.3",
+          "zh_TW": "「晴風碧海·慵懶盛夏 記得打卡～」活動任務已結束，領賞期限已經過啦！\n不過協會已經貼心地打包好獎勵寄送到貴團辦公室了，請查收。\n下次完成任務後，務必記得領取喔！",
+          "zh_CN": "「晴风碧海 · 悠哉盛夏依然打卡~」活动任务已结束，领赏期限已经过啦！\n不过协会已经贴心地打包好奖励寄送到贵团办公室了，请查收。\n下次完成任务后，务必记得领取喔！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MailTemplate.json",
+            "zh_CN": "language/zh_CN/MailTemplate.json"
+          }
+        }
+      }
+    }
+  }
+}

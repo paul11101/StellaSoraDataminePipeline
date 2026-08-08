@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message GachaSpinReq {
+  uint32 Id = 1;
+  uint32 Mode = 2;
+  repeated .proto.ItemTpl Check = 15;
+  bytes NextPackage = 2047;
+}
+
+message GachaSpinResp {
+  repeated .proto.GachaCard Cards = 1;
+  .proto.ChangeInfo Change = 2;
+  int64 Time = 3;
+  uint32 AMissTimes = 10;
+  uint32 GachaTotalTimes = 11;
+  uint32 TotalTimes = 12;
+  uint32 AupGuaranteeTimes = 13;
+  uint32 AupMissTimes = 14;
+  uint32 DaysCount = 15;
+  bytes NextPackage = 2047;
+}
+
+message GachaCard {
+  .proto.ItemTpl Card = 1;
+  repeated .proto.ItemTpl Rewards = 2;
+  bytes NextPackage = 2047;
+}
+
+message GachaSpinSyncResp {
+  repeated .proto.Res Res = 2;
+  repeated .proto.Item Items = 3;
+  bytes NextPackage = 2047;
+}

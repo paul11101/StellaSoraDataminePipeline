@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "CharItemExp",
+    "categories": [
+      "characters",
+      "items_rewards"
+    ],
+    "row_count": 4,
+    "localization_hits": 0,
+    "source": "bin/CharItemExp.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "ItemId": 30001,
+      "ExpValue": 1000
+    },
+    "2": {
+      "Id": 2,
+      "ItemId": 30002,
+      "ExpValue": 5000
+    },
+    "3": {
+      "Id": 3,
+      "ItemId": 30003,
+      "ExpValue": 10000
+    },
+    "4": {
+      "Id": 4,
+      "ItemId": 30004,
+      "ExpValue": 20000
+    }
+  }
+}

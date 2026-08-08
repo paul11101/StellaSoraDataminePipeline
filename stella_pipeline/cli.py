@@ -9,6 +9,7 @@ from pathlib import Path
 
 from .diffing import diff_datasets
 from .pipeline import Pipeline, doctor, load_settings
+from .protocol import recover_protocol
 from .util import PipelineError, read_json
 
 
@@ -50,6 +51,28 @@ def build_parser() -> argparse.ArgumentParser:
         "--force",
         action="store_true",
         help="删除并重建已存在的差分输出目录",
+    )
+
+    protocol = commands.add_parser(
+        "protocol", help="从 lua.arcx 或已解密哈希目录恢复消息 ID 与 Protobuf"
+    )
+    protocol_source = protocol.add_mutually_exclusive_group(required=True)
+    protocol_source.add_argument(
+        "--archive", type=Path, help="已重建的官方 lua.arcx"
+    )
+    protocol_source.add_argument(
+        "--hashes", type=Path, help="已完成 AC.DA 解密的 <xxh64>.bin 目录"
+    )
+    protocol.add_argument(
+        "--output",
+        type=Path,
+        help="输出目录（默认写入 analysis/protocol/runs/<时间>）",
+    )
+    protocol.add_argument(
+        "--discover-only", action="store_true", help="只识别描述符，不生成 .proto"
+    )
+    protocol.add_argument(
+        "--force", action="store_true", help="验证成功后替换已存在的输出目录"
     )
 
     status = commands.add_parser("status", help="查看最近一次或指定运行的状态")
@@ -101,6 +124,29 @@ def command_diff(args: argparse.Namespace, settings) -> int:
     return 0
 
 
+def command_protocol(args: argparse.Namespace, settings) -> int:
+    output = (
+        args.output.resolve()
+        if args.output
+        else (
+            settings.analysis_root
+            / "protocol"
+            / "runs"
+            / datetime.now().strftime("%Y%m%d_%H%M%S")
+        ).resolve()
+    )
+    result = recover_protocol(
+        settings,
+        archive=args.archive,
+        hashes=args.hashes,
+        output=output,
+        force=args.force,
+        discover_only=args.discover_only,
+    )
+    print_json(result)
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="backslashreplace")
@@ -117,6 +163,8 @@ def main(argv: list[str] | None = None) -> int:
             return command_status(settings, args.run_dir)
         if args.command == "diff":
             return command_diff(args, settings)
+        if args.command == "protocol":
+            return command_protocol(args, settings)
         if args.command == "run":
             pipeline = Pipeline(
                 settings,

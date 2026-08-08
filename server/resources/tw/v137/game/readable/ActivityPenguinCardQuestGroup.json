@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ActivityPenguinCardQuestGroup",
+    "categories": [
+      "quests",
+      "stages_modes",
+      "activities"
+    ],
+    "row_count": 5,
+    "localization_hits": 5,
+    "source": "bin/ActivityPenguinCardQuestGroup.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "ActivityId": 800001,
+      "GroupName": "ActivityPenguinCardQuestGroup.101.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "ActivityPenguinCardQuestGroup.101.1",
+          "zh_TW": "牌局挑戰",
+          "zh_CN": "牌局挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardQuestGroup.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardQuestGroup.json"
+          }
+        }
+      }
+    },
+    "102": {
+      "Id": 102,
+      "ActivityId": 800001,
+      "GroupName": "ActivityPenguinCardQuestGroup.102.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "ActivityPenguinCardQuestGroup.102.1",
+          "zh_TW": "積分挑戰",
+          "zh_CN": "积分挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardQuestGroup.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardQuestGroup.json"
+          }
+        }
+      }
+    },
+    "301": {
+      "Id": 301,
+      "ActivityId": 800003,
+      "GroupName": "ActivityPenguinCardQuestGroup.301.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "ActivityPenguinCardQuestGroup.301.1",
+          "zh_TW": "牌局挑戰",
+          "zh_CN": "牌局挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardQuestGroup.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardQuestGroup.json"
+          }
+        }
+      }
+    },
+    "302": {
+      "Id": 302,
+      "ActivityId": 800003,
+      "GroupName": "ActivityPenguinCardQuestGroup.302.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "ActivityPenguinCardQuestGroup.302.1",
+          "zh_TW": "積分挑戰",
+          "zh_CN": "积分挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardQuestGroup.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardQuestGroup.json"
+          }
+        }
+      }
+    },
+    "303": {
+      "Id": 303,
+      "ActivityId": 800003,
+      "GroupName": "ActivityPenguinCardQuestGroup.303.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "ActivityPenguinCardQuestGroup.303.1",
+          "zh_TW": "高分挑戰",
+          "zh_CN": "高分挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardQuestGroup.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardQuestGroup.json"
+          }
+        }
+      }
+    }
+  }
+}

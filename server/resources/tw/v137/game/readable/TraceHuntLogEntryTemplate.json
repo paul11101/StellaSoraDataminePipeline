@@ -1,0 +1,372 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TraceHuntLogEntryTemplate",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 21,
+    "localization_hits": 21,
+    "source": "bin/TraceHuntLogEntryTemplate.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Desc": "TraceHuntLogEntryTemplate.1.1",
+      "Type": 1,
+      "Template": 1,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.1.1",
+          "zh_TW": "開始追蹤目標",
+          "zh_CN": "开始追踪目标",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "Desc": "TraceHuntLogEntryTemplate.5.1",
+      "Type": 3,
+      "Template": 5,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.5.1",
+          "zh_TW": "鎖定目標！終止追蹤",
+          "zh_CN": "锁定目标！追踪终止",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "Desc": "TraceHuntLogEntryTemplate.6.1",
+      "Type": 4,
+      "Template": 1,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.6.1",
+          "zh_TW": "追蹤結束",
+          "zh_CN": "追踪结束",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "8": {
+      "Id": 8,
+      "Desc": "TraceHuntLogEntryTemplate.8.1",
+      "Type": 6,
+      "Template": 5,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.8.1",
+          "zh_TW": "已鎖定新目標",
+          "zh_CN": "新目标已锁定",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "9": {
+      "Id": 9,
+      "Desc": "TraceHuntLogEntryTemplate.9.1",
+      "Type": 7,
+      "Template": 7,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.9.1",
+          "zh_TW": "已鎖定目標位置，開啟討伐後，請在規定時間內完成討伐",
+          "zh_CN": "已锁定目标位置，开启讨伐后，请在规定时间内完成讨伐",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "10": {
+      "Id": 10,
+      "Desc": "TraceHuntLogEntryTemplate.10.1",
+      "Type": 8,
+      "Template": 1,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.10.1",
+          "zh_TW": "討伐開始",
+          "zh_CN": "讨伐开始",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "11": {
+      "Id": 11,
+      "Desc": "TraceHuntLogEntryTemplate.11.1",
+      "Type": 9,
+      "Template": 4,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.11.1",
+          "zh_TW": "<color=#7ba4c4>{0}</color>重創了目標",
+          "zh_CN": "<color=#7ba4c4>{0}</color>重创了目标",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Desc": "TraceHuntLogEntryTemplate.13.1",
+      "Type": 11,
+      "Template": 3,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.13.1",
+          "zh_TW": "<color=#7ba4c4>{0}</color>給予了<color=#c2516b>{1}</color>致命一擊",
+          "zh_CN": "<color=#7ba4c4>{0}</color> 给予了 <color=#c2516b>{1}</color> 致命一击",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Desc": "TraceHuntLogEntryTemplate.14.1",
+      "Type": 12,
+      "Template": 3,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.14.1",
+          "zh_TW": "<color=#c2516b>{0}</color>喪失戰鬥意志",
+          "zh_CN": "<color=#c2516b>{0}</color> 丧失战斗意志",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "15": {
+      "Id": 15,
+      "Desc": "TraceHuntLogEntryTemplate.15.1",
+      "Type": 13,
+      "Template": 1,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.15.1",
+          "zh_TW": "討伐結束",
+          "zh_CN": "讨伐结束",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Desc": "TraceHuntLogEntryTemplate.16.1",
+      "Type": 14,
+      "Template": 9,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.16.1",
+          "zh_TW": "圍獵經驗",
+          "zh_CN": "围猎经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "17": {
+      "Id": 17,
+      "Desc": "TraceHuntLogEntryTemplate.17.1",
+      "Type": 15,
+      "Template": 8,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.17.1",
+          "zh_TW": "·目標負傷逃離中\u000b·等待好友協助圍獵",
+          "zh_CN": "·目标负伤逃离中\u000b·等待好友协助围猎",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Desc": "TraceHuntLogEntryTemplate.18.1",
+      "Type": 16,
+      "Template": 6,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.18.1",
+          "zh_TW": "<color=#c2516b>{0}</color>已離去",
+          "zh_CN": "<color=#c2516b>{0}</color> 已离去",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "21": {
+      "Id": 21,
+      "Desc": "TraceHuntLogEntryTemplate.21.1",
+      "Type": 2,
+      "Template": 2,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.21.1",
+          "zh_TW": "接收到目擊者報告",
+          "zh_CN": "接收到目击者报告",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "22": {
+      "Id": 22,
+      "Desc": "TraceHuntLogEntryTemplate.22.1",
+      "Type": 2,
+      "Template": 2,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.22.1",
+          "zh_TW": "收集到模糊的照片",
+          "zh_CN": "收集到模糊的照片",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "23": {
+      "Id": 23,
+      "Desc": "TraceHuntLogEntryTemplate.23.1",
+      "Type": 2,
+      "Template": 2,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.23.1",
+          "zh_TW": "打聽到大致活動範圍",
+          "zh_CN": "打听到大致活动范围",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "31": {
+      "Id": 31,
+      "Desc": "TraceHuntLogEntryTemplate.31.1",
+      "Type": 2,
+      "Template": 2,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.31.1",
+          "zh_TW": "偵察到殘留活動痕跡",
+          "zh_CN": "侦查到残留活动痕迹",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "41": {
+      "Id": 41,
+      "Desc": "TraceHuntLogEntryTemplate.41.1",
+      "Type": 2,
+      "Template": 2,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.41.1",
+          "zh_TW": "短暫接觸到目標本體！",
+          "zh_CN": "短暂接触到目标本体！",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "51": {
+      "Id": 51,
+      "Desc": "TraceHuntLogEntryTemplate.51.1",
+      "Type": 10,
+      "Template": 4,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.51.1",
+          "zh_TW": "目標踩中了協會陷阱",
+          "zh_CN": "目标踩中了协会陷阱",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "52": {
+      "Id": 52,
+      "Desc": "TraceHuntLogEntryTemplate.52.1",
+      "Type": 10,
+      "Template": 4,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.52.1",
+          "zh_TW": "目標誤食了有毒菇類",
+          "zh_CN": "目标误食了有毒菌类",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    },
+    "53": {
+      "Id": 53,
+      "Desc": "TraceHuntLogEntryTemplate.53.1",
+      "Type": 10,
+      "Template": 4,
+      "_localized": {
+        "/Desc": {
+          "key": "TraceHuntLogEntryTemplate.53.1",
+          "zh_TW": "目標被闖入的天敵討伐",
+          "zh_CN": "目标被闯入的天敌讨伐",
+          "sources": {
+            "zh_TW": "language/zh_TW/TraceHuntLogEntryTemplate.json",
+            "zh_CN": "language/zh_CN/TraceHuntLogEntryTemplate.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1191 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "MiningSupport",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 42,
+    "localization_hits": 84,
+    "source": "bin/MiningSupport.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "CharIcon": "Icon/Head/head_15501",
+      "SkillName": "MiningSupport.1.1",
+      "SkillDes": "MiningSupport.1.2",
+      "SupportEffect": 3,
+      "SupportParams": "[3,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.1.1",
+          "zh_TW": "希婭：星砂氣息",
+          "zh_CN": "希娅：星砂气息",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.1.2",
+          "zh_TW": "本層首次敲擊，會對周圍3個隨機地塊造成濺射傷害",
+          "zh_CN": "当前层首次敲击，会对周围3个随机地块造成溅射伤害",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "CharIcon": "Icon/Head/head_15701",
+      "SkillName": "MiningSupport.2.1",
+      "SkillDes": "MiningSupport.2.2",
+      "SupportEffect": 4,
+      "SupportParams": "[2,50]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.2.1",
+          "zh_TW": "花鈴：渦流風暴",
+          "zh_CN": "花铃：涡流风暴",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.2.2",
+          "zh_TW": "敲擊基礎地塊有50%機率不消耗尋寶鏟，單層限3次",
+          "zh_CN": "敲击基础地块有50%概率不消耗寻宝铲，单层限3次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "CharIcon": "Icon/Head/head_11101",
+      "SkillName": "MiningSupport.3.1",
+      "SkillDes": "MiningSupport.3.2",
+      "SupportEffect": 5,
+      "SupportParams": "[3,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.3.1",
+          "zh_TW": "鳶尾：漁獲補給",
+          "zh_CN": "鸢尾：渔获补给",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.3.2",
+          "zh_TW": "進入本層時，隨機將3塊基礎地塊轉換為脆弱地塊",
+          "zh_CN": "进入当前层时，随机将3块基础地块转化为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "CharIcon": "Icon/Head/head_10301",
+      "SkillName": "MiningSupport.4.1",
+      "SkillDes": "MiningSupport.4.2",
+      "SupportEffect": 6,
+      "SupportParams": "[2,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.4.1",
+          "zh_TW": "琥珀：沸騰深淵",
+          "zh_CN": "琥珀：沸腾深渊",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.4.2",
+          "zh_TW": "找到寶藏時，隨機將2塊基礎地塊轉換為脆弱地塊",
+          "zh_CN": "找到宝藏时，随机转化2处基础地块为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "CharIcon": "Icon/Head/head_11202",
+      "SkillName": "MiningSupport.5.1",
+      "SkillDes": "MiningSupport.5.2",
+      "SupportEffect": 7,
+      "SupportParams": "[3,1,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.5.1",
+          "zh_TW": "塵沙：最強舵手",
+          "zh_CN": "尘沙：最强舵手",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.5.2",
+          "zh_TW": "每開啟3個空地塊，隨機1處基礎地塊轉換為脆弱地塊",
+          "zh_CN": "每开启3个空地块，转化随机1处基础地块为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "CharIcon": "Icon/Head/head_13502",
+      "SkillName": "MiningSupport.6.1",
+      "SkillDes": "MiningSupport.6.2",
+      "SupportEffect": 8,
+      "SupportParams": "[100,2]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.6.1",
+          "zh_TW": "霧語：頭條預定",
+          "zh_CN": "雾语：头条预定",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.6.2",
+          "zh_TW": "本層前3次敲擊將觸發雙倍暴擊",
+          "zh_CN": "当前层前3次敲击触发双倍暴击",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "CharIcon": "Icon/Head/head_14201",
+      "SkillName": "MiningSupport.7.1",
+      "SkillDes": "MiningSupport.7.2",
+      "SupportEffect": 9,
+      "SupportParams": "[3,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.7.1",
+          "zh_TW": "珂賽特：蝕解波紋",
+          "zh_CN": "珂赛特：蚀解波纹",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.7.2",
+          "zh_TW": "累計開啟3個空地塊後，標記1處藏有寶藏的地塊，單層1次",
+          "zh_CN": "累计开启3个空地块后，标记1处藏有宝藏的地块，单层1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "201": {
+      "Id": 201,
+      "CharIcon": "Icon/Head/head_13401",
+      "SkillName": "MiningSupport.201.1",
+      "SkillDes": "MiningSupport.201.2",
+      "SupportEffect": 10,
+      "SupportParams": "[1,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.201.1",
+          "zh_TW": "冬香：火花四濺",
+          "zh_CN": "冬香：火花四溅",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.201.2",
+          "zh_TW": "擊破地塊時，對附近隨機地塊造成1點傷害，單層限1次",
+          "zh_CN": "击破地块时，对附近随机地块造成1点伤害，单层限1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "202": {
+      "Id": 202,
+      "CharIcon": "Icon/Head/head_15601",
+      "SkillName": "MiningSupport.202.1",
+      "SkillDes": "MiningSupport.202.2",
+      "SupportEffect": 11,
+      "SupportParams": "[77,1,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.202.1",
+          "zh_TW": "小禾：幸運道具",
+          "zh_CN": "小禾：幸运道具",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.202.2",
+          "zh_TW": "擊破地塊時，有77%機率將隨機一個普通地塊轉換為脆弱地塊，單層限2次",
+          "zh_CN": "击破地块时，77%概率将随机一个基础地块转化脆弱地块，单层限2次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "203": {
+      "Id": 203,
+      "CharIcon": "Icon/Head/head_13501",
+      "SkillName": "MiningSupport.203.1",
+      "SkillDes": "MiningSupport.203.2",
+      "SupportEffect": 5,
+      "SupportParams": "[3,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.203.1",
+          "zh_TW": "霧語：幽靈氣息",
+          "zh_CN": "雾语：幽灵气息",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.203.2",
+          "zh_TW": "進入本層時，隨機將3塊基礎地塊轉換為脆弱地塊",
+          "zh_CN": "进入当前层时，随机将3块基础地块转化为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "204": {
+      "Id": 204,
+      "CharIcon": "Icon/Head/head_13611",
+      "SkillName": "MiningSupport.204.1",
+      "SkillDes": "MiningSupport.204.2",
+      "SupportEffect": 6,
+      "SupportParams": "[2,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.204.1",
+          "zh_TW": "瑟拉娜：情報支援",
+          "zh_CN": "瑟拉娜：情报支援",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.204.2",
+          "zh_TW": "找到寶藏時，隨機將2塊基礎地塊轉換為脆弱地塊",
+          "zh_CN": "找到宝藏时，随机转化2处基础地块为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "205": {
+      "Id": 205,
+      "CharIcon": "Icon/Head/head_13701",
+      "SkillName": "MiningSupport.205.1",
+      "SkillDes": "MiningSupport.205.2",
+      "SupportEffect": 7,
+      "SupportParams": "[3,1,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.205.1",
+          "zh_TW": "埃莉諾：新人登場",
+          "zh_CN": "埃莉诺：新人登场",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.205.2",
+          "zh_TW": "每開啟3個空地塊，隨機1處基礎地塊轉換為脆弱地塊",
+          "zh_CN": "每开启3个空地块，转化随机1处基础地块为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "206": {
+      "Id": 206,
+      "CharIcon": "Icon/Head/head_npc13201",
+      "SkillName": "MiningSupport.206.1",
+      "SkillDes": "MiningSupport.206.2",
+      "SupportEffect": 12,
+      "SupportParams": "[2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.206.1",
+          "zh_TW": "楓：全力支援",
+          "zh_CN": "枫：全力支援",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.206.2",
+          "zh_TW": "擊破空地塊時，對場上隨機2處地塊造成1點傷害，單局限1次",
+          "zh_CN": "击破空地块时，对场上随机2处地块造成1点伤害，单层限1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "207": {
+      "Id": 207,
+      "CharIcon": "Icon/Head/head_13301",
+      "SkillName": "MiningSupport.207.1",
+      "SkillDes": "MiningSupport.207.2",
+      "SupportEffect": 9,
+      "SupportParams": "[3,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.207.1",
+          "zh_TW": "夏花：精準發現",
+          "zh_CN": "夏花：精准发现",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.207.2",
+          "zh_TW": "累計開啟3個空地塊後，標記1處藏有寶藏的地塊，單層限1次",
+          "zh_CN": "累计开启3个空地块后，标记1处藏有宝藏的地块，单层限1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "301": {
+      "Id": 301,
+      "CharIcon": "Icon/Head/head_10301_e",
+      "SkillName": "MiningSupport.301.1",
+      "SkillDes": "MiningSupport.301.2",
+      "SupportEffect": 3,
+      "SupportParams": "[3,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.301.1",
+          "zh_TW": "琥珀：新手光環",
+          "zh_CN": "琥珀：新手光环",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.301.2",
+          "zh_TW": "本層首次敲擊，會對周圍3個隨機地塊造成濺射傷害",
+          "zh_CN": "当前层首次敲击，会对周围3个随机地块造成溅射伤害",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "302": {
+      "Id": 302,
+      "CharIcon": "Icon/Head/head_13401_b",
+      "SkillName": "MiningSupport.302.1",
+      "SkillDes": "MiningSupport.302.2",
+      "SupportEffect": 10,
+      "SupportParams": "[1,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.302.1",
+          "zh_TW": "冬香：歪打正著",
+          "zh_CN": "冬香：歪打正着",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.302.2",
+          "zh_TW": "擊破地塊時，對附近隨機地塊造成1點傷害，單層限1次",
+          "zh_CN": "击破地块时，对附近随机地块造成1点伤害，单层限1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "303": {
+      "Id": 303,
+      "CharIcon": "Icon/Head/head_npc13601",
+      "SkillName": "MiningSupport.303.1",
+      "SkillDes": "MiningSupport.303.2",
+      "SupportEffect": 11,
+      "SupportParams": "[77,1,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.303.1",
+          "zh_TW": "紅寶石：活力滿滿",
+          "zh_CN": "红宝石：干劲满满",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.303.2",
+          "zh_TW": "擊破地塊時，有77%機率將隨機一個普通地塊轉換為脆弱地塊，單層限2次",
+          "zh_CN": "击破地块时，77%概率将随机一个基础地块转化脆弱地块，单层限2次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "304": {
+      "Id": 304,
+      "CharIcon": "Icon/Head/head_npc13701",
+      "SkillName": "MiningSupport.304.1",
+      "SkillDes": "MiningSupport.304.2",
+      "SupportEffect": 6,
+      "SupportParams": "[2,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.304.1",
+          "zh_TW": "藍寶石：精密測量",
+          "zh_CN": "蓝宝石：精密测量",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.304.2",
+          "zh_TW": "找到寶藏時，隨機將2塊基礎地塊轉換為脆弱地塊",
+          "zh_CN": "找到宝藏时，随机转化2处基础地块为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "305": {
+      "Id": 305,
+      "CharIcon": "Icon/Head/head_npc96501",
+      "SkillName": "MiningSupport.305.1",
+      "SkillDes": "MiningSupport.305.2",
+      "SupportEffect": 4,
+      "SupportParams": "[2,50]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.305.1",
+          "zh_TW": "霧語：暗中採訪",
+          "zh_CN": "雾语：暗中采访",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.305.2",
+          "zh_TW": "敲擊基礎地塊有50%機率不消耗尋寶鏟，單層限3次",
+          "zh_CN": "敲击基础地块有50%概率不消耗寻宝铲，单层限3次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "306": {
+      "Id": 306,
+      "CharIcon": "Icon/Head/head_13801",
+      "SkillName": "MiningSupport.306.1",
+      "SkillDes": "MiningSupport.306.2",
+      "SupportEffect": 8,
+      "SupportParams": "[100,2]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.306.1",
+          "zh_TW": "星雁：銷售技巧",
+          "zh_CN": "星雁：销售技巧",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.306.2",
+          "zh_TW": "本層前3次敲擊將觸發雙倍暴擊",
+          "zh_CN": "当前层前3次敲击触发双倍暴击",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "307": {
+      "Id": 307,
+      "CharIcon": "Icon/Head/head_11001",
+      "SkillName": "MiningSupport.307.1",
+      "SkillDes": "MiningSupport.307.2",
+      "SupportEffect": 9,
+      "SupportParams": "[3,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.307.1",
+          "zh_TW": "翡冷翠：精準投資",
+          "zh_CN": "翡冷翠：精准投资",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.307.2",
+          "zh_TW": "累計開啟3個空地塊後，標記1處藏有寶藏的地塊，單層限1次",
+          "zh_CN": "累计开启3个空地块后，标记1处藏有宝藏的地块，单层限1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "401": {
+      "Id": 401,
+      "CharIcon": "Icon/Head/head_12701",
+      "SkillName": "MiningSupport.401.1",
+      "SkillDes": "MiningSupport.401.2",
+      "SupportEffect": 9,
+      "SupportParams": "[3,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.401.1",
+          "zh_TW": "特麗莎：尋寶直覺",
+          "zh_CN": "特丽莎：寻宝直觉",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.401.2",
+          "zh_TW": "累計開啟3個空地塊後，標記1處藏有寶藏的地塊，單層限1次",
+          "zh_CN": "累计开启3个空地块后，标记1处藏有宝藏的地块，单层限1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "402": {
+      "Id": 402,
+      "CharIcon": "Icon/Head/head_11101",
+      "SkillName": "MiningSupport.402.1",
+      "SkillDes": "MiningSupport.402.2",
+      "SupportEffect": 5,
+      "SupportParams": "[3,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.402.1",
+          "zh_TW": "鳶尾：縝密調查",
+          "zh_CN": "鸢尾：缜密调研",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.402.2",
+          "zh_TW": "進入本層時，隨機將3塊基礎地塊轉換為脆弱地塊",
+          "zh_CN": "进入当前层时，随机将3处基础地块转化为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "403": {
+      "Id": 403,
+      "CharIcon": "Icon/Head/head_13001",
+      "SkillName": "MiningSupport.403.1",
+      "SkillDes": "MiningSupport.403.2",
+      "SupportEffect": 6,
+      "SupportParams": "[2,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.403.1",
+          "zh_TW": "多娜：身先士卒",
+          "zh_CN": "多娜：身先士卒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.403.2",
+          "zh_TW": "找到首個寶藏時，隨機將2塊基礎地塊轉換為脆弱地塊",
+          "zh_CN": "找到首个宝藏时，随机转化2处基础地块为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "404": {
+      "Id": 404,
+      "CharIcon": "Icon/Head/head_npc16101",
+      "SkillName": "MiningSupport.404.1",
+      "SkillDes": "MiningSupport.404.2",
+      "SupportEffect": 7,
+      "SupportParams": "[3,1,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.404.1",
+          "zh_TW": "優葉：測繪專家",
+          "zh_CN": "优叶：测绘专家",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.404.2",
+          "zh_TW": "每開啟3個空地塊，隨機1處基礎地塊轉換為脆弱地塊",
+          "zh_CN": "每开启3个空地块，转化随机1处基础地块为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "405": {
+      "Id": 405,
+      "CharIcon": "Icon/Head/head_12501",
+      "SkillName": "MiningSupport.405.1",
+      "SkillDes": "MiningSupport.405.2",
+      "SupportEffect": 3,
+      "SupportParams": "[3,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.405.1",
+          "zh_TW": "蒼蘭：理性之力",
+          "zh_CN": "苍兰：理性之力",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.405.2",
+          "zh_TW": "本層首次敲擊，會對周圍3個隨機地塊造成濺射傷害",
+          "zh_CN": "当前层首次敲击，会对周围3个随机地块造成溅射伤害",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "406": {
+      "Id": 406,
+      "CharIcon": "Icon/Head/head_11201",
+      "SkillName": "MiningSupport.406.1",
+      "SkillDes": "MiningSupport.406.2",
+      "SupportEffect": 13,
+      "SupportParams": "[25]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.406.1",
+          "zh_TW": "塵沙：幸運一鏟",
+          "zh_CN": "尘沙：幸运一铲",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.406.2",
+          "zh_TW": "擊破地塊下無寶藏時，有25%機率不消耗尋寶鏟，單層限1次",
+          "zh_CN": "击破地块下无宝藏时，25%概率不消耗寻宝铲，单层限1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "407": {
+      "Id": 407,
+      "CharIcon": "Icon/Head/head_10301",
+      "SkillName": "MiningSupport.407.1",
+      "SkillDes": "MiningSupport.407.2",
+      "SupportEffect": 8,
+      "SupportParams": "[100,2]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.407.1",
+          "zh_TW": "琥珀：精準命中",
+          "zh_CN": "琥珀：精准命中",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.407.2",
+          "zh_TW": "本層前3次敲擊將觸發雙倍暴擊",
+          "zh_CN": "当前层前3次敲击触发双倍暴击",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "501": {
+      "Id": 501,
+      "CharIcon": "Icon/Head/head_15501",
+      "SkillName": "MiningSupport.501.1",
+      "SkillDes": "MiningSupport.501.2",
+      "SupportEffect": 3,
+      "SupportParams": "[3,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.501.1",
+          "zh_TW": "希婭：星砂氣息",
+          "zh_CN": "希娅：星砂气息",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.501.2",
+          "zh_TW": "本層首次敲擊，會對周圍3個隨機地塊造成濺射傷害",
+          "zh_CN": "当前层首次敲击，会对周围3个随机地块造成溅射伤害",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "502": {
+      "Id": 502,
+      "CharIcon": "Icon/Head/head_15701",
+      "SkillName": "MiningSupport.502.1",
+      "SkillDes": "MiningSupport.502.2",
+      "SupportEffect": 4,
+      "SupportParams": "[2,50]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.502.1",
+          "zh_TW": "花鈴：渦流風暴",
+          "zh_CN": "花铃：涡流风暴",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.502.2",
+          "zh_TW": "敲擊基礎地塊有50%機率不消耗尋寶鏟，單層限3次",
+          "zh_CN": "敲击基础地块有50%概率不消耗寻宝铲，单层限3次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "503": {
+      "Id": 503,
+      "CharIcon": "Icon/Head/head_11101",
+      "SkillName": "MiningSupport.503.1",
+      "SkillDes": "MiningSupport.503.2",
+      "SupportEffect": 5,
+      "SupportParams": "[3,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.503.1",
+          "zh_TW": "鳶尾：漁獲補給",
+          "zh_CN": "鸢尾：渔获补给",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.503.2",
+          "zh_TW": "進入本層時，隨機將3塊基礎地塊轉換為脆弱地塊",
+          "zh_CN": "进入当前层时，随机将3块基础地块转化为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "504": {
+      "Id": 504,
+      "CharIcon": "Icon/Head/head_10301",
+      "SkillName": "MiningSupport.504.1",
+      "SkillDes": "MiningSupport.504.2",
+      "SupportEffect": 6,
+      "SupportParams": "[2,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.504.1",
+          "zh_TW": "琥珀：沸騰深淵",
+          "zh_CN": "琥珀：沸腾深渊",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.504.2",
+          "zh_TW": "找到寶藏時，隨機將2塊基礎地塊轉換為脆弱地塊",
+          "zh_CN": "找到宝藏时，随机转化2处基础地块为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "505": {
+      "Id": 505,
+      "CharIcon": "Icon/Head/head_11202",
+      "SkillName": "MiningSupport.505.1",
+      "SkillDes": "MiningSupport.505.2",
+      "SupportEffect": 7,
+      "SupportParams": "[3,1,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.505.1",
+          "zh_TW": "塵沙：最強舵手",
+          "zh_CN": "尘沙：最强舵手",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.505.2",
+          "zh_TW": "每開啟3個空地塊，隨機1處基礎地塊轉換為脆弱地塊",
+          "zh_CN": "每开启3个空地块，转化随机1处基础地块为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "506": {
+      "Id": 506,
+      "CharIcon": "Icon/Head/head_13502",
+      "SkillName": "MiningSupport.506.1",
+      "SkillDes": "MiningSupport.506.2",
+      "SupportEffect": 8,
+      "SupportParams": "[100,2]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.506.1",
+          "zh_TW": "霧語：頭條預定",
+          "zh_CN": "雾语：头条预定",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.506.2",
+          "zh_TW": "本層前3次敲擊將觸發雙倍暴擊",
+          "zh_CN": "当前层前3次敲击触发双倍暴击",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "507": {
+      "Id": 507,
+      "CharIcon": "Icon/Head/head_14201",
+      "SkillName": "MiningSupport.507.1",
+      "SkillDes": "MiningSupport.507.2",
+      "SupportEffect": 9,
+      "SupportParams": "[3,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.507.1",
+          "zh_TW": "珂賽特：蝕解波紋",
+          "zh_CN": "珂赛特：蚀解波纹",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.507.2",
+          "zh_TW": "累計開啟3個空地塊後，標記1處藏有寶藏的地塊，單層1次",
+          "zh_CN": "累计开启3个空地块后，标记1处藏有宝藏的地块，单层1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "601": {
+      "Id": 601,
+      "CharIcon": "Icon/Head/head_15501",
+      "SkillName": "MiningSupport.601.1",
+      "SkillDes": "MiningSupport.601.2",
+      "SupportEffect": 9,
+      "SupportParams": "[3,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.601.1",
+          "zh_TW": "希婭：星砂氣息",
+          "zh_CN": "希娅：星砂气息",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.601.2",
+          "zh_TW": "累計開啟3個空地塊後，標記1處藏有寶藏的地塊，單層1次",
+          "zh_CN": "累计开启3个空地块后，标记1处藏有宝藏的地块，单层1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "602": {
+      "Id": 602,
+      "CharIcon": "Icon/Head/head_11203",
+      "SkillName": "MiningSupport.602.1",
+      "SkillDes": "MiningSupport.602.2",
+      "SupportEffect": 10,
+      "SupportParams": "[1,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.602.1",
+          "zh_TW": "塵沙：幸運一鏟",
+          "zh_CN": "尘沙：幸运一铲",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.602.2",
+          "zh_TW": "擊破地塊時，對附近隨機地塊造成1點傷害，單層限1次",
+          "zh_CN": "击破地块时，对附近随机地块造成1点伤害，单层限1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "603": {
+      "Id": 603,
+      "CharIcon": "Icon/Head/head_16001",
+      "SkillName": "MiningSupport.603.1",
+      "SkillDes": "MiningSupport.603.2",
+      "SupportEffect": 11,
+      "SupportParams": "[77,1,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.603.1",
+          "zh_TW": "沐夏薇洛：活力滿溢",
+          "zh_CN": "薇洛（盛夏）：活力满溢",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.603.2",
+          "zh_TW": "擊破地塊時，有77%機率將隨機一個普通地塊轉換為脆弱地塊，單層限2次",
+          "zh_CN": "击破地块时，77%概率将随机一个基础地块转化脆弱地块，单层限2次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "604": {
+      "Id": 604,
+      "CharIcon": "Icon/Head/head_npc16102",
+      "SkillName": "MiningSupport.604.1",
+      "SkillDes": "MiningSupport.604.2",
+      "SupportEffect": 6,
+      "SupportParams": "[2,2,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.604.1",
+          "zh_TW": "優葉：測繪專家",
+          "zh_CN": "优叶：测绘专家",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.604.2",
+          "zh_TW": "找到首個寶藏時，隨機將2塊基礎地塊轉換為脆弱地塊",
+          "zh_CN": "找到首个宝藏时，随机转化2处基础地块为脆弱地块",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "605": {
+      "Id": 605,
+      "CharIcon": "Icon/Head/head_15701",
+      "SkillName": "MiningSupport.605.1",
+      "SkillDes": "MiningSupport.605.2",
+      "SupportEffect": 3,
+      "SupportParams": "[3,1]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.605.1",
+          "zh_TW": "花鈴：渦流風暴",
+          "zh_CN": "花铃：涡流风暴",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.605.2",
+          "zh_TW": "本層首次敲擊，會對周圍3個隨機地塊造成濺射傷害",
+          "zh_CN": "当前层首次敲击，会对周围3个随机地块造成溅射伤害",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "606": {
+      "Id": 606,
+      "CharIcon": "Icon/Head/head_11104",
+      "SkillName": "MiningSupport.606.1",
+      "SkillDes": "MiningSupport.606.2",
+      "SupportEffect": 4,
+      "SupportParams": "[2,50]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.606.1",
+          "zh_TW": "鳶尾：漁獲補給",
+          "zh_CN": "鸢尾：渔获补给",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.606.2",
+          "zh_TW": "敲擊基礎地塊有50%機率不消耗尋寶鏟，單層限3次",
+          "zh_CN": "敲击基础地块有50%概率不消耗寻宝铲，单层限3次",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    },
+    "607": {
+      "Id": 607,
+      "CharIcon": "Icon/Head/head_10304",
+      "SkillName": "MiningSupport.607.1",
+      "SkillDes": "MiningSupport.607.2",
+      "SupportEffect": 8,
+      "SupportParams": "[100,2]",
+      "_localized": {
+        "/SkillName": {
+          "key": "MiningSupport.607.1",
+          "zh_TW": "琥珀：沸騰深淵",
+          "zh_CN": "琥珀：沸腾深渊",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        },
+        "/SkillDes": {
+          "key": "MiningSupport.607.2",
+          "zh_TW": "本層前3次敲擊將觸發雙倍暴擊",
+          "zh_CN": "当前层前3次敲击触发双倍暴击",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningSupport.json",
+            "zh_CN": "language/zh_CN/MiningSupport.json"
+          }
+        }
+      }
+    }
+  }
+}

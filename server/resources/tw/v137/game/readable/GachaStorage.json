@@ -1,0 +1,145 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "GachaStorage",
+    "categories": [
+      "gacha"
+    ],
+    "row_count": 5,
+    "localization_hits": 5,
+    "source": "bin/GachaStorage.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "2": {
+      "Id": 2,
+      "Name": "GachaStorage.CharacterCardPool.1",
+      "DefaultId": 503,
+      "DefaultQty": 1,
+      "CostId": 2,
+      "CostQty": 300,
+      "OncePreferred": "[{\"503\":1}]",
+      "TenTimesPreferred": "[{\"503\":10}]",
+      "ATypeGroup": 101,
+      "BTypeProb": 800,
+      "BTypeGuaranteeProb": 5000,
+      "_localized": {
+        "/Name": {
+          "key": "GachaStorage.CharacterCardPool.1",
+          "zh_TW": "旅人常駐招募",
+          "zh_CN": "旅人常驻招募",
+          "sources": {
+            "zh_TW": "language/zh_TW/GachaStorage.json",
+            "zh_CN": "language/zh_CN/GachaStorage.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "Name": "GachaStorage.DiscCardPool.1",
+      "DefaultId": 603,
+      "DefaultQty": 300,
+      "CostId": 2,
+      "CostQty": 1,
+      "OncePreferred": "[{\"603\":300}]",
+      "TenTimesPreferred": "[{\"603\":3000}]",
+      "ATypeGroup": 102,
+      "BTypeProb": 800,
+      "BTypeGuaranteeProb": 10000,
+      "_localized": {
+        "/Name": {
+          "key": "GachaStorage.DiscCardPool.1",
+          "zh_TW": "祕紋常駐招募",
+          "zh_CN": "秘纹常驻招募",
+          "sources": {
+            "zh_TW": "language/zh_TW/GachaStorage.json",
+            "zh_CN": "language/zh_CN/GachaStorage.json"
+          }
+        }
+      }
+    },
+    "1": {
+      "Id": 1,
+      "Name": "GachaStorage.CharacterUpCardPool.1",
+      "DefaultId": 502,
+      "DefaultQty": 1,
+      "CostId": 2,
+      "CostQty": 300,
+      "OncePreferred": "[{\"502\":1}]",
+      "TenTimesPreferred": "[{\"502\":10}]",
+      "GiveItems": "{\"602\":30}",
+      "ATypeGroup": 101,
+      "ATypeUpProb": 5000,
+      "ATypeUpShowProb": 50,
+      "AUpGuaranteeTimes": 160,
+      "BTypeProb": 800,
+      "BTypeUpProb": 2500,
+      "BTypeUpShowProb": 25,
+      "BTypeGuaranteeProb": 2500,
+      "_localized": {
+        "/Name": {
+          "key": "GachaStorage.CharacterUpCardPool.1",
+          "zh_TW": "旅人限時招募",
+          "zh_CN": "旅人限时招募",
+          "sources": {
+            "zh_TW": "language/zh_TW/GachaStorage.json",
+            "zh_CN": "language/zh_CN/GachaStorage.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Name": "GachaStorage.DiscUpCardPool.1",
+      "DefaultId": 602,
+      "DefaultQty": 300,
+      "CostId": 2,
+      "CostQty": 1,
+      "OncePreferred": "[{\"602\":300}]",
+      "TenTimesPreferred": "[{\"602\":3000}]",
+      "ATypeGroup": 102,
+      "ATypeUpProb": 7500,
+      "ATypeUpShowProb": 75,
+      "AUpGuaranteeTimes": 120,
+      "BTypeProb": 800,
+      "BTypeUpProb": 5000,
+      "BTypeUpShowProb": 50,
+      "BTypeGuaranteeProb": 5000,
+      "_localized": {
+        "/Name": {
+          "key": "GachaStorage.DiscUpCardPool.1",
+          "zh_TW": "祕紋限時招募",
+          "zh_CN": "秘纹限时招募",
+          "sources": {
+            "zh_TW": "language/zh_TW/GachaStorage.json",
+            "zh_CN": "language/zh_CN/GachaStorage.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "Name": "GachaStorage.BeginnerCardPool.1",
+      "DefaultId": 503,
+      "DefaultQty": 1,
+      "OncePreferred": "[{\"503\":1}]",
+      "TenTimesPreferred": "[{\"503\":10}]",
+      "ATypeGroup": 101,
+      "AUpGuaranteeTimes": 30,
+      "BTypeProb": 800,
+      "BTypeGuaranteeProb": 10000,
+      "_localized": {
+        "/Name": {
+          "key": "GachaStorage.BeginnerCardPool.1",
+          "zh_TW": "幸運啟封",
+          "zh_CN": "幸运启封",
+          "sources": {
+            "zh_TW": "language/zh_TW/GachaStorage.json",
+            "zh_CN": "language/zh_CN/GachaStorage.json"
+          }
+        }
+      }
+    }
+  }
+}

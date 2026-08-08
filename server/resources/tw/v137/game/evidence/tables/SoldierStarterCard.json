@@ -1,0 +1,339 @@
+{
+  "table": "SoldierStarterCard",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\14b12940df880934.bin",
+  "source_sha256": "a3bc7eaa31ecfe77488391a69218e15022eb118969d71e758147b38d9e96a32b",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\SoldierStarterCard.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 39
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "reference_field_order": [
+      "Id",
+      "GroupId",
+      "Icon",
+      "Name",
+      "CardEffectId",
+      "Des",
+      "Desc",
+      "CharacterShow",
+      "GradeLevelCond"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 9,
+    "remaining_name_count": 9,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 39,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "GroupId",
+        "matching_reference_rows": 39,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Icon",
+        "matching_reference_rows": 39,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Name",
+        "matching_reference_rows": 39,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "CardEffectId",
+        "matching_reference_rows": 39,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "Des",
+        "matching_reference_rows": 39,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "Desc",
+        "matching_reference_rows": 39,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "GradeLevelCond",
+        "matching_reference_rows": 9,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "12": {
+        "field": "CharacterShow",
+        "matching_reference_rows": 9,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 39,
+      "compared_reference_rows": 39,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 39,
+          "compared": 39
+        },
+        {
+          "codec": "varint_int",
+          "matches": 39,
+          "compared": 39
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 39
+        }
+      ]
+    },
+    "2": {
+      "field": "GroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 39,
+      "compared_reference_rows": 39,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 39,
+          "compared": 39
+        },
+        {
+          "codec": "varint_int",
+          "matches": 39,
+          "compared": 39
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 39
+        }
+      ]
+    },
+    "4": {
+      "field": "Icon",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 39,
+      "compared_reference_rows": 39,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 39,
+          "compared": 39
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 39
+        }
+      ]
+    },
+    "5": {
+      "field": "Name",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 39,
+      "compared_reference_rows": 39,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 39,
+          "compared": 39
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 39
+        }
+      ]
+    },
+    "6": {
+      "field": "CardEffectId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 39,
+      "compared_reference_rows": 39,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 39,
+          "compared": 39
+        },
+        {
+          "codec": "varint_int",
+          "matches": 39,
+          "compared": 39
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 39
+        }
+      ]
+    },
+    "7": {
+      "field": "Des",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 39,
+      "compared_reference_rows": 39,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 39,
+          "compared": 39
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 39
+        }
+      ]
+    },
+    "8": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 39,
+      "compared_reference_rows": 39,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 39,
+          "compared": 39
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 39
+        }
+      ]
+    },
+    "9": {
+      "field": "GradeLevelCond",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 9,
+      "compared_reference_rows": 9,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 9,
+          "compared": 9
+        },
+        {
+          "codec": "varint_int",
+          "matches": 9,
+          "compared": 9
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 9
+        }
+      ]
+    },
+    "12": {
+      "field": "CharacterShow",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 9,
+      "compared_reference_rows": 9,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 9,
+          "compared": 9
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 9,
+          "compared": 9
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 9
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 39,
+    "reference_row_count": 39,
+    "shared_key_count": 39,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 39,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

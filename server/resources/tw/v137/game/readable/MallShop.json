@@ -1,0 +1,915 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "MallShop",
+    "categories": [
+      "shop_economy"
+    ],
+    "row_count": 26,
+    "localization_hits": 52,
+    "source": "bin/MallShop.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "10001": {
+      "Id": "10001",
+      "Name": "MallShop.10001.1",
+      "Desc": "MallShop.10001.2",
+      "GroupId": 1,
+      "Sort": 1,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 1500,
+      "Stock": 3,
+      "RefreshType": 3,
+      "ItemId": 502,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10001.1",
+          "zh_TW": "青空禮券",
+          "zh_CN": "青空礼券",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10001.2",
+          "zh_TW": "可在「旅人限時招募」中進行招募的憑證。",
+          "zh_CN": "用于「旅人限时招募」中进行招募的凭证。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10002": {
+      "Id": "10002",
+      "Name": "MallShop.10002.1",
+      "Desc": "MallShop.10002.2",
+      "GroupId": 1,
+      "Sort": 2,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 1500,
+      "Stock": 3,
+      "RefreshType": 3,
+      "ItemId": 503,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10002.1",
+          "zh_TW": "萌芽禮券",
+          "zh_CN": "萌芽礼券",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10002.2",
+          "zh_TW": "可在「常駐旅人招募」中進行招募的憑證。",
+          "zh_CN": "用于「旅人常驻招募」中进行招募的凭证。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10003": {
+      "Id": "10003",
+      "Name": "MallShop.10003.1",
+      "Desc": "MallShop.10003.2",
+      "GroupId": 1,
+      "Sort": 3,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 1500,
+      "Stock": 3,
+      "RefreshType": 3,
+      "ItemId": 602,
+      "ItemQty": 300,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10003.1",
+          "zh_TW": "燦金閃碟",
+          "zh_CN": "灿金闪碟",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10003.2",
+          "zh_TW": "可在「祕紋限時招募」中進行招募的憑證。",
+          "zh_CN": "用于「秘纹限时招募」中进行招募的凭证。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10016": {
+      "Id": "10016",
+      "Name": "MallShop.10016.1",
+      "Desc": "MallShop.10016.2",
+      "GroupId": 1,
+      "Sort": 4,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 1500,
+      "Stock": 3,
+      "RefreshType": 3,
+      "ItemId": 603,
+      "ItemQty": 300,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10016.1",
+          "zh_TW": "亮銀閃碟",
+          "zh_CN": "亮银闪碟",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10016.2",
+          "zh_TW": "可在「常駐祕紋招募」中進行招募的憑證。",
+          "zh_CN": "用于「秘纹常驻招募」中进行招募的凭证。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10004": {
+      "Id": "10004",
+      "Name": "MallShop.10004.1",
+      "Desc": "MallShop.10004.2",
+      "GroupId": 1,
+      "Sort": 5,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 1000,
+      "Stock": 50,
+      "RefreshType": 3,
+      "ItemId": 35000,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10004.1",
+          "zh_TW": "星章拋光劑",
+          "zh_CN": "星章抛光剂",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10004.2",
+          "zh_TW": "重置旅人紋章時用來鎖定詞條的特殊材料。",
+          "zh_CN": "用于旅人纹章重置时锁定词条的特殊素材。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10005": {
+      "Id": "10005",
+      "Name": "MallShop.10005.1",
+      "Desc": "MallShop.10005.2",
+      "GroupId": 1,
+      "Sort": 6,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 300,
+      "Stock": 100,
+      "RefreshType": 3,
+      "ItemId": 30003,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10005.1",
+          "zh_TW": "前輩的旅行傳記",
+          "zh_CN": "前辈的旅行传记",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10005.2",
+          "zh_TW": "提供大量旅人升級經驗。",
+          "zh_CN": "提供大量旅人升级经验。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10006": {
+      "Id": "10006",
+      "Name": "MallShop.10006.1",
+      "Desc": "MallShop.10006.2",
+      "GroupId": 1,
+      "Sort": 7,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 300,
+      "Stock": 50,
+      "RefreshType": 3,
+      "ItemId": 20071,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10006.1",
+          "zh_TW": "後臺舊帽",
+          "zh_CN": "后台旧帽",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10006.2",
+          "zh_TW": "用於旅人升階的初級材料。",
+          "zh_CN": "用于旅人升阶的初级材料。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10007": {
+      "Id": "10007",
+      "Name": "MallShop.10007.1",
+      "Desc": "MallShop.10007.2",
+      "GroupId": 1,
+      "Sort": 8,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 300,
+      "Stock": 50,
+      "RefreshType": 3,
+      "ItemId": 20081,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10007.1",
+          "zh_TW": "男爵的嘉獎",
+          "zh_CN": "男爵的嘉赏",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10007.2",
+          "zh_TW": "用於旅人升階的初級材料。",
+          "zh_CN": "用于旅人升阶的初级材料。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10008": {
+      "Id": "10008",
+      "Name": "MallShop.10008.1",
+      "Desc": "MallShop.10008.2",
+      "GroupId": 1,
+      "Sort": 9,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 300,
+      "Stock": 50,
+      "RefreshType": 3,
+      "ItemId": 20091,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10008.1",
+          "zh_TW": "黯淡燈芯",
+          "zh_CN": "黯淡灯芯",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10008.2",
+          "zh_TW": "用於旅人升階的初級材料。",
+          "zh_CN": "用于旅人升阶的初级材料。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10009": {
+      "Id": "10009",
+      "Name": "MallShop.10009.1",
+      "Desc": "MallShop.10009.2",
+      "GroupId": 1,
+      "Sort": 10,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 300,
+      "Stock": 50,
+      "RefreshType": 3,
+      "ItemId": 21071,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10009.1",
+          "zh_TW": "怪誕殘息",
+          "zh_CN": "怪诞残息",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10009.2",
+          "zh_TW": "祕紋升階所需的初級材料。",
+          "zh_CN": "用于秘纹升阶的初级材料。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10010": {
+      "Id": "10010",
+      "Name": "MallShop.10010.1",
+      "Desc": "MallShop.10010.2",
+      "GroupId": 1,
+      "Sort": 11,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 300,
+      "Stock": 50,
+      "RefreshType": 3,
+      "ItemId": 21081,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10010.1",
+          "zh_TW": "嘟嚕殘息",
+          "zh_CN": "嘟噜残息",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10010.2",
+          "zh_TW": "祕紋升階所需的初級材料。",
+          "zh_CN": "用于秘纹升阶的初级材料。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10011": {
+      "Id": "10011",
+      "Name": "MallShop.10011.1",
+      "Desc": "MallShop.10011.2",
+      "GroupId": 1,
+      "Sort": 12,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 300,
+      "Stock": 50,
+      "RefreshType": 3,
+      "ItemId": 21091,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10011.1",
+          "zh_TW": "微光殘息",
+          "zh_CN": "微光残息",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10011.2",
+          "zh_TW": "祕紋升階所需的初級材料。",
+          "zh_CN": "用于秘纹升阶的初级材料。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10012": {
+      "Id": "10012",
+      "Name": "MallShop.10012.1",
+      "Desc": "MallShop.10012.2",
+      "GroupId": 1,
+      "Sort": 13,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 300,
+      "Stock": 50,
+      "RefreshType": 3,
+      "ItemId": 32001,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10012.1",
+          "zh_TW": "拍擊遊戲卡帶",
+          "zh_CN": "拍击游戏卡带",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10012.2",
+          "zh_TW": "提升旅人能力所需的初級材料。",
+          "zh_CN": "用于旅人能力提升的初级材料。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10013": {
+      "Id": "10013",
+      "Name": "MallShop.10013.1",
+      "Desc": "MallShop.10013.2",
+      "GroupId": 1,
+      "Sort": 14,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 300,
+      "Stock": 50,
+      "RefreshType": 3,
+      "ItemId": 32011,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10013.1",
+          "zh_TW": "射擊遊戲卡帶",
+          "zh_CN": "射击游戏卡带",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10013.2",
+          "zh_TW": "提升旅人能力所需的初級材料。",
+          "zh_CN": "用于旅人能力提升的初级材料。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10014": {
+      "Id": "10014",
+      "Name": "MallShop.10014.1",
+      "Desc": "MallShop.10014.2",
+      "GroupId": 1,
+      "Sort": 15,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 300,
+      "Stock": 50,
+      "RefreshType": 3,
+      "ItemId": 32021,
+      "ItemQty": 1,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10014.1",
+          "zh_TW": "功夫遊戲卡帶",
+          "zh_CN": "功夫游戏卡带",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10014.2",
+          "zh_TW": "提升旅人能力所需的初級材料。",
+          "zh_CN": "用于旅人能力提升的初级材料。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "10015": {
+      "Id": "10015",
+      "Name": "MallShop.10015.1",
+      "Desc": "MallShop.10015.2",
+      "GroupId": 1,
+      "Sort": 16,
+      "ExchangeItemId": 23,
+      "ExchangeItemQty": 300,
+      "Stock": 100,
+      "RefreshType": 3,
+      "ItemId": 1,
+      "ItemQty": 20000,
+      "ListTime": "2023-10-11T05:00:00+08:00",
+      "DeListTime": "2223-12-30T05:00:00+08:00",
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.10015.1",
+          "zh_TW": "朵拉",
+          "zh_CN": "朵拉",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.10015.2",
+          "zh_TW": "基礎貨幣，可在各個功能中使用。",
+          "zh_CN": "基础的货币，可在各个功能中进行使用。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "20001": {
+      "Id": "20001",
+      "Name": "MallShop.20001.1",
+      "Desc": "MallShop.20001.2",
+      "GroupId": 2,
+      "Sort": 3,
+      "ExchangeItemId": 24,
+      "ExchangeItemQty": 100,
+      "ItemId": 502,
+      "ItemQty": 1,
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.20001.1",
+          "zh_TW": "青空禮券",
+          "zh_CN": "青空礼券",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.20001.2",
+          "zh_TW": "可在「旅人限時招募」中進行招募的憑證。",
+          "zh_CN": "用于「旅人限时招募」中进行招募的凭证。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "20002": {
+      "Id": "20002",
+      "Name": "MallShop.20002.1",
+      "Desc": "MallShop.20002.2",
+      "GroupId": 2,
+      "Sort": 4,
+      "ExchangeItemId": 24,
+      "ExchangeItemQty": 100,
+      "ItemId": 602,
+      "ItemQty": 300,
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.20002.1",
+          "zh_TW": "燦金閃碟",
+          "zh_CN": "灿金闪碟",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.20002.2",
+          "zh_TW": "可在「祕紋限時招募」中進行招募的憑證。",
+          "zh_CN": "用于「秘纹限时招募」中进行招募的凭证。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "20003": {
+      "Id": "20003",
+      "Name": "MallShop.20003.1",
+      "Desc": "MallShop.20003.2",
+      "GroupId": 2,
+      "Sort": 5,
+      "ExchangeItemId": 24,
+      "ExchangeItemQty": 100,
+      "ItemId": 503,
+      "ItemQty": 1,
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.20003.1",
+          "zh_TW": "萌芽禮券",
+          "zh_CN": "萌芽礼券",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.20003.2",
+          "zh_TW": "可在「常駐旅人招募」中進行招募的憑證。",
+          "zh_CN": "用于「旅人常驻招募」中进行招募的凭证。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "20004": {
+      "Id": "20004",
+      "Name": "MallShop.20004.1",
+      "Desc": "MallShop.20004.2",
+      "GroupId": 2,
+      "Sort": 6,
+      "ExchangeItemId": 24,
+      "ExchangeItemQty": 100,
+      "ItemId": 603,
+      "ItemQty": 300,
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.20004.1",
+          "zh_TW": "亮銀閃碟",
+          "zh_CN": "亮银闪碟",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.20004.2",
+          "zh_TW": "可在「常駐祕紋招募」中進行招募的憑證。",
+          "zh_CN": "用于「秘纹常驻招募」中进行招募的凭证。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "20005": {
+      "Id": "20005",
+      "Name": "MallShop.20005.1",
+      "Desc": "MallShop.20005.2",
+      "GroupId": 2,
+      "Sort": 1,
+      "ExchangeItemId": 24,
+      "ExchangeItemQty": 30,
+      "Stock": 50,
+      "RefreshType": 3,
+      "ItemId": 35000,
+      "ItemQty": 1,
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.20005.1",
+          "zh_TW": "星章拋光劑",
+          "zh_CN": "星章抛光剂",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.20005.2",
+          "zh_TW": "重置旅人紋章時用來鎖定詞條的特殊材料。",
+          "zh_CN": "用于旅人纹章重置时锁定词条的特殊素材。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "20006": {
+      "Id": "20006",
+      "Name": "MallShop.20006.1",
+      "Desc": "MallShop.20006.2",
+      "GroupId": 2,
+      "Sort": 2,
+      "ExchangeItemId": 24,
+      "ExchangeItemQty": 25,
+      "Stock": 200,
+      "RefreshType": 3,
+      "ItemId": 33912,
+      "ItemQty": 1,
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.20006.1",
+          "zh_TW": "精美禮物隨機盒",
+          "zh_CN": "精美礼物随机盒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.20006.2",
+          "zh_TW": "隨機獲得一件精美禮物。",
+          "zh_CN": "随机获得一件精美礼物",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "30001": {
+      "Id": "30001",
+      "Name": "MallShop.30001.1",
+      "Desc": "MallShop.30001.2",
+      "GroupId": 3,
+      "Sort": 1,
+      "ExchangeItemId": 2,
+      "ExchangeItemQty": 300,
+      "ItemId": 502,
+      "ItemQty": 1,
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.30001.1",
+          "zh_TW": "青空禮券",
+          "zh_CN": "青空礼券",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.30001.2",
+          "zh_TW": "可在「旅人限時招募」中進行招募的憑證。",
+          "zh_CN": "用于「旅人限时招募」中进行招募的凭证。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "30002": {
+      "Id": "30002",
+      "Name": "MallShop.30002.1",
+      "Desc": "MallShop.30002.2",
+      "GroupId": 3,
+      "Sort": 3,
+      "ExchangeItemId": 2,
+      "ExchangeItemQty": 300,
+      "ItemId": 602,
+      "ItemQty": 300,
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.30002.1",
+          "zh_TW": "燦金閃碟",
+          "zh_CN": "灿金闪碟",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.30002.2",
+          "zh_TW": "可在「祕紋限時招募」中進行招募的憑證。",
+          "zh_CN": "用于「秘纹限时招募」中进行招募的凭证。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "30003": {
+      "Id": "30003",
+      "Name": "MallShop.30003.1",
+      "Desc": "MallShop.30003.2",
+      "GroupId": 3,
+      "Sort": 2,
+      "ExchangeItemId": 2,
+      "ExchangeItemQty": 300,
+      "ItemId": 503,
+      "ItemQty": 1,
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.30003.1",
+          "zh_TW": "萌芽禮券",
+          "zh_CN": "萌芽礼券",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.30003.2",
+          "zh_TW": "可在「常駐旅人招募」中進行招募的憑證。",
+          "zh_CN": "用于「旅人常驻招募」中进行招募的凭证。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    },
+    "30004": {
+      "Id": "30004",
+      "Name": "MallShop.30004.1",
+      "Desc": "MallShop.30004.2",
+      "GroupId": 3,
+      "Sort": 4,
+      "ExchangeItemId": 2,
+      "ExchangeItemQty": 300,
+      "ItemId": 603,
+      "ItemQty": 300,
+      "DisplayMode": 1,
+      "_localized": {
+        "/Name": {
+          "key": "MallShop.30004.1",
+          "zh_TW": "亮銀閃碟",
+          "zh_CN": "亮银闪碟",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallShop.30004.2",
+          "zh_TW": "可在「常駐祕紋招募」中進行招募的憑證。",
+          "zh_CN": "用于「秘纹常驻招募」中进行招募的凭证。",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallShop.json",
+            "zh_CN": "language/zh_CN/MallShop.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "GachaNewbie",
+    "categories": [
+      "gacha"
+    ],
+    "row_count": 1,
+    "localization_hits": 0,
+    "source": "bin/GachaNewbie.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "5": {
+      "Id": 5,
+      "SpinCount": 20,
+      "SaveCount": 5
+    }
+  }
+}

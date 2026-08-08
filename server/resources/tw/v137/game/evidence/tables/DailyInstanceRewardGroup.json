@@ -1,0 +1,304 @@
+{
+  "table": "DailyInstanceRewardGroup",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\8c1805a81aa1b805.bin",
+  "source_sha256": "2c8cf402fef71e6ec341a1155afe4e677d3e7263850b9a17f3e4bcd9ad9eab66",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\DailyInstanceRewardGroup.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 21
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "reference_field_order": [
+      "Id",
+      "GroupId",
+      "DailyRewardType",
+      "RewardName",
+      "RewardDes",
+      "RewardIcon",
+      "DropId",
+      "BaseAwardPreview"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 8,
+    "remaining_name_count": 8,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 21,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "GroupId",
+        "matching_reference_rows": 21,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "DailyRewardType",
+        "matching_reference_rows": 21,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "RewardName",
+        "matching_reference_rows": 21,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "RewardDes",
+        "matching_reference_rows": 21,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "RewardIcon",
+        "matching_reference_rows": 21,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "DropId",
+        "matching_reference_rows": 21,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "BaseAwardPreview",
+        "matching_reference_rows": 21,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "varint_int",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    },
+    "2": {
+      "field": "GroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "varint_int",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    },
+    "3": {
+      "field": "DailyRewardType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "varint_int",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    },
+    "4": {
+      "field": "RewardName",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    },
+    "5": {
+      "field": "RewardDes",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    },
+    "6": {
+      "field": "RewardIcon",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    },
+    "7": {
+      "field": "DropId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "varint_int",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    },
+    "8": {
+      "field": "BaseAwardPreview",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 21,
+    "reference_row_count": 21,
+    "shared_key_count": 21,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 21,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

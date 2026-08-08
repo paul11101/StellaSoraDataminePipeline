@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package proto;
+import public "public_star_tower.proto";
+
+message BuildConvertDetailListGetResp {
+  repeated .proto.StarTowerBuildInfo Details = 1;
+  bytes NextPackage = 2047;
+}

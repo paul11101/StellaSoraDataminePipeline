@@ -1,0 +1,254 @@
+{
+  "table": "TowerDefenseGuide",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b89e19df048d5a57.bin",
+  "source_sha256": "b958ecdf7857a0d3cca5f183479378334f8a185685b5635174c0fbe632c48b64",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\TowerDefenseGuide.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 46
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "reference_field_order": [
+      "Id",
+      "ActivityId",
+      "GuideType",
+      "ObjectId",
+      "Str",
+      "IsShow"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 6,
+    "remaining_name_count": 6,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 46,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "ActivityId",
+        "matching_reference_rows": 46,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "GuideType",
+        "matching_reference_rows": 46,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "ObjectId",
+        "matching_reference_rows": 46,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Str",
+        "matching_reference_rows": 15,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "IsShow",
+        "matching_reference_rows": 43,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 46,
+      "compared_reference_rows": 46,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 46,
+          "compared": 46
+        },
+        {
+          "codec": "varint_int",
+          "matches": 46,
+          "compared": 46
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 46
+        }
+      ]
+    },
+    "2": {
+      "field": "ActivityId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 46,
+      "compared_reference_rows": 46,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 46,
+          "compared": 46
+        },
+        {
+          "codec": "varint_int",
+          "matches": 46,
+          "compared": 46
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 46
+        }
+      ]
+    },
+    "3": {
+      "field": "GuideType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 46,
+      "compared_reference_rows": 46,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 46,
+          "compared": 46
+        },
+        {
+          "codec": "varint_int",
+          "matches": 46,
+          "compared": 46
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 46
+        }
+      ]
+    },
+    "4": {
+      "field": "ObjectId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 46,
+      "compared_reference_rows": 46,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 46,
+          "compared": 46
+        },
+        {
+          "codec": "varint_int",
+          "matches": 46,
+          "compared": 46
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 46
+        }
+      ]
+    },
+    "5": {
+      "field": "Str",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 15,
+      "compared_reference_rows": 15,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 15,
+          "compared": 15
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 15
+        }
+      ]
+    },
+    "7": {
+      "field": "IsShow",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 43,
+      "compared_reference_rows": 43,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 43,
+          "compared": 43
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 43
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 43
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 43
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 46,
+    "reference_row_count": 46,
+    "shared_key_count": 46,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 46,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

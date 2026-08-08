@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SoldierChessType",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 3,
+    "localization_hits": 3,
+    "source": "bin/SoldierChessType.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "ChessType": 1,
+      "Name": "SoldierChessType.1.1",
+      "Icon": "ChessTypeFight",
+      "PositionType": [
+        1
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierChessType.1.1",
+          "zh_TW": "主戰型",
+          "zh_CN": "主战型",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierChessType.json",
+            "zh_CN": "language/zh_CN/SoldierChessType.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "ChessType": 2,
+      "Name": "SoldierChessType.2.1",
+      "Icon": "ChessTypeSupport",
+      "PositionType": [
+        2
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierChessType.2.1",
+          "zh_TW": "後援型",
+          "zh_CN": "后援型",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierChessType.json",
+            "zh_CN": "language/zh_CN/SoldierChessType.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Name": "SoldierChessType.3.1",
+      "Icon": "ChessTypeBalance",
+      "PositionType": [
+        1,
+        2
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierChessType.3.1",
+          "zh_TW": "全能型",
+          "zh_CN": "全能型",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierChessType.json",
+            "zh_CN": "language/zh_CN/SoldierChessType.json"
+          }
+        }
+      }
+    }
+  }
+}

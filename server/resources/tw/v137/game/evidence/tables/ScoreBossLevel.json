@@ -1,0 +1,444 @@
+{
+  "table": "ScoreBossLevel",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\02a84381a108c685.bin",
+  "source_sha256": "2e9cae1b5cff02c8a988133b2f8605fab410adcb9c4bde319f743d9bfaed88b1",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\ScoreBossLevel.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 29
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "reference_field_order": [
+      "Id",
+      "FloorId",
+      "MonsterId",
+      "NonDamageScoreGet",
+      "ScoreBossAbility",
+      "ScoreGetSwitchGroup",
+      "Episode",
+      "Image",
+      "BG",
+      "SummonLevelUp",
+      "ExtraImage",
+      "ExtraImageAni"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 12,
+    "remaining_name_count": 12,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 29,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "FloorId",
+        "matching_reference_rows": 29,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "MonsterId",
+        "matching_reference_rows": 29,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "NonDamageScoreGet",
+        "matching_reference_rows": 29,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "ScoreBossAbility",
+        "matching_reference_rows": 29,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "ScoreGetSwitchGroup",
+        "matching_reference_rows": 29,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "Episode",
+        "matching_reference_rows": 29,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "Image",
+        "matching_reference_rows": 29,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "BG",
+        "matching_reference_rows": 29,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "SummonLevelUp",
+        "matching_reference_rows": 22,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "ExtraImage",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "ExtraImageAni",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 29,
+      "compared_reference_rows": 29,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "varint_int",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 29
+        }
+      ]
+    },
+    "2": {
+      "field": "FloorId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 29,
+      "compared_reference_rows": 29,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "varint_int",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 29
+        }
+      ]
+    },
+    "3": {
+      "field": "MonsterId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 29,
+      "compared_reference_rows": 29,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "varint_int",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 29
+        }
+      ]
+    },
+    "4": {
+      "field": "NonDamageScoreGet",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 29,
+      "compared_reference_rows": 29,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "varint_int",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 29
+        }
+      ]
+    },
+    "5": {
+      "field": "ScoreBossAbility",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 29,
+      "compared_reference_rows": 29,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "varint_int",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 29
+        }
+      ]
+    },
+    "6": {
+      "field": "ScoreGetSwitchGroup",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 29,
+      "compared_reference_rows": 29,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "varint_int",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 29
+        }
+      ]
+    },
+    "7": {
+      "field": "Episode",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 29,
+      "compared_reference_rows": 29,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 29
+        }
+      ]
+    },
+    "8": {
+      "field": "Image",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 29,
+      "compared_reference_rows": 29,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 29
+        }
+      ]
+    },
+    "9": {
+      "field": "BG",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 29,
+      "compared_reference_rows": 29,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 29,
+          "compared": 29
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 29
+        }
+      ]
+    },
+    "10": {
+      "field": "SummonLevelUp",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 22,
+      "compared_reference_rows": 22,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 22,
+          "compared": 22
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 22
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 22
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 22
+        }
+      ]
+    },
+    "11": {
+      "field": "ExtraImage",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "12": {
+      "field": "ExtraImageAni",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 29,
+    "reference_row_count": 29,
+    "shared_key_count": 29,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 29,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

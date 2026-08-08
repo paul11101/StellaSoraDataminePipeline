@@ -1,0 +1,177 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "DatingLandmark",
+    "categories": [
+      "story_social"
+    ],
+    "row_count": 6,
+    "localization_hits": 12,
+    "source": "bin/DatingLandmark.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "5": {
+      "Id": 5,
+      "Name": "DatingLandmark.5.1",
+      "Desc": "DatingLandmark.5.2",
+      "Icon": "Icon/LandMark/LandMark_005",
+      "Bg": "cavern",
+      "_localized": {
+        "/Name": {
+          "key": "DatingLandmark.5.1",
+          "zh_TW": "洞窟",
+          "zh_CN": "洞窟",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmark.json",
+            "zh_CN": "language/zh_CN/DatingLandmark.json"
+          }
+        },
+        "/Desc": {
+          "key": "DatingLandmark.5.2",
+          "zh_TW": "城外不遠處的有名探險地。或許是個遊玩的好去處？",
+          "zh_CN": "城外不远处的有名探险地。或许是个游玩的好去处？",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmark.json",
+            "zh_CN": "language/zh_CN/DatingLandmark.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "Name": "DatingLandmark.6.1",
+      "Desc": "DatingLandmark.6.2",
+      "Icon": "Icon/LandMark/LandMark_006",
+      "Bg": "dessert_house_inside",
+      "_localized": {
+        "/Name": {
+          "key": "DatingLandmark.6.1",
+          "zh_TW": "甜點店",
+          "zh_CN": "甜品屋",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmark.json",
+            "zh_CN": "language/zh_CN/DatingLandmark.json"
+          }
+        },
+        "/Desc": {
+          "key": "DatingLandmark.6.2",
+          "zh_TW": "以美味聞名的連鎖店，每次光顧都可能有新品推出。",
+          "zh_CN": "以美味闻名的连锁好店，每次光顾都可能有新品推出。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmark.json",
+            "zh_CN": "language/zh_CN/DatingLandmark.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "Name": "DatingLandmark.7.1",
+      "Desc": "DatingLandmark.7.2",
+      "Icon": "Icon/LandMark/LandMark_007",
+      "Bg": "ttc_market_daylight",
+      "_localized": {
+        "/Name": {
+          "key": "DatingLandmark.7.1",
+          "zh_TW": "市集",
+          "zh_CN": "集市",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmark.json",
+            "zh_CN": "language/zh_CN/DatingLandmark.json"
+          }
+        },
+        "/Desc": {
+          "key": "DatingLandmark.7.2",
+          "zh_TW": "充滿了生活氣息的熱鬧市集，是撿便宜、娛樂的好地方。",
+          "zh_CN": "充满了生活气息的热闹集市，是捡漏、娱乐的良选。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmark.json",
+            "zh_CN": "language/zh_CN/DatingLandmark.json"
+          }
+        }
+      }
+    },
+    "8": {
+      "Id": 8,
+      "Name": "DatingLandmark.8.1",
+      "Desc": "DatingLandmark.8.2",
+      "Icon": "Icon/LandMark/LandMark_008",
+      "Bg": "ttc_harbour_daylight",
+      "_localized": {
+        "/Name": {
+          "key": "DatingLandmark.8.1",
+          "zh_TW": "港口",
+          "zh_CN": "港口",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmark.json",
+            "zh_CN": "language/zh_CN/DatingLandmark.json"
+          }
+        },
+        "/Desc": {
+          "key": "DatingLandmark.8.2",
+          "zh_TW": "貨物在此流通，但也是散步、吹風的絕佳地點。",
+          "zh_CN": "货物在此流转，但也是散步、吹风的绝佳地方。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmark.json",
+            "zh_CN": "language/zh_CN/DatingLandmark.json"
+          }
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "DatingLandmark.14.1",
+      "Desc": "DatingLandmark.14.2",
+      "Icon": "Icon/LandMark/LandMark_014",
+      "Bg": "wog_academy_classroom",
+      "_localized": {
+        "/Name": {
+          "key": "DatingLandmark.14.1",
+          "zh_TW": "學院",
+          "zh_CN": "学院",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmark.json",
+            "zh_CN": "language/zh_CN/DatingLandmark.json"
+          }
+        },
+        "/Desc": {
+          "key": "DatingLandmark.14.2",
+          "zh_TW": "學習知識與技能的好地方。一起去回憶一下學生時代吧。",
+          "zh_CN": "习得知识与技能的好地方。一起去回忆下学生时代吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmark.json",
+            "zh_CN": "language/zh_CN/DatingLandmark.json"
+          }
+        }
+      }
+    },
+    "17": {
+      "Id": 17,
+      "Name": "DatingLandmark.17.1",
+      "Desc": "DatingLandmark.17.2",
+      "Icon": "Icon/LandMark/LandMark_017",
+      "Bg": "japanese_pond_daylight",
+      "_localized": {
+        "/Name": {
+          "key": "DatingLandmark.17.1",
+          "zh_TW": "溫泉渡假村",
+          "zh_CN": "温泉度假村",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmark.json",
+            "zh_CN": "language/zh_CN/DatingLandmark.json"
+          }
+        },
+        "/Desc": {
+          "key": "DatingLandmark.17.2",
+          "zh_TW": "在清澈的熱水裡讓輕盈的心靈漂向遠方吧。",
+          "zh_CN": "在清澈的热水里将轻盈的心灵漂向远方吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmark.json",
+            "zh_CN": "language/zh_CN/DatingLandmark.json"
+          }
+        }
+      }
+    }
+  }
+}

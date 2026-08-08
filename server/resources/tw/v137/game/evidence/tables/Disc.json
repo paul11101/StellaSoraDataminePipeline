@@ -1,0 +1,709 @@
+{
+  "table": "Disc",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\436e71662ed86b21.bin",
+  "source_sha256": "dbf9a5ebc051e6f2f8727c716a81d50041298a1aef213a569a96460fda9a5f48",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\Disc.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 96
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "reference_field_order": [
+      "Id",
+      "EET",
+      "Tags",
+      "Visible",
+      "Available",
+      "DiscBg",
+      "StrengthenGroupId",
+      "AttrBaseGroupId",
+      "AttrExtraGroupId",
+      "PromoteGroupId",
+      "TransformItemId",
+      "MaxStarTransformItem",
+      "ReadReward",
+      "AVGReadReward",
+      "MainSkillGroupId",
+      "SecondarySkillGroupId1",
+      "SecondarySkillGroupId2",
+      "SubNoteSkillGroupId",
+      "SkillScript"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 19,
+    "remaining_name_count": 19,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "EET",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Tags",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Visible",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Available",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "DiscBg",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "StrengthenGroupId",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "AttrBaseGroupId",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "AttrExtraGroupId",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "PromoteGroupId",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "TransformItemId",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "MaxStarTransformItem",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "ReadReward",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "14": {
+        "field": "AVGReadReward",
+        "matching_reference_rows": 21,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "15": {
+        "field": "MainSkillGroupId",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "16": {
+        "field": "SecondarySkillGroupId1",
+        "matching_reference_rows": 79,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "17": {
+        "field": "SecondarySkillGroupId2",
+        "matching_reference_rows": 53,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "18": {
+        "field": "SubNoteSkillGroupId",
+        "matching_reference_rows": 96,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "19": {
+        "field": "SkillScript",
+        "matching_reference_rows": 39,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "2": {
+      "field": "EET",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "3": {
+      "field": "Tags",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "4": {
+      "field": "Visible",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "5": {
+      "field": "Available",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "6": {
+      "field": "DiscBg",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "7": {
+      "field": "StrengthenGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "8": {
+      "field": "AttrBaseGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "9": {
+      "field": "AttrExtraGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "10": {
+      "field": "PromoteGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "11": {
+      "field": "TransformItemId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "12": {
+      "field": "MaxStarTransformItem",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "13": {
+      "field": "ReadReward",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "14": {
+      "field": "AVGReadReward",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    },
+    "15": {
+      "field": "MainSkillGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "16": {
+      "field": "SecondarySkillGroupId1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 79,
+      "compared_reference_rows": 79,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 79,
+          "compared": 79
+        },
+        {
+          "codec": "varint_int",
+          "matches": 79,
+          "compared": 79
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 79
+        }
+      ]
+    },
+    "17": {
+      "field": "SecondarySkillGroupId2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 53,
+      "compared_reference_rows": 53,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 53,
+          "compared": 53
+        },
+        {
+          "codec": "varint_int",
+          "matches": 53,
+          "compared": 53
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 53
+        }
+      ]
+    },
+    "18": {
+      "field": "SubNoteSkillGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 96,
+      "compared_reference_rows": 96,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_int",
+          "matches": 96,
+          "compared": 96
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 96
+        }
+      ]
+    },
+    "19": {
+      "field": "SkillScript",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 39,
+      "compared_reference_rows": 39,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 39,
+          "compared": 39
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 39
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 96,
+    "reference_row_count": 96,
+    "shared_key_count": 96,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 96,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

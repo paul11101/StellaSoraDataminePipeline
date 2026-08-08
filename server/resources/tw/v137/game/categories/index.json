@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "id": "characters",
+      "name": "角色、皮肤与养成",
+      "description": "角色本体、皮肤、档案、好感、潜能、天赋和角色成长。",
+      "path": "categories/characters.json",
+      "table_count": 65,
+      "row_count": 16773
+    },
+    {
+      "id": "discs",
+      "name": "光碟、命运卡与附属技能",
+      "description": "光碟本体、强化突破、命运卡和 SubNote 技能。",
+      "path": "categories/discs.json",
+      "table_count": 16,
+      "row_count": 2327
+    },
+    {
+      "id": "combat",
+      "name": "技能、属性与战斗机制",
+      "description": "技能、Buff、效果器、伤害、属性、AI、护盾和战斗参数。",
+      "path": "categories/combat.json",
+      "table_count": 60,
+      "row_count": 52445
+    },
+    {
+      "id": "items_rewards",
+      "name": "道具、掉落与奖励",
+      "description": "道具、宝箱、掉落包、奖励组、宝石和生产材料。",
+      "path": "categories/items_rewards.json",
+      "table_count": 37,
+      "row_count": 6852
+    },
+    {
+      "id": "gacha",
+      "name": "招募与卡池",
+      "description": "招募池、概率组、保底包和招募仓库。",
+      "path": "categories/gacha.json",
+      "table_count": 6,
+      "row_count": 2224
+    },
+    {
+      "id": "quests",
+      "name": "任务、成就与引导",
+      "description": "主支线目标、日周任务、成就、教程和功能开放条件。",
+      "path": "categories/quests.json",
+      "table_count": 42,
+      "row_count": 2944
+    },
+    {
+      "id": "story_social",
+      "name": "剧情、档案与社交文本",
+      "description": "剧情章节、对话、约会、聊天、邮件、语音目录和 NPC 关系。",
+      "path": "categories/story_social.json",
+      "table_count": 34,
+      "row_count": 10116
+    },
+    {
+      "id": "stages_modes",
+      "name": "关卡与玩法模式",
+      "description": "楼层、关卡、副本、塔、Boss、试炼和各类活动玩法。",
+      "path": "categories/stages_modes.json",
+      "table_count": 237,
+      "row_count": 24895
+    },
+    {
+      "id": "activities",
+      "name": "活动、赛季与排行榜",
+      "description": "活动总表、活动组、签到、战令、赛季、排行和荣誉奖励。",
+      "path": "categories/activities.json",
+      "table_count": 39,
+      "row_count": 7002
+    },
+    {
+      "id": "shop_economy",
+      "name": "商店与经济系统",
+      "description": "商城、常驻/活动商店、商品包、月卡、体力购买和兑换。",
+      "path": "categories/shop_economy.json",
+      "table_count": 24,
+      "row_count": 1019
+    },
+    {
+      "id": "world_npc",
+      "name": "世界、怪物与 NPC",
+      "description": "怪物、NPC、阵营、地图、机关、陷阱和交互环境配置。",
+      "path": "categories/world_npc.json",
+      "table_count": 41,
+      "row_count": 40006
+    },
+    {
+      "id": "ui_system",
+      "name": "界面与系统配置",
+      "description": "UI 文本、顶部栏、弹窗、手柄、错误码和通用客户端配置。",
+      "path": "categories/ui_system.json",
+      "table_count": 21,
+      "row_count": 5446
+    },
+    {
+      "id": "localization_media",
+      "name": "本地化与媒体索引",
+      "description": "文本、语音、CG、漫画、气泡和媒体资源引用。",
+      "path": "categories/localization_media.json",
+      "table_count": 9,
+      "row_count": 12222
+    },
+    {
+      "id": "developer_test",
+      "name": "开发、GM 与测试数据",
+      "description": "GM、测试阵容、脚本参数和开发期辅助配置。",
+      "path": "categories/developer_test.json",
+      "table_count": 9,
+      "row_count": 1018
+    },
+    {
+      "id": "other",
+      "name": "其他未归类表",
+      "description": "未命中高置信度业务命名规则的配置表。",
+      "path": "categories/other.json",
+      "table_count": 18,
+      "row_count": 2150
+    }
+  ]
+}

@@ -1,0 +1,1254 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TourGuideQuest",
+    "categories": [
+      "quests"
+    ],
+    "row_count": 59,
+    "localization_hits": 59,
+    "source": "bin/TourGuideQuest.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1001": {
+      "Id": 1001,
+      "Order": 1000,
+      "Title": "TourGuideQuest.1001.1",
+      "JumpTo": 40,
+      "Reward1": 21,
+      "RewardQty1": 40,
+      "Reward2": 30003,
+      "RewardQty2": 5,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.1001.1",
+          "zh_TW": "在星塔探索中通過1次「原初的迷途」",
+          "zh_CN": "在星塔探索中通关1次「原初的迷途」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "1002": {
+      "Id": 1002,
+      "Order": 1000,
+      "Title": "TourGuideQuest.1002.1",
+      "JumpTo": 35,
+      "Reward1": 21,
+      "RewardQty1": 40,
+      "Reward2": 30003,
+      "RewardQty2": 5,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.1002.1",
+          "zh_TW": "通過「基礎試煉·難度1」",
+          "zh_CN": "通关「基础试炼·难度1」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "1003": {
+      "Id": 1003,
+      "Order": 1000,
+      "Title": "TourGuideQuest.1003.1",
+      "JumpTo": 33,
+      "Reward1": 21,
+      "RewardQty1": 50,
+      "Reward2": 30003,
+      "RewardQty2": 5,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.1003.1",
+          "zh_TW": "培養一名旅人至等級10",
+          "zh_CN": "培养一名旅人至等级10",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "1004": {
+      "Id": 1004,
+      "Order": 1000,
+      "Title": "TourGuideQuest.1004.1",
+      "JumpTo": 27,
+      "Reward1": 21,
+      "RewardQty1": 60,
+      "Reward2": 30003,
+      "RewardQty2": 5,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.1004.1",
+          "zh_TW": "在星塔探索中通過1次元素星塔",
+          "zh_CN": "在星塔探索中通关1次元素星塔",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "2001": {
+      "Id": 2001,
+      "Order": 2000,
+      "Title": "TourGuideQuest.2001.1",
+      "JumpTo": 26,
+      "Reward1": 20071,
+      "RewardQty1": 5,
+      "Reward2": 20081,
+      "RewardQty2": 5,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.2001.1",
+          "zh_TW": "在「晉升試煉」中滿星通過1種難度1的試煉",
+          "zh_CN": "在「晋升试炼」中满星通关1种难度1的试炼",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "2002": {
+      "Id": 2002,
+      "Order": 2000,
+      "Title": "TourGuideQuest.2002.1",
+      "JumpTo": 33,
+      "Reward1": 30003,
+      "RewardQty1": 10,
+      "Reward2": 21,
+      "RewardQty2": 80,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.2002.1",
+          "zh_TW": "將2名旅人提升至1階",
+          "zh_CN": "将2名旅人提升至1阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "2003": {
+      "Id": 2003,
+      "Order": 2000,
+      "Title": "TourGuideQuest.2003.1",
+      "JumpTo": 42,
+      "Reward1": 30003,
+      "RewardQty1": 10,
+      "Reward2": 1,
+      "RewardQty2": 200000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.2003.1",
+          "zh_TW": "在「心危擂台」中通過「無限競技·難度1」",
+          "zh_CN": "在「心危擂台」中通过「无极角斗·难度1」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "2004": {
+      "Id": 2004,
+      "Order": 2000,
+      "Title": "TourGuideQuest.2004.1",
+      "JumpTo": 41,
+      "Reward1": 82004,
+      "RewardQty1": 50,
+      "Reward2": 1,
+      "RewardQty2": 200000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.2004.1",
+          "zh_TW": "將任意1張祕紋升至1階",
+          "zh_CN": "将任意1张秘纹升至1阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "3001": {
+      "Id": 3001,
+      "Order": 3000,
+      "Title": "TourGuideQuest.3001.1",
+      "JumpTo": 54,
+      "Reward1": 82001,
+      "RewardQty1": 10,
+      "Reward2": 1,
+      "RewardQty2": 200000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.3001.1",
+          "zh_TW": "通過主線「第一章」",
+          "zh_CN": "通关主线「第一章」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "3002": {
+      "Id": 3002,
+      "Order": 3000,
+      "Title": "TourGuideQuest.3002.1",
+      "JumpTo": 33,
+      "Reward1": 82001,
+      "RewardQty1": 20,
+      "Reward2": 1,
+      "RewardQty2": 200000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.3002.1",
+          "zh_TW": "將任意3名旅人升至1階以上",
+          "zh_CN": "将任意3名旅人升至1阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "3003": {
+      "Id": 3003,
+      "Order": 3000,
+      "Title": "TourGuideQuest.3003.1",
+      "JumpTo": 41,
+      "Reward1": 82004,
+      "RewardQty1": 50,
+      "Reward2": 1,
+      "RewardQty2": 200000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.3003.1",
+          "zh_TW": "將任意3張祕紋升至1階以上",
+          "zh_CN": "将任意3张秘纹升至1阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "3004": {
+      "Id": 3004,
+      "Order": 3000,
+      "Title": "TourGuideQuest.3004.1",
+      "JumpTo": 33,
+      "Reward1": 82007,
+      "RewardQty1": 5,
+      "Reward2": 32000,
+      "RewardQty2": 20,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.3004.1",
+          "zh_TW": "將任意6個戰鬥技能升至2級以上",
+          "zh_CN": "将任意6个战斗技能升至2级以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "3005": {
+      "Id": 3005,
+      "Order": 3000,
+      "Title": "TourGuideQuest.3005.1",
+      "JumpTo": 72,
+      "Reward1": 30,
+      "RewardQty1": 1,
+      "Reward2": 1,
+      "RewardQty2": 200000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.3005.1",
+          "zh_TW": "在「星塔研究」中點亮「星梯的密碼」",
+          "zh_CN": "在「星塔研究」中点亮「星梯的密码」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "3006": {
+      "Id": 3006,
+      "Order": 3000,
+      "Title": "TourGuideQuest.3006.1",
+      "JumpTo": 27,
+      "Reward1": 82007,
+      "RewardQty1": 5,
+      "Reward2": 30,
+      "RewardQty2": 1,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.3006.1",
+          "zh_TW": "使用星梯搭乘票速通星塔1次",
+          "zh_CN": "使用星梯搭乘票速通星塔1次",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "3007": {
+      "Id": 3007,
+      "Order": 3000,
+      "Title": "TourGuideQuest.3007.1",
+      "JumpTo": 39,
+      "Reward1": 30003,
+      "RewardQty1": 10,
+      "Reward2": 1,
+      "RewardQty2": 500000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.3007.1",
+          "zh_TW": "「星塔事典」收錄角色潛能累計達30個",
+          "zh_CN": "「星塔事典」累计收录30个角色潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "3008": {
+      "Id": 3008,
+      "Order": 3000,
+      "Title": "TourGuideQuest.3008.1",
+      "JumpTo": 56,
+      "Reward1": 30003,
+      "RewardQty1": 10,
+      "Reward2": 1,
+      "RewardQty2": 500000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.3008.1",
+          "zh_TW": "「星塔事典」收錄軼聞筆記累計達5項",
+          "zh_CN": "「星塔事典」累计收录5项轶闻笔记",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "3009": {
+      "Id": 3009,
+      "Order": 3000,
+      "Title": "TourGuideQuest.3009.1",
+      "JumpTo": 72,
+      "Reward1": 82007,
+      "RewardQty1": 10,
+      "Reward2": 32000,
+      "RewardQty2": 30,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.3009.1",
+          "zh_TW": "在「星塔研究」中點亮「衝線的褒獎」",
+          "zh_CN": "在「星塔研究」中点亮「冲线的褒奖」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "3010": {
+      "Id": 3010,
+      "Order": 3000,
+      "Title": "TourGuideQuest.3010.1",
+      "JumpTo": 27,
+      "Reward1": 82001,
+      "RewardQty1": 50,
+      "Reward2": 1,
+      "RewardQty2": 500000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.3010.1",
+          "zh_TW": "在星塔中使用1次強化機",
+          "zh_CN": "在星塔中使用1次强化机",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "4001": {
+      "Id": 4001,
+      "Order": 4000,
+      "Title": "TourGuideQuest.4001.1",
+      "JumpTo": 54,
+      "Reward1": 30003,
+      "RewardQty1": 25,
+      "Reward2": 1,
+      "RewardQty2": 500000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.4001.1",
+          "zh_TW": "通過主線「第二章」",
+          "zh_CN": "通关主线「第二章」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "4002": {
+      "Id": 4002,
+      "Order": 4000,
+      "Title": "TourGuideQuest.4002.1",
+      "JumpTo": 33,
+      "Reward1": 82001,
+      "RewardQty1": 60,
+      "Reward2": 1,
+      "RewardQty2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.4002.1",
+          "zh_TW": "將任意4名旅人升至2階以上",
+          "zh_CN": "将任意4名旅人升至2阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "4003": {
+      "Id": 4003,
+      "Order": 4000,
+      "Title": "TourGuideQuest.4003.1",
+      "JumpTo": 41,
+      "Reward1": 82004,
+      "RewardQty1": 50,
+      "Reward2": 50003,
+      "RewardQty2": 20,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.4003.1",
+          "zh_TW": "將任意5張祕紋升至2階以上",
+          "zh_CN": "将任意5张秘纹升至2阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "4004": {
+      "Id": 4004,
+      "Order": 4000,
+      "Title": "TourGuideQuest.4004.1",
+      "JumpTo": 33,
+      "Reward1": 82007,
+      "RewardQty1": 5,
+      "Reward2": 32000,
+      "RewardQty2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.4004.1",
+          "zh_TW": "將任意4個戰鬥技能升至3級以上",
+          "zh_CN": "将任意4个战斗技能升至3级以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "4005": {
+      "Id": 4005,
+      "Order": 4000,
+      "Title": "TourGuideQuest.4005.1",
+      "JumpTo": 72,
+      "Reward1": 82007,
+      "RewardQty1": 5,
+      "Reward2": 32000,
+      "RewardQty2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.4005.1",
+          "zh_TW": "在「星塔研究」中點亮「命運的選擇」",
+          "zh_CN": "在「星塔研究」中点亮「命运的选择」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "4006": {
+      "Id": 4006,
+      "Order": 4000,
+      "Title": "TourGuideQuest.4006.1",
+      "JumpTo": 27,
+      "Reward1": 30,
+      "RewardQty1": 2,
+      "Reward2": 50003,
+      "RewardQty2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.4006.1",
+          "zh_TW": "「星塔事典」收錄軼聞筆記累計達15項",
+          "zh_CN": "「星塔事典」累计收录15项轶闻笔记",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "4007": {
+      "Id": 4007,
+      "Order": 4000,
+      "Title": "TourGuideQuest.4007.1",
+      "JumpTo": 27,
+      "Reward1": 82007,
+      "RewardQty1": 10,
+      "Reward2": 1,
+      "RewardQty2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.4007.1",
+          "zh_TW": "在星塔中使用6次強化機",
+          "zh_CN": "在星塔中使用6次强化机",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "4008": {
+      "Id": 4008,
+      "Order": 4000,
+      "Title": "TourGuideQuest.4008.1",
+      "JumpTo": 27,
+      "Reward1": 82007,
+      "RewardQty1": 10,
+      "Reward2": 32000,
+      "RewardQty2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.4008.1",
+          "zh_TW": "「星塔事典」收錄角色潛能累計達50個",
+          "zh_CN": "「星塔事典」累计收录50个角色潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "4009": {
+      "Id": 4009,
+      "Order": 4000,
+      "Title": "TourGuideQuest.4009.1",
+      "JumpTo": 26,
+      "Reward1": 82001,
+      "RewardQty1": 60,
+      "Reward2": 1,
+      "RewardQty2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.4009.1",
+          "zh_TW": "在「晉升試煉」中滿星通過3種難度2的試煉",
+          "zh_CN": "在「晋升试炼」中满星通关3种难度2的试炼",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "4010": {
+      "Id": 4010,
+      "Order": 4000,
+      "Title": "TourGuideQuest.4010.1",
+      "JumpTo": 35,
+      "Reward1": 82004,
+      "RewardQty1": 50,
+      "Reward2": 32000,
+      "RewardQty2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.4010.1",
+          "zh_TW": "滿星通過「基礎試煉·難度2」",
+          "zh_CN": "满星通关「基础试炼·难度2」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "4011": {
+      "Id": 4011,
+      "Order": 4000,
+      "Title": "TourGuideQuest.4011.1",
+      "JumpTo": 42,
+      "Reward1": 50003,
+      "RewardQty1": 20,
+      "Reward2": 1,
+      "RewardQty2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.4011.1",
+          "zh_TW": "在「心危擂台」中通過任2座擂台難度2",
+          "zh_CN": "在「心危擂台」中任意2座擂台通关难度2",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "5001": {
+      "Id": 5001,
+      "Order": 5000,
+      "Title": "TourGuideQuest.5001.1",
+      "JumpTo": 26,
+      "Reward1": 82001,
+      "RewardQty1": 50,
+      "Reward2": 30003,
+      "RewardQty2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.5001.1",
+          "zh_TW": "在「晉升試煉」中滿星通過3種難度3的試煉",
+          "zh_CN": "在「晋升试炼」中满星通关3种难度3的试炼",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "5002": {
+      "Id": 5002,
+      "Order": 5000,
+      "Title": "TourGuideQuest.5002.1",
+      "JumpTo": 35,
+      "Reward1": 82004,
+      "RewardQty1": 200,
+      "Reward2": 1,
+      "RewardQty2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.5002.1",
+          "zh_TW": "滿星通過「基礎試煉·難度3」",
+          "zh_CN": "满星通关「基础试炼·难度3」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "5003": {
+      "Id": 5003,
+      "Order": 5000,
+      "Title": "TourGuideQuest.5003.1",
+      "JumpTo": 33,
+      "Reward1": 82001,
+      "RewardQty1": 50,
+      "Reward2": 1,
+      "RewardQty2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.5003.1",
+          "zh_TW": "將任意6名旅人升至3階以上",
+          "zh_CN": "将任意6名旅人升至3阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "5004": {
+      "Id": 5004,
+      "Order": 5000,
+      "Title": "TourGuideQuest.5004.1",
+      "JumpTo": 41,
+      "Reward1": 82004,
+      "RewardQty1": 200,
+      "Reward2": 1,
+      "RewardQty2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.5004.1",
+          "zh_TW": "將任意5張祕紋升至3階以上",
+          "zh_CN": "将任意5张秘纹升至3阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "5005": {
+      "Id": 5005,
+      "Order": 5000,
+      "Title": "TourGuideQuest.5005.1",
+      "JumpTo": 33,
+      "Reward1": 82007,
+      "RewardQty1": 20,
+      "Reward2": 32000,
+      "RewardQty2": 25,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.5005.1",
+          "zh_TW": "將任意6個戰鬥技能升至3級以上",
+          "zh_CN": "将任意6个战斗技能升至3级以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "5006": {
+      "Id": 5006,
+      "Order": 5000,
+      "Title": "TourGuideQuest.5006.1",
+      "JumpTo": 42,
+      "Reward1": 50003,
+      "RewardQty1": 50,
+      "Reward2": 1,
+      "RewardQty2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.5006.1",
+          "zh_TW": "在「心危擂台」中通過任2座擂台難度3",
+          "zh_CN": "在「心危擂台」中任意2座擂台通关难度3",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "5007": {
+      "Id": 5007,
+      "Order": 5000,
+      "Title": "TourGuideQuest.5007.1",
+      "JumpTo": 61,
+      "Reward1": 82007,
+      "RewardQty1": 20,
+      "Reward2": 32000,
+      "RewardQty2": 25,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.5007.1",
+          "zh_TW": "通過指定災變防線關卡「港口防衛Ⅱ」",
+          "zh_CN": "通关指定灾变防线关卡「港口防卫Ⅱ」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "6001": {
+      "Id": 6001,
+      "Order": 6000,
+      "Title": "TourGuideQuest.6001.1",
+      "JumpTo": 26,
+      "Reward1": 82002,
+      "RewardQty1": 20,
+      "Reward2": 30003,
+      "RewardQty2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.6001.1",
+          "zh_TW": "在「晉升試煉」中滿星通過3種難度4的試煉",
+          "zh_CN": "在「晋升试炼」中满星通关3种难度4的试炼",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "6002": {
+      "Id": 6002,
+      "Order": 6000,
+      "Title": "TourGuideQuest.6002.1",
+      "JumpTo": 33,
+      "Reward1": 82001,
+      "RewardQty1": 100,
+      "Reward2": 1,
+      "RewardQty2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.6002.1",
+          "zh_TW": "將任意3名旅人升至4階以上",
+          "zh_CN": "将任意3名旅人升至4阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "6003": {
+      "Id": 6003,
+      "Order": 6000,
+      "Title": "TourGuideQuest.6003.1",
+      "JumpTo": 41,
+      "Reward1": 82004,
+      "RewardQty1": 300,
+      "Reward2": 50003,
+      "RewardQty2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.6003.1",
+          "zh_TW": "將任意5張祕紋升至4階以上",
+          "zh_CN": "将任意5张秘纹升至4阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "6004": {
+      "Id": 6004,
+      "Order": 6000,
+      "Title": "TourGuideQuest.6004.1",
+      "JumpTo": 33,
+      "Reward1": 82007,
+      "RewardQty1": 30,
+      "Reward2": 32000,
+      "RewardQty2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.6004.1",
+          "zh_TW": "將任意12個戰鬥技能升至3級以上",
+          "zh_CN": "将任意12个战斗技能升至3级以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "6005": {
+      "Id": 6005,
+      "Order": 6000,
+      "Title": "TourGuideQuest.6005.1",
+      "JumpTo": 42,
+      "Reward1": 82002,
+      "RewardQty1": 20,
+      "Reward2": 1,
+      "RewardQty2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.6005.1",
+          "zh_TW": "在「心危擂台」中通過任2座擂台難度4",
+          "zh_CN": "在「心危擂台」中任意2座擂台通关难度4",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "6006": {
+      "Id": 6006,
+      "Order": 6000,
+      "Title": "TourGuideQuest.6006.1",
+      "JumpTo": 61,
+      "Reward1": 82002,
+      "RewardQty1": 20,
+      "Reward2": 50003,
+      "RewardQty2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.6006.1",
+          "zh_TW": "通過指定災變防線關卡「港口防衛Ⅳ」",
+          "zh_CN": "通关指定灾变防线关卡「港口防卫Ⅳ」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "7001": {
+      "Id": 7001,
+      "Order": 7000,
+      "Title": "TourGuideQuest.7001.1",
+      "JumpTo": 35,
+      "Reward1": 82005,
+      "RewardQty1": 100,
+      "Reward2": 50003,
+      "RewardQty2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.7001.1",
+          "zh_TW": "滿星通過「基礎試煉·難度4」",
+          "zh_CN": "满星通关「基础试炼·难度4」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "7002": {
+      "Id": 7002,
+      "Order": 7000,
+      "Title": "TourGuideQuest.7002.1",
+      "JumpTo": 33,
+      "Reward1": 82002,
+      "RewardQty1": 20,
+      "Reward2": 30003,
+      "RewardQty2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.7002.1",
+          "zh_TW": "將任意4名旅人升至5階以上",
+          "zh_CN": "将任意4名旅人升至5阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "7003": {
+      "Id": 7003,
+      "Order": 7000,
+      "Title": "TourGuideQuest.7003.1",
+      "JumpTo": 41,
+      "Reward1": 82005,
+      "RewardQty1": 100,
+      "Reward2": 50003,
+      "RewardQty2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.7003.1",
+          "zh_TW": "將任意5張祕紋升至5階以上",
+          "zh_CN": "将任意5张秘纹升至5阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "7004": {
+      "Id": 7004,
+      "Order": 7000,
+      "Title": "TourGuideQuest.7004.1",
+      "JumpTo": 33,
+      "Reward1": 82007,
+      "RewardQty1": 20,
+      "Reward2": 32000,
+      "RewardQty2": 25,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.7004.1",
+          "zh_TW": "將任意6個戰鬥技能升至4級以上",
+          "zh_CN": "将任意6个战斗技能升至4级以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "7005": {
+      "Id": 7005,
+      "Order": 7000,
+      "Title": "TourGuideQuest.7005.1",
+      "JumpTo": 62011,
+      "Reward1": 82007,
+      "RewardQty1": 20,
+      "Reward2": 32000,
+      "RewardQty2": 25,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.7005.1",
+          "zh_TW": "在「真格挑戰」中通過3種難度1的關卡",
+          "zh_CN": "在「真格挑战」中通关3种难度1的关卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "7006": {
+      "Id": 7006,
+      "Order": 7000,
+      "Title": "TourGuideQuest.7006.1",
+      "JumpTo": 42,
+      "Reward1": 82002,
+      "RewardQty1": 20,
+      "Reward2": 1,
+      "RewardQty2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.7006.1",
+          "zh_TW": "在「心危擂台」中通過任2座擂台難度5 第5擂",
+          "zh_CN": "在「心危擂台」中任意2座擂台通关难度5 第5擂",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "8001": {
+      "Id": 8001,
+      "Order": 8000,
+      "Title": "TourGuideQuest.8001.1",
+      "JumpTo": 33,
+      "Reward1": 82002,
+      "RewardQty1": 20,
+      "Reward2": 82007,
+      "RewardQty2": 20,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.8001.1",
+          "zh_TW": "將任意6名旅人升至5階以上",
+          "zh_CN": "将任意6名旅人升至5阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "8002": {
+      "Id": 8002,
+      "Order": 8000,
+      "Title": "TourGuideQuest.8002.1",
+      "JumpTo": 41,
+      "Reward1": 82005,
+      "RewardQty1": 50,
+      "Reward2": 50004,
+      "RewardQty2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.8002.1",
+          "zh_TW": "將任意8張祕紋升至5階以上",
+          "zh_CN": "将任意8张秘纹升至5阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "8003": {
+      "Id": 8003,
+      "Order": 8000,
+      "Title": "TourGuideQuest.8003.1",
+      "JumpTo": 33,
+      "Reward1": 82007,
+      "RewardQty1": 20,
+      "Reward2": 32000,
+      "RewardQty2": 25,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.8003.1",
+          "zh_TW": "將任意12個戰鬥技能升至4級以上",
+          "zh_CN": "将任意12个战斗技能升至4级以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "8004": {
+      "Id": 8004,
+      "Order": 8000,
+      "Title": "TourGuideQuest.8004.1",
+      "JumpTo": 42,
+      "Reward1": 82007,
+      "RewardQty1": 10,
+      "Reward2": 82002,
+      "RewardQty2": 20,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.8004.1",
+          "zh_TW": "在「心危擂台」中通過任2座擂台難度5",
+          "zh_CN": "在「心危擂台」中任意2座擂台通关难度5",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "8005": {
+      "Id": 8005,
+      "Order": 8000,
+      "Title": "TourGuideQuest.8005.1",
+      "JumpTo": 67,
+      "Reward1": 82007,
+      "RewardQty1": 20,
+      "Reward2": 32000,
+      "RewardQty2": 25,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.8005.1",
+          "zh_TW": "在「紋章試煉」中完成1次戰鬥",
+          "zh_CN": "在「纹章试炼」中完成1次战斗",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "8006": {
+      "Id": 8006,
+      "Order": 8000,
+      "Title": "TourGuideQuest.8006.1",
+      "JumpTo": 61,
+      "Reward1": 82002,
+      "RewardQty1": 20,
+      "Reward2": 82005,
+      "RewardQty2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.8006.1",
+          "zh_TW": "通過指定災變防線關卡「港口防衛Ⅵ」",
+          "zh_CN": "通关指定灾变防线关卡「港口防卫Ⅵ」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "9001": {
+      "Id": 9001,
+      "Order": 9000,
+      "Title": "TourGuideQuest.9001.1",
+      "JumpTo": 33,
+      "Reward1": 82002,
+      "RewardQty1": 20,
+      "Reward2": 32000,
+      "RewardQty2": 25,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.9001.1",
+          "zh_TW": "將任意6名旅人升至6階以上",
+          "zh_CN": "将任意6名旅人升至6阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "9002": {
+      "Id": 9002,
+      "Order": 9000,
+      "Title": "TourGuideQuest.9002.1",
+      "JumpTo": 41,
+      "Reward1": 82005,
+      "RewardQty1": 50,
+      "Reward2": 50004,
+      "RewardQty2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.9002.1",
+          "zh_TW": "將任意8張祕紋升至6階以上",
+          "zh_CN": "将任意8张秘纹升至6阶以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "9003": {
+      "Id": 9003,
+      "Order": 9000,
+      "Title": "TourGuideQuest.9003.1",
+      "JumpTo": 33,
+      "Reward1": 82007,
+      "RewardQty1": 40,
+      "Reward2": 32000,
+      "RewardQty2": 25,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.9003.1",
+          "zh_TW": "將任意12個戰鬥技能升至5級以上",
+          "zh_CN": "将任意12个战斗技能升至5级以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "9004": {
+      "Id": 9004,
+      "Order": 9000,
+      "Title": "TourGuideQuest.9004.1",
+      "JumpTo": 42,
+      "Reward1": 82002,
+      "RewardQty1": 30,
+      "Reward2": 82007,
+      "RewardQty2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.9004.1",
+          "zh_TW": "在「心危擂台」中通過任2座擂台難度6 第5擂",
+          "zh_CN": "在「心危擂台」中任意2座擂台通关难度6 第5擂",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    },
+    "9005": {
+      "Id": 9005,
+      "Order": 9000,
+      "Title": "TourGuideQuest.9005.1",
+      "JumpTo": 61,
+      "Reward1": 50003,
+      "RewardQty1": 100,
+      "Reward2": 82005,
+      "RewardQty2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TourGuideQuest.9005.1",
+          "zh_TW": "通過指定災變防線關卡「魔物浪潮」",
+          "zh_CN": "通关指定灾变防线关卡「魔物浪潮」",
+          "sources": {
+            "zh_TW": "language/zh_TW/TourGuideQuest.json",
+            "zh_CN": "language/zh_CN/TourGuideQuest.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import importlib.util
 import json
 import shutil
 import sys
@@ -1008,6 +1009,9 @@ def doctor(settings: Settings) -> dict[str, Any]:
         "map_local_archive.py",
         "decode_local_tables.py",
         "build_local_datamine.py",
+        "lua53_catalog.py",
+        "recover_netmsg_ids.py",
+        "recover_protobuf.py",
     )
     missing_tools = [name for name in required_tools if not (settings.tools_root / name).is_file()]
     add("analysis_tools", not missing_tools, {"missing": missing_tools})
@@ -1015,6 +1019,11 @@ def doctor(settings: Settings) -> dict[str, Any]:
         "xxhash_dependency",
         (settings.analysis_root / "pydeps" / "xxhash").is_dir(),
         str(settings.analysis_root / "pydeps" / "xxhash"),
+    )
+    add(
+        "protobuf_dependency",
+        importlib.util.find_spec("google.protobuf") is not None,
+        "google.protobuf",
     )
     offline_files = [
         settings.offline_manifest_dir / name

@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "DemonAdvance",
+    "categories": [
+      "other"
+    ],
+    "row_count": 1,
+    "localization_hits": 1,
+    "source": "bin/DemonAdvance.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "AdvanceName": "DemonAdvance.1.1",
+      "LevelRange": [
+        1,
+        40
+      ],
+      "_localized": {
+        "/AdvanceName": {
+          "key": "DemonAdvance.1.1",
+          "zh_TW": "魔王權限等級",
+          "zh_CN": "魔王权限等级",
+          "sources": {
+            "zh_TW": "language/zh_TW/DemonAdvance.json",
+            "zh_CN": "language/zh_CN/DemonAdvance.json"
+          }
+        }
+      }
+    }
+  }
+}

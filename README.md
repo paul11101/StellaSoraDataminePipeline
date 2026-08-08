@@ -1,98 +1,161 @@
-# Stella Sora TW 自动化资料挖掘流水线
+# Stella Sora TW Datamine Pipeline and Local Server
 
-这是一个 Python 3.12 单项目流水线，复用同一工作区 `analysis/tools/` 中已经验证过的本地逆向工具。它完成：
+This repository contains a reproducible clean-room workflow for extracting structured data and
+recovering the network protocol from a locally installed Stella Sora TW client. It also contains
+a loopback-only Java server emulator designed around the same architecture principles as
+Grasscutter while implementing Stella Sora's actual protocol and data model.
 
-1. 获取官方资源清单，自动计算完整包与增量补丁链；
-2. 重建 `data.arcx` / `hotfix.arch`，提取并解密 BAR、AC.DA、XXTEA、LZ4 数据；
-3. 从本机 IL2CPP 元数据恢复文件名与字段常量；
-4. 解码 protobuf 表，生成分类、繁中/简中和可读 JSON；
-5. 与上一版本逐表、逐行、逐字段差分；
-6. 校验并生成带 SHA-256 的可复现 ZIP。
+The project is intended for private archival, interoperability research, and testing against a
+game installation you are authorized to analyze. It does not authenticate against production
+game services, forward gameplay traffic to production, or modify online account data.
 
-## 安装与配置
+## Components
 
-项目预期放在 StellaSora 工作区的 `automation/` 目录，旁边需要已有的
-`analysis/tools/` 和 `analysis/reference/StellaSoraData/`。本仓库不包含游戏文件、
-提取数据、官方资源缓存或参考仓库内容。
+### Datamine pipeline
+
+The Python 3.12 pipeline can:
+
+- inspect official manifests and calculate full-package or incremental patch chains;
+- rebuild `data.arcx` and `hotfix.arch` archives;
+- decode BAR, AC.DA, XXTEA, LZ4, and protobuf-backed tables;
+- recover archive paths and field constants from local IL2CPP metadata;
+- emit categorized, localized, readable JSON datasets;
+- compare two client versions at table, row, and field level;
+- generate reproducible archives with SHA-256 manifests;
+- recover message IDs, protobuf schemas, and protocol categories from `lua.arcx`;
+- stop with machine-readable diagnostics when a client update changes a format.
+
+### Local Java server
+
+The Java 21 server provides:
+
+- encrypted bootstrap documents and a loopback `/game/` endpoint;
+- P-256 ECDH, HKDF-SHA256, AES-GCM, and ChaCha20-Poly1305 support;
+- Stella Sora packet framing and chained `NextPackage` responses;
+- build-time Java generation from 294 recovered game `.proto` files;
+- dynamically loaded descriptors for discovery and future-version compatibility;
+- gameplay systems separated from transport routing;
+- JSON player persistence and local GM commands;
+- a categorized protocol coverage report;
+- a self-contained Windows executable with a bundled Java runtime;
+- Fiddler Classic scripts that redirect only the two static bootstrap documents.
+
+Current TW v137 coverage contains 973 cataloged messages and 286 client requests. Thirteen
+requests have authoritative typed Java handlers; the remaining requests are explicitly reported
+as temporary fallbacks and are not presented as completed gameplay logic.
+
+## Repository layout
+
+```text
+stella_pipeline/       Python extraction, protocol recovery, adapters, and diffing
+tests/                 Python regression tests
+server/                Java 21 local server and generated-protobuf build
+server/resources/      Versioned protocol, bootstrap, and complete recovered game data
+server_emulator/       Fiddler, launcher, and local admin helper scripts
+config.example.json    Datamine pipeline configuration template
+run.py / run.ps1       Pipeline entry points
+```
+
+## Python setup
 
 ```powershell
-cd automation
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -e .
 Copy-Item .\config.example.json .\config.json
 ```
 
-然后修改 `config.json` 中的游戏安装路径。`config.json` 只保存于本机，不会提交。
+Edit `config.json` and point `game_root` at the local Stella Sora TW installation. Local paths,
+caches, extracted runs, and credentials are ignored by Git.
 
-## 常用命令
-
-在本项目目录执行：
+Common commands:
 
 ```powershell
-# 环境检查
 .\run.ps1 doctor
-
-# 正常更新：联网读取最新官方清单和资源
 .\run.ps1 run
-
-# 离线复跑：使用 config.json 里的现有缓存
 .\run.ps1 run --offline
-
-# 失败后从原运行目录续跑；已完成且签名一致的阶段会跳过
-.\run.ps1 run --offline --resume --run-dir ..\analysis\automation\runs\20260802_120000
-
-# 单独比较两个数据集
-.\run.ps1 diff <旧数据集目录> <新数据集目录> --output <差分目录>
-
-# 查看最近一次完成运行
 .\run.ps1 status
+.\run.ps1 diff <old-dataset> <new-dataset> --output <diff-directory>
+.\run.ps1 protocol --archive <path-to-lua.arcx>
+.\run.ps1 protocol --hashes <directory-containing-xxh64.bin> --output <output-directory>
+.\run.ps1 protocol --archive <path-to-lua.arcx> --discover-only
 ```
 
-直接使用 Python 也可以：
+## Java server development
 
 ```powershell
-python .\run.py doctor
-python .\run.py run --offline
+cd .\server
+.\gradlew.bat test installDist --no-daemon
+.\build\install\stella-sora-server\bin\stella-sora-server.bat --config .\config.example.json
 ```
 
-## 输出结构
+After dependencies have been cached, add `--offline` to Gradle commands for repeatable local
+builds. Generated protobuf sources are written under
+`server/build/generated/sources/proto/main/java/proto/` and are not committed.
 
-每次运行写入独立目录 `analysis/automation/runs/<时间>/`：
+Build the self-contained Windows player release:
+
+```powershell
+cd .\server
+.\gradlew.bat portableServerZip --no-daemon
+```
+
+The archive is written to `server/build/release/`. Players must extract the complete directory;
+the executable depends on the adjacent private runtime, resources, and configuration files.
+
+## Fiddler Classic setup
+
+Close Fiddler Classic before applying the persistent HTTPS settings:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\server_emulator\Configure-Fiddler.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\server_emulator\Install-FiddlerRule.ps1
+```
+
+The rule redirects only:
 
 ```text
-state.json                 阶段状态、输入签名、错误与续跑依据
-client_snapshot.json       本机客户端版本和哈希
-manifests/                 官方清单、下载记录、自动计算的资源链
-archives/                  重建后的归档及 BSDIFF provenance
-metadata/                  本机元数据解密结果、字符串和字段常量
-extract/                   本地资源归档提取结果
-archive_name_map.json       文件名证据与 XXH64 本地验证
-dataset/                   最终分类可读 JSON 数据集
-diff/                      与上一版本的 JSON/Markdown 差分
-packages/                  确定性 ZIP 和 SHA-256 清单
-diagnostics/               格式或 schema 变化时的机器可读诊断
-release.json               本次发布总览
+https://nova-static.stargazer-games.com/meta/serverlist.html
+https://nova-static.stargazer-games.com/meta/win.html
 ```
 
-`analysis/automation/runs/latest.json` 只记录最近一次成功运行的位置，不覆盖旧版本。
+The returned server list points the game protocol endpoint to
+`http://127.0.0.1:18080/game/`. Fiddler is a bootstrap redirect and inspection layer, not the game
+server.
 
-## 后续版本结构变化
+## Protocol and gameplay coverage
 
-版本号没有写死。流水线先探测 BAR、元数据包装和表容器签名，再从
-`stella_pipeline/adapters/` 选择适配器。普通内容更新直接运行即可；如果格式改变，流水线会在破坏性解码前停止，并在 `diagnostics/` 写出实际签名和后续处理建议。
+At startup the Java server writes `server/runtime/protocol-coverage.json`. The same data is
+available from `GET /admin/protocol-coverage` with the configured `X-Admin-Key` header. Every
+client request is classified by feature category and implementation state.
 
-新增格式时保留同一个项目，只需增加适配器并调整对应解码模块。只有游戏更换引擎或资源体系完全重做时，才值得拆成另一个项目。
+The implementation roadmap is:
 
-## 数据来源约束
+1. player profile, characters, inventory, formations, and unlock state;
+2. main story, tutorial, stage application, battle settlement, and rewards;
+3. quests, gacha, shops, activities, mail, and local social features;
+4. contract tests and client regression for every implemented request;
+5. removal of the generic fallback once all required gameplay paths are authoritative.
 
-- 数据值来自本机重建并解密的 TW 官方资源；
-- 参考仓库只作为候选表名和字段 schema oracle；候选路径必须命中本地 XXH64；
-- 任何未映射文件、未知 protobuf 字段或解码失败都会让流水线失败，不会静默漏表；
-- 每个阶段只在验证产物后标记完成。
+See [`server/docs/architecture.md`](server/docs/architecture.md) for the server design and
+[`server/README.md`](server/README.md) for server-specific build details.
 
-## 发布范围
+## Version upgrades
 
-本仓库只发布自动化总控、版本适配器、差分器、测试和文档。不会发布游戏客户端、
-解包后的资源、服务端响应缓存、参考数据仓库或本机路径配置。本项目与游戏开发商及
-发行商无隶属或授权关系，请仅处理你有权分析的本地文件。
+The pipeline does not hard-code a single resource version. It probes archive and descriptor
+structure before destructive decoding. After recovering a new client version:
+
+1. generate the new datamine and protocol artifacts;
+2. run `server/tools/Sync-RecoveredResources.ps1`;
+3. regenerate Java protobuf classes;
+4. inspect the protocol coverage diff;
+5. update only the gameplay systems whose schemas or semantics changed;
+6. run the complete Python and Java test suites;
+7. build a new portable release.
+
+## Scope and attribution
+
+This project is not affiliated with or endorsed by the game's developer or publisher. Do not
+use it to access accounts, systems, or files you are not authorized to analyze. Keep recovered
+game data and client-derived artifacts in a private repository unless you have permission to
+redistribute them.

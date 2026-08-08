@@ -1,0 +1,407 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ActivityPenguinCardLevel",
+    "categories": [
+      "stages_modes",
+      "activities"
+    ],
+    "row_count": 17,
+    "localization_hits": 17,
+    "source": "bin/ActivityPenguinCardLevel.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1011": {
+      "Id": 1011,
+      "ActivityId": 800001,
+      "Name": "ActivityPenguinCardLevel.1011.1",
+      "StarScore": [
+        1000,
+        2000,
+        3000
+      ],
+      "FloorId": 101,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1011.1",
+          "zh_TW": "入鏡伊始",
+          "zh_CN": "入镜伊始",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1012": {
+      "Id": 1012,
+      "ActivityId": 800001,
+      "Name": "ActivityPenguinCardLevel.1012.1",
+      "Prev": 1011,
+      "StarScore": [
+        30000,
+        40000,
+        50000
+      ],
+      "FloorId": 102,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1012.1",
+          "zh_TW": "火之鏡",
+          "zh_CN": "火之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1013": {
+      "Id": 1013,
+      "ActivityId": 800001,
+      "Name": "ActivityPenguinCardLevel.1013.1",
+      "Prev": 1012,
+      "StarScore": [
+        30000,
+        50000,
+        70000
+      ],
+      "FloorId": 103,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1013.1",
+          "zh_TW": "水之鏡",
+          "zh_CN": "水之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1014": {
+      "Id": 1014,
+      "ActivityId": 800001,
+      "Name": "ActivityPenguinCardLevel.1014.1",
+      "Prev": 1013,
+      "StarScore": [
+        30000,
+        60000,
+        90000
+      ],
+      "FloorId": 104,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1014.1",
+          "zh_TW": "風之鏡",
+          "zh_CN": "风之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1015": {
+      "Id": 1015,
+      "ActivityId": 800001,
+      "Name": "ActivityPenguinCardLevel.1015.1",
+      "Prev": 1014,
+      "StarScore": [
+        50000,
+        100000,
+        200000
+      ],
+      "FloorId": 105,
+      "ScoreLevel": true,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1015.1",
+          "zh_TW": "終焉之鏡",
+          "zh_CN": "终焉之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1021": {
+      "Id": 1021,
+      "ActivityId": 800002,
+      "Name": "ActivityPenguinCardLevel.1021.1",
+      "StarScore": [
+        2000,
+        9990,
+        9999
+      ],
+      "FloorId": 201,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1021.1",
+          "zh_TW": "入鏡伊始",
+          "zh_CN": "入镜伊始",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1022": {
+      "Id": 1022,
+      "ActivityId": 800002,
+      "Name": "ActivityPenguinCardLevel.1022.1",
+      "Prev": 1021,
+      "StarScore": [
+        30000,
+        99990,
+        99999
+      ],
+      "FloorId": 202,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1022.1",
+          "zh_TW": "合約之鏡",
+          "zh_CN": "合约之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1023": {
+      "Id": 1023,
+      "ActivityId": 800002,
+      "Name": "ActivityPenguinCardLevel.1023.1",
+      "Prev": 1022,
+      "StarScore": [
+        50000,
+        99990,
+        99999
+      ],
+      "FloorId": 203,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1023.1",
+          "zh_TW": "火之鏡",
+          "zh_CN": "火之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1024": {
+      "Id": 1024,
+      "ActivityId": 800002,
+      "Name": "ActivityPenguinCardLevel.1024.1",
+      "Prev": 1023,
+      "StarScore": [
+        200000,
+        999990,
+        999999
+      ],
+      "FloorId": 204,
+      "ScoreLevel": true,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1024.1",
+          "zh_TW": "終焉之鏡",
+          "zh_CN": "终焉之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1031": {
+      "Id": 1031,
+      "ActivityId": 800003,
+      "Name": "ActivityPenguinCardLevel.1031.1",
+      "StarScore": [
+        2000,
+        9990,
+        9999
+      ],
+      "FloorId": 301,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1031.1",
+          "zh_TW": "入鏡伊始",
+          "zh_CN": "入镜伊始",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1032": {
+      "Id": 1032,
+      "ActivityId": 800003,
+      "Name": "ActivityPenguinCardLevel.1032.1",
+      "Prev": 1031,
+      "StarScore": [
+        30000,
+        99990,
+        99999
+      ],
+      "FloorId": 302,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1032.1",
+          "zh_TW": "合約之鏡",
+          "zh_CN": "合约之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1033": {
+      "Id": 1033,
+      "ActivityId": 800003,
+      "Name": "ActivityPenguinCardLevel.1033.1",
+      "Prev": 1032,
+      "StarScore": [
+        50000,
+        99990,
+        99999
+      ],
+      "FloorId": 303,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1033.1",
+          "zh_TW": "火之鏡",
+          "zh_CN": "火之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1034": {
+      "Id": 1034,
+      "ActivityId": 800003,
+      "Name": "ActivityPenguinCardLevel.1034.1",
+      "Prev": 1033,
+      "StarScore": [
+        200000,
+        999990,
+        999999
+      ],
+      "FloorId": 304,
+      "ScoreLevel": true,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1034.1",
+          "zh_TW": "終焉之鏡",
+          "zh_CN": "终焉之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1041": {
+      "Id": 1041,
+      "ActivityId": 800004,
+      "Name": "ActivityPenguinCardLevel.1041.1",
+      "StarScore": [
+        2000,
+        9990,
+        9999
+      ],
+      "FloorId": 401,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1041.1",
+          "zh_TW": "入鏡伊始",
+          "zh_CN": "入镜伊始",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1042": {
+      "Id": 1042,
+      "ActivityId": 800004,
+      "Name": "ActivityPenguinCardLevel.1042.1",
+      "Prev": 1041,
+      "StarScore": [
+        30000,
+        99990,
+        99999
+      ],
+      "FloorId": 402,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1042.1",
+          "zh_TW": "合約之鏡",
+          "zh_CN": "合约之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1043": {
+      "Id": 1043,
+      "ActivityId": 800004,
+      "Name": "ActivityPenguinCardLevel.1043.1",
+      "Prev": 1042,
+      "StarScore": [
+        50000,
+        99990,
+        99999
+      ],
+      "FloorId": 403,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1043.1",
+          "zh_TW": "火之鏡",
+          "zh_CN": "火之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    },
+    "1044": {
+      "Id": 1044,
+      "ActivityId": 800004,
+      "Name": "ActivityPenguinCardLevel.1044.1",
+      "Prev": 1043,
+      "StarScore": [
+        200000,
+        999990,
+        999999
+      ],
+      "FloorId": 404,
+      "ScoreLevel": true,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityPenguinCardLevel.1044.1",
+          "zh_TW": "終焉之鏡",
+          "zh_CN": "终焉之镜",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+            "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+          }
+        }
+      }
+    }
+  }
+}

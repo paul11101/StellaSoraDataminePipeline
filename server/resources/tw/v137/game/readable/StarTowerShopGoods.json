@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StarTowerShopGoods",
+    "categories": [
+      "stages_modes",
+      "shop_economy"
+    ],
+    "row_count": 8,
+    "localization_hits": 0,
+    "source": "bin/StarTowerShopGoods.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "GoodsGroupId": 1,
+      "ShowItem": 90003
+    },
+    "2": {
+      "Id": 2,
+      "GoodsGroupId": 1,
+      "ShowItem": 90003
+    },
+    "3": {
+      "Id": 3,
+      "GoodsGroupId": 2,
+      "ShowItem": 90002,
+      "ShowItemNum": 5
+    },
+    "4": {
+      "Id": 4,
+      "GoodsGroupId": 3,
+      "ShowItem": 90003
+    },
+    "5": {
+      "Id": 5,
+      "GoodsGroupId": 3,
+      "ShowItem": 90003
+    },
+    "6": {
+      "Id": 6,
+      "GoodsGroupId": 4,
+      "ShowItem": 90003
+    },
+    "7": {
+      "Id": 7,
+      "GoodsGroupId": 5,
+      "ShowItem": 90003
+    },
+    "8": {
+      "Id": 8,
+      "GoodsGroupId": 6,
+      "ShowItem": 90002,
+      "ShowItemNum": 15
+    }
+  }
+}

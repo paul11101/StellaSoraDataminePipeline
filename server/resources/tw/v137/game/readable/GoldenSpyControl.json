@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "GoldenSpyControl",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 2,
+    "localization_hits": 0,
+    "source": "bin/GoldenSpyControl.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "400008": {
+      "Id": 400008,
+      "LevelGroupList": [
+        101,
+        102,
+        103,
+        104
+      ],
+      "LevelPanelId": 416
+    },
+    "400012": {
+      "Id": 400012,
+      "LevelGroupList": [
+        201,
+        202,
+        203,
+        204
+      ],
+      "LevelPanelId": 473
+    }
+  }
+}

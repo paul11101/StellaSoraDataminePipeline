@@ -1,0 +1,185 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "GoldenSpyLevelGroup",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 8,
+    "localization_hits": 8,
+    "source": "bin/GoldenSpyLevelGroup.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "GroupName": "GoldenSpyLevelGroup.101.1",
+      "IconPath": "db_goldenspy_level_nml_01",
+      "LevelList": [
+        110101,
+        110102
+      ],
+      "LightName": "GoldenSpyPlatform1",
+      "_localized": {
+        "/GroupName": {
+          "key": "GoldenSpyLevelGroup.101.1",
+          "zh_TW": "幽暗花園",
+          "zh_CN": "幽暗花园",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevelGroup.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevelGroup.json"
+          }
+        }
+      }
+    },
+    "102": {
+      "Id": 102,
+      "GroupName": "GoldenSpyLevelGroup.102.1",
+      "IconPath": "db_goldenspy_level_nml_02",
+      "LevelList": [
+        110201,
+        110202
+      ],
+      "LightName": "GoldenSpyPlatform2",
+      "_localized": {
+        "/GroupName": {
+          "key": "GoldenSpyLevelGroup.102.1",
+          "zh_TW": "前廳暗影",
+          "zh_CN": "前厅暗影",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevelGroup.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevelGroup.json"
+          }
+        }
+      }
+    },
+    "103": {
+      "Id": 103,
+      "DayOpen": 1,
+      "GroupName": "GoldenSpyLevelGroup.103.1",
+      "IconPath": "db_goldenspy_level_nml_03",
+      "LevelList": [
+        110301,
+        110302
+      ],
+      "LightName": "GoldenSpyPlatform3",
+      "_localized": {
+        "/GroupName": {
+          "key": "GoldenSpyLevelGroup.103.1",
+          "zh_TW": "靜夜客房",
+          "zh_CN": "静夜客房",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevelGroup.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevelGroup.json"
+          }
+        }
+      }
+    },
+    "104": {
+      "Id": 104,
+      "DayOpen": 2,
+      "GroupName": "GoldenSpyLevelGroup.104.1",
+      "IconPath": "db_goldenspy_level_nml_04",
+      "LevelList": [
+        110401
+      ],
+      "LightName": "GoldenSpyPlatform4",
+      "_localized": {
+        "/GroupName": {
+          "key": "GoldenSpyLevelGroup.104.1",
+          "zh_TW": "宴會之夜",
+          "zh_CN": "宴会之夜",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevelGroup.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevelGroup.json"
+          }
+        }
+      }
+    },
+    "201": {
+      "Id": 201,
+      "GroupName": "GoldenSpyLevelGroup.201.1",
+      "IconPath": "db_goldenspy_level_nml_01",
+      "LevelList": [
+        120101,
+        120102
+      ],
+      "LightName": "GoldenSpyPlatform1",
+      "_localized": {
+        "/GroupName": {
+          "key": "GoldenSpyLevelGroup.201.1",
+          "zh_TW": "情報收集",
+          "zh_CN": "情报收集",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevelGroup.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevelGroup.json"
+          }
+        }
+      }
+    },
+    "202": {
+      "Id": 202,
+      "GroupName": "GoldenSpyLevelGroup.202.1",
+      "IconPath": "db_goldenspy_level_nml_02",
+      "LevelList": [
+        120201,
+        120202
+      ],
+      "LightName": "GoldenSpyPlatform2",
+      "_localized": {
+        "/GroupName": {
+          "key": "GoldenSpyLevelGroup.202.1",
+          "zh_TW": "制定計畫",
+          "zh_CN": "制定计划",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevelGroup.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevelGroup.json"
+          }
+        }
+      }
+    },
+    "203": {
+      "Id": 203,
+      "DayOpen": 1,
+      "GroupName": "GoldenSpyLevelGroup.203.1",
+      "IconPath": "db_goldenspy_level_nml_03",
+      "LevelList": [
+        120301,
+        120302
+      ],
+      "LightName": "GoldenSpyPlatform3",
+      "_localized": {
+        "/GroupName": {
+          "key": "GoldenSpyLevelGroup.203.1",
+          "zh_TW": "戰前演練",
+          "zh_CN": "战前演练",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevelGroup.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevelGroup.json"
+          }
+        }
+      }
+    },
+    "204": {
+      "Id": 204,
+      "DayOpen": 2,
+      "GroupName": "GoldenSpyLevelGroup.204.1",
+      "IconPath": "db_goldenspy_level_nml_04",
+      "LevelList": [
+        120401
+      ],
+      "LightName": "GoldenSpyPlatform4",
+      "_localized": {
+        "/GroupName": {
+          "key": "GoldenSpyLevelGroup.204.1",
+          "zh_TW": "礦洞突襲",
+          "zh_CN": "矿洞突袭",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevelGroup.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevelGroup.json"
+          }
+        }
+      }
+    }
+  }
+}

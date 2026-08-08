@@ -1,0 +1,324 @@
+{
+  "table": "CharacterArchive",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\3eeb781c75ac9261.bin",
+  "source_sha256": "14e102fb92a020ba883164a989d10f112429ecfb2d9c411e51bc8d5f1c058da7",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\CharacterArchive.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 481
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "reference_field_order": [
+      "Id",
+      "ArchType",
+      "CharacterId",
+      "UnlockAffinityLevel",
+      "RecordId",
+      "Sort",
+      "ArchReward",
+      "ArchRewardQuantity"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 8,
+    "remaining_name_count": 8,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 481,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "ArchType",
+        "matching_reference_rows": 481,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "CharacterId",
+        "matching_reference_rows": 481,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "UnlockAffinityLevel",
+        "matching_reference_rows": 370,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "RecordId",
+        "matching_reference_rows": 481,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "Sort",
+        "matching_reference_rows": 481,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "ArchReward",
+        "matching_reference_rows": 111,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "ArchRewardQuantity",
+        "matching_reference_rows": 111,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 481,
+      "compared_reference_rows": 481,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 481,
+          "compared": 481
+        },
+        {
+          "codec": "varint_int",
+          "matches": 481,
+          "compared": 481
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 481
+        }
+      ]
+    },
+    "2": {
+      "field": "ArchType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 481,
+      "compared_reference_rows": 481,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 481,
+          "compared": 481
+        },
+        {
+          "codec": "varint_int",
+          "matches": 481,
+          "compared": 481
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 481
+        }
+      ]
+    },
+    "3": {
+      "field": "CharacterId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 481,
+      "compared_reference_rows": 481,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 481,
+          "compared": 481
+        },
+        {
+          "codec": "varint_int",
+          "matches": 481,
+          "compared": 481
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 481
+        }
+      ]
+    },
+    "4": {
+      "field": "UnlockAffinityLevel",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 370,
+      "compared_reference_rows": 370,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 370,
+          "compared": 370
+        },
+        {
+          "codec": "varint_int",
+          "matches": 370,
+          "compared": 370
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 370
+        }
+      ]
+    },
+    "5": {
+      "field": "RecordId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 481,
+      "compared_reference_rows": 481,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 481,
+          "compared": 481
+        },
+        {
+          "codec": "varint_int",
+          "matches": 481,
+          "compared": 481
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 481
+        }
+      ]
+    },
+    "6": {
+      "field": "Sort",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 481,
+      "compared_reference_rows": 481,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 481,
+          "compared": 481
+        },
+        {
+          "codec": "varint_int",
+          "matches": 481,
+          "compared": 481
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 481
+        }
+      ]
+    },
+    "7": {
+      "field": "ArchReward",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 111,
+      "compared_reference_rows": 111,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 111,
+          "compared": 111
+        },
+        {
+          "codec": "varint_int",
+          "matches": 111,
+          "compared": 111
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 111
+        }
+      ]
+    },
+    "8": {
+      "field": "ArchRewardQuantity",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 111,
+      "compared_reference_rows": 111,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 111,
+          "compared": 111
+        },
+        {
+          "codec": "varint_int",
+          "matches": 111,
+          "compared": 111
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 111
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 481,
+    "reference_row_count": 481,
+    "shared_key_count": 481,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 481,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "DiscItemExp",
+    "categories": [
+      "discs",
+      "items_rewards"
+    ],
+    "row_count": 4,
+    "localization_hits": 0,
+    "source": "bin/DiscItemExp.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "ItemId": 50001,
+      "Exp": 1000
+    },
+    "2": {
+      "Id": 2,
+      "ItemId": 50002,
+      "Exp": 5000
+    },
+    "3": {
+      "Id": 3,
+      "ItemId": 50003,
+      "Exp": 10000
+    },
+    "4": {
+      "Id": 4,
+      "ItemId": 50004,
+      "Exp": 20000
+    }
+  }
+}

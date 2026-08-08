@@ -1,0 +1,225 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "JointDrillControl",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 6,
+    "localization_hits": 12,
+    "source": "bin/JointDrillControl.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "510001": {
+      "Id": 510001,
+      "Type": 1,
+      "DrillStartTime": 86400,
+      "DrillDurationTime": 554400,
+      "DrillLevelGroupId": 51001,
+      "DrillQuestGroupId": 1001,
+      "PlotTitle": "JointDrillControl.510001.4",
+      "PlotDesc": "JointDrillControl.510001.5",
+      "BG": "UI_Activity/_510001/SpriteAtlas/bg_jointdrill",
+      "DrillPrefab": "_510001/jointDrill_act_01",
+      "CtrlName": "JointDrillActCtrl",
+      "DescText": "JointDrillControl.510001.2",
+      "DetailDesc": "JointDrillControl.510001.3",
+      "_localized": {
+        "/DescText": {
+          "key": "JointDrillControl.510001.2",
+          "zh_TW": "將恐懼當成禮儀，以偏執滋養絕望。\u000b她的劇目裡，演繹著最為古老的惡夢。",
+          "zh_CN": "将恐惧当成礼仪，以偏执滋养绝望。\u000b她的剧目里，演绎着最为古老的噩梦。",
+          "sources": {
+            "zh_TW": "language/zh_TW/JointDrillControl.json",
+            "zh_CN": "language/zh_CN/JointDrillControl.json"
+          }
+        },
+        "/DetailDesc": {
+          "key": "JointDrillControl.510001.3",
+          "zh_TW": "在終焉絕響活動開啟期間，每天有三次挑戰機會，可選擇任意已解鎖的難度進行挑戰，並基於戰鬥結果獲得代幣以及排名積分。\u000b挑戰將持續一段時間，在此時限內可以派遣多個行動隊進行多輪次戰鬥，但是每個行動隊內的旅人不可重複出戰。\u000b戰鬥勝利時將根據挑戰難度以及戰鬥時長獲得積分。時長耗盡或是戰鬥次數耗盡時同樣可以結算並獲得一定積分。\u000b每個活動週期可透過累積積分領取任務獎勵。",
+          "zh_CN": "在终焉绝响活动开启期间，每天有三次挑战机会，可选择任意已解锁的难度进行挑战，并基于战斗结果获得代币以及排名积分。\u000b挑战将持续一段时间，在此时限内可以派遣多个行动队进行多轮次战斗，但是每个行动队内的旅人不可重复出战。\u000b战斗胜利时将根据挑战难度以及战斗时长获得积分。时长耗尽或是战斗次数耗尽时同样可以结算并获得一定积分。\u000b每个活动周期通过积累积分可以领取任务奖励。",
+          "sources": {
+            "zh_TW": "language/zh_TW/JointDrillControl.json",
+            "zh_CN": "language/zh_CN/JointDrillControl.json"
+          }
+        }
+      }
+    },
+    "510002": {
+      "Id": 510002,
+      "Type": 1,
+      "DrillStartTime": 86400,
+      "DrillDurationTime": 572400,
+      "DrillLevelGroupId": 51002,
+      "DrillQuestGroupId": 1002,
+      "PlotTitle": "JointDrillControl.510002.4",
+      "PlotDesc": "JointDrillControl.510002.5",
+      "BG": "UI_Activity/_510001/SpriteAtlas/bg_jointdrill",
+      "DrillPrefab": "_510001/jointDrill_act_01",
+      "CtrlName": "JointDrillActCtrl",
+      "DescText": "JointDrillControl.510002.2",
+      "DetailDesc": "JointDrillControl.510002.3",
+      "_localized": {
+        "/DescText": {
+          "key": "JointDrillControl.510002.2",
+          "zh_TW": "將恐懼當成禮儀，以偏執滋養絕望。\u000b她的劇目裡，演繹著最為古老的惡夢。",
+          "zh_CN": "将恐惧当成礼仪，以偏执滋养绝望。\u000b她的剧目里，演绎着最为古老的噩梦。",
+          "sources": {
+            "zh_TW": "language/zh_TW/JointDrillControl.json",
+            "zh_CN": "language/zh_CN/JointDrillControl.json"
+          }
+        },
+        "/DetailDesc": {
+          "key": "JointDrillControl.510002.3",
+          "zh_TW": "在終焉絕響活動開啟期間，每天有三次挑戰機會，可選擇任意已解鎖的難度進行挑戰，並基於戰鬥結果獲得代幣以及排名積分。\u000b挑戰將持續一段時間，在此時限內可以派遣多個行動隊進行多輪次戰鬥，但是每個行動隊內的旅人不可重複出戰。\u000b戰鬥勝利時將根據挑戰難度以及戰鬥時長獲得積分。時長耗盡或是戰鬥次數耗盡時同樣可以結算並獲得一定積分。\u000b每個活動週期可透過累積積分領取任務獎勵。",
+          "zh_CN": "在终焉绝响活动开启期间，每天有三次挑战机会，可选择任意已解锁的难度进行挑战，并基于战斗结果获得代币以及排名积分。\u000b挑战将持续一段时间，在此时限内可以派遣多个行动队进行多轮次战斗，但是每个行动队内的旅人不可重复出战。\u000b战斗胜利时将根据挑战难度以及战斗时长获得积分。时长耗尽或是战斗次数耗尽时同样可以结算并获得一定积分。\u000b每个活动周期通过积累积分可以领取任务奖励。",
+          "sources": {
+            "zh_TW": "language/zh_TW/JointDrillControl.json",
+            "zh_CN": "language/zh_CN/JointDrillControl.json"
+          }
+        }
+      }
+    },
+    "510003": {
+      "Id": 510003,
+      "Type": 2,
+      "DrillStartTime": 86400,
+      "DrillDurationTime": 572400,
+      "DrillLevelGroupId": 51003,
+      "DrillQuestGroupId": 1003,
+      "PlotTitle": "JointDrillControl.510003.4",
+      "PlotDesc": "JointDrillControl.510003.5",
+      "BG": "UI_Activity/_510003/SpriteAtlas/bg_jointdrill",
+      "DrillPrefab": "_510003/jointDrill_act_01",
+      "CtrlName": "JointDrillActCtrl",
+      "DescText": "JointDrillControl.510003.2",
+      "DetailDesc": "JointDrillControl.510003.3",
+      "_localized": {
+        "/DescText": {
+          "key": "JointDrillControl.510003.2",
+          "zh_TW": "戰車碾碎大地，高唱眾生破滅的凱歌。\u000b她重演無數次戰爭，唯有瘋狂永恆不變。",
+          "zh_CN": "战车碾碎大地，高唱众生破灭的凯歌。\u000b她重演无数次战争，唯有疯狂永恒不变。",
+          "sources": {
+            "zh_TW": "language/zh_TW/JointDrillControl.json",
+            "zh_CN": "language/zh_CN/JointDrillControl.json"
+          }
+        },
+        "/DetailDesc": {
+          "key": "JointDrillControl.510003.3",
+          "zh_TW": "在終焉絕響活動開啟期間，每天有三次挑戰機會，可選擇任意已解鎖的難度進行挑戰，並基於戰鬥結果獲得代幣以及排名積分。\u000b挑戰將持續一段時間，在此時限內可以派遣多個行動隊進行多輪次戰鬥，但是每個行動隊內的旅人不可重複出戰。\u000b戰鬥勝利時將根據挑戰難度以及戰鬥時長獲得積分。時長耗盡或是戰鬥次數耗盡時同樣可以結算並獲得一定積分。\u000b每個活動週期可透過累積積分領取任務獎勵。",
+          "zh_CN": "在终焉绝响活动开启期间，每天有三次挑战机会，可选择任意已解锁的难度进行挑战，并基于战斗结果获得代币以及排名积分。\u000b挑战将持续一段时间，在此时限内可以派遣多个行动队进行多轮次战斗，但是每个行动队内的旅人不可重复出战。\u000b战斗胜利时将根据挑战难度以及战斗时长获得积分。时长耗尽或是战斗次数耗尽时同样可以结算并获得一定积分。\u000b每个活动周期通过积累积分可以领取任务奖励。",
+          "sources": {
+            "zh_TW": "language/zh_TW/JointDrillControl.json",
+            "zh_CN": "language/zh_CN/JointDrillControl.json"
+          }
+        }
+      }
+    },
+    "510004": {
+      "Id": 510004,
+      "Type": 1,
+      "DrillStartTime": 86400,
+      "DrillDurationTime": 572400,
+      "DrillLevelGroupId": 51004,
+      "DrillQuestGroupId": 1004,
+      "PlotTitle": "JointDrillControl.510004.4",
+      "PlotDesc": "JointDrillControl.510004.5",
+      "BG": "UI_Activity/_510001/SpriteAtlas/bg_jointdrill",
+      "DrillPrefab": "_510001/jointDrill_act_01",
+      "CtrlName": "JointDrillActCtrl",
+      "DescText": "JointDrillControl.510004.2",
+      "DetailDesc": "JointDrillControl.510004.3",
+      "_localized": {
+        "/DescText": {
+          "key": "JointDrillControl.510004.2",
+          "zh_TW": "將恐懼當成禮儀，以偏執滋養絕望。\u000b她的劇目裡，演繹著最為古老的惡夢。",
+          "zh_CN": "将恐惧当成礼仪，以偏执滋养绝望。\u000b她的剧目里，演绎着最为古老的噩梦。",
+          "sources": {
+            "zh_TW": "language/zh_TW/JointDrillControl.json",
+            "zh_CN": "language/zh_CN/JointDrillControl.json"
+          }
+        },
+        "/DetailDesc": {
+          "key": "JointDrillControl.510004.3",
+          "zh_TW": "在終焉絕響活動開啟期間，每天有三次挑戰機會，可選擇任意已解鎖的難度進行挑戰，並基於戰鬥結果獲得代幣以及排名積分。\u000b挑戰將持續一段時間，在此時限內可以派遣多個行動隊進行多輪次戰鬥，但是每個行動隊內的旅人不可重複出戰。\u000b戰鬥勝利時將根據挑戰難度以及戰鬥時長獲得積分。時長耗盡或是戰鬥次數耗盡時同樣可以結算並獲得一定積分。\u000b每個活動週期可透過累積積分領取任務獎勵。",
+          "zh_CN": "在终焉绝响活动开启期间，每天有三次挑战机会，可选择任意已解锁的难度进行挑战，并基于战斗结果获得代币以及排名积分。\u000b挑战将持续一段时间，在此时限内可以派遣多个行动队进行多轮次战斗，但是每个行动队内的旅人不可重复出战。\u000b战斗胜利时将根据挑战难度以及战斗时长获得积分。时长耗尽或是战斗次数耗尽时同样可以结算并获得一定积分。\u000b每个活动周期通过积累积分可以领取任务奖励。",
+          "sources": {
+            "zh_TW": "language/zh_TW/JointDrillControl.json",
+            "zh_CN": "language/zh_CN/JointDrillControl.json"
+          }
+        }
+      }
+    },
+    "510005": {
+      "Id": 510005,
+      "Type": 2,
+      "DrillStartTime": 86400,
+      "DrillDurationTime": 572400,
+      "DrillLevelGroupId": 51005,
+      "DrillQuestGroupId": 1005,
+      "PlotTitle": "JointDrillControl.510005.4",
+      "PlotDesc": "JointDrillControl.510005.5",
+      "BG": "UI_Activity/_510005/SpriteAtlas/bg_jointdrill",
+      "DrillPrefab": "_510005/jointDrill_act_01",
+      "CtrlName": "JointDrillActCtrl",
+      "DescText": "JointDrillControl.510005.2",
+      "DetailDesc": "JointDrillControl.510005.3",
+      "_localized": {
+        "/DescText": {
+          "key": "JointDrillControl.510005.2",
+          "zh_TW": "戰車碾碎大地，高唱眾生破滅的凱歌。\u000b她重演無數次戰爭，唯有瘋狂永恆不變。",
+          "zh_CN": "战车碾碎大地，高唱众生破灭的凯歌。\u000b她重演无数次战争，唯有疯狂永恒不变。",
+          "sources": {
+            "zh_TW": "language/zh_TW/JointDrillControl.json",
+            "zh_CN": "language/zh_CN/JointDrillControl.json"
+          }
+        },
+        "/DetailDesc": {
+          "key": "JointDrillControl.510005.3",
+          "zh_TW": "在終焉絕響活動開啟期間，每天有三次挑戰機會，可選擇任意已解鎖的難度進行挑戰，並基於戰鬥結果獲得代幣以及排名積分。\u000b挑戰將持續一段時間，在此時限內可以派遣多個行動隊進行多輪次戰鬥，但是每個行動隊內的旅人不可重複出戰。\u000b戰鬥勝利時將根據挑戰難度以及戰鬥時長獲得積分。時長耗盡或是戰鬥次數耗盡時同樣可以結算並獲得一定積分。\u000b每個活動週期可透過累積積分領取任務獎勵。",
+          "zh_CN": "在终焉绝响活动开启期间，每天有三次挑战机会，可选择任意已解锁的难度进行挑战，并基于战斗结果获得代币以及排名积分。\u000b挑战将持续一段时间，在此时限内可以派遣多个行动队进行多轮次战斗，但是每个行动队内的旅人不可重复出战。\u000b战斗胜利时将根据挑战难度以及战斗时长获得积分。时长耗尽或是战斗次数耗尽时同样可以结算并获得一定积分。\u000b每个活动周期通过积累积分可以领取任务奖励。",
+          "sources": {
+            "zh_TW": "language/zh_TW/JointDrillControl.json",
+            "zh_CN": "language/zh_CN/JointDrillControl.json"
+          }
+        }
+      }
+    },
+    "510006": {
+      "Id": 510006,
+      "Type": 2,
+      "DrillStartTime": 86400,
+      "DrillDurationTime": 572400,
+      "DrillLevelGroupId": 51006,
+      "DrillQuestGroupId": 1006,
+      "PlotTitle": "JointDrillControl.510006.4",
+      "PlotDesc": "JointDrillControl.510006.5",
+      "BG": "UI_Activity/_510006/SpriteAtlas/bg_jointdrill",
+      "DrillPrefab": "_510006/jointDrill_act_01",
+      "CtrlName": "JointDrillActCtrl",
+      "DescText": "JointDrillControl.510006.2",
+      "DetailDesc": "JointDrillControl.510006.3",
+      "_localized": {
+        "/DescText": {
+          "key": "JointDrillControl.510006.2",
+          "zh_TW": "戰車碾碎大地，高唱眾生破滅的凱歌。\u000b她重演無數次戰爭，唯有瘋狂永恆不變。",
+          "zh_CN": "战车碾碎大地，高唱众生破灭的凯歌。\u000b她重演无数次战争，唯有疯狂永恒不变。",
+          "sources": {
+            "zh_TW": "language/zh_TW/JointDrillControl.json",
+            "zh_CN": "language/zh_CN/JointDrillControl.json"
+          }
+        },
+        "/DetailDesc": {
+          "key": "JointDrillControl.510006.3",
+          "zh_TW": "在終焉絕響活動開啟期間，每天有三次挑戰機會，可選擇任意已解鎖的難度進行挑戰，並基於戰鬥結果獲得代幣以及排名積分。\u000b挑戰將持續一段時間，在此時限內可以派遣多個行動隊進行多輪次戰鬥，但是每個行動隊內的旅人不可重複出戰。\u000b戰鬥勝利時將根據挑戰難度以及戰鬥時長獲得積分。時長耗盡或是戰鬥次數耗盡時同樣可以結算並獲得一定積分。\u000b每個活動週期可透過累積積分領取任務獎勵。",
+          "zh_CN": "在终焉绝响活动开启期间，每天有三次挑战机会，可选择任意已解锁的难度进行挑战，并基于战斗结果获得代币以及排名积分。\u000b挑战将持续一段时间，在此时限内可以派遣多个行动队进行多轮次战斗，但是每个行动队内的旅人不可重复出战。\u000b战斗胜利时将根据挑战难度以及战斗时长获得积分。时长耗尽或是战斗次数耗尽时同样可以结算并获得一定积分。\u000b每个活动周期通过积累积分可以领取任务奖励。",
+          "sources": {
+            "zh_TW": "language/zh_TW/JointDrillControl.json",
+            "zh_CN": "language/zh_CN/JointDrillControl.json"
+          }
+        }
+      }
+    }
+  }
+}

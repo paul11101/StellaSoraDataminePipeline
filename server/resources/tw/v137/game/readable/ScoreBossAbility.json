@@ -1,0 +1,776 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ScoreBossAbility",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 21,
+    "localization_hits": 42,
+    "source": "bin/ScoreBossAbility.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "100000": {
+      "Id": 100000,
+      "Name": "ScoreBossAbility.100000.1",
+      "Desc": "ScoreBossAbility.100000.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_001",
+      "Value1": "0",
+      "Value2": "0",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100000.1",
+          "zh_TW": "!NONEED!",
+          "zh_CN": "测试用",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100000.2",
+          "zh_TW": "無",
+          "zh_CN": "无",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100001": {
+      "Id": 100001,
+      "Name": "ScoreBossAbility.100001.1",
+      "Desc": "ScoreBossAbility.100001.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_001",
+      "ScriptID": [
+        "100001"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100001,Value1,Pct",
+      "Param2": "ScoreBossAbility,NoLevel,100001,Value2,Pct",
+      "Value1": "20",
+      "Value2": "50",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100001.1",
+          "zh_TW": "星脈狂暴",
+          "zh_CN": "星脉狂暴",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100001.2",
+          "zh_TW": "首領敵人初始擁有1層「狂暴」，且每10秒獲得1層「狂暴」，每層「狂暴」使首領敵人造成的傷害提升<color=#ec6d21>&Param1&</color>，最多疊加5層。\n當己方在2秒內對首領敵人累計造成10次傷害後，可移除首領敵人全部的「狂暴」層數；同時主控角色獲得10層「增幅」，最多疊加10層，主控角色每次造成傷害時，移除1層「增幅」，並使該次傷害提升<color=#ec6d21>&Param2&</color>",
+          "zh_CN": "首领敌人初始拥有1层「狂暴」，且每10秒获得1层「狂暴」，每层「狂暴」使首领敌人造成伤害提升<color=#ec6d21>&Param1&</color>，最多叠加5层。\n当己方在2秒内对首领敌人累计造成10次伤害后，可移除首领敌人全部「狂暴」层数；同时主控角色获得10层「增幅」，最多叠加10层，主控角色每次造成伤害时移除1层「增幅」使该次伤害提升<color=#ec6d21>&Param2&</color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100002": {
+      "Id": 100002,
+      "Name": "ScoreBossAbility.100002.1",
+      "Desc": "ScoreBossAbility.100002.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_002",
+      "ScriptID": [
+        "100002"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100002,Value1,Pct",
+      "Param2": "ScoreBossAbility,NoLevel,100002,Value2,Pct",
+      "Value1": "30",
+      "Value2": "30",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100002.1",
+          "zh_TW": "災厄火環",
+          "zh_CN": "灾厄火环",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100002.2",
+          "zh_TW": "首領敵人擁有「火環」時，使首領敵人造成的傷害提升<color=#ec6d21>&Param1&</color>，且持續對環內的玩家角色造成傷害。\n當己方在5秒內，對首領敵人累計觸發3次「元素印記」後，可獲得「強化」使全隊普攻傷害提升<color=#ec6d21>&Param2&</color>，持續10秒，同時讓首領敵人的「火環」失效10秒",
+          "zh_CN": "首领敌人拥有「火环」使首领敌人造成伤害提升<color=#ec6d21>&Param1&</color>，且持续对环内的玩家角色造成伤害。\n当己方在5秒内，对首领敌人累计触发3次「元素印记」后，可获得「强化」使全队普攻伤害提升<color=#ec6d21>&Param2&</color>持续10秒，同时让首领敌人「火环」失效10秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100003": {
+      "Id": 100003,
+      "Name": "ScoreBossAbility.100003.1",
+      "Desc": "ScoreBossAbility.100003.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_006",
+      "ScriptID": [
+        "100003"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100003,Value1,Pct",
+      "Param2": "ScoreBossAbility,NoLevel,100003,Value2,Pct",
+      "Value1": "10",
+      "Value2": "100",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100003.1",
+          "zh_TW": "淋漓酣戰",
+          "zh_CN": "淋漓酣战",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100003.2",
+          "zh_TW": "首領每5秒獲得1層「酣戰」，使自身造成的傷害提升<color=#ec6d21>&Param1&</color>，最多疊加5層。\n主控角色觸發「印記」時，移除1層「酣戰」。成功移除「酣戰」時，全隊獲得20點能量，並使首領受到的絕招傷害提升<color=#ec6d21>&Param2&</color>，持續10秒，重複觸發會重置時間",
+          "zh_CN": "首领每5秒获得1层「酣战」,使自身造成的伤害提升<color=#ec6d21>&Param1&</color>，最多叠加5层。\n主控角色触发「印记」时，移除1层「酣战」。成功移除「酣战」时，全队获得20点能量，并使首领受到绝招伤害提升<color=#ec6d21>&Param2&</color>，持续10秒，每次触发重置时间",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100004": {
+      "Id": 100004,
+      "Name": "ScoreBossAbility.100004.1",
+      "Desc": "ScoreBossAbility.100004.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_005",
+      "ScriptID": [
+        "100004"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100004,Value1,Pct",
+      "Param2": "ScoreBossAbility,NoLevel,100004,Value2,Pct",
+      "Value1": "30",
+      "Value2": "65",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100004.1",
+          "zh_TW": "噬心暗環",
+          "zh_CN": "噬心暗环",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100004.2",
+          "zh_TW": "首領擁有「暗環」時，使首領敵人造成的傷害提升<color=#ec6d21>&Param1&</color>，且每5秒產生一道造成傷害的擴散暗環\n己方在3秒內對首領敵人累計造成20次傷害後，可使首領敵人的「暗環」失效15秒，且期間受到援護位角色造成的技能傷害提升<color=#ec6d21>&Param2&</color>",
+          "zh_CN": "首领拥有「暗环」时自身造成伤害提升<color=#ec6d21>&Param1&</color>，且每5秒额外造成一次范围伤害。\n当己方在3秒内对首领累计造成20次伤害后，使「暗环」失效15秒，期间首领受到援护角色造成的技能伤害提升<color=#ec6d21>&Param2&</color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100005": {
+      "Id": 100005,
+      "Name": "ScoreBossAbility.100005.1",
+      "Desc": "ScoreBossAbility.100005.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_007",
+      "ScriptID": [
+        "100005"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100005,Value1,Pct",
+      "Param2": "ScoreBossAbility,NoLevel,100005,Value2,Fixed",
+      "Param3": "ScoreBossAbility,NoLevel,100005,Value3,Pct",
+      "Param4": "ScoreBossAbility,NoLevel,100005,Value4,Fixed",
+      "Value1": "50",
+      "Value2": "0.6",
+      "Value3": "50",
+      "Value4": "0.6",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100005.1",
+          "zh_TW": "虛實轉換",
+          "zh_CN": "虚实转换",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100005.2",
+          "zh_TW": "首領敵人會在【真影狀態】和【幻滅狀態】以<color=#ec6d21>15秒</color>為間隔切換。\n【幻滅狀態】中，首領受到的僕從傷害提升<color=#ec6d21>&Param1&</color>。每造成1次印記觸發都會使目前狀態的持續時間延長<color=#ec6d21>&Param2&</color>秒，每秒最多觸發1次。\n【真影狀態】中，首領受到的技能傷害提升<color=#ec6d21>&Param3&</color>。每造成1次僕從傷害都會使目前狀態的持續時間延長<color=#ec6d21>&Param4&</color>秒，每秒最多觸發1次。",
+          "zh_CN": "首领敌人会在【真影状态】和【幻灭状态】状态以<color=#ec6d21>15秒</color>为时间间隔切换。\n【幻灭状态】中，首领受到的仆从伤害提升<color=#ec6d21>&Param1&</color>。每造成1次印记触发都会使当前状态的持续时间延长<color=#ec6d21>&Param2&</color>秒，每秒最多触发1次。\n【真影状态】中，首领受到的技能伤害提升<color=#ec6d21>&Param3&</color>。每造成1次仆从伤害都会使当前状态的持续时间延长<color=#ec6d21>&Param4&</color>秒，每秒最多触发1次。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100006": {
+      "Id": 100006,
+      "Name": "ScoreBossAbility.100006.1",
+      "Desc": "ScoreBossAbility.100006.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_008",
+      "ScriptID": [
+        "100006"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100006,Value1,Fixed",
+      "Param2": "ScoreBossAbility,NoLevel,100006,Value2,Fixed",
+      "Param3": "EffectValue,NoLevel,631007002,EffectTypeParam1,HdPct",
+      "Param4": "EffectValue,NoLevel,631007001,EffectTypeParam1,HdPct",
+      "Value1": "5",
+      "Value2": "20",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100006.1",
+          "zh_TW": "引雷入室",
+          "zh_CN": "引雷入室",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100006.2",
+          "zh_TW": "首領擁有「落雷」時，自身造成的傷害提升<color=#ec6d21>&Param4&</color>，且每3秒額外造成4次小範圍傷害；\n當己方在<color=#ec6d21>&Param1&</color>秒內對首領累計造成<color=#ec6d21>&Param2&</color>次印記傷害，可使「落雷」失效15秒，期間首領受到的技能傷害強度提升<color=#ec6d21>&Param3&</color>",
+          "zh_CN": "首领拥有「落雷」时自身造成伤害提升<color=#ec6d21>&Param4&</color>，且每3秒额外造成4次小范围伤害；\n当己方<color=#ec6d21>&Param1&</color>秒内对首领累计造成<color=#ec6d21>&Param2&</color>次援护角色技能伤害，使「落雷」失效15秒，期间首领受到援护角色造成的技能伤害提升<color=#ec6d21>&Param3&</color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100007": {
+      "Id": 100007,
+      "Name": "ScoreBossAbility.100007.1",
+      "Desc": "ScoreBossAbility.100007.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_009",
+      "ScriptID": [
+        "100007"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100007,Value1,Pct",
+      "Param2": "ScoreBossAbility,NoLevel,100007,Value2,Pct",
+      "Param3": "ScoreBossAbility,NoLevel,100007,Value3,Pct",
+      "Param4": "ScoreBossAbility,NoLevel,100007,Value4,Fixed",
+      "Value1": "30",
+      "Value2": "10",
+      "Value3": "10",
+      "Value4": "3",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100007.1",
+          "zh_TW": "隨勢而動",
+          "zh_CN": "随势而动",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100007.2",
+          "zh_TW": "首領擁有<color=#ec6d21>&Param1&</color>的傷害提升。每當1名玩家陣營僕從在場時，首領會暫時減少<color=#ec6d21>&Param2&</color>傷害並額外附加<color=#ec6d21>&Param3&</color>易傷。此效果最多可疊加3層，並在僕從消失後持續<color=#ec6d21>&Param4&</color>秒。",
+          "zh_CN": "首领拥有<color=#ec6d21>&Param1&</color>的伤害提升。每当1名玩家阵营仆从在场时，首领会暂时减少<color=#ec6d21>&Param2&</color>伤害并额外附加<color=#ec6d21>&Param3&</color>易伤。该效果最多可叠加3层，并在仆从消失后持续<color=#ec6d21>&Param4&</color>秒。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100008": {
+      "Id": 100008,
+      "Name": "ScoreBossAbility.100008.1",
+      "Desc": "ScoreBossAbility.100008.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_010",
+      "ScriptID": [
+        "100008"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100008,Value1,Fixed",
+      "Param2": "ScoreBossAbility,NoLevel,100008,Value2,Pct",
+      "Param3": "ScoreBossAbility,NoLevel,100008,Value3,Fixed",
+      "Param4": "ScoreBossAbility,NoLevel,100008,Value4,Fixed",
+      "Param5": "ScoreBossAbility,NoLevel,100008,Value5,Fixed",
+      "Param6": "ScoreBossAbility,NoLevel,100008,Value6,Pct",
+      "Param7": "ScoreBossAbility,NoLevel,100008,Value7,Fixed",
+      "Value1": "20",
+      "Value2": "15",
+      "Value3": "6",
+      "Value4": "2",
+      "Value5": "20",
+      "Value6": "65",
+      "Value7": "15",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100008.1",
+          "zh_TW": "專注",
+          "zh_CN": "专注",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100008.2",
+          "zh_TW": "首領每受到<color=#ec6d21>&Param1&</color>次傷害即附加一層【專注】，使自身造成的傷害提升<color=#ec6d21>&Param2&</color>。\n在<color=#ec6d21>&Param3&</color>秒內成功進行<color=#ec6d21>&Param4&</color>次印記觸發後，清空目前的【專注】。接下来<color=#ec6d21>&Param5&</color>秒內Boss受到的支援角色技能傷害提升<color=#ec6d21>&Param6&</color>。此效果每<color=#ec6d21>&Param7&</color>秒最多觸發1次，重複觸發則重置持續時間。",
+          "zh_CN": "首领每受到<color=#ec6d21>&Param1&</color>次伤害即附加一层【专注】，使自身造成伤害提升<color=#ec6d21>&Param2&</color>。\n在<color=#ec6d21>&Param3&</color>秒内成功进行<color=#ec6d21>&Param4&</color>次印记触发后，清空当前的【专注】。接下来<color=#ec6d21>&Param5&</color>秒内Boss受到的援护角色技能伤害提升<color=#ec6d21>&Param6&</color>。该效果每<color=#ec6d21>&Param7&</color>秒最多触发1次，重复触发重置持续时间。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100009": {
+      "Id": 100009,
+      "Name": "ScoreBossAbility.100009.1",
+      "Desc": "ScoreBossAbility.100009.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_DaGuanZi_003",
+      "ScriptID": [
+        "100009"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100009,Value1,Fixed",
+      "Param2": "ScoreBossAbility,NoLevel,100009,Value2,Pct",
+      "Param3": "ScoreBossAbility,NoLevel,100009,Value3,Pct",
+      "Param4": "ScoreBossAbility,NoLevel,100009,Value4,Pct",
+      "Param5": "ScoreBossAbility,NoLevel,100009,Value5,Pct",
+      "Value1": "30",
+      "Value2": "30",
+      "Value3": "65",
+      "Value4": "30",
+      "Value5": "65",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100009.1",
+          "zh_TW": "男爵姿態",
+          "zh_CN": "男爵姿态",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100009.2",
+          "zh_TW": "首領會在【猛士】和【蜜罐】形態間來回切換，每戰鬥<color=#ec6d21>&Param1&</color>秒後切換至另一形態，並清除自身所有負面效果。（破韌不計入時間）\n在【猛士】形態時，熱嘟嚕噗男爵受到的絕招傷害額外減少<color=#ec6d21>&Param2&</color>，受到的普攻傷害額外增加<color=#ec6d21>&Param3&</color>\n在【蜜罐】形態時，熱嘟嚕噗男爵受到的印記傷害額外減少<color=#ec6d21>&Param4&</color>，受到的技能傷害額外增加<color=#ec6d21>&Param5&</color>",
+          "zh_CN": "首领会在【猛士】和【蜜罐】形态间来回切换，每战斗<color=#ec6d21>&Param1&</color>秒后切换至另一形态并清除自身所有负面效果。（破韧不计入时间）\n在【猛士】形态时，热嘟噗噜男爵受到的绝招伤害额外减少<color=#ec6d21>&Param2&</color>，受到的普攻伤害额外增加<color=#ec6d21>&Param3&</color>\n在【蜜罐】形态时，热嘟噗噜男爵受到的印记伤害额外减少<color=#ec6d21>&Param4&</color>，受到的技能伤害额外增加<color=#ec6d21>&Param5&</color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100010": {
+      "Id": 100010,
+      "Name": "ScoreBossAbility.100010.1",
+      "Desc": "ScoreBossAbility.100010.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_004",
+      "ScriptID": [
+        "100010"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100010,Value1,Pct",
+      "Param2": "ScoreBossAbility,NoLevel,100010,Value2,Fixed",
+      "Param3": "ScoreBossAbility,NoLevel,100010,Value3,Fixed",
+      "Param4": "ScoreBossAbility,NoLevel,100010,Value4,Fixed",
+      "Param5": "EffectValue,NoLevel,631001002,EffectTypeParam1,HdPct",
+      "Param6": "ScoreBossAbility,NoLevel,100010,Value6,Fixed",
+      "Param7": "EffectValue,NoLevel,631001003,EffectTypeParam1,HdPct",
+      "Value1": "30",
+      "Value2": "10",
+      "Value3": "20",
+      "Value4": "20",
+      "Value5": "45",
+      "Value6": "10",
+      "Value7": "45",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100010.1",
+          "zh_TW": "水環",
+          "zh_CN": "水环",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100010.2",
+          "zh_TW": "首領擁有「水環」時自身造成的傷害提升<color=#ec6d21>&Param1&</color>，且每5秒造成一次範圍傷害。\n當己方在5秒內對首領累計造成<color=#ec6d21>&Param2&</color>次傷害後，使「水環」失效<color=#ec6d21>&Param3&</color>秒。\n在失效期間，當己方在5秒內對首領累計造成<color=#ec6d21>&Param4&</color>次援護角色傷害後，首領受到的普攻傷害提升<color=#ec6d21>&Param5&</color>\n在失效期間，當己方在5秒內對首領累計造成<color=#ec6d21>&Param6&</color>次主控角色傷害時，首領受到的援護角色技能傷害提升<color=#ec6d21>&Param7&</color>",
+          "zh_CN": "首领拥有「水环」时自身造成伤害提升<color=#ec6d21>&Param1&</color>，且每5秒造成一次范围伤害。\n当己方在5秒内对首领累计造成<color=#ec6d21>&Param2&</color>次伤害后，使「水环」失效<color=#ec6d21>&Param3&</color>秒。\n在失效期间，当己方在5秒内对首领累计造成<color=#ec6d21>&Param4&</color>次援护角色伤害后，首领受到的普攻伤害提升<color=#ec6d21>&Param5&</color>\n在失效期间，当己方在5秒内对首领累计造成<color=#ec6d21>&Param6&</color>次主控角色伤害时，首领受到的援护角色技能伤害提升<color=#ec6d21>&Param7&</color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100011": {
+      "Id": 100011,
+      "Name": "ScoreBossAbility.100011.1",
+      "Desc": "ScoreBossAbility.100011.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_011",
+      "ScriptID": [
+        "100011"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100011,Value1,Fixed",
+      "Param2": "ScoreBossAbility,NoLevel,100011,Value2,Pct",
+      "Param3": "ScoreBossAbility,NoLevel,100011,Value3,Fixed",
+      "Param4": "ScoreBossAbility,NoLevel,100011,Value4,Fixed",
+      "Param5": "ScoreBossAbility,NoLevel,100011,Value5,Pct",
+      "Param6": "ScoreBossAbility,NoLevel,100011,Value6,Fixed",
+      "Value1": "1",
+      "Value2": "40",
+      "Value3": "9",
+      "Value4": "50",
+      "Value5": "40",
+      "Value6": "12",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100011.1",
+          "zh_TW": "協同增勢",
+          "zh_CN": "协同增势",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100011.2",
+          "zh_TW": "主控角色每施放<color=#ec6d21>&Param1&</color>次技能，所有援護角色技能傷害強度增加<color=#ec6d21>&Param2&</color>，持續<color=#ec6d21>&Param3&</color>秒。\n援護角色每造成<color=#ec6d21>&Param4&</color>次傷害，主控角色技能傷害強度增加<color=#ec6d21>&Param5&</color>，持續<color=#ec6d21>&Param6&</color>秒。\n重複觸發時將刷新持續時間，效果不可疊加。",
+          "zh_CN": "主控角色每释放<color=#ec6d21>&Param1&</color>次技能，所有援护角色技能伤害强度增加<color=#ec6d21>&Param2&</color>，持续<color=#ec6d21>&Param3&</color>秒。\n援护角色每造成<color=#ec6d21>&Param4&</color>次伤害，主控角色技能伤害强度增加<color=#ec6d21>&Param5&</color>，持续<color=#ec6d21>&Param6&</color>秒。\n重复触发时，重置时间，不叠加效果。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100012": {
+      "Id": 100012,
+      "Name": "ScoreBossAbility.100012.1",
+      "Desc": "ScoreBossAbility.100012.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_012",
+      "ScriptID": [
+        "100012"
+      ],
+      "Param1": "EffectValue,NoLevel,631012010,EffectTypeParam1,HdPct",
+      "Param2": "BuffValue,NoLevel,631012010,LaminatedNum,Fixed",
+      "Param3": "BuffValue,NoLevel,631012010,Time,10K",
+      "Param4": "EffectValue,NoLevel,631012020,EffectTypeParam1,HdPct",
+      "Param5": "BuffValue,NoLevel,631012020,LaminatedNum,Fixed",
+      "Param6": "BuffValue,NoLevel,631012020,Time,10K",
+      "Param7": "ScoreBossAbility,NoLevel,100012,Value7,Fixed",
+      "Param8": "ScoreBossAbility,NoLevel,100012,Value8,Fixed",
+      "Value7": "10",
+      "Value8": "1",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100012.1",
+          "zh_TW": "連擊破勢",
+          "zh_CN": "连击破势",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100012.2",
+          "zh_TW": "己方每對首領造成<color=#ec6d21>&Param7&</color>次技能傷害，首領受到絕招傷害強度增加<color=#ec6d21>&Param1&</color>，最高可疊加<color=#ec6d21>&Param2&</color>層，持續<color=#ec6d21>&Param3&</color>秒。\n己方每對首領造成<color=#ec6d21>&Param8&</color>次印記傷害，首領受到技能傷害強度增加<color=#ec6d21>&Param4&</color>，最高可疊加<color=#ec6d21>&Param5&</color>層，持續<color=#ec6d21>&Param6&</color>秒。",
+          "zh_CN": "己方每对首领造成<color=#ec6d21>&Param7&</color>次技能伤害，首领受到绝招伤害强度增加<color=#ec6d21>&Param1&</color>，最多叠加<color=#ec6d21>&Param2&</color>层，持续<color=#ec6d21>&Param3&</color>秒。\n己方每对首领造成<color=#ec6d21>&Param8&</color>次印记伤害，首领受到技能伤害强度增加<color=#ec6d21>&Param4&</color>，最多叠加<color=#ec6d21>&Param5&</color>层，持续<color=#ec6d21>&Param6&</color>秒。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100013": {
+      "Id": 100013,
+      "Name": "ScoreBossAbility.100013.1",
+      "Desc": "ScoreBossAbility.100013.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_008",
+      "ScriptID": [
+        "100013"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100013,Value1,Fixed",
+      "Param2": "ScoreBossAbility,NoLevel,100013,Value2,Fixed",
+      "Param3": "EffectValue,NoLevel,631013002,EffectTypeParam1,HdPct",
+      "Param4": "EffectValue,NoLevel,631013001,EffectTypeParam1,HdPct",
+      "Value1": "5",
+      "Value2": "3",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100013.1",
+          "zh_TW": "引雷入室",
+          "zh_CN": "引雷入室",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100013.2",
+          "zh_TW": "首領擁有「落雷」時，自身造成的傷害提升<color=#ec6d21>&Param4&</color>，且每3秒額外造成4次小範圍傷害。\n當己方<color=#ec6d21>&Param1&</color>秒內對首領累計造成<color=#ec6d21>&Param2&</color>次印記傷害，使「落雷」失效15秒，期間首領受到的技能傷害強度增加<color=#ec6d21>&Param3&</color>。",
+          "zh_CN": "首领拥有「落雷」时自身造成伤害提升<color=#ec6d21>&Param4&</color>，且每3秒额外造成4次小范围伤害；\n当己方<color=#ec6d21>&Param1&</color>秒内对首领累计造成<color=#ec6d21>&Param2&</color>次印记伤害，使「落雷」失效15秒，期间首领受到的技能伤害强度增加<color=#ec6d21>&Param3&</color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100014": {
+      "Id": 100014,
+      "Name": "ScoreBossAbility.100014.1",
+      "Desc": "ScoreBossAbility.100014.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_014",
+      "ScriptID": [
+        "100014"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100014,Value1,Fixed",
+      "Param2": "EffectValue,NoLevel,631014001,EffectTypeParam1,HdPct",
+      "Param3": "BuffValue,NoLevel,631014001,LaminatedNum,Fixed",
+      "Param4": "BuffValue,NoLevel,631014001,Time,10K",
+      "Param5": "EffectValue,NoLevel,631014011,EffectTypeParam1,HdPct",
+      "Value1": "1",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100014.1",
+          "zh_TW": "多方雕琢",
+          "zh_CN": "多方雕琢",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100014.2",
+          "zh_TW": "援護角色每駐場<color=#ec6d21>&Param1&</color>秒，為自己與主控角色疊加1層【蓄勢】。\n每層【蓄勢】提供<color=#ec6d21>&Param2&</color>技能傷害強度與<color=#ec6d21>&Param5&</color>普攻傷害強度，最多疊加<color=#ec6d21>&Param3&</color>層，每次疊加時重置持續時間，持續<color=#ec6d21>&Param4&</color>秒。\n兩名援護角色可分別為主控角色疊加【蓄勢】，層數上限與效果分別計算，且可同時存在。",
+          "zh_CN": "援护角色每驻场<color=#ec6d21>&Param1&</color>秒，为自己与主控角色叠加1层【蓄势】。\n每层【蓄势】提供<color=#ec6d21>&Param2&</color>技能伤害强度和<color=#ec6d21>&Param5&</color>普攻伤害强度，最多叠加<color=#ec6d21>&Param3&</color>层，每次叠加时重置持续时间，持续<color=#ec6d21>&Param4&</color>秒。\n两名援护角色可分别为主控角色叠加【蓄势】，层数上限与效果分别计算，可同时存在。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100015": {
+      "Id": 100015,
+      "Name": "ScoreBossAbility.100015.1",
+      "Desc": "ScoreBossAbility.100015.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_DaGuanZi_002",
+      "ScriptID": [
+        "100015"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100015,Value1,Pct",
+      "Param2": "ScoreBossAbility,NoLevel,100015,Value2,Fixed",
+      "Param3": "ScoreBossAbility,NoLevel,100015,Value3,Pct",
+      "Param4": "ScoreBossAbility,NoLevel,100015,Value4,Fixed",
+      "Value1": "8",
+      "Value2": "10",
+      "Value3": "15",
+      "Value4": "5",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100015.1",
+          "zh_TW": "男爵威严",
+          "zh_CN": "男爵威严",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100015.2",
+          "zh_TW": "热嘟噗噜男爵初始拥有1层「抵御」，且每5秒获得1层「抵御」，每层「抵御」使热嘟噗噜男爵受到的伤害降低<color=#ec6d21>&Param1&</color>，最多叠加<color=#ec6d21>&Param2&</color>层。\n当己方主控角色触发印记后，可移除热嘟噗噜男爵1层「抵御」，并为在场援护角色提供1层「增幅」，每层「增幅」提高<color=#ec6d21>&Param3&</color>傷害，最多叠加<color=#ec6d21>&Param4&</color>层，持续20秒。",
+          "zh_CN": "热嘟噗噜男爵初始拥有1层「抵御」，且每5秒获得1层「抵御」，每层「抵御」使热嘟噗噜男爵受到的伤害降低<color=#ec6d21>&Param1&</color>，最多叠加<color=#ec6d21>&Param2&</color>层。\n当己方主控角色触发印记后，可移除热嘟噗噜男爵1层「抵御」，并为在场援护角色提供1层「增幅」，每层「增幅」提高<color=#ec6d21>&Param3&</color>伤害，最多叠加<color=#ec6d21>&Param4&</color>层，持续20秒。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100016": {
+      "Id": 100016,
+      "Name": "ScoreBossAbility.100016.1",
+      "Desc": "ScoreBossAbility.100016.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_015",
+      "ScriptID": [
+        "100016"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100016,Value1,Fixed",
+      "Param2": "EffectValue,NoLevel,631016011,EffectTypeParam1,HdPct",
+      "Param3": "BuffValue,NoLevel,631016010,Time,10K",
+      "Param4": "ScoreBossAbility,NoLevel,100016,Value4,Fixed",
+      "Param5": "ScoreBossAbility,NoLevel,100016,Value5,Fixed",
+      "Value1": "3",
+      "Value4": "5",
+      "Value5": "20",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100016.1",
+          "zh_TW": "破風激昂",
+          "zh_CN": "破风激昂",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100016.2",
+          "zh_TW": "每擊破<color=#ec6d21>&Param1&</color>個首領敵人召喚的僕從「風鼓仔」可獲得【鼓舞】，為全隊提供<color=#ec6d21>&Param2&</color>技能傷害強度，持續<color=#ec6d21>&Param3&</color>秒。\n每當主控角色施放技能時，【鼓舞】的目前持續時間延長<color=#ec6d21>&Param4&</color>秒（最大不超過<color=#ec6d21>&Param5&</color>秒）。",
+          "zh_CN": "每击破<color=#ec6d21>&Param1&</color>只首领敌人召唤的仆从「风鼓仔」可获得【鼓舞】，为全队提供<color=#ec6d21>&Param2&</color>技能伤害强度，持续<color=#ec6d21>&Param3&</color>秒。\n每当主控角色释放技能时，【鼓舞】的当前持续时长延长<color=#ec6d21>&Param4&</color>秒（最大不超过<color=#ec6d21>&Param5&</color>秒）。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100017": {
+      "Id": 100017,
+      "Name": "ScoreBossAbility.100017.1",
+      "Desc": "ScoreBossAbility.100017.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_002",
+      "ScriptID": [
+        "100017"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100017,Value1,Fixed",
+      "Param2": "ScoreBossAbility,NoLevel,100017,Value2,Pct",
+      "Param3": "ScoreBossAbility,NoLevel,100017,Value3,Fixed",
+      "Value1": "5",
+      "Value2": "80",
+      "Value3": "10",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100017.1",
+          "zh_TW": "以火攻火",
+          "zh_CN": "以火攻火",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100017.2",
+          "zh_TW": "首領敵人擁有「火環」，持續對環內的主控角色造成傷害。\n主控角色每對首領敵人觸發<color=#ec6d21>&Param1&</color>次「元素印記」，可獲得「強化」：全隊提升<color=#ec6d21>&Param2&</color>技能傷害強度，持續<color=#ec6d21>&Param3&</color>秒。在此期間首領敵人的「火環」將會失效，且無法重複觸發。",
+          "zh_CN": "首领敌人拥有「火环」，持续对环内的主控角色造成伤害。\n主控角色每对首领敌人触发<color=#ec6d21>&Param1&</color>次「元素印记」，可获得「强化」：全队提升<color=#ec6d21>&Param2&</color>技能伤害强度，持续<color=#ec6d21>&Param3&</color>秒，在此期间首领敌人「火环」失效，且不会重复触发。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100018": {
+      "Id": 100018,
+      "Name": "ScoreBossAbility.100018.1",
+      "Desc": "ScoreBossAbility.100018.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_017",
+      "ScriptID": [
+        "100018"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100018,Value1,Pct",
+      "Param2": "ScoreBossAbility,NoLevel,100018,Value2,Fixed",
+      "Param3": "ScoreBossAbility,NoLevel,100018,Value3,Pct",
+      "Param4": "ScoreBossAbility,NoLevel,100018,Value4,Pct",
+      "Param5": "ScoreBossAbility,NoLevel,100018,Value5,Pct",
+      "Value1": "80",
+      "Value2": "6",
+      "Value3": "10",
+      "Value4": "10",
+      "Value5": "40",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100018.1",
+          "zh_TW": "受擊疲勞",
+          "zh_CN": "受击疲劳",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100018.2",
+          "zh_TW": "首領敵人初始對普攻/技能/印記傷害具有<color=#ec6d21>&Param1&</color>的傷害減免。\n主控角色每對首領敵人造成<color=#ec6d21>&Param2&</color>次任意的普攻/技能/印記傷害，首領敵人對該類型的傷害減免便會降低<color=#ec6d21>&Param3&</color>，直至降低為0。歸零後若再次觸發條件，首領敵人受到的該類型傷害將提升<color=#ec6d21>&Param4&</color>，最高不超過<color=#ec6d21>&Param5&</color>。",
+          "zh_CN": "首领敌人初始对普攻/技能/印记伤害具有<color=#ec6d21>&Param1&</color>伤害减免。\n主控角色每对首领敌人造成<color=#ec6d21>&Param2&</color>次任意普攻/技能/印记伤害，首领敌人对该类型的伤害减免降低<color=#ec6d21>&Param3&</color>，直至降低为0。此后再次触发时，首领敌人受到该类型伤害提升<color=#ec6d21>&Param4&</color>，最高不超过<color=#ec6d21>&Param5&</color>。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100019": {
+      "Id": 100019,
+      "Name": "ScoreBossAbility.100019.1",
+      "Desc": "ScoreBossAbility.100019.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_018",
+      "ScriptID": [
+        "100019"
+      ],
+      "Param1": "EffectValue,NoLevel,631019010,EffectTypeParam1,HdPct",
+      "Param2": "BuffValue,NoLevel,631019010,Time,10K",
+      "Param3": "BuffValue,NoLevel,631019010,LaminatedNum,Fixed",
+      "Param4": "EffectValue,NoLevel,631019020,EffectTypeParam1,Fixed",
+      "Param5": "EffectValue,NoLevel,631019030,EffectTypeParam1,HdPct",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100019.1",
+          "zh_TW": "破風之楔",
+          "zh_CN": "破风之楔",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100019.2",
+          "zh_TW": "主控角色對首領造成普攻傷害後，首領受到的絕招傷害強度提高<color=#ec6d21>&Param1&</color>，持續<color=#ec6d21>&Param2&</color>秒，最多疊加<color=#ec6d21>&Param3&</color>層，每0.5秒最多觸發一次。\n全隊的防禦穿透屬性提高<color=#ec6d21>&Param4&</color>點，援護角色在場期間，全隊的防禦穿透屬性提高<color=#ec6d21>&Param5&</color>",
+          "zh_CN": "主控角色对首领造成普攻伤害后，首领受到的绝招伤害强度提高<color=#ec6d21>&Param1&</color>，持续<color=#ec6d21>&Param2&</color>秒，最多叠加<color=#ec6d21>&Param3&</color>层，每0.5秒最多触发一次。\n全队的防御穿透属性提高<color=#ec6d21>&Param4&</color>点，援护角色在场期间，全队的防御穿透属性提高<color=#ec6d21>&Param5&</color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    },
+    "100020": {
+      "Id": 100020,
+      "Name": "ScoreBossAbility.100020.1",
+      "Desc": "ScoreBossAbility.100020.2",
+      "IconSource": "Icon/MonsterSkill/Bossrush/Icon_Bossrush_Teshujizhi_017",
+      "ScriptID": [
+        "100020"
+      ],
+      "Param1": "ScoreBossAbility,NoLevel,100020,Value1,Fixed",
+      "Param2": "EffectValue,NoLevel,631020011,EffectTypeParam1,HdPct",
+      "Param3": "BuffValue,NoLevel,631020010,LaminatedNum,Fixed",
+      "Param4": "BuffValue,NoLevel,631020010,Time,10K",
+      "Param5": "EffectValue,NoLevel,631020012,EffectTypeParam1,HdPct",
+      "Value1": "1",
+      "_localized": {
+        "/Name": {
+          "key": "ScoreBossAbility.100020.1",
+          "zh_TW": "私人訂製",
+          "zh_CN": "私人订制",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        },
+        "/Desc": {
+          "key": "ScoreBossAbility.100020.2",
+          "zh_TW": "援護角色每駐場<color=#ec6d21>&Param1&</color>秒，為自身與主控角色疊加1層【蓄勢】。\n每層【蓄勢】提供<color=#ec6d21>&Param2&</color>技能傷害強度與<color=#ec6d21>&Param5&</color>普攻傷害強度，最多疊加<color=#ec6d21>&Param3&</color>層，每次疊加時重置持續時間，持續<color=#ec6d21>&Param4&</color>秒。\n兩名援護角色可分別為主控角色疊加【蓄勢】，層數上限與效果分別計算，可同時存在。",
+          "zh_CN": "援护角色每驻场<color=#ec6d21>&Param1&</color>秒，为自己与主控角色叠加1层【蓄势】。\n每层【蓄势】提供<color=#ec6d21>&Param2&</color>技能伤害强度与<color=#ec6d21>&Param5&</color>普攻伤害强度，最多叠加<color=#ec6d21>&Param3&</color>层，每次叠加时重置持续时间，持续<color=#ec6d21>&Param4&</color>秒。\n两名援护角色可分别为主控角色叠加【蓄势】，层数上限与效果分别计算，可同时存在。",
+          "sources": {
+            "zh_TW": "language/zh_TW/ScoreBossAbility.json",
+            "zh_CN": "language/zh_CN/ScoreBossAbility.json"
+          }
+        }
+      }
+    }
+  }
+}

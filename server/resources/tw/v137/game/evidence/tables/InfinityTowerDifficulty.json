@@ -1,0 +1,354 @@
+{
+  "table": "InfinityTowerDifficulty",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\cdb54a3ad4b3bb9c.bin",
+  "source_sha256": "21bfad99b78a87b26553e6cb963cf91cc2a276a510bcac4ac2465497140edc8a",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\InfinityTowerDifficulty.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 129
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "reference_field_order": [
+      "Id",
+      "Name",
+      "TowerId",
+      "UnlockWorldClass",
+      "UnlockTips",
+      "IsChallenge",
+      "RecommendLevel",
+      "RecommendBuildRank",
+      "Sort"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 9,
+    "remaining_name_count": 9,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 129,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Name",
+        "matching_reference_rows": 129,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "TowerId",
+        "matching_reference_rows": 129,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "UnlockWorldClass",
+        "matching_reference_rows": 129,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "UnlockTips",
+        "matching_reference_rows": 129,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "IsChallenge",
+        "matching_reference_rows": 38,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "RecommendLevel",
+        "matching_reference_rows": 129,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "RecommendBuildRank",
+        "matching_reference_rows": 129,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "Sort",
+        "matching_reference_rows": 129,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_int",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    },
+    "2": {
+      "field": "Name",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    },
+    "3": {
+      "field": "TowerId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_int",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    },
+    "4": {
+      "field": "UnlockWorldClass",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_int",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    },
+    "5": {
+      "field": "UnlockTips",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    },
+    "6": {
+      "field": "IsChallenge",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 38,
+      "compared_reference_rows": 38,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 38,
+          "compared": 38
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 38
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 38
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 38
+        }
+      ]
+    },
+    "7": {
+      "field": "RecommendLevel",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_int",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    },
+    "8": {
+      "field": "RecommendBuildRank",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_int",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    },
+    "9": {
+      "field": "Sort",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 129,
+      "compared_reference_rows": 129,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_int",
+          "matches": 129,
+          "compared": 129
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 129
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 129,
+    "reference_row_count": 129,
+    "shared_key_count": 129,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 129,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

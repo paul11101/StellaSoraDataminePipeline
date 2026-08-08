@@ -1,0 +1,230 @@
+{
+  "table": "StarTowerEnemySet",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f01ac6dbbeed5c04.bin",
+  "source_sha256": "a7b1528993ef34c6efa23475b1b76aab257f09915a67d7013b30c32e973ba531",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\StarTowerEnemySet.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 0,
+    "key_type": 0,
+    "row_count": 541
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "reference_field_order": [
+      "SetId",
+      "WaveNum",
+      "MaxNum",
+      "MaxNumPerWave",
+      "MonsterId",
+      "RefInterval"
+    ],
+    "local_aot_field_numbers": {
+      "1": "SetId",
+      "2": "WaveNum",
+      "3": "MaxNum",
+      "4": "MaxNumPerWave",
+      "5": "MonsterId",
+      "6": "RefInterval"
+    },
+    "aot_field_count": 6,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "SetId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 541,
+      "compared_reference_rows": 541,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 541,
+          "compared": 541
+        },
+        {
+          "codec": "varint_int",
+          "matches": 541,
+          "compared": 541
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 541
+        }
+      ]
+    },
+    "2": {
+      "field": "WaveNum",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 541,
+      "compared_reference_rows": 541,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 541,
+          "compared": 541
+        },
+        {
+          "codec": "varint_int",
+          "matches": 541,
+          "compared": 541
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 541
+        }
+      ]
+    },
+    "3": {
+      "field": "MaxNum",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 541,
+      "compared_reference_rows": 541,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 541,
+          "compared": 541
+        },
+        {
+          "codec": "varint_int",
+          "matches": 541,
+          "compared": 541
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 541
+        }
+      ]
+    },
+    "4": {
+      "field": "MaxNumPerWave",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 541,
+      "compared_reference_rows": 541,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 541,
+          "compared": 541
+        },
+        {
+          "codec": "varint_int",
+          "matches": 541,
+          "compared": 541
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 541
+        }
+      ]
+    },
+    "5": {
+      "field": "MonsterId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 541,
+      "compared_reference_rows": 541,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 541,
+          "compared": 541
+        },
+        {
+          "codec": "varint_int",
+          "matches": 541,
+          "compared": 541
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 541
+        }
+      ]
+    },
+    "6": {
+      "field": "RefInterval",
+      "json_kind": "float",
+      "repeated": false,
+      "wire_types": [
+        5
+      ],
+      "selected": "float32",
+      "matching_reference_rows": 541,
+      "compared_reference_rows": 541,
+      "candidate_scores": [
+        {
+          "codec": "float32",
+          "matches": 541,
+          "compared": 541
+        },
+        {
+          "codec": "fixed32_uint",
+          "matches": 0,
+          "compared": 541
+        },
+        {
+          "codec": "fixed32_int",
+          "matches": 0,
+          "compared": 541
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 541,
+    "reference_row_count": 541,
+    "shared_key_count": 541,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 541,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

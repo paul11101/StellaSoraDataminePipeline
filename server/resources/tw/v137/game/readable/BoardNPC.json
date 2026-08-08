@@ -1,0 +1,1289 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "BoardNPC",
+    "categories": [
+      "world_npc"
+    ],
+    "row_count": 49,
+    "localization_hits": 98,
+    "source": "bin/BoardNPC.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "9102": {
+      "Id": 9102,
+      "Name": "BoardNPC.9102.1",
+      "Alias": "BoardNPC.9102.2",
+      "DefaultSkinId": 910201,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.9102.1",
+          "zh_TW": "薇洛",
+          "zh_CN": "薇洛",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.9102.2",
+          "zh_TW": "看板",
+          "zh_CN": "看板",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "910202": {
+      "Id": 910202,
+      "Name": "BoardNPC.910202.1",
+      "Alias": "BoardNPC.910202.2",
+      "DefaultSkinId": 910202,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.910202.1",
+          "zh_TW": "薇洛",
+          "zh_CN": "薇洛",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.910202.2",
+          "zh_TW": "看板",
+          "zh_CN": "看板",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "9133": {
+      "Id": 9133,
+      "Name": "BoardNPC.9133.1",
+      "Alias": "BoardNPC.9133.2",
+      "DefaultSkinId": 913301,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.9133.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.9133.2",
+          "zh_TW": "星塔商店",
+          "zh_CN": "星塔商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "913302": {
+      "Id": 913302,
+      "Name": "BoardNPC.913302.1",
+      "Alias": "BoardNPC.913302.2",
+      "DefaultSkinId": 913302,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.913302.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.913302.2",
+          "zh_TW": "星塔商店",
+          "zh_CN": "星塔商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "913303": {
+      "Id": 913303,
+      "Name": "BoardNPC.913303.1",
+      "Alias": "BoardNPC.913303.2",
+      "DefaultSkinId": 913303,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.913303.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.913303.2",
+          "zh_TW": "星塔商店",
+          "zh_CN": "星塔商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "9131": {
+      "Id": 9131,
+      "Name": "BoardNPC.9131.1",
+      "Alias": "BoardNPC.9131.2",
+      "DefaultSkinId": 913101,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.9131.1",
+          "zh_TW": "布洛可",
+          "zh_CN": "布洛克",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.9131.2",
+          "zh_TW": "外部商店",
+          "zh_CN": "外部商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "9159": {
+      "Id": 9159,
+      "Name": "BoardNPC.9159.1",
+      "Alias": "BoardNPC.9159.2",
+      "DefaultSkinId": 915901,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.9159.1",
+          "zh_TW": "彼岸",
+          "zh_CN": "彼岸",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.9159.2",
+          "zh_TW": "聯合討伐",
+          "zh_CN": "联合讨伐",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "93004": {
+      "Id": 93004,
+      "Name": "BoardNPC.93004.1",
+      "Alias": "BoardNPC.93004.2",
+      "DefaultSkinId": 93004,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.93004.1",
+          "zh_TW": "強化機",
+          "zh_CN": "强化机",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.93004.2",
+          "zh_TW": "強化機",
+          "zh_CN": "强化机",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "917201": {
+      "Id": 917201,
+      "Name": "BoardNPC.917201.1",
+      "Alias": "BoardNPC.917201.2",
+      "DefaultSkinId": 917201,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.917201.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.917201.2",
+          "zh_TW": "護士",
+          "zh_CN": "护士",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "917202": {
+      "Id": 917202,
+      "Name": "BoardNPC.917202.1",
+      "Alias": "BoardNPC.917202.2",
+      "DefaultSkinId": 917202,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.917202.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.917202.2",
+          "zh_TW": "實況主",
+          "zh_CN": "主播",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "917203": {
+      "Id": 917203,
+      "Name": "BoardNPC.917203.1",
+      "Alias": "BoardNPC.917203.2",
+      "DefaultSkinId": 917203,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.917203.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.917203.2",
+          "zh_TW": "治療",
+          "zh_CN": "治疗",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "917204": {
+      "Id": 917204,
+      "Name": "BoardNPC.917204.1",
+      "Alias": "BoardNPC.917204.2",
+      "DefaultSkinId": 917204,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.917204.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.917204.2",
+          "zh_TW": "實況主",
+          "zh_CN": "主播",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "917301": {
+      "Id": 917301,
+      "Name": "BoardNPC.917301.1",
+      "Alias": "BoardNPC.917301.2",
+      "DefaultSkinId": 917301,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.917301.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.917301.2",
+          "zh_TW": "惡魔",
+          "zh_CN": "恶魔",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "917302": {
+      "Id": 917302,
+      "Name": "BoardNPC.917302.1",
+      "Alias": "BoardNPC.917302.2",
+      "DefaultSkinId": 917302,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.917302.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.917302.2",
+          "zh_TW": "兔女郎",
+          "zh_CN": "兔女郎",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "917401": {
+      "Id": 917401,
+      "Name": "BoardNPC.917401.1",
+      "Alias": "BoardNPC.917401.2",
+      "DefaultSkinId": 917401,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.917401.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.917401.2",
+          "zh_TW": "惡魔",
+          "zh_CN": "恶魔",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "917402": {
+      "Id": 917402,
+      "Name": "BoardNPC.917402.1",
+      "Alias": "BoardNPC.917402.2",
+      "DefaultSkinId": 917402,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.917402.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.917402.2",
+          "zh_TW": "兔女郎",
+          "zh_CN": "兔女郎",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "173174": {
+      "Id": 173174,
+      "Name": "BoardNPC.173174.1",
+      "Alias": "BoardNPC.173174.2",
+      "DefaultSkinId": 173174,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.173174.1",
+          "zh_TW": "珀爾娜&維嘉爾",
+          "zh_CN": "珀尔娜&维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.173174.2",
+          "zh_TW": "兔女郎雙人",
+          "zh_CN": "兔女郎双人",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "9155": {
+      "Id": 9155,
+      "Name": "BoardNPC.9155.1",
+      "Alias": "BoardNPC.9155.2",
+      "DefaultSkinId": 915501,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.9155.1",
+          "zh_TW": "希婭",
+          "zh_CN": "希娅",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.9155.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "8134": {
+      "Id": 8134,
+      "Name": "BoardNPC.8134.1",
+      "Alias": "BoardNPC.8134.2",
+      "DefaultSkinId": 813401,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.8134.1",
+          "zh_TW": "冬香",
+          "zh_CN": "冬香",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.8134.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "8133": {
+      "Id": 8133,
+      "Name": "BoardNPC.8133.1",
+      "Alias": "BoardNPC.8133.2",
+      "DefaultSkinId": 813301,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.8133.1",
+          "zh_TW": "夏花",
+          "zh_CN": "夏花",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.8133.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "8110": {
+      "Id": 8110,
+      "Name": "BoardNPC.8110.1",
+      "Alias": "BoardNPC.8110.2",
+      "DefaultSkinId": 811001,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.8110.1",
+          "zh_TW": "翡冷翠",
+          "zh_CN": "翡冷翠",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.8110.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7158": {
+      "Id": 7158,
+      "Name": "BoardNPC.7158.1",
+      "Alias": "BoardNPC.7158.2",
+      "DefaultSkinId": 715801,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7158.1",
+          "zh_TW": "聖夜菈露",
+          "zh_CN": "菈露（圣夜）",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7158.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "8158": {
+      "Id": 8158,
+      "Name": "BoardNPC.8158.1",
+      "Alias": "BoardNPC.8158.2",
+      "DefaultSkinId": 815801,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.8158.1",
+          "zh_TW": "聖夜菈露",
+          "zh_CN": "菈露（圣夜）",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.8158.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7111": {
+      "Id": 7111,
+      "Name": "BoardNPC.7111.1",
+      "Alias": "BoardNPC.7111.2",
+      "DefaultSkinId": 711101,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7111.1",
+          "zh_TW": "鳶尾",
+          "zh_CN": "鸢尾",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7111.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7103": {
+      "Id": 7103,
+      "Name": "BoardNPC.7103.1",
+      "Alias": "BoardNPC.7103.2",
+      "DefaultSkinId": 710301,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7103.1",
+          "zh_TW": "琥珀",
+          "zh_CN": "琥珀",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7103.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7112": {
+      "Id": 7112,
+      "Name": "BoardNPC.7112.1",
+      "Alias": "BoardNPC.7112.2",
+      "DefaultSkinId": 711201,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7112.1",
+          "zh_TW": "塵沙",
+          "zh_CN": "尘沙",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7112.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7135": {
+      "Id": 7135,
+      "Name": "BoardNPC.7135.1",
+      "Alias": "BoardNPC.7135.2",
+      "DefaultSkinId": 713501,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7135.1",
+          "zh_TW": "霧語",
+          "zh_CN": "雾语",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7135.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7125": {
+      "Id": 7125,
+      "Name": "BoardNPC.7125.1",
+      "Alias": "BoardNPC.7125.2",
+      "DefaultSkinId": 712501,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7125.1",
+          "zh_TW": "蒼蘭",
+          "zh_CN": "苍兰",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7125.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7133": {
+      "Id": 7133,
+      "Name": "BoardNPC.7133.1",
+      "Alias": "BoardNPC.7133.2",
+      "DefaultSkinId": 713301,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7133.1",
+          "zh_TW": "夏花",
+          "zh_CN": "夏花",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7133.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7134": {
+      "Id": 7134,
+      "Name": "BoardNPC.7134.1",
+      "Alias": "BoardNPC.7134.2",
+      "DefaultSkinId": 713401,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7134.1",
+          "zh_TW": "冬香",
+          "zh_CN": "冬香",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7134.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7110": {
+      "Id": 7110,
+      "Name": "BoardNPC.7110.1",
+      "Alias": "BoardNPC.7110.2",
+      "DefaultSkinId": 711001,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7110.1",
+          "zh_TW": "翡冷翠",
+          "zh_CN": "翡冷翠",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7110.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "713503": {
+      "Id": 713503,
+      "Name": "BoardNPC.713503.1",
+      "Alias": "BoardNPC.713503.2",
+      "DefaultSkinId": 713503,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.713503.1",
+          "zh_TW": "情人節霧語",
+          "zh_CN": "情人节雾语",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.713503.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7141": {
+      "Id": 7141,
+      "Name": "BoardNPC.7141.1",
+      "Alias": "BoardNPC.7141.2",
+      "DefaultSkinId": 714101,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7141.1",
+          "zh_TW": "赤霞",
+          "zh_CN": "赤霞",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7141.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7113": {
+      "Id": 7113,
+      "Name": "BoardNPC.7113.1",
+      "Alias": "BoardNPC.7113.2",
+      "DefaultSkinId": 711301,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7113.1",
+          "zh_TW": "師渺",
+          "zh_CN": "师渺",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7113.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7117": {
+      "Id": 7117,
+      "Name": "BoardNPC.7117.1",
+      "Alias": "BoardNPC.7117.2",
+      "DefaultSkinId": 711701,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7117.1",
+          "zh_TW": "璟麟",
+          "zh_CN": "璟麟",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7117.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7159": {
+      "Id": 7159,
+      "Name": "BoardNPC.7159.1",
+      "Alias": "BoardNPC.7159.2",
+      "DefaultSkinId": 715901,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7159.1",
+          "zh_TW": "緋春柯洛妮絲",
+          "zh_CN": "科洛妮丝（新春）",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7159.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7156": {
+      "Id": 7156,
+      "Name": "BoardNPC.7156.1",
+      "Alias": "BoardNPC.7156.2",
+      "DefaultSkinId": 715601,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7156.1",
+          "zh_TW": "小禾",
+          "zh_CN": "小禾",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7156.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7144": {
+      "Id": 7144,
+      "Name": "BoardNPC.7144.1",
+      "Alias": "BoardNPC.7144.2",
+      "DefaultSkinId": 714401,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7144.1",
+          "zh_TW": "千都世",
+          "zh_CN": "千都世",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7144.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7145": {
+      "Id": 7145,
+      "Name": "BoardNPC.7145.1",
+      "Alias": "BoardNPC.7145.2",
+      "DefaultSkinId": 714501,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7145.1",
+          "zh_TW": "乙葉",
+          "zh_CN": "乙叶",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7145.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "8159": {
+      "Id": 8159,
+      "Name": "BoardNPC.8159.1",
+      "Alias": "BoardNPC.8159.2",
+      "DefaultSkinId": 815901,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.8159.1",
+          "zh_TW": "緋春柯洛妮絲",
+          "zh_CN": "科洛妮丝（新春）",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.8159.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "8143": {
+      "Id": 8143,
+      "Name": "BoardNPC.8143.1",
+      "Alias": "BoardNPC.8143.2",
+      "DefaultSkinId": 814301,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.8143.1",
+          "zh_TW": "風影",
+          "zh_CN": "风影",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.8143.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "8130": {
+      "Id": 8130,
+      "Name": "BoardNPC.8130.1",
+      "Alias": "BoardNPC.8130.2",
+      "DefaultSkinId": 813001,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.8130.1",
+          "zh_TW": "多娜",
+          "zh_CN": "多娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.8130.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "8145": {
+      "Id": 8145,
+      "Name": "BoardNPC.8145.1",
+      "Alias": "BoardNPC.8145.2",
+      "DefaultSkinId": 814501,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.8145.1",
+          "zh_TW": "乙葉",
+          "zh_CN": "乙叶",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.8145.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "8115": {
+      "Id": 8115,
+      "Name": "BoardNPC.8115.1",
+      "Alias": "BoardNPC.8115.2",
+      "DefaultSkinId": 811501,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.8115.1",
+          "zh_TW": "火垂",
+          "zh_CN": "火垂",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.8115.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "8140": {
+      "Id": 8140,
+      "Name": "BoardNPC.8140.1",
+      "Alias": "BoardNPC.8140.2",
+      "DefaultSkinId": 814001,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.8140.1",
+          "zh_TW": "斯帕克拉",
+          "zh_CN": "斯帕克拉",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.8140.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "8114": {
+      "Id": 8114,
+      "Name": "BoardNPC.8114.1",
+      "Alias": "BoardNPC.8114.2",
+      "DefaultSkinId": 811401,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.8114.1",
+          "zh_TW": "貓眼",
+          "zh_CN": "猫眼",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.8114.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "8160": {
+      "Id": 8160,
+      "Name": "BoardNPC.8160.1",
+      "Alias": "BoardNPC.8160.2",
+      "DefaultSkinId": 816001,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.8160.1",
+          "zh_TW": "沐夏薇洛",
+          "zh_CN": "薇洛（盛夏）",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.8160.2",
+          "zh_TW": "活動商店",
+          "zh_CN": "活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "7160": {
+      "Id": 7160,
+      "Name": "BoardNPC.7160.1",
+      "Alias": "BoardNPC.7160.2",
+      "DefaultSkinId": 716001,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.7160.1",
+          "zh_TW": "沐夏薇洛",
+          "zh_CN": "薇洛（盛夏）",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.7160.2",
+          "zh_TW": "特殊簽到",
+          "zh_CN": "特殊签到",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    },
+    "916402": {
+      "Id": 916402,
+      "Name": "BoardNPC.916402.1",
+      "Alias": "BoardNPC.916402.2",
+      "DefaultSkinId": 916402,
+      "_localized": {
+        "/Name": {
+          "key": "BoardNPC.916402.1",
+          "zh_TW": "伊織",
+          "zh_CN": "伊织",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        },
+        "/Alias": {
+          "key": "BoardNPC.916402.2",
+          "zh_TW": "獵影重圍",
+          "zh_CN": "猎影合围",
+          "sources": {
+            "zh_TW": "language/zh_TW/BoardNPC.json",
+            "zh_CN": "language/zh_CN/BoardNPC.json"
+          }
+        }
+      }
+    }
+  }
+}

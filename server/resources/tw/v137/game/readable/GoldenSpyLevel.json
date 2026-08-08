@@ -1,0 +1,732 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "GoldenSpyLevel",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 14,
+    "localization_hits": 42,
+    "source": "bin/GoldenSpyLevel.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "110101": {
+      "Id": 110101,
+      "LevelType": 1,
+      "LevelName": "GoldenSpyLevel.110101.1",
+      "ConfigId": 10101,
+      "IconPath": "zs_goldenspy_level_01",
+      "FloorList": [
+        11010101
+      ],
+      "Score": 1000,
+      "WinCondDesc": "GoldenSpyLevel.110101.2",
+      "LevelDesc": "GoldenSpyLevel.110101.3",
+      "Skill": "[[1001,1],[1002,1]]",
+      "Item1Id": 2,
+      "Item1Count": 50,
+      "Item2Id": 73109,
+      "Item2Count": 300,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.110101.1",
+          "zh_TW": "踏石無聲",
+          "zh_CN": "踏石无声",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.110101.2",
+          "zh_TW": "獲得1000積分",
+          "zh_CN": "获得1000积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.110101.3",
+          "zh_TW": "無聲潛入是任務的第一課，從安靜穿過花園石徑開始。",
+          "zh_CN": "无声潜入是任务的第一课，从安静穿过花园石径开始。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "110102": {
+      "Id": 110102,
+      "LevelType": 1,
+      "LevelName": "GoldenSpyLevel.110102.1",
+      "ConfigId": 10101,
+      "IconPath": "zs_goldenspy_level_01",
+      "FloorList": [
+        11010201,
+        11010202
+      ],
+      "PreLevelId": 110101,
+      "Score": 2800,
+      "WinCondDesc": "GoldenSpyLevel.110102.2",
+      "LevelDesc": "GoldenSpyLevel.110102.3",
+      "Skill": "[[1001,2],[1002,2]]",
+      "Item1Id": 2,
+      "Item1Count": 50,
+      "Item2Id": 73109,
+      "Item2Count": 400,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.110102.1",
+          "zh_TW": "錦鯉驚影",
+          "zh_CN": "锦鲤惊影",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.110102.2",
+          "zh_TW": "獲得2800積分",
+          "zh_CN": "获得2800积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.110102.3",
+          "zh_TW": "錦鯉會被任何動靜驚擾，小心腳下，別讓花園裡的危險提前爆發。",
+          "zh_CN": "锦鲤会被任何动静惊扰，小心脚下，别让花园里的危险提前爆发。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "110201": {
+      "Id": 110201,
+      "LevelType": 1,
+      "LevelName": "GoldenSpyLevel.110201.1",
+      "ConfigId": 10101,
+      "IconPath": "zs_goldenspy_level_02",
+      "FloorList": [
+        11020101
+      ],
+      "PreLevelId": 110102,
+      "Score": 1800,
+      "WinCondDesc": "GoldenSpyLevel.110201.2",
+      "LevelDesc": "GoldenSpyLevel.110201.3",
+      "Skill": "[[1001,1],[1002,1]]",
+      "Item1Id": 2,
+      "Item1Count": 100,
+      "Item2Id": 73109,
+      "Item2Count": 600,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.110201.1",
+          "zh_TW": "燈影潛行",
+          "zh_CN": "灯影潜行",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.110201.2",
+          "zh_TW": "獲得1800積分",
+          "zh_CN": "获得1800积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.110201.3",
+          "zh_TW": "巡邏的腳步似乎正在靠近，動作要快，別留下破綻。",
+          "zh_CN": "巡逻的脚步似乎正在靠近，动作要快，别留下破绽。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "110202": {
+      "Id": 110202,
+      "LevelType": 1,
+      "LevelName": "GoldenSpyLevel.110202.1",
+      "ConfigId": 10101,
+      "IconPath": "zs_goldenspy_level_02",
+      "FloorList": [
+        11020201,
+        11020202
+      ],
+      "PreLevelId": 110201,
+      "Score": 2800,
+      "WinCondDesc": "GoldenSpyLevel.110202.2",
+      "LevelDesc": "GoldenSpyLevel.110202.3",
+      "Skill": "[[1001,2],[1002,2]]",
+      "Item1Id": 2,
+      "Item1Count": 100,
+      "Item2Id": 73109,
+      "Item2Count": 800,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.110202.1",
+          "zh_TW": "屏後藏身",
+          "zh_CN": "屏后藏身",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.110202.2",
+          "zh_TW": "獲得2800積分",
+          "zh_CN": "获得2800积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.110202.3",
+          "zh_TW": "警戒似乎升級了，集中注意力才能避開所有危機。",
+          "zh_CN": "警戒似乎升级了，集中注意力才能避开所有危机。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "110301": {
+      "Id": 110301,
+      "LevelType": 2,
+      "LevelName": "GoldenSpyLevel.110301.1",
+      "ConfigId": 10101,
+      "IconPath": "zs_goldenspy_level_03",
+      "FloorList": [
+        11030101,
+        11030102
+      ],
+      "PreLevelId": 110202,
+      "Score": 2500,
+      "WinCondDesc": "GoldenSpyLevel.110301.2",
+      "BuffCardPoolId": 1311,
+      "LevelDesc": "GoldenSpyLevel.110301.3",
+      "Skill": "[[1001,2],[1002,2]]",
+      "Item1Id": 2,
+      "Item1Count": 100,
+      "Item2Id": 73109,
+      "Item2Count": 1000,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.110301.1",
+          "zh_TW": "暗格密信",
+          "zh_CN": "暗格密信",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.110301.2",
+          "zh_TW": "獲得2500積分",
+          "zh_CN": "获得2500积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.110301.3",
+          "zh_TW": "線人帶來了新的情報，出發之前請仔細閱讀。",
+          "zh_CN": "线人带来了新的情报，出发之前请仔细阅读。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "110302": {
+      "Id": 110302,
+      "LevelType": 2,
+      "LevelName": "GoldenSpyLevel.110302.1",
+      "ConfigId": 10101,
+      "IconPath": "zs_goldenspy_level_03",
+      "FloorList": [
+        11030201,
+        11030202,
+        11030203
+      ],
+      "PreLevelId": 110301,
+      "Score": 4000,
+      "WinCondDesc": "GoldenSpyLevel.110302.2",
+      "BuffCardPoolId": 1312,
+      "LevelDesc": "GoldenSpyLevel.110302.3",
+      "Skill": "[[1001,2],[1002,2]]",
+      "Item1Id": 2,
+      "Item1Count": 100,
+      "Item2Id": 73109,
+      "Item2Count": 2000,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.110302.1",
+          "zh_TW": "雜物藏機",
+          "zh_CN": "杂物藏机",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.110302.2",
+          "zh_TW": "獲得4000積分",
+          "zh_CN": "获得4000积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.110302.3",
+          "zh_TW": "看似無用的東西，或許也能在關鍵時刻派上用場。",
+          "zh_CN": "看似无用的东西，或许也会在关键时刻派上用场。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "110401": {
+      "Id": 110401,
+      "LevelType": 3,
+      "LevelName": "GoldenSpyLevel.110401.1",
+      "ConfigId": 10102,
+      "IconPath": "zs_goldenspy_level_04",
+      "FloorList": [
+        11040101,
+        11040102,
+        11040103,
+        11040104,
+        11040105,
+        11040106,
+        11040107,
+        11040108,
+        11040109,
+        11040110,
+        11040111,
+        11040112,
+        11040113,
+        11040114,
+        11040115
+      ],
+      "PreLevelId": 110302,
+      "Score": 8000,
+      "WinCondDesc": "GoldenSpyLevel.110401.2",
+      "BuffCardPoolId": 1001,
+      "LevelDesc": "GoldenSpyLevel.110401.3",
+      "Skill": "[[1001,3],[1002,3]]",
+      "Item1Id": 2,
+      "Item1Count": 100,
+      "Item2Id": 73109,
+      "Item2Count": 3000,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.110401.1",
+          "zh_TW": "燈火與偽裝",
+          "zh_CN": "灯火与伪装",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.110401.2",
+          "zh_TW": "獲得8000積分",
+          "zh_CN": "获得8000积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.110401.3",
+          "zh_TW": "行動正式開始，在宴會結束前取走目標寶物。",
+          "zh_CN": "行动正式开始，在宴会结束前取走目标的宝物。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "120101": {
+      "Id": 120101,
+      "LevelType": 1,
+      "LevelName": "GoldenSpyLevel.120101.1",
+      "ConfigId": 10104,
+      "IconPath": "zs_goldenspy_level_01",
+      "FloorList": [
+        12010101
+      ],
+      "Score": 1000,
+      "WinCondDesc": "GoldenSpyLevel.120101.2",
+      "LevelDesc": "GoldenSpyLevel.120101.3",
+      "Skill": "[[1001,1]]",
+      "Item1Id": 2,
+      "Item1Count": 50,
+      "Item2Id": 73112,
+      "Item2Count": 300,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.120101.1",
+          "zh_TW": "市集打探",
+          "zh_CN": "集市打探",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.120101.2",
+          "zh_TW": "獲得1000積分",
+          "zh_CN": "获得1000积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.120101.3",
+          "zh_TW": "在市集上打探情報也是一門學問，千萬別在談話間暴露自己的身分與真正目的。",
+          "zh_CN": "在集市上打探情报也是一门技巧，千万不要在话语间暴露了自己的身份与真实意图。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "120102": {
+      "Id": 120102,
+      "LevelType": 1,
+      "LevelName": "GoldenSpyLevel.120102.1",
+      "ConfigId": 10104,
+      "IconPath": "zs_goldenspy_level_01",
+      "FloorList": [
+        12010201,
+        12010202
+      ],
+      "PreLevelId": 120101,
+      "Score": 2800,
+      "WinCondDesc": "GoldenSpyLevel.120102.2",
+      "LevelDesc": "GoldenSpyLevel.120102.3",
+      "Skill": "[[1001,2]]",
+      "Item1Id": 2,
+      "Item1Count": 50,
+      "Item2Id": 73112,
+      "Item2Count": 400,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.120102.1",
+          "zh_TW": "提前潛入",
+          "zh_CN": "提前潜入",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.120102.2",
+          "zh_TW": "獲得2800積分",
+          "zh_CN": "获得2800积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.120102.3",
+          "zh_TW": "提前潛入礦坑觀察敵方部署，記錄換哨時間與順序。",
+          "zh_CN": "提前潜入矿洞观察敌人部署，记录换岗时间与顺序。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "120201": {
+      "Id": 120201,
+      "LevelType": 1,
+      "LevelName": "GoldenSpyLevel.120201.1",
+      "ConfigId": 10104,
+      "IconPath": "zs_goldenspy_level_02",
+      "FloorList": [
+        12020101
+      ],
+      "PreLevelId": 120102,
+      "Score": 1800,
+      "WinCondDesc": "GoldenSpyLevel.120201.2",
+      "LevelDesc": "GoldenSpyLevel.120201.3",
+      "Skill": "[[1001,1],[1002,1]]",
+      "Item1Id": 2,
+      "Item1Count": 100,
+      "Item2Id": 73112,
+      "Item2Count": 600,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.120201.1",
+          "zh_TW": "情報討論",
+          "zh_CN": "情报讨论",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.120201.2",
+          "zh_TW": "獲得1800積分",
+          "zh_CN": "获得1800积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.120201.3",
+          "zh_TW": "情報有真有假，有重要的也有無關緊要的。我們要做的，就是從中篩選出真正有價值的內容。",
+          "zh_CN": "情报有真有假，有重要的有不重要的，我们要做的是筛选出真正有价值的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "120202": {
+      "Id": 120202,
+      "LevelType": 1,
+      "LevelName": "GoldenSpyLevel.120202.1",
+      "ConfigId": 10104,
+      "IconPath": "zs_goldenspy_level_02",
+      "FloorList": [
+        12020201,
+        12020202
+      ],
+      "PreLevelId": 120201,
+      "Score": 2800,
+      "WinCondDesc": "GoldenSpyLevel.120202.2",
+      "LevelDesc": "GoldenSpyLevel.120202.3",
+      "Skill": "[[1001,2],[1002,2]]",
+      "Item1Id": 2,
+      "Item1Count": 100,
+      "Item2Id": 73112,
+      "Item2Count": 800,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.120202.1",
+          "zh_TW": "會議結論",
+          "zh_CN": "会议结论",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.120202.2",
+          "zh_TW": "獲得2800積分",
+          "zh_CN": "获得2800积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.120202.3",
+          "zh_TW": "與夥伴共同討論，擬定行動計畫，並得出結論，準備付諸實行。",
+          "zh_CN": "与同伴一同讨论，制定计划，并得出结论，准备实施。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "120301": {
+      "Id": 120301,
+      "LevelType": 2,
+      "LevelName": "GoldenSpyLevel.120301.1",
+      "ConfigId": 10104,
+      "IconPath": "zs_goldenspy_level_03",
+      "FloorList": [
+        12030101,
+        12030102
+      ],
+      "PreLevelId": 120202,
+      "Score": 2500,
+      "WinCondDesc": "GoldenSpyLevel.120301.2",
+      "BuffCardPoolId": 1311,
+      "BuffRefeshCount": 1,
+      "LevelDesc": "GoldenSpyLevel.120301.3",
+      "Skill": "[[1001,2]]",
+      "Item1Id": 2,
+      "Item1Count": 100,
+      "Item2Id": 73112,
+      "Item2Count": 1000,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.120301.1",
+          "zh_TW": "目標確認",
+          "zh_CN": "目标确认",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.120301.2",
+          "zh_TW": "獲得2500積分",
+          "zh_CN": "获得2500积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.120301.3",
+          "zh_TW": "鎖定最終目標，並開始部署作戰計畫。",
+          "zh_CN": "锁定最终目标，并开始作战部署。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "120302": {
+      "Id": 120302,
+      "LevelType": 2,
+      "LevelName": "GoldenSpyLevel.120302.1",
+      "ConfigId": 10104,
+      "IconPath": "zs_goldenspy_level_03",
+      "FloorList": [
+        12030201,
+        12030202,
+        12030203
+      ],
+      "PreLevelId": 120301,
+      "Score": 4000,
+      "WinCondDesc": "GoldenSpyLevel.120302.2",
+      "BuffCardPoolId": 1312,
+      "BuffRefeshCount": 1,
+      "LevelDesc": "GoldenSpyLevel.120302.3",
+      "Skill": "[[1001,2],[1002,2]]",
+      "Item1Id": 2,
+      "Item1Count": 100,
+      "Item2Id": 73112,
+      "Item2Count": 2000,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.120302.1",
+          "zh_TW": "模擬訓練",
+          "zh_CN": "模拟训练",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.120302.2",
+          "zh_TW": "獲得4000積分",
+          "zh_CN": "获得4000积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.120302.3",
+          "zh_TW": "在正式行動開始前，我們還需要進行一次有針對性的演練。",
+          "zh_CN": "在正式行动开始前，我们还需要做一次针对性的演练。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    },
+    "120401": {
+      "Id": 120401,
+      "LevelType": 3,
+      "LevelName": "GoldenSpyLevel.120401.1",
+      "ConfigId": 10103,
+      "IconPath": "zs_goldenspy_level_04",
+      "FloorList": [
+        12040101,
+        12040102,
+        12040103,
+        12040104,
+        12040105,
+        12040106,
+        12040107,
+        12040108,
+        12040109,
+        12040110,
+        12040111,
+        12040112,
+        12040113,
+        12040114,
+        12040115
+      ],
+      "PreLevelId": 120302,
+      "Score": 8000,
+      "WinCondDesc": "GoldenSpyLevel.120401.2",
+      "BuffCardPoolId": 1001,
+      "BuffRefeshCount": 3,
+      "LevelDesc": "GoldenSpyLevel.120401.3",
+      "Skill": "[[1001,3],[1002,3]]",
+      "Item1Id": 2,
+      "Item1Count": 100,
+      "Item2Id": 73112,
+      "Item2Count": 3000,
+      "_localized": {
+        "/LevelName": {
+          "key": "GoldenSpyLevel.120401.1",
+          "zh_TW": "塵歸塵，土歸土",
+          "zh_CN": "尘归尘，土归土",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/WinCondDesc": {
+          "key": "GoldenSpyLevel.120401.2",
+          "zh_TW": "獲得8000積分",
+          "zh_CN": "获得8000积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        },
+        "/LevelDesc": {
+          "key": "GoldenSpyLevel.120401.3",
+          "zh_TW": "作戰開始。待塵埃落定，一切終將歸於塵土。",
+          "zh_CN": "作战开始，当尘埃落定，一切都将归于尘土。",
+          "sources": {
+            "zh_TW": "language/zh_TW/GoldenSpyLevel.json",
+            "zh_CN": "language/zh_CN/GoldenSpyLevel.json"
+          }
+        }
+      }
+    }
+  }
+}

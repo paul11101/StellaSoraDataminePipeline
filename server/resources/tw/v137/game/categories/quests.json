@@ -1,0 +1,756 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "quests",
+    "name": "任务、成就与引导",
+    "description": "主支线目标、日周任务、成就、教程和功能开放条件。",
+    "table_count": 42,
+    "row_count": 2944,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "Achievement",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 635,
+      "data": "bin/Achievement.json",
+      "readable": "readable/Achievement.json",
+      "evidence": "evidence/tables/Achievement.json",
+      "source_sha256": "1cb23672cacc0609f6c898db25589deecd3f2eecf9cde9d9b719d231c5f7e1d6",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Achievement.json",
+      "zh_CN": "language/zh_CN/Achievement.json"
+    },
+    {
+      "table": "ActivityDoubleQuest",
+      "categories": [
+        "quests",
+        "activities"
+      ],
+      "row_count": 14,
+      "data": "bin/ActivityDoubleQuest.json",
+      "readable": "readable/ActivityDoubleQuest.json",
+      "evidence": "evidence/tables/ActivityDoubleQuest.json",
+      "source_sha256": "a4499a84bf8605d8681c1b4192b2d1a2372b28256fb469fb08a301578cf5e1d8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+      "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+    },
+    {
+      "table": "ActivityPenguinCardQuest",
+      "categories": [
+        "quests",
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 30,
+      "data": "bin/ActivityPenguinCardQuest.json",
+      "readable": "readable/ActivityPenguinCardQuest.json",
+      "evidence": "evidence/tables/ActivityPenguinCardQuest.json",
+      "source_sha256": "22827d169d5c5074acbe1f80459efc3e3dbcb99da8120f21ee19d296e1721522",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityPenguinCardQuest.json",
+      "zh_CN": "language/zh_CN/ActivityPenguinCardQuest.json"
+    },
+    {
+      "table": "ActivityPenguinCardQuestGroup",
+      "categories": [
+        "quests",
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 5,
+      "data": "bin/ActivityPenguinCardQuestGroup.json",
+      "readable": "readable/ActivityPenguinCardQuestGroup.json",
+      "evidence": "evidence/tables/ActivityPenguinCardQuestGroup.json",
+      "source_sha256": "7083595e39883c50b34245fcb2d6e96d79c7ad2fff83895097418a6081646299",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityPenguinCardQuestGroup.json",
+      "zh_CN": "language/zh_CN/ActivityPenguinCardQuestGroup.json"
+    },
+    {
+      "table": "AffinityQuest",
+      "categories": [
+        "characters",
+        "quests"
+      ],
+      "row_count": 333,
+      "data": "bin/AffinityQuest.json",
+      "readable": "readable/AffinityQuest.json",
+      "evidence": "evidence/tables/AffinityQuest.json",
+      "source_sha256": "5b6accb2ebc840e543db6baeae5a2c440fc7b7a27f0acc6e116523f3a4fbf57e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/AffinityQuest.json",
+      "zh_CN": "language/zh_CN/AffinityQuest.json"
+    },
+    {
+      "table": "AssistQuest",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 78,
+      "data": "bin/AssistQuest.json",
+      "readable": "readable/AssistQuest.json",
+      "evidence": "evidence/tables/AssistQuest.json",
+      "source_sha256": "381670ef9b866bca2ccc1b057cd227adb6c8b6907c242900d088211a0f66c883",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/AssistQuest.json",
+      "zh_CN": "language/zh_CN/AssistQuest.json"
+    },
+    {
+      "table": "AssistQuestGroup",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 10,
+      "data": "bin/AssistQuestGroup.json",
+      "readable": "readable/AssistQuestGroup.json",
+      "evidence": "evidence/tables/AssistQuestGroup.json",
+      "source_sha256": "569d059cc8f32e555dc564497b9ffd75ea6312fa16493102af6b58dc89c81b38",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BattlePassQuest",
+      "categories": [
+        "combat",
+        "quests",
+        "activities"
+      ],
+      "row_count": 17,
+      "data": "bin/BattlePassQuest.json",
+      "readable": "readable/BattlePassQuest.json",
+      "evidence": "evidence/tables/BattlePassQuest.json",
+      "source_sha256": "88edc5dbb225debb8b444ae7e057f686ff3cde0ab80d5f2782157b8461574c91",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/BattlePassQuest.json",
+      "zh_CN": "language/zh_CN/BattlePassQuest.json"
+    },
+    {
+      "table": "CookieQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/CookieQuest.json",
+      "readable": "readable/CookieQuest.json",
+      "evidence": "evidence/tables/CookieQuest.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DailyQuest",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 15,
+      "data": "bin/DailyQuest.json",
+      "readable": "readable/DailyQuest.json",
+      "evidence": "evidence/tables/DailyQuest.json",
+      "source_sha256": "067c8d214bc503e3a735cdfcd46062a358271a512b3ea975a1708f5a9d990553",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DailyQuest.json",
+      "zh_CN": "language/zh_CN/DailyQuest.json"
+    },
+    {
+      "table": "DailyQuestActive",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 5,
+      "data": "bin/DailyQuestActive.json",
+      "readable": "readable/DailyQuestActive.json",
+      "evidence": "evidence/tables/DailyQuestActive.json",
+      "source_sha256": "d97b21b6b79231bbdf6bace959e6f54ee3666179d7ac9e55bbaf971a337b2243",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DailyQuestAward",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 4,
+      "data": "bin/DailyQuestAward.json",
+      "readable": "readable/DailyQuestAward.json",
+      "evidence": "evidence/tables/DailyQuestAward.json",
+      "source_sha256": "2164b4a95d7175693f81f37ebe6693093a02578e8e7d544745e417e0f035db74",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DemonQuest",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 0,
+      "data": "bin/DemonQuest.json",
+      "readable": "readable/DemonQuest.json",
+      "evidence": "evidence/tables/DemonQuest.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Guide",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 0,
+      "data": "bin/Guide.json",
+      "readable": "readable/Guide.json",
+      "evidence": "evidence/tables/Guide.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GuideGroup",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 54,
+      "data": "bin/GuideGroup.json",
+      "readable": "readable/GuideGroup.json",
+      "evidence": "evidence/tables/GuideGroup.json",
+      "source_sha256": "94b1c5a1af39d6201c21b61d597192e53c0ca51ead430a14125eb24addebda70",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "JointDrillQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 42,
+      "data": "bin/JointDrillQuest.json",
+      "readable": "readable/JointDrillQuest.json",
+      "evidence": "evidence/tables/JointDrillQuest.json",
+      "source_sha256": "c753e6251c66f000913b8212f55a3d767d8693d96dc1adb23dc2a3445ce48a33",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/JointDrillQuest.json",
+      "zh_CN": "language/zh_CN/JointDrillQuest.json"
+    },
+    {
+      "table": "LevelQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 369,
+      "data": "bin/LevelQuest.json",
+      "readable": "readable/LevelQuest.json",
+      "evidence": "evidence/tables/LevelQuest.json",
+      "source_sha256": "55bd3a93598cf47a80f6133ed49f8dcdf2d72630071808a71d2ef68339e54941",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/LevelQuest.json",
+      "zh_CN": "language/zh_CN/LevelQuest.json"
+    },
+    {
+      "table": "LevelQuestTarget",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 586,
+      "data": "bin/LevelQuestTarget.json",
+      "readable": "readable/LevelQuestTarget.json",
+      "evidence": "evidence/tables/LevelQuestTarget.json",
+      "source_sha256": "6b4c1f105035662696c76e7f13e0e21e9693dd3b716b65d7af225d7875561355",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/LevelQuestTarget.json",
+      "zh_CN": "language/zh_CN/LevelQuestTarget.json"
+    },
+    {
+      "table": "MiningQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 21,
+      "data": "bin/MiningQuest.json",
+      "readable": "readable/MiningQuest.json",
+      "evidence": "evidence/tables/MiningQuest.json",
+      "source_sha256": "c7b0f6c51ec4cb8e36a6703d1645a389f917f261b6e512f36301042ab4b71060",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MiningQuest.json",
+      "zh_CN": "language/zh_CN/MiningQuest.json"
+    },
+    {
+      "table": "MiningQuestGroup",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 3,
+      "data": "bin/MiningQuestGroup.json",
+      "readable": "readable/MiningQuestGroup.json",
+      "evidence": "evidence/tables/MiningQuestGroup.json",
+      "source_sha256": "57cfc6c37ca3c9b789105219ec59587ec1a4450f303e5f6e6c01ac1782d79312",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MiningQuestGroup.json",
+      "zh_CN": "language/zh_CN/MiningQuestGroup.json"
+    },
+    {
+      "table": "OpenFunc",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 31,
+      "data": "bin/OpenFunc.json",
+      "readable": "readable/OpenFunc.json",
+      "evidence": "evidence/tables/OpenFunc.json",
+      "source_sha256": "63c7617713a1d403fb104cecf3cf839385272ba19ebfecdc7e16fef08f8cc654",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/OpenFunc.json",
+      "zh_CN": "language/zh_CN/OpenFunc.json"
+    },
+    {
+      "table": "PenguinCardQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 28,
+      "data": "bin/PenguinCardQuest.json",
+      "readable": "readable/PenguinCardQuest.json",
+      "evidence": "evidence/tables/PenguinCardQuest.json",
+      "source_sha256": "8dfb5ce250a4a27cbcb1e4c41b187068e1602c82e05fde060c377d09f713897b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PenguinCardQuest.json",
+      "zh_CN": "language/zh_CN/PenguinCardQuest.json"
+    },
+    {
+      "table": "PenguinCardQuestWeight",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 28,
+      "data": "bin/PenguinCardQuestWeight.json",
+      "readable": "readable/PenguinCardQuestWeight.json",
+      "evidence": "evidence/tables/PenguinCardQuestWeight.json",
+      "source_sha256": "e90f59c52c824d548eda52d973087e7c57f00584a038d816521ab62e5a44743f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PeriodicQuest",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 70,
+      "data": "bin/PeriodicQuest.json",
+      "readable": "readable/PeriodicQuest.json",
+      "evidence": "evidence/tables/PeriodicQuest.json",
+      "source_sha256": "b711a9365227369b290fc462c93716ccba3b0bbc9821fb41a228b81b12e6292e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PeriodicQuest.json",
+      "zh_CN": "language/zh_CN/PeriodicQuest.json"
+    },
+    {
+      "table": "PeriodicQuestControl",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 1,
+      "data": "bin/PeriodicQuestControl.json",
+      "readable": "readable/PeriodicQuestControl.json",
+      "evidence": "evidence/tables/PeriodicQuestControl.json",
+      "source_sha256": "d4cb80e9b5b023fc90de6a8cf9d6603af6cbdc40ae45db6b3e1cd95177517473",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PeriodicQuestControl.json",
+      "zh_CN": "language/zh_CN/PeriodicQuestControl.json"
+    },
+    {
+      "table": "PeriodicQuestGroup",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 7,
+      "data": "bin/PeriodicQuestGroup.json",
+      "readable": "readable/PeriodicQuestGroup.json",
+      "evidence": "evidence/tables/PeriodicQuestGroup.json",
+      "source_sha256": "ebfe762ea5a3b64f3f8d79735b9962e9c1f444eac75db03eb204d00800ad92c7",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 12,
+      "data": "bin/SoldierQuest.json",
+      "readable": "readable/SoldierQuest.json",
+      "evidence": "evidence/tables/SoldierQuest.json",
+      "source_sha256": "a0beef34389d7647c55c4b42274c895bb782430dead673e373cc10318bef3a6d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierQuest.json",
+      "zh_CN": "language/zh_CN/SoldierQuest.json"
+    },
+    {
+      "table": "SoldierQuestGroup",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 2,
+      "data": "bin/SoldierQuestGroup.json",
+      "readable": "readable/SoldierQuestGroup.json",
+      "evidence": "evidence/tables/SoldierQuestGroup.json",
+      "source_sha256": "9c478090e807ee7b6e1d6c47b7f02d39a9a86b31db74de7df0a22dba254009b7",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/SoldierQuestGroup.json",
+      "zh_CN": "language/zh_CN/SoldierQuestGroup.json"
+    },
+    {
+      "table": "StarTowerBookFateCardQuest",
+      "categories": [
+        "discs",
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 33,
+      "data": "bin/StarTowerBookFateCardQuest.json",
+      "readable": "readable/StarTowerBookFateCardQuest.json",
+      "evidence": "evidence/tables/StarTowerBookFateCardQuest.json",
+      "source_sha256": "97c3f08f75f556187256cea27e6d3e813084f9120bfbacdd9903da680b1a0049",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerBookFateCardQuest.json",
+      "zh_CN": "language/zh_CN/StarTowerBookFateCardQuest.json"
+    },
+    {
+      "table": "StarTowerQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 57,
+      "data": "bin/StarTowerQuest.json",
+      "readable": "readable/StarTowerQuest.json",
+      "evidence": "evidence/tables/StarTowerQuest.json",
+      "source_sha256": "78a5e5d31c6796138beb9ee90110a948f8723a05c6eaa6bc367ea3fb0239d1f9",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerQuest.json",
+      "zh_CN": "language/zh_CN/StarTowerQuest.json"
+    },
+    {
+      "table": "ThrowGiftGuideLine",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 4,
+      "data": "bin/ThrowGiftGuideLine.json",
+      "readable": "readable/ThrowGiftGuideLine.json",
+      "evidence": "evidence/tables/ThrowGiftGuideLine.json",
+      "source_sha256": "8612aa0943ac2dbca9afc24b5e57311ed8789b7e93592c03b63da3c70f7d3343",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TourGuideQuest",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 59,
+      "data": "bin/TourGuideQuest.json",
+      "readable": "readable/TourGuideQuest.json",
+      "evidence": "evidence/tables/TourGuideQuest.json",
+      "source_sha256": "0d663a20359ccf0bbe1b4e671ced4b636d8c8e873aa248de82bff81592e36a50",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TourGuideQuest.json",
+      "zh_CN": "language/zh_CN/TourGuideQuest.json"
+    },
+    {
+      "table": "TourGuideQuestGroup",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 9,
+      "data": "bin/TourGuideQuestGroup.json",
+      "readable": "readable/TourGuideQuestGroup.json",
+      "evidence": "evidence/tables/TourGuideQuestGroup.json",
+      "source_sha256": "d2d06a011f36fef8125cc6c11044bd9c65827c483eacb67e15034bbe5b3bceec",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TowerDefenseGuide",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 46,
+      "data": "bin/TowerDefenseGuide.json",
+      "readable": "readable/TowerDefenseGuide.json",
+      "evidence": "evidence/tables/TowerDefenseGuide.json",
+      "source_sha256": "b958ecdf7857a0d3cca5f183479378334f8a185685b5635174c0fbe632c48b64",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TowerDefenseQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 99,
+      "data": "bin/TowerDefenseQuest.json",
+      "readable": "readable/TowerDefenseQuest.json",
+      "evidence": "evidence/tables/TowerDefenseQuest.json",
+      "source_sha256": "b358dc7c1053ab8241b6565290c2a7c53d2376b5f2cf37bf572c35d6076fa7b2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+      "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+    },
+    {
+      "table": "TowerDefenseQuestGroup",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 16,
+      "data": "bin/TowerDefenseQuestGroup.json",
+      "readable": "readable/TowerDefenseQuestGroup.json",
+      "evidence": "evidence/tables/TowerDefenseQuestGroup.json",
+      "source_sha256": "1c1f3c221a095cd1d0369927eb3681944d71e2090fdd7e93211fe3a1ef8e3400",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefenseQuestGroup.json",
+      "zh_CN": "language/zh_CN/TowerDefenseQuestGroup.json"
+    },
+    {
+      "table": "TravelerDuelChallengeQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 59,
+      "data": "bin/TravelerDuelChallengeQuest.json",
+      "readable": "readable/TravelerDuelChallengeQuest.json",
+      "evidence": "evidence/tables/TravelerDuelChallengeQuest.json",
+      "source_sha256": "abd0a8b7c4ed7e60a603f4d46a31ce2362f6737cd530ec0174fdd29f91a14fab",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+      "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+    },
+    {
+      "table": "TutorialLevel",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 8,
+      "data": "bin/TutorialLevel.json",
+      "readable": "readable/TutorialLevel.json",
+      "evidence": "evidence/tables/TutorialLevel.json",
+      "source_sha256": "5a45c77d8a6c7b6ccc5cc434fa7357bb3ffdcf09c52093e9e181de4d12075d77",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TutorialLevel.json",
+      "zh_CN": "language/zh_CN/TutorialLevel.json"
+    },
+    {
+      "table": "TutorialLevelFloor",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 8,
+      "data": "bin/TutorialLevelFloor.json",
+      "readable": "readable/TutorialLevelFloor.json",
+      "evidence": "evidence/tables/TutorialLevelFloor.json",
+      "source_sha256": "6cf66a1ba84223c6d59512e51da8f225c2285f021b38324d2c49f4d3ec938538",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireSurvivorQuest",
+      "categories": [
+        "quests",
+        "stages_modes"
+      ],
+      "row_count": 128,
+      "data": "bin/VampireSurvivorQuest.json",
+      "readable": "readable/VampireSurvivorQuest.json",
+      "evidence": "evidence/tables/VampireSurvivorQuest.json",
+      "source_sha256": "2a3bf173faf303def533736b0ff1dc98541b219398767a8489cb37956af67dc7",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/VampireSurvivorQuest.json",
+      "zh_CN": "language/zh_CN/VampireSurvivorQuest.json"
+    },
+    {
+      "table": "WeeklyQuest",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 13,
+      "data": "bin/WeeklyQuest.json",
+      "readable": "readable/WeeklyQuest.json",
+      "evidence": "evidence/tables/WeeklyQuest.json",
+      "source_sha256": "04cd302ee1ce4bb092d95aa81610a266a1a2fe1d1eeba29b82b1a408f7dff57e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/WeeklyQuest.json",
+      "zh_CN": "language/zh_CN/WeeklyQuest.json"
+    },
+    {
+      "table": "WeeklyQuestActive",
+      "categories": [
+        "quests"
+      ],
+      "row_count": 5,
+      "data": "bin/WeeklyQuestActive.json",
+      "readable": "readable/WeeklyQuestActive.json",
+      "evidence": "evidence/tables/WeeklyQuestActive.json",
+      "source_sha256": "921e9f5e3624a173e73aa8a32a1db91b5d67fca4b78bdb5acd8edf8016285864",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    }
+  ]
+}

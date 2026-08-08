@@ -1,0 +1,897 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "MangaLoading",
+    "categories": [
+      "localization_media"
+    ],
+    "row_count": 49,
+    "localization_hits": 49,
+    "source": "bin/MangaLoading.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Source": "Icon/Loading/loading_comic_01",
+      "Title": "MangaLoading.1.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.1.1",
+          "zh_TW": "沛沛能量補充！",
+          "zh_CN": "沛沛能量补充！",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Source": "Icon/Loading/loading_comic_02",
+      "Title": "MangaLoading.2.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.2.1",
+          "zh_TW": "手機依賴症",
+          "zh_CN": "手机依赖症",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Source": "Icon/Loading/loading_comic_03",
+      "Title": "MangaLoading.3.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.3.1",
+          "zh_TW": "開銷難題",
+          "zh_CN": "开销难题",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "Source": "Icon/Loading/loading_comic_04",
+      "Title": "MangaLoading.4.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.4.1",
+          "zh_TW": "神祕單車手",
+          "zh_CN": "神秘单车手",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "Source": "Icon/Loading/loading_comic_05",
+      "Title": "MangaLoading.5.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.5.1",
+          "zh_TW": "沉於藝術之海",
+          "zh_CN": "沉于艺术之海",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "Source": "Icon/Loading/loading_comic_06",
+      "Title": "MangaLoading.6.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.6.1",
+          "zh_TW": "淚液收藏",
+          "zh_CN": "泪液收藏",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "Source": "Icon/Loading/loading_comic_07",
+      "Title": "MangaLoading.7.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.7.1",
+          "zh_TW": "蛋糕誘惑",
+          "zh_CN": "蛋糕诱惑",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "9": {
+      "Id": 9,
+      "Source": "Icon/Loading/loading_comic_09",
+      "Title": "MangaLoading.9.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.9.1",
+          "zh_TW": "純情祕密",
+          "zh_CN": "纯情秘密",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "10": {
+      "Id": 10,
+      "Source": "Icon/Loading/loading_comic_10",
+      "Title": "MangaLoading.10.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.10.1",
+          "zh_TW": "無效潛行",
+          "zh_CN": "无效潜行",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "11": {
+      "Id": 11,
+      "Source": "Icon/Loading/loading_comic_11",
+      "Title": "MangaLoading.11.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.11.1",
+          "zh_TW": "時運不順",
+          "zh_CN": "时运不顺",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Source": "Icon/Loading/loading_comic_12",
+      "Title": "MangaLoading.12.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.12.1",
+          "zh_TW": "自我認知",
+          "zh_CN": "自我认知",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Source": "Icon/Loading/loading_comic_13",
+      "Title": "MangaLoading.13.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.13.1",
+          "zh_TW": "普遍誤會",
+          "zh_CN": "普遍误会",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Source": "Icon/Loading/loading_comic_14",
+      "Title": "MangaLoading.14.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.14.1",
+          "zh_TW": "學海無涯",
+          "zh_CN": "学海无涯",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "15": {
+      "Id": 15,
+      "Source": "Icon/Loading/loading_comic_15",
+      "Title": "MangaLoading.15.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.15.1",
+          "zh_TW": "無力時刻",
+          "zh_CN": "脱力时刻",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Source": "Icon/Loading/loading_comic_16",
+      "Title": "MangaLoading.16.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.16.1",
+          "zh_TW": "關懷備至",
+          "zh_CN": "关怀备至",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "17": {
+      "Id": 17,
+      "Source": "Icon/Loading/loading_comic_17",
+      "Title": "MangaLoading.17.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.17.1",
+          "zh_TW": "飲料誘惑",
+          "zh_CN": "饮料诱惑",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Source": "Icon/Loading/loading_comic_18",
+      "Title": "MangaLoading.18.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.18.1",
+          "zh_TW": "獨特關注點",
+          "zh_CN": "独特关注点",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "19": {
+      "Id": 19,
+      "Source": "Icon/Loading/loading_comic_19",
+      "Title": "MangaLoading.19.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.19.1",
+          "zh_TW": "摸魚技巧",
+          "zh_CN": "摸鱼技巧",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "20": {
+      "Id": 20,
+      "Source": "Icon/Loading/loading_comic_20",
+      "Title": "MangaLoading.20.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.20.1",
+          "zh_TW": "守護糧食",
+          "zh_CN": "守护粮食",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "21": {
+      "Id": 21,
+      "Source": "Icon/Loading/loading_comic_21",
+      "Title": "MangaLoading.21.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.21.1",
+          "zh_TW": "辣度評級",
+          "zh_CN": "辣感评级",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "22": {
+      "Id": 22,
+      "Source": "Icon/Loading/loading_comic_22",
+      "Title": "MangaLoading.22.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.22.1",
+          "zh_TW": "樹上的意外",
+          "zh_CN": "树上的意外",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "23": {
+      "Id": 23,
+      "Source": "Icon/Loading/loading_comic_23",
+      "Title": "MangaLoading.23.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.23.1",
+          "zh_TW": "遵守速限",
+          "zh_CN": "遵守限速",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "24": {
+      "Id": 24,
+      "Source": "Icon/Loading/loading_comic_24",
+      "Title": "MangaLoading.24.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.24.1",
+          "zh_TW": "充分溝通",
+          "zh_CN": "充分沟通",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "25": {
+      "Id": 25,
+      "Source": "Icon/Loading/loading_comic_25",
+      "Title": "MangaLoading.25.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.25.1",
+          "zh_TW": "夢中的演出",
+          "zh_CN": "梦中的演出",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Source": "Icon/Loading/loading_comic_26",
+      "Title": "MangaLoading.26.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.26.1",
+          "zh_TW": "請示意見",
+          "zh_CN": "请示意见",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "27": {
+      "Id": 27,
+      "Source": "Icon/Loading/loading_comic_27",
+      "Title": "MangaLoading.27.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.27.1",
+          "zh_TW": "說謊的味道",
+          "zh_CN": "说谎的味道",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "28": {
+      "Id": 28,
+      "Source": "Icon/Loading/loading_comic_28",
+      "Title": "MangaLoading.28.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.28.1",
+          "zh_TW": "視力不佳",
+          "zh_CN": "视力不佳",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "29": {
+      "Id": 29,
+      "Source": "Icon/Loading/loading_comic_29",
+      "Title": "MangaLoading.29.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.29.1",
+          "zh_TW": "日曬的餘溫",
+          "zh_CN": "日晒的余温",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "30": {
+      "Id": 30,
+      "Source": "Icon/Loading/loading_comic_30",
+      "Title": "MangaLoading.30.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.30.1",
+          "zh_TW": "意外風波",
+          "zh_CN": "意外风波",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "31": {
+      "Id": 31,
+      "Source": "Icon/Loading/loading_comic_31",
+      "Title": "MangaLoading.31.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.31.1",
+          "zh_TW": "左右為難",
+          "zh_CN": "左右为难",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "32": {
+      "Id": 32,
+      "Source": "Icon/Loading/loading_comic_32",
+      "Title": "MangaLoading.32.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.32.1",
+          "zh_TW": "禁止留影",
+          "zh_CN": "禁止留影",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "33": {
+      "Id": 33,
+      "Source": "Icon/Loading/loading_comic_33",
+      "Title": "MangaLoading.33.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.33.1",
+          "zh_TW": "夏日美夢",
+          "zh_CN": "夏日美梦",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "34": {
+      "Id": 34,
+      "Source": "Icon/Loading/loading_comic_34",
+      "Title": "MangaLoading.34.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.34.1",
+          "zh_TW": "對話練習",
+          "zh_CN": "对话练习",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "35": {
+      "Id": 35,
+      "Source": "Icon/Loading/loading_comic_35",
+      "Title": "MangaLoading.35.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.35.1",
+          "zh_TW": "美味麥汁",
+          "zh_CN": "美味麦汁",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "36": {
+      "Id": 36,
+      "Source": "Icon/Loading/loading_comic_36",
+      "Title": "MangaLoading.36.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.36.1",
+          "zh_TW": "目不轉睛",
+          "zh_CN": "目不转睛",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "37": {
+      "Id": 37,
+      "Source": "Icon/Loading/loading_comic_37",
+      "Title": "MangaLoading.37.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.37.1",
+          "zh_TW": "半途求援",
+          "zh_CN": "半途求援",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "38": {
+      "Id": 38,
+      "Source": "Icon/Loading/loading_comic_38",
+      "Title": "MangaLoading.38.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.38.1",
+          "zh_TW": "投遞意外",
+          "zh_CN": "投递意外",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "39": {
+      "Id": 39,
+      "Source": "Icon/Loading/loading_comic_39",
+      "Title": "MangaLoading.39.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.39.1",
+          "zh_TW": "日夜顛倒",
+          "zh_CN": "日夜颠倒",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "40": {
+      "Id": 40,
+      "Source": "Icon/Loading/loading_comic_40",
+      "Title": "MangaLoading.40.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.40.1",
+          "zh_TW": "實驗事故",
+          "zh_CN": "实验事故",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "41": {
+      "Id": 41,
+      "Source": "Icon/Loading/loading_comic_41",
+      "Title": "MangaLoading.41.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.41.1",
+          "zh_TW": "收成良好",
+          "zh_CN": "收成良好",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "42": {
+      "Id": 42,
+      "Source": "Icon/Loading/loading_comic_42",
+      "Title": "MangaLoading.42.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.42.1",
+          "zh_TW": "入鄉隨俗",
+          "zh_CN": "入乡随俗",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "43": {
+      "Id": 43,
+      "Source": "Icon/Loading/loading_comic_43",
+      "Title": "MangaLoading.43.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.43.1",
+          "zh_TW": "留影時刻",
+          "zh_CN": "留影时刻",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "44": {
+      "Id": 44,
+      "Source": "Icon/Loading/loading_comic_44",
+      "Title": "MangaLoading.44.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.44.1",
+          "zh_TW": "俯瞰風景",
+          "zh_CN": "俯瞰风景",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "45": {
+      "Id": 45,
+      "Source": "Icon/Loading/loading_comic_45_lang",
+      "Title": "MangaLoading.45.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.45.1",
+          "zh_TW": "暖心關懷",
+          "zh_CN": "暖心关怀",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "46": {
+      "Id": 46,
+      "Source": "Icon/Loading/loading_comic_46_lang",
+      "Title": "MangaLoading.46.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.46.1",
+          "zh_TW": "順手牽羊",
+          "zh_CN": "顺手牵羊",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "47": {
+      "Id": 47,
+      "Source": "Icon/Loading/loading_comic_47_lang",
+      "Title": "MangaLoading.47.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.47.1",
+          "zh_TW": "積木成塔",
+          "zh_CN": "积木成塔",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "48": {
+      "Id": 48,
+      "Source": "Icon/Loading/loading_comic_48_lang",
+      "Title": "MangaLoading.48.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.48.1",
+          "zh_TW": "可愛即正義",
+          "zh_CN": "可爱即正义",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "49": {
+      "Id": 49,
+      "Source": "Icon/Loading/loading_comic_49_lang",
+      "Title": "MangaLoading.49.1",
+      "ConditionType": 1,
+      "Weight": 100,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.49.1",
+          "zh_TW": "就差一點",
+          "zh_CN": "就差一点",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    },
+    "50": {
+      "Id": 50,
+      "Source": "Icon/Loading/loading_comic_50_lang",
+      "Title": "MangaLoading.50.1",
+      "ConditionType": 1,
+      "Weight": 500,
+      "_localized": {
+        "/Title": {
+          "key": "MangaLoading.50.1",
+          "zh_TW": "耐心教學",
+          "zh_CN": "耐心教学",
+          "sources": {
+            "zh_TW": "language/zh_TW/MangaLoading.json",
+            "zh_CN": "language/zh_CN/MangaLoading.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message InfinityTowerInfoResp {
+  uint32 BountyLevel = 1;
+  repeated uint32 PlotsIds = 2;
+  repeated .proto.InfinityTowerLevelInfo Infos = 3;
+  bytes NextPackage = 2047;
+}

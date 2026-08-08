@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message AgentApplyReq {
+  repeated .proto.AgentApplyInfo Apply = 1;
+  bytes NextPackage = 2047;
+}
+
+message AgentApplyInfo {
+  uint32 Id = 1;
+  uint32 ProcessTime = 2;
+  repeated uint32 CharIds = 3;
+  uint64 BuildId = 4;
+  bytes NextPackage = 2047;
+}
+
+message AgentApplyResp {
+  repeated .proto.AgentRespInfo Infos = 1;
+  bytes NextPackage = 2047;
+}
+
+message AgentRespInfo {
+  uint32 Id = 1;
+  int64 BeginTime = 2;
+  bytes NextPackage = 2047;
+}

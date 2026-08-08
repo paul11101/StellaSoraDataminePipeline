@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "MallMonthlyCard",
+    "categories": [
+      "shop_economy"
+    ],
+    "row_count": 2,
+    "localization_hits": 6,
+    "source": "bin/MallMonthlyCard.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "monthlyCard.small": {
+      "Id": "monthlyCard.small",
+      "Name": "MallMonthlyCard.monthlyCard.small.1",
+      "StatisticalGroup": "monthlyCard.small",
+      "MonthlyCardId": 401,
+      "Price": 150,
+      "ShowPrice": "<size=70>NT$</size><space=8>150",
+      "BaseItemId": 4,
+      "BaseItemQty": 600,
+      "MaxDays": 180,
+      "Desc": "MallMonthlyCard.monthlyCard.small.2",
+      "Icon": "1",
+      "Name2": "MallMonthlyCard.monthlyCard.small.3",
+      "_localized": {
+        "/Name": {
+          "key": "MallMonthlyCard.monthlyCard.small.1",
+          "zh_TW": "盈月星願·星砂",
+          "zh_CN": "盈月星愿·星砂",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallMonthlyCard.json",
+            "zh_CN": "language/zh_CN/MallMonthlyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallMonthlyCard.monthlyCard.small.2",
+          "zh_TW": "【盈月星願·星砂介紹】\n\n1.成功購買盈月星願後立即生效，有效時間為30天，且可立刻獲得600顆星之彩\n\n2.盈月星願有效期間，每日登入可領取150顆星之砂、瓶裝活力汽水×1\n\n3.盈月星願·星砂獎勵剩餘啟動天數≤180天時，繼續購買可累計天數\n\n4.盈月星願·星砂有效天數上限為210天，若有效天數>180，將無法再購買\n\n5.有效期間內因未登入而未領取的獎勵將不再補發",
+          "zh_CN": "【盈月星愿·星砂介绍】\n\n1. 成功购买盈月星愿·星砂时，可立刻获得600星之彩并提供30天生效时间\n\n2. 当盈月星愿·星砂处于生效状态时，每日登录可领取150星之砂，瓶装干劲汽水×1\n\n3. 当前盈月星愿·星砂奖励剩余激活天数≤180时，继续购买所获得的天数将会累计\n\n4. 盈月星愿·星砂激活天数最多为210天，若当前剩余激活天数＞180，则不可再进行购买\n\n5. 在激活期间因未登录而未能领取的奖励不会进行补发",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallMonthlyCard.json",
+            "zh_CN": "language/zh_CN/MallMonthlyCard.json"
+          }
+        },
+        "/Name2": {
+          "key": "MallMonthlyCard.monthlyCard.small.3",
+          "zh_TW": "星砂",
+          "zh_CN": "星砂",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallMonthlyCard.json",
+            "zh_CN": "language/zh_CN/MallMonthlyCard.json"
+          }
+        }
+      }
+    },
+    "monthlyCard.strength": {
+      "Id": "monthlyCard.strength",
+      "Name": "MallMonthlyCard.monthlyCard.strength.1",
+      "StatisticalGroup": "monthlyCard.strength",
+      "MonthlyCardId": 402,
+      "Price": 60,
+      "ShowPrice": "<size=70>NT$</size><space=8>60",
+      "BaseItemId": 4,
+      "BaseItemQty": 300,
+      "MaxDays": 180,
+      "Desc": "MallMonthlyCard.monthlyCard.strength.2",
+      "Icon": "1",
+      "Name2": "MallMonthlyCard.monthlyCard.strength.3",
+      "_localized": {
+        "/Name": {
+          "key": "MallMonthlyCard.monthlyCard.strength.1",
+          "zh_TW": "盈月星願·攀登",
+          "zh_CN": "盈月星愿·攀登",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallMonthlyCard.json",
+            "zh_CN": "language/zh_CN/MallMonthlyCard.json"
+          }
+        },
+        "/Desc": {
+          "key": "MallMonthlyCard.monthlyCard.strength.2",
+          "zh_TW": "【盈月星願·攀登介紹】\n\n1.成功購買盈月星願·攀登後立即生效，有效時間為30天，且可立刻獲得300顆星之彩\n\n2.盈月星願·攀登有效期間，每日登入可領取罐裝活力汽水×5、星梯搭乘票×2\n\n3.盈月星願·攀登有效時間≤180天時，繼續購買可累計天數\n\n4.盈月星願·攀登有效天數上限為210天，若有效天數>180，將無法再購買\n\n5.有效期間內因未登入而未領取的獎勵將不再補發",
+          "zh_CN": "【盈月星愿·攀登介绍】\n\n1. 成功购买盈月星愿·攀登时，可立刻获得300星之彩并提供30天生效时间\n\n2. 当盈月星愿·攀登处于生效状态时，每日登录可领取罐装干劲汽水×5，星梯搭乘票×2\n\n3. 当前盈月星愿·攀登奖励剩余激活天数≤180时，继续购买所获得的天数将会累计\n\n4. 盈月星愿·攀登激活天数最多为210天，若当前剩余激活天数＞180，则不可再进行购买\n\n5. 在激活期间因未登录而未能领取的奖励不会进行补发",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallMonthlyCard.json",
+            "zh_CN": "language/zh_CN/MallMonthlyCard.json"
+          }
+        },
+        "/Name2": {
+          "key": "MallMonthlyCard.monthlyCard.strength.3",
+          "zh_TW": "攀登",
+          "zh_CN": "攀登",
+          "sources": {
+            "zh_TW": "language/zh_TW/MallMonthlyCard.json",
+            "zh_CN": "language/zh_CN/MallMonthlyCard.json"
+          }
+        }
+      }
+    }
+  }
+}

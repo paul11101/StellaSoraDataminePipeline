@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message FriendUIdSearchReq {
+  uint64 Id = 1;
+  bytes NextPackage = 2047;
+}
+
+message FriendUIdSearchResp {
+  .proto.Friend Friend = 1;
+  bytes NextPackage = 2047;
+}

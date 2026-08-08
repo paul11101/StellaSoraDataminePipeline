@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ActivityDouble",
+    "categories": [
+      "activities"
+    ],
+    "row_count": 2,
+    "localization_hits": 2,
+    "source": "bin/ActivityDouble.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "103001": {
+      "Id": 103001,
+      "InstanceType": [
+        4,
+        8
+      ],
+      "DailyTimes": 8,
+      "RewardType": 1,
+      "UIAssets": "_103001/DoubleDropActPanel",
+      "CtrlName": "DoubleDropActCtrl",
+      "DesText": "ActivityDouble.103001.1",
+      "_localized": {
+        "/DesText": {
+          "key": "ActivityDouble.103001.1",
+          "zh_TW": "\u000b【活動時間】\u000b2026/7/14 4:00～2026/7/21 3:59\u000b\u000b【參與條件】\u000b權限等級≥3級\u000b\u000b【活動說明】\u000b緊急委託現正懸賞招募中！完成指定類型的試煉關卡，即可獲得雙倍獎勵！",
+          "zh_CN": "\u000b【活动时间】\u000b2026/7/14 4:00~2026/7/21 3:59 \u000b\u000b【参与条件】\u000b权限等级≥3级\u000b\u000b【活动说明】\u000b紧急委托正悬赏招募中！完成特定种类的试炼关卡，赢取双倍奖励吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDouble.json",
+            "zh_CN": "language/zh_CN/ActivityDouble.json"
+          }
+        }
+      }
+    },
+    "103002": {
+      "Id": 103002,
+      "InstanceType": [
+        7,
+        8
+      ],
+      "DailyTimes": 8,
+      "RewardType": 1,
+      "UIAssets": "_103001/DoubleDropActPanel",
+      "CtrlName": "DoubleDropActCtrl",
+      "DesText": "ActivityDouble.103002.1",
+      "_localized": {
+        "/DesText": {
+          "key": "ActivityDouble.103002.1",
+          "zh_TW": "\u000b【活動時間】\u000b2026/8/11 4:00～2026/8/18 3:59\u000b\u000b【參與條件】\u000b權限等級≥3級\u000b\u000b【活動說明】\u000b緊急委託現正懸賞招募中！完成指定類型的試煉關卡，即可獲得雙倍獎勵！",
+          "zh_CN": "\u000b【活动时间】\u000b2026/8/11 4:00~2026/8/18 3:59 \u000b\u000b【参与条件】\u000b权限等级≥3级\u000b\u000b【活动说明】\u000b紧急委托正悬赏招募中！完成特定种类的试炼关卡，赢取双倍奖励吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityDouble.json",
+            "zh_CN": "language/zh_CN/ActivityDouble.json"
+          }
+        }
+      }
+    }
+  }
+}

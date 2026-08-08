@@ -1,0 +1,7083 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "AffinityQuest",
+    "categories": [
+      "characters",
+      "quests"
+    ],
+    "row_count": 333,
+    "localization_hits": 333,
+    "source": "bin/AffinityQuest.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "10301": {
+      "Id": 10301,
+      "Desc": "AffinityQuest.10301.1",
+      "SortId": 2,
+      "CharId": 103,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[103,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10301.1",
+          "zh_TW": "琥珀完成{1}次星塔探索",
+          "zh_CN": "琥珀完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10302": {
+      "Id": 10302,
+      "Desc": "AffinityQuest.10302.1",
+      "SortId": 5,
+      "CharId": 103,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,103]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10302.1",
+          "zh_TW": "完成{1}次與琥珀的邀約",
+          "zh_CN": "完成{1}次与琥珀的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10303": {
+      "Id": 10303,
+      "Desc": "AffinityQuest.10303.1",
+      "SortId": 1,
+      "CharId": 103,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[103,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10303.1",
+          "zh_TW": "琥珀進階到{1}階",
+          "zh_CN": "琥珀进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10304": {
+      "Id": 10304,
+      "Desc": "AffinityQuest.10304.1",
+      "SortId": 3,
+      "CharId": 103,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[103,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10304.1",
+          "zh_TW": "琥珀升級技能累計達{1}次",
+          "zh_CN": "琥珀累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10305": {
+      "Id": 10305,
+      "Desc": "AffinityQuest.10305.1",
+      "SortId": 4,
+      "CharId": 103,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[103,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10305.1",
+          "zh_TW": "琥珀保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "琥珀保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10306": {
+      "Id": 10306,
+      "Desc": "AffinityQuest.10306.1",
+      "SortId": 6,
+      "CharId": 103,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[103,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10306.1",
+          "zh_TW": "琥珀進階到{1}階",
+          "zh_CN": "琥珀进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10307": {
+      "Id": 10307,
+      "Desc": "AffinityQuest.10307.1",
+      "SortId": 7,
+      "CharId": 103,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[103,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10307.1",
+          "zh_TW": "琥珀的所有技能等級提升到{1}級或以上",
+          "zh_CN": "琥珀所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10308": {
+      "Id": 10308,
+      "Desc": "AffinityQuest.10308.1",
+      "SortId": 8,
+      "CharId": 103,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[103,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10308.1",
+          "zh_TW": "琥珀保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "琥珀保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10309": {
+      "Id": 10309,
+      "Desc": "AffinityQuest.10309.1",
+      "SortId": 9,
+      "CharId": 103,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[103,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10309.1",
+          "zh_TW": "收集琥珀的潛能數量累計達到{1}",
+          "zh_CN": "累计收集琥珀的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10701": {
+      "Id": 10701,
+      "Desc": "AffinityQuest.10701.1",
+      "SortId": 2,
+      "CharId": 107,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[107,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10701.1",
+          "zh_TW": "緹莉婭完成{1}次星塔探索",
+          "zh_CN": "缇莉娅完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10702": {
+      "Id": 10702,
+      "Desc": "AffinityQuest.10702.1",
+      "SortId": 5,
+      "CharId": 107,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,107]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10702.1",
+          "zh_TW": "完成{1}次與緹莉婭的邀約",
+          "zh_CN": "完成{1}次与缇莉娅的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10703": {
+      "Id": 10703,
+      "Desc": "AffinityQuest.10703.1",
+      "SortId": 1,
+      "CharId": 107,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[107,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10703.1",
+          "zh_TW": "緹莉婭進階到{1}階",
+          "zh_CN": "缇莉娅进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10704": {
+      "Id": 10704,
+      "Desc": "AffinityQuest.10704.1",
+      "SortId": 3,
+      "CharId": 107,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[107,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10704.1",
+          "zh_TW": "緹莉婭升級技能累計達{1}次",
+          "zh_CN": "缇莉娅累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10705": {
+      "Id": 10705,
+      "Desc": "AffinityQuest.10705.1",
+      "SortId": 4,
+      "CharId": 107,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[107,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10705.1",
+          "zh_TW": "緹莉婭保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "缇莉娅保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10706": {
+      "Id": 10706,
+      "Desc": "AffinityQuest.10706.1",
+      "SortId": 6,
+      "CharId": 107,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[107,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10706.1",
+          "zh_TW": "緹莉婭進階到{1}階",
+          "zh_CN": "缇莉娅进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10707": {
+      "Id": 10707,
+      "Desc": "AffinityQuest.10707.1",
+      "SortId": 7,
+      "CharId": 107,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[107,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10707.1",
+          "zh_TW": "緹莉婭的所有技能等級提升到{1}級或以上",
+          "zh_CN": "缇莉娅所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10708": {
+      "Id": 10708,
+      "Desc": "AffinityQuest.10708.1",
+      "SortId": 8,
+      "CharId": 107,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[107,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10708.1",
+          "zh_TW": "緹莉婭保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "缇莉娅保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10709": {
+      "Id": 10709,
+      "Desc": "AffinityQuest.10709.1",
+      "SortId": 9,
+      "CharId": 107,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[107,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10709.1",
+          "zh_TW": "收集緹莉婭的潛能數量累計達到{1}",
+          "zh_CN": "累计收集缇莉娅的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10801": {
+      "Id": 10801,
+      "Desc": "AffinityQuest.10801.1",
+      "SortId": 2,
+      "CharId": 108,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[108,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10801.1",
+          "zh_TW": "卡西米拉完成{1}次星塔探索",
+          "zh_CN": "卡西米拉完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10802": {
+      "Id": 10802,
+      "Desc": "AffinityQuest.10802.1",
+      "SortId": 5,
+      "CharId": 108,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,108]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10802.1",
+          "zh_TW": "完成{1}次與卡西米拉的邀約",
+          "zh_CN": "完成{1}次与卡西米拉的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10803": {
+      "Id": 10803,
+      "Desc": "AffinityQuest.10803.1",
+      "SortId": 1,
+      "CharId": 108,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[108,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10803.1",
+          "zh_TW": "卡西米拉進階到{1}階",
+          "zh_CN": "卡西米拉进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10804": {
+      "Id": 10804,
+      "Desc": "AffinityQuest.10804.1",
+      "SortId": 3,
+      "CharId": 108,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[108,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10804.1",
+          "zh_TW": "卡西米拉升級技能累計達{1}次",
+          "zh_CN": "卡西米拉累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10805": {
+      "Id": 10805,
+      "Desc": "AffinityQuest.10805.1",
+      "SortId": 4,
+      "CharId": 108,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[108,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10805.1",
+          "zh_TW": "卡西米拉保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "卡西米拉保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10806": {
+      "Id": 10806,
+      "Desc": "AffinityQuest.10806.1",
+      "SortId": 6,
+      "CharId": 108,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[108,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10806.1",
+          "zh_TW": "卡西米拉進階到{1}階",
+          "zh_CN": "卡西米拉进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10807": {
+      "Id": 10807,
+      "Desc": "AffinityQuest.10807.1",
+      "SortId": 7,
+      "CharId": 108,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[108,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10807.1",
+          "zh_TW": "卡西米拉的所有技能等級提升到{1}級或以上",
+          "zh_CN": "卡西米拉所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10808": {
+      "Id": 10808,
+      "Desc": "AffinityQuest.10808.1",
+      "SortId": 8,
+      "CharId": 108,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[108,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10808.1",
+          "zh_TW": "卡西米拉保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "卡西米拉保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "10809": {
+      "Id": 10809,
+      "Desc": "AffinityQuest.10809.1",
+      "SortId": 9,
+      "CharId": 108,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[108,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.10809.1",
+          "zh_TW": "收集卡西米拉的潛能數量累計達到{1}",
+          "zh_CN": "累计收集卡西米拉的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11001": {
+      "Id": 11001,
+      "Desc": "AffinityQuest.11001.1",
+      "SortId": 2,
+      "CharId": 110,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[110,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11001.1",
+          "zh_TW": "翡冷翠完成{1}次星塔探索",
+          "zh_CN": "翡冷翠完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11002": {
+      "Id": 11002,
+      "Desc": "AffinityQuest.11002.1",
+      "SortId": 5,
+      "CharId": 110,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,110]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11002.1",
+          "zh_TW": "完成{1}次與翡冷翠的邀約",
+          "zh_CN": "完成{1}次与翡冷翠的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11003": {
+      "Id": 11003,
+      "Desc": "AffinityQuest.11003.1",
+      "SortId": 1,
+      "CharId": 110,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[110,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11003.1",
+          "zh_TW": "翡冷翠進階到{1}階",
+          "zh_CN": "翡冷翠进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11004": {
+      "Id": 11004,
+      "Desc": "AffinityQuest.11004.1",
+      "SortId": 3,
+      "CharId": 110,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[110,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11004.1",
+          "zh_TW": "翡冷翠升級技能累計達{1}次",
+          "zh_CN": "翡冷翠累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11005": {
+      "Id": 11005,
+      "Desc": "AffinityQuest.11005.1",
+      "SortId": 4,
+      "CharId": 110,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[110,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11005.1",
+          "zh_TW": "翡冷翠保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "翡冷翠保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11006": {
+      "Id": 11006,
+      "Desc": "AffinityQuest.11006.1",
+      "SortId": 6,
+      "CharId": 110,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[110,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11006.1",
+          "zh_TW": "翡冷翠進階到{1}階",
+          "zh_CN": "翡冷翠进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11007": {
+      "Id": 11007,
+      "Desc": "AffinityQuest.11007.1",
+      "SortId": 7,
+      "CharId": 110,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[110,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11007.1",
+          "zh_TW": "翡冷翠的所有技能等級提升到{1}級或以上",
+          "zh_CN": "翡冷翠所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11008": {
+      "Id": 11008,
+      "Desc": "AffinityQuest.11008.1",
+      "SortId": 8,
+      "CharId": 110,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[110,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11008.1",
+          "zh_TW": "翡冷翠保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "翡冷翠保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11009": {
+      "Id": 11009,
+      "Desc": "AffinityQuest.11009.1",
+      "SortId": 9,
+      "CharId": 110,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[110,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11009.1",
+          "zh_TW": "收集翡冷翠的潛能數量累計達到{1}",
+          "zh_CN": "累计收集翡冷翠的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11101": {
+      "Id": 11101,
+      "Desc": "AffinityQuest.11101.1",
+      "SortId": 2,
+      "CharId": 111,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[111,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11101.1",
+          "zh_TW": "鳶尾完成{1}次星塔探索",
+          "zh_CN": "鸢尾完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11102": {
+      "Id": 11102,
+      "Desc": "AffinityQuest.11102.1",
+      "SortId": 5,
+      "CharId": 111,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,111]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11102.1",
+          "zh_TW": "完成{1}次與鳶尾的邀約",
+          "zh_CN": "完成{1}次与鸢尾的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11103": {
+      "Id": 11103,
+      "Desc": "AffinityQuest.11103.1",
+      "SortId": 1,
+      "CharId": 111,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[111,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11103.1",
+          "zh_TW": "鳶尾進階到{1}階",
+          "zh_CN": "鸢尾进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11104": {
+      "Id": 11104,
+      "Desc": "AffinityQuest.11104.1",
+      "SortId": 3,
+      "CharId": 111,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[111,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11104.1",
+          "zh_TW": "鳶尾升級技能累計達{1}次",
+          "zh_CN": "鸢尾累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11105": {
+      "Id": 11105,
+      "Desc": "AffinityQuest.11105.1",
+      "SortId": 4,
+      "CharId": 111,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[111,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11105.1",
+          "zh_TW": "鳶尾保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "鸢尾保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11106": {
+      "Id": 11106,
+      "Desc": "AffinityQuest.11106.1",
+      "SortId": 6,
+      "CharId": 111,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[111,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11106.1",
+          "zh_TW": "鳶尾進階到{1}階",
+          "zh_CN": "鸢尾进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11107": {
+      "Id": 11107,
+      "Desc": "AffinityQuest.11107.1",
+      "SortId": 7,
+      "CharId": 111,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[111,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11107.1",
+          "zh_TW": "鳶尾的所有技能等級提升到{1}級或以上",
+          "zh_CN": "鸢尾所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11108": {
+      "Id": 11108,
+      "Desc": "AffinityQuest.11108.1",
+      "SortId": 8,
+      "CharId": 111,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[111,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11108.1",
+          "zh_TW": "鳶尾保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "鸢尾保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11109": {
+      "Id": 11109,
+      "Desc": "AffinityQuest.11109.1",
+      "SortId": 9,
+      "CharId": 111,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[111,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11109.1",
+          "zh_TW": "收集鳶尾的潛能數量累計達到{1}",
+          "zh_CN": "累计收集鸢尾的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11201": {
+      "Id": 11201,
+      "Desc": "AffinityQuest.11201.1",
+      "SortId": 2,
+      "CharId": 112,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[112,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11201.1",
+          "zh_TW": "塵沙完成{1}次星塔探索",
+          "zh_CN": "尘沙完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11202": {
+      "Id": 11202,
+      "Desc": "AffinityQuest.11202.1",
+      "SortId": 5,
+      "CharId": 112,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,112]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11202.1",
+          "zh_TW": "完成{1}次與塵沙的邀約",
+          "zh_CN": "完成{1}次与尘沙的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11203": {
+      "Id": 11203,
+      "Desc": "AffinityQuest.11203.1",
+      "SortId": 1,
+      "CharId": 112,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[112,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11203.1",
+          "zh_TW": "塵沙進階到{1}階",
+          "zh_CN": "尘沙进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11204": {
+      "Id": 11204,
+      "Desc": "AffinityQuest.11204.1",
+      "SortId": 3,
+      "CharId": 112,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[112,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11204.1",
+          "zh_TW": "塵沙升級技能累計達{1}次",
+          "zh_CN": "尘沙累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11205": {
+      "Id": 11205,
+      "Desc": "AffinityQuest.11205.1",
+      "SortId": 4,
+      "CharId": 112,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[112,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11205.1",
+          "zh_TW": "塵沙保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "尘沙保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11206": {
+      "Id": 11206,
+      "Desc": "AffinityQuest.11206.1",
+      "SortId": 6,
+      "CharId": 112,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[112,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11206.1",
+          "zh_TW": "塵沙進階到{1}階",
+          "zh_CN": "尘沙进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11207": {
+      "Id": 11207,
+      "Desc": "AffinityQuest.11207.1",
+      "SortId": 7,
+      "CharId": 112,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[112,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11207.1",
+          "zh_TW": "塵沙的所有技能等級提升到{1}級或以上",
+          "zh_CN": "尘沙所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11208": {
+      "Id": 11208,
+      "Desc": "AffinityQuest.11208.1",
+      "SortId": 8,
+      "CharId": 112,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[112,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11208.1",
+          "zh_TW": "塵沙保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "尘沙保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11209": {
+      "Id": 11209,
+      "Desc": "AffinityQuest.11209.1",
+      "SortId": 9,
+      "CharId": 112,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[112,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11209.1",
+          "zh_TW": "收集塵沙的潛能數量累計達到{1}",
+          "zh_CN": "累计收集尘沙的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11301": {
+      "Id": 11301,
+      "Desc": "AffinityQuest.11301.1",
+      "SortId": 2,
+      "CharId": 113,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[113,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11301.1",
+          "zh_TW": "師渺完成{1}次星塔探索",
+          "zh_CN": "师渺完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11302": {
+      "Id": 11302,
+      "Desc": "AffinityQuest.11302.1",
+      "SortId": 5,
+      "CharId": 113,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,113]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11302.1",
+          "zh_TW": "完成{1}次與師渺的邀約",
+          "zh_CN": "完成{1}次与师渺的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11303": {
+      "Id": 11303,
+      "Desc": "AffinityQuest.11303.1",
+      "SortId": 1,
+      "CharId": 113,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[113,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11303.1",
+          "zh_TW": "師渺進階到{1}階",
+          "zh_CN": "师渺进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11304": {
+      "Id": 11304,
+      "Desc": "AffinityQuest.11304.1",
+      "SortId": 3,
+      "CharId": 113,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[113,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11304.1",
+          "zh_TW": "師渺升級技能累計達{1}次",
+          "zh_CN": "师渺累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11305": {
+      "Id": 11305,
+      "Desc": "AffinityQuest.11305.1",
+      "SortId": 4,
+      "CharId": 113,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[113,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11305.1",
+          "zh_TW": "師渺保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "师渺保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11306": {
+      "Id": 11306,
+      "Desc": "AffinityQuest.11306.1",
+      "SortId": 6,
+      "CharId": 113,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[113,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11306.1",
+          "zh_TW": "師渺進階到{1}階",
+          "zh_CN": "师渺进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11307": {
+      "Id": 11307,
+      "Desc": "AffinityQuest.11307.1",
+      "SortId": 7,
+      "CharId": 113,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[113,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11307.1",
+          "zh_TW": "師渺的所有技能等級提升到{1}級或以上",
+          "zh_CN": "师渺所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11308": {
+      "Id": 11308,
+      "Desc": "AffinityQuest.11308.1",
+      "SortId": 8,
+      "CharId": 113,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[113,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11308.1",
+          "zh_TW": "師渺保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "师渺保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11309": {
+      "Id": 11309,
+      "Desc": "AffinityQuest.11309.1",
+      "SortId": 9,
+      "CharId": 113,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[113,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11309.1",
+          "zh_TW": "收集師渺的潛能數量累計達到{1}",
+          "zh_CN": "累计收集师渺的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11401": {
+      "Id": 11401,
+      "Desc": "AffinityQuest.11401.1",
+      "SortId": 2,
+      "CharId": 114,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[114,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11401.1",
+          "zh_TW": "貓眼完成{1}次星塔探索",
+          "zh_CN": "猫眼完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11402": {
+      "Id": 11402,
+      "Desc": "AffinityQuest.11402.1",
+      "SortId": 5,
+      "CharId": 114,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,114]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11402.1",
+          "zh_TW": "完成{1}次與貓眼的邀約",
+          "zh_CN": "完成{1}次与猫眼的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11403": {
+      "Id": 11403,
+      "Desc": "AffinityQuest.11403.1",
+      "SortId": 1,
+      "CharId": 114,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[114,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11403.1",
+          "zh_TW": "貓眼進階到{1}階",
+          "zh_CN": "猫眼进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11404": {
+      "Id": 11404,
+      "Desc": "AffinityQuest.11404.1",
+      "SortId": 3,
+      "CharId": 114,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[114,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11404.1",
+          "zh_TW": "貓眼升級技能累計達{1}次",
+          "zh_CN": "猫眼累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11405": {
+      "Id": 11405,
+      "Desc": "AffinityQuest.11405.1",
+      "SortId": 4,
+      "CharId": 114,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[114,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11405.1",
+          "zh_TW": "貓眼保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "猫眼保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11406": {
+      "Id": 11406,
+      "Desc": "AffinityQuest.11406.1",
+      "SortId": 6,
+      "CharId": 114,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[114,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11406.1",
+          "zh_TW": "貓眼進階到{1}階",
+          "zh_CN": "猫眼进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11407": {
+      "Id": 11407,
+      "Desc": "AffinityQuest.11407.1",
+      "SortId": 7,
+      "CharId": 114,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[114,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11407.1",
+          "zh_TW": "貓眼的所有技能等級提升到{1}級或以上",
+          "zh_CN": "猫眼所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11408": {
+      "Id": 11408,
+      "Desc": "AffinityQuest.11408.1",
+      "SortId": 8,
+      "CharId": 114,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[114,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11408.1",
+          "zh_TW": "貓眼保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "猫眼保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11409": {
+      "Id": 11409,
+      "Desc": "AffinityQuest.11409.1",
+      "SortId": 9,
+      "CharId": 114,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[114,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11409.1",
+          "zh_TW": "收集貓眼的潛能數量累計達到{1}",
+          "zh_CN": "累计收集猫眼的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11501": {
+      "Id": 11501,
+      "Desc": "AffinityQuest.11501.1",
+      "SortId": 2,
+      "CharId": 115,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[115,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11501.1",
+          "zh_TW": "火垂完成{1}次星塔探索",
+          "zh_CN": "火垂完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11502": {
+      "Id": 11502,
+      "Desc": "AffinityQuest.11502.1",
+      "SortId": 5,
+      "CharId": 115,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,115]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11502.1",
+          "zh_TW": "完成{1}次與火垂的邀約",
+          "zh_CN": "完成{1}次与火垂的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11503": {
+      "Id": 11503,
+      "Desc": "AffinityQuest.11503.1",
+      "SortId": 1,
+      "CharId": 115,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[115,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11503.1",
+          "zh_TW": "火垂進階到{1}階",
+          "zh_CN": "火垂进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11504": {
+      "Id": 11504,
+      "Desc": "AffinityQuest.11504.1",
+      "SortId": 3,
+      "CharId": 115,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[115,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11504.1",
+          "zh_TW": "火垂升級技能累計達{1}次",
+          "zh_CN": "火垂累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11505": {
+      "Id": 11505,
+      "Desc": "AffinityQuest.11505.1",
+      "SortId": 4,
+      "CharId": 115,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[115,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11505.1",
+          "zh_TW": "火垂保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "火垂保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11506": {
+      "Id": 11506,
+      "Desc": "AffinityQuest.11506.1",
+      "SortId": 6,
+      "CharId": 115,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[115,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11506.1",
+          "zh_TW": "火垂進階到{1}階",
+          "zh_CN": "火垂进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11507": {
+      "Id": 11507,
+      "Desc": "AffinityQuest.11507.1",
+      "SortId": 7,
+      "CharId": 115,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[115,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11507.1",
+          "zh_TW": "火垂的所有技能等級提升到{1}級或以上",
+          "zh_CN": "火垂所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11508": {
+      "Id": 11508,
+      "Desc": "AffinityQuest.11508.1",
+      "SortId": 8,
+      "CharId": 115,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[115,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11508.1",
+          "zh_TW": "火垂保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "火垂保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11509": {
+      "Id": 11509,
+      "Desc": "AffinityQuest.11509.1",
+      "SortId": 9,
+      "CharId": 115,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[115,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11509.1",
+          "zh_TW": "收集火垂的潛能數量累計達到{1}",
+          "zh_CN": "累计收集火垂的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11601": {
+      "Id": 11601,
+      "Desc": "AffinityQuest.11601.1",
+      "SortId": 2,
+      "CharId": 116,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[116,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11601.1",
+          "zh_TW": "嶺川完成{1}次星塔探索",
+          "zh_CN": "岭川完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11602": {
+      "Id": 11602,
+      "Desc": "AffinityQuest.11602.1",
+      "SortId": 5,
+      "CharId": 116,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,116]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11602.1",
+          "zh_TW": "完成{1}次與嶺川的邀約",
+          "zh_CN": "完成{1}次与岭川的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11603": {
+      "Id": 11603,
+      "Desc": "AffinityQuest.11603.1",
+      "SortId": 1,
+      "CharId": 116,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[116,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11603.1",
+          "zh_TW": "嶺川進階到{1}階",
+          "zh_CN": "岭川进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11604": {
+      "Id": 11604,
+      "Desc": "AffinityQuest.11604.1",
+      "SortId": 3,
+      "CharId": 116,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[116,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11604.1",
+          "zh_TW": "嶺川升級技能累計達{1}次",
+          "zh_CN": "岭川累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11605": {
+      "Id": 11605,
+      "Desc": "AffinityQuest.11605.1",
+      "SortId": 4,
+      "CharId": 116,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[116,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11605.1",
+          "zh_TW": "嶺川保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "岭川保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11606": {
+      "Id": 11606,
+      "Desc": "AffinityQuest.11606.1",
+      "SortId": 6,
+      "CharId": 116,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[116,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11606.1",
+          "zh_TW": "嶺川進階到{1}階",
+          "zh_CN": "岭川进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11607": {
+      "Id": 11607,
+      "Desc": "AffinityQuest.11607.1",
+      "SortId": 7,
+      "CharId": 116,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[116,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11607.1",
+          "zh_TW": "嶺川的所有技能等級提升到{1}級或以上",
+          "zh_CN": "岭川所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11608": {
+      "Id": 11608,
+      "Desc": "AffinityQuest.11608.1",
+      "SortId": 8,
+      "CharId": 116,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[116,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11608.1",
+          "zh_TW": "嶺川保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "岭川保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11609": {
+      "Id": 11609,
+      "Desc": "AffinityQuest.11609.1",
+      "SortId": 9,
+      "CharId": 116,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[116,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11609.1",
+          "zh_TW": "收集嶺川的潛能數量累計達到{1}",
+          "zh_CN": "累计收集岭川的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11701": {
+      "Id": 11701,
+      "Desc": "AffinityQuest.11701.1",
+      "SortId": 2,
+      "CharId": 117,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[117,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11701.1",
+          "zh_TW": "璟麟完成{1}次星塔探索",
+          "zh_CN": "璟麟完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11702": {
+      "Id": 11702,
+      "Desc": "AffinityQuest.11702.1",
+      "SortId": 5,
+      "CharId": 117,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,117]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11702.1",
+          "zh_TW": "完成{1}次與璟麟的邀約",
+          "zh_CN": "完成{1}次与璟麟的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11703": {
+      "Id": 11703,
+      "Desc": "AffinityQuest.11703.1",
+      "SortId": 1,
+      "CharId": 117,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[117,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11703.1",
+          "zh_TW": "璟麟進階到{1}階",
+          "zh_CN": "璟麟进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11704": {
+      "Id": 11704,
+      "Desc": "AffinityQuest.11704.1",
+      "SortId": 3,
+      "CharId": 117,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[117,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11704.1",
+          "zh_TW": "璟麟升級技能累計達{1}次",
+          "zh_CN": "璟麟累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11705": {
+      "Id": 11705,
+      "Desc": "AffinityQuest.11705.1",
+      "SortId": 4,
+      "CharId": 117,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[117,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11705.1",
+          "zh_TW": "璟麟保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "璟麟保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11706": {
+      "Id": 11706,
+      "Desc": "AffinityQuest.11706.1",
+      "SortId": 6,
+      "CharId": 117,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[117,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11706.1",
+          "zh_TW": "璟麟進階到{1}階",
+          "zh_CN": "璟麟进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11707": {
+      "Id": 11707,
+      "Desc": "AffinityQuest.11707.1",
+      "SortId": 7,
+      "CharId": 117,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[117,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11707.1",
+          "zh_TW": "璟麟的所有技能等級提升到{1}級或以上",
+          "zh_CN": "璟麟所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11708": {
+      "Id": 11708,
+      "Desc": "AffinityQuest.11708.1",
+      "SortId": 8,
+      "CharId": 117,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[117,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11708.1",
+          "zh_TW": "璟麟保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "璟麟保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11709": {
+      "Id": 11709,
+      "Desc": "AffinityQuest.11709.1",
+      "SortId": 9,
+      "CharId": 117,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[117,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11709.1",
+          "zh_TW": "收集璟麟的潛能數量累計達到{1}",
+          "zh_CN": "累计收集璟麟的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11801": {
+      "Id": 11801,
+      "Desc": "AffinityQuest.11801.1",
+      "SortId": 2,
+      "CharId": 118,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[118,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11801.1",
+          "zh_TW": "柯洛妮絲完成{1}次星塔探索",
+          "zh_CN": "科洛妮丝完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11802": {
+      "Id": 11802,
+      "Desc": "AffinityQuest.11802.1",
+      "SortId": 5,
+      "CharId": 118,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,118]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11802.1",
+          "zh_TW": "完成{1}次與柯洛妮絲的邀約",
+          "zh_CN": "完成{1}次与科洛妮丝的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11803": {
+      "Id": 11803,
+      "Desc": "AffinityQuest.11803.1",
+      "SortId": 1,
+      "CharId": 118,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[118,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11803.1",
+          "zh_TW": "柯洛妮絲進階到{1}階",
+          "zh_CN": "科洛妮丝进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11804": {
+      "Id": 11804,
+      "Desc": "AffinityQuest.11804.1",
+      "SortId": 3,
+      "CharId": 118,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[118,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11804.1",
+          "zh_TW": "柯洛妮絲升級技能累計達{1}次",
+          "zh_CN": "科洛妮丝累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11805": {
+      "Id": 11805,
+      "Desc": "AffinityQuest.11805.1",
+      "SortId": 4,
+      "CharId": 118,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[118,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11805.1",
+          "zh_TW": "柯洛妮絲保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "科洛妮丝保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11806": {
+      "Id": 11806,
+      "Desc": "AffinityQuest.11806.1",
+      "SortId": 6,
+      "CharId": 118,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[118,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11806.1",
+          "zh_TW": "柯洛妮絲進階到{1}階",
+          "zh_CN": "科洛妮丝进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11807": {
+      "Id": 11807,
+      "Desc": "AffinityQuest.11807.1",
+      "SortId": 7,
+      "CharId": 118,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[118,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11807.1",
+          "zh_TW": "柯洛妮絲的所有技能等級提升到{1}級或以上",
+          "zh_CN": "科洛妮丝所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11808": {
+      "Id": 11808,
+      "Desc": "AffinityQuest.11808.1",
+      "SortId": 8,
+      "CharId": 118,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[118,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11808.1",
+          "zh_TW": "柯洛妮絲保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "科洛妮丝保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11809": {
+      "Id": 11809,
+      "Desc": "AffinityQuest.11809.1",
+      "SortId": 9,
+      "CharId": 118,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[118,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11809.1",
+          "zh_TW": "收集柯洛妮絲的潛能數量累計達到{1}",
+          "zh_CN": "累计收集科洛妮丝的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11901": {
+      "Id": 11901,
+      "Desc": "AffinityQuest.11901.1",
+      "SortId": 2,
+      "CharId": 119,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[119,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11901.1",
+          "zh_TW": "花原完成{1}次星塔探索",
+          "zh_CN": "花原完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11902": {
+      "Id": 11902,
+      "Desc": "AffinityQuest.11902.1",
+      "SortId": 5,
+      "CharId": 119,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,119]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11902.1",
+          "zh_TW": "完成{1}次與花原的邀約",
+          "zh_CN": "完成{1}次与花原的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11903": {
+      "Id": 11903,
+      "Desc": "AffinityQuest.11903.1",
+      "SortId": 1,
+      "CharId": 119,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[119,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11903.1",
+          "zh_TW": "花原進階到{1}階",
+          "zh_CN": "花原进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11904": {
+      "Id": 11904,
+      "Desc": "AffinityQuest.11904.1",
+      "SortId": 3,
+      "CharId": 119,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[119,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11904.1",
+          "zh_TW": "花原升級技能累計達{1}次",
+          "zh_CN": "花原累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11905": {
+      "Id": 11905,
+      "Desc": "AffinityQuest.11905.1",
+      "SortId": 4,
+      "CharId": 119,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[119,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11905.1",
+          "zh_TW": "花原保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "花原保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11906": {
+      "Id": 11906,
+      "Desc": "AffinityQuest.11906.1",
+      "SortId": 6,
+      "CharId": 119,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[119,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11906.1",
+          "zh_TW": "花原進階到{1}階",
+          "zh_CN": "花原进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11907": {
+      "Id": 11907,
+      "Desc": "AffinityQuest.11907.1",
+      "SortId": 7,
+      "CharId": 119,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[119,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11907.1",
+          "zh_TW": "花原的所有技能等級提升到{1}級或以上",
+          "zh_CN": "花原所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11908": {
+      "Id": 11908,
+      "Desc": "AffinityQuest.11908.1",
+      "SortId": 8,
+      "CharId": 119,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[119,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11908.1",
+          "zh_TW": "花原保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "花原保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "11909": {
+      "Id": 11909,
+      "Desc": "AffinityQuest.11909.1",
+      "SortId": 9,
+      "CharId": 119,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[119,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.11909.1",
+          "zh_TW": "收集花原的潛能數量累計達到{1}",
+          "zh_CN": "累计收集花原的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12001": {
+      "Id": 12001,
+      "Desc": "AffinityQuest.12001.1",
+      "SortId": 2,
+      "CharId": 120,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[120,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12001.1",
+          "zh_TW": "卡娜絲完成{1}次星塔探索",
+          "zh_CN": "卡娜丝完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12002": {
+      "Id": 12002,
+      "Desc": "AffinityQuest.12002.1",
+      "SortId": 5,
+      "CharId": 120,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,120]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12002.1",
+          "zh_TW": "完成{1}次與卡娜絲的邀約",
+          "zh_CN": "完成{1}次与卡娜丝的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12003": {
+      "Id": 12003,
+      "Desc": "AffinityQuest.12003.1",
+      "SortId": 1,
+      "CharId": 120,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[120,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12003.1",
+          "zh_TW": "卡娜絲進階到{1}階",
+          "zh_CN": "卡娜丝进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12004": {
+      "Id": 12004,
+      "Desc": "AffinityQuest.12004.1",
+      "SortId": 3,
+      "CharId": 120,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[120,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12004.1",
+          "zh_TW": "卡娜絲升級技能累計達{1}次",
+          "zh_CN": "卡娜丝累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12005": {
+      "Id": 12005,
+      "Desc": "AffinityQuest.12005.1",
+      "SortId": 4,
+      "CharId": 120,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[120,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12005.1",
+          "zh_TW": "卡娜絲保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "卡娜丝保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12006": {
+      "Id": 12006,
+      "Desc": "AffinityQuest.12006.1",
+      "SortId": 6,
+      "CharId": 120,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[120,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12006.1",
+          "zh_TW": "卡娜絲進階到{1}階",
+          "zh_CN": "卡娜丝进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12007": {
+      "Id": 12007,
+      "Desc": "AffinityQuest.12007.1",
+      "SortId": 7,
+      "CharId": 120,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[120,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12007.1",
+          "zh_TW": "卡娜絲的所有技能等級提升到{1}級或以上",
+          "zh_CN": "卡娜丝所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12008": {
+      "Id": 12008,
+      "Desc": "AffinityQuest.12008.1",
+      "SortId": 8,
+      "CharId": 120,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[120,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12008.1",
+          "zh_TW": "卡娜絲保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "卡娜丝保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12009": {
+      "Id": 12009,
+      "Desc": "AffinityQuest.12009.1",
+      "SortId": 9,
+      "CharId": 120,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[120,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12009.1",
+          "zh_TW": "收集卡娜絲的潛能數量累計達到{1}",
+          "zh_CN": "累计收集卡娜丝的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12301": {
+      "Id": 12301,
+      "Desc": "AffinityQuest.12301.1",
+      "SortId": 2,
+      "CharId": 123,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[123,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12301.1",
+          "zh_TW": "杏子完成{1}次星塔探索",
+          "zh_CN": "杏子完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12302": {
+      "Id": 12302,
+      "Desc": "AffinityQuest.12302.1",
+      "SortId": 5,
+      "CharId": 123,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,123]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12302.1",
+          "zh_TW": "完成{1}次與杏子的邀約",
+          "zh_CN": "完成{1}次与杏子的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12303": {
+      "Id": 12303,
+      "Desc": "AffinityQuest.12303.1",
+      "SortId": 1,
+      "CharId": 123,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[123,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12303.1",
+          "zh_TW": "杏子進階到{1}階",
+          "zh_CN": "杏子进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12304": {
+      "Id": 12304,
+      "Desc": "AffinityQuest.12304.1",
+      "SortId": 3,
+      "CharId": 123,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[123,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12304.1",
+          "zh_TW": "杏子升級技能累計達{1}次",
+          "zh_CN": "杏子累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12305": {
+      "Id": 12305,
+      "Desc": "AffinityQuest.12305.1",
+      "SortId": 4,
+      "CharId": 123,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[123,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12305.1",
+          "zh_TW": "杏子保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "杏子保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12306": {
+      "Id": 12306,
+      "Desc": "AffinityQuest.12306.1",
+      "SortId": 6,
+      "CharId": 123,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[123,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12306.1",
+          "zh_TW": "杏子進階到{1}階",
+          "zh_CN": "杏子进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12307": {
+      "Id": 12307,
+      "Desc": "AffinityQuest.12307.1",
+      "SortId": 7,
+      "CharId": 123,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[123,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12307.1",
+          "zh_TW": "杏子的所有技能等級提升到{1}級或以上",
+          "zh_CN": "杏子所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12308": {
+      "Id": 12308,
+      "Desc": "AffinityQuest.12308.1",
+      "SortId": 8,
+      "CharId": 123,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[123,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12308.1",
+          "zh_TW": "杏子保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "杏子保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12309": {
+      "Id": 12309,
+      "Desc": "AffinityQuest.12309.1",
+      "SortId": 9,
+      "CharId": 123,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[123,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12309.1",
+          "zh_TW": "收集杏子的潛能數量累計達到{1}",
+          "zh_CN": "累计收集杏子的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12501": {
+      "Id": 12501,
+      "Desc": "AffinityQuest.12501.1",
+      "SortId": 2,
+      "CharId": 125,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[125,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12501.1",
+          "zh_TW": "蒼蘭完成{1}次星塔探索",
+          "zh_CN": "苍兰完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12502": {
+      "Id": 12502,
+      "Desc": "AffinityQuest.12502.1",
+      "SortId": 5,
+      "CharId": 125,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,125]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12502.1",
+          "zh_TW": "完成{1}次與蒼蘭的邀約",
+          "zh_CN": "完成{1}次与苍兰的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12503": {
+      "Id": 12503,
+      "Desc": "AffinityQuest.12503.1",
+      "SortId": 1,
+      "CharId": 125,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[125,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12503.1",
+          "zh_TW": "蒼蘭進階到{1}階",
+          "zh_CN": "苍兰进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12504": {
+      "Id": 12504,
+      "Desc": "AffinityQuest.12504.1",
+      "SortId": 3,
+      "CharId": 125,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[125,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12504.1",
+          "zh_TW": "蒼蘭升級技能累計達{1}次",
+          "zh_CN": "苍兰累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12505": {
+      "Id": 12505,
+      "Desc": "AffinityQuest.12505.1",
+      "SortId": 4,
+      "CharId": 125,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[125,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12505.1",
+          "zh_TW": "蒼蘭保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "苍兰保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12506": {
+      "Id": 12506,
+      "Desc": "AffinityQuest.12506.1",
+      "SortId": 6,
+      "CharId": 125,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[125,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12506.1",
+          "zh_TW": "蒼蘭進階到{1}階",
+          "zh_CN": "苍兰进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12507": {
+      "Id": 12507,
+      "Desc": "AffinityQuest.12507.1",
+      "SortId": 7,
+      "CharId": 125,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[125,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12507.1",
+          "zh_TW": "蒼蘭的所有技能等級提升到{1}級或以上",
+          "zh_CN": "苍兰所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12508": {
+      "Id": 12508,
+      "Desc": "AffinityQuest.12508.1",
+      "SortId": 8,
+      "CharId": 125,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[125,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12508.1",
+          "zh_TW": "蒼蘭保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "苍兰保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12509": {
+      "Id": 12509,
+      "Desc": "AffinityQuest.12509.1",
+      "SortId": 9,
+      "CharId": 125,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[125,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12509.1",
+          "zh_TW": "收集蒼蘭的潛能數量累計達到{1}",
+          "zh_CN": "累计收集苍兰的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12601": {
+      "Id": 12601,
+      "Desc": "AffinityQuest.12601.1",
+      "SortId": 2,
+      "CharId": 126,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[126,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12601.1",
+          "zh_TW": "紫槿完成{1}次星塔探索",
+          "zh_CN": "紫槿完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12602": {
+      "Id": 12602,
+      "Desc": "AffinityQuest.12602.1",
+      "SortId": 5,
+      "CharId": 126,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,126]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12602.1",
+          "zh_TW": "完成{1}次與紫槿的邀約",
+          "zh_CN": "完成{1}次与紫槿的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12603": {
+      "Id": 12603,
+      "Desc": "AffinityQuest.12603.1",
+      "SortId": 1,
+      "CharId": 126,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[126,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12603.1",
+          "zh_TW": "紫槿進階到{1}階",
+          "zh_CN": "紫槿进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12604": {
+      "Id": 12604,
+      "Desc": "AffinityQuest.12604.1",
+      "SortId": 3,
+      "CharId": 126,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[126,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12604.1",
+          "zh_TW": "紫槿升級技能累計達{1}次",
+          "zh_CN": "紫槿累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12605": {
+      "Id": 12605,
+      "Desc": "AffinityQuest.12605.1",
+      "SortId": 4,
+      "CharId": 126,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[126,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12605.1",
+          "zh_TW": "紫槿保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "紫槿保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12606": {
+      "Id": 12606,
+      "Desc": "AffinityQuest.12606.1",
+      "SortId": 6,
+      "CharId": 126,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[126,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12606.1",
+          "zh_TW": "紫槿進階到{1}階",
+          "zh_CN": "紫槿进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12607": {
+      "Id": 12607,
+      "Desc": "AffinityQuest.12607.1",
+      "SortId": 7,
+      "CharId": 126,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[126,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12607.1",
+          "zh_TW": "紫槿的所有技能等級提升到{1}級或以上",
+          "zh_CN": "紫槿所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12608": {
+      "Id": 12608,
+      "Desc": "AffinityQuest.12608.1",
+      "SortId": 8,
+      "CharId": 126,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[126,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12608.1",
+          "zh_TW": "紫槿保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "紫槿保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12609": {
+      "Id": 12609,
+      "Desc": "AffinityQuest.12609.1",
+      "SortId": 9,
+      "CharId": 126,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[126,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12609.1",
+          "zh_TW": "收集紫槿的潛能數量累計達到{1}",
+          "zh_CN": "累计收集紫槿的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12701": {
+      "Id": 12701,
+      "Desc": "AffinityQuest.12701.1",
+      "SortId": 2,
+      "CharId": 127,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[127,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12701.1",
+          "zh_TW": "特麗莎完成{1}次星塔探索",
+          "zh_CN": "特丽莎完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12702": {
+      "Id": 12702,
+      "Desc": "AffinityQuest.12702.1",
+      "SortId": 5,
+      "CharId": 127,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,127]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12702.1",
+          "zh_TW": "完成{1}次與特麗莎的邀約",
+          "zh_CN": "完成{1}次与特丽莎的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12703": {
+      "Id": 12703,
+      "Desc": "AffinityQuest.12703.1",
+      "SortId": 1,
+      "CharId": 127,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[127,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12703.1",
+          "zh_TW": "特麗莎進階到{1}階",
+          "zh_CN": "特丽莎进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12704": {
+      "Id": 12704,
+      "Desc": "AffinityQuest.12704.1",
+      "SortId": 3,
+      "CharId": 127,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[127,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12704.1",
+          "zh_TW": "特麗莎升級技能累計達{1}次",
+          "zh_CN": "特丽莎累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12705": {
+      "Id": 12705,
+      "Desc": "AffinityQuest.12705.1",
+      "SortId": 4,
+      "CharId": 127,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[127,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12705.1",
+          "zh_TW": "特麗莎保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "特丽莎保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12706": {
+      "Id": 12706,
+      "Desc": "AffinityQuest.12706.1",
+      "SortId": 6,
+      "CharId": 127,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[127,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12706.1",
+          "zh_TW": "特麗莎進階到{1}階",
+          "zh_CN": "特丽莎进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12707": {
+      "Id": 12707,
+      "Desc": "AffinityQuest.12707.1",
+      "SortId": 7,
+      "CharId": 127,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[127,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12707.1",
+          "zh_TW": "特麗莎的所有技能等級提升到{1}級或以上",
+          "zh_CN": "特丽莎所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12708": {
+      "Id": 12708,
+      "Desc": "AffinityQuest.12708.1",
+      "SortId": 8,
+      "CharId": 127,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[127,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12708.1",
+          "zh_TW": "特麗莎保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "特丽莎保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "12709": {
+      "Id": 12709,
+      "Desc": "AffinityQuest.12709.1",
+      "SortId": 9,
+      "CharId": 127,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[127,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.12709.1",
+          "zh_TW": "收集特麗莎的潛能數量累計達到{1}",
+          "zh_CN": "累计收集特丽莎的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13001": {
+      "Id": 13001,
+      "Desc": "AffinityQuest.13001.1",
+      "SortId": 2,
+      "CharId": 130,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[130,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13001.1",
+          "zh_TW": "多娜完成{1}次星塔探索",
+          "zh_CN": "多娜完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13002": {
+      "Id": 13002,
+      "Desc": "AffinityQuest.13002.1",
+      "SortId": 5,
+      "CharId": 130,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,130]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13002.1",
+          "zh_TW": "完成{1}次與多娜的邀約",
+          "zh_CN": "完成{1}次与多娜的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13003": {
+      "Id": 13003,
+      "Desc": "AffinityQuest.13003.1",
+      "SortId": 1,
+      "CharId": 130,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[130,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13003.1",
+          "zh_TW": "多娜進階到{1}階",
+          "zh_CN": "多娜进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13004": {
+      "Id": 13004,
+      "Desc": "AffinityQuest.13004.1",
+      "SortId": 3,
+      "CharId": 130,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[130,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13004.1",
+          "zh_TW": "多娜升級技能累計達{1}次",
+          "zh_CN": "多娜累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13005": {
+      "Id": 13005,
+      "Desc": "AffinityQuest.13005.1",
+      "SortId": 4,
+      "CharId": 130,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[130,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13005.1",
+          "zh_TW": "多娜保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "多娜保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13006": {
+      "Id": 13006,
+      "Desc": "AffinityQuest.13006.1",
+      "SortId": 6,
+      "CharId": 130,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[130,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13006.1",
+          "zh_TW": "多娜進階到{1}階",
+          "zh_CN": "多娜进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13007": {
+      "Id": 13007,
+      "Desc": "AffinityQuest.13007.1",
+      "SortId": 7,
+      "CharId": 130,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[130,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13007.1",
+          "zh_TW": "多娜的所有技能等級提升到{1}級或以上",
+          "zh_CN": "多娜所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13008": {
+      "Id": 13008,
+      "Desc": "AffinityQuest.13008.1",
+      "SortId": 8,
+      "CharId": 130,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[130,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13008.1",
+          "zh_TW": "多娜保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "多娜保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13009": {
+      "Id": 13009,
+      "Desc": "AffinityQuest.13009.1",
+      "SortId": 9,
+      "CharId": 130,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[130,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13009.1",
+          "zh_TW": "收集多娜的潛能數量累計達到{1}",
+          "zh_CN": "累计收集多娜的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13201": {
+      "Id": 13201,
+      "Desc": "AffinityQuest.13201.1",
+      "SortId": 2,
+      "CharId": 132,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[132,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13201.1",
+          "zh_TW": "密涅瓦完成{1}次星塔探索",
+          "zh_CN": "密涅瓦完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13202": {
+      "Id": 13202,
+      "Desc": "AffinityQuest.13202.1",
+      "SortId": 5,
+      "CharId": 132,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,132]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13202.1",
+          "zh_TW": "完成{1}次與密涅瓦的邀約",
+          "zh_CN": "完成{1}次与密涅瓦的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13203": {
+      "Id": 13203,
+      "Desc": "AffinityQuest.13203.1",
+      "SortId": 1,
+      "CharId": 132,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[132,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13203.1",
+          "zh_TW": "密涅瓦進階到{1}階",
+          "zh_CN": "密涅瓦进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13204": {
+      "Id": 13204,
+      "Desc": "AffinityQuest.13204.1",
+      "SortId": 3,
+      "CharId": 132,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[132,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13204.1",
+          "zh_TW": "密涅瓦升級技能累計達{1}次",
+          "zh_CN": "密涅瓦累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13205": {
+      "Id": 13205,
+      "Desc": "AffinityQuest.13205.1",
+      "SortId": 4,
+      "CharId": 132,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[132,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13205.1",
+          "zh_TW": "密涅瓦保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "密涅瓦保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13206": {
+      "Id": 13206,
+      "Desc": "AffinityQuest.13206.1",
+      "SortId": 6,
+      "CharId": 132,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[132,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13206.1",
+          "zh_TW": "密涅瓦進階到{1}階",
+          "zh_CN": "密涅瓦进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13207": {
+      "Id": 13207,
+      "Desc": "AffinityQuest.13207.1",
+      "SortId": 7,
+      "CharId": 132,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[132,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13207.1",
+          "zh_TW": "密涅瓦的所有技能等級提升到{1}級或以上",
+          "zh_CN": "密涅瓦所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13208": {
+      "Id": 13208,
+      "Desc": "AffinityQuest.13208.1",
+      "SortId": 8,
+      "CharId": 132,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[132,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13208.1",
+          "zh_TW": "密涅瓦保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "密涅瓦保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13209": {
+      "Id": 13209,
+      "Desc": "AffinityQuest.13209.1",
+      "SortId": 9,
+      "CharId": 132,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[132,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13209.1",
+          "zh_TW": "收集密涅瓦的潛能數量累計達到{1}",
+          "zh_CN": "累计收集密涅瓦的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13301": {
+      "Id": 13301,
+      "Desc": "AffinityQuest.13301.1",
+      "SortId": 2,
+      "CharId": 133,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[133,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13301.1",
+          "zh_TW": "夏花完成{1}次星塔探索",
+          "zh_CN": "夏花完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13302": {
+      "Id": 13302,
+      "Desc": "AffinityQuest.13302.1",
+      "SortId": 5,
+      "CharId": 133,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,133]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13302.1",
+          "zh_TW": "完成{1}次與夏花的邀約",
+          "zh_CN": "完成{1}次与夏花的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13303": {
+      "Id": 13303,
+      "Desc": "AffinityQuest.13303.1",
+      "SortId": 1,
+      "CharId": 133,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[133,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13303.1",
+          "zh_TW": "夏花進階到{1}階",
+          "zh_CN": "夏花进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13304": {
+      "Id": 13304,
+      "Desc": "AffinityQuest.13304.1",
+      "SortId": 3,
+      "CharId": 133,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[133,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13304.1",
+          "zh_TW": "夏花升級技能累計達{1}次",
+          "zh_CN": "夏花累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13305": {
+      "Id": 13305,
+      "Desc": "AffinityQuest.13305.1",
+      "SortId": 4,
+      "CharId": 133,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[133,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13305.1",
+          "zh_TW": "夏花保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "夏花保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13306": {
+      "Id": 13306,
+      "Desc": "AffinityQuest.13306.1",
+      "SortId": 6,
+      "CharId": 133,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[133,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13306.1",
+          "zh_TW": "夏花進階到{1}階",
+          "zh_CN": "夏花进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13307": {
+      "Id": 13307,
+      "Desc": "AffinityQuest.13307.1",
+      "SortId": 7,
+      "CharId": 133,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[133,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13307.1",
+          "zh_TW": "夏花的所有技能等級提升到{1}級或以上",
+          "zh_CN": "夏花所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13308": {
+      "Id": 13308,
+      "Desc": "AffinityQuest.13308.1",
+      "SortId": 8,
+      "CharId": 133,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[133,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13308.1",
+          "zh_TW": "夏花保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "夏花保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13309": {
+      "Id": 13309,
+      "Desc": "AffinityQuest.13309.1",
+      "SortId": 9,
+      "CharId": 133,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[133,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13309.1",
+          "zh_TW": "收集夏花的潛能數量累計達到{1}",
+          "zh_CN": "累计收集夏花的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13401": {
+      "Id": 13401,
+      "Desc": "AffinityQuest.13401.1",
+      "SortId": 2,
+      "CharId": 134,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[134,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13401.1",
+          "zh_TW": "冬香完成{1}次星塔探索",
+          "zh_CN": "冬香完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13402": {
+      "Id": 13402,
+      "Desc": "AffinityQuest.13402.1",
+      "SortId": 5,
+      "CharId": 134,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,134]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13402.1",
+          "zh_TW": "完成{1}次與冬香的邀約",
+          "zh_CN": "完成{1}次与冬香的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13403": {
+      "Id": 13403,
+      "Desc": "AffinityQuest.13403.1",
+      "SortId": 1,
+      "CharId": 134,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[134,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13403.1",
+          "zh_TW": "冬香進階到{1}階",
+          "zh_CN": "冬香进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13404": {
+      "Id": 13404,
+      "Desc": "AffinityQuest.13404.1",
+      "SortId": 3,
+      "CharId": 134,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[134,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13404.1",
+          "zh_TW": "冬香升級技能累計達{1}次",
+          "zh_CN": "冬香累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13405": {
+      "Id": 13405,
+      "Desc": "AffinityQuest.13405.1",
+      "SortId": 4,
+      "CharId": 134,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[134,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13405.1",
+          "zh_TW": "冬香保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "冬香保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13406": {
+      "Id": 13406,
+      "Desc": "AffinityQuest.13406.1",
+      "SortId": 6,
+      "CharId": 134,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[134,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13406.1",
+          "zh_TW": "冬香進階到{1}階",
+          "zh_CN": "冬香进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13407": {
+      "Id": 13407,
+      "Desc": "AffinityQuest.13407.1",
+      "SortId": 7,
+      "CharId": 134,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[134,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13407.1",
+          "zh_TW": "冬香的所有技能等級提升到{1}級或以上",
+          "zh_CN": "冬香所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13408": {
+      "Id": 13408,
+      "Desc": "AffinityQuest.13408.1",
+      "SortId": 8,
+      "CharId": 134,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[134,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13408.1",
+          "zh_TW": "冬香保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "冬香保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13409": {
+      "Id": 13409,
+      "Desc": "AffinityQuest.13409.1",
+      "SortId": 9,
+      "CharId": 134,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[134,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13409.1",
+          "zh_TW": "收集冬香的潛能數量累計達到{1}",
+          "zh_CN": "累计收集冬香的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13501": {
+      "Id": 13501,
+      "Desc": "AffinityQuest.13501.1",
+      "SortId": 2,
+      "CharId": 135,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[135,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13501.1",
+          "zh_TW": "霧語完成{1}次星塔探索",
+          "zh_CN": "雾语完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13502": {
+      "Id": 13502,
+      "Desc": "AffinityQuest.13502.1",
+      "SortId": 5,
+      "CharId": 135,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,135]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13502.1",
+          "zh_TW": "完成{1}次與霧語的邀約",
+          "zh_CN": "完成{1}次与雾语的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13503": {
+      "Id": 13503,
+      "Desc": "AffinityQuest.13503.1",
+      "SortId": 1,
+      "CharId": 135,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[135,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13503.1",
+          "zh_TW": "霧語進階到{1}階",
+          "zh_CN": "雾语进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13504": {
+      "Id": 13504,
+      "Desc": "AffinityQuest.13504.1",
+      "SortId": 3,
+      "CharId": 135,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[135,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13504.1",
+          "zh_TW": "霧語升級技能累計達{1}次",
+          "zh_CN": "雾语累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13505": {
+      "Id": 13505,
+      "Desc": "AffinityQuest.13505.1",
+      "SortId": 4,
+      "CharId": 135,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[135,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13505.1",
+          "zh_TW": "霧語保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "雾语保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13506": {
+      "Id": 13506,
+      "Desc": "AffinityQuest.13506.1",
+      "SortId": 6,
+      "CharId": 135,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[135,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13506.1",
+          "zh_TW": "霧語進階到{1}階",
+          "zh_CN": "雾语进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13507": {
+      "Id": 13507,
+      "Desc": "AffinityQuest.13507.1",
+      "SortId": 7,
+      "CharId": 135,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[135,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13507.1",
+          "zh_TW": "霧語的所有技能等級提升到{1}級或以上",
+          "zh_CN": "雾语所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13508": {
+      "Id": 13508,
+      "Desc": "AffinityQuest.13508.1",
+      "SortId": 8,
+      "CharId": 135,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[135,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13508.1",
+          "zh_TW": "霧語保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "雾语保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "13509": {
+      "Id": 13509,
+      "Desc": "AffinityQuest.13509.1",
+      "SortId": 9,
+      "CharId": 135,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[135,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.13509.1",
+          "zh_TW": "收集霧語的潛能數量累計達到{1}",
+          "zh_CN": "累计收集雾语的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14001": {
+      "Id": 14001,
+      "Desc": "AffinityQuest.14001.1",
+      "SortId": 2,
+      "CharId": 140,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[140,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14001.1",
+          "zh_TW": "斯帕克拉完成{1}次星塔探索",
+          "zh_CN": "斯帕克拉完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14002": {
+      "Id": 14002,
+      "Desc": "AffinityQuest.14002.1",
+      "SortId": 5,
+      "CharId": 140,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,140]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14002.1",
+          "zh_TW": "完成{1}次與斯帕克拉的邀約",
+          "zh_CN": "完成{1}次与斯帕克拉的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14003": {
+      "Id": 14003,
+      "Desc": "AffinityQuest.14003.1",
+      "SortId": 1,
+      "CharId": 140,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[140,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14003.1",
+          "zh_TW": "斯帕克拉進階到{1}階",
+          "zh_CN": "斯帕克拉进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14004": {
+      "Id": 14004,
+      "Desc": "AffinityQuest.14004.1",
+      "SortId": 3,
+      "CharId": 140,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[140,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14004.1",
+          "zh_TW": "斯帕克拉升級技能累計達{1}次",
+          "zh_CN": "斯帕克拉累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14005": {
+      "Id": 14005,
+      "Desc": "AffinityQuest.14005.1",
+      "SortId": 4,
+      "CharId": 140,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[140,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14005.1",
+          "zh_TW": "斯帕克拉保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "斯帕克拉保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14006": {
+      "Id": 14006,
+      "Desc": "AffinityQuest.14006.1",
+      "SortId": 6,
+      "CharId": 140,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[140,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14006.1",
+          "zh_TW": "斯帕克拉進階到{1}階",
+          "zh_CN": "斯帕克拉进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14007": {
+      "Id": 14007,
+      "Desc": "AffinityQuest.14007.1",
+      "SortId": 7,
+      "CharId": 140,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[140,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14007.1",
+          "zh_TW": "斯帕克拉的所有技能等級提升到{1}級或以上",
+          "zh_CN": "斯帕克拉所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14008": {
+      "Id": 14008,
+      "Desc": "AffinityQuest.14008.1",
+      "SortId": 8,
+      "CharId": 140,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[140,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14008.1",
+          "zh_TW": "斯帕克拉保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "斯帕克拉保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14009": {
+      "Id": 14009,
+      "Desc": "AffinityQuest.14009.1",
+      "SortId": 9,
+      "CharId": 140,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[140,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14009.1",
+          "zh_TW": "收集斯帕克拉的潛能數量累計達到{1}",
+          "zh_CN": "累计收集斯帕克拉的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14101": {
+      "Id": 14101,
+      "Desc": "AffinityQuest.14101.1",
+      "SortId": 2,
+      "CharId": 141,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[141,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14101.1",
+          "zh_TW": "赤霞完成{1}次星塔探索",
+          "zh_CN": "赤霞完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14102": {
+      "Id": 14102,
+      "Desc": "AffinityQuest.14102.1",
+      "SortId": 5,
+      "CharId": 141,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,141]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14102.1",
+          "zh_TW": "完成{1}次與赤霞的邀約",
+          "zh_CN": "完成{1}次与赤霞的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14103": {
+      "Id": 14103,
+      "Desc": "AffinityQuest.14103.1",
+      "SortId": 1,
+      "CharId": 141,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[141,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14103.1",
+          "zh_TW": "赤霞進階到{1}階",
+          "zh_CN": "赤霞进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14104": {
+      "Id": 14104,
+      "Desc": "AffinityQuest.14104.1",
+      "SortId": 3,
+      "CharId": 141,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[141,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14104.1",
+          "zh_TW": "赤霞升級技能累計達{1}次",
+          "zh_CN": "赤霞累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14105": {
+      "Id": 14105,
+      "Desc": "AffinityQuest.14105.1",
+      "SortId": 4,
+      "CharId": 141,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[141,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14105.1",
+          "zh_TW": "赤霞保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "赤霞保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14106": {
+      "Id": 14106,
+      "Desc": "AffinityQuest.14106.1",
+      "SortId": 6,
+      "CharId": 141,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[141,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14106.1",
+          "zh_TW": "赤霞進階到{1}階",
+          "zh_CN": "赤霞进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14107": {
+      "Id": 14107,
+      "Desc": "AffinityQuest.14107.1",
+      "SortId": 7,
+      "CharId": 141,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[141,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14107.1",
+          "zh_TW": "赤霞的所有技能等級提升到{1}級或以上",
+          "zh_CN": "赤霞所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14108": {
+      "Id": 14108,
+      "Desc": "AffinityQuest.14108.1",
+      "SortId": 8,
+      "CharId": 141,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[141,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14108.1",
+          "zh_TW": "赤霞保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "赤霞保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14109": {
+      "Id": 14109,
+      "Desc": "AffinityQuest.14109.1",
+      "SortId": 9,
+      "CharId": 141,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[141,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14109.1",
+          "zh_TW": "收集赤霞的潛能數量累計達到{1}",
+          "zh_CN": "累计收集赤霞的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14201": {
+      "Id": 14201,
+      "Desc": "AffinityQuest.14201.1",
+      "SortId": 2,
+      "CharId": 142,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[142,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14201.1",
+          "zh_TW": "珂賽特完成{1}次星塔探索",
+          "zh_CN": "珂赛特完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14202": {
+      "Id": 14202,
+      "Desc": "AffinityQuest.14202.1",
+      "SortId": 5,
+      "CharId": 142,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,142]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14202.1",
+          "zh_TW": "完成{1}次與珂賽特的邀約",
+          "zh_CN": "完成{1}次与珂赛特的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14203": {
+      "Id": 14203,
+      "Desc": "AffinityQuest.14203.1",
+      "SortId": 1,
+      "CharId": 142,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[142,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14203.1",
+          "zh_TW": "珂賽特進階到{1}階",
+          "zh_CN": "珂赛特进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14204": {
+      "Id": 14204,
+      "Desc": "AffinityQuest.14204.1",
+      "SortId": 3,
+      "CharId": 142,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[142,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14204.1",
+          "zh_TW": "珂賽特升級技能累計達{1}次",
+          "zh_CN": "珂赛特累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14205": {
+      "Id": 14205,
+      "Desc": "AffinityQuest.14205.1",
+      "SortId": 4,
+      "CharId": 142,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[142,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14205.1",
+          "zh_TW": "珂賽特保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "珂赛特保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14206": {
+      "Id": 14206,
+      "Desc": "AffinityQuest.14206.1",
+      "SortId": 6,
+      "CharId": 142,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[142,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14206.1",
+          "zh_TW": "珂賽特進階到{1}階",
+          "zh_CN": "珂赛特进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14207": {
+      "Id": 14207,
+      "Desc": "AffinityQuest.14207.1",
+      "SortId": 7,
+      "CharId": 142,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[142,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14207.1",
+          "zh_TW": "珂賽特的所有技能等級提升到{1}級或以上",
+          "zh_CN": "珂赛特所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14208": {
+      "Id": 14208,
+      "Desc": "AffinityQuest.14208.1",
+      "SortId": 8,
+      "CharId": 142,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[142,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14208.1",
+          "zh_TW": "珂賽特保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "珂赛特保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14209": {
+      "Id": 14209,
+      "Desc": "AffinityQuest.14209.1",
+      "SortId": 9,
+      "CharId": 142,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[142,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14209.1",
+          "zh_TW": "收集珂賽特的潛能數量累計達到{1}",
+          "zh_CN": "累计收集珂赛特的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14301": {
+      "Id": 14301,
+      "Desc": "AffinityQuest.14301.1",
+      "SortId": 2,
+      "CharId": 143,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[143,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14301.1",
+          "zh_TW": "風影完成{1}次星塔探索",
+          "zh_CN": "风影完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14302": {
+      "Id": 14302,
+      "Desc": "AffinityQuest.14302.1",
+      "SortId": 5,
+      "CharId": 143,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,143]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14302.1",
+          "zh_TW": "完成{1}次與風影的邀約",
+          "zh_CN": "完成{1}次与风影的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14303": {
+      "Id": 14303,
+      "Desc": "AffinityQuest.14303.1",
+      "SortId": 1,
+      "CharId": 143,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[143,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14303.1",
+          "zh_TW": "風影進階到{1}階",
+          "zh_CN": "风影进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14304": {
+      "Id": 14304,
+      "Desc": "AffinityQuest.14304.1",
+      "SortId": 3,
+      "CharId": 143,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[143,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14304.1",
+          "zh_TW": "風影升級技能累計達{1}次",
+          "zh_CN": "风影累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14305": {
+      "Id": 14305,
+      "Desc": "AffinityQuest.14305.1",
+      "SortId": 4,
+      "CharId": 143,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[143,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14305.1",
+          "zh_TW": "風影保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "风影保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14306": {
+      "Id": 14306,
+      "Desc": "AffinityQuest.14306.1",
+      "SortId": 6,
+      "CharId": 143,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[143,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14306.1",
+          "zh_TW": "風影進階到{1}階",
+          "zh_CN": "风影进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14307": {
+      "Id": 14307,
+      "Desc": "AffinityQuest.14307.1",
+      "SortId": 7,
+      "CharId": 143,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[143,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14307.1",
+          "zh_TW": "風影的所有技能等級提升到{1}級或以上",
+          "zh_CN": "风影所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14308": {
+      "Id": 14308,
+      "Desc": "AffinityQuest.14308.1",
+      "SortId": 8,
+      "CharId": 143,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[143,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14308.1",
+          "zh_TW": "風影保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "风影保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14309": {
+      "Id": 14309,
+      "Desc": "AffinityQuest.14309.1",
+      "SortId": 9,
+      "CharId": 143,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[143,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14309.1",
+          "zh_TW": "收集風影的潛能數量累計達到{1}",
+          "zh_CN": "累计收集风影的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14401": {
+      "Id": 14401,
+      "Desc": "AffinityQuest.14401.1",
+      "SortId": 2,
+      "CharId": 144,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[144,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14401.1",
+          "zh_TW": "千都世完成{1}次星塔探索",
+          "zh_CN": "千都世完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14402": {
+      "Id": 14402,
+      "Desc": "AffinityQuest.14402.1",
+      "SortId": 5,
+      "CharId": 144,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,144]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14402.1",
+          "zh_TW": "完成{1}次與千都世的邀約",
+          "zh_CN": "完成{1}次与千都世的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14403": {
+      "Id": 14403,
+      "Desc": "AffinityQuest.14403.1",
+      "SortId": 1,
+      "CharId": 144,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[144,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14403.1",
+          "zh_TW": "千都世進階到{1}階",
+          "zh_CN": "千都世进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14404": {
+      "Id": 14404,
+      "Desc": "AffinityQuest.14404.1",
+      "SortId": 3,
+      "CharId": 144,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[144,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14404.1",
+          "zh_TW": "千都世升級技能累計達{1}次",
+          "zh_CN": "千都世累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14405": {
+      "Id": 14405,
+      "Desc": "AffinityQuest.14405.1",
+      "SortId": 4,
+      "CharId": 144,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[144,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14405.1",
+          "zh_TW": "千都世保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "千都世保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14406": {
+      "Id": 14406,
+      "Desc": "AffinityQuest.14406.1",
+      "SortId": 6,
+      "CharId": 144,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[144,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14406.1",
+          "zh_TW": "千都世進階到{1}階",
+          "zh_CN": "千都世进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14407": {
+      "Id": 14407,
+      "Desc": "AffinityQuest.14407.1",
+      "SortId": 7,
+      "CharId": 144,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[144,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14407.1",
+          "zh_TW": "千都世的所有技能等級提升到{1}級或以上",
+          "zh_CN": "千都世所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14408": {
+      "Id": 14408,
+      "Desc": "AffinityQuest.14408.1",
+      "SortId": 8,
+      "CharId": 144,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[144,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14408.1",
+          "zh_TW": "千都世保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "千都世保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14409": {
+      "Id": 14409,
+      "Desc": "AffinityQuest.14409.1",
+      "SortId": 9,
+      "CharId": 144,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[144,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14409.1",
+          "zh_TW": "收集千都世的潛能數量累計達到{1}",
+          "zh_CN": "累计收集千都世的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14501": {
+      "Id": 14501,
+      "Desc": "AffinityQuest.14501.1",
+      "SortId": 2,
+      "CharId": 145,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[145,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14501.1",
+          "zh_TW": "乙葉完成{1}次星塔探索",
+          "zh_CN": "乙叶完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14502": {
+      "Id": 14502,
+      "Desc": "AffinityQuest.14502.1",
+      "SortId": 5,
+      "CharId": 145,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,145]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14502.1",
+          "zh_TW": "完成{1}次與乙葉的邀約",
+          "zh_CN": "完成{1}次与乙叶的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14503": {
+      "Id": 14503,
+      "Desc": "AffinityQuest.14503.1",
+      "SortId": 1,
+      "CharId": 145,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[145,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14503.1",
+          "zh_TW": "乙葉進階到{1}階",
+          "zh_CN": "乙叶进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14504": {
+      "Id": 14504,
+      "Desc": "AffinityQuest.14504.1",
+      "SortId": 3,
+      "CharId": 145,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[145,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14504.1",
+          "zh_TW": "乙葉升級技能累計達{1}次",
+          "zh_CN": "乙叶累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14505": {
+      "Id": 14505,
+      "Desc": "AffinityQuest.14505.1",
+      "SortId": 4,
+      "CharId": 145,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[145,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14505.1",
+          "zh_TW": "乙葉保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "乙叶保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14506": {
+      "Id": 14506,
+      "Desc": "AffinityQuest.14506.1",
+      "SortId": 6,
+      "CharId": 145,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[145,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14506.1",
+          "zh_TW": "乙葉進階到{1}階",
+          "zh_CN": "乙叶进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14507": {
+      "Id": 14507,
+      "Desc": "AffinityQuest.14507.1",
+      "SortId": 7,
+      "CharId": 145,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[145,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14507.1",
+          "zh_TW": "乙葉的所有技能等級提升到{1}級或以上",
+          "zh_CN": "乙叶所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14508": {
+      "Id": 14508,
+      "Desc": "AffinityQuest.14508.1",
+      "SortId": 8,
+      "CharId": 145,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[145,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14508.1",
+          "zh_TW": "乙葉保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "乙叶保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14509": {
+      "Id": 14509,
+      "Desc": "AffinityQuest.14509.1",
+      "SortId": 9,
+      "CharId": 145,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[145,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14509.1",
+          "zh_TW": "收集乙葉的潛能數量累計達到{1}",
+          "zh_CN": "累计收集乙叶的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14701": {
+      "Id": 14701,
+      "Desc": "AffinityQuest.14701.1",
+      "SortId": 2,
+      "CharId": 147,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[147,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14701.1",
+          "zh_TW": "焦糖完成{1}次星塔探索",
+          "zh_CN": "焦糖完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14702": {
+      "Id": 14702,
+      "Desc": "AffinityQuest.14702.1",
+      "SortId": 5,
+      "CharId": 147,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,147]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14702.1",
+          "zh_TW": "完成{1}次與焦糖的邀約",
+          "zh_CN": "完成{1}次与焦糖的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14703": {
+      "Id": 14703,
+      "Desc": "AffinityQuest.14703.1",
+      "SortId": 1,
+      "CharId": 147,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[147,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14703.1",
+          "zh_TW": "焦糖進階到{1}階",
+          "zh_CN": "焦糖进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14704": {
+      "Id": 14704,
+      "Desc": "AffinityQuest.14704.1",
+      "SortId": 3,
+      "CharId": 147,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[147,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14704.1",
+          "zh_TW": "焦糖升級技能累計達{1}次",
+          "zh_CN": "焦糖累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14705": {
+      "Id": 14705,
+      "Desc": "AffinityQuest.14705.1",
+      "SortId": 4,
+      "CharId": 147,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[147,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14705.1",
+          "zh_TW": "焦糖保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "焦糖保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14706": {
+      "Id": 14706,
+      "Desc": "AffinityQuest.14706.1",
+      "SortId": 6,
+      "CharId": 147,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[147,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14706.1",
+          "zh_TW": "焦糖進階到{1}階",
+          "zh_CN": "焦糖进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14707": {
+      "Id": 14707,
+      "Desc": "AffinityQuest.14707.1",
+      "SortId": 7,
+      "CharId": 147,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[147,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14707.1",
+          "zh_TW": "焦糖的所有技能等級提升到{1}級或以上",
+          "zh_CN": "焦糖所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14708": {
+      "Id": 14708,
+      "Desc": "AffinityQuest.14708.1",
+      "SortId": 8,
+      "CharId": 147,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[147,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14708.1",
+          "zh_TW": "焦糖保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "焦糖保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14709": {
+      "Id": 14709,
+      "Desc": "AffinityQuest.14709.1",
+      "SortId": 9,
+      "CharId": 147,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[147,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14709.1",
+          "zh_TW": "收集焦糖的潛能數量累計達到{1}",
+          "zh_CN": "累计收集焦糖的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14901": {
+      "Id": 14901,
+      "Desc": "AffinityQuest.14901.1",
+      "SortId": 2,
+      "CharId": 149,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[149,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14901.1",
+          "zh_TW": "格芮完成{1}次星塔探索",
+          "zh_CN": "格芮完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14902": {
+      "Id": 14902,
+      "Desc": "AffinityQuest.14902.1",
+      "SortId": 5,
+      "CharId": 149,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,149]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14902.1",
+          "zh_TW": "完成{1}次與格芮的邀約",
+          "zh_CN": "完成{1}次与格芮的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14903": {
+      "Id": 14903,
+      "Desc": "AffinityQuest.14903.1",
+      "SortId": 1,
+      "CharId": 149,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[149,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14903.1",
+          "zh_TW": "格芮進階到{1}階",
+          "zh_CN": "格芮进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14904": {
+      "Id": 14904,
+      "Desc": "AffinityQuest.14904.1",
+      "SortId": 3,
+      "CharId": 149,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[149,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14904.1",
+          "zh_TW": "格芮升級技能累計達{1}次",
+          "zh_CN": "格芮累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14905": {
+      "Id": 14905,
+      "Desc": "AffinityQuest.14905.1",
+      "SortId": 4,
+      "CharId": 149,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[149,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14905.1",
+          "zh_TW": "格芮保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "格芮保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14906": {
+      "Id": 14906,
+      "Desc": "AffinityQuest.14906.1",
+      "SortId": 6,
+      "CharId": 149,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[149,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14906.1",
+          "zh_TW": "格芮進階到{1}階",
+          "zh_CN": "格芮进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14907": {
+      "Id": 14907,
+      "Desc": "AffinityQuest.14907.1",
+      "SortId": 7,
+      "CharId": 149,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[149,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14907.1",
+          "zh_TW": "格芮的所有技能等級提升到{1}級或以上",
+          "zh_CN": "格芮所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14908": {
+      "Id": 14908,
+      "Desc": "AffinityQuest.14908.1",
+      "SortId": 8,
+      "CharId": 149,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[149,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14908.1",
+          "zh_TW": "格芮保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "格芮保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "14909": {
+      "Id": 14909,
+      "Desc": "AffinityQuest.14909.1",
+      "SortId": 9,
+      "CharId": 149,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[149,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.14909.1",
+          "zh_TW": "收集格芮的潛能數量累計達到{1}",
+          "zh_CN": "累计收集格芮的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15001": {
+      "Id": 15001,
+      "Desc": "AffinityQuest.15001.1",
+      "SortId": 2,
+      "CharId": 150,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[150,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15001.1",
+          "zh_TW": "菈露完成{1}次星塔探索",
+          "zh_CN": "菈露完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15002": {
+      "Id": 15002,
+      "Desc": "AffinityQuest.15002.1",
+      "SortId": 5,
+      "CharId": 150,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,150]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15002.1",
+          "zh_TW": "完成{1}次與菈露的邀約",
+          "zh_CN": "完成{1}次与菈露的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15003": {
+      "Id": 15003,
+      "Desc": "AffinityQuest.15003.1",
+      "SortId": 1,
+      "CharId": 150,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[150,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15003.1",
+          "zh_TW": "菈露進階到{1}階",
+          "zh_CN": "菈露进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15004": {
+      "Id": 15004,
+      "Desc": "AffinityQuest.15004.1",
+      "SortId": 3,
+      "CharId": 150,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[150,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15004.1",
+          "zh_TW": "菈露升級技能累計達{1}次",
+          "zh_CN": "菈露累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15005": {
+      "Id": 15005,
+      "Desc": "AffinityQuest.15005.1",
+      "SortId": 4,
+      "CharId": 150,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[150,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15005.1",
+          "zh_TW": "菈露保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "菈露保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15006": {
+      "Id": 15006,
+      "Desc": "AffinityQuest.15006.1",
+      "SortId": 6,
+      "CharId": 150,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[150,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15006.1",
+          "zh_TW": "菈露進階到{1}階",
+          "zh_CN": "菈露进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15007": {
+      "Id": 15007,
+      "Desc": "AffinityQuest.15007.1",
+      "SortId": 7,
+      "CharId": 150,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[150,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15007.1",
+          "zh_TW": "菈露的所有技能等級提升到{1}級或以上",
+          "zh_CN": "菈露所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15008": {
+      "Id": 15008,
+      "Desc": "AffinityQuest.15008.1",
+      "SortId": 8,
+      "CharId": 150,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[150,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15008.1",
+          "zh_TW": "菈露保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "菈露保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15009": {
+      "Id": 15009,
+      "Desc": "AffinityQuest.15009.1",
+      "SortId": 9,
+      "CharId": 150,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[150,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15009.1",
+          "zh_TW": "收集菈露的潛能數量累計達到{1}",
+          "zh_CN": "累计收集菈露的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15501": {
+      "Id": 15501,
+      "Desc": "AffinityQuest.15501.1",
+      "SortId": 2,
+      "CharId": 155,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[155,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15501.1",
+          "zh_TW": "希婭完成{1}次星塔探索",
+          "zh_CN": "希娅完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15502": {
+      "Id": 15502,
+      "Desc": "AffinityQuest.15502.1",
+      "SortId": 5,
+      "CharId": 155,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,155]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15502.1",
+          "zh_TW": "完成{1}次與希婭的邀約",
+          "zh_CN": "完成{1}次与希娅的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15503": {
+      "Id": 15503,
+      "Desc": "AffinityQuest.15503.1",
+      "SortId": 1,
+      "CharId": 155,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[155,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15503.1",
+          "zh_TW": "希婭進階到{1}階",
+          "zh_CN": "希娅进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15504": {
+      "Id": 15504,
+      "Desc": "AffinityQuest.15504.1",
+      "SortId": 3,
+      "CharId": 155,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[155,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15504.1",
+          "zh_TW": "希婭升級技能累計達{1}次",
+          "zh_CN": "希娅累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15505": {
+      "Id": 15505,
+      "Desc": "AffinityQuest.15505.1",
+      "SortId": 4,
+      "CharId": 155,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[155,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15505.1",
+          "zh_TW": "希婭保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "希娅保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15506": {
+      "Id": 15506,
+      "Desc": "AffinityQuest.15506.1",
+      "SortId": 6,
+      "CharId": 155,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[155,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15506.1",
+          "zh_TW": "希婭進階到{1}階",
+          "zh_CN": "希娅进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15507": {
+      "Id": 15507,
+      "Desc": "AffinityQuest.15507.1",
+      "SortId": 7,
+      "CharId": 155,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[155,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15507.1",
+          "zh_TW": "希婭的所有技能等級提升到{1}級或以上",
+          "zh_CN": "希娅所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15508": {
+      "Id": 15508,
+      "Desc": "AffinityQuest.15508.1",
+      "SortId": 8,
+      "CharId": 155,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[155,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15508.1",
+          "zh_TW": "希婭保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "希娅保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15509": {
+      "Id": 15509,
+      "Desc": "AffinityQuest.15509.1",
+      "SortId": 9,
+      "CharId": 155,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[155,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15509.1",
+          "zh_TW": "收集希婭的潛能數量累計達到{1}",
+          "zh_CN": "累计收集希娅的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15601": {
+      "Id": 15601,
+      "Desc": "AffinityQuest.15601.1",
+      "SortId": 2,
+      "CharId": 156,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[156,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15601.1",
+          "zh_TW": "小禾完成{1}次星塔探索",
+          "zh_CN": "小禾完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15602": {
+      "Id": 15602,
+      "Desc": "AffinityQuest.15602.1",
+      "SortId": 5,
+      "CharId": 156,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,156]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15602.1",
+          "zh_TW": "完成{1}次與小禾的邀約",
+          "zh_CN": "完成{1}次与小禾的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15603": {
+      "Id": 15603,
+      "Desc": "AffinityQuest.15603.1",
+      "SortId": 1,
+      "CharId": 156,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[156,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15603.1",
+          "zh_TW": "小禾進階到{1}階",
+          "zh_CN": "小禾进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15604": {
+      "Id": 15604,
+      "Desc": "AffinityQuest.15604.1",
+      "SortId": 3,
+      "CharId": 156,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[156,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15604.1",
+          "zh_TW": "小禾升級技能累計達{1}次",
+          "zh_CN": "小禾累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15605": {
+      "Id": 15605,
+      "Desc": "AffinityQuest.15605.1",
+      "SortId": 4,
+      "CharId": 156,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[156,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15605.1",
+          "zh_TW": "小禾保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "小禾保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15606": {
+      "Id": 15606,
+      "Desc": "AffinityQuest.15606.1",
+      "SortId": 6,
+      "CharId": 156,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[156,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15606.1",
+          "zh_TW": "小禾進階到{1}階",
+          "zh_CN": "小禾进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15607": {
+      "Id": 15607,
+      "Desc": "AffinityQuest.15607.1",
+      "SortId": 7,
+      "CharId": 156,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[156,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15607.1",
+          "zh_TW": "小禾的所有技能等級提升到{1}級或以上",
+          "zh_CN": "小禾所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15608": {
+      "Id": 15608,
+      "Desc": "AffinityQuest.15608.1",
+      "SortId": 8,
+      "CharId": 156,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[156,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15608.1",
+          "zh_TW": "小禾保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "小禾保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15609": {
+      "Id": 15609,
+      "Desc": "AffinityQuest.15609.1",
+      "SortId": 9,
+      "CharId": 156,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[156,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15609.1",
+          "zh_TW": "收集小禾的潛能數量累計達到{1}",
+          "zh_CN": "累计收集小禾的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15801": {
+      "Id": 15801,
+      "Desc": "AffinityQuest.15801.1",
+      "SortId": 2,
+      "CharId": 158,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[158,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15801.1",
+          "zh_TW": "聖夜菈露完成{1}次星塔探索",
+          "zh_CN": "菈露（圣夜）完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15802": {
+      "Id": 15802,
+      "Desc": "AffinityQuest.15802.1",
+      "SortId": 5,
+      "CharId": 158,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,158]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15802.1",
+          "zh_TW": "完成{1}次與聖夜菈露的邀約",
+          "zh_CN": "完成{1}次与菈露（圣夜）的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15803": {
+      "Id": 15803,
+      "Desc": "AffinityQuest.15803.1",
+      "SortId": 1,
+      "CharId": 158,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[158,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15803.1",
+          "zh_TW": "聖夜菈露進階到{1}階",
+          "zh_CN": "菈露（圣夜）进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15804": {
+      "Id": 15804,
+      "Desc": "AffinityQuest.15804.1",
+      "SortId": 3,
+      "CharId": 158,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[158,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15804.1",
+          "zh_TW": "聖夜菈露升級技能累計達{1}次",
+          "zh_CN": "菈露（圣夜）累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15805": {
+      "Id": 15805,
+      "Desc": "AffinityQuest.15805.1",
+      "SortId": 4,
+      "CharId": 158,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[158,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15805.1",
+          "zh_TW": "聖夜菈露保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "菈露（圣夜）保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15806": {
+      "Id": 15806,
+      "Desc": "AffinityQuest.15806.1",
+      "SortId": 6,
+      "CharId": 158,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[158,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15806.1",
+          "zh_TW": "聖夜菈露進階到{1}階",
+          "zh_CN": "菈露（圣夜）进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15807": {
+      "Id": 15807,
+      "Desc": "AffinityQuest.15807.1",
+      "SortId": 7,
+      "CharId": 158,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[158,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15807.1",
+          "zh_TW": "聖夜菈露的所有技能等級提升到{1}級或以上",
+          "zh_CN": "菈露（圣夜）所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15808": {
+      "Id": 15808,
+      "Desc": "AffinityQuest.15808.1",
+      "SortId": 8,
+      "CharId": 158,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[158,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15808.1",
+          "zh_TW": "聖夜菈露保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "菈露（圣夜）保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15809": {
+      "Id": 15809,
+      "Desc": "AffinityQuest.15809.1",
+      "SortId": 9,
+      "CharId": 158,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[158,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15809.1",
+          "zh_TW": "收集聖夜菈露的潛能數量累計達到{1}",
+          "zh_CN": "累计收集菈露（圣夜）的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15901": {
+      "Id": 15901,
+      "Desc": "AffinityQuest.15901.1",
+      "SortId": 2,
+      "CharId": 159,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[159,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15901.1",
+          "zh_TW": "緋春柯洛妮絲完成{1}次星塔探索",
+          "zh_CN": "科洛妮丝（新春）完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15902": {
+      "Id": 15902,
+      "Desc": "AffinityQuest.15902.1",
+      "SortId": 5,
+      "CharId": 159,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,159]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15902.1",
+          "zh_TW": "完成{1}次與緋春柯洛妮絲的邀約",
+          "zh_CN": "完成{1}次与科洛妮丝（新春）的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15903": {
+      "Id": 15903,
+      "Desc": "AffinityQuest.15903.1",
+      "SortId": 1,
+      "CharId": 159,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[159,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15903.1",
+          "zh_TW": "緋春柯洛妮絲進階到{1}階",
+          "zh_CN": "科洛妮丝（新春）进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15904": {
+      "Id": 15904,
+      "Desc": "AffinityQuest.15904.1",
+      "SortId": 3,
+      "CharId": 159,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[159,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15904.1",
+          "zh_TW": "緋春柯洛妮絲累計升級{1}次技能",
+          "zh_CN": "科洛妮丝（新春）累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15905": {
+      "Id": 15905,
+      "Desc": "AffinityQuest.15905.1",
+      "SortId": 4,
+      "CharId": 159,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[159,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15905.1",
+          "zh_TW": "緋春柯洛妮絲儲存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "科洛妮丝（新春）保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15906": {
+      "Id": 15906,
+      "Desc": "AffinityQuest.15906.1",
+      "SortId": 6,
+      "CharId": 159,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[159,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15906.1",
+          "zh_TW": "緋春柯洛妮絲進階到{1}階",
+          "zh_CN": "科洛妮丝（新春）进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15907": {
+      "Id": 15907,
+      "Desc": "AffinityQuest.15907.1",
+      "SortId": 7,
+      "CharId": 159,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[159,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15907.1",
+          "zh_TW": "緋春柯洛妮絲所有技能等級提升到{1}級或以上",
+          "zh_CN": "科洛妮丝（新春）所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15908": {
+      "Id": 15908,
+      "Desc": "AffinityQuest.15908.1",
+      "SortId": 8,
+      "CharId": 159,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[159,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15908.1",
+          "zh_TW": "緋春柯洛妮絲儲存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "科洛妮丝（新春）保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "15909": {
+      "Id": 15909,
+      "Desc": "AffinityQuest.15909.1",
+      "SortId": 9,
+      "CharId": 159,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[159,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.15909.1",
+          "zh_TW": "收集緋春柯洛妮絲的潛能數量累計達到{1}",
+          "zh_CN": "累计收集科洛妮丝（新春）的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "16001": {
+      "Id": 16001,
+      "Desc": "AffinityQuest.16001.1",
+      "SortId": 2,
+      "CharId": 160,
+      "CompleteCond": 78,
+      "CompleteCondParams": "[160,1]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.16001.1",
+          "zh_TW": "沐夏薇洛完成{1}次星塔探索",
+          "zh_CN": "薇洛（盛夏）完成{1}次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "16002": {
+      "Id": 16002,
+      "Desc": "AffinityQuest.16002.1",
+      "SortId": 5,
+      "CharId": 160,
+      "CompleteCond": 73,
+      "CompleteCondParams": "[1,160]",
+      "AffinityExp": 150,
+      "Param1": "1",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.16002.1",
+          "zh_TW": "完成{1}次與沐夏薇洛的邀約",
+          "zh_CN": "完成{1}次与薇洛（盛夏）的邀约",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "16003": {
+      "Id": 16003,
+      "Desc": "AffinityQuest.16003.1",
+      "SortId": 1,
+      "CharId": 160,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[160,2]",
+      "AffinityExp": 50,
+      "Param1": "2",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.16003.1",
+          "zh_TW": "沐夏薇洛進階到{1}階",
+          "zh_CN": "薇洛（盛夏）进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "16004": {
+      "Id": 16004,
+      "Desc": "AffinityQuest.16004.1",
+      "SortId": 3,
+      "CharId": 160,
+      "CompleteCond": 9,
+      "CompleteCondParams": "[160,3]",
+      "AffinityExp": 100,
+      "Param1": "3",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.16004.1",
+          "zh_TW": "沐夏薇洛升級技能累計達{1}次",
+          "zh_CN": "薇洛（盛夏）累计升级{1}次技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "16005": {
+      "Id": 16005,
+      "Desc": "AffinityQuest.16005.1",
+      "SortId": 4,
+      "CharId": 160,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[160,1,2300]",
+      "AffinityExp": 100,
+      "Param1": "1",
+      "Param2": "6",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.16005.1",
+          "zh_TW": "沐夏薇洛保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "薇洛（盛夏）保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "16006": {
+      "Id": 16006,
+      "Desc": "AffinityQuest.16006.1",
+      "SortId": 6,
+      "CharId": 160,
+      "CompleteCond": 13,
+      "CompleteCondParams": "[160,5]",
+      "AffinityExp": 150,
+      "Param1": "5",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.16006.1",
+          "zh_TW": "沐夏薇洛進階到{1}階",
+          "zh_CN": "薇洛（盛夏）进阶到{1}阶",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "16007": {
+      "Id": 16007,
+      "Desc": "AffinityQuest.16007.1",
+      "SortId": 7,
+      "CharId": 160,
+      "CompleteCond": 79,
+      "CompleteCondParams": "[160,4]",
+      "AffinityExp": 150,
+      "Param1": "4",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.16007.1",
+          "zh_TW": "沐夏薇洛的所有技能等級提升到{1}級或以上",
+          "zh_CN": "薇洛（盛夏）所有技能等级提升到{1}级或以上",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "16008": {
+      "Id": 16008,
+      "Desc": "AffinityQuest.16008.1",
+      "SortId": 8,
+      "CharId": 160,
+      "CompleteCond": 526,
+      "CompleteCondParams": "[160,1,8040]",
+      "AffinityExp": 500,
+      "Param1": "1",
+      "Param2": "28",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.16008.1",
+          "zh_TW": "沐夏薇洛保存{1}份評分等級達到{2}級的紀錄",
+          "zh_CN": "薇洛（盛夏）保存{1}份评分等级达到{2}级的纪录",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    },
+    "16009": {
+      "Id": 16009,
+      "Desc": "AffinityQuest.16009.1",
+      "SortId": 9,
+      "CharId": 160,
+      "CompleteCond": 525,
+      "CompleteCondParams": "[160,16]",
+      "AffinityExp": 500,
+      "Param1": "16",
+      "_localized": {
+        "/Desc": {
+          "key": "AffinityQuest.16009.1",
+          "zh_TW": "收集沐夏薇洛的潛能數量累計達到{1}",
+          "zh_CN": "累计收集薇洛（盛夏）的潜能数量达到{1}",
+          "sources": {
+            "zh_TW": "language/zh_TW/AffinityQuest.json",
+            "zh_CN": "language/zh_CN/AffinityQuest.json"
+          }
+        }
+      }
+    }
+  }
+}

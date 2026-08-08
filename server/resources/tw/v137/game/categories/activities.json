@@ -1,0 +1,710 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "activities",
+    "name": "活动、赛季与排行榜",
+    "description": "活动总表、活动组、签到、战令、赛季、排行和荣誉奖励。",
+    "table_count": 39,
+    "row_count": 7002,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "Activity",
+      "categories": [
+        "activities"
+      ],
+      "row_count": 155,
+      "data": "bin/Activity.json",
+      "readable": "readable/Activity.json",
+      "evidence": "evidence/tables/Activity.json",
+      "source_sha256": "625db66dbd0004f66b1b621fd5b4e39878ee4db2a634f0d00dfbefd1db87aa4a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ActivityAvgLevel",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 11,
+      "data": "bin/ActivityAvgLevel.json",
+      "readable": "readable/ActivityAvgLevel.json",
+      "evidence": "evidence/tables/ActivityAvgLevel.json",
+      "source_sha256": "f2f44c7eaf6cf81f8d9ae6bd3d8b517b88e02091cd067b7f44c8cc50a2885cc7",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityAvgLevel.json",
+      "zh_CN": "language/zh_CN/ActivityAvgLevel.json"
+    },
+    {
+      "table": "ActivityDouble",
+      "categories": [
+        "activities"
+      ],
+      "row_count": 2,
+      "data": "bin/ActivityDouble.json",
+      "readable": "readable/ActivityDouble.json",
+      "evidence": "evidence/tables/ActivityDouble.json",
+      "source_sha256": "07b0493f5b581c6d622c6517cb705cf24b7388970599665f33590b81653084de",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityDouble.json",
+      "zh_CN": "language/zh_CN/ActivityDouble.json"
+    },
+    {
+      "table": "ActivityDoubleQuest",
+      "categories": [
+        "quests",
+        "activities"
+      ],
+      "row_count": 14,
+      "data": "bin/ActivityDoubleQuest.json",
+      "readable": "readable/ActivityDoubleQuest.json",
+      "evidence": "evidence/tables/ActivityDoubleQuest.json",
+      "source_sha256": "a4499a84bf8605d8681c1b4192b2d1a2372b28256fb469fb08a301578cf5e1d8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityDoubleQuest.json",
+      "zh_CN": "language/zh_CN/ActivityDoubleQuest.json"
+    },
+    {
+      "table": "ActivityGoods",
+      "categories": [
+        "activities",
+        "shop_economy"
+      ],
+      "row_count": 333,
+      "data": "bin/ActivityGoods.json",
+      "readable": "readable/ActivityGoods.json",
+      "evidence": "evidence/tables/ActivityGoods.json",
+      "source_sha256": "c27914b81443305541d81dfdc3e7da554bb2373c8a4bcf336d1e5c813bddbdd4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityGoods.json",
+      "zh_CN": "language/zh_CN/ActivityGoods.json"
+    },
+    {
+      "table": "ActivityGroup",
+      "categories": [
+        "activities"
+      ],
+      "row_count": 16,
+      "data": "bin/ActivityGroup.json",
+      "readable": "readable/ActivityGroup.json",
+      "evidence": "evidence/tables/ActivityGroup.json",
+      "source_sha256": "6e37f865b24fa81baea3b07d1bb2e7cefcccfb1aefae88a9927cd816f71675e4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityGroup.json",
+      "zh_CN": "language/zh_CN/ActivityGroup.json"
+    },
+    {
+      "table": "ActivityIceCreamLevel",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 7,
+      "data": "bin/ActivityIceCreamLevel.json",
+      "readable": "readable/ActivityIceCreamLevel.json",
+      "evidence": "evidence/tables/ActivityIceCreamLevel.json",
+      "source_sha256": "aceb12598cf362cd9e86ddcfa611cd64a276c92678606f65f5f50d97370eb034",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityIceCreamLevel.json",
+      "zh_CN": "language/zh_CN/ActivityIceCreamLevel.json"
+    },
+    {
+      "table": "ActivityLevelsFloor",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 287,
+      "data": "bin/ActivityLevelsFloor.json",
+      "readable": "readable/ActivityLevelsFloor.json",
+      "evidence": "evidence/tables/ActivityLevelsFloor.json",
+      "source_sha256": "a644cae8f05383426a36748400dfac2894b02d226f768c05ae74cb6dc5b9c7df",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ActivityLevelsLevel",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 260,
+      "data": "bin/ActivityLevelsLevel.json",
+      "readable": "readable/ActivityLevelsLevel.json",
+      "evidence": "evidence/tables/ActivityLevelsLevel.json",
+      "source_sha256": "6d9e8470a303cad4a648da289578cf649fbc541d4091fbecdd565a2acdf7da54",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityLevelsLevel.json",
+      "zh_CN": "language/zh_CN/ActivityLevelsLevel.json"
+    },
+    {
+      "table": "ActivityPenguinCardLevel",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 17,
+      "data": "bin/ActivityPenguinCardLevel.json",
+      "readable": "readable/ActivityPenguinCardLevel.json",
+      "evidence": "evidence/tables/ActivityPenguinCardLevel.json",
+      "source_sha256": "5d3a514631ecb2c68631a3d0a7fd35d3f618dba173487cb13a1da197acc4ea7e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityPenguinCardLevel.json",
+      "zh_CN": "language/zh_CN/ActivityPenguinCardLevel.json"
+    },
+    {
+      "table": "ActivityPenguinCardQuest",
+      "categories": [
+        "quests",
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 30,
+      "data": "bin/ActivityPenguinCardQuest.json",
+      "readable": "readable/ActivityPenguinCardQuest.json",
+      "evidence": "evidence/tables/ActivityPenguinCardQuest.json",
+      "source_sha256": "22827d169d5c5074acbe1f80459efc3e3dbcb99da8120f21ee19d296e1721522",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityPenguinCardQuest.json",
+      "zh_CN": "language/zh_CN/ActivityPenguinCardQuest.json"
+    },
+    {
+      "table": "ActivityPenguinCardQuestGroup",
+      "categories": [
+        "quests",
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 5,
+      "data": "bin/ActivityPenguinCardQuestGroup.json",
+      "readable": "readable/ActivityPenguinCardQuestGroup.json",
+      "evidence": "evidence/tables/ActivityPenguinCardQuestGroup.json",
+      "source_sha256": "7083595e39883c50b34245fcb2d6e96d79c7ad2fff83895097418a6081646299",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityPenguinCardQuestGroup.json",
+      "zh_CN": "language/zh_CN/ActivityPenguinCardQuestGroup.json"
+    },
+    {
+      "table": "ActivityShop",
+      "categories": [
+        "activities",
+        "shop_economy"
+      ],
+      "row_count": 16,
+      "data": "bin/ActivityShop.json",
+      "readable": "readable/ActivityShop.json",
+      "evidence": "evidence/tables/ActivityShop.json",
+      "source_sha256": "9175a2c49069c4b45b7ba2bf7e237cd386f8fdb9cf3705c98fe621a198a36e20",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityShop.json",
+      "zh_CN": "language/zh_CN/ActivityShop.json"
+    },
+    {
+      "table": "ActivityShopControl",
+      "categories": [
+        "activities",
+        "shop_economy"
+      ],
+      "row_count": 16,
+      "data": "bin/ActivityShopControl.json",
+      "readable": "readable/ActivityShopControl.json",
+      "evidence": "evidence/tables/ActivityShopControl.json",
+      "source_sha256": "6c3057a0fcdd3390daa8353396abd8faf7c89ea00aa8a41422b6d41524a6fa76",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ActivityStory",
+      "categories": [
+        "story_social",
+        "activities"
+      ],
+      "row_count": 102,
+      "data": "bin/ActivityStory.json",
+      "readable": "readable/ActivityStory.json",
+      "evidence": "evidence/tables/ActivityStory.json",
+      "source_sha256": "017799de26e7d23a53176f013096b10855bca62758e2d72eb66edb8f7a942191",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityStory.json",
+      "zh_CN": "language/zh_CN/ActivityStory.json"
+    },
+    {
+      "table": "ActivityStoryChapter",
+      "categories": [
+        "story_social",
+        "activities"
+      ],
+      "row_count": 9,
+      "data": "bin/ActivityStoryChapter.json",
+      "readable": "readable/ActivityStoryChapter.json",
+      "evidence": "evidence/tables/ActivityStoryChapter.json",
+      "source_sha256": "cceca9d3419a159372a3ef5dcd60d7f0d77e471488c17ed3439fccbb87395320",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ActivityStoryCondition",
+      "categories": [
+        "story_social",
+        "activities"
+      ],
+      "row_count": 104,
+      "data": "bin/ActivityStoryCondition.json",
+      "readable": "readable/ActivityStoryCondition.json",
+      "evidence": "evidence/tables/ActivityStoryCondition.json",
+      "source_sha256": "c346e1873ae68afc7d97d5e64d6c55fd0b1a386b670d832b36b28ea9b82a596e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ActivityStoryEvidence",
+      "categories": [
+        "story_social",
+        "activities"
+      ],
+      "row_count": 9,
+      "data": "bin/ActivityStoryEvidence.json",
+      "readable": "readable/ActivityStoryEvidence.json",
+      "evidence": "evidence/tables/ActivityStoryEvidence.json",
+      "source_sha256": "8b3ddf798aca6fa7956abf6f99e58c31f1e272eb7cb87b0c3f148a904ade2d73",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ActivityTask",
+      "categories": [
+        "activities"
+      ],
+      "row_count": 751,
+      "data": "bin/ActivityTask.json",
+      "readable": "readable/ActivityTask.json",
+      "evidence": "evidence/tables/ActivityTask.json",
+      "source_sha256": "896c1be57a0f806475199511ad1dbd2ba51cf4c44d6560097ce5c4dfbaddb4cf",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityTask.json",
+      "zh_CN": "language/zh_CN/ActivityTask.json"
+    },
+    {
+      "table": "ActivityTaskControl",
+      "categories": [
+        "activities"
+      ],
+      "row_count": 17,
+      "data": "bin/ActivityTaskControl.json",
+      "readable": "readable/ActivityTaskControl.json",
+      "evidence": "evidence/tables/ActivityTaskControl.json",
+      "source_sha256": "d0c7f1a69b960ddf0bbc2b6926265ba64376668050b696ab7a5723fd9c9c8355",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ActivityTaskGroup",
+      "categories": [
+        "activities"
+      ],
+      "row_count": 65,
+      "data": "bin/ActivityTaskGroup.json",
+      "readable": "readable/ActivityTaskGroup.json",
+      "evidence": "evidence/tables/ActivityTaskGroup.json",
+      "source_sha256": "a6196bb88685f5352215084c3880630571672e25112c2fa263e60e938583bdf1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityTaskGroup.json",
+      "zh_CN": "language/zh_CN/ActivityTaskGroup.json"
+    },
+    {
+      "table": "Banner",
+      "categories": [
+        "activities"
+      ],
+      "row_count": 42,
+      "data": "bin/Banner.json",
+      "readable": "readable/Banner.json",
+      "evidence": "evidence/tables/Banner.json",
+      "source_sha256": "78d96f9bfdaa2eec172fc4be3bb42e7918efc30a294990cc41964db54a093c71",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BattlePass",
+      "categories": [
+        "combat",
+        "activities"
+      ],
+      "row_count": 10,
+      "data": "bin/BattlePass.json",
+      "readable": "readable/BattlePass.json",
+      "evidence": "evidence/tables/BattlePass.json",
+      "source_sha256": "16d04292615e97628cc63205087a1fa81e469d8d38421ec2123b776edc33d28b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BattlePassLevel",
+      "categories": [
+        "combat",
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 80,
+      "data": "bin/BattlePassLevel.json",
+      "readable": "readable/BattlePassLevel.json",
+      "evidence": "evidence/tables/BattlePassLevel.json",
+      "source_sha256": "896e487841bb7b5666376cea8a97b2e54ec5699a7d980464f4a87591fee3bef4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BattlePassQuest",
+      "categories": [
+        "combat",
+        "quests",
+        "activities"
+      ],
+      "row_count": 17,
+      "data": "bin/BattlePassQuest.json",
+      "readable": "readable/BattlePassQuest.json",
+      "evidence": "evidence/tables/BattlePassQuest.json",
+      "source_sha256": "88edc5dbb225debb8b444ae7e057f686ff3cde0ab80d5f2782157b8461574c91",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/BattlePassQuest.json",
+      "zh_CN": "language/zh_CN/BattlePassQuest.json"
+    },
+    {
+      "table": "BattlePassReward",
+      "categories": [
+        "combat",
+        "items_rewards",
+        "activities"
+      ],
+      "row_count": 690,
+      "data": "bin/BattlePassReward.json",
+      "readable": "readable/BattlePassReward.json",
+      "evidence": "evidence/tables/BattlePassReward.json",
+      "source_sha256": "960d9cb9843f2946d05d54b66ab24108bb4bcfa05113dfaeaa5a695ba9ac4ddc",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Honor",
+      "categories": [
+        "activities"
+      ],
+      "row_count": 144,
+      "data": "bin/Honor.json",
+      "readable": "readable/Honor.json",
+      "evidence": "evidence/tables/Honor.json",
+      "source_sha256": "d8a239676f90c9c98b99aeef9e95236c3c7ad7b9cfc0a30bfc7e8edba3d8b0f5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Honor.json",
+      "zh_CN": "language/zh_CN/Honor.json"
+    },
+    {
+      "table": "HonorCharacter",
+      "categories": [
+        "characters",
+        "activities"
+      ],
+      "row_count": 3330,
+      "data": "bin/HonorCharacter.json",
+      "readable": "readable/HonorCharacter.json",
+      "evidence": "evidence/tables/HonorCharacter.json",
+      "source_sha256": "3d0b970171858c6c01adbe7883f74e37d99d4f74312e54bb6056598802bf6130",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "HonorLevel",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 36,
+      "data": "bin/HonorLevel.json",
+      "readable": "readable/HonorLevel.json",
+      "evidence": "evidence/tables/HonorLevel.json",
+      "source_sha256": "5d799c603337ec6c295aeee70dd883763623dba6107eab46948aa561021e09e4",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "JointDrillRank",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 6,
+      "data": "bin/JointDrillRank.json",
+      "readable": "readable/JointDrillRank.json",
+      "evidence": "evidence/tables/JointDrillRank.json",
+      "source_sha256": "538f1d8d59925554b33d8ebc5c03ed44b12bd9f2ee00f69aa3cd7595bbe347f6",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "LoginRewardControl",
+      "categories": [
+        "items_rewards",
+        "activities"
+      ],
+      "row_count": 10,
+      "data": "bin/LoginRewardControl.json",
+      "readable": "readable/LoginRewardControl.json",
+      "evidence": "evidence/tables/LoginRewardControl.json",
+      "source_sha256": "0be1c75841b78e3d4564f8c28edd68c1f2620f53fd97e02171b5e9eb955166e3",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/LoginRewardControl.json",
+      "zh_CN": "language/zh_CN/LoginRewardControl.json"
+    },
+    {
+      "table": "LoginRewardGroup",
+      "categories": [
+        "items_rewards",
+        "activities"
+      ],
+      "row_count": 68,
+      "data": "bin/LoginRewardGroup.json",
+      "readable": "readable/LoginRewardGroup.json",
+      "evidence": "evidence/tables/LoginRewardGroup.json",
+      "source_sha256": "ee9b917ddfb7bdf36a18bc844118b09d9a608500565ed7c6cfc2b4233b4a8bb8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/LoginRewardGroup.json",
+      "zh_CN": "language/zh_CN/LoginRewardGroup.json"
+    },
+    {
+      "table": "PenguinCardHandRank",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 8,
+      "data": "bin/PenguinCardHandRank.json",
+      "readable": "readable/PenguinCardHandRank.json",
+      "evidence": "evidence/tables/PenguinCardHandRank.json",
+      "source_sha256": "632d06f02d9353e388aae826a87e4c0d309b0c7eb391a46aca59c3963ed91b24",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+      "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+    },
+    {
+      "table": "Rank",
+      "categories": [
+        "activities"
+      ],
+      "row_count": 107,
+      "data": "bin/Rank.json",
+      "readable": "readable/Rank.json",
+      "evidence": "evidence/tables/Rank.json",
+      "source_sha256": "f79e4d01e2de8b6ad787a9c248ee9db783d972882aae554f2bda4b766ecc167f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ScoreBossRank",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 56,
+      "data": "bin/ScoreBossRank.json",
+      "readable": "readable/ScoreBossRank.json",
+      "evidence": "evidence/tables/ScoreBossRank.json",
+      "source_sha256": "4f8079c4f12d31cb49fac36bcf3dec8347bff4d803a18643bc644f9aaf6034e5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SignIn",
+      "categories": [
+        "activities"
+      ],
+      "row_count": 118,
+      "data": "bin/SignIn.json",
+      "readable": "readable/SignIn.json",
+      "evidence": "evidence/tables/SignIn.json",
+      "source_sha256": "4c41dc5d6f1bb6446d040d8b390396524ddec413c44fda749dcd8bd9b150ca93",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierSeason",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 1,
+      "data": "bin/SoldierSeason.json",
+      "readable": "readable/SoldierSeason.json",
+      "evidence": "evidence/tables/SoldierSeason.json",
+      "source_sha256": "1ffc72f632ec228868a696f8d1dea3ee1273d2728debc292c3e2aaefb910feb8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerBuildRank",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 40,
+      "data": "bin/StarTowerBuildRank.json",
+      "readable": "readable/StarTowerBuildRank.json",
+      "evidence": "evidence/tables/StarTowerBuildRank.json",
+      "source_sha256": "9bf3c065615f36eec13bf04473c52cd4f6dfbc182a913f346c03cd3ad72243dd",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireRankSeason",
+      "categories": [
+        "stages_modes",
+        "activities"
+      ],
+      "row_count": 13,
+      "data": "bin/VampireRankSeason.json",
+      "readable": "readable/VampireRankSeason.json",
+      "evidence": "evidence/tables/VampireRankSeason.json",
+      "source_sha256": "941af738a8035e142b30415bc59ef04eb9057f8da89ac99b943f19cbf49a277f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    }
+  ]
+}

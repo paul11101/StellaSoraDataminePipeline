@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0.0",
+  "status": "statically_recovered_and_regression_tested",
+  "target": {
+    "game": "Stella Sora TW",
+    "client_version": "1.13.0",
+    "resource_version": 137
+  },
+  "sources": [
+    {
+      "path": "Game/UI/Login/LoginCtrl.lua",
+      "archive_hash": "c01d275c06704d22",
+      "format": "Lua 5.3 bytecode"
+    },
+    {
+      "path": "GameCore/Network/HttpNetHandler.lua",
+      "archive_hash": "55bee1a0d4b0d78b",
+      "format": "Lua 5.3 bytecode"
+    },
+    {
+      "path": "GameCore/Network/NetMsgId.lua",
+      "archive_hash": "af07dc65acd1507f",
+      "format": "Lua 5.3 bytecode"
+    }
+  ],
+  "flow": [
+    {
+      "order": 1,
+      "request_id": 1,
+      "request_name": "ike_req",
+      "request_type": "proto.IKEReq",
+      "success_id": 2,
+      "success_name": "ike_succeed_ack",
+      "success_type": "proto.IKEResp",
+      "request_fields_observed": [
+        "PubKey",
+        "ProtoVersion",
+        "ClinetTs"
+      ],
+      "response_fields_consumed": [
+        "Token",
+        "PubKey",
+        "Cipher",
+        "ServerTs"
+      ],
+      "evidence": {
+        "send_prototype": 22,
+        "send_lines": "315..355",
+        "success_handler_prototype": 5,
+        "success_handler_lines": "41..44"
+      },
+      "notes": [
+        "The Lua sender spells ClientTs as ClinetTs; the canonical protobuf field is ClientTs.",
+        "The success callback selects regular or SDK login only after IKE succeeds."
+      ]
+    },
+    {
+      "order": 2,
+      "request_id": 4,
+      "request_name": "player_login_req",
+      "request_type": "proto.LoginReq",
+      "success_id": 5,
+      "success_name": "player_login_succeed_ack",
+      "success_type": "proto.LoginResp",
+      "request_fields_observed": [
+        "Platform",
+        "Language",
+        "Channel",
+        "Device",
+        "Version",
+        "Account",
+        "Official",
+        "OfficialOverseas"
+      ],
+      "response_fields_consumed": [
+        "Token"
+      ],
+      "evidence": {
+        "regular_send_prototype": 24,
+        "regular_send_lines": "356..414",
+        "sdk_send_prototype": 26,
+        "sdk_send_lines": "415..465",
+        "success_handler_prototype": 7,
+        "success_handler_lines": "48..50"
+      },
+      "notes": [
+        "An empty regular-login password is replaced with 123456 by the client.",
+        "The local server accepts all recovered auth oneof variants and returns the local session token."
+      ]
+    },
+    {
+      "order": 3,
+      "request_id": 1001,
+      "request_name": "player_data_req",
+      "request_type": "proto.Nil",
+      "success_id": 1002,
+      "success_name": "player_data_succeed_ack",
+      "success_type": "proto.PlayerInfo",
+      "request_fields_observed": [],
+      "response_fields_consumed": [
+        "Acc",
+        "Energy",
+        "Titles",
+        "Honors",
+        "HonorList",
+        "ActivityHonors",
+        "WorldClass",
+        "SendGiftCnt",
+        "NicknameResetTime",
+        "Res",
+        "Chars",
+        "Formation",
+        "Items",
+        "Activities",
+        "State",
+        "RegionBossLevels",
+        "WeekBossLevels",
+        "Assists",
+        "TourGuideQuestGroup",
+        "Quests.List",
+        "DailyActiveIds",
+        "WeeklyActiveIds",
+        "Achievements",
+        "SigninIndex",
+        "Handbook",
+        "Board",
+        "DailyInstances",
+        "Dictionaries",
+        "Phone",
+        "Discs",
+        "MusicInfo",
+        "CharGemInstances",
+        "RglPassedIds",
+        "Story",
+        "TowerTicket",
+        "DailyShopRewardStatus",
+        "DailyMallRewardStatus",
+        "MallPackageList",
+        "DatingCharIds",
+        "VampireSurvivorRecord",
+        "SkillInstances",
+        "HuntPermit",
+        "TraceRequest",
+        "Agent",
+        "TutorialLevels",
+        "LastRead",
+        "PersonalityModels",
+        "ServerTs"
+      ],
+      "evidence": {
+        "send_prototype": 28,
+        "send_lines": "466..472",
+        "success_handler_prototype": 9,
+        "success_handler_lines": "55..128",
+        "login_completion_prototype": 32,
+        "login_completion_lines": "482..509"
+      },
+      "notes": [
+        "AutoOpenAnnPanel calls RequestPlayerData when no announcement blocks the flow.",
+        "After success the client enables Ping/Pong and enters the main menu or opening prologue.",
+        "Singular protobuf submessages are emitted as present empty messages so Lua nested access remains valid."
+      ]
+    },
+    {
+      "order": 4,
+      "request_id": 1012,
+      "request_name": "player_ping_req",
+      "request_type": "proto.Ping",
+      "success_id": 1013,
+      "success_name": "player_ping_succeed_ack",
+      "success_type": "proto.Pong",
+      "response_fields_consumed": [
+        "ServerTs",
+        "NextPackage"
+      ],
+      "notes": [
+        "The local server uses Pong.NextPackage to push PlayerInfo after a GM command changes persistent state."
+      ]
+    }
+  ],
+  "wire_rules": {
+    "request_endpoint": "/game/",
+    "method": "POST",
+    "session_header": "X-Token",
+    "handshake_logical_layout": [
+      "message_id:int16_be",
+      "protobuf:remaining_bytes"
+    ],
+    "authenticated_logical_layout": [
+      "server_timestamp:int64_be",
+      "sequence:uint16_be",
+      "message_id:int16_be",
+      "protobuf:remaining_bytes"
+    ],
+    "server_logical_layout": [
+      "message_id:int16_be",
+      "protobuf:remaining_bytes"
+    ]
+  },
+  "automated_coverage": {
+    "test": "GameProtocolServiceTest.completesRecoveredStartupChainAndPushesStateChanges",
+    "checks": [
+      "P-256 IKE and HKDF session-key agreement",
+      "authenticated Login response",
+      "PlayerInfo Lua-required singular shape",
+      "Ping response",
+      "GM state-change push through NextPackage"
+    ]
+  }
+}

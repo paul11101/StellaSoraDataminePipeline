@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StarTowerNPC",
+    "categories": [
+      "stages_modes",
+      "world_npc"
+    ],
+    "row_count": 4,
+    "localization_hits": 8,
+    "source": "bin/StarTowerNPC.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "9133": {
+      "Id": 9133,
+      "Name": "StarTowerNPC.9133.1",
+      "AffinityGroupId": 9133,
+      "NPCDesc": "StarTowerNPC.9133.2",
+      "Head": "Icon/Head/head_913301_GD",
+      "Image": "Icon/Head/head_npc13301_TJ",
+      "NPCSkin": 913301,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerNPC.9133.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerNPC.json",
+            "zh_CN": "language/zh_CN/StarTowerNPC.json"
+          }
+        },
+        "/NPCDesc": {
+          "key": "StarTowerNPC.9133.2",
+          "zh_TW": "在星塔四處的便利商店裡，你總會見到波西亞，她常常懶散地坐在櫃檯，頂著睡眠不足的黑眼圈，用無精打采的聲調勉強回覆著客人的訴求。\n和她搭話並不困難，只是她常常提不起勁。但當話題提到了「星塔外的世界」，她就會露出有些微妙，帶著期許和好奇的表情。或許她真的很感興趣吧？",
+          "zh_CN": "在散落于星塔各处的便利店里，你总会见到波西亚——她常常懒散地坐在柜台上，顶着睡眠不足的黑眼圈，用提不起劲的声调勉强回复着客人的诉求。\n和她搭话并不困难，只是她常常提不起劲——但当话题提到了“星塔外的世界”时，她就总会露出有些微妙、带着期许和好奇的表情。或许她真的很感兴趣吧？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerNPC.json",
+            "zh_CN": "language/zh_CN/StarTowerNPC.json"
+          }
+        }
+      }
+    },
+    "9172": {
+      "Id": 9172,
+      "Name": "StarTowerNPC.9172.1",
+      "AffinityGroupId": 9172,
+      "NPCDesc": "StarTowerNPC.9172.2",
+      "Head": "Icon/Head/head_917201_GD",
+      "Image": "Icon/Head/head_npc17201_TJ",
+      "NPCSkin": 917201,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerNPC.9172.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerNPC.json",
+            "zh_CN": "language/zh_CN/StarTowerNPC.json"
+          }
+        },
+        "/NPCDesc": {
+          "key": "StarTowerNPC.9172.2",
+          "zh_TW": "每當一場惡戰結束，貝緹麗就會拖著她的醫療箱冷不防地在星梯門前等候，她正是傳聞中那位「星塔裡的天使」本人。\n她從不主動搭話，因此有不少旅人從未注意到她的存在。她總是一臉冷淡，而話語間夾帶著埋怨和責怪。但無論如何，她總會悉心治療好旅人的傷口，並一視同仁地留下一句「注意安全」的告誡。或許，她其實很會照顧人？",
+          "zh_CN": "每当一场恶战结束，贝缇丽就会拖着她的医疗箱冷不丁地等候在星梯的门前——她正是传言中那个“星塔里的天使”本人。\n她从不主动搭话，因此有不少旅人从未注意到她的存在；她总是挂着冷淡的表情，话语间带着埋怨和嗔怪——但无论如何，她总会悉心疗愈好旅人的伤口，并公平地留下一句“注意安全”的告诫。或许，她其实很会照顾人？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerNPC.json",
+            "zh_CN": "language/zh_CN/StarTowerNPC.json"
+          }
+        }
+      }
+    },
+    "9173": {
+      "Id": 9173,
+      "Name": "StarTowerNPC.9173.1",
+      "AffinityGroupId": 9173,
+      "NPCDesc": "StarTowerNPC.9173.2",
+      "Head": "Icon/Head/head_917301_GD",
+      "Image": "Icon/Head/head_npc17301_TJ",
+      "NPCSkin": 917301,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerNPC.9173.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerNPC.json",
+            "zh_CN": "language/zh_CN/StarTowerNPC.json"
+          }
+        },
+        "/NPCDesc": {
+          "key": "StarTowerNPC.9173.2",
+          "zh_TW": "傳聞中，神祕的兩位「星塔裡的惡魔」之一。\n她們似乎總是出現在休息整頓的旅人面前，並主動上前搭話。\n珀爾娜的手裡總是提著一盞燈，旅人的欲望在她面前無所遁形。\n在她的威逼利誘下，總有旅人會接受她拋出的誘惑，而選擇放棄某些東西。",
+          "zh_CN": "传言中，神秘的两位“星塔里的恶魔”之一。\n她们似乎总是出现在修整的旅人面前，并主动来搭话。\n珀尔娜的手里总是提着一盏提灯，旅人的欲望会在她面前无所遁形。\n在她的威逼利诱下，总有旅人会接受她抛出的诱惑，而去放弃掉某些东西。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerNPC.json",
+            "zh_CN": "language/zh_CN/StarTowerNPC.json"
+          }
+        }
+      }
+    },
+    "9174": {
+      "Id": 9174,
+      "Name": "StarTowerNPC.9174.1",
+      "AffinityGroupId": 9174,
+      "NPCDesc": "StarTowerNPC.9174.2",
+      "Head": "Icon/Head/head_917401_GD",
+      "Image": "Icon/Head/head_npc17401_TJ",
+      "NPCSkin": 917401,
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerNPC.9174.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerNPC.json",
+            "zh_CN": "language/zh_CN/StarTowerNPC.json"
+          }
+        },
+        "/NPCDesc": {
+          "key": "StarTowerNPC.9174.2",
+          "zh_TW": "傳言中，神祕的兩位「星塔裡的惡魔」之一。\n她們似乎總是出現在休息整頓的旅人面前，並主動上前搭話。\n維嘉爾的手裡總是握著一面鏡子，旅人的理想都盡收她的眼底。\n在她的暗示與承諾中，總有旅人會接受她拋出的誘惑，而選擇放棄某些東西。",
+          "zh_CN": "传言中，神秘的两位“星塔里的恶魔”之一。\n她们似乎总是出现在修整的旅人面前，并主动来搭话。\n维嘉尔的手里总是提着一面镜子，旅人的理想会在她眼中全盘揭示。\n在她的暗示与承诺中，总有旅人会接受她抛出的诱惑，而去放弃掉某些东西。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerNPC.json",
+            "zh_CN": "language/zh_CN/StarTowerNPC.json"
+          }
+        }
+      }
+    }
+  }
+}

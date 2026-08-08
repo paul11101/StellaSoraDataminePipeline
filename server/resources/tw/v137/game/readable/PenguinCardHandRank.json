@@ -1,0 +1,262 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "PenguinCardHandRank",
+    "categories": [
+      "stages_modes",
+      "activities"
+    ],
+    "row_count": 8,
+    "localization_hits": 16,
+    "source": "bin/PenguinCardHandRank.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Title": "PenguinCardHandRank.1.1",
+      "Desc": "PenguinCardHandRank.1.2",
+      "SuitCount": [
+        6
+      ],
+      "Order": 1,
+      "Value": 5000,
+      "Ratio": 20000,
+      "_localized": {
+        "/Title": {
+          "key": "PenguinCardHandRank.1.1",
+          "zh_TW": "大同花",
+          "zh_CN": "大同花",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        },
+        "/Desc": {
+          "key": "PenguinCardHandRank.1.2",
+          "zh_TW": "牌型中包含6枚或更多相同花色",
+          "zh_CN": "牌型中包含了6枚或更多相同花色",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Title": "PenguinCardHandRank.2.1",
+      "Desc": "PenguinCardHandRank.2.2",
+      "SuitCount": [
+        5
+      ],
+      "Order": 2,
+      "Value": 1500,
+      "Ratio": 5000,
+      "_localized": {
+        "/Title": {
+          "key": "PenguinCardHandRank.2.1",
+          "zh_TW": "同花",
+          "zh_CN": "同花",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        },
+        "/Desc": {
+          "key": "PenguinCardHandRank.2.2",
+          "zh_TW": "牌型中包含5枚相同花色",
+          "zh_CN": "牌型中包含了5枚相同花色",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Title": "PenguinCardHandRank.3.1",
+      "Desc": "PenguinCardHandRank.3.2",
+      "SuitCount": [
+        4
+      ],
+      "Order": 3,
+      "Value": 1000,
+      "Ratio": 2000,
+      "_localized": {
+        "/Title": {
+          "key": "PenguinCardHandRank.3.1",
+          "zh_TW": "純色",
+          "zh_CN": "纯色",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        },
+        "/Desc": {
+          "key": "PenguinCardHandRank.3.2",
+          "zh_TW": "牌型中包含4枚相同花色",
+          "zh_CN": "牌型中包含了4枚相同花色",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "Title": "PenguinCardHandRank.4.1",
+      "Desc": "PenguinCardHandRank.4.2",
+      "SuitCount": [
+        3,
+        3
+      ],
+      "Order": 4,
+      "Value": 500,
+      "Ratio": 2000,
+      "_localized": {
+        "/Title": {
+          "key": "PenguinCardHandRank.4.1",
+          "zh_TW": "雙三條",
+          "zh_CN": "双三条",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        },
+        "/Desc": {
+          "key": "PenguinCardHandRank.4.2",
+          "zh_TW": "牌型中包含兩種花色，每種花色至少3枚",
+          "zh_CN": "牌型中包含两种花色，每种花色至少3枚",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "Title": "PenguinCardHandRank.5.1",
+      "Desc": "PenguinCardHandRank.5.2",
+      "SuitCount": [
+        3,
+        2
+      ],
+      "Order": 5,
+      "Value": 200,
+      "Ratio": 2000,
+      "_localized": {
+        "/Title": {
+          "key": "PenguinCardHandRank.5.1",
+          "zh_TW": "葫蘆",
+          "zh_CN": "葫芦",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        },
+        "/Desc": {
+          "key": "PenguinCardHandRank.5.2",
+          "zh_TW": "牌型中包含兩種花色，分別持有2枚及3枚",
+          "zh_CN": "牌型中包含两种花色，分别持有2枚及3枚",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "Title": "PenguinCardHandRank.6.1",
+      "Desc": "PenguinCardHandRank.6.2",
+      "SuitCount": [
+        3
+      ],
+      "Order": 6,
+      "Value": 100,
+      "Ratio": 2000,
+      "_localized": {
+        "/Title": {
+          "key": "PenguinCardHandRank.6.1",
+          "zh_TW": "三條",
+          "zh_CN": "三条",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        },
+        "/Desc": {
+          "key": "PenguinCardHandRank.6.2",
+          "zh_TW": "牌型中包含3枚相同花色",
+          "zh_CN": "牌型中包含了3枚相同花色",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "Title": "PenguinCardHandRank.7.1",
+      "Desc": "PenguinCardHandRank.7.2",
+      "SuitCount": [
+        2,
+        2
+      ],
+      "Order": 7,
+      "Value": 60,
+      "_localized": {
+        "/Title": {
+          "key": "PenguinCardHandRank.7.1",
+          "zh_TW": "雙對",
+          "zh_CN": "双对",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        },
+        "/Desc": {
+          "key": "PenguinCardHandRank.7.2",
+          "zh_TW": "牌型中包含兩種花色各2枚",
+          "zh_CN": "牌型中包含两种花色各2枚",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        }
+      }
+    },
+    "8": {
+      "Id": 8,
+      "Title": "PenguinCardHandRank.8.1",
+      "Desc": "PenguinCardHandRank.8.2",
+      "Order": 8,
+      "Value": 10,
+      "_localized": {
+        "/Title": {
+          "key": "PenguinCardHandRank.8.1",
+          "zh_TW": "石化",
+          "zh_CN": "石化",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        },
+        "/Desc": {
+          "key": "PenguinCardHandRank.8.2",
+          "zh_TW": "未構成任何牌型",
+          "zh_CN": "未构成任何牌型",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardHandRank.json",
+            "zh_CN": "language/zh_CN/PenguinCardHandRank.json"
+          }
+        }
+      }
+    }
+  }
+}

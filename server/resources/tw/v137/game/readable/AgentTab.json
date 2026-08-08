@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "AgentTab",
+    "categories": [
+      "characters"
+    ],
+    "row_count": 5,
+    "localization_hits": 5,
+    "source": "bin/AgentTab.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Name": "AgentTab.1.1",
+      "Bg": "Icon/ZZZOther/zs_agent_tab_1",
+      "SpTag": true,
+      "_localized": {
+        "/Name": {
+          "key": "AgentTab.1.1",
+          "zh_TW": "緊急委託",
+          "zh_CN": "紧急委托",
+          "sources": {
+            "zh_TW": "language/zh_TW/AgentTab.json",
+            "zh_CN": "language/zh_CN/AgentTab.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Name": "AgentTab.2.1",
+      "Bg": "Icon/ZZZOther/zs_agent_tab_2",
+      "_localized": {
+        "/Name": {
+          "key": "AgentTab.2.1",
+          "zh_TW": "社區幫手",
+          "zh_CN": "社区帮手",
+          "sources": {
+            "zh_TW": "language/zh_TW/AgentTab.json",
+            "zh_CN": "language/zh_CN/AgentTab.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Name": "AgentTab.3.1",
+      "Bg": "Icon/ZZZOther/zs_agent_tab_3",
+      "_localized": {
+        "/Name": {
+          "key": "AgentTab.3.1",
+          "zh_TW": "迷境探索",
+          "zh_CN": "谜境探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/AgentTab.json",
+            "zh_CN": "language/zh_CN/AgentTab.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "Name": "AgentTab.4.1",
+      "Bg": "Icon/ZZZOther/zs_agent_tab_5",
+      "_localized": {
+        "/Name": {
+          "key": "AgentTab.4.1",
+          "zh_TW": "星骸追蹤",
+          "zh_CN": "星骸追踪",
+          "sources": {
+            "zh_TW": "language/zh_TW/AgentTab.json",
+            "zh_CN": "language/zh_CN/AgentTab.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "Name": "AgentTab.5.1",
+      "Bg": "Icon/ZZZOther/zs_agent_tab_6",
+      "_localized": {
+        "/Name": {
+          "key": "AgentTab.5.1",
+          "zh_TW": "卡帶回收",
+          "zh_CN": "卡带回收",
+          "sources": {
+            "zh_TW": "language/zh_TW/AgentTab.json",
+            "zh_CN": "language/zh_CN/AgentTab.json"
+          }
+        }
+      }
+    }
+  }
+}

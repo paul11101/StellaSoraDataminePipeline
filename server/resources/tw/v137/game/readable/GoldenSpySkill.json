@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "GoldenSpySkill",
+    "categories": [
+      "combat",
+      "stages_modes"
+    ],
+    "row_count": 2,
+    "localization_hits": 0,
+    "source": "bin/GoldenSpySkill.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1001": {
+      "Id": 1001
+    },
+    "1002": {
+      "Id": 1002,
+      "Params": [
+        8
+      ]
+    }
+  }
+}

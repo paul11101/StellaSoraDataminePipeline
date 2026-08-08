@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TraceHuntStar",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 7,
+    "localization_hits": 0,
+    "source": "bin/TraceHuntStar.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "0": {
+      "Star": 1,
+      "ScoreNeed": 5
+    },
+    "1": {
+      "Star": 2,
+      "ScoreNeed": 10
+    },
+    "2": {
+      "Star": 3,
+      "ScoreNeed": 48
+    },
+    "3": {
+      "Star": 4,
+      "ScoreNeed": 200
+    },
+    "4": {
+      "Star": 5,
+      "ScoreNeed": 600
+    },
+    "5": {
+      "Star": 6,
+      "ScoreNeed": 3600
+    },
+    "6": {
+      "Star": 7,
+      "ScoreNeed": 12800
+    }
+  }
+}

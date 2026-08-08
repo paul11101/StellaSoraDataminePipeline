@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "Chapter",
+    "categories": [
+      "story_social"
+    ],
+    "row_count": 3,
+    "localization_hits": 6,
+    "source": "bin/Chapter.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Name": "Chapter.1.1",
+      "Desc": "Chapter.1.2",
+      "ChapterType": 1,
+      "WorldClass": 1,
+      "CompleteRewards": "{\"7\":[2,50],\"14\":[2,50],\"21\":[2,100]}",
+      "ChapterImg": "Icon/MapChapter/chapter_bg_01",
+      "ChapterIcon": "Icon/MapChapter/chapter_icon_01",
+      "_localized": {
+        "/Name": {
+          "key": "Chapter.1.1",
+          "zh_TW": "第一章",
+          "zh_CN": "第一章",
+          "sources": {
+            "zh_TW": "language/zh_TW/Chapter.json",
+            "zh_CN": "language/zh_CN/Chapter.json"
+          }
+        },
+        "/Desc": {
+          "key": "Chapter.1.2",
+          "zh_TW": "三位旅人歷盡千辛萬苦，終於在沙漠星塔裡找到稀有的「魔王寶箱」。",
+          "zh_CN": "三位旅人，历尽千辛万苦，在沙漠星塔里找到稀有的“魔王宝箱”。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Chapter.json",
+            "zh_CN": "language/zh_CN/Chapter.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Name": "Chapter.2.1",
+      "Desc": "Chapter.2.2",
+      "ChapterType": 1,
+      "WorldClass": 1,
+      "PrevMainlines": [
+        13115
+      ],
+      "CompleteRewards": "{\"3\":[2,50],\"5\":[2,50],\"10\":[2,100]}",
+      "ChapterImg": "Icon/MapChapter/chapter_bg_02",
+      "ChapterIcon": "Icon/MapChapter/chapter_icon_03",
+      "_localized": {
+        "/Name": {
+          "key": "Chapter.2.1",
+          "zh_TW": "第二章",
+          "zh_CN": "第二章",
+          "sources": {
+            "zh_TW": "language/zh_TW/Chapter.json",
+            "zh_CN": "language/zh_CN/Chapter.json"
+          }
+        },
+        "/Desc": {
+          "key": "Chapter.2.2",
+          "zh_TW": "正式踏上旅途的我們，為了賺取經費，來到被稱為「旅人之城」的菲萊…",
+          "zh_CN": "正式踏上旅途的我们，为了赚取经费，来到了被称为“旅人之城”的菲莱……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Chapter.json",
+            "zh_CN": "language/zh_CN/Chapter.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Name": "Chapter.3.1",
+      "Desc": "Chapter.3.2",
+      "ChapterType": 1,
+      "WorldClass": 1,
+      "PrevMainlines": [
+        14115
+      ],
+      "CompleteRewards": "{\"3\":[1,10],\"5\":[1,20],\"10\":[1,31]}",
+      "ChapterImg": "Icon/MapChapter/chapter_bg_03",
+      "ChapterIcon": "Icon/MapChapter/chapter_icon_04",
+      "_localized": {
+        "/Name": {
+          "key": "Chapter.3.1",
+          "zh_TW": "旅人專屬故事",
+          "zh_CN": "旅人专属故事",
+          "sources": {
+            "zh_TW": "language/zh_TW/Chapter.json",
+            "zh_CN": "language/zh_CN/Chapter.json"
+          }
+        },
+        "/Desc": {
+          "key": "Chapter.3.2",
+          "zh_TW": "旅人們的專屬劇情篇章。",
+          "zh_CN": "旅人们的专属剧情篇章。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Chapter.json",
+            "zh_CN": "language/zh_CN/Chapter.json"
+          }
+        }
+      }
+    }
+  }
+}

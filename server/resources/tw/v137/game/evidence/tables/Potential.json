@@ -1,0 +1,924 @@
+{
+  "table": "Potential",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2a8194b95ee025aa.bin",
+  "source_sha256": "f44032809b372e75704cdc56b94c9ff6ca31862d838391211d781d8e964e89c1",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\Potential.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 1075
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      15,
+      16,
+      17,
+      18,
+      19,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "reference_field_order": [
+      "Id",
+      "CharId",
+      "Build",
+      "BranchType",
+      "MaxLevel",
+      "ScoreGroupId",
+      "BuildScore",
+      "GameBookId",
+      "EffectGroupId",
+      "IsEffective",
+      "SpBg",
+      "SpFace",
+      "Corner",
+      "EffectId1",
+      "EffectId2",
+      "BriefDesc",
+      "Desc",
+      "Param1",
+      "Param2",
+      "Param3",
+      "Param4",
+      "Param5",
+      "Param6",
+      "Param7",
+      "Param8",
+      "Param9",
+      "Param10"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 27,
+    "remaining_name_count": 27,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 1075,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "CharId",
+        "matching_reference_rows": 1075,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Build",
+        "matching_reference_rows": 1075,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "BranchType",
+        "matching_reference_rows": 1075,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "MaxLevel",
+        "matching_reference_rows": 1075,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "ScoreGroupId",
+        "matching_reference_rows": 1075,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "BuildScore",
+        "matching_reference_rows": 1075,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "GameBookId",
+        "matching_reference_rows": 1075,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "EffectGroupId",
+        "matching_reference_rows": 1075,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "IsEffective",
+        "matching_reference_rows": 667,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "15": {
+        "field": "Corner",
+        "matching_reference_rows": 779,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "16": {
+        "field": "SpBg",
+        "matching_reference_rows": 296,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "17": {
+        "field": "SpFace",
+        "matching_reference_rows": 296,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "18": {
+        "field": "EffectId1",
+        "matching_reference_rows": 70,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "19": {
+        "field": "EffectId2",
+        "matching_reference_rows": 2,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "22": {
+        "field": "BriefDesc",
+        "matching_reference_rows": 1075,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "23": {
+        "field": "Desc",
+        "matching_reference_rows": 1075,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "24": {
+        "field": "Param1",
+        "matching_reference_rows": 1053,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "25": {
+        "field": "Param2",
+        "matching_reference_rows": 893,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "26": {
+        "field": "Param3",
+        "matching_reference_rows": 580,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "27": {
+        "field": "Param4",
+        "matching_reference_rows": 342,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "28": {
+        "field": "Param5",
+        "matching_reference_rows": 109,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "29": {
+        "field": "Param6",
+        "matching_reference_rows": 49,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "30": {
+        "field": "Param7",
+        "matching_reference_rows": 19,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "31": {
+        "field": "Param8",
+        "matching_reference_rows": 10,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "32": {
+        "field": "Param9",
+        "matching_reference_rows": 6,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "33": {
+        "field": "Param10",
+        "matching_reference_rows": 119,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1075,
+      "compared_reference_rows": 1075,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1075
+        }
+      ]
+    },
+    "2": {
+      "field": "CharId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1075,
+      "compared_reference_rows": 1075,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1075
+        }
+      ]
+    },
+    "3": {
+      "field": "Build",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1075,
+      "compared_reference_rows": 1075,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1075
+        }
+      ]
+    },
+    "4": {
+      "field": "BranchType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1075,
+      "compared_reference_rows": 1075,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1075
+        }
+      ]
+    },
+    "5": {
+      "field": "MaxLevel",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1075,
+      "compared_reference_rows": 1075,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1075
+        }
+      ]
+    },
+    "6": {
+      "field": "ScoreGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1075,
+      "compared_reference_rows": 1075,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1075
+        }
+      ]
+    },
+    "7": {
+      "field": "BuildScore",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 1075,
+      "compared_reference_rows": 1075,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 1075
+        }
+      ]
+    },
+    "8": {
+      "field": "GameBookId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1075,
+      "compared_reference_rows": 1075,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1075
+        }
+      ]
+    },
+    "9": {
+      "field": "EffectGroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1075,
+      "compared_reference_rows": 1075,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1075
+        }
+      ]
+    },
+    "10": {
+      "field": "IsEffective",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 667,
+      "compared_reference_rows": 667,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 667,
+          "compared": 667
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 667
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 667
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 667
+        }
+      ]
+    },
+    "15": {
+      "field": "Corner",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 779,
+      "compared_reference_rows": 779,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 779,
+          "compared": 779
+        },
+        {
+          "codec": "varint_int",
+          "matches": 779,
+          "compared": 779
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 779
+        }
+      ]
+    },
+    "16": {
+      "field": "SpBg",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 296,
+      "compared_reference_rows": 296,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 296,
+          "compared": 296
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 296
+        }
+      ]
+    },
+    "17": {
+      "field": "SpFace",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 296,
+      "compared_reference_rows": 296,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 296,
+          "compared": 296
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 296
+        }
+      ]
+    },
+    "18": {
+      "field": "EffectId1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 70,
+      "compared_reference_rows": 70,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 70,
+          "compared": 70
+        },
+        {
+          "codec": "varint_int",
+          "matches": 70,
+          "compared": 70
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 70
+        }
+      ]
+    },
+    "19": {
+      "field": "EffectId2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "22": {
+      "field": "BriefDesc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 1075,
+      "compared_reference_rows": 1075,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 1075
+        }
+      ]
+    },
+    "23": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 1075,
+      "compared_reference_rows": 1075,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 1075,
+          "compared": 1075
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 1075
+        }
+      ]
+    },
+    "24": {
+      "field": "Param1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 1053,
+      "compared_reference_rows": 1053,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 1053,
+          "compared": 1053
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 1053
+        }
+      ]
+    },
+    "25": {
+      "field": "Param2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 893,
+      "compared_reference_rows": 893,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 893,
+          "compared": 893
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 893
+        }
+      ]
+    },
+    "26": {
+      "field": "Param3",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 580,
+      "compared_reference_rows": 580,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 580,
+          "compared": 580
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 580
+        }
+      ]
+    },
+    "27": {
+      "field": "Param4",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 342,
+      "compared_reference_rows": 342,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 342,
+          "compared": 342
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 342
+        }
+      ]
+    },
+    "28": {
+      "field": "Param5",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 109,
+      "compared_reference_rows": 109,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 109,
+          "compared": 109
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 109
+        }
+      ]
+    },
+    "29": {
+      "field": "Param6",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 49,
+      "compared_reference_rows": 49,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 49,
+          "compared": 49
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 49
+        }
+      ]
+    },
+    "30": {
+      "field": "Param7",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 19,
+      "compared_reference_rows": 19,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 19,
+          "compared": 19
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 19
+        }
+      ]
+    },
+    "31": {
+      "field": "Param8",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 10,
+      "compared_reference_rows": 10,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 10
+        }
+      ]
+    },
+    "32": {
+      "field": "Param9",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 6,
+      "compared_reference_rows": 6,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 6
+        }
+      ]
+    },
+    "33": {
+      "field": "Param10",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 119,
+      "compared_reference_rows": 119,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 119,
+          "compared": 119
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 119
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 1075,
+    "reference_row_count": 1075,
+    "shared_key_count": 1075,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 1075,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

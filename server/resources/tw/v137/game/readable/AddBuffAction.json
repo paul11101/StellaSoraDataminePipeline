@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "AddBuffAction",
+    "categories": [
+      "combat"
+    ],
+    "row_count": 4,
+    "localization_hits": 0,
+    "source": "bin/AddBuffAction.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "GroupId": 101,
+      "TargetType": 2,
+      "BuffId": 990001400
+    },
+    "2": {
+      "Id": 2,
+      "GroupId": 102,
+      "TargetType": 2,
+      "BuffId": 990060030
+    },
+    "1200101": {
+      "Id": 1200101,
+      "GroupId": 12001,
+      "TargetType": 4,
+      "BuffId": 990010050
+    },
+    "1010101": {
+      "Id": 1010101,
+      "GroupId": 10101,
+      "TargetType": 2,
+      "BuffId": 990060040
+    }
+  }
+}

@@ -1,0 +1,2577 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "Agent",
+    "categories": [
+      "characters"
+    ],
+    "row_count": 36,
+    "localization_hits": 144,
+    "source": "bin/Agent.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "100101": {
+      "Id": 100101,
+      "Tab": 2,
+      "Note": "Agent.100101.1",
+      "Name": "Agent.100101.2",
+      "Desc": "Agent.100101.3",
+      "Consignor": "Agent.100101.4",
+      "RefreshType": 1,
+      "Quality": 1,
+      "MemberType": 1,
+      "Level": 1,
+      "MemberLimit": 3,
+      "Tags": [
+        102
+      ],
+      "ExtraTags": [
+        204
+      ],
+      "UnlockConditions": "[[2,6]]",
+      "Sort": 21,
+      "Time1": 240,
+      "RewardPreview1": "[[1,13200,13200],[33001,1,2]]",
+      "BonusPreview1": "[[1,2640,2640]]",
+      "Time2": 480,
+      "RewardPreview2": "[[1,26400,26400],[33001,2,4]]",
+      "BonusPreview2": "[[1,5280,5280]]",
+      "Time3": 720,
+      "RewardPreview3": "[[1,39600,39600],[33001,3,6]]",
+      "BonusPreview3": "[[1,7920,7920]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[1,66000,66000],[33001,5,10]]",
+      "BonusPreview4": "[[1,13200,13200]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.100101.1",
+          "zh_TW": "「資金報酬 初級」",
+          "zh_CN": "「资金报酬 初级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.100101.2",
+          "zh_TW": "街區清理",
+          "zh_CN": "街区清理",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.100101.3",
+          "zh_TW": "「主幹道上堆滿了雜物，先不提對集市生意的影響，要是有車撞上去可就不好了！\n希望能有旅人來幫忙一起清理一下…」",
+          "zh_CN": "“主干道上堆满了杂物，影响到了集市生意不说，要是撞了车可就不好了！\n要是能有旅人来帮忙一起清理一下的话……”",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.100101.4",
+          "zh_TW": "灰城區居委會",
+          "zh_CN": "灰城区居委",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "100102": {
+      "Id": 100102,
+      "Tab": 2,
+      "Note": "Agent.100102.1",
+      "Name": "Agent.100102.2",
+      "Desc": "Agent.100102.3",
+      "Consignor": "Agent.100102.4",
+      "RefreshType": 1,
+      "Quality": 2,
+      "MemberType": 1,
+      "Level": 40,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        102
+      ],
+      "ExtraTags": [
+        203,
+        205
+      ],
+      "UnlockConditions": "[[2,13]]",
+      "Sort": 11,
+      "Time1": 240,
+      "RewardPreview1": "[[1,21600,21600],[33001,1,3]]",
+      "BonusPreview1": "[[1,4320,4320]]",
+      "Time2": 480,
+      "RewardPreview2": "[[1,43200,43200],[33001,2,6]]",
+      "BonusPreview2": "[[1,8640,8640]]",
+      "Time3": 720,
+      "RewardPreview3": "[[1,64800,64800],[33001,3,9]]",
+      "BonusPreview3": "[[1,12960,12960]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[1,108000,108000],[33001,5,15]]",
+      "BonusPreview4": "[[1,21600,21600]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.100102.1",
+          "zh_TW": "「資金報酬 中級」",
+          "zh_CN": "「资金报酬 中级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.100102.2",
+          "zh_TW": "靜化環境",
+          "zh_CN": "静化环境",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.100102.3",
+          "zh_TW": "近期銀城區的飆車族問題日益嚴重，噪音嚴重影響了居民們的日常生活。現招募旅人團隊參與專案掃蕩行動。",
+          "zh_CN": "近期，银城区的暴走族问题日益严重，噪音严重影响了居民们的日常生活。现招募旅人团队参与打击整治行动。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.100102.4",
+          "zh_TW": "衛隊交通局",
+          "zh_CN": "卫队交通局",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "100103": {
+      "Id": 100103,
+      "Tab": 2,
+      "Note": "Agent.100103.1",
+      "Name": "Agent.100103.2",
+      "Desc": "Agent.100103.3",
+      "Consignor": "Agent.100103.4",
+      "RefreshType": 1,
+      "Quality": 3,
+      "MemberType": 1,
+      "Level": 70,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        102,
+        101
+      ],
+      "ExtraTags": [
+        203,
+        205
+      ],
+      "UnlockConditions": "[[2,25]]",
+      "Sort": 1,
+      "Time1": 240,
+      "RewardPreview1": "[[1,30000,30000],[33001,2,4]]",
+      "BonusPreview1": "[[1,6000,6000]]",
+      "Time2": 480,
+      "RewardPreview2": "[[1,60000,60000],[33001,4,8]]",
+      "BonusPreview2": "[[1,12000,12000]]",
+      "Time3": 720,
+      "RewardPreview3": "[[1,90000,90000],[33001,6,12]]",
+      "BonusPreview3": "[[1,18000,18000]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[1,150000,150000],[33001,10,20]]",
+      "BonusPreview4": "[[1,30000,30000]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.100103.1",
+          "zh_TW": "「資金報酬 高級」",
+          "zh_CN": "「资金报酬 高级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.100103.2",
+          "zh_TW": "尋寵啟事",
+          "zh_CN": "寻宠启事",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.100103.3",
+          "zh_TW": "高薪徵求旅人夥伴協尋本住宅區貴客的走失寵物，完成委託必有重金酬謝。",
+          "zh_CN": "高薪聘请旅人伙伴帮助寻回本住宅区贵客的走失宠物，完成委托必重金酬谢。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.100103.4",
+          "zh_TW": "安居置業管家",
+          "zh_CN": "安居置业管家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "100201": {
+      "Id": 100201,
+      "Tab": 2,
+      "Note": "Agent.100201.1",
+      "Name": "Agent.100201.2",
+      "Desc": "Agent.100201.3",
+      "Consignor": "Agent.100201.4",
+      "RefreshType": 1,
+      "Quality": 1,
+      "MemberType": 1,
+      "Level": 1,
+      "MemberLimit": 3,
+      "Tags": [
+        101
+      ],
+      "ExtraTags": [
+        204
+      ],
+      "UnlockConditions": "[[2,6]]",
+      "Sort": 22,
+      "Time1": 240,
+      "RewardPreview1": "[[30002,2,3],[33001,1,2]]",
+      "BonusPreview1": "[[30002,0,1]]",
+      "Time2": 480,
+      "RewardPreview2": "[[30002,5,6],[33001,2,4]]",
+      "BonusPreview2": "[[30002,1,2]]",
+      "Time3": 720,
+      "RewardPreview3": "[[30002,7,8],[33001,3,6]]",
+      "BonusPreview3": "[[30002,1,2]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[30002,13,14],[33001,5,10]]",
+      "BonusPreview4": "[[30002,2,3]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.100201.1",
+          "zh_TW": "「累積經驗 初級」",
+          "zh_CN": "「经验积累 初级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.100201.2",
+          "zh_TW": "專業觀眾",
+          "zh_CN": "专业观众",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.100201.3",
+          "zh_TW": "旅人雜技巡迴表演，現招募前排專業觀眾。\n報酬？這可是難得的經驗！快來趁機好好學習吧！",
+          "zh_CN": "旅人杂技巡回表演——现招募前排专业观众。\n报酬？这可是难得的经验！赶紧趁此好好学习吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.100201.4",
+          "zh_TW": "兼職團隊",
+          "zh_CN": "兼职团队",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "100202": {
+      "Id": 100202,
+      "Tab": 2,
+      "Note": "Agent.100202.1",
+      "Name": "Agent.100202.2",
+      "Desc": "Agent.100202.3",
+      "Consignor": "Agent.100202.4",
+      "RefreshType": 1,
+      "Quality": 2,
+      "MemberType": 1,
+      "Level": 40,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        102
+      ],
+      "ExtraTags": [
+        203,
+        204
+      ],
+      "UnlockConditions": "[[2,13]]",
+      "Sort": 12,
+      "Time1": 240,
+      "RewardPreview1": "[[30002,4,5],[33001,1,3]]",
+      "BonusPreview1": "[[30002,0,1]]",
+      "Time2": 480,
+      "RewardPreview2": "[[30002,8,9],[33001,2,6]]",
+      "BonusPreview2": "[[30002,1,2]]",
+      "Time3": 720,
+      "RewardPreview3": "[[30002,12,13],[33001,3,9]]",
+      "BonusPreview3": "[[30002,2,3]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[30002,22,23],[33001,5,15]]",
+      "BonusPreview4": "[[30002,4,5]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.100202.1",
+          "zh_TW": "「累積經驗 中級」",
+          "zh_CN": "「经验积累 中级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.100202.2",
+          "zh_TW": "戰鬥實習",
+          "zh_CN": "战斗实训",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.100202.3",
+          "zh_TW": "「城墻周邊遊蕩著一些魔物，順手將牠們解決吧！報、報酬…咳咳，為居民排難解憂怎麼能要回報呢！你就…就跟在我的身後，好好跟著我…學習戰鬥技巧吧！」",
+          "zh_CN": "“城墙周边游荡着一些魔物，顺手将它们解决吧！报……报酬……咳咳，为居民排忧解难怎么能要回报呢！……你就……就跟在我的身后，好好跟着我……学习战斗技巧吧！”",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.100202.4",
+          "zh_TW": "露怯的前輩",
+          "zh_CN": "露怯的前辈",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "100203": {
+      "Id": 100203,
+      "Tab": 2,
+      "Note": "Agent.100203.1",
+      "Name": "Agent.100203.2",
+      "Desc": "Agent.100203.3",
+      "Consignor": "Agent.100203.4",
+      "RefreshType": 1,
+      "Quality": 3,
+      "MemberType": 1,
+      "Level": 70,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        102,
+        101
+      ],
+      "ExtraTags": [
+        203,
+        204
+      ],
+      "UnlockConditions": "[[2,25]]",
+      "Sort": 2,
+      "Time1": 240,
+      "RewardPreview1": "[[30002,6,6],[33001,2,4]]",
+      "BonusPreview1": "[[30002,1,2]]",
+      "Time2": 480,
+      "RewardPreview2": "[[30002,12,12],[33001,4,8]]",
+      "BonusPreview2": "[[30002,2,3]]",
+      "Time3": 720,
+      "RewardPreview3": "[[30002,18,18],[33001,6,12]]",
+      "BonusPreview3": "[[30002,3,4]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[30002,30,30],[33001,10,20]]",
+      "BonusPreview4": "[[30002,6,6]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.100203.1",
+          "zh_TW": "「累積經驗 高級」",
+          "zh_CN": "「经验积累 高级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.100203.2",
+          "zh_TW": "文庫整理",
+          "zh_CN": "文库整理",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.100203.3",
+          "zh_TW": "「到處都是書…不知不覺就堆成了小山一樣啊，哈哈…」\n「如果能幫我把書整理好，送你幾本當報酬也可以…反正我都看過一遍了！」",
+          "zh_CN": "“到处都是书……不知不觉就……堆成了小山一样啊，哈哈……”\n“如果能帮我整理好的话，送你几本当报酬也可以……反正我也都看过一遍了！”",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.100203.4",
+          "zh_TW": "迷糊探險家",
+          "zh_CN": "迷糊探险家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "100301": {
+      "Id": 100301,
+      "Tab": 2,
+      "Note": "Agent.100301.1",
+      "Name": "Agent.100301.2",
+      "Desc": "Agent.100301.3",
+      "Consignor": "Agent.100301.4",
+      "RefreshType": 1,
+      "Quality": 1,
+      "MemberType": 1,
+      "Level": 1,
+      "MemberLimit": 3,
+      "Tags": [
+        101
+      ],
+      "ExtraTags": [
+        201
+      ],
+      "UnlockConditions": "[[2,6]]",
+      "Sort": 23,
+      "Time1": 240,
+      "RewardPreview1": "[[50002,2,3],[33001,1,2]]",
+      "BonusPreview1": "[[50002,0,1]]",
+      "Time2": 480,
+      "RewardPreview2": "[[50002,5,6],[33001,2,4]]",
+      "BonusPreview2": "[[50002,1,2]]",
+      "Time3": 720,
+      "RewardPreview3": "[[50002,7,8],[33001,3,6]]",
+      "BonusPreview3": "[[50002,1,2]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[50002,13,14],[33001,5,10]]",
+      "BonusPreview4": "[[50002,2,3]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.100301.1",
+          "zh_TW": "「祕紋材料 初級」",
+          "zh_CN": "「秘纹素材 初级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.100301.2",
+          "zh_TW": "視覺盛宴",
+          "zh_CN": "视觉盛宴",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.100301.3",
+          "zh_TW": "「經過我的巧手搭建，就算是沒人要的空唱片，也能成為漂亮的裝置藝術。」\n「沒錯，展出結束之後，這些唱片就歸你了！」",
+          "zh_CN": "“这些没人要的空唱片，也可以经由我之手，搭建起漂亮的装置艺术。”\n“没错，展出结束之后，这些唱片就归你了！”",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.100301.4",
+          "zh_TW": "街頭藝術家",
+          "zh_CN": "街头艺术家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "100302": {
+      "Id": 100302,
+      "Tab": 2,
+      "Note": "Agent.100302.1",
+      "Name": "Agent.100302.2",
+      "Desc": "Agent.100302.3",
+      "Consignor": "Agent.100302.4",
+      "RefreshType": 1,
+      "Quality": 2,
+      "MemberType": 1,
+      "Level": 40,
+      "MemberLimit": 3,
+      "Tags": [
+        102,
+        103
+      ],
+      "ExtraTags": [
+        201,
+        203
+      ],
+      "UnlockConditions": "[[2,13]]",
+      "Sort": 13,
+      "Time1": 240,
+      "RewardPreview1": "[[50002,4,5],[33001,1,3]]",
+      "BonusPreview1": "[[50002,0,1]]",
+      "Time2": 480,
+      "RewardPreview2": "[[50002,8,9],[33001,2,6]]",
+      "BonusPreview2": "[[50002,1,2]]",
+      "Time3": 720,
+      "RewardPreview3": "[[50002,12,13],[33001,3,9]]",
+      "BonusPreview3": "[[50002,2,3]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[50002,22,23],[33001,5,15]]",
+      "BonusPreview4": "[[50002,4,5]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.100302.1",
+          "zh_TW": "「祕紋材料 中級」",
+          "zh_CN": "「秘纹素材 中级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.100302.2",
+          "zh_TW": "追尋音符",
+          "zh_CN": "追寻音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.100302.3",
+          "zh_TW": "收藏家以成色完好的其他唱片作為報酬，發起了懸賞：\n「我珍藏的祕紋被從窗戶溜進來的貓叼走了！」\n「那可是從我爺爺的爺爺那一代傳承下來的寶物——我不能接受！」",
+          "zh_CN": "收藏家以成色完好的其他唱片作为赌注，发起了悬赏：\n“我珍藏的秘纹被从窗户溜进来的猫叼走了！”\n“那可是从我爷爷的爷爷那一代传承下来的宝物——我不能接受！”",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.100302.4",
+          "zh_TW": "祕紋收藏家",
+          "zh_CN": "秘纹收藏家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "100303": {
+      "Id": 100303,
+      "Tab": 2,
+      "Note": "Agent.100303.1",
+      "Name": "Agent.100303.2",
+      "Desc": "Agent.100303.3",
+      "Consignor": "Agent.100303.4",
+      "RefreshType": 1,
+      "Quality": 3,
+      "MemberType": 1,
+      "Level": 70,
+      "MemberLimit": 3,
+      "Tags": [
+        102,
+        103,
+        102
+      ],
+      "ExtraTags": [
+        201,
+        203
+      ],
+      "UnlockConditions": "[[2,25]]",
+      "Sort": 3,
+      "Time1": 240,
+      "RewardPreview1": "[[50002,6,6],[33001,2,4]]",
+      "BonusPreview1": "[[50002,1,2]]",
+      "Time2": 480,
+      "RewardPreview2": "[[50002,12,12],[33001,4,8]]",
+      "BonusPreview2": "[[50002,2,3]]",
+      "Time3": 720,
+      "RewardPreview3": "[[50002,18,18],[33001,6,12]]",
+      "BonusPreview3": "[[50002,3,4]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[50002,30,30],[33001,10,20]]",
+      "BonusPreview4": "[[50002,6,6]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.100303.1",
+          "zh_TW": "「祕紋材料 高級」",
+          "zh_CN": "「秘纹素材 高级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.100303.2",
+          "zh_TW": "絕對音感",
+          "zh_CN": "绝对音感",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.100303.3",
+          "zh_TW": "由神祕的音樂大師發起的填譜挑戰——\n只為從萬千人中找到「擁有絕對音感的你」。\n獎品是精致而靚麗的琉璃唱片，十分罕見。",
+          "zh_CN": "由神秘的音乐大师发起的填谱挑战——\n只为从万千人群中找到“拥有绝对音感的你”。\n奖品是不可多得的、精致而靓丽的琉璃唱片。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.100303.4",
+          "zh_TW": "神祕演奏家",
+          "zh_CN": "神秘演奏家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "200101": {
+      "Id": 200101,
+      "Tab": 3,
+      "Note": "Agent.200101.1",
+      "Name": "Agent.200101.2",
+      "Desc": "Agent.200101.3",
+      "Consignor": "Agent.200101.4",
+      "RefreshType": 1,
+      "Quality": 1,
+      "MemberType": 1,
+      "Level": 1,
+      "MemberLimit": 3,
+      "Tags": [
+        103
+      ],
+      "ExtraTags": [
+        203
+      ],
+      "UnlockConditions": "[[2,6]]",
+      "Sort": 21,
+      "Time1": 240,
+      "RewardPreview1": "[[20071,4,4],[33001,1,2]]",
+      "BonusPreview1": "[[20071,0,1]]",
+      "Time2": 480,
+      "RewardPreview2": "[[20071,8,8],[33001,2,4]]",
+      "BonusPreview2": "[[20071,1,2]]",
+      "Time3": 720,
+      "RewardPreview3": "[[20071,12,12],[33001,3,6]]",
+      "BonusPreview3": "[[20071,2,3]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[20071,20,20],[33001,5,10]]",
+      "BonusPreview4": "[[20071,4,4]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.200101.1",
+          "zh_TW": "「旅人升階材料A 初級」",
+          "zh_CN": "「旅人升阶素材A 初级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.200101.2",
+          "zh_TW": "去練舞室打",
+          "zh_CN": "去练舞室打",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.200101.3",
+          "zh_TW": "不好了，我的同伴衝進練舞室和怪誕舞者打起來了！我一個人實在勸不動，有人能幫幫我嗎？",
+          "zh_CN": "不好了，我的同伴冲进练舞室和怪诞舞者打起来了！我一个人实在劝不动，谁来帮帮我？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.200101.4",
+          "zh_TW": "無助的旅人",
+          "zh_CN": "无助的旅人",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "200102": {
+      "Id": 200102,
+      "Tab": 3,
+      "Note": "Agent.200102.1",
+      "Name": "Agent.200102.2",
+      "Desc": "Agent.200102.3",
+      "Consignor": "Agent.200102.4",
+      "RefreshType": 1,
+      "Quality": 2,
+      "MemberType": 1,
+      "Level": 40,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        103
+      ],
+      "ExtraTags": [
+        202,
+        205
+      ],
+      "UnlockConditions": "[[2,13]]",
+      "Sort": 11,
+      "Time1": 240,
+      "RewardPreview1": "[[20071,8,9],[33001,1,3]]",
+      "BonusPreview1": "[[20071,1,2]]",
+      "Time2": 480,
+      "RewardPreview2": "[[20071,17,18],[33001,2,6]]",
+      "BonusPreview2": "[[20071,3,4]]",
+      "Time3": 720,
+      "RewardPreview3": "[[20071,26,27],[33001,3,9]]",
+      "BonusPreview3": "[[20071,5,6]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[20071,44,45],[33001,5,15]]",
+      "BonusPreview4": "[[20071,8,9]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.200102.1",
+          "zh_TW": "「旅人升階材料A 中級」",
+          "zh_CN": "「旅人升阶素材A 中级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.200102.2",
+          "zh_TW": "禮帽收藏",
+          "zh_CN": "礼帽收藏",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.200102.3",
+          "zh_TW": "啊！怎麼會有如此精美的禮帽！我的展示櫃裡不能沒有它，我一定要得到它！",
+          "zh_CN": "啊！怎么会有如此精美的礼帽！我的展示柜里不能没有它，我一定要得到它！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.200102.4",
+          "zh_TW": "禮帽收藏家",
+          "zh_CN": "礼帽收藏家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "200103": {
+      "Id": 200103,
+      "Tab": 3,
+      "Note": "Agent.200103.1",
+      "Name": "Agent.200103.2",
+      "Desc": "Agent.200103.3",
+      "Consignor": "Agent.200103.4",
+      "RefreshType": 1,
+      "Quality": 3,
+      "MemberType": 1,
+      "Level": 70,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        103,
+        101
+      ],
+      "ExtraTags": [
+        202,
+        205
+      ],
+      "UnlockConditions": "[[2,25]]",
+      "Sort": 1,
+      "Time1": 240,
+      "RewardPreview1": "[[20071,17,17],[33001,2,4]]",
+      "BonusPreview1": "[[20071,3,4]]",
+      "Time2": 480,
+      "RewardPreview2": "[[20071,34,34],[33001,4,8]]",
+      "BonusPreview2": "[[20071,6,7]]",
+      "Time3": 720,
+      "RewardPreview3": "[[20071,51,51],[33001,6,12]]",
+      "BonusPreview3": "[[20071,10,11]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[20071,85,85],[33001,10,20]]",
+      "BonusPreview4": "[[20071,17,17]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.200103.1",
+          "zh_TW": "「旅人升階材料A 高級」",
+          "zh_CN": "「旅人升阶素材A 高级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.200103.2",
+          "zh_TW": "譜面筆記",
+          "zh_CN": "谱面笔记",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.200103.3",
+          "zh_TW": "跳舞機在本質上也是音遊，攻略的關鍵不是舞蹈能力，而是背譜。我會組織一支團隊，把所有的譜面都記錄下來。",
+          "zh_CN": "跳舞机本质上也是音游，攻克的关键的不是舞蹈能力，而是背谱。我会组织一支团队，把所有的谱面都记录下来。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.200103.4",
+          "zh_TW": "地理協會調查員",
+          "zh_CN": "地理协会调查员",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "200201": {
+      "Id": 200201,
+      "Tab": 3,
+      "Note": "Agent.200201.1",
+      "Name": "Agent.200201.2",
+      "Desc": "Agent.200201.3",
+      "Consignor": "Agent.200201.4",
+      "RefreshType": 1,
+      "Quality": 1,
+      "MemberType": 1,
+      "Level": 1,
+      "MemberLimit": 3,
+      "Tags": [
+        101
+      ],
+      "ExtraTags": [
+        201
+      ],
+      "UnlockConditions": "[[2,6]]",
+      "Sort": 22,
+      "Time1": 240,
+      "RewardPreview1": "[[20081,4,4],[33001,1,2]]",
+      "BonusPreview1": "[[20081,0,1]]",
+      "Time2": 480,
+      "RewardPreview2": "[[20081,8,8],[33001,2,4]]",
+      "BonusPreview2": "[[20081,1,2]]",
+      "Time3": 720,
+      "RewardPreview3": "[[20081,12,12],[33001,3,6]]",
+      "BonusPreview3": "[[20081,2,3]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[20081,20,20],[33001,5,10]]",
+      "BonusPreview4": "[[20081,4,4]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.200201.1",
+          "zh_TW": "「旅人升階材料B 初級」",
+          "zh_CN": "「旅人升阶素材B 初级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.200201.2",
+          "zh_TW": "魁梧身材",
+          "zh_CN": "魁梧身材",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.200201.3",
+          "zh_TW": "要怎麼才能練成健碩又魁梧的身材呢？\n真希望有人能指導我一下啊。",
+          "zh_CN": "要怎样才能练成健硕又魁梧的身材呢？\n如果有人能给我一些参考就好了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.200201.4",
+          "zh_TW": "健身新手",
+          "zh_CN": "健身新手",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "200202": {
+      "Id": 200202,
+      "Tab": 3,
+      "Note": "Agent.200202.1",
+      "Name": "Agent.200202.2",
+      "Desc": "Agent.200202.3",
+      "Consignor": "Agent.200202.4",
+      "RefreshType": 1,
+      "Quality": 2,
+      "MemberType": 1,
+      "Level": 40,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        103
+      ],
+      "ExtraTags": [
+        201,
+        204
+      ],
+      "UnlockConditions": "[[2,13]]",
+      "Sort": 12,
+      "Time1": 240,
+      "RewardPreview1": "[[20081,8,9],[33001,1,3]]",
+      "BonusPreview1": "[[20081,1,2]]",
+      "Time2": 480,
+      "RewardPreview2": "[[20081,17,18],[33001,2,6]]",
+      "BonusPreview2": "[[20081,3,4]]",
+      "Time3": 720,
+      "RewardPreview3": "[[20081,26,27],[33001,3,9]]",
+      "BonusPreview3": "[[20081,5,6]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[20081,44,45],[33001,5,15]]",
+      "BonusPreview4": "[[20081,8,9]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.200202.1",
+          "zh_TW": "「旅人升階材料B 中級」",
+          "zh_CN": "「旅人升阶素材B 中级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.200202.2",
+          "zh_TW": "男爵窖藏",
+          "zh_CN": "男爵窖藏",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.200202.3",
+          "zh_TW": "我聽聞「男爵的窖藏」是不可多得的珍品，其顏色如寶石般澄澈，其口感如絲綢般柔順…\n要是有機會的話，真想品鑒一番啊…",
+          "zh_CN": "听闻“男爵的窖藏”是不可多得的珍品，其颜色如宝石般澄澈，口感如丝绸般柔顺……\n如果有机会的话，真想品鉴一番啊……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.200202.4",
+          "zh_TW": "追求刺激的品酒師",
+          "zh_CN": "追求刺激的品酒师",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "200203": {
+      "Id": 200203,
+      "Tab": 3,
+      "Note": "Agent.200203.1",
+      "Name": "Agent.200203.2",
+      "Desc": "Agent.200203.3",
+      "Consignor": "Agent.200203.4",
+      "RefreshType": 1,
+      "Quality": 3,
+      "MemberType": 1,
+      "Level": 70,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        103,
+        101
+      ],
+      "ExtraTags": [
+        201,
+        204
+      ],
+      "UnlockConditions": "[[2,25]]",
+      "Sort": 2,
+      "Time1": 240,
+      "RewardPreview1": "[[20081,17,17],[33001,2,4]]",
+      "BonusPreview1": "[[20081,3,4]]",
+      "Time2": 480,
+      "RewardPreview2": "[[20081,34,34],[33001,4,8]]",
+      "BonusPreview2": "[[20081,6,7]]",
+      "Time3": 720,
+      "RewardPreview3": "[[20081,51,51],[33001,6,12]]",
+      "BonusPreview3": "[[20081,10,11]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[20081,85,85],[33001,10,20]]",
+      "BonusPreview4": "[[20081,17,17]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.200203.1",
+          "zh_TW": "「旅人升階材料B 高級」",
+          "zh_CN": "「旅人升阶素材B 高级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.200203.2",
+          "zh_TW": "熱騰大選",
+          "zh_CN": "热腾大选",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.200203.3",
+          "zh_TW": "熱騰罐是一種很有趣的星骸，它們每隔一段時間，就會推舉出新的首領。根據我的推算，近期就會誕生新一代的熱嘟嚕噗男爵。\n我已經老了，沒辦法自己去攀登星塔，希望有科學精神的旅人能代替我記錄下它們首領更替的整個過程。",
+          "zh_CN": "热腾罐是一种很有趣的星骸，它们每隔一段时间，就会推举出新的首领。根据我的推算，近期就会有热嘟噜噗男爵的更新换代。\n我已经老了，没办法自己去攀登星塔，希望有科研精神的旅人代替我记录下它们首领更替的全过程。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.200203.4",
+          "zh_TW": "星骸生態學家",
+          "zh_CN": "星骸生态学家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "200301": {
+      "Id": 200301,
+      "Tab": 3,
+      "Note": "Agent.200301.1",
+      "Name": "Agent.200301.2",
+      "Desc": "Agent.200301.3",
+      "Consignor": "Agent.200301.4",
+      "RefreshType": 1,
+      "Quality": 1,
+      "MemberType": 1,
+      "Level": 1,
+      "MemberLimit": 3,
+      "Tags": [
+        102
+      ],
+      "ExtraTags": [
+        204
+      ],
+      "UnlockConditions": "[[2,6]]",
+      "Sort": 23,
+      "Time1": 240,
+      "RewardPreview1": "[[20091,4,4],[33001,1,2]]",
+      "BonusPreview1": "[[20091,0,1]]",
+      "Time2": 480,
+      "RewardPreview2": "[[20091,8,8],[33001,2,4]]",
+      "BonusPreview2": "[[20091,1,2]]",
+      "Time3": 720,
+      "RewardPreview3": "[[20091,12,12],[33001,3,6]]",
+      "BonusPreview3": "[[20091,2,3]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[20091,20,20],[33001,5,10]]",
+      "BonusPreview4": "[[20091,4,4]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.200301.1",
+          "zh_TW": "「旅人升階材料C 初級」",
+          "zh_CN": "「旅人升阶素材C 初级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.200301.2",
+          "zh_TW": "兩眼昏黑",
+          "zh_CN": "两眼昏黑",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.200301.3",
+          "zh_TW": "招募新品體驗官。戴上我們研發的最新款墨鏡，去你心目中最亮的環境走一圈，再寫一個體驗報告就可以了。怎麼樣，這委託夠簡單吧？",
+          "zh_CN": "招募新品体验官。戴上我们最新研发的墨镜，去你能想到的最亮的地方走一圈，再写一个体验报告。怎么样，这活够简单吧？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.200301.4",
+          "zh_TW": "昏天暗地工作室",
+          "zh_CN": "昏天黑地工作室",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "200302": {
+      "Id": 200302,
+      "Tab": 3,
+      "Note": "Agent.200302.1",
+      "Name": "Agent.200302.2",
+      "Desc": "Agent.200302.3",
+      "Consignor": "Agent.200302.4",
+      "RefreshType": 1,
+      "Quality": 2,
+      "MemberType": 1,
+      "Level": 40,
+      "MemberLimit": 3,
+      "Tags": [
+        102,
+        103
+      ],
+      "ExtraTags": [
+        202,
+        204
+      ],
+      "UnlockConditions": "[[2,13]]",
+      "Sort": 13,
+      "Time1": 240,
+      "RewardPreview1": "[[20091,8,9],[33001,1,3]]",
+      "BonusPreview1": "[[20091,1,2]]",
+      "Time2": 480,
+      "RewardPreview2": "[[20091,17,18],[33001,2,6]]",
+      "BonusPreview2": "[[20091,3,4]]",
+      "Time3": 720,
+      "RewardPreview3": "[[20091,26,27],[33001,3,9]]",
+      "BonusPreview3": "[[20091,5,6]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[20091,44,45],[33001,5,15]]",
+      "BonusPreview4": "[[20091,8,9]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.200302.1",
+          "zh_TW": "「旅人升階材料C 中級」",
+          "zh_CN": "「旅人升阶素材C 中级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.200302.2",
+          "zh_TW": "嶄新方案",
+          "zh_CN": "崭新方案",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.200302.3",
+          "zh_TW": "「這週就要交新方案了，可是我現在一點靈感都沒有…」\n「幫我蒐集一下有關燈具的資料吧，隨便什麼都可以！」\n「反正不管我畫出什麼，最後用的一定照樣是…第一版。」",
+          "zh_CN": "“这周就要交新方案了，可我现在一点灵感都没有……”\n“帮我搜集一下有关灯具的资料吧，随便什么都行！”\n“反正不管我画出什么，最后肯定都是……用第一版。”",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.200302.4",
+          "zh_TW": "燈具設計師",
+          "zh_CN": "灯具设计师",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "200303": {
+      "Id": 200303,
+      "Tab": 3,
+      "Note": "Agent.200303.1",
+      "Name": "Agent.200303.2",
+      "Desc": "Agent.200303.3",
+      "Consignor": "Agent.200303.4",
+      "RefreshType": 1,
+      "Quality": 3,
+      "MemberType": 1,
+      "Level": 70,
+      "MemberLimit": 3,
+      "Tags": [
+        102,
+        103,
+        102
+      ],
+      "ExtraTags": [
+        202,
+        204
+      ],
+      "UnlockConditions": "[[2,25]]",
+      "Sort": 3,
+      "Time1": 240,
+      "RewardPreview1": "[[20091,17,17],[33001,2,4]]",
+      "BonusPreview1": "[[20091,3,4]]",
+      "Time2": 480,
+      "RewardPreview2": "[[20091,34,34],[33001,4,8]]",
+      "BonusPreview2": "[[20091,6,7]]",
+      "Time3": 720,
+      "RewardPreview3": "[[20091,51,51],[33001,6,12]]",
+      "BonusPreview3": "[[20091,10,11]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[20091,85,85],[33001,10,20]]",
+      "BonusPreview4": "[[20091,17,17]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.200303.1",
+          "zh_TW": "「旅人升階材料C 高級」",
+          "zh_CN": "「旅人升阶素材C 高级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.200303.2",
+          "zh_TW": "徹夜狂歡",
+          "zh_CN": "彻夜狂欢",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.200303.3",
+          "zh_TW": "你是否曾經因為鄰居投訴而不得不早早停止派對？\n你是否因為恩賜太貴，所以只能一到時間就熄燈？\n你是否總是覺得白天太漫長，夜晚太短暫？\n加入我們吧！與我們一同徹夜狂歡！\n聯絡地址：███████████",
+          "zh_CN": "你是否因为邻居投诉，不得不早早停止派对？\n你是否因为恩赐太贵，只能一到点就熄灯？\n你是否总是觉得白天太漫长，夜晚太短暂？\n加入我们吧！与我们一同彻夜狂欢！\n联系地址：███████████",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.200303.4",
+          "zh_TW": "通宵同好會",
+          "zh_CN": "通宵同好会",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "300101": {
+      "Id": 300101,
+      "Tab": 5,
+      "Note": "Agent.300101.1",
+      "Name": "Agent.300101.2",
+      "Desc": "Agent.300101.3",
+      "Consignor": "Agent.300101.4",
+      "RefreshType": 1,
+      "Quality": 1,
+      "MemberType": 1,
+      "Level": 1,
+      "MemberLimit": 3,
+      "Tags": [
+        101
+      ],
+      "ExtraTags": [
+        205
+      ],
+      "UnlockConditions": "[[2,6]]",
+      "Sort": 21,
+      "Time1": 720,
+      "RewardPreview1": "[[32001,11,11],[32000,6,7],[33001,1,2]]",
+      "BonusPreview1": "[[32001,2,3]]",
+      "Time2": 1200,
+      "RewardPreview2": "[[32001,18,18],[32000,10,11],[33001,2,4]]",
+      "BonusPreview2": "[[32001,4,5]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.300101.1",
+          "zh_TW": "「節奏遊戲委託 初級」",
+          "zh_CN": "「节奏游戏委托 初级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.300101.2",
+          "zh_TW": "節奏訓練",
+          "zh_CN": "节奏训练",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.300101.3",
+          "zh_TW": "幫助新手旅人們掌握基礎的節奏技巧吧！\n這些卡帶就算是我給你的特別補習！",
+          "zh_CN": "帮助新手旅人们掌握基础的节奏技巧吧！\n这些卡带都留给你开小灶啦！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.300101.4",
+          "zh_TW": "嚴厲的教練",
+          "zh_CN": "严厉的教练",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "300102": {
+      "Id": 300102,
+      "Tab": 5,
+      "Note": "Agent.300102.1",
+      "Name": "Agent.300102.2",
+      "Desc": "Agent.300102.3",
+      "Consignor": "Agent.300102.4",
+      "RefreshType": 1,
+      "Quality": 2,
+      "MemberType": 1,
+      "Level": 40,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        102
+      ],
+      "ExtraTags": [
+        205,
+        201
+      ],
+      "UnlockConditions": "[[2,13]]",
+      "Sort": 11,
+      "Time1": 720,
+      "RewardPreview1": "[[32001,16,17],[32000,9,10],[33001,1,3]]",
+      "BonusPreview1": "[[32001,4,5]]",
+      "Time2": 1200,
+      "RewardPreview2": "[[32001,28,29],[32000,16,17],[33001,2,6]]",
+      "BonusPreview2": "[[32001,7,8]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.300102.1",
+          "zh_TW": "「節奏遊戲委託 中級」",
+          "zh_CN": "「节奏游戏委托 中级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.300102.2",
+          "zh_TW": "音遊達人",
+          "zh_CN": "音游达人",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.300102.3",
+          "zh_TW": "我聽說你很擅長挑戰音樂遊戲的最高分…\n來為我的徒弟們示範一下吧…代價則是這些卡帶，很划算吧！",
+          "zh_CN": "我听说，你很擅长挑战音乐游戏的最高分啊……\n来为我的徒弟们示范一下吧……就用这些卡带来换，不错的买卖吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.300102.4",
+          "zh_TW": "深藏不露的導師",
+          "zh_CN": "深藏不露的导师",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "300103": {
+      "Id": 300103,
+      "Tab": 5,
+      "Note": "Agent.300103.1",
+      "Name": "Agent.300103.2",
+      "Desc": "Agent.300103.3",
+      "Consignor": "Agent.300103.4",
+      "RefreshType": 1,
+      "Quality": 3,
+      "MemberType": 1,
+      "Level": 70,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        102,
+        101
+      ],
+      "ExtraTags": [
+        205,
+        201
+      ],
+      "UnlockConditions": "[[2,25]]",
+      "Sort": 1,
+      "Time1": 720,
+      "RewardPreview1": "[[32001,29,30],[32000,16,17],[33001,2,4]]",
+      "BonusPreview1": "[[32001,7,8]]",
+      "Time2": 1200,
+      "RewardPreview2": "[[32001,49,50],[32000,27,27],[33001,4,8]]",
+      "BonusPreview2": "[[32001,12,12]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.300103.1",
+          "zh_TW": "「節奏遊戲委託 高級」",
+          "zh_CN": "「节奏游戏委托 高级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.300103.2",
+          "zh_TW": "魔音繞樑",
+          "zh_CN": "魔音绕梁",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.300103.3",
+          "zh_TW": "沒錯！在星塔遊樂場裡，偶爾會出現那款傳說中的音樂遊戲…要是你也能挑戰「魔王樂曲」的話，我可以跟你分享一些我的收藏…",
+          "zh_CN": "是的！在星塔游戏厅里，偶尔会出现的传说中的音乐游戏……要是你也能挑战“魔王乐曲”的话，我可以分享一些我的收藏品……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.300103.4",
+          "zh_TW": "卡帶收藏家",
+          "zh_CN": "卡带收藏家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "300201": {
+      "Id": 300201,
+      "Tab": 5,
+      "Note": "Agent.300201.1",
+      "Name": "Agent.300201.2",
+      "Desc": "Agent.300201.3",
+      "Consignor": "Agent.300201.4",
+      "RefreshType": 1,
+      "Quality": 1,
+      "MemberType": 1,
+      "Level": 1,
+      "MemberLimit": 3,
+      "Tags": [
+        102
+      ],
+      "ExtraTags": [
+        204
+      ],
+      "UnlockConditions": "[[2,6]]",
+      "Sort": 22,
+      "Time1": 720,
+      "RewardPreview1": "[[32011,11,11],[32000,6,7],[33001,1,2]]",
+      "BonusPreview1": "[[32011,2,3]]",
+      "Time2": 1200,
+      "RewardPreview2": "[[32011,18,18],[32000,10,11],[33001,2,4]]",
+      "BonusPreview2": "[[32011,4,5]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.300201.1",
+          "zh_TW": "「射擊遊戲委託 初級」",
+          "zh_CN": "「射击游戏委托 初级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.300201.2",
+          "zh_TW": "精準訓練",
+          "zh_CN": "精准训练",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.300201.3",
+          "zh_TW": "連靜止目標都打不中的話，上陣也只是去送死！幫他們集訓吧！\n這些說好的卡帶都歸你了！",
+          "zh_CN": "连静止目标都无法打中的话，可没法上阵！帮忙给他们集训吧！\n说好的，这些卡带也都归你了！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.300201.4",
+          "zh_TW": "嚴厲的教練",
+          "zh_CN": "严厉的教练",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "300202": {
+      "Id": 300202,
+      "Tab": 5,
+      "Note": "Agent.300202.1",
+      "Name": "Agent.300202.2",
+      "Desc": "Agent.300202.3",
+      "Consignor": "Agent.300202.4",
+      "RefreshType": 1,
+      "Quality": 2,
+      "MemberType": 1,
+      "Level": 40,
+      "MemberLimit": 3,
+      "Tags": [
+        102,
+        101
+      ],
+      "ExtraTags": [
+        204,
+        202
+      ],
+      "UnlockConditions": "[[2,13]]",
+      "Sort": 12,
+      "Time1": 720,
+      "RewardPreview1": "[[32011,16,17],[32000,9,10],[33001,1,3]]",
+      "BonusPreview1": "[[32011,4,5]]",
+      "Time2": 1200,
+      "RewardPreview2": "[[32011,28,29],[32000,16,17],[33001,2,6]]",
+      "BonusPreview2": "[[32011,7,8]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.300202.1",
+          "zh_TW": "「射擊遊戲委託 中級」",
+          "zh_CN": "「射击游戏委托 中级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.300202.2",
+          "zh_TW": "彈雨達人",
+          "zh_CN": "弹幕达人",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.300202.3",
+          "zh_TW": "據說你有辦法投一次錢就通過那些最難的彈雨遊戲…\n這節公開課的示範環節就交給你了，這些卡帶是事成之後的報酬！",
+          "zh_CN": "我听说，你可以一币通关那些最难的弹幕游戏……\n这节公开课的展示环节就交给你了，事成之后就用这些卡带当报酬吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.300202.4",
+          "zh_TW": "深藏不露的導師",
+          "zh_CN": "深藏不露的导师",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "300203": {
+      "Id": 300203,
+      "Tab": 5,
+      "Note": "Agent.300203.1",
+      "Name": "Agent.300203.2",
+      "Desc": "Agent.300203.3",
+      "Consignor": "Agent.300203.4",
+      "RefreshType": 1,
+      "Quality": 3,
+      "MemberType": 1,
+      "Level": 70,
+      "MemberLimit": 3,
+      "Tags": [
+        102,
+        101,
+        102
+      ],
+      "ExtraTags": [
+        204,
+        202
+      ],
+      "UnlockConditions": "[[2,25]]",
+      "Sort": 2,
+      "Time1": 720,
+      "RewardPreview1": "[[32011,29,30],[32000,16,17],[33001,2,4]]",
+      "BonusPreview1": "[[32011,7,8]]",
+      "Time2": 1200,
+      "RewardPreview2": "[[32011,49,50],[32000,27,27],[33001,4,8]]",
+      "BonusPreview2": "[[32011,12,12]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.300203.1",
+          "zh_TW": "「射擊遊戲委託 高級」",
+          "zh_CN": "「射击游戏委托 高级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.300203.2",
+          "zh_TW": "妖蜂傳說",
+          "zh_CN": "妖蜂传说",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.300203.3",
+          "zh_TW": "投一次錢就破台「妖蜂」的成就，不僅被譽為旅人修行的終點…甚至可說是人類的進化！要是你也能成功，我的這些收藏就是你的獎勵…",
+          "zh_CN": "一币成功挑战“妖蜂”，被誉为旅人修行的终点……甚至可以视作人类的进化！要是你也能办到的话，这些收藏品，就是你的奖赏……",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.300203.4",
+          "zh_TW": "卡帶收藏家",
+          "zh_CN": "卡带收藏家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "300301": {
+      "Id": 300301,
+      "Tab": 5,
+      "Note": "Agent.300301.1",
+      "Name": "Agent.300301.2",
+      "Desc": "Agent.300301.3",
+      "Consignor": "Agent.300301.4",
+      "RefreshType": 1,
+      "Quality": 1,
+      "MemberType": 1,
+      "Level": 1,
+      "MemberLimit": 3,
+      "Tags": [
+        102
+      ],
+      "ExtraTags": [
+        202
+      ],
+      "UnlockConditions": "[[2,6]]",
+      "Sort": 23,
+      "Time1": 720,
+      "RewardPreview1": "[[32021,11,11],[32000,6,7],[33001,1,2]]",
+      "BonusPreview1": "[[32021,2,3]]",
+      "Time2": 1200,
+      "RewardPreview2": "[[32021,18,18],[32000,10,11],[33001,2,4]]",
+      "BonusPreview2": "[[32021,4,5]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.300301.1",
+          "zh_TW": "「功夫遊戲委託 初級」",
+          "zh_CN": "「功夫游戏委托 初级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.300301.2",
+          "zh_TW": "技巧訓練",
+          "zh_CN": "技巧训练",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.300301.3",
+          "zh_TW": "新生代旅人的反應力和集中力都不合格啊…得好好嚴格訓練才行！要是你能幫忙訓練的話，這些卡帶就是報酬！",
+          "zh_CN": "新一代的旅人，反应力和集中力都跟不上啊……得好好严格训练才行！要是能帮忙训练的话，这些卡带就当做报酬吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.300301.4",
+          "zh_TW": "嚴厲的教練",
+          "zh_CN": "严厉的教练",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "300302": {
+      "Id": 300302,
+      "Tab": 5,
+      "Note": "Agent.300302.1",
+      "Name": "Agent.300302.2",
+      "Desc": "Agent.300302.3",
+      "Consignor": "Agent.300302.4",
+      "RefreshType": 1,
+      "Quality": 2,
+      "MemberType": 1,
+      "Level": 40,
+      "MemberLimit": 3,
+      "Tags": [
+        102,
+        103
+      ],
+      "ExtraTags": [
+        202,
+        205
+      ],
+      "UnlockConditions": "[[2,13]]",
+      "Sort": 13,
+      "Time1": 720,
+      "RewardPreview1": "[[32021,16,17],[32000,9,10],[33001,1,3]]",
+      "BonusPreview1": "[[32021,4,5]]",
+      "Time2": 1200,
+      "RewardPreview2": "[[32021,28,29],[32000,16,17],[33001,2,6]]",
+      "BonusPreview2": "[[32021,7,8]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.300302.1",
+          "zh_TW": "「功夫遊戲委託 中級」",
+          "zh_CN": "「功夫游戏委托 中级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.300302.2",
+          "zh_TW": "格鬥達人",
+          "zh_CN": "格斗达人",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.300302.3",
+          "zh_TW": "我聽說你在那款格鬥遊戲打遍天下無敵手…？\n我的徒弟們都很不服氣哦，幫我把他們通通教訓一遍吧，我自有重賞奉上！",
+          "zh_CN": "我听说，那款格斗游戏，你打遍周围无敌手……？\n我的徒儿们跃跃欲试呢，替我把他们都教训一遍吧，我自有重赏！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.300302.4",
+          "zh_TW": "深藏不露的導師",
+          "zh_CN": "深藏不露的导师",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "300303": {
+      "Id": 300303,
+      "Tab": 5,
+      "Note": "Agent.300303.1",
+      "Name": "Agent.300303.2",
+      "Desc": "Agent.300303.3",
+      "Consignor": "Agent.300303.4",
+      "RefreshType": 1,
+      "Quality": 3,
+      "MemberType": 1,
+      "Level": 70,
+      "MemberLimit": 3,
+      "Tags": [
+        102,
+        103,
+        103
+      ],
+      "ExtraTags": [
+        202,
+        205
+      ],
+      "UnlockConditions": "[[2,25]]",
+      "Sort": 3,
+      "Time1": 720,
+      "RewardPreview1": "[[32021,29,30],[32000,16,17],[33001,2,4]]",
+      "BonusPreview1": "[[32021,7,8]]",
+      "Time2": 1200,
+      "RewardPreview2": "[[32021,49,50],[32000,27,27],[33001,4,8]]",
+      "BonusPreview2": "[[32021,12,12]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.300303.1",
+          "zh_TW": "「功夫遊戲委託 高級」",
+          "zh_CN": "「功夫游戏委托 高级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.300303.2",
+          "zh_TW": "鬼神再臨",
+          "zh_CN": "鬼神再临",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.300303.3",
+          "zh_TW": "你居然也能招架那總共15段的急速連環拳？！太驚人了…原來你也聽說過「鬼神」的傳奇…！讓那場經典對決再次重現吧，獎品就是我的收藏！",
+          "zh_CN": "你也能抵挡那连续15次的急速出拳？！太惊讶了……原来你也听说过“鬼神”的传奇……！再现这场对决吧，我的收藏就是奖品！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.300303.4",
+          "zh_TW": "卡帶收藏家",
+          "zh_CN": "卡带收藏家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "400101": {
+      "Id": 400101,
+      "Tab": 4,
+      "Note": "Agent.400101.1",
+      "Name": "Agent.400101.2",
+      "Desc": "Agent.400101.3",
+      "Consignor": "Agent.400101.4",
+      "RefreshType": 1,
+      "Quality": 1,
+      "MemberType": 1,
+      "Level": 1,
+      "MemberLimit": 3,
+      "Tags": [
+        102
+      ],
+      "ExtraTags": [
+        203
+      ],
+      "UnlockConditions": "[[2,6]]",
+      "Sort": 21,
+      "Time1": 240,
+      "RewardPreview1": "[[21071,4,4],[33001,1,2]]",
+      "BonusPreview1": "[[21071,0,1]]",
+      "Time2": 480,
+      "RewardPreview2": "[[21071,8,8],[33001,2,4]]",
+      "BonusPreview2": "[[21071,1,2]]",
+      "Time3": 720,
+      "RewardPreview3": "[[21071,12,12],[33001,3,6]]",
+      "BonusPreview3": "[[21071,2,3]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[21071,20,20],[33001,5,10]]",
+      "BonusPreview4": "[[21071,4,4]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.400101.1",
+          "zh_TW": "「祕紋升階材料A 初級」",
+          "zh_CN": "「秘纹升阶素材A 初级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.400101.2",
+          "zh_TW": "初戰舞王",
+          "zh_CN": "初战舞王",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.400101.3",
+          "zh_TW": "聽說星塔裡有一位舞蹈大師，我要去挑戰他。有人能幫我帶個路嗎？",
+          "zh_CN": "听说星塔里有一位舞蹈大师，我要去挑战他。谁能帮我带个路？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.400101.4",
+          "zh_TW": "舞王傑克森",
+          "zh_CN": "舞王杰克逊",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "400102": {
+      "Id": 400102,
+      "Tab": 4,
+      "Note": "Agent.400102.1",
+      "Name": "Agent.400102.2",
+      "Desc": "Agent.400102.3",
+      "Consignor": "Agent.400102.4",
+      "RefreshType": 1,
+      "Quality": 2,
+      "MemberType": 1,
+      "Level": 40,
+      "MemberLimit": 3,
+      "Tags": [
+        102,
+        103
+      ],
+      "ExtraTags": [
+        202,
+        203
+      ],
+      "UnlockConditions": "[[2,13]]",
+      "Sort": 11,
+      "Time1": 240,
+      "RewardPreview1": "[[21071,8,9],[33001,1,3]]",
+      "BonusPreview1": "[[21071,1,2]]",
+      "Time2": 480,
+      "RewardPreview2": "[[21071,17,18],[33001,2,6]]",
+      "BonusPreview2": "[[21071,3,4]]",
+      "Time3": 720,
+      "RewardPreview3": "[[21071,26,27],[33001,3,9]]",
+      "BonusPreview3": "[[21071,5,6]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[21071,44,45],[33001,5,15]]",
+      "BonusPreview4": "[[21071,8,9]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.400102.1",
+          "zh_TW": "「祕紋升階材料A 中級」",
+          "zh_CN": "「秘纹升阶素材A 中级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.400102.2",
+          "zh_TW": "再戰舞王",
+          "zh_CN": "再战舞王",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.400102.3",
+          "zh_TW": "上次我只輸了半招！這次我叫來了老師，我們師徒聯手、所向無敵！來人幫我們帶個路吧！",
+          "zh_CN": "上次只是惜败！这次我喊来了老师，我们师徒联手，战无不胜！谁能帮我们带个路？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.400102.4",
+          "zh_TW": "舞王傑克森",
+          "zh_CN": "舞王杰克逊",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "400103": {
+      "Id": 400103,
+      "Tab": 4,
+      "Note": "Agent.400103.1",
+      "Name": "Agent.400103.2",
+      "Desc": "Agent.400103.3",
+      "Consignor": "Agent.400103.4",
+      "RefreshType": 1,
+      "Quality": 3,
+      "MemberType": 1,
+      "Level": 70,
+      "MemberLimit": 3,
+      "Tags": [
+        102,
+        103,
+        102
+      ],
+      "ExtraTags": [
+        202,
+        203
+      ],
+      "UnlockConditions": "[[2,25]]",
+      "Sort": 1,
+      "Time1": 240,
+      "RewardPreview1": "[[21071,17,17],[33001,2,4]]",
+      "BonusPreview1": "[[21071,3,4]]",
+      "Time2": 480,
+      "RewardPreview2": "[[21071,34,34],[33001,4,8]]",
+      "BonusPreview2": "[[21071,6,7]]",
+      "Time3": 720,
+      "RewardPreview3": "[[21071,51,51],[33001,6,12]]",
+      "BonusPreview3": "[[21071,10,11]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[21071,85,85],[33001,10,20]]",
+      "BonusPreview4": "[[21071,17,17]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.400103.1",
+          "zh_TW": "「祕紋升階材料A 高級」",
+          "zh_CN": "「秘纹升阶素材A 高级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.400103.2",
+          "zh_TW": "怎麼還來",
+          "zh_CN": "怎么还来",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.400103.3",
+          "zh_TW": "我把老師，老師的老師，老師的老師的老師都叫上了。這次一定要讓怪誕舞者嘗到失敗的滋味！再來人幫我們帶個路吧！",
+          "zh_CN": "我把老师，老师的老师，老师的老师的老师都叫上了。这次必定要让怪诞舞者尝到失败的滋味！谁能再帮我们带个路？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.400103.4",
+          "zh_TW": "舞王傑克森",
+          "zh_CN": "舞王杰克逊",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "400201": {
+      "Id": 400201,
+      "Tab": 4,
+      "Note": "Agent.400201.1",
+      "Name": "Agent.400201.2",
+      "Desc": "Agent.400201.3",
+      "Consignor": "Agent.400201.4",
+      "RefreshType": 1,
+      "Quality": 1,
+      "MemberType": 1,
+      "Level": 1,
+      "MemberLimit": 3,
+      "Tags": [
+        103
+      ],
+      "ExtraTags": [
+        201
+      ],
+      "UnlockConditions": "[[2,6]]",
+      "Sort": 22,
+      "Time1": 240,
+      "RewardPreview1": "[[21081,4,4],[33001,1,2]]",
+      "BonusPreview1": "[[21081,0,1]]",
+      "Time2": 480,
+      "RewardPreview2": "[[21081,8,8],[33001,2,4]]",
+      "BonusPreview2": "[[21081,1,2]]",
+      "Time3": 720,
+      "RewardPreview3": "[[21081,12,12],[33001,3,6]]",
+      "BonusPreview3": "[[21081,2,3]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[21081,20,20],[33001,5,10]]",
+      "BonusPreview4": "[[21081,4,4]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.400201.1",
+          "zh_TW": "「祕紋升階材料B 初級」",
+          "zh_CN": "「秘纹升阶素材B 初级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.400201.2",
+          "zh_TW": "惡有惡報",
+          "zh_CN": "恶有恶报",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.400201.3",
+          "zh_TW": "熱騰罐最近一直在欺負凍凍，我看不下去了。徵求優秀助手幫我一起趕走那些大罐子小罐子，還給凍凍一個安寧的家。",
+          "zh_CN": "热腾罐最近总在欺负冻冻，我看不下去了。找个好帮手助我一起赶走那些大罐子小罐子，还给我们冻冻一个安宁的家。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.400201.4",
+          "zh_TW": "狂熱的凍凍愛好者",
+          "zh_CN": "狂热的冻冻爱好者",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "400202": {
+      "Id": 400202,
+      "Tab": 4,
+      "Note": "Agent.400202.1",
+      "Name": "Agent.400202.2",
+      "Desc": "Agent.400202.3",
+      "Consignor": "Agent.400202.4",
+      "RefreshType": 1,
+      "Quality": 2,
+      "MemberType": 1,
+      "Level": 40,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        103
+      ],
+      "ExtraTags": [
+        201,
+        205
+      ],
+      "UnlockConditions": "[[2,13]]",
+      "Sort": 12,
+      "Time1": 240,
+      "RewardPreview1": "[[21081,8,9],[33001,1,3]]",
+      "BonusPreview1": "[[21081,1,2]]",
+      "Time2": 480,
+      "RewardPreview2": "[[21081,17,18],[33001,2,6]]",
+      "BonusPreview2": "[[21081,3,4]]",
+      "Time3": 720,
+      "RewardPreview3": "[[21081,26,27],[33001,3,9]]",
+      "BonusPreview3": "[[21081,5,6]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[21081,44,45],[33001,5,15]]",
+      "BonusPreview4": "[[21081,8,9]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.400202.1",
+          "zh_TW": "「祕紋升階材料B 中級」",
+          "zh_CN": "「秘纹升阶素材B 中级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.400202.2",
+          "zh_TW": "碎碎平安",
+          "zh_CN": "碎碎平安",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.400202.3",
+          "zh_TW": "連家裡的最後一個罐子也被我打碎了…如果主人發現的話，我這次一定會被解僱！拜託了，請幫我找幾個結實耐用的罐子，我願意用這個月的工錢報答你。",
+          "zh_CN": "我把家里最后一个罐子也打碎了……如果被主人发现的话，这次我一定会被解雇的！拜托了，请帮我找几个结实耐用的罐子，我愿意拿出这个月的工钱作为报酬。",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.400202.4",
+          "zh_TW": "笨手笨腳的女僕",
+          "zh_CN": "笨拙的女仆",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "400203": {
+      "Id": 400203,
+      "Tab": 4,
+      "Note": "Agent.400203.1",
+      "Name": "Agent.400203.2",
+      "Desc": "Agent.400203.3",
+      "Consignor": "Agent.400203.4",
+      "RefreshType": 1,
+      "Quality": 3,
+      "MemberType": 1,
+      "Level": 70,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        103,
+        101
+      ],
+      "ExtraTags": [
+        201,
+        205
+      ],
+      "UnlockConditions": "[[2,25]]",
+      "Sort": 2,
+      "Time1": 240,
+      "RewardPreview1": "[[21081,17,17],[33001,2,4]]",
+      "BonusPreview1": "[[21081,3,4]]",
+      "Time2": 480,
+      "RewardPreview2": "[[21081,34,34],[33001,4,8]]",
+      "BonusPreview2": "[[21081,6,7]]",
+      "Time3": 720,
+      "RewardPreview3": "[[21081,51,51],[33001,6,12]]",
+      "BonusPreview3": "[[21081,10,11]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[21081,85,85],[33001,10,20]]",
+      "BonusPreview4": "[[21081,17,17]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.400203.1",
+          "zh_TW": "「祕紋升階材料B 高級」",
+          "zh_CN": "「秘纹升阶素材B 高级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.400203.2",
+          "zh_TW": "狂熱追隨",
+          "zh_CN": "狂热追随",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.400203.3",
+          "zh_TW": "威儀煌煌的熱嘟嚕噗男爵閣下！縱然在您城堡墻角當一株顫抖的小草，也勝似在別處當參天巨木——我只是想匍匐於您的座前，將姓名鐫刻於您的鐵冊，哪怕是一睹您的尊容也好啊！為何您不允呢！",
+          "zh_CN": "煌煌威仪的热嘟噜噗男爵阁下！纵使做您城堡墙角一株颤抖的蓟草，也胜似在别处当参天巨木——为何不允我匍匐于座前，将名姓镌刻于您的铁册呢！我只想一睹您的尊容啊！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.400203.4",
+          "zh_TW": "狂熱的男爵崇拜者",
+          "zh_CN": "狂热的男爵崇拜者",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "400301": {
+      "Id": 400301,
+      "Tab": 4,
+      "Note": "Agent.400301.1",
+      "Name": "Agent.400301.2",
+      "Desc": "Agent.400301.3",
+      "Consignor": "Agent.400301.4",
+      "RefreshType": 1,
+      "Quality": 1,
+      "MemberType": 1,
+      "Level": 1,
+      "MemberLimit": 3,
+      "Tags": [
+        101
+      ],
+      "ExtraTags": [
+        204
+      ],
+      "UnlockConditions": "[[2,6]]",
+      "Sort": 23,
+      "Time1": 240,
+      "RewardPreview1": "[[21091,4,4],[33001,1,2]]",
+      "BonusPreview1": "[[21091,0,1]]",
+      "Time2": 480,
+      "RewardPreview2": "[[21091,8,8],[33001,2,4]]",
+      "BonusPreview2": "[[21091,1,2]]",
+      "Time3": 720,
+      "RewardPreview3": "[[21091,12,12],[33001,3,6]]",
+      "BonusPreview3": "[[21091,2,3]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[21091,20,20],[33001,5,10]]",
+      "BonusPreview4": "[[21091,4,4]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.400301.1",
+          "zh_TW": "「祕紋升階材料C 初級」",
+          "zh_CN": "「秘纹升阶素材C 初级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.400301.2",
+          "zh_TW": "更換燈泡",
+          "zh_CN": "更换灯泡",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.400301.3",
+          "zh_TW": "我家裡的燈壞好幾天了，能幫我找個燈泡換上嗎？",
+          "zh_CN": "家里的灯坏好几天了，能帮我找个灯泡换上吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.400301.4",
+          "zh_TW": "拮据的主婦",
+          "zh_CN": "拮据的主妇",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "400302": {
+      "Id": 400302,
+      "Tab": 4,
+      "Note": "Agent.400302.1",
+      "Name": "Agent.400302.2",
+      "Desc": "Agent.400302.3",
+      "Consignor": "Agent.400302.4",
+      "RefreshType": 1,
+      "Quality": 2,
+      "MemberType": 1,
+      "Level": 40,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        102
+      ],
+      "ExtraTags": [
+        204,
+        205
+      ],
+      "UnlockConditions": "[[2,13]]",
+      "Sort": 13,
+      "Time1": 240,
+      "RewardPreview1": "[[21091,8,9],[33001,1,3]]",
+      "BonusPreview1": "[[21091,1,2]]",
+      "Time2": 480,
+      "RewardPreview2": "[[21091,17,18],[33001,2,6]]",
+      "BonusPreview2": "[[21091,3,4]]",
+      "Time3": 720,
+      "RewardPreview3": "[[21091,26,27],[33001,3,9]]",
+      "BonusPreview3": "[[21091,5,6]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[21091,44,45],[33001,5,15]]",
+      "BonusPreview4": "[[21091,8,9]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.400302.1",
+          "zh_TW": "「祕紋升階材料C 中級」",
+          "zh_CN": "「秘纹升阶素材C 中级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.400302.2",
+          "zh_TW": "祖傳神燈",
+          "zh_CN": "祖传神灯",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.400302.3",
+          "zh_TW": "「老爺說…家族祖傳的燈自己逃走了。」\n「那盞燈…從兩百年前就是宅邸的守夜者…現在徹底失控了。」\n「一定要要不惜一切代價把燈找回來！」\n「…總之，老爺是這麼說的。」",
+          "zh_CN": "“老爷说……家族祖传的灯，自己逃走了。”\n“那盏灯……两百年前就是宅子的守夜者…现在彻底失控了。”\n“一定要要不计一切代价把灯带回去！”\n“……总之，老爷是这么说的。”",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.400302.4",
+          "zh_TW": "無奈的管家",
+          "zh_CN": "无奈的管家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    },
+    "400303": {
+      "Id": 400303,
+      "Tab": 4,
+      "Note": "Agent.400303.1",
+      "Name": "Agent.400303.2",
+      "Desc": "Agent.400303.3",
+      "Consignor": "Agent.400303.4",
+      "RefreshType": 1,
+      "Quality": 3,
+      "MemberType": 1,
+      "Level": 70,
+      "MemberLimit": 3,
+      "Tags": [
+        101,
+        102,
+        102
+      ],
+      "ExtraTags": [
+        204,
+        205
+      ],
+      "UnlockConditions": "[[2,25]]",
+      "Sort": 3,
+      "Time1": 240,
+      "RewardPreview1": "[[21091,17,17],[33001,2,4]]",
+      "BonusPreview1": "[[21091,3,4]]",
+      "Time2": 480,
+      "RewardPreview2": "[[21091,34,34],[33001,4,8]]",
+      "BonusPreview2": "[[21091,6,7]]",
+      "Time3": 720,
+      "RewardPreview3": "[[21091,51,51],[33001,6,12]]",
+      "BonusPreview3": "[[21091,10,11]]",
+      "Time4": 1200,
+      "RewardPreview4": "[[21091,85,85],[33001,10,20]]",
+      "BonusPreview4": "[[21091,17,17]]",
+      "_localized": {
+        "/Note": {
+          "key": "Agent.400303.1",
+          "zh_TW": "「祕紋升階材料C 高級」",
+          "zh_CN": "「秘纹升阶素材C 高级」",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Name": {
+          "key": "Agent.400303.2",
+          "zh_TW": "早睡早起",
+          "zh_CN": "早睡早起",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Desc": {
+          "key": "Agent.400303.3",
+          "zh_TW": "太亮了，真的太亮了，閃得我們覺都睡不好。總之，快來人把那盞燈關掉！",
+          "zh_CN": "太亮了，真的太亮了，晃得我们觉都睡不好。总之，来个谁把那盏灯关掉！",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        },
+        "/Consignor": {
+          "key": "Agent.400303.4",
+          "zh_TW": "匿名",
+          "zh_CN": "匿名",
+          "sources": {
+            "zh_TW": "language/zh_TW/Agent.json",
+            "zh_CN": "language/zh_CN/Agent.json"
+          }
+        }
+      }
+    }
+  }
+}

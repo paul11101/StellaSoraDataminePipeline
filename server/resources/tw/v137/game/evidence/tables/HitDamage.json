@@ -1,0 +1,829 @@
+{
+  "table": "HitDamage",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a727db945489cfdd.bin",
+  "source_sha256": "57c960b4b149054fc72df772308ba3cdc63988efa2c8f2e3be687ddaafcfca1f",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\HitDamage.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 2134
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "reference_field_order": [
+      "Id",
+      "levelTypeData",
+      "LevelData",
+      "MainOrSupport",
+      "DistanceType",
+      "SourceType",
+      "DamageType",
+      "EffectType",
+      "ElementType",
+      "DamageTag",
+      "DamageBonusType",
+      "SkillPercentAmend",
+      "SkillAbsAmend",
+      "EnergyCharge",
+      "TalentPercentAmend",
+      "TalentAbsAmend",
+      "IsDenseType",
+      "AdditionalSource",
+      "AdditionalType",
+      "AdditionalPercent",
+      "SkillId",
+      "SkillSlotType",
+      "PerkId",
+      "HitImmunityTime",
+      "SingleDamage"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "levelTypeData",
+      "3": "LevelData",
+      "4": "MainOrSupport",
+      "6": "DistanceType",
+      "7": "SourceType",
+      "8": "DamageType",
+      "9": "EffectType",
+      "10": "ElementType",
+      "11": "DamageTag",
+      "12": "DamageBonusType",
+      "13": "SkillPercentAmend",
+      "14": "SkillAbsAmend",
+      "15": "AdditionalSource",
+      "16": "AdditionalType",
+      "17": "AdditionalPercent",
+      "18": "EnergyCharge",
+      "19": "TalentPercentAmend",
+      "20": "TalentAbsAmend",
+      "21": "IsDenseType",
+      "23": "SkillId",
+      "24": "SkillSlotType",
+      "25": "PerkId",
+      "26": "HitImmunityTime",
+      "27": "SingleDamage"
+    },
+    "aot_field_count": 25,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2134,
+      "compared_reference_rows": 2134,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2134,
+          "compared": 2134
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2134,
+          "compared": 2134
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2134
+        }
+      ]
+    },
+    "2": {
+      "field": "levelTypeData",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1059,
+      "compared_reference_rows": 1059,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1059,
+          "compared": 1059
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1059,
+          "compared": 1059
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1059
+        }
+      ]
+    },
+    "3": {
+      "field": "LevelData",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 950,
+      "compared_reference_rows": 950,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 950,
+          "compared": 950
+        },
+        {
+          "codec": "varint_int",
+          "matches": 950,
+          "compared": 950
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 950
+        }
+      ]
+    },
+    "4": {
+      "field": "MainOrSupport",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 381,
+      "compared_reference_rows": 381,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 381,
+          "compared": 381
+        },
+        {
+          "codec": "varint_int",
+          "matches": 381,
+          "compared": 381
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 381
+        }
+      ]
+    },
+    "6": {
+      "field": "DistanceType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2131,
+      "compared_reference_rows": 2131,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2131,
+          "compared": 2131
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2131,
+          "compared": 2131
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2131
+        }
+      ]
+    },
+    "7": {
+      "field": "SourceType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2134,
+      "compared_reference_rows": 2134,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2134,
+          "compared": 2134
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2134,
+          "compared": 2134
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2134
+        }
+      ]
+    },
+    "8": {
+      "field": "DamageType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2134,
+      "compared_reference_rows": 2134,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2134,
+          "compared": 2134
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2134,
+          "compared": 2134
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2134
+        }
+      ]
+    },
+    "9": {
+      "field": "EffectType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2134,
+      "compared_reference_rows": 2134,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2134,
+          "compared": 2134
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2134,
+          "compared": 2134
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2134
+        }
+      ]
+    },
+    "10": {
+      "field": "ElementType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1312,
+      "compared_reference_rows": 1312,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1312,
+          "compared": 1312
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1312,
+          "compared": 1312
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1312
+        }
+      ]
+    },
+    "11": {
+      "field": "DamageTag",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_int",
+      "matching_reference_rows": 885,
+      "compared_reference_rows": 885,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_int",
+          "matches": 885,
+          "compared": 885
+        },
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 291,
+          "compared": 885
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 885
+        }
+      ]
+    },
+    "12": {
+      "field": "DamageBonusType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2133,
+      "compared_reference_rows": 2133,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2133,
+          "compared": 2133
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2133,
+          "compared": 2133
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2133
+        }
+      ]
+    },
+    "13": {
+      "field": "SkillPercentAmend",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 2133,
+      "compared_reference_rows": 2133,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 2133,
+          "compared": 2133
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 2133,
+          "compared": 2133
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 52,
+          "compared": 2133
+        }
+      ]
+    },
+    "14": {
+      "field": "SkillAbsAmend",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 2134,
+      "compared_reference_rows": 2134,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 2134,
+          "compared": 2134
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 2134,
+          "compared": 2134
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 2119,
+          "compared": 2134
+        }
+      ]
+    },
+    "15": {
+      "field": "AdditionalSource",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "16": {
+      "field": "AdditionalType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "17": {
+      "field": "AdditionalPercent",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "18": {
+      "field": "EnergyCharge",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 290,
+      "compared_reference_rows": 290,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 290,
+          "compared": 290
+        },
+        {
+          "codec": "varint_int",
+          "matches": 290,
+          "compared": 290
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 290
+        }
+      ]
+    },
+    "19": {
+      "field": "TalentPercentAmend",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 870,
+      "compared_reference_rows": 870,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 870,
+          "compared": 870
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 870,
+          "compared": 870
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 870,
+          "compared": 870
+        }
+      ]
+    },
+    "20": {
+      "field": "TalentAbsAmend",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 870,
+      "compared_reference_rows": 870,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 870,
+          "compared": 870
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 870,
+          "compared": 870
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 870,
+          "compared": 870
+        }
+      ]
+    },
+    "21": {
+      "field": "IsDenseType",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 2
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 2
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "23": {
+      "field": "SkillId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1592,
+      "compared_reference_rows": 1592,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1592,
+          "compared": 1592
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1592,
+          "compared": 1592
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1592
+        }
+      ]
+    },
+    "24": {
+      "field": "SkillSlotType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 956,
+      "compared_reference_rows": 956,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 956,
+          "compared": 956
+        },
+        {
+          "codec": "varint_int",
+          "matches": 956,
+          "compared": 956
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 956
+        }
+      ]
+    },
+    "25": {
+      "field": "PerkId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 74,
+      "compared_reference_rows": 74,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 74,
+          "compared": 74
+        },
+        {
+          "codec": "varint_int",
+          "matches": 74,
+          "compared": 74
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 74
+        }
+      ]
+    },
+    "26": {
+      "field": "HitImmunityTime",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 149,
+      "compared_reference_rows": 149,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 149,
+          "compared": 149
+        },
+        {
+          "codec": "varint_int",
+          "matches": 149,
+          "compared": 149
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 149
+        }
+      ]
+    },
+    "27": {
+      "field": "SingleDamage",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 100,
+      "compared_reference_rows": 100,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 100,
+          "compared": 100
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 100
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 100
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 100
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 2134,
+    "reference_row_count": 2134,
+    "shared_key_count": 2134,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 2134,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

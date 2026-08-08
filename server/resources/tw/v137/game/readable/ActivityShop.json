@@ -1,0 +1,340 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ActivityShop",
+    "categories": [
+      "activities",
+      "shop_economy"
+    ],
+    "row_count": 16,
+    "localization_hits": 16,
+    "source": "bin/ActivityShop.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1001": {
+      "Id": 1001,
+      "Name": "ActivityShop.1001.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73101,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1001.1",
+          "zh_TW": "!NONEED!",
+          "zh_CN": "商店1(不用翻译）",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1002": {
+      "Id": 1002,
+      "Name": "ActivityShop.1002.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73102,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1002.1",
+          "zh_TW": "!NONEED!",
+          "zh_CN": "我们的旅团-商店(不用翻译）",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1003": {
+      "Id": 1003,
+      "Name": "ActivityShop.1003.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73103,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "OtherExchangeItem1": [
+        120002,
+        1,
+        200000
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1003.1",
+          "zh_TW": "!NONEED!",
+          "zh_CN": "夏花活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1004": {
+      "Id": 1004,
+      "Name": "ActivityShop.1004.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73104,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1004.1",
+          "zh_TW": "聖誕活動商店",
+          "zh_CN": "圣诞活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1005": {
+      "Id": 1005,
+      "Name": "ActivityShop.1005.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73105,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "OtherExchangeItem1": [
+        120003,
+        1,
+        200000
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1005.1",
+          "zh_TW": "翡冷翠活動商店",
+          "zh_CN": "翡冷翠活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1006": {
+      "Id": 1006,
+      "Name": "ActivityShop.1006.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73106,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1006.1",
+          "zh_TW": "春節活動商店",
+          "zh_CN": "春节活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "3001": {
+      "Id": 3001,
+      "Name": "ActivityShop.3001.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73202,
+      "ExchangeItemId": 1,
+      "Rate": 1500.0,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.3001.1",
+          "zh_TW": "繚亂碎晶球商店",
+          "zh_CN": "缭乱弹珠台商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1007": {
+      "Id": 1007,
+      "Name": "ActivityShop.1007.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73107,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1007.1",
+          "zh_TW": "!NONEED!",
+          "zh_CN": "风影活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1008": {
+      "Id": 1008,
+      "Name": "ActivityShop.1008.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73108,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "OtherExchangeItem1": [
+        120004,
+        1,
+        200000
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1008.1",
+          "zh_TW": "!NONEED!",
+          "zh_CN": "多娜活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1009": {
+      "Id": 1009,
+      "Name": "ActivityShop.1009.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73109,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1009.1",
+          "zh_TW": "乙葉活動商店",
+          "zh_CN": "乙叶活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "3002": {
+      "Id": 3002,
+      "Name": "ActivityShop.3002.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73202,
+      "ExchangeItemId": 1,
+      "Rate": 1500.0,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.3002.1",
+          "zh_TW": "繚亂碎晶球2期商店",
+          "zh_CN": "缭乱弹珠台2期商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1010": {
+      "Id": 1010,
+      "Name": "ActivityShop.1010.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73110,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1010.1",
+          "zh_TW": "火垂活動商店",
+          "zh_CN": "火垂活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1011": {
+      "Id": 1011,
+      "Name": "ActivityShop.1011.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73111,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1011.1",
+          "zh_TW": "!NONEED!",
+          "zh_CN": "斯帕克拉活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1012": {
+      "Id": 1012,
+      "Name": "ActivityShop.1012.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73101,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "OtherExchangeItem1": [
+        120005,
+        1,
+        200000
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1012.1",
+          "zh_TW": "!NONEED!",
+          "zh_CN": "泳装复刻活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1013": {
+      "Id": 1013,
+      "Name": "ActivityShop.1013.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73112,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1013.1",
+          "zh_TW": "貓眼活動商店",
+          "zh_CN": "猫眼活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    },
+    "1014": {
+      "Id": 1014,
+      "Name": "ActivityShop.1014.1",
+      "Sequence": 1,
+      "CurrencyItemId": 73113,
+      "ExchangeItemId": 1,
+      "Rate": 300.0,
+      "_localized": {
+        "/Name": {
+          "key": "ActivityShop.1014.1",
+          "zh_TW": "!NONEED!",
+          "zh_CN": "夏日薇洛活动商店",
+          "sources": {
+            "zh_TW": "language/zh_TW/ActivityShop.json",
+            "zh_CN": "language/zh_CN/ActivityShop.json"
+          }
+        }
+      }
+    }
+  }
+}

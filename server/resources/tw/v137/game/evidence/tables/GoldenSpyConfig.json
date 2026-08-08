@@ -1,0 +1,359 @@
+{
+  "table": "GoldenSpyConfig",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b5e563300f5e36b3.bin",
+  "source_sha256": "6c4d08c5202d69a07dbadad8a584e79c68bdc62a2dc3297a324f6098127b416d",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\GoldenSpyConfig.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 4
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "reference_field_order": [
+      "Id",
+      "MaxAngle",
+      "AngleTime",
+      "BaseSpeed",
+      "BaseRadius",
+      "BaseFactor",
+      "PullSlowWeight",
+      "GetHighValue",
+      "HighValueEffect"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 9,
+    "remaining_name_count": 9,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "MaxAngle",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "AngleTime",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "BaseSpeed",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "BaseRadius",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "BaseFactor",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "PullSlowWeight",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "GetHighValue",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "HighValueEffect",
+        "matching_reference_rows": 4,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "2": {
+      "field": "MaxAngle",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "3": {
+      "field": "AngleTime",
+      "json_kind": "float",
+      "repeated": false,
+      "wire_types": [
+        5
+      ],
+      "selected": "float32",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "float32",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "fixed32_uint",
+          "matches": 0,
+          "compared": 4
+        },
+        {
+          "codec": "fixed32_int",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "4": {
+      "field": "BaseSpeed",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "5": {
+      "field": "BaseRadius",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "6": {
+      "field": "BaseFactor",
+      "json_kind": "float",
+      "repeated": false,
+      "wire_types": [
+        5
+      ],
+      "selected": "float32",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "float32",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "fixed32_uint",
+          "matches": 0,
+          "compared": 4
+        },
+        {
+          "codec": "fixed32_int",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "7": {
+      "field": "PullSlowWeight",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "8": {
+      "field": "GetHighValue",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    },
+    "9": {
+      "field": "HighValueEffect",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4,
+      "compared_reference_rows": 4,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4,
+          "compared": 4
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 4,
+    "reference_row_count": 4,
+    "shared_key_count": 4,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 4,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message CharAffinityQuestRewardReceiveReq {
+  uint32 CharId = 1;
+  uint32 QuestId = 2;
+  bytes NextPackage = 2047;
+}
+
+message CharAffinityQuestRewardReceiveResp {
+  .proto.AffinityInfo Info = 1;
+  .proto.ChangeInfo Change = 2;
+  bytes NextPackage = 2047;
+}

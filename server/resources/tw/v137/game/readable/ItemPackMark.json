@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ItemPackMark",
+    "categories": [
+      "items_rewards"
+    ],
+    "row_count": 2,
+    "localization_hits": 2,
+    "source": "bin/ItemPackMark.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "PackMark": 1,
+      "ItemStype": [
+        1,
+        2,
+        6,
+        12,
+        13,
+        40,
+        17,
+        24,
+        25,
+        38,
+        35
+      ],
+      "Name": "ItemPackMark.1.1",
+      "Sort": 1,
+      "_localized": {
+        "/Name": {
+          "key": "ItemPackMark.1.1",
+          "zh_TW": "材料",
+          "zh_CN": "素材",
+          "sources": {
+            "zh_TW": "language/zh_TW/ItemPackMark.json",
+            "zh_CN": "language/zh_CN/ItemPackMark.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "PackMark": 4,
+      "ItemStype": [
+        31,
+        32,
+        33,
+        34,
+        44,
+        47
+      ],
+      "Name": "ItemPackMark.3.1",
+      "Sort": 3,
+      "_localized": {
+        "/Name": {
+          "key": "ItemPackMark.3.1",
+          "zh_TW": "消耗品",
+          "zh_CN": "消耗品",
+          "sources": {
+            "zh_TW": "language/zh_TW/ItemPackMark.json",
+            "zh_CN": "language/zh_CN/ItemPackMark.json"
+          }
+        }
+      }
+    }
+  }
+}

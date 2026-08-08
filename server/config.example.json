@@ -1,0 +1,16 @@
+{
+  "bindHost": "127.0.0.1",
+  "port": 18080,
+  "agentUrl": "http://127.0.0.1:18080/game/",
+  "metadataKey": "owGYVDmfHrxi^4pm",
+  "garbleKey": "N&mfco452ZH5!nE3s&o5uxB57UGPENVo",
+  "messageCatalog": "resources/tw/v137/protocol/message_ids.json",
+  "networkDescriptor": "resources/tw/v137/protocol/network.desc",
+  "serverListTemplate": "resources/tw/v137/bootstrap/serverlist.json",
+  "resourceManifest": "resources/tw/v137/bootstrap/resource_manifest.bin",
+  "gameDataRoot": "resources/tw/v137/game/readable",
+  "stateFile": "runtime/player-state.json",
+  "diagnosticLog": "runtime/protocol.jsonl",
+  "adminKey": "stella-local",
+  "diagnosticsEnabled": true
+}

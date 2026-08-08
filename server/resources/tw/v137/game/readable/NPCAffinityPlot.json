@@ -1,0 +1,265 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "NPCAffinityPlot",
+    "categories": [
+      "characters",
+      "story_social",
+      "world_npc"
+    ],
+    "row_count": 8,
+    "localization_hits": 16,
+    "source": "bin/NPCAffinityPlot.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "913301": {
+      "Id": 913301,
+      "Name": "NPCAffinityPlot.913301.1",
+      "Desc": "NPCAffinityPlot.913301.2",
+      "PlotSum": "NPCAffinityPlot.913301.3",
+      "avgId": "CG_npc133_01",
+      "NPCId": 9133,
+      "AffinityLevel": 5,
+      "ItemId": 2,
+      "ItemQty": 30,
+      "_localized": {
+        "/Name": {
+          "key": "NPCAffinityPlot.913301.1",
+          "zh_TW": "第一話",
+          "zh_CN": "第一话",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        },
+        "/Desc": {
+          "key": "NPCAffinityPlot.913301.2",
+          "zh_TW": "孤獨的店員",
+          "zh_CN": "孤独的店员",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        }
+      }
+    },
+    "913302": {
+      "Id": 913302,
+      "Name": "NPCAffinityPlot.913302.1",
+      "Desc": "NPCAffinityPlot.913302.2",
+      "PlotSum": "NPCAffinityPlot.913302.3",
+      "avgId": "CG_npc133_02",
+      "NPCId": 9133,
+      "AffinityLevel": 10,
+      "ItemId": 2,
+      "ItemQty": 30,
+      "_localized": {
+        "/Name": {
+          "key": "NPCAffinityPlot.913302.1",
+          "zh_TW": "第二話",
+          "zh_CN": "第二话",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        },
+        "/Desc": {
+          "key": "NPCAffinityPlot.913302.2",
+          "zh_TW": "二次入職",
+          "zh_CN": "二次入职",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        }
+      }
+    },
+    "917201": {
+      "Id": 917201,
+      "Name": "NPCAffinityPlot.917201.1",
+      "Desc": "NPCAffinityPlot.917201.2",
+      "PlotSum": "NPCAffinityPlot.917201.3",
+      "avgId": "CG_npc172_01",
+      "NPCId": 9172,
+      "AffinityLevel": 5,
+      "ItemId": 2,
+      "ItemQty": 30,
+      "_localized": {
+        "/Name": {
+          "key": "NPCAffinityPlot.917201.1",
+          "zh_TW": "第一話",
+          "zh_CN": "第一话",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        },
+        "/Desc": {
+          "key": "NPCAffinityPlot.917201.2",
+          "zh_TW": "純白天使",
+          "zh_CN": "纯白天使",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        }
+      }
+    },
+    "917202": {
+      "Id": 917202,
+      "Name": "NPCAffinityPlot.917202.1",
+      "Desc": "NPCAffinityPlot.917202.2",
+      "PlotSum": "NPCAffinityPlot.917202.3",
+      "avgId": "CG_npc172_02",
+      "NPCId": 9172,
+      "AffinityLevel": 10,
+      "ItemId": 2,
+      "ItemQty": 30,
+      "_localized": {
+        "/Name": {
+          "key": "NPCAffinityPlot.917202.1",
+          "zh_TW": "第二話",
+          "zh_CN": "第二话",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        },
+        "/Desc": {
+          "key": "NPCAffinityPlot.917202.2",
+          "zh_TW": "健康飲食",
+          "zh_CN": "健康饮食",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        }
+      }
+    },
+    "917301": {
+      "Id": 917301,
+      "Name": "NPCAffinityPlot.917301.1",
+      "Desc": "NPCAffinityPlot.917301.2",
+      "PlotSum": "NPCAffinityPlot.917301.3",
+      "avgId": "CG_npc173_01",
+      "NPCId": 9173,
+      "AffinityLevel": 5,
+      "ItemId": 2,
+      "ItemQty": 30,
+      "_localized": {
+        "/Name": {
+          "key": "NPCAffinityPlot.917301.1",
+          "zh_TW": "第一話",
+          "zh_CN": "第一话",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        },
+        "/Desc": {
+          "key": "NPCAffinityPlot.917301.2",
+          "zh_TW": "惡魔的誘惑",
+          "zh_CN": "恶魔的诱惑",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        }
+      }
+    },
+    "917302": {
+      "Id": 917302,
+      "Name": "NPCAffinityPlot.917302.1",
+      "Desc": "NPCAffinityPlot.917302.2",
+      "PlotSum": "NPCAffinityPlot.917302.3",
+      "avgId": "CG_npc173_02",
+      "NPCId": 9173,
+      "AffinityLevel": 10,
+      "ItemId": 2,
+      "ItemQty": 30,
+      "_localized": {
+        "/Name": {
+          "key": "NPCAffinityPlot.917302.1",
+          "zh_TW": "第二話",
+          "zh_CN": "第二话",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        },
+        "/Desc": {
+          "key": "NPCAffinityPlot.917302.2",
+          "zh_TW": "命運的安排",
+          "zh_CN": "命运的安排",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        }
+      }
+    },
+    "917401": {
+      "Id": 917401,
+      "Name": "NPCAffinityPlot.917401.1",
+      "Desc": "NPCAffinityPlot.917401.2",
+      "PlotSum": "NPCAffinityPlot.917401.3",
+      "avgId": "CG_npc174_01",
+      "NPCId": 9174,
+      "AffinityLevel": 5,
+      "ItemId": 2,
+      "ItemQty": 30,
+      "_localized": {
+        "/Name": {
+          "key": "NPCAffinityPlot.917401.1",
+          "zh_TW": "第一話",
+          "zh_CN": "第一话",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        },
+        "/Desc": {
+          "key": "NPCAffinityPlot.917401.2",
+          "zh_TW": "惡魔的挑戰",
+          "zh_CN": "恶魔的挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        }
+      }
+    },
+    "917402": {
+      "Id": 917402,
+      "Name": "NPCAffinityPlot.917402.1",
+      "Desc": "NPCAffinityPlot.917402.2",
+      "PlotSum": "NPCAffinityPlot.917402.3",
+      "avgId": "CG_npc174_02",
+      "NPCId": 9174,
+      "AffinityLevel": 10,
+      "ItemId": 2,
+      "ItemQty": 30,
+      "_localized": {
+        "/Name": {
+          "key": "NPCAffinityPlot.917402.1",
+          "zh_TW": "第二話",
+          "zh_CN": "第二话",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        },
+        "/Desc": {
+          "key": "NPCAffinityPlot.917402.2",
+          "zh_TW": "書中的旅途",
+          "zh_CN": "书中的旅途",
+          "sources": {
+            "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+            "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+          }
+        }
+      }
+    }
+  }
+}

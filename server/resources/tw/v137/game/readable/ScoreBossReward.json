@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ScoreBossReward",
+    "categories": [
+      "items_rewards",
+      "stages_modes"
+    ],
+    "row_count": 7,
+    "localization_hits": 0,
+    "source": "bin/ScoreBossReward.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "StarNeed": 2,
+      "RewardItemId1": 2,
+      "RewardNum1": 100
+    },
+    "2": {
+      "Id": 2,
+      "StarNeed": 4,
+      "RewardItemId1": 2,
+      "RewardNum1": 100
+    },
+    "3": {
+      "Id": 3,
+      "StarNeed": 6,
+      "RewardItemId1": 2,
+      "RewardNum1": 100
+    },
+    "4": {
+      "Id": 4,
+      "StarNeed": 8,
+      "RewardItemId1": 2,
+      "RewardNum1": 100
+    },
+    "5": {
+      "Id": 5,
+      "StarNeed": 10,
+      "RewardItemId1": 2,
+      "RewardNum1": 100
+    },
+    "6": {
+      "Id": 6,
+      "StarNeed": 12,
+      "RewardItemId1": 2,
+      "RewardNum1": 100
+    },
+    "7": {
+      "Id": 7,
+      "StarNeed": 14,
+      "RewardItemId1": 2,
+      "RewardNum1": 100
+    }
+  }
+}

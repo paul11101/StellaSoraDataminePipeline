@@ -1,0 +1,1305 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "EventOptions",
+    "categories": [
+      "other"
+    ],
+    "row_count": 86,
+    "localization_hits": 86,
+    "source": "bin/EventOptions.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "10101": {
+      "Id": 10101,
+      "Desc": "EventOptions.10101.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10101.1",
+          "zh_TW": "消耗100<sprite name=item_11_small>，隨機獲得1個普通潛能",
+          "zh_CN": "消耗100<sprite name=item_11_small>，获得1个随机普通潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10102": {
+      "Id": 10102,
+      "Desc": "EventOptions.10102.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10102.1",
+          "zh_TW": "消耗120<sprite name=item_11_small>，隨機獲得1個潛能",
+          "zh_CN": "消耗120<sprite name=item_11_small>，获得1个随机潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10103": {
+      "Id": 10103,
+      "Desc": "EventOptions.10103.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10103.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10201": {
+      "Id": 10201,
+      "Desc": "EventOptions.10201.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10201.1",
+          "zh_TW": "消耗120<sprite name=item_11_small>，隨機獲得1個援護潛能",
+          "zh_CN": "消耗120<sprite name=item_11_small>，获得1个随机援护潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10202": {
+      "Id": 10202,
+      "Desc": "EventOptions.10202.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10202.1",
+          "zh_TW": "消耗160<sprite name=item_11_small>，隨機獲得1個主控潛能",
+          "zh_CN": "消耗160<sprite name=item_11_small>，获得1个随机主控潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10203": {
+      "Id": 10203,
+      "Desc": "EventOptions.10203.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10203.1",
+          "zh_TW": "消耗200<sprite name=item_11_small>，隨機獲得1個稀有潛能",
+          "zh_CN": "消耗200<sprite name=item_11_small>，获得1个随机稀有潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10204": {
+      "Id": 10204,
+      "Desc": "EventOptions.10204.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10204.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10301": {
+      "Id": 10301,
+      "Desc": "EventOptions.10301.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10301.1",
+          "zh_TW": "消耗5個隨機音符，獲得150<sprite name=item_11_small>",
+          "zh_CN": "消耗5个随机音符，获得150<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10302": {
+      "Id": 10302,
+      "Desc": "EventOptions.10302.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10302.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10401": {
+      "Id": 10401,
+      "Desc": "EventOptions.10401.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10401.1",
+          "zh_TW": "消耗10個隨機音符，隨機獲得1個稀有潛能",
+          "zh_CN": "消耗10个随机音符，获得1个随机稀有潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10402": {
+      "Id": 10402,
+      "Desc": "EventOptions.10402.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10402.1",
+          "zh_TW": "消耗200<sprite name=item_11_small>，隨機獲得1個稀有潛能",
+          "zh_CN": "消耗200<sprite name=item_11_small>，获得1个随机稀有潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10403": {
+      "Id": 10403,
+      "Desc": "EventOptions.10403.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10403.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10501": {
+      "Id": 10501,
+      "Desc": "EventOptions.10501.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10501.1",
+          "zh_TW": "50%機率獲得200<sprite name=item_11_small>，50%機率失去100<sprite name=item_11_small>",
+          "zh_CN": "50%概率获得200<sprite name=item_11_small>，50%概率失去100<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10502": {
+      "Id": 10502,
+      "Desc": "EventOptions.10502.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10502.1",
+          "zh_TW": "30%機率獲得650<sprite name=item_11_small>，70%機率失去200<sprite name=item_11_small>",
+          "zh_CN": "30%概率获得650<sprite name=item_11_small>，70%概率失去200<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10503": {
+      "Id": 10503,
+      "Desc": "EventOptions.10503.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10503.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10601": {
+      "Id": 10601,
+      "Desc": "EventOptions.10601.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10601.1",
+          "zh_TW": "消耗20%最大生命值，50%機率隨機獲得1個稀有潛能",
+          "zh_CN": "消耗20%最大生命，50%概率获得1个随机稀有潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10602": {
+      "Id": 10602,
+      "Desc": "EventOptions.10602.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10602.1",
+          "zh_TW": "消耗40%最大生命值，隨機獲得1個普通潛能",
+          "zh_CN": "消耗40%最大生命，获得1个随机普通潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10603": {
+      "Id": 10603,
+      "Desc": "EventOptions.10603.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10603.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10701": {
+      "Id": 10701,
+      "Desc": "EventOptions.10701.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10701.1",
+          "zh_TW": "獲得5個強攻之音<sprite name=note_90011_S>",
+          "zh_CN": "获得5个强攻之音<sprite name=note_90011_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10702": {
+      "Id": 10702,
+      "Desc": "EventOptions.10702.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10702.1",
+          "zh_TW": "獲得5個幸運之音<sprite name=note_90012_S>",
+          "zh_CN": "获得5个幸运之音<sprite name=note_90012_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10703": {
+      "Id": 10703,
+      "Desc": "EventOptions.10703.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10703.1",
+          "zh_TW": "獲得5個暴發之音<sprite name=note_90013_S>",
+          "zh_CN": "获得5个暴发之音<sprite name=note_90013_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10704": {
+      "Id": 10704,
+      "Desc": "EventOptions.10704.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10704.1",
+          "zh_TW": "獲得5個體力之音<sprite name=note_90014_S>",
+          "zh_CN": "获得5个体力之音<sprite name=note_90014_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10705": {
+      "Id": 10705,
+      "Desc": "EventOptions.10705.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10705.1",
+          "zh_TW": "獲得5個專注之音<sprite name=note_90015_S>",
+          "zh_CN": "获得5个专注之音<sprite name=note_90015_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10706": {
+      "Id": 10706,
+      "Desc": "EventOptions.10706.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10706.1",
+          "zh_TW": "獲得5個技巧之音<sprite name=note_90016_S>",
+          "zh_CN": "获得5个技巧之音<sprite name=note_90016_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10707": {
+      "Id": 10707,
+      "Desc": "EventOptions.10707.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10707.1",
+          "zh_TW": "獲得5個絕招之音<sprite name=note_90017_S>",
+          "zh_CN": "获得5个绝招之音<sprite name=note_90017_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10708": {
+      "Id": 10708,
+      "Desc": "EventOptions.10708.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10708.1",
+          "zh_TW": "獲得5個隨機音符",
+          "zh_CN": "获得5个随机音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10801": {
+      "Id": 10801,
+      "Desc": "EventOptions.10801.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10801.1",
+          "zh_TW": "消耗140<sprite name=item_11_small>，獲得10個強攻之音<sprite name=note_90011_S>",
+          "zh_CN": "消耗140<sprite name=item_11_small>，获得10个强攻之音<sprite name=note_90011_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10802": {
+      "Id": 10802,
+      "Desc": "EventOptions.10802.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10802.1",
+          "zh_TW": "消耗140<sprite name=item_11_small>，獲得10個幸運之音<sprite name=note_90012_S>",
+          "zh_CN": "消耗140<sprite name=item_11_small>，获得10个幸运之音<sprite name=note_90012_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10803": {
+      "Id": 10803,
+      "Desc": "EventOptions.10803.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10803.1",
+          "zh_TW": "消耗140<sprite name=item_11_small>，獲得10個暴發之音<sprite name=note_90013_S>",
+          "zh_CN": "消耗140<sprite name=item_11_small>，获得10个暴发之音<sprite name=note_90013_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10804": {
+      "Id": 10804,
+      "Desc": "EventOptions.10804.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10804.1",
+          "zh_TW": "消耗140<sprite name=item_11_small>，獲得10個體力之音<sprite name=note_90014_S>",
+          "zh_CN": "消耗140<sprite name=item_11_small>，获得10个体力之音<sprite name=note_90014_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10805": {
+      "Id": 10805,
+      "Desc": "EventOptions.10805.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10805.1",
+          "zh_TW": "消耗140<sprite name=item_11_small>，獲得10個專注之音<sprite name=note_90015_S>",
+          "zh_CN": "消耗140<sprite name=item_11_small>，获得10个专注之音<sprite name=note_90015_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10806": {
+      "Id": 10806,
+      "Desc": "EventOptions.10806.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10806.1",
+          "zh_TW": "消耗140<sprite name=item_11_small>，獲得10個技巧之音<sprite name=note_90016_S>",
+          "zh_CN": "消耗140<sprite name=item_11_small>，获得10个技巧之音<sprite name=note_90016_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10807": {
+      "Id": 10807,
+      "Desc": "EventOptions.10807.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10807.1",
+          "zh_TW": "消耗140<sprite name=item_11_small>，獲得10個絕招之音<sprite name=note_90017_S>",
+          "zh_CN": "消耗140<sprite name=item_11_small>，获得10个绝招之音<sprite name=note_90017_S>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10808": {
+      "Id": 10808,
+      "Desc": "EventOptions.10808.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10808.1",
+          "zh_TW": "消耗90<sprite name=item_11_small>，獲得10個隨機音符",
+          "zh_CN": "消耗90<sprite name=item_11_small>，获得10个随机音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10809": {
+      "Id": 10809,
+      "Desc": "EventOptions.10809.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10809.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10901": {
+      "Id": 10901,
+      "Desc": "EventOptions.10901.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10901.1",
+          "zh_TW": "50%機率獲得100<sprite name=item_11_small>，50%機率隨機獲得1個潛能",
+          "zh_CN": "50%获得100<sprite name=item_11_small>，50%获得1个随机潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "10902": {
+      "Id": 10902,
+      "Desc": "EventOptions.10902.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.10902.1",
+          "zh_TW": "消耗120<sprite name=item_11_small>，隨機獲得1個潛能",
+          "zh_CN": "消耗120<sprite name=item_11_small>，获得1个随机潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11001": {
+      "Id": 11001,
+      "Desc": "EventOptions.11001.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11001.1",
+          "zh_TW": "50%機率獲得120<sprite name=item_11_small>，50%機率隨機獲得1個稀有潛能",
+          "zh_CN": "50%获得120<sprite name=item_11_small>，50%获得1个随机稀有潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11002": {
+      "Id": 11002,
+      "Desc": "EventOptions.11002.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11002.1",
+          "zh_TW": "消耗160<sprite name=item_11_small>，隨機獲得1個稀有潛能",
+          "zh_CN": "消耗160<sprite name=item_11_small>，获得1个随机稀有潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11101": {
+      "Id": 11101,
+      "Desc": "EventOptions.11101.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11101.1",
+          "zh_TW": "恢復20%生命值",
+          "zh_CN": "恢复20%生命",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11102": {
+      "Id": 11102,
+      "Desc": "EventOptions.11102.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11102.1",
+          "zh_TW": "消耗20%生命值，隨機獲得1個普通潛能",
+          "zh_CN": "消耗20%生命，获得1个随机普通潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11201": {
+      "Id": 11201,
+      "Desc": "EventOptions.11201.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11201.1",
+          "zh_TW": "恢復20%生命值",
+          "zh_CN": "恢复20%生命",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11202": {
+      "Id": 11202,
+      "Desc": "EventOptions.11202.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11202.1",
+          "zh_TW": "消耗30%生命值，隨機獲得1個潛能",
+          "zh_CN": "消耗30%生命，获得1个随机潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11301": {
+      "Id": 11301,
+      "Desc": "EventOptions.11301.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11301.1",
+          "zh_TW": "恢復20%生命值",
+          "zh_CN": "恢复20%生命",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11302": {
+      "Id": 11302,
+      "Desc": "EventOptions.11302.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11302.1",
+          "zh_TW": "消耗30%生命值，隨機獲得1個潛能",
+          "zh_CN": "消耗30%生命，获得1个随机潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11303": {
+      "Id": 11303,
+      "Desc": "EventOptions.11303.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11303.1",
+          "zh_TW": "消耗50%生命值，隨機獲得1個稀有潛能",
+          "zh_CN": "消耗50%生命，获得1个随机稀有潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11401": {
+      "Id": 11401,
+      "Desc": "EventOptions.11401.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11401.1",
+          "zh_TW": "選擇正確答案，將隨機獲得10個音符！",
+          "zh_CN": "选择正确回答，将获得10个随机音符！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11402": {
+      "Id": 11402,
+      "Desc": "EventOptions.11402.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11402.1",
+          "zh_TW": "選擇正確答案，將隨機獲得10個音符！",
+          "zh_CN": "选择正确回答，将获得10个随机音符！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11403": {
+      "Id": 11403,
+      "Desc": "EventOptions.11403.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11403.1",
+          "zh_TW": "選擇正確答案，將隨機獲得10個音符！",
+          "zh_CN": "选择正确回答，将获得10个随机音符！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11404": {
+      "Id": 11404,
+      "Desc": "EventOptions.11404.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11404.1",
+          "zh_TW": "選擇正確答案，將隨機獲得10個音符！",
+          "zh_CN": "选择正确回答，将获得10个随机音符！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11405": {
+      "Id": 11405,
+      "Desc": "EventOptions.11405.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11405.1",
+          "zh_TW": "選擇正確答案，將隨機獲得10個音符！",
+          "zh_CN": "选择正确回答，将获得10个随机音符！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11501": {
+      "Id": 11501,
+      "Desc": "EventOptions.11501.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11501.1",
+          "zh_TW": "選擇正確答案，將隨機獲得1個潛能！",
+          "zh_CN": "选择正确回答，将获得1个随机潜能！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11502": {
+      "Id": 11502,
+      "Desc": "EventOptions.11502.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11502.1",
+          "zh_TW": "選擇正確答案，將隨機獲得1個潛能！",
+          "zh_CN": "选择正确回答，将获得1个随机潜能！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11503": {
+      "Id": 11503,
+      "Desc": "EventOptions.11503.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11503.1",
+          "zh_TW": "選擇正確答案，將隨機獲得1個潛能！",
+          "zh_CN": "选择正确回答，将获得1个随机潜能！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11504": {
+      "Id": 11504,
+      "Desc": "EventOptions.11504.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11504.1",
+          "zh_TW": "選擇正確答案，將隨機獲得1個潛能！",
+          "zh_CN": "选择正确回答，将获得1个随机潜能！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11505": {
+      "Id": 11505,
+      "Desc": "EventOptions.11505.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11505.1",
+          "zh_TW": "選擇正確答案，將隨機獲得1個潛能！",
+          "zh_CN": "选择正确回答，将获得1个随机潜能！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11601": {
+      "Id": 11601,
+      "Desc": "EventOptions.11601.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11601.1",
+          "zh_TW": "選擇正確答案，將隨機獲得1個稀有潛能！",
+          "zh_CN": "选择正确回答，将获得1个随机稀有潜能！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11602": {
+      "Id": 11602,
+      "Desc": "EventOptions.11602.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11602.1",
+          "zh_TW": "選擇正確答案，將隨機獲得1個稀有潛能！",
+          "zh_CN": "选择正确回答，将获得1个随机稀有潜能！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11603": {
+      "Id": 11603,
+      "Desc": "EventOptions.11603.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11603.1",
+          "zh_TW": "選擇正確答案，將隨機獲得1個稀有潛能！",
+          "zh_CN": "选择正确回答，将获得1个随机稀有潜能！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11604": {
+      "Id": 11604,
+      "Desc": "EventOptions.11604.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11604.1",
+          "zh_TW": "選擇正確答案，將隨機獲得1個稀有潛能！",
+          "zh_CN": "选择正确回答，将获得1个随机稀有潜能！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11605": {
+      "Id": 11605,
+      "Desc": "EventOptions.11605.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11605.1",
+          "zh_TW": "選擇正確答案，將隨機獲得1個稀有潛能！",
+          "zh_CN": "选择正确回答，将获得1个随机稀有潜能！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11701": {
+      "Id": 11701,
+      "Desc": "EventOptions.11701.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11701.1",
+          "zh_TW": "<sprite name=item_11_small>或生命值隨機發生變化！",
+          "zh_CN": "<sprite name=item_11_small>或生命值发生随机变化！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11702": {
+      "Id": 11702,
+      "Desc": "EventOptions.11702.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11702.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11801": {
+      "Id": 11801,
+      "Desc": "EventOptions.11801.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11801.1",
+          "zh_TW": "<sprite name=item_11_small>、生命值或潛能隨機發生變化！",
+          "zh_CN": "<sprite name=item_11_small>或生命值或潜能发生随机变化！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11802": {
+      "Id": 11802,
+      "Desc": "EventOptions.11802.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11802.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11901": {
+      "Id": 11901,
+      "Desc": "EventOptions.11901.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11901.1",
+          "zh_TW": "<sprite name=item_11_small>或潛能發生隨機變化！",
+          "zh_CN": "<sprite name=item_11_small>或潜能发生随机变化！",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "11902": {
+      "Id": 11902,
+      "Desc": "EventOptions.11902.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.11902.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12001": {
+      "Id": 12001,
+      "Desc": "EventOptions.12001.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12001.1",
+          "zh_TW": "消耗50<sprite name=item_11_small>，獲得5個隨機音符",
+          "zh_CN": "消耗50<sprite name=item_11_small>，获得5个随机音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12002": {
+      "Id": 12002,
+      "Desc": "EventOptions.12002.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12002.1",
+          "zh_TW": "50%機率恢復30%生命值，50%機率獲得5個隨機音符",
+          "zh_CN": "50%概率恢复30%生命，50%概率获得5个随机音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12101": {
+      "Id": 12101,
+      "Desc": "EventOptions.12101.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12101.1",
+          "zh_TW": "消耗100<sprite name=item_11_small>，隨機獲得1個潛能",
+          "zh_CN": "消耗100<sprite name=item_11_small>，获得1个随机潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12102": {
+      "Id": 12102,
+      "Desc": "EventOptions.12102.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12102.1",
+          "zh_TW": "50%機率恢復30%生命值，50%機率隨機獲得1個潛能",
+          "zh_CN": "50%概率恢复30%生命，50%概率获得1个随机潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12201": {
+      "Id": 12201,
+      "Desc": "EventOptions.12201.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12201.1",
+          "zh_TW": "消耗180<sprite name=item_11_small>，隨機獲得1個稀有潛能",
+          "zh_CN": "消耗180<sprite name=item_11_small>，获得1个随机稀有潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12202": {
+      "Id": 12202,
+      "Desc": "EventOptions.12202.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12202.1",
+          "zh_TW": "50%機率恢復30%生命值，50%機率隨機獲得1個稀有潛能",
+          "zh_CN": "50%概率恢复30%生命，50%概率获得1个随机稀有潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12301": {
+      "Id": 12301,
+      "Desc": "EventOptions.12301.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12301.1",
+          "zh_TW": "消耗50<sprite name=item_11_small>，恢復20%生命值",
+          "zh_CN": "消耗50<sprite name=item_11_small>，恢复20%生命",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12302": {
+      "Id": 12302,
+      "Desc": "EventOptions.12302.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12302.1",
+          "zh_TW": "消耗30%最大生命值，隨機獲得1個潛能",
+          "zh_CN": "消耗30%最大生命，获得1个随机潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12401": {
+      "Id": 12401,
+      "Desc": "EventOptions.12401.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12401.1",
+          "zh_TW": "33%機率獲得1個潛能，33%機率恢復20%生命值，33%機率損失30%生命值",
+          "zh_CN": "33%获得1个潜能，33%恢复20%生命，33%损失30%生命",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12402": {
+      "Id": 12402,
+      "Desc": "EventOptions.12402.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12402.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12501": {
+      "Id": 12501,
+      "Desc": "EventOptions.12501.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12501.1",
+          "zh_TW": "33%機率獲得1個普通潛能，33%機率恢復20%生命值，33%機率損失20%生命值",
+          "zh_CN": "33%获得1个普通潜能，33%恢复20%生命，33%损失20%生命",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12502": {
+      "Id": 12502,
+      "Desc": "EventOptions.12502.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12502.1",
+          "zh_TW": "33%機率獲得1個稀有潛能，33%機率恢復30%生命值，33%機率損失50%生命值",
+          "zh_CN": "33%获得1个稀有潜能，33%恢复30%生命，33%损失50%生命",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12503": {
+      "Id": 12503,
+      "Desc": "EventOptions.12503.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12503.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12601": {
+      "Id": 12601,
+      "Desc": "EventOptions.12601.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12601.1",
+          "zh_TW": "隨機獲得1個援護角色的普通潛能",
+          "zh_CN": "获得1个随机援护角色的普通潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12602": {
+      "Id": 12602,
+      "Desc": "EventOptions.12602.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12602.1",
+          "zh_TW": "恢復20%生命值",
+          "zh_CN": "恢复20%生命",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12701": {
+      "Id": 12701,
+      "Desc": "EventOptions.12701.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12701.1",
+          "zh_TW": "隨機獲得1個援護角色潛能",
+          "zh_CN": "获得1个随机援护角色潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12702": {
+      "Id": 12702,
+      "Desc": "EventOptions.12702.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12702.1",
+          "zh_TW": "獲得5個隨機音符",
+          "zh_CN": "获得5个随机音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12801": {
+      "Id": 12801,
+      "Desc": "EventOptions.12801.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12801.1",
+          "zh_TW": "隨機獲得1個援護角色的稀有潛能",
+          "zh_CN": "获得1个随机援护角色的稀有潜能",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    },
+    "12802": {
+      "Id": 12802,
+      "Desc": "EventOptions.12802.1",
+      "_localized": {
+        "/Desc": {
+          "key": "EventOptions.12802.1",
+          "zh_TW": "獲得30<sprite name=item_11_small>",
+          "zh_CN": "获得30<sprite name=item_11_small>",
+          "sources": {
+            "zh_TW": "language/zh_TW/EventOptions.json",
+            "zh_CN": "language/zh_CN/EventOptions.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "table": "MonsterValueTemplete",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\9c064c034215493b.bin",
+  "source_sha256": "b1534e2d819358ba9d4f555484636d5bbd303330118a4b70fea99d03aa38cf2d",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\MonsterValueTemplete.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 2,
+    "row_count": 16482
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      16,
+      24,
+      26,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      53,
+      55
+    ],
+    "reference_field_order": [
+      "Id",
+      "TemplateId",
+      "Lv",
+      "Hp",
+      "Atk",
+      "Def",
+      "CritRate",
+      "CritPower",
+      "HitRate",
+      "AtkSpd",
+      "WEE",
+      "FEE",
+      "SEE",
+      "AEE",
+      "LEE",
+      "DEE",
+      "Toughness",
+      "RCDMARKDMG"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "TemplateId",
+      "3": "Lv",
+      "4": "Hp",
+      "5": "Atk",
+      "6": "Def",
+      "7": "CritRate",
+      "16": "CritPower",
+      "24": "HitRate",
+      "26": "AtkSpd",
+      "41": "WEE",
+      "42": "FEE",
+      "43": "SEE",
+      "44": "AEE",
+      "45": "LEE",
+      "46": "DEE",
+      "53": "Toughness",
+      "55": "RCDMARKDMG"
+    },
+    "aot_field_count": 18,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16482,
+      "compared_reference_rows": 16482,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16482
+        }
+      ]
+    },
+    "2": {
+      "field": "TemplateId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16482,
+      "compared_reference_rows": 16482,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16482
+        }
+      ]
+    },
+    "3": {
+      "field": "Lv",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16482,
+      "compared_reference_rows": 16482,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16482
+        }
+      ]
+    },
+    "4": {
+      "field": "Hp",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16482,
+      "compared_reference_rows": 16482,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16482
+        }
+      ]
+    },
+    "5": {
+      "field": "Atk",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16474,
+      "compared_reference_rows": 16474,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16474,
+          "compared": 16474
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16474,
+          "compared": 16474
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16474
+        }
+      ]
+    },
+    "6": {
+      "field": "Def",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4380,
+      "compared_reference_rows": 4380,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4380,
+          "compared": 4380
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4380,
+          "compared": 4380
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4380
+        }
+      ]
+    },
+    "7": {
+      "field": "CritRate",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 80,
+      "compared_reference_rows": 80,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 80,
+          "compared": 80
+        },
+        {
+          "codec": "varint_int",
+          "matches": 80,
+          "compared": 80
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 80
+        }
+      ]
+    },
+    "16": {
+      "field": "CritPower",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 80,
+      "compared_reference_rows": 80,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 80,
+          "compared": 80
+        },
+        {
+          "codec": "varint_int",
+          "matches": 80,
+          "compared": 80
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 80
+        }
+      ]
+    },
+    "24": {
+      "field": "HitRate",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16482,
+      "compared_reference_rows": 16482,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16482
+        }
+      ]
+    },
+    "26": {
+      "field": "AtkSpd",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16482,
+      "compared_reference_rows": 16482,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16482
+        }
+      ]
+    },
+    "41": {
+      "field": "WEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16482,
+      "compared_reference_rows": 16482,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16482
+        }
+      ]
+    },
+    "42": {
+      "field": "FEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16482,
+      "compared_reference_rows": 16482,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16482
+        }
+      ]
+    },
+    "43": {
+      "field": "SEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16482,
+      "compared_reference_rows": 16482,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16482
+        }
+      ]
+    },
+    "44": {
+      "field": "AEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16482,
+      "compared_reference_rows": 16482,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16482
+        }
+      ]
+    },
+    "45": {
+      "field": "LEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16482,
+      "compared_reference_rows": 16482,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16482
+        }
+      ]
+    },
+    "46": {
+      "field": "DEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16482,
+      "compared_reference_rows": 16482,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16482,
+          "compared": 16482
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16482
+        }
+      ]
+    },
+    "53": {
+      "field": "Toughness",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2056,
+      "compared_reference_rows": 2056,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2056,
+          "compared": 2056
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2056,
+          "compared": 2056
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2056
+        }
+      ]
+    },
+    "55": {
+      "field": "RCDMARKDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 16476,
+      "compared_reference_rows": 16476,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 16476,
+          "compared": 16476
+        },
+        {
+          "codec": "varint_int",
+          "matches": 16476,
+          "compared": 16476
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 16476
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 16482,
+    "reference_row_count": 16482,
+    "shared_key_count": 16482,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 16482,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

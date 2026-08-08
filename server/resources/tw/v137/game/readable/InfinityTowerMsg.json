@@ -1,0 +1,3254 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "InfinityTowerMsg",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 92,
+    "localization_hits": 184,
+    "source": "bin/InfinityTowerMsg.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1001": {
+      "Id": 1001,
+      "Title": "InfinityTowerMsg.1001.1",
+      "Content": "InfinityTowerMsg.1001.2",
+      "Type": 1,
+      "DayOfWeek": [
+        1,
+        4
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.1001.1",
+          "zh_TW": "每日",
+          "zh_CN": "每日",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.1001.2",
+          "zh_TW": "今日開放擂台：「熾熱狂舞」「颯爽疾奏」「無限競技」！",
+          "zh_CN": "今日开放擂台：「炽热狂舞」「飒爽疾奏」「无极角斗」！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "1002": {
+      "Id": 1002,
+      "Title": "InfinityTowerMsg.1002.1",
+      "Content": "InfinityTowerMsg.1002.2",
+      "Type": 1,
+      "DayOfWeek": [
+        2,
+        5
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.1002.1",
+          "zh_TW": "每日",
+          "zh_CN": "每日",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.1002.2",
+          "zh_TW": "今日開放擂台：「清雅流歌」「荒壘震音」「無限競技」！",
+          "zh_CN": "今日开放擂台：「清雅流歌」「荒垒震音」「无极角斗」！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "1003": {
+      "Id": 1003,
+      "Title": "InfinityTowerMsg.1003.1",
+      "Content": "InfinityTowerMsg.1003.2",
+      "Type": 1,
+      "DayOfWeek": [
+        3,
+        6
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.1003.1",
+          "zh_TW": "每日",
+          "zh_CN": "每日",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.1003.2",
+          "zh_TW": "今日開放擂台：「幽閉儀式」「紛閃派對」「無限競技」！",
+          "zh_CN": "今日开放擂台：「幽闭仪典」「纷闪派对」「无极角斗」！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "1005": {
+      "Id": 1005,
+      "Title": "InfinityTowerMsg.1005.1",
+      "Content": "InfinityTowerMsg.1005.2",
+      "Type": 1,
+      "DayOfWeek": [
+        0
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.1005.1",
+          "zh_TW": "每日",
+          "zh_CN": "每日",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.1005.2",
+          "zh_TW": "所有擂台恭迎挑戰！",
+          "zh_CN": "全部擂台恭迎挑战！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2101": {
+      "Id": 2101,
+      "Title": "InfinityTowerMsg.2101.1",
+      "Content": "InfinityTowerMsg.2101.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[11010]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2101.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2101.2",
+          "zh_TW": "新人已輕鬆突破「無限競技」難度1！下一個！",
+          "zh_CN": "新人已轻松突破了「无极角斗」难度1！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2102": {
+      "Id": 2102,
+      "Title": "InfinityTowerMsg.2102.1",
+      "Content": "InfinityTowerMsg.2102.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[11020]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2102.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2102.2",
+          "zh_TW": "新秀已通過「無限競技」難度2的考驗！下一個！",
+          "zh_CN": "新秀已通过了「无极角斗」难度2 的考验！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2103": {
+      "Id": 2103,
+      "Title": "InfinityTowerMsg.2103.1",
+      "Content": "InfinityTowerMsg.2103.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[11030]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2103.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2103.2",
+          "zh_TW": "新星毫不留情地摧毀了「無限競技」難度3的阻攔！下一個！",
+          "zh_CN": "新星毫不留情地摧毁了「无极角斗」难度3 的阻拦！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2104": {
+      "Id": 2104,
+      "Title": "InfinityTowerMsg.2104.1",
+      "Content": "InfinityTowerMsg.2104.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[11040]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2104.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2104.2",
+          "zh_TW": "「無限競技」難度4的對手已被全部踢飛！誰才是下一個挑戰者！",
+          "zh_CN": "「无极角斗」难度4 的对手已被全部踢飞！谁才是下一个挑战者！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2105": {
+      "Id": 2105,
+      "Title": "InfinityTowerMsg.2105.1",
+      "Content": "InfinityTowerMsg.2105.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[11050]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2105.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2105.2",
+          "zh_TW": "「無限競技」難度5已被神秘挑戰者稱霸！腳步仍未停下！",
+          "zh_CN": "「无极角斗」难度5 已被神秘挑战者称霸！脚步仍未停下！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2106": {
+      "Id": 2106,
+      "Title": "InfinityTowerMsg.2106.1",
+      "Content": "InfinityTowerMsg.2106.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[11060]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2106.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2106.2",
+          "zh_TW": "神秘挑戰者碾碎了「無限競技」難度6！霸業仍未終止！",
+          "zh_CN": "神秘挑战者碾碎了「无极角斗」难度6 ！霸业仍未终止！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2107": {
+      "Id": 2107,
+      "Title": "InfinityTowerMsg.2107.1",
+      "Content": "InfinityTowerMsg.2107.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[11070]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2107.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2107.2",
+          "zh_TW": "「無限競技」難度7面臨開賽以來的最大危機！時間差不多囉！",
+          "zh_CN": "「无极角斗」难度7 面临开赛以来的最大危机！时间差不多咯！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2108": {
+      "Id": 2108,
+      "Title": "InfinityTowerMsg.2108.1",
+      "Content": "InfinityTowerMsg.2108.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[11080]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2108.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2108.2",
+          "zh_TW": "即使是「無限競技」難度8也無法阻擋的強大，新王已然登基！",
+          "zh_CN": "即使是「无极角斗」难度8 也无法阻拦的强大，新王已然登基！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2109": {
+      "Id": 2109,
+      "Title": "InfinityTowerMsg.2109.1",
+      "Content": "InfinityTowerMsg.2109.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[11090]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2109.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2109.2",
+          "zh_TW": "「無限競技」難度9已被攻下，王者即將邁向更廣闊的舞台！",
+          "zh_CN": "「无极角斗」难度9 已被攻下，王者即将迈向更广阔的舞台！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2201": {
+      "Id": 2201,
+      "Title": "InfinityTowerMsg.2201.1",
+      "Content": "InfinityTowerMsg.2201.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[21020]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2201.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2201.2",
+          "zh_TW": "新人已輕鬆突破了「熾熱狂舞」難度2！下一個！",
+          "zh_CN": "新人已轻松突破了「炽热狂舞」难度2！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2202": {
+      "Id": 2202,
+      "Title": "InfinityTowerMsg.2202.1",
+      "Content": "InfinityTowerMsg.2202.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[21040]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2202.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2202.2",
+          "zh_TW": "新秀已通過「熾熱狂舞」難度4的考驗！下一個！",
+          "zh_CN": "新秀已通过了「炽热狂舞」难度4 的考验！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2203": {
+      "Id": 2203,
+      "Title": "InfinityTowerMsg.2203.1",
+      "Content": "InfinityTowerMsg.2203.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[21060]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2203.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2203.2",
+          "zh_TW": "新星毫不留情地摧毀了「熾熱狂舞」難度6的阻攔！下一個！",
+          "zh_CN": "新星毫不留情地摧毁了「炽热狂舞」难度6 的阻拦！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2204": {
+      "Id": 2204,
+      "Title": "InfinityTowerMsg.2204.1",
+      "Content": "InfinityTowerMsg.2204.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[21080]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2204.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2204.2",
+          "zh_TW": "「熾熱狂舞」難度8的對手已被全部踢飛！誰才是下一個挑戰者！",
+          "zh_CN": "「炽热狂舞」难度8 的对手已被全部踢飞！谁才是下一个挑战者！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2205": {
+      "Id": 2205,
+      "Title": "InfinityTowerMsg.2205.1",
+      "Content": "InfinityTowerMsg.2205.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[21100]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2205.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2205.2",
+          "zh_TW": "「熾熱狂舞」難度10已被神秘挑戰者稱霸！腳步仍未停下！",
+          "zh_CN": "「炽热狂舞」难度10 已被神秘挑战者称霸！脚步仍未停下！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2206": {
+      "Id": 2206,
+      "Title": "InfinityTowerMsg.2206.1",
+      "Content": "InfinityTowerMsg.2206.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[21120]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2206.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2206.2",
+          "zh_TW": "神秘挑戰者碾碎了「熾熱狂舞」難度12！霸業仍未終止！",
+          "zh_CN": "神秘挑战者碾碎了「炽热狂舞」难度12 ！霸业仍未终止！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2207": {
+      "Id": 2207,
+      "Title": "InfinityTowerMsg.2207.1",
+      "Content": "InfinityTowerMsg.2207.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[21140]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2207.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2207.2",
+          "zh_TW": "「熾熱狂舞」難度14面臨開賽以來的最大危機！時間差不多囉！",
+          "zh_CN": "「炽热狂舞」难度14 面临开赛以来的最大危机！时间差不多咯！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2208": {
+      "Id": 2208,
+      "Title": "InfinityTowerMsg.2208.1",
+      "Content": "InfinityTowerMsg.2208.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[21160]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2208.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2208.2",
+          "zh_TW": "即使是「熾熱狂舞」難度16也無法阻擋的強大，新王已然登基！",
+          "zh_CN": "即使是「炽热狂舞」难度16 也无法阻拦的强大，新王已然登基！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2209": {
+      "Id": 2209,
+      "Title": "InfinityTowerMsg.2209.1",
+      "Content": "InfinityTowerMsg.2209.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[21180]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2209.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2209.2",
+          "zh_TW": "「熾熱狂舞」難度18已被攻下，王者即將邁向更廣闊的舞台！",
+          "zh_CN": "「炽热狂舞」难度18 已被攻下，王者即将迈向更广阔的舞台！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2210": {
+      "Id": 2210,
+      "Title": "InfinityTowerMsg.2210.1",
+      "Content": "InfinityTowerMsg.2210.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[21200]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2210.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2210.2",
+          "zh_TW": "可怕的烈焰舞王！熱情的挑戰者已將「熾熱狂舞」擂台燃為灰燼！",
+          "zh_CN": "可怖的烈焰舞王！ 热情的挑战者已将「炽热狂舞」擂台燃为灰烬！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2301": {
+      "Id": 2301,
+      "Title": "InfinityTowerMsg.2301.1",
+      "Content": "InfinityTowerMsg.2301.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[31020]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2301.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2301.2",
+          "zh_TW": "新人已輕鬆突破了「颯爽疾奏」難度2！下一個！",
+          "zh_CN": "新人已轻松突破了「飒爽疾奏」难度2！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2302": {
+      "Id": 2302,
+      "Title": "InfinityTowerMsg.2302.1",
+      "Content": "InfinityTowerMsg.2302.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[31040]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2302.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2302.2",
+          "zh_TW": "新秀已通過「颯爽疾奏」難度4的考驗！下一個！",
+          "zh_CN": "新秀已通过了「飒爽疾奏」难度4 的考验！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2303": {
+      "Id": 2303,
+      "Title": "InfinityTowerMsg.2303.1",
+      "Content": "InfinityTowerMsg.2303.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[31060]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2303.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2303.2",
+          "zh_TW": "新星毫不留情地摧毀了「颯爽疾奏」難度6的阻攔！下一個！",
+          "zh_CN": "新星毫不留情地摧毁了「飒爽疾奏」难度6 的阻拦！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2304": {
+      "Id": 2304,
+      "Title": "InfinityTowerMsg.2304.1",
+      "Content": "InfinityTowerMsg.2304.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[31080]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2304.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2304.2",
+          "zh_TW": "「颯爽疾奏」難度8的對手已被全部踢飛！誰才是下一個挑戰者！",
+          "zh_CN": "「飒爽疾奏」难度8 的对手已被全部踢飞！谁才是下一个挑战者！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2305": {
+      "Id": 2305,
+      "Title": "InfinityTowerMsg.2305.1",
+      "Content": "InfinityTowerMsg.2305.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[31100]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2305.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2305.2",
+          "zh_TW": "「颯爽疾奏」難度10已被神秘挑戰者稱霸！腳步仍未停下！",
+          "zh_CN": "「飒爽疾奏」难度10 已被神秘挑战者称霸！脚步仍未停下！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2306": {
+      "Id": 2306,
+      "Title": "InfinityTowerMsg.2306.1",
+      "Content": "InfinityTowerMsg.2306.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[31120]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2306.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2306.2",
+          "zh_TW": "神秘挑戰者碾碎了「颯爽疾奏」難度12！霸業仍未終止！",
+          "zh_CN": "神秘挑战者碾碎了「飒爽疾奏」难度12 ！霸业仍未终止！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2307": {
+      "Id": 2307,
+      "Title": "InfinityTowerMsg.2307.1",
+      "Content": "InfinityTowerMsg.2307.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[31140]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2307.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2307.2",
+          "zh_TW": "「颯爽疾奏」難度14面臨開賽以來的最大危機！時間差不多囉！",
+          "zh_CN": "「飒爽疾奏」难度14 面临开赛以来的最大危机！时间差不多咯！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2308": {
+      "Id": 2308,
+      "Title": "InfinityTowerMsg.2308.1",
+      "Content": "InfinityTowerMsg.2308.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[31160]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2308.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2308.2",
+          "zh_TW": "即使是「颯爽疾奏」難度16也無法阻擋的強大，新王已然登基！",
+          "zh_CN": "即使是「飒爽疾奏」难度16 也无法阻拦的强大，新王已然登基！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2309": {
+      "Id": 2309,
+      "Title": "InfinityTowerMsg.2309.1",
+      "Content": "InfinityTowerMsg.2309.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[31180]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2309.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2309.2",
+          "zh_TW": "「颯爽疾奏」難度18已被攻下，王者即將邁向更廣闊的舞台！",
+          "zh_CN": "「飒爽疾奏」难度18 已被攻下，王者即将迈向更广阔的舞台！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2310": {
+      "Id": 2310,
+      "Title": "InfinityTowerMsg.2310.1",
+      "Content": "InfinityTowerMsg.2310.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[31200]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2310.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2310.2",
+          "zh_TW": "迅猛的亂流琴魔！瀟灑的挑戰者已將「颯爽疾奏」擂台化作飛沙！",
+          "zh_CN": "迅猛的乱流琴魔！ 潇洒的挑战者已将「飒爽疾奏」擂台化作飞沙！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2401": {
+      "Id": 2401,
+      "Title": "InfinityTowerMsg.2401.1",
+      "Content": "InfinityTowerMsg.2401.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[41020]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2401.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2401.2",
+          "zh_TW": "新人已輕鬆突破了「清雅流歌」難度2！下一個！",
+          "zh_CN": "新人已轻松突破了「清雅流歌」难度2！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2402": {
+      "Id": 2402,
+      "Title": "InfinityTowerMsg.2402.1",
+      "Content": "InfinityTowerMsg.2402.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[41040]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2402.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2402.2",
+          "zh_TW": "新秀已通過「清雅流歌」難度4的考驗！下一個！",
+          "zh_CN": "新秀已通过了「清雅流歌」难度4 的考验！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2403": {
+      "Id": 2403,
+      "Title": "InfinityTowerMsg.2403.1",
+      "Content": "InfinityTowerMsg.2403.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[41060]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2403.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2403.2",
+          "zh_TW": "新星毫不留情地摧毀了「清雅流歌」難度6的阻攔！下一個！",
+          "zh_CN": "新星毫不留情地摧毁了「清雅流歌」难度6 的阻拦！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2404": {
+      "Id": 2404,
+      "Title": "InfinityTowerMsg.2404.1",
+      "Content": "InfinityTowerMsg.2404.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[41080]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2404.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2404.2",
+          "zh_TW": "「清雅流歌」難度8的對手已被全部踢飛！誰才是下一個挑戰者！",
+          "zh_CN": "「清雅流歌」难度8 的对手已被全部踢飞！谁才是下一个挑战者！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2405": {
+      "Id": 2405,
+      "Title": "InfinityTowerMsg.2405.1",
+      "Content": "InfinityTowerMsg.2405.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[41100]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2405.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2405.2",
+          "zh_TW": "「清雅流歌」難度10已被神秘挑戰者稱霸！腳步仍未停下！",
+          "zh_CN": "「清雅流歌」难度10 已被神秘挑战者称霸！脚步仍未停下！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2406": {
+      "Id": 2406,
+      "Title": "InfinityTowerMsg.2406.1",
+      "Content": "InfinityTowerMsg.2406.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[41120]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2406.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2406.2",
+          "zh_TW": "神秘挑戰者碾碎了「清雅流歌」難度12！霸業仍未終止！",
+          "zh_CN": "神秘挑战者碾碎了「清雅流歌」难度12 ！霸业仍未终止！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2407": {
+      "Id": 2407,
+      "Title": "InfinityTowerMsg.2407.1",
+      "Content": "InfinityTowerMsg.2407.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[41140]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2407.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2407.2",
+          "zh_TW": "「清雅流歌」難度14面臨開賽以來的最大危機！時間差不多囉！",
+          "zh_CN": "「清雅流歌」难度14 面临开赛以来的最大危机！时间差不多咯！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2408": {
+      "Id": 2408,
+      "Title": "InfinityTowerMsg.2408.1",
+      "Content": "InfinityTowerMsg.2408.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[41160]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2408.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2408.2",
+          "zh_TW": "即使是「清雅流歌」難度16也無法阻擋的強大，新王已然登基！",
+          "zh_CN": "即使是「清雅流歌」难度16 也无法阻拦的强大，新王已然登基！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2409": {
+      "Id": 2409,
+      "Title": "InfinityTowerMsg.2409.1",
+      "Content": "InfinityTowerMsg.2409.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[41180]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2409.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2409.2",
+          "zh_TW": "「清雅流歌」難度18已被攻下，王者即將邁向更廣闊的舞台！",
+          "zh_CN": "「清雅流歌」难度18 已被攻下，王者即将迈向更广阔的舞台！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2410": {
+      "Id": 2410,
+      "Title": "InfinityTowerMsg.2410.1",
+      "Content": "InfinityTowerMsg.2410.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[41200]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2410.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2410.2",
+          "zh_TW": "優雅的域外歌者！悠然的挑戰者已將「清雅流歌」擂台沉入深淵！",
+          "zh_CN": "优雅的域外歌者！ 悠然的挑战者已将「清雅流歌」擂台沉入深渊！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2501": {
+      "Id": 2501,
+      "Title": "InfinityTowerMsg.2501.1",
+      "Content": "InfinityTowerMsg.2501.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[51020]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2501.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2501.2",
+          "zh_TW": "新人已輕鬆突破了「荒壘震音」難度2！下一個！",
+          "zh_CN": "新人已轻松突破了「荒垒震音」难度2！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2502": {
+      "Id": 2502,
+      "Title": "InfinityTowerMsg.2502.1",
+      "Content": "InfinityTowerMsg.2502.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[51040]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2502.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2502.2",
+          "zh_TW": "新秀已通過「荒壘震音」難度4的考驗！下一個！",
+          "zh_CN": "新秀已通过了「荒垒震音」难度4 的考验！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2503": {
+      "Id": 2503,
+      "Title": "InfinityTowerMsg.2503.1",
+      "Content": "InfinityTowerMsg.2503.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[51060]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2503.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2503.2",
+          "zh_TW": "新星毫不留情地摧毀了「荒壘震音」難度6的阻攔！下一個！",
+          "zh_CN": "新星毫不留情地摧毁了「荒垒震音」难度6 的阻拦！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2504": {
+      "Id": 2504,
+      "Title": "InfinityTowerMsg.2504.1",
+      "Content": "InfinityTowerMsg.2504.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[51080]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2504.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2504.2",
+          "zh_TW": "「荒壘震音」難度8的對手已被全部踢飛！誰才是下一個挑戰者！",
+          "zh_CN": "「荒垒震音」难度8 的对手已被全部踢飞！谁才是下一个挑战者！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2505": {
+      "Id": 2505,
+      "Title": "InfinityTowerMsg.2505.1",
+      "Content": "InfinityTowerMsg.2505.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[51100]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2505.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2505.2",
+          "zh_TW": "「荒壘震音」難度10已被神秘挑戰者稱霸！腳步仍未停下！",
+          "zh_CN": "「荒垒震音」难度10 已被神秘挑战者称霸！脚步仍未停下！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2506": {
+      "Id": 2506,
+      "Title": "InfinityTowerMsg.2506.1",
+      "Content": "InfinityTowerMsg.2506.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[51120]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2506.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2506.2",
+          "zh_TW": "神秘挑戰者碾碎了「荒壘震音」難度12！霸業仍未終止！",
+          "zh_CN": "神秘挑战者碾碎了「荒垒震音」难度12 ！霸业仍未终止！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2507": {
+      "Id": 2507,
+      "Title": "InfinityTowerMsg.2507.1",
+      "Content": "InfinityTowerMsg.2507.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[51140]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2507.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2507.2",
+          "zh_TW": "「荒壘震音」難度14面臨開賽以來的最大危機！時間差不多囉！",
+          "zh_CN": "「荒垒震音」难度14 面临开赛以来的最大危机！时间差不多咯！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2508": {
+      "Id": 2508,
+      "Title": "InfinityTowerMsg.2508.1",
+      "Content": "InfinityTowerMsg.2508.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[51160]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2508.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2508.2",
+          "zh_TW": "即使是「荒壘震音」難度16也無法阻擋的強大，新王已然登基！",
+          "zh_CN": "即使是「荒垒震音」难度16 也无法阻拦的强大，新王已然登基！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2509": {
+      "Id": 2509,
+      "Title": "InfinityTowerMsg.2509.1",
+      "Content": "InfinityTowerMsg.2509.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[51180]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2509.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2509.2",
+          "zh_TW": "「荒壘震音」難度18已被攻下，王者即將邁向更廣闊的舞台！",
+          "zh_CN": "「荒垒震音」难度18 已被攻下，王者即将迈向更广阔的舞台！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2510": {
+      "Id": 2510,
+      "Title": "InfinityTowerMsg.2510.1",
+      "Content": "InfinityTowerMsg.2510.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[51200]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2510.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2510.2",
+          "zh_TW": "震撼的洪荒之力！偉岸的挑戰者已將「荒壘震音」擂台碾至塵埃！",
+          "zh_CN": "震撼的洪荒之力！ 伟岸的挑战者已将「荒垒震音」擂台碾至尘埃！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2601": {
+      "Id": 2601,
+      "Title": "InfinityTowerMsg.2601.1",
+      "Content": "InfinityTowerMsg.2601.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[61020]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2601.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2601.2",
+          "zh_TW": "新人已輕鬆突破了「幽閉儀式」難度2！下一個！",
+          "zh_CN": "新人已轻松突破了「幽闭仪典」难度2！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2602": {
+      "Id": 2602,
+      "Title": "InfinityTowerMsg.2602.1",
+      "Content": "InfinityTowerMsg.2602.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[61040]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2602.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2602.2",
+          "zh_TW": "新秀已通過「幽閉儀式」難度4的考驗！下一個！",
+          "zh_CN": "新秀已通过了「幽闭仪典」难度4 的考验！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2603": {
+      "Id": 2603,
+      "Title": "InfinityTowerMsg.2603.1",
+      "Content": "InfinityTowerMsg.2603.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[61060]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2603.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2603.2",
+          "zh_TW": "新星毫不留情地摧毀了「幽閉儀式」難度6的阻攔！下一個！",
+          "zh_CN": "新星毫不留情地摧毁了「幽闭仪典」难度6 的阻拦！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2604": {
+      "Id": 2604,
+      "Title": "InfinityTowerMsg.2604.1",
+      "Content": "InfinityTowerMsg.2604.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[61080]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2604.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2604.2",
+          "zh_TW": "「幽閉儀式」難度8的對手已被全部踢飛！誰才是下一個挑戰者！",
+          "zh_CN": "「幽闭仪典」难度8 的对手已被全部踢飞！谁才是下一个挑战者！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2605": {
+      "Id": 2605,
+      "Title": "InfinityTowerMsg.2605.1",
+      "Content": "InfinityTowerMsg.2605.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[61100]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2605.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2605.2",
+          "zh_TW": "「幽閉儀式」難度10已被神秘挑戰者稱霸！腳步仍未停下！",
+          "zh_CN": "「幽闭仪典」难度10 已被神秘挑战者称霸！脚步仍未停下！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2606": {
+      "Id": 2606,
+      "Title": "InfinityTowerMsg.2606.1",
+      "Content": "InfinityTowerMsg.2606.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[61120]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2606.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2606.2",
+          "zh_TW": "神秘挑戰者碾碎了「幽閉儀式」難度12！霸業仍未終止！",
+          "zh_CN": "神秘挑战者碾碎了「幽闭仪典」难度12 ！霸业仍未终止！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2607": {
+      "Id": 2607,
+      "Title": "InfinityTowerMsg.2607.1",
+      "Content": "InfinityTowerMsg.2607.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[61140]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2607.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2607.2",
+          "zh_TW": "「幽閉儀式」難度14面臨開賽以來的最大危機！時間差不多囉！",
+          "zh_CN": "「幽闭仪典」难度14 面临开赛以来的最大危机！时间差不多咯！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2608": {
+      "Id": 2608,
+      "Title": "InfinityTowerMsg.2608.1",
+      "Content": "InfinityTowerMsg.2608.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[61160]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2608.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2608.2",
+          "zh_TW": "即使是「幽閉儀式」難度16也無法阻擋的強大，新王已然登基！",
+          "zh_CN": "即使是「幽闭仪典」难度16 也无法阻拦的强大，新王已然登基！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2609": {
+      "Id": 2609,
+      "Title": "InfinityTowerMsg.2609.1",
+      "Content": "InfinityTowerMsg.2609.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[61180]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2609.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2609.2",
+          "zh_TW": "「幽閉儀式」難度18已被攻下，王者即將邁向更廣闊的舞台！",
+          "zh_CN": "「幽闭仪典」难度18 已被攻下，王者即将迈向更广阔的舞台！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2610": {
+      "Id": 2610,
+      "Title": "InfinityTowerMsg.2610.1",
+      "Content": "InfinityTowerMsg.2610.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[61200]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2610.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2610.2",
+          "zh_TW": "無盡的黑暗！如惡魔登場的挑戰者已稱霸「幽閉儀式」擂台的全部層數！",
+          "zh_CN": "无尽的黑暗！如恶魔登场的挑战者已称霸了「幽闭仪典」擂台的全部层数！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2701": {
+      "Id": 2701,
+      "Title": "InfinityTowerMsg.2701.1",
+      "Content": "InfinityTowerMsg.2701.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[71020]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2701.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2701.2",
+          "zh_TW": "新人已輕鬆突破了「紛閃派對」難度2！下一個！",
+          "zh_CN": "新人已轻松突破了「纷闪派对」难度2！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2702": {
+      "Id": 2702,
+      "Title": "InfinityTowerMsg.2702.1",
+      "Content": "InfinityTowerMsg.2702.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[71040]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2702.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2702.2",
+          "zh_TW": "新秀已通過「紛閃派對」難度4的考驗！下一個！",
+          "zh_CN": "新秀已通过了「纷闪派对」难度4 的考验！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2703": {
+      "Id": 2703,
+      "Title": "InfinityTowerMsg.2703.1",
+      "Content": "InfinityTowerMsg.2703.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[71060]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2703.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2703.2",
+          "zh_TW": "新星毫不留情地摧毀了「紛閃派對」難度6的阻攔！下一個！",
+          "zh_CN": "新星毫不留情地摧毁了「纷闪派对」难度6 的阻拦！下一个！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2704": {
+      "Id": 2704,
+      "Title": "InfinityTowerMsg.2704.1",
+      "Content": "InfinityTowerMsg.2704.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[71080]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2704.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2704.2",
+          "zh_TW": "「紛閃派對」難度8的對手已被全部踢飛！誰才是下一個挑戰者！",
+          "zh_CN": "「纷闪派对」难度8 的对手已被全部踢飞！谁才是下一个挑战者！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2705": {
+      "Id": 2705,
+      "Title": "InfinityTowerMsg.2705.1",
+      "Content": "InfinityTowerMsg.2705.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[71100]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2705.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2705.2",
+          "zh_TW": "「紛閃派對」難度10已被神秘挑戰者稱霸！腳步仍未停下！",
+          "zh_CN": "「纷闪派对」难度10 已被神秘挑战者称霸！脚步仍未停下！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2706": {
+      "Id": 2706,
+      "Title": "InfinityTowerMsg.2706.1",
+      "Content": "InfinityTowerMsg.2706.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[71120]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2706.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2706.2",
+          "zh_TW": "神秘挑戰者碾碎了「紛閃派對」難度12！霸業仍未終止！",
+          "zh_CN": "神秘挑战者碾碎了「纷闪派对」难度12 ！霸业仍未终止！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2707": {
+      "Id": 2707,
+      "Title": "InfinityTowerMsg.2707.1",
+      "Content": "InfinityTowerMsg.2707.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[71140]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2707.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2707.2",
+          "zh_TW": "「紛閃派對」難度14面臨開賽以來的最大危機！時間差不多囉！",
+          "zh_CN": "「纷闪派对」难度14 面临开赛以来的最大危机！时间差不多咯！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2708": {
+      "Id": 2708,
+      "Title": "InfinityTowerMsg.2708.1",
+      "Content": "InfinityTowerMsg.2708.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[71160]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2708.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2708.2",
+          "zh_TW": "即使是「紛閃派對」難度16也無法阻擋的強大，新王已然登基！",
+          "zh_CN": "即使是「纷闪派对」难度16 也无法阻拦的强大，新王已然登基！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2709": {
+      "Id": 2709,
+      "Title": "InfinityTowerMsg.2709.1",
+      "Content": "InfinityTowerMsg.2709.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[71180]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2709.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2709.2",
+          "zh_TW": "「紛閃派對」難度18已被攻下，王者即將邁向更廣闊的舞台！",
+          "zh_CN": "「纷闪派对」难度18 已被攻下，王者即将迈向更广阔的舞台！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "2710": {
+      "Id": 2710,
+      "Title": "InfinityTowerMsg.2710.1",
+      "Content": "InfinityTowerMsg.2710.2",
+      "Type": 2,
+      "DayOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "Condition": 1,
+      "Params": "[71200]",
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.2710.1",
+          "zh_TW": "突發",
+          "zh_CN": "突发",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.2710.2",
+          "zh_TW": "奪目的光芒！如天使再現的挑戰者已稱霸「紛閃派對」擂台的全部層數！",
+          "zh_CN": "夺目的光芒！如天使再现的挑战者已称霸了「纷闪派对」擂台的全部层数！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3001": {
+      "Id": 3001,
+      "Title": "InfinityTowerMsg.3001.1",
+      "Content": "InfinityTowerMsg.3001.2",
+      "Type": 3,
+      "DayOfWeek": [
+        1,
+        3,
+        5
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3001.1",
+          "zh_TW": "快訊",
+          "zh_CN": "快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3001.2",
+          "zh_TW": "來自埃摩的尋貓啟事：遺失黑貓一隻，毛色亮麗，動作敏捷，如有線索請立即聯絡南門衛哨。",
+          "zh_CN": "来自埃摩的寻猫启事：丢失黑猫一只，毛色鲜亮，动作机敏，如有线索请立即联络南门卫哨。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3002": {
+      "Id": 3002,
+      "Title": "InfinityTowerMsg.3002.1",
+      "Content": "InfinityTowerMsg.3002.2",
+      "Type": 3,
+      "DayOfWeek": [
+        2,
+        4,
+        6
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3002.1",
+          "zh_TW": "快訊",
+          "zh_CN": "快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3002.2",
+          "zh_TW": "銀城區飆車亂象日益嚴重，城邦主管官員表示將盡力疏導交通問題，並嚴格限制使用非法神器。",
+          "zh_CN": "银城区飙车乱象日益严重，城邦主管官员表示将尽力疏导交通问题，并严格限制非法神器使用。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3003": {
+      "Id": 3003,
+      "Title": "InfinityTowerMsg.3003.1",
+      "Content": "InfinityTowerMsg.3003.2",
+      "Type": 3,
+      "DayOfWeek": [
+        0
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3003.1",
+          "zh_TW": "快訊",
+          "zh_CN": "快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3003.2",
+          "zh_TW": "麥肯基狂亂週日活動已登場！只需1,900朵拉，大口美食吃到飽！",
+          "zh_CN": "麦肯基狂乱周日活动已开启！只需1900朵拉，大口美食吃到饱！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3004": {
+      "Id": 3004,
+      "Title": "InfinityTowerMsg.3004.1",
+      "Content": "InfinityTowerMsg.3004.2",
+      "Type": 3,
+      "DayOfWeek": [
+        0
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3004.1",
+          "zh_TW": "快訊",
+          "zh_CN": "快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3004.2",
+          "zh_TW": "轉發這個青葉，事業蒸蒸日上，錢景一片大好！",
+          "zh_CN": "转发这个青叶，事业蒸蒸日上，钱景一片大好！",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3005": {
+      "Id": 3005,
+      "Title": "InfinityTowerMsg.3005.1",
+      "Content": "InfinityTowerMsg.3005.2",
+      "Type": 3,
+      "DayOfWeek": [
+        1,
+        3,
+        5
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3005.1",
+          "zh_TW": "快訊",
+          "zh_CN": "快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3005.2",
+          "zh_TW": "菲萊一七旬老人為見亡妻，連續吃下10朵斑點菇後被某私人診所醫生成功救下。",
+          "zh_CN": "菲莱一七旬老人为见亡妻，连续吃下10个斑点菇后被某私人诊所医生成功救下。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3006": {
+      "Id": 3006,
+      "Title": "InfinityTowerMsg.3006.1",
+      "Content": "InfinityTowerMsg.3006.2",
+      "Type": 3,
+      "DayOfWeek": [
+        2,
+        4,
+        6
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3006.1",
+          "zh_TW": "快訊",
+          "zh_CN": "快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3006.2",
+          "zh_TW": "專家：能量飲料飲用過量有害健康，員工應注意提高工作效率。",
+          "zh_CN": "专家：能量饮料过量饮用有害健康，员工应注意提高工作效率。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3007": {
+      "Id": 3007,
+      "Title": "InfinityTowerMsg.3007.1",
+      "Content": "InfinityTowerMsg.3007.2",
+      "Type": 3,
+      "DayOfWeek": [
+        0
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3007.1",
+          "zh_TW": "快訊",
+          "zh_CN": "快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3007.2",
+          "zh_TW": "「野空事務所」抵達千塔，「見證奇蹟」時刻再度重現。",
+          "zh_CN": "“野空事务所”抵达千塔，\"见证奇迹”时刻再度重现。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3008": {
+      "Id": 3008,
+      "Title": "InfinityTowerMsg.3008.1",
+      "Content": "InfinityTowerMsg.3008.2",
+      "Type": 3,
+      "DayOfWeek": [
+        0
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3008.1",
+          "zh_TW": "氣象",
+          "zh_CN": "气象",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3008.2",
+          "zh_TW": "艾摩今日天氣：晴朗，星塔光汙染較高。",
+          "zh_CN": "艾摩今日天气：晴，星塔光污染较高。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3009": {
+      "Id": 3009,
+      "Title": "InfinityTowerMsg.3009.1",
+      "Content": "InfinityTowerMsg.3009.2",
+      "Type": 3,
+      "DayOfWeek": [
+        1
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3009.1",
+          "zh_TW": "氣象",
+          "zh_CN": "气象",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3009.2",
+          "zh_TW": "菲萊今日天氣：雨天，周邊動植物偶發狂暴。",
+          "zh_CN": "菲莱今日天气：雨，周边动植物偶发狂暴。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3010": {
+      "Id": 3010,
+      "Title": "InfinityTowerMsg.3010.1",
+      "Content": "InfinityTowerMsg.3010.2",
+      "Type": 3,
+      "DayOfWeek": [
+        2
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3010.1",
+          "zh_TW": "氣象",
+          "zh_CN": "气象",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3010.2",
+          "zh_TW": "塞爾斯泰今日天氣：大風，注意波浪。",
+          "zh_CN": "塞尔斯泰今日天气：大风，注意波浪。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3011": {
+      "Id": 3011,
+      "Title": "InfinityTowerMsg.3011.1",
+      "Content": "InfinityTowerMsg.3011.2",
+      "Type": 3,
+      "DayOfWeek": [
+        3
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3011.1",
+          "zh_TW": "氣象",
+          "zh_CN": "气象",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3011.2",
+          "zh_TW": "蛇脊山南今日天氣：多雲，偶有迷霧。",
+          "zh_CN": "蛇脊山南今日天气：多云，偶有迷雾。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3012": {
+      "Id": 3012,
+      "Title": "InfinityTowerMsg.3012.1",
+      "Content": "InfinityTowerMsg.3012.2",
+      "Type": 3,
+      "DayOfWeek": [
+        4
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3012.1",
+          "zh_TW": "氣象",
+          "zh_CN": "气象",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3012.2",
+          "zh_TW": "弗拉維奧今日天氣：大霧，天氣涼爽，香味撲鼻。",
+          "zh_CN": "弗拉维奥今日天气：大雾，凉爽，香味扑鼻。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3013": {
+      "Id": 3013,
+      "Title": "InfinityTowerMsg.3013.1",
+      "Content": "InfinityTowerMsg.3013.2",
+      "Type": 3,
+      "DayOfWeek": [
+        5
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3013.1",
+          "zh_TW": "氣象",
+          "zh_CN": "气象",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3013.2",
+          "zh_TW": "蒼梧今日天氣：天氣溫和，宜健身、散步。",
+          "zh_CN": "苍梧今日天气：温和，宜健身、散步。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3014": {
+      "Id": 3014,
+      "Title": "InfinityTowerMsg.3014.1",
+      "Content": "InfinityTowerMsg.3014.2",
+      "Type": 3,
+      "DayOfWeek": [
+        6
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3014.1",
+          "zh_TW": "氣象",
+          "zh_CN": "气象",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3014.2",
+          "zh_TW": "松川今日天氣：降雨，天氣溫和，濕度較高。",
+          "zh_CN": "松川今日天气：降雨，气候温和，湿度较高。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3015": {
+      "Id": 3015,
+      "Title": "InfinityTowerMsg.3015.1",
+      "Content": "InfinityTowerMsg.3015.2",
+      "Type": 3,
+      "DayOfWeek": [
+        1,
+        3,
+        5
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3015.1",
+          "zh_TW": "快訊",
+          "zh_CN": "快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3015.2",
+          "zh_TW": "菲萊某聯合種業職員宴會後找摩托車代駕，卻不料代駕是酒駕。",
+          "zh_CN": "菲莱某联合种业职员宴会后找自动车代驾，不料代驾是醉驾。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3016": {
+      "Id": 3016,
+      "Title": "InfinityTowerMsg.3016.1",
+      "Content": "InfinityTowerMsg.3016.2",
+      "Type": 3,
+      "DayOfWeek": [
+        2,
+        4,
+        6
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3016.1",
+          "zh_TW": "快訊",
+          "zh_CN": "快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3016.2",
+          "zh_TW": "正值假日，米拉什地區傭兵在火拼時使用消音槍管，被批評沒有假日氣氛。",
+          "zh_CN": "正值假日，米拉什地区雇佣兵在火拼时使用消音枪管，被批评没有假日气氛。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3017": {
+      "Id": 3017,
+      "Title": "InfinityTowerMsg.3017.1",
+      "Content": "InfinityTowerMsg.3017.2",
+      "Type": 3,
+      "DayOfWeek": [
+        1,
+        3,
+        5
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3017.1",
+          "zh_TW": "快訊",
+          "zh_CN": "快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3017.2",
+          "zh_TW": "有學者稱：在弗拉維奧附近的魔物可能已經學會了應援舞蹈。",
+          "zh_CN": "有学者称：在弗拉维奥附近的魔物可能已经学会了应援舞蹈。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3018": {
+      "Id": 3018,
+      "Title": "InfinityTowerMsg.3018.1",
+      "Content": "InfinityTowerMsg.3018.2",
+      "Type": 3,
+      "DayOfWeek": [
+        2,
+        4,
+        6
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3018.1",
+          "zh_TW": "快訊",
+          "zh_CN": "快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3018.2",
+          "zh_TW": "新哲學教材曝光，標題為：如果要在埃摩站穩腳跟，須至少滿1年且身體健康。",
+          "zh_CN": "新哲学教材曝光，标题为：如果要在埃摩站稳脚跟，需要至少1周岁且身体健康。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    },
+    "3019": {
+      "Id": 3019,
+      "Title": "InfinityTowerMsg.3019.1",
+      "Content": "InfinityTowerMsg.3019.2",
+      "Type": 3,
+      "DayOfWeek": [
+        0
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "InfinityTowerMsg.3019.1",
+          "zh_TW": "快訊",
+          "zh_CN": "快讯",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        },
+        "/Content": {
+          "key": "InfinityTowerMsg.3019.2",
+          "zh_TW": "星輝附屬大學作文比賽第一名《我的衛隊長父親》為追查軍械庫資產侵占案提供了難以估計的幫助。",
+          "zh_CN": "星辉附属大学作文比赛第一名《我的卫队长父亲》为追查军械库资产侵吞案提供了不可估量的帮助。",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerMsg.json",
+            "zh_CN": "language/zh_CN/InfinityTowerMsg.json"
+          }
+        }
+      }
+    }
+  }
+}

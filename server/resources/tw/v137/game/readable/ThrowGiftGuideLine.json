@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "ThrowGiftGuideLine",
+    "categories": [
+      "quests",
+      "stages_modes"
+    ],
+    "row_count": 4,
+    "localization_hits": 0,
+    "source": "bin/ThrowGiftGuideLine.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "40000501": {
+      "Id": 40000501,
+      "Speed": 650,
+      "Angle": 30,
+      "SpeedThreshold": 10,
+      "AngleThreshold": 2,
+      "EndPointTime": 10000,
+      "GuideLinePointInterval": 1000
+    },
+    "40000502": {
+      "Id": 40000502,
+      "Speed": 820,
+      "Angle": 60,
+      "SpeedThreshold": 20,
+      "AngleThreshold": 5,
+      "EndPointTime": 12000,
+      "GuideLinePointInterval": 1000
+    },
+    "40000901": {
+      "Id": 40000901,
+      "Speed": 1000,
+      "Angle": 45,
+      "SpeedThreshold": 30,
+      "AngleThreshold": 5,
+      "EndPointTime": 18000,
+      "GuideLinePointInterval": 1500
+    },
+    "40000902": {
+      "Id": 40000902,
+      "Speed": 820,
+      "Angle": 60,
+      "SpeedThreshold": 20,
+      "AngleThreshold": 5,
+      "EndPointTime": 12000,
+      "GuideLinePointInterval": 1000
+    }
+  }
+}

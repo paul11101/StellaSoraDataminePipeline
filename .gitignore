@@ -9,3 +9,7 @@ __pycache__/
 /reference/
 /baseline/
 *.log
+/server/.gradle/
+/server/build/
+/server/runtime/
+/server/config.json

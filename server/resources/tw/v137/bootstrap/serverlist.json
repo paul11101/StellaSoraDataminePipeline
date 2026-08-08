@@ -1,0 +1,43 @@
+{
+  "version": 137,
+  "agents": [
+    {
+      "name": "星塔旅人",
+      "addr": "https://nova.stargazer-games.com/agent-zone-1/",
+      "status": 1,
+      "zone": 1
+    }
+  ],
+  "status": 0,
+  "message": "",
+  "report_endpoint": "https://nova.stargazer-games.com/report/",
+  "rules": [
+    {
+      "platform": 1,
+      "channel": "Official",
+      "version": "1.13.0",
+      "op": 1,
+      "action": 1,
+      "url": "https://apps.apple.com/tw/app/%E6%98%9F%E5%A1%94%E6%97%85%E4%BA%BA/id6738902933",
+      "enable": true
+    },
+    {
+      "platform": 2,
+      "channel": "Official",
+      "version": "1.13.0",
+      "op": 1,
+      "action": 1,
+      "url": "https://play.google.com/store/apps/details?id=com.Stargazer.StellaSora",
+      "enable": true
+    },
+    {
+      "platform": 3,
+      "channel": "Official",
+      "version": "1.13.0",
+      "op": 1,
+      "action": 1,
+      "url": "text://請在PC啟動器內點選更新按鈕完成版本更新",
+      "enable": true
+    }
+  ]
+}

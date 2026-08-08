@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message BuildConvertGroupRewardReceiveResp {
+  repeated uint32 Ids = 1;
+  .proto.ChangeInfo Change = 2;
+  repeated .proto.ItemTpl AwardItems = 3;
+  bytes NextPackage = 2047;
+}

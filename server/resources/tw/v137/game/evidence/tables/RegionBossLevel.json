@@ -1,0 +1,939 @@
+{
+  "table": "RegionBossLevel",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\a70c58a762803e9e.bin",
+  "source_sha256": "c36b772310e9fac4b1134775c072c30e4b76ffe88d98c2d20363afd53b60579f",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\RegionBossLevel.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 27
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "reference_field_order": [
+      "Id",
+      "RegionBossId",
+      "Difficulty",
+      "RegionType",
+      "Name",
+      "Desc",
+      "SuggestedPower",
+      "RecommendBuildRank",
+      "PreLevelId",
+      "PreLevelStar",
+      "NeedWorldClass",
+      "FloorId",
+      "OneStarCondition",
+      "TwoStarCondition",
+      "ThreeStarCondition",
+      "RoundTableDropId",
+      "RoundTableGuarantee",
+      "SequentialDropId",
+      "EnergyConsume",
+      "BaseAwardPreview",
+      "EntryGroupId1",
+      "EntryGroupLevel1",
+      "EntryGroupId2",
+      "EntryGroupLevel2",
+      "EntryGroupId3",
+      "EntryGroupLevel3",
+      "EntryGroupId4",
+      "EntryGroupLevel4",
+      "EntryGroupId5",
+      "EntryGroupLevel5"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "RegionBossId",
+      "3": "Difficulty",
+      "4": "RegionType",
+      "5": "Name",
+      "6": "Desc",
+      "8": "SuggestedPower",
+      "9": "RecommendBuildRank",
+      "10": "PreLevelId",
+      "12": "PreLevelStar",
+      "13": "NeedWorldClass",
+      "15": "FloorId",
+      "16": "OneStarCondition",
+      "17": "TwoStarCondition",
+      "18": "ThreeStarCondition",
+      "19": "RoundTableDropId",
+      "20": "RoundTableGuarantee",
+      "21": "SequentialDropId",
+      "23": "EnergyConsume",
+      "24": "BaseAwardPreview",
+      "25": "EntryGroupId1",
+      "26": "EntryGroupLevel1",
+      "27": "EntryGroupId2",
+      "28": "EntryGroupLevel2",
+      "29": "EntryGroupId3",
+      "30": "EntryGroupLevel3",
+      "31": "EntryGroupId4",
+      "32": "EntryGroupLevel4",
+      "33": "EntryGroupId5",
+      "34": "EntryGroupLevel5"
+    },
+    "aot_field_count": 30,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "2": {
+      "field": "RegionBossId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "3": {
+      "field": "Difficulty",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "4": {
+      "field": "RegionType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "5": {
+      "field": "Name",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "6": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "8": {
+      "field": "SuggestedPower",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "9": {
+      "field": "RecommendBuildRank",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "10": {
+      "field": "PreLevelId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 24,
+      "compared_reference_rows": 24,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 24,
+          "compared": 24
+        },
+        {
+          "codec": "varint_int",
+          "matches": 24,
+          "compared": 24
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 24
+        }
+      ]
+    },
+    "12": {
+      "field": "PreLevelStar",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 24,
+      "compared_reference_rows": 24,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 24,
+          "compared": 24
+        },
+        {
+          "codec": "varint_int",
+          "matches": 24,
+          "compared": 24
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 24
+        }
+      ]
+    },
+    "13": {
+      "field": "NeedWorldClass",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "15": {
+      "field": "FloorId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "16": {
+      "field": "OneStarCondition",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "17": {
+      "field": "TwoStarCondition",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "18": {
+      "field": "ThreeStarCondition",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "19": {
+      "field": "RoundTableDropId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 12,
+      "compared_reference_rows": 12,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 12,
+          "compared": 12
+        },
+        {
+          "codec": "varint_int",
+          "matches": 12,
+          "compared": 12
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 12
+        }
+      ]
+    },
+    "20": {
+      "field": "RoundTableGuarantee",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 12,
+      "compared_reference_rows": 12,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 12,
+          "compared": 12
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 12
+        }
+      ]
+    },
+    "21": {
+      "field": "SequentialDropId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "23": {
+      "field": "EnergyConsume",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "24": {
+      "field": "BaseAwardPreview",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "25": {
+      "field": "EntryGroupId1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "26": {
+      "field": "EntryGroupLevel1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "27": {
+      "field": "EntryGroupId2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "28": {
+      "field": "EntryGroupLevel2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "29": {
+      "field": "EntryGroupId3",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "30": {
+      "field": "EntryGroupLevel3",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "31": {
+      "field": "EntryGroupId4",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "32": {
+      "field": "EntryGroupLevel4",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "33": {
+      "field": "EntryGroupId5",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "34": {
+      "field": "EntryGroupLevel5",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 27,
+    "reference_row_count": 27,
+    "shared_key_count": 27,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 27,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

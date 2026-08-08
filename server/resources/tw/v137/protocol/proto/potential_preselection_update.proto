@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package proto;
+import public "public_star_tower.proto";
+
+message PotentialPreselectionUpdateReq {
+  uint64 Id = 1;
+  repeated .proto.StarTowerBookCharPotential CharPotentials = 2;
+  bytes NextPackage = 2047;
+}

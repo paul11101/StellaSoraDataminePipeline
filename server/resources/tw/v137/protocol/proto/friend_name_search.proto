@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message FriendNameSearchReq {
+  string Name = 1;
+  bytes NextPackage = 2047;
+}
+
+message FriendNameSearchResp {
+  repeated .proto.Friend Friends = 1;
+  bytes NextPackage = 2047;
+}

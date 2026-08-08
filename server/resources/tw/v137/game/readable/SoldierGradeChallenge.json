@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SoldierGradeChallenge",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 2,
+    "localization_hits": 2,
+    "source": "bin/SoldierGradeChallenge.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "10101": {
+      "Id": 10101,
+      "KeyGradeId": 101,
+      "GradeLevel": 1,
+      "Name": "SoldierGradeChallenge.10101.1",
+      "OppoLevelShow": 1,
+      "DiffcultyTemplateLv": 1,
+      "NodeGroupId": 101,
+      "Score": 1000,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierGradeChallenge.10101.1",
+          "zh_TW": "秩序",
+          "zh_CN": "秩序",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierGradeChallenge.json",
+            "zh_CN": "language/zh_CN/SoldierGradeChallenge.json"
+          }
+        }
+      }
+    },
+    "10201": {
+      "Id": 10201,
+      "KeyGradeId": 102,
+      "GradeLevel": 1,
+      "Name": "SoldierGradeChallenge.10201.1",
+      "OppoLevelShow": 10,
+      "DiffcultyTemplateLv": 1,
+      "NodeGroupId": 102,
+      "Score": 3000,
+      "UnlockGradeLevel": 10101,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierGradeChallenge.10201.1",
+          "zh_TW": "混沌",
+          "zh_CN": "混沌",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierGradeChallenge.json",
+            "zh_CN": "language/zh_CN/SoldierGradeChallenge.json"
+          }
+        }
+      }
+    }
+  }
+}

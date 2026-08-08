@@ -1,0 +1,168 @@
+{
+  "table": "DestroyObject",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\c15497f09d61177c.bin",
+  "source_sha256": "4f41d6fb791d93c4ca0d3311a14159edba8506b1c2c31c26346e607ab310ffbc",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\DestroyObject.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 8
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "reference_field_order": [
+      "Id",
+      "Lv",
+      "Templete",
+      "Faction"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "3": "Lv",
+      "5": "Templete",
+      "6": "Faction"
+    },
+    "aot_field_count": 4,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 8,
+      "compared_reference_rows": 8,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 8,
+          "compared": 8
+        },
+        {
+          "codec": "varint_int",
+          "matches": 8,
+          "compared": 8
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 8
+        }
+      ]
+    },
+    "3": {
+      "field": "Lv",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 8,
+      "compared_reference_rows": 8,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 8,
+          "compared": 8
+        },
+        {
+          "codec": "varint_int",
+          "matches": 8,
+          "compared": 8
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 8
+        }
+      ]
+    },
+    "5": {
+      "field": "Templete",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 8,
+      "compared_reference_rows": 8,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 8,
+          "compared": 8
+        },
+        {
+          "codec": "varint_int",
+          "matches": 8,
+          "compared": 8
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 8
+        }
+      ]
+    },
+    "6": {
+      "field": "Faction",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 8,
+      "compared_reference_rows": 8,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 8,
+          "compared": 8
+        },
+        {
+          "codec": "varint_int",
+          "matches": 8,
+          "compared": 8
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 8
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 8,
+    "reference_row_count": 8,
+    "shared_key_count": 8,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 8,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

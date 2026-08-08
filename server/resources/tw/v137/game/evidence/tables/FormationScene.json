@@ -1,0 +1,96 @@
+{
+  "table": "FormationScene",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\ed5184cf34fb4a29.bin",
+  "source_sha256": "beb50e480f7aed535fd0a271d14f0061f95dd6c3d2703b051b0d9e71d0affe3b",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\FormationScene.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 0,
+    "key_type": 0,
+    "row_count": 10
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2
+    ],
+    "reference_field_order": [
+      "SceneName",
+      "Path"
+    ],
+    "local_aot_field_numbers": {
+      "1": "SceneName",
+      "2": "Path"
+    },
+    "aot_field_count": 2,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "SceneName",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 10,
+      "compared_reference_rows": 10,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 10
+        }
+      ]
+    },
+    "2": {
+      "field": "Path",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 10,
+      "compared_reference_rows": 10,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 10
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 10,
+    "reference_row_count": 10,
+    "shared_key_count": 10,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 10,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

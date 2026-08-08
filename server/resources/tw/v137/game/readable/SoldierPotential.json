@@ -1,0 +1,2096 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SoldierPotential",
+    "categories": [
+      "characters",
+      "stages_modes"
+    ],
+    "row_count": 80,
+    "localization_hits": 160,
+    "source": "bin/SoldierPotential.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "11201": {
+      "Id": 11201,
+      "Name": "SoldierPotential.11201.1",
+      "Des": "SoldierPotential.11201.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_11201_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.11201.1",
+          "zh_TW": "迅風開雲",
+          "zh_CN": "迅风开云",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.11201.2",
+          "zh_TW": "【主戰配置時生效】普通攻擊變為持續發射劍氣攻擊，造成範圍傷害。",
+          "zh_CN": "【主战配置时生效】普通攻击变为持续进行剑气攻击，造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "11202": {
+      "Id": 11202,
+      "Name": "SoldierPotential.11202.1",
+      "Des": "SoldierPotential.11202.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_11201_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.11202.1",
+          "zh_TW": "疾閃四連",
+          "zh_CN": "疾闪四连",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.11202.2",
+          "zh_TW": "【主戰配置時生效】施放主戰技時，額外發射3道劍氣，造成範圍傷害。",
+          "zh_CN": "【主战配置时生效】施放主战技时，额外发射3道剑气，造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "11101": {
+      "Id": 11101,
+      "Name": "SoldierPotential.11101.1",
+      "Des": "SoldierPotential.11101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_11101_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.11101.1",
+          "zh_TW": "向量·固化",
+          "zh_CN": "矢量·固化",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.11101.2",
+          "zh_TW": "【主戰配置時生效】主戰技每射出1支冰箭，自身傷害提升，可疊加10層，此效果於技能結束時消失。",
+          "zh_CN": "【主战配置时生效】主战技每射出1支冰箭，自身伤害提升，可叠加10层 ，该效果于技能结束时消失。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "11102": {
+      "Id": 11102,
+      "Name": "SoldierPotential.11102.1",
+      "Des": "SoldierPotential.11102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_11101_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.11102.1",
+          "zh_TW": "常量·堆疊",
+          "zh_CN": "常量·堆叠",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.11102.2",
+          "zh_TW": "【後援配置時生效】後援技變為產生「冰柱陣列」，造成範圍傷害。",
+          "zh_CN": "【后援配置时生效】后援技变为生成「冰柱阵列」，造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "10301": {
+      "Id": 10301,
+      "Name": "SoldierPotential.10301.1",
+      "Des": "SoldierPotential.10301.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_10301_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.10301.1",
+          "zh_TW": "究極火花",
+          "zh_CN": "究极火花",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.10301.2",
+          "zh_TW": "【後援配置時生效】後援技變為向前發射能量，造成的傷害提升。",
+          "zh_CN": "【后援配置时生效】后援技变为向前发射能量，造成的伤害提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "10302": {
+      "Id": 10302,
+      "Name": "SoldierPotential.10302.1",
+      "Des": "SoldierPotential.10302.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_10301_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.10302.1",
+          "zh_TW": "共振鳴火",
+          "zh_CN": "共振鸣火",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.10302.2",
+          "zh_TW": "【主戰配置時生效】主戰技產生的「殘影」持續時間延長，且可追蹤目標。",
+          "zh_CN": "【主战配置时生效】主战技生成的「残影」持续时间延长，可追踪目标。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "12501": {
+      "Id": 12501,
+      "Name": "SoldierPotential.12501.1",
+      "Des": "SoldierPotential.12501.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_12501_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.12501.1",
+          "zh_TW": "嚴寒預報",
+          "zh_CN": "严寒预报",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.12501.2",
+          "zh_TW": "【後援配置時生效】後援技可額外產生3個「冰之花」。",
+          "zh_CN": "【后援配置时生效】后援技可额外生成3个「冰之花」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "12502": {
+      "Id": 12502,
+      "Name": "SoldierPotential.12502.1",
+      "Des": "SoldierPotential.12502.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_12501_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.12502.1",
+          "zh_TW": "風雪無阻",
+          "zh_CN": "风雪无阻",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.12502.2",
+          "zh_TW": "【主戰配置時生效】主戰技攻擊範圍提升，持續時間延長。",
+          "zh_CN": "【主战配置时生效】主战技攻击范围提升，持续时间延长。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "13001": {
+      "Id": 13001,
+      "Name": "SoldierPotential.13001.1",
+      "Des": "SoldierPotential.13001.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_13001_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.13001.1",
+          "zh_TW": "危險人偶",
+          "zh_CN": "危险人偶",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.13001.2",
+          "zh_TW": "【主戰配置時生效】「人偶」於持續時間結束時爆炸，造成範圍傷害。",
+          "zh_CN": "【主战配置时生效】「人偶」于持续时间结束时爆炸，造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "13002": {
+      "Id": 13002,
+      "Name": "SoldierPotential.13002.1",
+      "Des": "SoldierPotential.13002.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_13001_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.13002.1",
+          "zh_TW": "霜凝滯凍",
+          "zh_CN": "霜凝滞冻",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.13002.2",
+          "zh_TW": "【後援配置時生效】後援技變為每次射擊形成「霜浪」，造成範圍傷害。",
+          "zh_CN": "【后援配置时生效】后援技变为每次射击形成「霜浪」，造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "12701": {
+      "Id": 12701,
+      "Name": "SoldierPotential.12701.1",
+      "Des": "SoldierPotential.12701.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_12701_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.12701.1",
+          "zh_TW": "浪潮絕湧",
+          "zh_CN": "浪潮绝涌",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.12701.2",
+          "zh_TW": "【主戰配置時生效】主戰技施放後，在場己方棋子獲得護盾。",
+          "zh_CN": "【主战配置时生效】主战技施放后，可使在场己方棋子获得护盾。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "12702": {
+      "Id": 12702,
+      "Name": "SoldierPotential.12702.1",
+      "Des": "SoldierPotential.12702.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_12701_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.12702.1",
+          "zh_TW": "飛花潺流",
+          "zh_CN": "飞花潺流",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.12702.2",
+          "zh_TW": "【後援配置時生效】後援技變為可額外連續斬擊4次，對目標造成傷害。",
+          "zh_CN": "【后援配置时生效】后援技变为可额外连续斩击4次，对目标造成伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "13401": {
+      "Id": 13401,
+      "Name": "SoldierPotential.13401.1",
+      "Des": "SoldierPotential.13401.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_13401_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.13401.1",
+          "zh_TW": "震撼突襲",
+          "zh_CN": "震撼突袭",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.13401.2",
+          "zh_TW": "【後援配置時生效】後援技變為持續攻擊。",
+          "zh_CN": "【后援配置时生效】后援技变为持续攻击。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "13402": {
+      "Id": 13402,
+      "Name": "SoldierPotential.13402.1",
+      "Des": "SoldierPotential.13402.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_13401_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.13402.1",
+          "zh_TW": "碎空裂閃",
+          "zh_CN": "碎空裂闪",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.13402.2",
+          "zh_TW": "【後援配置時生效】後援技持續時間結束時引發爆炸，造成範圍傷害。",
+          "zh_CN": "【后援配置时生效】后援技持续时间结束时引发爆炸，造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "15601": {
+      "Id": 15601,
+      "Name": "SoldierPotential.15601.1",
+      "Des": "SoldierPotential.15601.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_15601_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.15601.1",
+          "zh_TW": "驚嚇舞步",
+          "zh_CN": "惊吓舞步",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.15601.2",
+          "zh_TW": "【後援配置時生效】後援技召喚的「企鵝」衝向目標後，每1秒對周圍造成範圍傷害，持續一段時間。",
+          "zh_CN": "【后援配置时生效】后援技召唤的「企鹅」冲向目标后，每1秒对周围造成范围伤害，持续一段时间。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "15602": {
+      "Id": 15602,
+      "Name": "SoldierPotential.15602.1",
+      "Des": "SoldierPotential.15602.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_15601_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.15602.1",
+          "zh_TW": "繽果奇緣",
+          "zh_CN": "缤果奇缘",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.15602.2",
+          "zh_TW": "【後援配置時生效】後援技變為使友方棋子獲得護盾，並產生「企鵝雕像」，造成範圍傷害。",
+          "zh_CN": "【后援配置时生效】后援技变为使友方棋子获得护盾，并生成「企鹅雕像」，造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "13301": {
+      "Id": 13301,
+      "Name": "SoldierPotential.13301.1",
+      "Des": "SoldierPotential.13301.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_13301_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.13301.1",
+          "zh_TW": "花海·爆裂",
+          "zh_CN": "花海·爆裂",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.13301.2",
+          "zh_TW": "【主戰配置時生效】主戰技發射的花瓣消滅目標時，觸發「花海」，造成範圍傷害。",
+          "zh_CN": "【主战配置时生效】主战技发射的花瓣消灭目标时，触发「花海」，造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "13302": {
+      "Id": 13302,
+      "Name": "SoldierPotential.13302.1",
+      "Des": "SoldierPotential.13302.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_13301_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.13302.1",
+          "zh_TW": "芳華·撩亂",
+          "zh_CN": "芳华·缭乱",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.13302.2",
+          "zh_TW": "【主戰配置時生效】提升主戰技發射的花瓣數量。",
+          "zh_CN": "【主战配置时生效】主战技发射的花瓣数量提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "14901": {
+      "Id": 14901,
+      "Name": "SoldierPotential.14901.1",
+      "Des": "SoldierPotential.14901.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_14901_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.14901.1",
+          "zh_TW": "震顫地鳴",
+          "zh_CN": "震颤地鸣",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.14901.2",
+          "zh_TW": "【主戰配置時生效】主戰技可產生「地震波」，造成範圍傷害。",
+          "zh_CN": "【主战配置时生效】主战技可生成「地震波」，造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "14902": {
+      "Id": 14902,
+      "Name": "SoldierPotential.14902.1",
+      "Des": "SoldierPotential.14902.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_14901_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.14902.1",
+          "zh_TW": "狂亂失控",
+          "zh_CN": "狂乱失控",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.14902.2",
+          "zh_TW": "【主戰配置時生效】施放主戰技後，永久進入「肅殺」狀態。「肅殺」狀態下普通攻擊變為造成範圍傷害。",
+          "zh_CN": "【主战配置时生效】施放主战技后，永久进入「肃杀」状态。「肃杀」状态下普通攻击变为造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "14001": {
+      "Id": 14001,
+      "Name": "SoldierPotential.14001.1",
+      "Des": "SoldierPotential.14001.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_14001_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.14001.1",
+          "zh_TW": "刻度爆表",
+          "zh_CN": "刻度爆表",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.14001.2",
+          "zh_TW": "【後援配置時生效】後援技發射的「兔兔禮花」造成範圍傷害。",
+          "zh_CN": "【后援配置时生效】后援技发射的「兔兔礼花」造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "14002": {
+      "Id": 14002,
+      "Name": "SoldierPotential.14002.1",
+      "Des": "SoldierPotential.14002.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_14001_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.14002.1",
+          "zh_TW": "兔兔集束",
+          "zh_CN": "兔兔集束",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.14002.2",
+          "zh_TW": "【後援配置時生效】後援技最多可向3個敵方棋子發射「兔兔禮花」。",
+          "zh_CN": "【后援配置时生效】后援技可最多向3个敌方棋子发射「兔兔礼花」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "14301": {
+      "Id": 14301,
+      "Name": "SoldierPotential.14301.1",
+      "Des": "SoldierPotential.14301.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_14301_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.14301.1",
+          "zh_TW": "轉輪式切割器",
+          "zh_CN": "转轮式切割器",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.14301.2",
+          "zh_TW": "【後援配置時生效】後援技可額外斬擊1次，對目標造成傷害。",
+          "zh_CN": "【后援配置时生效】后援技可额外斩击1次，对目标造成伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "14302": {
+      "Id": 14302,
+      "Name": "SoldierPotential.14302.1",
+      "Des": "SoldierPotential.14302.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_14301_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.14302.1",
+          "zh_TW": "下掛式發射器",
+          "zh_CN": "下挂式发射器",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.14302.2",
+          "zh_TW": "【後援配置時生效】後援技斬擊完成後，可射擊「雷射」，對目標造成傷害。",
+          "zh_CN": "【后援配置时生效】后援技斩击完成后，可射击「激光」，对目标造成伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "10701": {
+      "Id": 10701,
+      "Name": "SoldierPotential.10701.1",
+      "Des": "SoldierPotential.10701.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_10701_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.10701.1",
+          "zh_TW": "騎誓·天穹崩落",
+          "zh_CN": "骑誓·天穹崩落",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.10701.2",
+          "zh_TW": "【後援配置時生效】後援技「聖光之盾」命中目標時，附加「暈眩」。",
+          "zh_CN": "【后援配置时生效】后援技「圣光之盾」命中目标时，附加「眩晕」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "10702": {
+      "Id": 10702,
+      "Name": "SoldierPotential.10702.1",
+      "Des": "SoldierPotential.10702.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_10701_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.10702.1",
+          "zh_TW": "完美的迴旋",
+          "zh_CN": "完美的回旋",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.10702.2",
+          "zh_TW": "【後援配置時生效】後援技「聖光之盾」可彈射3次，每次產生「結界」，造成範圍傷害。",
+          "zh_CN": "【后援配置时生效】后援技「圣光之盾」可弹射3次，每次生成「结界」，造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "11501": {
+      "Id": 11501,
+      "Name": "SoldierPotential.11501.1",
+      "Des": "SoldierPotential.11501.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_11501_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.11501.1",
+          "zh_TW": "螢流·拂照",
+          "zh_CN": "萤流·拂照",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.11501.2",
+          "zh_TW": "【主戰配置時生效】主戰技產生的「殘影」自爆後，留下「烈日照射」，對目標造成傷害。",
+          "zh_CN": "【主战配置时生效】主战技生成的「残影」自爆后，留下「烈日照射」，对目标造成伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "11502": {
+      "Id": 11502,
+      "Name": "SoldierPotential.11502.1",
+      "Des": "SoldierPotential.11502.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_11501_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.11502.1",
+          "zh_TW": "螢流·攏光",
+          "zh_CN": "萤流·拢光",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.11502.2",
+          "zh_TW": "【主戰配置時生效】持續攻擊同一目標一段時間後，可發射「強化砲」，對目標造成傷害。",
+          "zh_CN": "【主战配置时生效】持续攻击同一目标一段时间后，可发射「强化炮」，对目标造成伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "12001": {
+      "Id": 12001,
+      "Name": "SoldierPotential.12001.1",
+      "Des": "SoldierPotential.12001.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_12001_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.12001.1",
+          "zh_TW": "翠星環行",
+          "zh_CN": "翠星环行",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.12001.2",
+          "zh_TW": "【主戰配置時生效】主戰技凝聚能量引爆後，持續對目標位置造成傷害。",
+          "zh_CN": "【主战配置时生效】主战技凝聚能量引爆后，持续对目标位置造成伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "12002": {
+      "Id": 12002,
+      "Name": "SoldierPotential.12002.1",
+      "Des": "SoldierPotential.12002.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_12001_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.12002.1",
+          "zh_TW": "星環風暴",
+          "zh_CN": "星环风暴",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.12002.2",
+          "zh_TW": "【主戰配置時生效】主戰技變為持續施展旋風攻擊，造成範圍傷害。旋風攻擊期間，自身受到的傷害降低。",
+          "zh_CN": "【主战配置时生效】主战技变为持续旋风攻击，造成范围伤害。旋风攻击期间，自身受到的伤害降低。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "15001": {
+      "Id": 15001,
+      "Name": "SoldierPotential.15001.1",
+      "Des": "SoldierPotential.15001.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_15001_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.15001.1",
+          "zh_TW": "天雷地湧",
+          "zh_CN": "天雷地涌",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.15001.2",
+          "zh_TW": "【後援配置時生效】後援技引動「光能」，造成範圍傷害。",
+          "zh_CN": "【后援配置时生效】后援技引动「光能 」，造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "15002": {
+      "Id": 15002,
+      "Name": "SoldierPotential.15002.1",
+      "Des": "SoldierPotential.15002.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_15001_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.15002.1",
+          "zh_TW": "照影凌空",
+          "zh_CN": "照影凌空",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.15002.2",
+          "zh_TW": "【後援配置時生效】後援技引動「光能」的次數提升。",
+          "zh_CN": "【后援配置时生效】后援技引动「光能」的次数提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "16001": {
+      "Id": 16001,
+      "Name": "SoldierPotential.16001.1",
+      "Des": "SoldierPotential.16001.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_16001_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.16001.1",
+          "zh_TW": "七彩回彈",
+          "zh_CN": "七彩回弹",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.16001.2",
+          "zh_TW": "【後援配置時生效】提升後援技「泡泡蛙」的彈跳次數。",
+          "zh_CN": "【后援配置时生效】后援技「泡泡蛙」的弹跳次数提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "16002": {
+      "Id": 16002,
+      "Name": "SoldierPotential.16002.1",
+      "Des": "SoldierPotential.16002.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_16001_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.16002.1",
+          "zh_TW": "海風低徊",
+          "zh_CN": "海风低徊",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.16002.2",
+          "zh_TW": "【主戰配置時生效】主戰技變為產生「水域」，造成大範圍傷害。薇洛可進行「潛水」攻擊，造成範圍傷害。\n【後援配置時生效】大幅提升後援技「泡泡蛙」的彈跳次數，並提升彈跳速度。",
+          "zh_CN": "【主战配置时生效】主战技变为生成「水域」，造成大范围伤害。薇洛可进行「潜水」攻击，造成范围伤害。\n【后援配置时生效】后援技「泡泡蛙」的跳次数大幅提升，弹跳速度提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "14401": {
+      "Id": 14401,
+      "Name": "SoldierPotential.14401.1",
+      "Des": "SoldierPotential.14401.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_14401_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.14401.1",
+          "zh_TW": "騰蛇凌波",
+          "zh_CN": "腾蛇凌波",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.14401.2",
+          "zh_TW": "【主戰配置時生效】主戰技施放後，普攻可產生「騰蛇」，持續一段時間。「騰蛇」會自動攻擊目標，對目標造成傷害。",
+          "zh_CN": "【主战配置时生效】主战技施放后，普攻可生成「腾蛇」，持续一段时间。「腾蛇」会自动攻击目标，对目标造成伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "14402": {
+      "Id": 14402,
+      "Name": "SoldierPotential.14402.1",
+      "Des": "SoldierPotential.14402.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_14401_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.14402.1",
+          "zh_TW": "驚濤駭浪",
+          "zh_CN": "惊涛骇浪",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.14402.2",
+          "zh_TW": "【主戰配置時生效】普通攻擊變為持續高速連斬，造成範圍傷害。主戰技變為操控「騰蛇」範圍攻擊，造成大範圍傷害。",
+          "zh_CN": "【主战配置时生效】普通攻击变为持续高速连斩，造成范围伤害。主战技变为操控「腾蛇」范围攻击 ，造成大范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "15501": {
+      "Id": 15501,
+      "Name": "SoldierPotential.15501.1",
+      "Des": "SoldierPotential.15501.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_15501_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.15501.1",
+          "zh_TW": "浪潮共舞",
+          "zh_CN": "浪潮共舞",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.15501.2",
+          "zh_TW": "【後援配置時生效】提升後援技衝浪次數。",
+          "zh_CN": "【后援配置时生效】后援技冲浪次数提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "15502": {
+      "Id": 15502,
+      "Name": "SoldierPotential.15502.1",
+      "Des": "SoldierPotential.15502.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_15501_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.15502.1",
+          "zh_TW": "板尾掀浪",
+          "zh_CN": "板尾掀浪",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.15502.2",
+          "zh_TW": "【後援配置時生效】後援技衝浪可留下「雷電區域」，造成範圍傷害。",
+          "zh_CN": "【后援配置时生效】后援技冲浪可留下「雷电区域」，造成范围伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "13201": {
+      "Id": 13201,
+      "Name": "SoldierPotential.13201.1",
+      "Des": "SoldierPotential.13201.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_13201_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.13201.1",
+          "zh_TW": "義！浪掃塵星",
+          "zh_CN": "义！浪扫尘星",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.13201.2",
+          "zh_TW": "【主戰配置時生效】主戰技可額外攻擊多次，對目標造成傷害。",
+          "zh_CN": "【主战配置时生效】主战技可额外攻击多次，对目标造成伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "13202": {
+      "Id": 13202,
+      "Name": "SoldierPotential.13202.1",
+      "Des": "SoldierPotential.13202.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Actor_13201_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.13202.1",
+          "zh_TW": "最後通牒",
+          "zh_CN": "最后通牒",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.13202.2",
+          "zh_TW": "【主戰配置時生效】主戰技可銜接額外攻擊，造成範圍傷害。後援配置每配置1個「灰風俱樂部」棋子，自身造成的傷害提升，可疊加10層。",
+          "zh_CN": "【主战配置时生效】主战技可衔接额外攻击，造成范围伤害。后援配置每配置1个「灰风俱乐部」棋子，自身造成的伤害提升，可叠加10层。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1700101": {
+      "Id": 1700101,
+      "Name": "SoldierPotential.1700101.1",
+      "Des": "SoldierPotential.1700101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_17001_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1700101.1",
+          "zh_TW": "聖裁加護",
+          "zh_CN": "圣裁加护",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1700101.2",
+          "zh_TW": "【後援配置時生效】後援技施放時，若目標生命值高於50%，可額外造成傷害。",
+          "zh_CN": "【后援配置时生效】后援技施放时，若目标生命值高于50%，可额外造成伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1700102": {
+      "Id": 1700102,
+      "Name": "SoldierPotential.1700102.1",
+      "Des": "SoldierPotential.1700102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_17001_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1700102.1",
+          "zh_TW": "騎士意志",
+          "zh_CN": "骑士意志",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1700102.2",
+          "zh_TW": "【後援配置時生效】後援技攻擊的目標未被消滅時，可額外攻擊1次。",
+          "zh_CN": "【后援配置时生效】后援技攻击的目标未被消灭时，可额外攻击1次。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1701101": {
+      "Id": 1701101,
+      "Name": "SoldierPotential.1701101.1",
+      "Des": "SoldierPotential.1701101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_17011_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1701101.1",
+          "zh_TW": "星流箭雨",
+          "zh_CN": "星流箭雨",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1701101.2",
+          "zh_TW": "【後援配置時生效】提升後援技射擊次數。",
+          "zh_CN": "【后援配置时生效】后援技射击次数提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1701102": {
+      "Id": 1701102,
+      "Name": "SoldierPotential.1701102.1",
+      "Des": "SoldierPotential.1701102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_17011_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1701102.1",
+          "zh_TW": "軍功賞金",
+          "zh_CN": "军功赏金",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1701102.2",
+          "zh_TW": "【後援配置時生效】後援技消滅目標時，獲得1賢才金幣。",
+          "zh_CN": "【后援配置时生效】后援技消灭目标时，获得1贤才金币。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1702101": {
+      "Id": 1702101,
+      "Name": "SoldierPotential.1702101.1",
+      "Des": "SoldierPotential.1702101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_17021_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1702101.1",
+          "zh_TW": "神恩回流",
+          "zh_CN": "神恩回流",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1702101.2",
+          "zh_TW": "【後援配置時生效】提升後援技獲得的能量。",
+          "zh_CN": "【后援配置时生效】后援技获得的能量提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1702102": {
+      "Id": 1702102,
+      "Name": "SoldierPotential.1702102.1",
+      "Des": "SoldierPotential.1702102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_17021_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1702102.1",
+          "zh_TW": "榮光餽贈",
+          "zh_CN": "荣光馈赠",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1702102.2",
+          "zh_TW": "【後援配置時生效】後援技可額外為1個在場友方棋子附加「鼓舞士氣」。",
+          "zh_CN": "【后援配置时生效】后援技可额外为1个在场友方棋子附加「鼓舞士气」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1703101": {
+      "Id": 1703101,
+      "Name": "SoldierPotential.1703101.1",
+      "Des": "SoldierPotential.1703101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_17031_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1703101.1",
+          "zh_TW": "戰旗鼓舞",
+          "zh_CN": "战旗鼓舞",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1703101.2",
+          "zh_TW": "【後援配置時生效】後援技造成的傷害提升。",
+          "zh_CN": "【后援配置时生效】后援技造成的伤害提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1703102": {
+      "Id": 1703102,
+      "Name": "SoldierPotential.1703102.1",
+      "Des": "SoldierPotential.1703102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_17031_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1703102.1",
+          "zh_TW": "戰鼓震耳",
+          "zh_CN": "战鼓震耳",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1703102.2",
+          "zh_TW": "【後援配置時生效】後援技造成的傷害大幅提升。",
+          "zh_CN": "【后援配置时生效】后援技造成的伤害大幅提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1500101": {
+      "Id": 1500101,
+      "Name": "SoldierPotential.1500101.1",
+      "Des": "SoldierPotential.1500101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_15001_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1500101.1",
+          "zh_TW": "爪擊擴散·雙",
+          "zh_CN": "爪击扩散·双",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1500101.2",
+          "zh_TW": "【後援配置時生效】後援技可連續攻擊最多2個敵方棋子。",
+          "zh_CN": "【后援配置时生效】后援技可连续攻击最多2个敌方棋子。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1500102": {
+      "Id": 1500102,
+      "Name": "SoldierPotential.1500102.1",
+      "Des": "SoldierPotential.1500102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_15001_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1500102.1",
+          "zh_TW": "爪擊擴散·三",
+          "zh_CN": "爪击扩散·三",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1500102.2",
+          "zh_TW": "【後援配置時生效】後援技可連續攻擊最多3個敵方棋子。",
+          "zh_CN": "【后援配置时生效】后援技可连续攻击最多3个敌方棋子。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1501101": {
+      "Id": 1501101,
+      "Name": "SoldierPotential.1501101.1",
+      "Des": "SoldierPotential.1501101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_15011_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1501101.1",
+          "zh_TW": "爆衝續行",
+          "zh_CN": "爆冲续行",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1501101.2",
+          "zh_TW": "【後援配置時生效】施放後援技後，「資深種業員工」可駐場戰鬥。",
+          "zh_CN": "【后援配置时生效】施放后援技后，「资深种业员工」可驻场战斗。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1501102": {
+      "Id": 1501102,
+      "Name": "SoldierPotential.1501102.1",
+      "Des": "SoldierPotential.1501102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_15011_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1501102.1",
+          "zh_TW": "守護之盾",
+          "zh_CN": "守护之盾",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1501102.2",
+          "zh_TW": "【後援配置時生效】「資深種業員工」駐場時，降低己方棋子受到的傷害。",
+          "zh_CN": "【后援配置时生效】「资深种业员工」驻场时，己方棋子受到的伤害降低。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1302101": {
+      "Id": 1302101,
+      "Name": "SoldierPotential.1302101.1",
+      "Des": "SoldierPotential.1302101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_13021_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1302101.1",
+          "zh_TW": "摩拳擦掌",
+          "zh_CN": "摩拳擦掌",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1302101.2",
+          "zh_TW": "處於主戰配置時，防禦力提升8%。\n處於後援配置時，攻擊力提升8%。",
+          "zh_CN": "处于主战配置时，防御力提升8%。\n处于后援配置时，攻击力提升8%。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1302102": {
+      "Id": 1302102,
+      "Name": "SoldierPotential.1302102.1",
+      "Des": "SoldierPotential.1302102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_13021_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1302102.1",
+          "zh_TW": "摩拳擦掌·極",
+          "zh_CN": "摩拳擦掌·极",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1302102.2",
+          "zh_TW": "處於主戰配置時，防禦力提升20%。\n處於後援配置時，攻擊力提升20%。",
+          "zh_CN": "处于主战配置时，防御力提升20%。\n处于后援配置时，攻击力提升20%。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1303101": {
+      "Id": 1303101,
+      "Name": "SoldierPotential.1303101.1",
+      "Des": "SoldierPotential.1303101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_13031_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1303101.1",
+          "zh_TW": "自信提升",
+          "zh_CN": "自信提升",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1303101.2",
+          "zh_TW": "【主戰配置時生效】主戰技施放時，攻擊力提升3點。主戰技消滅目標時，攻擊力額外提升5點。",
+          "zh_CN": "【主战配置时生效】主战技施放时，攻击力提升3点。主战技消灭目标时，攻击力额外提升5点。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1303102": {
+      "Id": 1303102,
+      "Name": "SoldierPotential.1303102.1",
+      "Des": "SoldierPotential.1303102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_13031_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1303102.1",
+          "zh_TW": "信心暴增",
+          "zh_CN": "信心暴增",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1303102.2",
+          "zh_TW": "【主戰配置時生效】主戰技施放時，攻擊力提升5點。主戰技消滅目標時，攻擊力額外提升10點。",
+          "zh_CN": "【主战配置时生效】主战技施放时，攻击力提升5点。主战技消灭目标时，攻击力额外提升10点。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1300101": {
+      "Id": 1300101,
+      "Name": "SoldierPotential.1300101.1",
+      "Des": "SoldierPotential.1300101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_13001_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1300101.1",
+          "zh_TW": "傷勢標記",
+          "zh_CN": "伤势标记",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1300101.2",
+          "zh_TW": "【後援配置時生效】後援技命中時，提升目標受到的傷害，並持續一段時間。",
+          "zh_CN": "【后援配置时生效】后援技命中时，使目标受到的伤害提升，持续一段时间。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1300102": {
+      "Id": 1300102,
+      "Name": "SoldierPotential.1300102.1",
+      "Des": "SoldierPotential.1300102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_13001_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1300102.1",
+          "zh_TW": "傷勢擴散",
+          "zh_CN": "伤势扩散",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1300102.2",
+          "zh_TW": "【後援配置時生效】後援技命中時，大幅提升目標受到的傷害，並持續一段時間。",
+          "zh_CN": "【后援配置时生效】后援技命中时，使目标受到的伤害大幅提升，持续一段时间。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1301101": {
+      "Id": 1301101,
+      "Name": "SoldierPotential.1301101.1",
+      "Des": "SoldierPotential.1301101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_13011_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1301101.1",
+          "zh_TW": "恥辱印記",
+          "zh_CN": "耻辱印记",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1301101.2",
+          "zh_TW": "【後援配置時生效】後援技命中時，使目標每1秒受到傷害，持續5秒。",
+          "zh_CN": "【后援配置时生效】后援技命中时，使目标每1秒受到伤害，持续5秒。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1301102": {
+      "Id": 1301102,
+      "Name": "SoldierPotential.1301102.1",
+      "Des": "SoldierPotential.1301102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_13011_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1301102.1",
+          "zh_TW": "恥辱延續",
+          "zh_CN": "耻辱延续",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1301102.2",
+          "zh_TW": "【後援配置時生效】後援技命中時，使目標每1秒受到傷害，持續12秒。",
+          "zh_CN": "【后援配置时生效】后援技命中时，使目标每1秒受到伤害，持续12秒。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1000101": {
+      "Id": 1000101,
+      "Name": "SoldierPotential.1000101.1",
+      "Des": "SoldierPotential.1000101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_10001_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1000101.1",
+          "zh_TW": "破甲投擲",
+          "zh_CN": "破甲投掷",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1000101.2",
+          "zh_TW": "【主戰配置時生效】主戰技命中時，降低目標防禦力，可疊加10層。",
+          "zh_CN": "【主战配置时生效】主战技命中时，使目标防御力降低，可叠加10层。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1000102": {
+      "Id": 1000102,
+      "Name": "SoldierPotential.1000102.1",
+      "Des": "SoldierPotential.1000102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_10001_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1000102.1",
+          "zh_TW": "不畏大象",
+          "zh_CN": "不畏大象",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1000102.2",
+          "zh_TW": "【主戰配置時生效】可額外對生命值最高的敵方棋子施放主戰技。",
+          "zh_CN": "【主战配置时生效】主战技可额外对生命值最高的敌方棋子发射。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1000301": {
+      "Id": 1000301,
+      "Name": "SoldierPotential.1000301.1",
+      "Des": "SoldierPotential.1000301.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_10003_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1000301.1",
+          "zh_TW": "森林的憤怒",
+          "zh_CN": "森林的愤怒",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1000301.2",
+          "zh_TW": "【後援配置時生效】施放後援技後，額外提升在場友方「森林朋友」棋子的攻擊速度提升效果。",
+          "zh_CN": "【后援配置时生效】施放后援技后，使在场友方「森林朋友」棋子的攻击速度提升效果额外提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1000302": {
+      "Id": 1000302,
+      "Name": "SoldierPotential.1000302.1",
+      "Des": "SoldierPotential.1000302.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_10003_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1000302.1",
+          "zh_TW": "森林的狂怒",
+          "zh_CN": "森林的狂怒",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1000302.2",
+          "zh_TW": "【後援配置時生效】施放後援技後，額外大幅提升在場友方「森林朋友」棋子的攻擊速度提升效果。",
+          "zh_CN": "【后援配置时生效】施放后援技后，使在场友方「森林朋友」棋子的攻击速度提升效果额外大幅提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1000501": {
+      "Id": 1000501,
+      "Name": "SoldierPotential.1000501.1",
+      "Des": "SoldierPotential.1000501.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_10005_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1000501.1",
+          "zh_TW": "威嚇衝撞",
+          "zh_CN": "威吓冲撞",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1000501.2",
+          "zh_TW": "【主戰配置時生效】「勇往直前」造成傷害時，降低目標攻擊力，最多疊加10層。",
+          "zh_CN": "【主战配置时生效】「猪突猛进」造成伤害时，使目标攻击力降低，最多叠加10层。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1000502": {
+      "Id": 1000502,
+      "Name": "SoldierPotential.1000502.1",
+      "Des": "SoldierPotential.1000502.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_10005_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1000502.1",
+          "zh_TW": "持續衝撞",
+          "zh_CN": "持续冲撞",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1000502.2",
+          "zh_TW": "【主戰配置時生效】「勇往直前」造成傷害時，不再降低自身傷害。",
+          "zh_CN": "【主战配置时生效】「猪突猛进」造成伤害时，不再降低自身伤害。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "5080101": {
+      "Id": 5080101,
+      "Name": "SoldierPotential.5080101.1",
+      "Des": "SoldierPotential.5080101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_50801_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.5080101.1",
+          "zh_TW": "夏洛克紅包",
+          "zh_CN": "夏洛克红包",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.5080101.2",
+          "zh_TW": "【後援配置時生效】後援技駐場時，獲得隨機數量金幣。",
+          "zh_CN": "【后援配置时生效】后援技驻场时，获得随机数量金币。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "5080102": {
+      "Id": 5080102,
+      "Name": "SoldierPotential.5080102.1",
+      "Des": "SoldierPotential.5080102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_50801_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.5080102.1",
+          "zh_TW": "土豪夏洛克",
+          "zh_CN": "土豪夏洛克",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.5080102.2",
+          "zh_TW": "【後援配置時生效】後援技駐場時，獲得大量金幣。",
+          "zh_CN": "【后援配置时生效】后援技驻场时，获得大量金币。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1000601": {
+      "Id": 1000601,
+      "Name": "SoldierPotential.1000601.1",
+      "Des": "SoldierPotential.1000601.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_10006_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1000601.1",
+          "zh_TW": "森林衛士",
+          "zh_CN": "森林卫士",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1000601.2",
+          "zh_TW": "【後援配置時生效】施放後援技後，額外提升在場友方「森林朋友」棋子的防禦力提升效果。",
+          "zh_CN": "【后援配置时生效】施放后援技后，使在场友方「森林朋友」棋子的防御力提升效果额外提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1000602": {
+      "Id": 1000602,
+      "Name": "SoldierPotential.1000602.1",
+      "Des": "SoldierPotential.1000602.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_10006_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1000602.1",
+          "zh_TW": "森林守護神",
+          "zh_CN": "森林守护神",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1000602.2",
+          "zh_TW": "【後援配置時生效】施放後援技後，額外大幅提升在場友方「森林朋友」棋子的防禦力提升效果。",
+          "zh_CN": "【后援配置时生效】施放后援技后，使在场友方「森林朋友」棋子的防御力提升效果额外大幅提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1001501": {
+      "Id": 1001501,
+      "Name": "SoldierPotential.1001501.1",
+      "Des": "SoldierPotential.1001501.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_10015_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1001501.1",
+          "zh_TW": "森林的祝福",
+          "zh_CN": "森林的祝福",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1001501.2",
+          "zh_TW": "【後援配置時生效】施放後援技後，額外提升在場友方「森林朋友」棋子的生命值提升效果。",
+          "zh_CN": "【后援配置时生效】施放后援技后，使在场友方「森林朋友」棋子的生命值提升效果额外提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1001502": {
+      "Id": 1001502,
+      "Name": "SoldierPotential.1001502.1",
+      "Des": "SoldierPotential.1001502.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_10015_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1001502.1",
+          "zh_TW": "森林的祈禱",
+          "zh_CN": "森林的祈祷",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1001502.2",
+          "zh_TW": "【後援配置時生效】施放後援技後，額外大幅提升在場友方「森林朋友」棋子的生命值提升效果。",
+          "zh_CN": "【后援配置时生效】施放后援技后，使在场友方「森林朋友」棋子的生命值提升效果额外大幅提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1100101": {
+      "Id": 1100101,
+      "Name": "SoldierPotential.1100101.1",
+      "Des": "SoldierPotential.1100101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_11001_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1100101.1",
+          "zh_TW": "群狼戰術",
+          "zh_CN": "群狼战术",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1100101.2",
+          "zh_TW": "【後援配置時生效】施放後援技後，額外提升在場友方「森林朋友」棋子的攻擊力提升效果。",
+          "zh_CN": "【后援配置时生效】施放后援技后，使在场友方「森林朋友」棋子的攻击力提升效果额外提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1100102": {
+      "Id": 1100102,
+      "Name": "SoldierPotential.1100102.1",
+      "Des": "SoldierPotential.1100102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_11001_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1100102.1",
+          "zh_TW": "頭狼",
+          "zh_CN": "头狼",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1100102.2",
+          "zh_TW": "【後援配置時生效】施放後援技後，額外大幅提升在場友方「森林朋友」棋子的攻擊力提升效果。",
+          "zh_CN": "【后援配置时生效】施放后援技后，使在场友方「森林朋友」棋子的攻击力提升效果额外大幅提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1001701": {
+      "Id": 1001701,
+      "Name": "SoldierPotential.1001701.1",
+      "Des": "SoldierPotential.1001701.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_10017_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1001701.1",
+          "zh_TW": "補能貓條",
+          "zh_CN": "补能猫条",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1001701.2",
+          "zh_TW": "自身回能效率提升。",
+          "zh_CN": "自身回能效率提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "1001702": {
+      "Id": 1001702,
+      "Name": "SoldierPotential.1001702.1",
+      "Des": "SoldierPotential.1001702.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_10017_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.1001702.1",
+          "zh_TW": "喵神餽贈",
+          "zh_CN": "喵神馈赠",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.1001702.2",
+          "zh_TW": "【主戰配置時生效】主戰技變為獲得3賢才金幣。",
+          "zh_CN": "【主战配置时生效】主战技变为获得3贤才金币。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "9000101": {
+      "Id": 9000101,
+      "Name": "SoldierPotential.9000101.1",
+      "Des": "SoldierPotential.9000101.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_90001_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.9000101.1",
+          "zh_TW": "喵神加護",
+          "zh_CN": "喵神加护",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.9000101.2",
+          "zh_TW": "【後援配置時生效】提升後援技提供的護盾量。",
+          "zh_CN": "【后援配置时生效】后援技提供的护盾量提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "9000102": {
+      "Id": 9000102,
+      "Name": "SoldierPotential.9000102.1",
+      "Des": "SoldierPotential.9000102.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_90001_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.9000102.1",
+          "zh_TW": "喵神療癒",
+          "zh_CN": "喵神疗愈",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.9000102.2",
+          "zh_TW": "【後援配置時生效】後援技變為使隨機1個在場友方棋子獲得護盾，每1秒恢復生命值，持續5秒。",
+          "zh_CN": "【后援配置时生效】后援技变为使随机1个在场友方棋子获得护盾，每1秒恢复生命值，持续5秒。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "9000201": {
+      "Id": 9000201,
+      "Name": "SoldierPotential.9000201.1",
+      "Des": "SoldierPotential.9000201.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_90002_Potential_01",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.9000201.1",
+          "zh_TW": "烈焰烘烤",
+          "zh_CN": "烈焰烘烤",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.9000201.2",
+          "zh_TW": "【後援配置時生效】「火爆轟炸雞」自爆後，對目標附加永久「灼燒」。",
+          "zh_CN": "【后援配置时生效】「火爆轰炸鸡」自爆后，对目标附加永久「灼烧」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    },
+    "9000202": {
+      "Id": 9000202,
+      "Name": "SoldierPotential.9000202.1",
+      "Des": "SoldierPotential.9000202.2",
+      "Icon": "Icon/SoldierPotential/Soldier_00_Monster_90002_Potential_02",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPotential.9000202.1",
+          "zh_TW": "熱鍋油炸",
+          "zh_CN": "热锅油炸",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        },
+        "/Des": {
+          "key": "SoldierPotential.9000202.2",
+          "zh_TW": "【後援配置時生效】提升「火爆轟炸雞」自爆造成的傷害。",
+          "zh_CN": "【后援配置时生效】「火爆轰炸鸡」自爆造成的伤害提升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPotential.json",
+            "zh_CN": "language/zh_CN/SoldierPotential.json"
+          }
+        }
+      }
+    }
+  }
+}

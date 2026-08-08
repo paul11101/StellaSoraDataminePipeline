@@ -1,0 +1,604 @@
+{
+  "table": "ScoreBossBattleThreshold",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\64dc07c65c78e952.bin",
+  "source_sha256": "22e703b879c6c6917c2d407417e577d68eba44e06ca87ba4b0ed9e2147ed435e",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\ScoreBossBattleThreshold.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 0,
+    "key_type": 0,
+    "row_count": 11
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      19,
+      20
+    ],
+    "reference_field_order": [
+      "MissionId",
+      "Version",
+      "fromSrcAtk",
+      "fromSlotDmgRatio",
+      "fromEE",
+      "fromGenDmgRatio",
+      "fromDmgPlus",
+      "fromCritRatio",
+      "fromFinalDmgRatio",
+      "toErAmend",
+      "toDefAmend",
+      "toRcdSlotDmgRatio",
+      "toEERCD",
+      "toGenDmgRcdRatio",
+      "CritRate",
+      "Hp"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 16,
+    "remaining_name_count": 16,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "MissionId",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Version",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "fromSrcAtk",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "fromSlotDmgRatio",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "fromEE",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "fromGenDmgRatio",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "fromDmgPlus",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "fromCritRatio",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "fromFinalDmgRatio",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "toErAmend",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "toDefAmend",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "14": {
+        "field": "toRcdSlotDmgRatio",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "15": {
+        "field": "toEERCD",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "16": {
+        "field": "toGenDmgRcdRatio",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "19": {
+        "field": "CritRate",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "20": {
+        "field": "Hp",
+        "matching_reference_rows": 11,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "MissionId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "2": {
+      "field": "Version",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "3": {
+      "field": "fromSrcAtk",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "5": {
+      "field": "fromSlotDmgRatio",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "6": {
+      "field": "fromEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "7": {
+      "field": "fromGenDmgRatio",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "8": {
+      "field": "fromDmgPlus",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "9": {
+      "field": "fromCritRatio",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "10": {
+      "field": "fromFinalDmgRatio",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "12": {
+      "field": "toErAmend",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "13": {
+      "field": "toDefAmend",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "14": {
+      "field": "toRcdSlotDmgRatio",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "15": {
+      "field": "toEERCD",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "16": {
+      "field": "toGenDmgRcdRatio",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "19": {
+      "field": "CritRate",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "20": {
+      "field": "Hp",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_int",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 11,
+    "reference_row_count": 11,
+    "shared_key_count": 11,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 11,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

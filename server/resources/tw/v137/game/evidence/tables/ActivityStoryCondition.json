@@ -1,0 +1,219 @@
+{
+  "table": "ActivityStoryCondition",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\37ead2463492c74c.bin",
+  "source_sha256": "c346e1873ae68afc7d97d5e64d6c55fd0b1a386b670d832b36b28ea9b82a596e",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\ActivityStoryCondition.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 104
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      4,
+      5,
+      7
+    ],
+    "reference_field_order": [
+      "Id",
+      "ActivityId",
+      "ActivityStoryId_a",
+      "EvIds_a",
+      "ActivityStoryId_b"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 5,
+    "remaining_name_count": 5,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 104,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "ActivityId",
+        "matching_reference_rows": 82,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "ActivityStoryId_a",
+        "matching_reference_rows": 93,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "ActivityStoryId_b",
+        "matching_reference_rows": 2,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      },
+      "7": {
+        "field": "EvIds_a",
+        "matching_reference_rows": 6,
+        "method": "same_key_value_match_resolved_order_ambiguity"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 104,
+      "compared_reference_rows": 104,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 104,
+          "compared": 104
+        },
+        {
+          "codec": "varint_int",
+          "matches": 104,
+          "compared": 104
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 104
+        }
+      ]
+    },
+    "2": {
+      "field": "ActivityId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 82,
+      "compared_reference_rows": 82,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 82,
+          "compared": 82
+        },
+        {
+          "codec": "varint_int",
+          "matches": 82,
+          "compared": 82
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 82
+        }
+      ]
+    },
+    "4": {
+      "field": "ActivityStoryId_a",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 93,
+      "compared_reference_rows": 93,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 93,
+          "compared": 93
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 93,
+          "compared": 93
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 93
+        }
+      ]
+    },
+    "5": {
+      "field": "ActivityStoryId_b",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 2,
+      "compared_reference_rows": 2,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 2,
+          "compared": 2
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 2
+        }
+      ]
+    },
+    "7": {
+      "field": "EvIds_a",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 6,
+      "compared_reference_rows": 6,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 6
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 104,
+    "reference_row_count": 104,
+    "shared_key_count": 104,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 104,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

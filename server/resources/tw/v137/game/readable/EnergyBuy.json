@@ -1,0 +1,129 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "EnergyBuy",
+    "categories": [
+      "shop_economy"
+    ],
+    "row_count": 6,
+    "localization_hits": 6,
+    "source": "bin/EnergyBuy.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "CurrencyItemId": 2,
+      "CurrencyItemQty": 30,
+      "EnergyValue": 60,
+      "PriceGroup": 1,
+      "GroupName": "EnergyBuy.1.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "EnergyBuy.1.1",
+          "zh_TW": "特級優惠",
+          "zh_CN": "特级优惠",
+          "sources": {
+            "zh_TW": "language/zh_TW/EnergyBuy.json",
+            "zh_CN": "language/zh_CN/EnergyBuy.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "CurrencyItemId": 2,
+      "CurrencyItemQty": 30,
+      "EnergyValue": 60,
+      "PriceGroup": 1,
+      "GroupName": "EnergyBuy.2.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "EnergyBuy.2.1",
+          "zh_TW": "特級優惠",
+          "zh_CN": "特级优惠",
+          "sources": {
+            "zh_TW": "language/zh_TW/EnergyBuy.json",
+            "zh_CN": "language/zh_CN/EnergyBuy.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "CurrencyItemId": 2,
+      "CurrencyItemQty": 30,
+      "EnergyValue": 60,
+      "PriceGroup": 1,
+      "GroupName": "EnergyBuy.3.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "EnergyBuy.3.1",
+          "zh_TW": "特級優惠",
+          "zh_CN": "特级优惠",
+          "sources": {
+            "zh_TW": "language/zh_TW/EnergyBuy.json",
+            "zh_CN": "language/zh_CN/EnergyBuy.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "CurrencyItemId": 2,
+      "CurrencyItemQty": 90,
+      "EnergyValue": 60,
+      "PriceGroup": 2,
+      "GroupName": "EnergyBuy.4.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "EnergyBuy.4.1",
+          "zh_TW": "一般優惠",
+          "zh_CN": "常规优惠",
+          "sources": {
+            "zh_TW": "language/zh_TW/EnergyBuy.json",
+            "zh_CN": "language/zh_CN/EnergyBuy.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "CurrencyItemId": 2,
+      "CurrencyItemQty": 90,
+      "EnergyValue": 60,
+      "PriceGroup": 2,
+      "GroupName": "EnergyBuy.5.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "EnergyBuy.5.1",
+          "zh_TW": "一般優惠",
+          "zh_CN": "常规优惠",
+          "sources": {
+            "zh_TW": "language/zh_TW/EnergyBuy.json",
+            "zh_CN": "language/zh_CN/EnergyBuy.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "CurrencyItemId": 2,
+      "CurrencyItemQty": 90,
+      "EnergyValue": 60,
+      "PriceGroup": 2,
+      "GroupName": "EnergyBuy.6.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "EnergyBuy.6.1",
+          "zh_TW": "一般優惠",
+          "zh_CN": "常规优惠",
+          "sources": {
+            "zh_TW": "language/zh_TW/EnergyBuy.json",
+            "zh_CN": "language/zh_CN/EnergyBuy.json"
+          }
+        }
+      }
+    }
+  }
+}

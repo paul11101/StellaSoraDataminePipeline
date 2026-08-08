@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StarTowerSpMode",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 4,
+    "localization_hits": 0,
+    "source": "bin/StarTowerSpMode.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "10001": {
+      "Id": 10001,
+      "LimitTimeWeight": true,
+      "LimitKilledWeight": true
+    },
+    "10002": {
+      "Id": 10002,
+      "LimitTimeWeight": true,
+      "LimitKilledWeight": true,
+      "GoblinWeight": true,
+      "ContinuousKillingWeight": true
+    },
+    "10003": {
+      "Id": 10003,
+      "LimitKilledWeight": true,
+      "GoblinWeight": true
+    },
+    "10004": {
+      "Id": 10004,
+      "LimitKilledWeight": true,
+      "GoblinWeight": true,
+      "ContinuousKillingWeight": true
+    }
+  }
+}

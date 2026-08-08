@@ -1,0 +1,885 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "WeekBossAffix",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 30,
+    "localization_hits": 60,
+    "source": "bin/WeekBossAffix.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "620111": {
+      "Id": 620111,
+      "GroupId": 620111,
+      "Level": 1,
+      "Name": "WeekBossAffix.620111.1",
+      "Desc": "WeekBossAffix.620111.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1050105",
+      "Element": 6,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620111.1",
+          "zh_TW": "藤蔓抽打",
+          "zh_CN": "藤蔓抽打",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620111.2",
+          "zh_TW": "寄生之庭甩動藤蔓攻擊敵人",
+          "zh_CN": "寄生之庭甩动藤蔓攻击敌人",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620112": {
+      "Id": 620112,
+      "GroupId": 620112,
+      "Level": 1,
+      "Name": "WeekBossAffix.620112.1",
+      "Desc": "WeekBossAffix.620112.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1050101",
+      "Element": 6,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620112.1",
+          "zh_TW": "尖刺",
+          "zh_CN": "尖刺",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620112.2",
+          "zh_TW": "寄生之庭的根部長出尖刺分割戰場",
+          "zh_CN": "寄生之庭的根部生长出尖刺分割战场",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620113": {
+      "Id": 620113,
+      "GroupId": 620113,
+      "Level": 1,
+      "Name": "WeekBossAffix.620113.1",
+      "Desc": "WeekBossAffix.620113.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1050107",
+      "Element": 6,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620113.1",
+          "zh_TW": "瘴氣庭園",
+          "zh_CN": "瘴气庭园",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620113.2",
+          "zh_TW": "寄生之庭持續散播孢子，孢子落地後長出一片毒草，且會週期性湧出瘴氣",
+          "zh_CN": "寄生之庭持续散播孢子，孢子落地后长出成片毒草，并周期性喷涌出瘴气",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620114": {
+      "Id": 620114,
+      "GroupId": 620114,
+      "Level": 1,
+      "Name": "WeekBossAffix.620114.1",
+      "Desc": "WeekBossAffix.620114.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1050104",
+      "Element": 6,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620114.1",
+          "zh_TW": "播種",
+          "zh_CN": "播种",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620114.2",
+          "zh_TW": "寄生之庭結出的擬態種子，種子成熟落地後會生出土撥鼠群，持續對敵人發動攻擊",
+          "zh_CN": "寄生之庭结出拟态种子，种子成熟凋零后生出土拨鼠群，持续对敌人发起攻击",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620115": {
+      "Id": 620115,
+      "GroupId": 620115,
+      "Level": 1,
+      "Name": "WeekBossAffix.620115.1",
+      "Desc": "WeekBossAffix.620115.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1050106",
+      "Element": 6,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620115.1",
+          "zh_TW": "花苞",
+          "zh_CN": "花苞",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620115.2",
+          "zh_TW": "召喚2個花苞，花苞會週期性地產生擴散環攻擊。",
+          "zh_CN": "召唤2颗花苞，花苞会周期性生成扩散环攻击",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620211": {
+      "Id": 620211,
+      "GroupId": 620211,
+      "Level": 1,
+      "Name": "WeekBossAffix.620211.1",
+      "Desc": "WeekBossAffix.620211.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1000501",
+      "Element": 3,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620211.1",
+          "zh_TW": "衝鋒",
+          "zh_CN": "冲锋",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620211.2",
+          "zh_TW": "猛進之靈瞄準敵人，發起中遠距離的衝鋒",
+          "zh_CN": "猛进之灵瞄准敌人，发起中远距离的冲锋",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620212": {
+      "Id": 620212,
+      "GroupId": 620212,
+      "Level": 1,
+      "Name": "WeekBossAffix.620212.1",
+      "Desc": "WeekBossAffix.620212.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1000502",
+      "Element": 3,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620212.1",
+          "zh_TW": "獠牙突襲",
+          "zh_CN": "獠牙闪袭",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620212.2",
+          "zh_TW": "猛進之靈甩動獠牙，擊飛敵人",
+          "zh_CN": "猛进之灵甩动獠牙，击飞敌人",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620213": {
+      "Id": 620213,
+      "GroupId": 620213,
+      "Level": 1,
+      "Name": "WeekBossAffix.620213.1",
+      "Desc": "WeekBossAffix.620213.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1000503",
+      "Element": 3,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620213.1",
+          "zh_TW": "野蠻衝撞",
+          "zh_CN": "野蛮冲撞",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620213.2",
+          "zh_TW": "猛進之靈朝敵人身側快速衝撞",
+          "zh_CN": "猛进之灵对敌人身侧发起快速冲撞",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620214": {
+      "Id": 620214,
+      "GroupId": 620214,
+      "Level": 1,
+      "Name": "WeekBossAffix.620214.1",
+      "Desc": "WeekBossAffix.620214.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1000505",
+      "Element": 3,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620214.1",
+          "zh_TW": "閃電衝撞",
+          "zh_CN": "闪电冲撞",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620214.2",
+          "zh_TW": "猛進之靈衝鋒至敵人身側並快速衝撞，以此種方式連續攻擊三次",
+          "zh_CN": "猛进之灵冲锋至敌人身侧并发起快速冲撞，以此种方式连续攻击三次",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620215": {
+      "Id": 620215,
+      "GroupId": 620215,
+      "Level": 1,
+      "Name": "WeekBossAffix.620215.1",
+      "Desc": "WeekBossAffix.620215.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1000504",
+      "Element": 3,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620215.1",
+          "zh_TW": "野性奔突",
+          "zh_CN": "野性奔突",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620215.2",
+          "zh_TW": "猛進之靈召喚大量追隨者，對敵人發起直線衝鋒",
+          "zh_CN": "猛进之灵召唤大量追随者，对敌人发起直线冲锋",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620311": {
+      "Id": 620311,
+      "GroupId": 620311,
+      "Level": 1,
+      "Name": "WeekBossAffix.620311.1",
+      "Desc": "WeekBossAffix.620311.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1305202",
+      "Element": 2,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620311.1",
+          "zh_TW": "切割光束",
+          "zh_CN": "切割光束",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620311.2",
+          "zh_TW": "魔侍巨像的雙手移至場地上方兩側，施放連接掌心的雷射光，並緩慢往場地下方平移",
+          "zh_CN": "魔侍巨像的双手移至场地上方两侧，施放连接掌心的激光，并缓慢向场地下方平移",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620312": {
+      "Id": 620312,
+      "GroupId": 620312,
+      "Level": 1,
+      "Name": "WeekBossAffix.620312.1",
+      "Desc": "WeekBossAffix.620312.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1305203",
+      "Element": 2,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620312.1",
+          "zh_TW": "火箭飛拳",
+          "zh_CN": "火箭飞拳",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620312.2",
+          "zh_TW": "魔侍巨像操縱雙拳瞄準敵人，完成瞄準後，雙拳先後朝敵人所在的方向發起快速衝鋒",
+          "zh_CN": "魔侍巨像操纵双拳瞄准敌人，完成瞄准后，双拳先后向敌人所在的方向发起快速冲锋",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620313": {
+      "Id": 620313,
+      "GroupId": 620313,
+      "Level": 1,
+      "Name": "WeekBossAffix.620313.1",
+      "Desc": "WeekBossAffix.620313.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1305101",
+      "Element": 2,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620313.1",
+          "zh_TW": "追蹤光束",
+          "zh_CN": "追踪光束",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620313.2",
+          "zh_TW": "魔侍巨像持續發射能追蹤敵人的雷射光",
+          "zh_CN": "魔侍巨像持续发射能够追踪敌人的激光",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620314": {
+      "Id": 620314,
+      "GroupId": 620314,
+      "Level": 1,
+      "Name": "WeekBossAffix.620314.1",
+      "Desc": "WeekBossAffix.620314.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1305102",
+      "Element": 2,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620314.1",
+          "zh_TW": "場地清理",
+          "zh_CN": "场地清理",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620314.2",
+          "zh_TW": "魔侍巨像對場地進行大範圍的機關槍掃射",
+          "zh_CN": "魔侍巨像对场地进行大范围机枪扫射",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620315": {
+      "Id": 620315,
+      "GroupId": 620315,
+      "Level": 1,
+      "Name": "WeekBossAffix.620315.1",
+      "Desc": "WeekBossAffix.620315.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1305103",
+      "Element": 2,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620315.1",
+          "zh_TW": "毀滅宣告",
+          "zh_CN": "毁灭宣告",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620315.2",
+          "zh_TW": "魔侍巨像施放毀滅宣告，經長時間蓄力後，發射攻擊範圍巨大的雷射光。期間會同時利用雙拳或雷射光進行干擾",
+          "zh_CN": "魔侍巨像施放毁灭宣告，经过长时间蓄力后，发射攻击范围巨大的激光。期间会同时利用双拳或激光进行干扰",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620411": {
+      "Id": 620411,
+      "GroupId": 620411,
+      "Level": 1,
+      "Name": "WeekBossAffix.620411.1",
+      "Desc": "WeekBossAffix.620411.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1651001",
+      "Element": 4,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620411.1",
+          "zh_TW": "荊棘鞭撻",
+          "zh_CN": "荆棘鞭挞",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620411.2",
+          "zh_TW": "流風美人同時甩動左右兩側枝條攻擊前方，略作停頓後，再往兩側橫掃",
+          "zh_CN": "流风美人同时甩动左右两侧枝条朝前方进行攻击，略作停顿后，分别向两侧横扫",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620412": {
+      "Id": 620412,
+      "GroupId": 620412,
+      "Level": 1,
+      "Name": "WeekBossAffix.620412.1",
+      "Desc": "WeekBossAffix.620412.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1651002",
+      "Element": 4,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620412.1",
+          "zh_TW": "花落知多少",
+          "zh_CN": "花落知多少",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620412.2",
+          "zh_TW": "流風美人朝空中噴吐花球，花球分裂後落地爆炸，造成範圍傷害",
+          "zh_CN": "流风美人朝空中喷吐花球，花球分裂多个落地爆炸造成范围伤害",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620413": {
+      "Id": 620413,
+      "GroupId": 620413,
+      "Level": 1,
+      "Name": "WeekBossAffix.620413.1",
+      "Desc": "WeekBossAffix.620413.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1651003",
+      "Element": 4,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620413.1",
+          "zh_TW": "霞靄搖曳",
+          "zh_CN": "霞霭摇曳",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620413.2",
+          "zh_TW": "流風美人施放帶有傷害的擴散回縮花粉圈，且花粉圈觸碰到場地邊緣的花朵時會使其啟動並施放技能",
+          "zh_CN": "流风美人施放带有伤害的扩散回缩花粉圈，且花粉圈触碰到场地边缘的花朵会使其激活并施放技能",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620414": {
+      "Id": 620414,
+      "GroupId": 620414,
+      "Level": 1,
+      "Name": "WeekBossAffix.620414.1",
+      "Desc": "WeekBossAffix.620414.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1651004",
+      "Element": 4,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620414.1",
+          "zh_TW": "花影流風",
+          "zh_CN": "花影流风",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620414.2",
+          "zh_TW": "流風美人對目標發起衝鋒，第二階段期間會施放龍捲風攻擊目標",
+          "zh_CN": "流风美人朝目标发起冲锋，二阶段期间会有放出龙卷风攻击目标",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620415": {
+      "Id": 620415,
+      "GroupId": 620415,
+      "Level": 1,
+      "Name": "WeekBossAffix.620415.1",
+      "Desc": "WeekBossAffix.620415.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1651005",
+      "Element": 4,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620415.1",
+          "zh_TW": "致命綻放",
+          "zh_CN": "致命绽放",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620415.2",
+          "zh_TW": "流風美人進入蓄力狀態，蓄力時會施放擴散花粉圈，蓄力成功後會召喚持續追蹤的大型龍捲風",
+          "zh_CN": "流风美人进入蓄力状态，在蓄力时会释放扩散花粉圈，蓄力成功后会召唤大型持续追踪龙卷风",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620511": {
+      "Id": 620511,
+      "GroupId": 620511,
+      "Level": 1,
+      "Name": "WeekBossAffix.620511.1",
+      "Desc": "WeekBossAffix.620511.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1551001",
+      "Element": 5,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620511.1",
+          "zh_TW": "衝鋒",
+          "zh_CN": "冲锋",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620511.2",
+          "zh_TW": "翠煌之刃進行一次迅捷的衝鋒。",
+          "zh_CN": "翠煌之刃进行一次迅捷的冲锋",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620512": {
+      "Id": 620512,
+      "GroupId": 620512,
+      "Level": 1,
+      "Name": "WeekBossAffix.620512.1",
+      "Desc": "WeekBossAffix.620512.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1551002",
+      "Element": 5,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620512.1",
+          "zh_TW": "飛天啄",
+          "zh_CN": "飞天啄",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620512.2",
+          "zh_TW": "翠煌之刃飛上天空，隨後對地面進行毀命性啄擊。",
+          "zh_CN": "翠煌之刃飞上天空，随后对地面进行毁灭性啄击",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620513": {
+      "Id": 620513,
+      "GroupId": 620513,
+      "Level": 1,
+      "Name": "WeekBossAffix.620513.1",
+      "Desc": "WeekBossAffix.620513.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1551003",
+      "Element": 5,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620513.1",
+          "zh_TW": "光束發射",
+          "zh_CN": "光束发射",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620513.2",
+          "zh_TW": "翠煌之刃向前發射細長的光束。",
+          "zh_CN": "翠煌之刃向前发射细长的光束",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620514": {
+      "Id": 620514,
+      "GroupId": 620514,
+      "Level": 1,
+      "Name": "WeekBossAffix.620514.1",
+      "Desc": "WeekBossAffix.620514.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1551004",
+      "Element": 5,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620514.1",
+          "zh_TW": "尾部放電",
+          "zh_CN": "尾部放电",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620514.2",
+          "zh_TW": "翠煌之刃將尾部深扎入地下，對周圍放出強電。",
+          "zh_CN": "翠煌之刃将尾部深扎入地下，向周围放出强电",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620515": {
+      "Id": 620515,
+      "GroupId": 620515,
+      "Level": 1,
+      "Name": "WeekBossAffix.620515.1",
+      "Desc": "WeekBossAffix.620515.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1551005",
+      "Element": 5,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620515.1",
+          "zh_TW": "鳥群轟炸",
+          "zh_CN": "鸟群轰炸",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620515.2",
+          "zh_TW": "翠煌之刃喚醒所有花朵，向場內投射大量的蜂鳥子彈。",
+          "zh_CN": "翠煌之刃唤醒所有的花朵，向场内投射大量蜂鸟子弹",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620611": {
+      "Id": 620611,
+      "GroupId": 620611,
+      "Level": 1,
+      "Name": "WeekBossAffix.620611.1",
+      "Desc": "WeekBossAffix.620611.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1751001",
+      "Element": 1,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620611.1",
+          "zh_TW": "水砲吐息",
+          "zh_CN": "水炮吐息",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620611.2",
+          "zh_TW": "咕嚕六角鯨向前噴吐水砲",
+          "zh_CN": "咕噜六角鲸向前喷吐水炮",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620612": {
+      "Id": 620612,
+      "GroupId": 620612,
+      "Level": 1,
+      "Name": "WeekBossAffix.620612.1",
+      "Desc": "WeekBossAffix.620612.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1751002",
+      "Element": 1,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620612.1",
+          "zh_TW": "泡泡召喚",
+          "zh_CN": "泡泡召唤",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620612.2",
+          "zh_TW": "咕嚕六角鯨召喚從天而降的咕嚕泡泡，咕嚕泡泡會鎖定敵人並發射中遠距離的水炮。",
+          "zh_CN": "咕噜六角鲸召唤从天而降的咕噜泡泡，咕噜泡泡会锁定敌人并发射中远距离的水炮",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620613": {
+      "Id": 620613,
+      "GroupId": 620613,
+      "Level": 1,
+      "Name": "WeekBossAffix.620613.1",
+      "Desc": "WeekBossAffix.620613.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1751003",
+      "Element": 1,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620613.1",
+          "zh_TW": "咕嚕衝撞",
+          "zh_CN": "咕噜冲撞",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620613.2",
+          "zh_TW": "咕嚕六角鯨對場地發起衝撞，擊退敵人。",
+          "zh_CN": "咕噜六角鲸对场地发起冲撞，击退敌人",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620614": {
+      "Id": 620614,
+      "GroupId": 620614,
+      "Level": 1,
+      "Name": "WeekBossAffix.620614.1",
+      "Desc": "WeekBossAffix.620614.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1751004",
+      "Element": 1,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620614.1",
+          "zh_TW": "噗嚕炸彈",
+          "zh_CN": "噗噜炸弹",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620614.2",
+          "zh_TW": "咕嚕六角鯨召喚巨大的水柱炸彈，引發洪流衝擊場地，擊退敵人。",
+          "zh_CN": "咕噜六角鲸召唤巨大的水柱炸弹，引发洪流冲击场地，击退敌人",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    },
+    "620615": {
+      "Id": 620615,
+      "GroupId": 620615,
+      "Level": 1,
+      "Name": "WeekBossAffix.620615.1",
+      "Desc": "WeekBossAffix.620615.2",
+      "Icon": "Icon/MonsterSkill/RegionAffix/regionaffix_1751005",
+      "Element": 1,
+      "_localized": {
+        "/Name": {
+          "key": "WeekBossAffix.620615.1",
+          "zh_TW": "暗流凶猛",
+          "zh_CN": "暗流凶猛",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        },
+        "/Desc": {
+          "key": "WeekBossAffix.620615.2",
+          "zh_TW": "咕嚕六角鯨潛入水中，瞄準敵人的腳下發起凶猛的攻擊，毀壞場地並擊退敵人。",
+          "zh_CN": "咕噜六角鲸潜入水中，瞄准敌人的脚下发起凶猛的攻击，毁坏场地并击退敌人",
+          "sources": {
+            "zh_TW": "language/zh_TW/WeekBossAffix.json",
+            "zh_CN": "language/zh_CN/WeekBossAffix.json"
+          }
+        }
+      }
+    }
+  }
+}

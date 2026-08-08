@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message ActivityLevelsApplyReq {
+  uint32 ActivityId = 1;
+  uint32 LevelId = 2;
+  uint64 BuildId = 3;
+  bytes NextPackage = 2047;
+}

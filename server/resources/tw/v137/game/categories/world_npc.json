@@ -1,0 +1,736 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "world_npc",
+    "name": "世界、怪物与 NPC",
+    "description": "怪物、NPC、阵营、地图、机关、陷阱和交互环境配置。",
+    "table_count": 41,
+    "row_count": 40006,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "BoardNPC",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 49,
+      "data": "bin/BoardNPC.json",
+      "readable": "readable/BoardNPC.json",
+      "evidence": "evidence/tables/BoardNPC.json",
+      "source_sha256": "4071da1e4d4cb3c62856b25fffb72a6937a463608877ee42da4622861276bdb3",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/BoardNPC.json",
+      "zh_CN": "language/zh_CN/BoardNPC.json"
+    },
+    {
+      "table": "BreakOutEnemySpr",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 33,
+      "data": "bin/BreakOutEnemySpr.json",
+      "readable": "readable/BreakOutEnemySpr.json",
+      "evidence": "evidence/tables/BreakOutEnemySpr.json",
+      "source_sha256": "5cf9a95ded1fa0efaf062d40a8acde41f6d7dc9b0e6900826b726bfdafc5a04f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "FactionRelation",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 9,
+      "data": "bin/FactionRelation.json",
+      "readable": "readable/FactionRelation.json",
+      "evidence": "evidence/tables/FactionRelation.json",
+      "source_sha256": "9a669108a78061f4f7154f11c68ab0bc89117b931ddecaad35490595eb06c021",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Force",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 16,
+      "data": "bin/Force.json",
+      "readable": "readable/Force.json",
+      "evidence": "evidence/tables/Force.json",
+      "source_sha256": "1f9e91167f0dba9eab0ac324a5b56e8bb30d53e48460ca916b27fe707781f330",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Force.json",
+      "zh_CN": "language/zh_CN/Force.json"
+    },
+    {
+      "table": "InfinityTowerEnemySet",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 7440,
+      "data": "bin/InfinityTowerEnemySet.json",
+      "readable": "readable/InfinityTowerEnemySet.json",
+      "evidence": "evidence/tables/InfinityTowerEnemySet.json",
+      "source_sha256": "1195dfb07e9fb62a1f8da7eba06b306c0481f9b50e767420c37f3ddd5427fbfc",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "InfinityTowerMap",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 40,
+      "data": "bin/InfinityTowerMap.json",
+      "readable": "readable/InfinityTowerMap.json",
+      "evidence": "evidence/tables/InfinityTowerMap.json",
+      "source_sha256": "297e455ac94375b381a1d030123536f2524519f60d3fbc307ea4be309d28f77b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "InteractiveAction",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 8,
+      "data": "bin/InteractiveAction.json",
+      "readable": "readable/InteractiveAction.json",
+      "evidence": "evidence/tables/InteractiveAction.json",
+      "source_sha256": "609d1f6c889ab276e81651c82c1aac10d240c1a73122cbb248d5ca0eb1f77e66",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/InteractiveAction.json",
+      "zh_CN": "language/zh_CN/InteractiveAction.json"
+    },
+    {
+      "table": "JointDrill_2_MonsterGroup",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 3,
+      "data": "bin/JointDrill_2_MonsterGroup.json",
+      "readable": "readable/JointDrill_2_MonsterGroup.json",
+      "evidence": "evidence/tables/JointDrill_2_MonsterGroup.json",
+      "source_sha256": "e38f05d0227eaa35ce7cc0e934d7f79c95c2107b439a9eb524fa5637c8cf2f01",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Monster",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 2803,
+      "data": "bin/Monster.json",
+      "readable": "readable/Monster.json",
+      "evidence": "evidence/tables/Monster.json",
+      "source_sha256": "b54655c1b30dbd7c9d17547ac0a853f68214af759cc2dccf6d32078a2e16607b",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterActionBranch",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 1094,
+      "data": "bin/MonsterActionBranch.json",
+      "readable": "readable/MonsterActionBranch.json",
+      "evidence": "evidence/tables/MonsterActionBranch.json",
+      "source_sha256": "557a949e7ef1a0958cfa20017fa756a8bec8f4284daf417ce14fcea0414959f7",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterAI",
+      "categories": [
+        "combat",
+        "world_npc"
+      ],
+      "row_count": 1049,
+      "data": "bin/MonsterAI.json",
+      "readable": "readable/MonsterAI.json",
+      "evidence": "evidence/tables/MonsterAI.json",
+      "source_sha256": "87a4dc382c4b2a4e237da216acddfddd77e1e0ee618173ed6cb152a47c38fc2d",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterAttackAjust",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 50,
+      "data": "bin/MonsterAttackAjust.json",
+      "readable": "readable/MonsterAttackAjust.json",
+      "evidence": "evidence/tables/MonsterAttackAjust.json",
+      "source_sha256": "374ce55091ae1a57806b930971591d353359db5499d1feb6f16a479d5e5ede04",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterAttributeContact",
+      "categories": [
+        "combat",
+        "world_npc"
+      ],
+      "row_count": 26,
+      "data": "bin/MonsterAttributeContact.json",
+      "readable": "readable/MonsterAttributeContact.json",
+      "evidence": "evidence/tables/MonsterAttributeContact.json",
+      "source_sha256": "9758335bd140a0d16e54717369d33f9f960aa982dc2c6792ae1dd493c3b56bfc",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterBornGroup",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 0,
+      "data": "bin/MonsterBornGroup.json",
+      "readable": "readable/MonsterBornGroup.json",
+      "evidence": "evidence/tables/MonsterBornGroup.json",
+      "source_sha256": "67856884401c136c2d2d600e513d4e032fe90e0bac388b894b6a840d561a4c68",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterGroup",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 0,
+      "data": "bin/MonsterGroup.json",
+      "readable": "readable/MonsterGroup.json",
+      "evidence": "evidence/tables/MonsterGroup.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterManual",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 372,
+      "data": "bin/MonsterManual.json",
+      "readable": "readable/MonsterManual.json",
+      "evidence": "evidence/tables/MonsterManual.json",
+      "source_sha256": "c765f328856d22fa04e3037c4ad373fde45f308cafae26932e619021ad34d6db",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MonsterManual.json",
+      "zh_CN": "language/zh_CN/MonsterManual.json"
+    },
+    {
+      "table": "MonsterSkin",
+      "categories": [
+        "characters",
+        "world_npc"
+      ],
+      "row_count": 639,
+      "data": "bin/MonsterSkin.json",
+      "readable": "readable/MonsterSkin.json",
+      "evidence": "evidence/tables/MonsterSkin.json",
+      "source_sha256": "844c213737f24f2d8f83e30e08831776c3f3f299bc4caa604107605cf793e4c0",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterTeam",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 218,
+      "data": "bin/MonsterTeam.json",
+      "readable": "readable/MonsterTeam.json",
+      "evidence": "evidence/tables/MonsterTeam.json",
+      "source_sha256": "fa2d1a3d4eaf11c8347d0bc63bd6fbcf6776c7ebcbf5086503ec18195dcb1821",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterValueTemplete",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 16482,
+      "data": "bin/MonsterValueTemplete.json",
+      "readable": "readable/MonsterValueTemplete.json",
+      "evidence": "evidence/tables/MonsterValueTemplete.json",
+      "source_sha256": "b1534e2d819358ba9d4f555484636d5bbd303330118a4b70fea99d03aa38cf2d",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterValueTempleteAdjust",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 1598,
+      "data": "bin/MonsterValueTempleteAdjust.json",
+      "readable": "readable/MonsterValueTempleteAdjust.json",
+      "evidence": "evidence/tables/MonsterValueTempleteAdjust.json",
+      "source_sha256": "fe51bc4cdd331cbbfaad50a4c432111d85d5b511b1babeb84233c8fc4bd59c01",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MonsterValueTempleteModify",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 1650,
+      "data": "bin/MonsterValueTempleteModify.json",
+      "readable": "readable/MonsterValueTempleteModify.json",
+      "evidence": "evidence/tables/MonsterValueTempleteModify.json",
+      "source_sha256": "5e2a772ef6332e132a2698157f543290f0ef9496365da4ffc1eb388b430d0dc3",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "NPCAffinityGroup",
+      "categories": [
+        "characters",
+        "story_social",
+        "world_npc"
+      ],
+      "row_count": 204,
+      "data": "bin/NPCAffinityGroup.json",
+      "readable": "readable/NPCAffinityGroup.json",
+      "evidence": "evidence/tables/NPCAffinityGroup.json",
+      "source_sha256": "f87cde2e092c08c475b49897dfd629854a00fc309180d2908ed2715516ee8480",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/NPCAffinityGroup.json",
+      "zh_CN": "language/zh_CN/NPCAffinityGroup.json"
+    },
+    {
+      "table": "NPCAffinityPlot",
+      "categories": [
+        "characters",
+        "story_social",
+        "world_npc"
+      ],
+      "row_count": 8,
+      "data": "bin/NPCAffinityPlot.json",
+      "readable": "readable/NPCAffinityPlot.json",
+      "evidence": "evidence/tables/NPCAffinityPlot.json",
+      "source_sha256": "46d668439c0bf63731f6bfd1b4e70603315e2f79b309d96fe058dfa3ebbe09e0",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+      "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+    },
+    {
+      "table": "NPCConfig",
+      "categories": [
+        "world_npc",
+        "ui_system"
+      ],
+      "row_count": 9,
+      "data": "bin/NPCConfig.json",
+      "readable": "readable/NPCConfig.json",
+      "evidence": "evidence/tables/NPCConfig.json",
+      "source_sha256": "ae5e0c32173facf4798ed90b8a586e30d1d521556f888a8762e0c5c3b4db0d45",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/NPCConfig.json",
+      "zh_CN": "language/zh_CN/NPCConfig.json"
+    },
+    {
+      "table": "NPCSkin",
+      "categories": [
+        "characters",
+        "world_npc"
+      ],
+      "row_count": 49,
+      "data": "bin/NPCSkin.json",
+      "readable": "readable/NPCSkin.json",
+      "evidence": "evidence/tables/NPCSkin.json",
+      "source_sha256": "64f6697588bf5fe5e8a97bf6bbc24b30f80370b96fdae7cc4143af0a14e02ca4",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "PreviewMonsterGroup",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 1862,
+      "data": "bin/PreviewMonsterGroup.json",
+      "readable": "readable/PreviewMonsterGroup.json",
+      "evidence": "evidence/tables/PreviewMonsterGroup.json",
+      "source_sha256": "2d34a4992d5d7a4229673ae929f791b5a6e403beb6174fe6dd8536c88d76dc2f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "RandomLevelMonster",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 0,
+      "data": "bin/RandomLevelMonster.json",
+      "readable": "readable/RandomLevelMonster.json",
+      "evidence": "evidence/tables/RandomLevelMonster.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerEnemySet",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 541,
+      "data": "bin/StarTowerEnemySet.json",
+      "readable": "readable/StarTowerEnemySet.json",
+      "evidence": "evidence/tables/StarTowerEnemySet.json",
+      "source_sha256": "a7b1528993ef34c6efa23475b1b76aab257f09915a67d7013b30c32e973ba531",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerMap",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 466,
+      "data": "bin/StarTowerMap.json",
+      "readable": "readable/StarTowerMap.json",
+      "evidence": "evidence/tables/StarTowerMap.json",
+      "source_sha256": "312bf8c047338f523e51570f22baf18e9e936038edad053201dda318ed631cde",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerMapMaxNumPerStage",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 42,
+      "data": "bin/StarTowerMapMaxNumPerStage.json",
+      "readable": "readable/StarTowerMapMaxNumPerStage.json",
+      "evidence": "evidence/tables/StarTowerMapMaxNumPerStage.json",
+      "source_sha256": "33f3d7bc1083cb0c981db7564edd9f9c75834d81633244c4be20e90370cd95b2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerMonsterBornGroup",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 129,
+      "data": "bin/StarTowerMonsterBornGroup.json",
+      "readable": "readable/StarTowerMonsterBornGroup.json",
+      "evidence": "evidence/tables/StarTowerMonsterBornGroup.json",
+      "source_sha256": "7e588a9acb8698baf82e15ec0d47086fe8d1c5db8ba0fa8fb7dc41126f057c31",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerMonsterSpAttr",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 301,
+      "data": "bin/StarTowerMonsterSpAttr.json",
+      "readable": "readable/StarTowerMonsterSpAttr.json",
+      "evidence": "evidence/tables/StarTowerMonsterSpAttr.json",
+      "source_sha256": "e3e115607af535a3c41a2bf3d00f8311fb144b55e3e597053a54d6da672c55fb",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerNPC",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 4,
+      "data": "bin/StarTowerNPC.json",
+      "readable": "readable/StarTowerNPC.json",
+      "evidence": "evidence/tables/StarTowerNPC.json",
+      "source_sha256": "0dc148ce5e39b65e9aca3bd24c64678132a7d0708992751933428b1a3a0b4ed9",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StarTowerNPC.json",
+      "zh_CN": "language/zh_CN/StarTowerNPC.json"
+    },
+    {
+      "table": "TowerDefenseMonster",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 18,
+      "data": "bin/TowerDefenseMonster.json",
+      "readable": "readable/TowerDefenseMonster.json",
+      "evidence": "evidence/tables/TowerDefenseMonster.json",
+      "source_sha256": "7131228126f3ee87c724f05f245c8f3b48bc150581a0468172c2f63e6c8b11bb",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/TowerDefenseMonster.json",
+      "zh_CN": "language/zh_CN/TowerDefenseMonster.json"
+    },
+    {
+      "table": "Trap",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 73,
+      "data": "bin/Trap.json",
+      "readable": "readable/Trap.json",
+      "evidence": "evidence/tables/Trap.json",
+      "source_sha256": "3bb82f03daf34fd0688c51c204b3776c1b39557a0321b1b97cd7365f24e72ca1",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "TrapAttribute",
+      "categories": [
+        "combat",
+        "world_npc"
+      ],
+      "row_count": 0,
+      "data": "bin/TrapAttribute.json",
+      "readable": "readable/TrapAttribute.json",
+      "evidence": "evidence/tables/TrapAttribute.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireEnemyPool",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 577,
+      "data": "bin/VampireEnemyPool.json",
+      "readable": "readable/VampireEnemyPool.json",
+      "evidence": "evidence/tables/VampireEnemyPool.json",
+      "source_sha256": "21f918ca0d685505a91cad1b27603dc6a449162ed29ca382e539edf9b5b553dc",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireEnemySet",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 1712,
+      "data": "bin/VampireEnemySet.json",
+      "readable": "readable/VampireEnemySet.json",
+      "evidence": "evidence/tables/VampireEnemySet.json",
+      "source_sha256": "e89e8988b6afd67ec6f203265c9a17db2d939891a293c7dbed7a7cb626bb8a9b",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireEnemySpAttr",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 388,
+      "data": "bin/VampireEnemySpAttr.json",
+      "readable": "readable/VampireEnemySpAttr.json",
+      "evidence": "evidence/tables/VampireEnemySpAttr.json",
+      "source_sha256": "576ae273d2fad0cbf733d0d84425f46d366fdc7f38287c139079fb138d5c1c64",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VampireMap",
+      "categories": [
+        "stages_modes",
+        "world_npc"
+      ],
+      "row_count": 4,
+      "data": "bin/VampireMap.json",
+      "readable": "readable/VampireMap.json",
+      "evidence": "evidence/tables/VampireMap.json",
+      "source_sha256": "4b54fc658e65dc2579396bf55e4ad584a4e6ebccdd25cd6ce0c1050bae22189b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "WorldClass",
+      "categories": [
+        "world_npc"
+      ],
+      "row_count": 40,
+      "data": "bin/WorldClass.json",
+      "readable": "readable/WorldClass.json",
+      "evidence": "evidence/tables/WorldClass.json",
+      "source_sha256": "ebb656c4006bf7d0af8fc3d3440ec5eb16be6620ea4cf4d01abd351aae0e1558",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/WorldClass.json",
+      "zh_CN": "language/zh_CN/WorldClass.json"
+    }
+  ]
+}

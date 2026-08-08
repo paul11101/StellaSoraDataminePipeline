@@ -1,0 +1,320 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "BattlePassQuest",
+    "categories": [
+      "combat",
+      "quests",
+      "activities"
+    ],
+    "row_count": 17,
+    "localization_hits": 17,
+    "source": "bin/BattlePassQuest.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1001": {
+      "Id": 1001,
+      "Type": 1,
+      "Title": "BattlePassQuest.1001.1",
+      "Exp": 100,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.1001.1",
+          "zh_TW": "今日登入遊戲",
+          "zh_CN": "今日登录游戏",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "1002": {
+      "Id": 1002,
+      "Type": 1,
+      "Title": "BattlePassQuest.1002.1",
+      "JumpTo": 32,
+      "Exp": 200,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.1002.1",
+          "zh_TW": "累計消耗160點活力",
+          "zh_CN": "累计消耗160点干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "1003": {
+      "Id": 1003,
+      "Type": 1,
+      "Title": "BattlePassQuest.1003.1",
+      "JumpTo": 32,
+      "Exp": 300,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.1003.1",
+          "zh_TW": "通過任意關卡6次",
+          "zh_CN": "通关任意关卡6次",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "1004": {
+      "Id": 1004,
+      "Type": 1,
+      "Title": "BattlePassQuest.1004.1",
+      "JumpTo": 65,
+      "Exp": 400,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.1004.1",
+          "zh_TW": "累計完成5項今日事務",
+          "zh_CN": "累计完成5项今日事务",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "1005": {
+      "Id": 1005,
+      "Type": 1,
+      "Title": "BattlePassQuest.1005.1",
+      "JumpTo": 32,
+      "Exp": 100,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.1005.1",
+          "zh_TW": "累計消耗80點活力",
+          "zh_CN": "累计消耗80点干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "1006": {
+      "Id": 1006,
+      "Type": 1,
+      "Title": "BattlePassQuest.1006.1",
+      "JumpTo": 32,
+      "Exp": 100,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.1006.1",
+          "zh_TW": "通過任意關卡2次",
+          "zh_CN": "通关任意关卡2次",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "1007": {
+      "Id": 1007,
+      "Type": 1,
+      "Title": "BattlePassQuest.1007.1",
+      "JumpTo": 65,
+      "Exp": 100,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.1007.1",
+          "zh_TW": "累計完成2項今日事務",
+          "zh_CN": "累计完成2项今日事务",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "2001": {
+      "Id": 2001,
+      "Type": 2,
+      "Title": "BattlePassQuest.2001.1",
+      "JumpTo": 27,
+      "Exp": 1000,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.2001.1",
+          "zh_TW": "進行1次星塔探索",
+          "zh_CN": "进行1次星塔探索",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "2002": {
+      "Id": 2002,
+      "Type": 2,
+      "Title": "BattlePassQuest.2002.1",
+      "JumpTo": 62001,
+      "Exp": 1000,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.2002.1",
+          "zh_TW": "完成3次真格挑戰",
+          "zh_CN": "完成3次真格挑战",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "2003": {
+      "Id": 2003,
+      "Type": 2,
+      "Title": "BattlePassQuest.2003.1",
+      "JumpTo": 32,
+      "Exp": 1000,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.2003.1",
+          "zh_TW": "通過任意關卡20次",
+          "zh_CN": "通关任意关卡20次",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "2004": {
+      "Id": 2004,
+      "Type": 2,
+      "Title": "BattlePassQuest.2004.1",
+      "Exp": 1000,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.2004.1",
+          "zh_TW": "本週登入累計達5天",
+          "zh_CN": "本周累计登录5天",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "2005": {
+      "Id": 2005,
+      "Type": 2,
+      "Title": "BattlePassQuest.2005.1",
+      "JumpTo": 57,
+      "Exp": 1000,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.2005.1",
+          "zh_TW": "完成委託累計達3次",
+          "zh_CN": "累计完成3次委托",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "2006": {
+      "Id": 2006,
+      "Type": 2,
+      "Title": "BattlePassQuest.2006.1",
+      "Exp": 1000,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.2006.1",
+          "zh_TW": "消耗朵拉累計達100,000",
+          "zh_CN": "累计消耗100000朵拉",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "2007": {
+      "Id": 2007,
+      "Type": 2,
+      "Title": "BattlePassQuest.2007.1",
+      "JumpTo": 60,
+      "Exp": 1000,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.2007.1",
+          "zh_TW": "在「心鏈」中累計贈禮5次",
+          "zh_CN": "在「心链」中累计赠礼5次",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "2008": {
+      "Id": 2008,
+      "Type": 2,
+      "Title": "BattlePassQuest.2008.1",
+      "JumpTo": 32,
+      "Exp": 1000,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.2008.1",
+          "zh_TW": "累計消耗1,200點活力",
+          "zh_CN": "累计消耗1200点干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "2009": {
+      "Id": 2009,
+      "Type": 2,
+      "Title": "BattlePassQuest.2009.1",
+      "JumpTo": 32,
+      "Exp": 1000,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.2009.1",
+          "zh_TW": "通過任意關卡10次",
+          "zh_CN": "通关任意关卡10次",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    },
+    "2010": {
+      "Id": 2010,
+      "Type": 2,
+      "Title": "BattlePassQuest.2010.1",
+      "JumpTo": 32,
+      "Exp": 1000,
+      "_localized": {
+        "/Title": {
+          "key": "BattlePassQuest.2010.1",
+          "zh_TW": "累計消耗600點活力",
+          "zh_CN": "累计消耗600点干劲",
+          "sources": {
+            "zh_TW": "language/zh_TW/BattlePassQuest.json",
+            "zh_CN": "language/zh_CN/BattlePassQuest.json"
+          }
+        }
+      }
+    }
+  }
+}

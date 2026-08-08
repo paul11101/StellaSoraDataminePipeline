@@ -1,0 +1,825 @@
+{
+  "table": "MonsterActionBranch",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\1017984cbc060150.bin",
+  "source_sha256": "557a949e7ef1a0958cfa20017fa756a8bec8f4284daf417ce14fcea0414959f7",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\MonsterActionBranch.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 1094
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "reference_field_order": [
+      "Id",
+      "GroupId",
+      "SkillId",
+      "Priority",
+      "Weight",
+      "Rate",
+      "CD",
+      "InitialCDPool",
+      "StartCDTime",
+      "FixedCD",
+      "ReleaseDistance",
+      "ReleaseAngle",
+      "TraceDuration",
+      "Activate",
+      "ActiveConditionType1",
+      "ActiveParam1",
+      "ActiveParam2",
+      "DeActiveConditionType1",
+      "DeActiveParam1",
+      "FollowEventType1",
+      "FollowEventParam1",
+      "FollowEventType2",
+      "FollowEventParam2",
+      "FollowEventType3",
+      "FollowEventParam3",
+      "DeActiveParam2"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "GroupId",
+      "3": "SkillId",
+      "4": "Priority",
+      "5": "Weight",
+      "6": "Rate",
+      "7": "CD",
+      "8": "InitialCDPool",
+      "9": "StartCDTime",
+      "10": "FixedCD",
+      "11": "ReleaseDistance",
+      "12": "ReleaseAngle",
+      "13": "TraceDuration",
+      "14": "Activate",
+      "15": "ActiveConditionType1",
+      "16": "ActiveParam1",
+      "17": "ActiveParam2",
+      "18": "DeActiveConditionType1",
+      "19": "DeActiveParam1",
+      "20": "DeActiveParam2",
+      "21": "FollowEventType1",
+      "22": "FollowEventParam1",
+      "23": "FollowEventType2",
+      "24": "FollowEventParam2",
+      "25": "FollowEventType3",
+      "26": "FollowEventParam3"
+    },
+    "aot_field_count": 26,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1094,
+      "compared_reference_rows": 1094,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1094,
+          "compared": 1094
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1094,
+          "compared": 1094
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1094
+        }
+      ]
+    },
+    "2": {
+      "field": "GroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 985,
+      "compared_reference_rows": 985,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 985,
+          "compared": 985
+        },
+        {
+          "codec": "varint_int",
+          "matches": 985,
+          "compared": 985
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 985
+        }
+      ]
+    },
+    "3": {
+      "field": "SkillId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1093,
+      "compared_reference_rows": 1093,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1093,
+          "compared": 1093
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1093,
+          "compared": 1093
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1093
+        }
+      ]
+    },
+    "4": {
+      "field": "Priority",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1019,
+      "compared_reference_rows": 1019,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1019,
+          "compared": 1019
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1019,
+          "compared": 1019
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1019
+        }
+      ]
+    },
+    "5": {
+      "field": "Weight",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1052,
+      "compared_reference_rows": 1052,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1052,
+          "compared": 1052
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1052,
+          "compared": 1052
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1052
+        }
+      ]
+    },
+    "6": {
+      "field": "Rate",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1092,
+      "compared_reference_rows": 1092,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1092,
+          "compared": 1092
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1092,
+          "compared": 1092
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1092
+        }
+      ]
+    },
+    "7": {
+      "field": "CD",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 953,
+      "compared_reference_rows": 953,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 953,
+          "compared": 953
+        },
+        {
+          "codec": "varint_int",
+          "matches": 953,
+          "compared": 953
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 953
+        }
+      ]
+    },
+    "8": {
+      "field": "InitialCDPool",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 965,
+      "compared_reference_rows": 965,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 965,
+          "compared": 965
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 965,
+          "compared": 965
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 427,
+          "compared": 965
+        }
+      ]
+    },
+    "9": {
+      "field": "StartCDTime",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 122,
+      "compared_reference_rows": 122,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 122,
+          "compared": 122
+        },
+        {
+          "codec": "varint_int",
+          "matches": 122,
+          "compared": 122
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 122
+        }
+      ]
+    },
+    "10": {
+      "field": "FixedCD",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 296,
+      "compared_reference_rows": 296,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 296,
+          "compared": 296
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 296
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 296
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 296
+        }
+      ]
+    },
+    "11": {
+      "field": "ReleaseDistance",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1092,
+      "compared_reference_rows": 1092,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1092,
+          "compared": 1092
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1092,
+          "compared": 1092
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1092
+        }
+      ]
+    },
+    "12": {
+      "field": "ReleaseAngle",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1094,
+      "compared_reference_rows": 1094,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1094,
+          "compared": 1094
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1094,
+          "compared": 1094
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1094
+        }
+      ]
+    },
+    "13": {
+      "field": "TraceDuration",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1066,
+      "compared_reference_rows": 1066,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1066,
+          "compared": 1066
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1066,
+          "compared": 1066
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1066
+        }
+      ]
+    },
+    "14": {
+      "field": "Activate",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 860,
+      "compared_reference_rows": 860,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 860,
+          "compared": 860
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 860
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 860
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 860
+        }
+      ]
+    },
+    "15": {
+      "field": "ActiveConditionType1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 145,
+      "compared_reference_rows": 145,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 145,
+          "compared": 145
+        },
+        {
+          "codec": "varint_int",
+          "matches": 145,
+          "compared": 145
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 145
+        }
+      ]
+    },
+    "16": {
+      "field": "ActiveParam1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 145,
+      "compared_reference_rows": 145,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 145,
+          "compared": 145
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 145
+        }
+      ]
+    },
+    "17": {
+      "field": "ActiveParam2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 16,
+      "compared_reference_rows": 16,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 16,
+          "compared": 16
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 16
+        }
+      ]
+    },
+    "18": {
+      "field": "DeActiveConditionType1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 112,
+      "compared_reference_rows": 112,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 112,
+          "compared": 112
+        },
+        {
+          "codec": "varint_int",
+          "matches": 112,
+          "compared": 112
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 112
+        }
+      ]
+    },
+    "19": {
+      "field": "DeActiveParam1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 112,
+      "compared_reference_rows": 112,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 112,
+          "compared": 112
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 112
+        }
+      ]
+    },
+    "20": {
+      "field": "DeActiveParam2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 11,
+      "compared_reference_rows": 11,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 11,
+          "compared": 11
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 11
+        }
+      ]
+    },
+    "21": {
+      "field": "FollowEventType1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 151,
+      "compared_reference_rows": 151,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 151,
+          "compared": 151
+        },
+        {
+          "codec": "varint_int",
+          "matches": 151,
+          "compared": 151
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 151
+        }
+      ]
+    },
+    "22": {
+      "field": "FollowEventParam1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 151,
+      "compared_reference_rows": 151,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 151,
+          "compared": 151
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 151
+        }
+      ]
+    },
+    "23": {
+      "field": "FollowEventType2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 55,
+      "compared_reference_rows": 55,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 55,
+          "compared": 55
+        },
+        {
+          "codec": "varint_int",
+          "matches": 55,
+          "compared": 55
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 55
+        }
+      ]
+    },
+    "24": {
+      "field": "FollowEventParam2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 55,
+      "compared_reference_rows": 55,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 55,
+          "compared": 55
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 55
+        }
+      ]
+    },
+    "25": {
+      "field": "FollowEventType3",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 30,
+      "compared_reference_rows": 30,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 30,
+          "compared": 30
+        },
+        {
+          "codec": "varint_int",
+          "matches": 30,
+          "compared": 30
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 30
+        }
+      ]
+    },
+    "26": {
+      "field": "FollowEventParam3",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 30,
+      "compared_reference_rows": 30,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 30,
+          "compared": 30
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 30
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 1094,
+    "reference_row_count": 1094,
+    "shared_key_count": 1094,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 1094,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

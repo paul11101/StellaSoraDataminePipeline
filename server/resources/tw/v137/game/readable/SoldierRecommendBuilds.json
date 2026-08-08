@@ -1,0 +1,377 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SoldierRecommendBuilds",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 8,
+    "localization_hits": 16,
+    "source": "bin/SoldierRecommendBuilds.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Title": "SoldierRecommendBuilds.1.1",
+      "CharacterId": 2501001,
+      "Front1": [
+        2501003,
+        3
+      ],
+      "Front2": [
+        2501001,
+        3
+      ],
+      "Front3": [
+        2501015,
+        3
+      ],
+      "Back": "{\"2501013\": 2, \"2501002\": 2, \"2501005\": 2, \"2501016\": 2, \"2501006\": 2, \"2501022\": 2}",
+      "Desc": "SoldierRecommendBuilds.1.2",
+      "StarterCard": 1010101,
+      "StrategyCard": [
+        2010102,
+        2010109,
+        2010113
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "SoldierRecommendBuilds.1.1",
+          "zh_TW": "【3空白旅團3百步穿楊】空白旅團均衡全能",
+          "zh_CN": "【3空白旅团3百步穿杨】空白旅团均衡全能",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierRecommendBuilds.1.2",
+          "zh_TW": "塵沙核心疊雛菊增益，配百步穿楊暴擊與沐浴恩典，全能均衡的合成流陣容。",
+          "zh_CN": "尘沙核心叠雏菊增益，配百步穿杨暴击与沐浴恩典，全能均衡的合成流阵容。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Title": "SoldierRecommendBuilds.2.1",
+      "CharacterId": 2501009,
+      "Front1": [
+        2501033,
+        3
+      ],
+      "Front2": [
+        2501018,
+        2
+      ],
+      "Front3": [
+        2501009,
+        3
+      ],
+      "Back": "{\"2501008\": 3, \"2501004\": 2, \"2501007\": 2, \"2501005\": 2, \"2501006\": 2, \"2501012\": 2}",
+      "Desc": "SoldierRecommendBuilds.2.2",
+      "StarterCard": 1010103,
+      "StrategyCard": [
+        2010210,
+        2010208,
+        2010109
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "SoldierRecommendBuilds.2.1",
+          "zh_TW": "【3花令旅團3巔峰戰士】花令旅團生存疊層",
+          "zh_CN": "【3花令旅团3巅峰战士】花令旅团生存叠层",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierRecommendBuilds.2.2",
+          "zh_TW": "巔峰戰士疊武者氣勢與花令旅團高技能傷害雙金檔爆發，千都世自由旅人翻倍全隊屬性，萬送屋霜凍減速控場，生存達人堆血續航。",
+          "zh_CN": "巅峰战士叠武者气势与花令旅团高技能伤害双金档爆发，千都世自由旅人翻倍全队属性，万送屋霜冻减速控场，生存达人堆血续航。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Title": "SoldierRecommendBuilds.3.1",
+      "CharacterId": 2501015,
+      "Front1": [
+        2501010,
+        3
+      ],
+      "Front2": [
+        2501015,
+        3
+      ],
+      "Front3": [
+        2501014,
+        3
+      ],
+      "Back": "{\"2501013\": 2, \"2501002\": 2, \"2501019\": 2, \"2501016\": 2, \"2501012\": 2, \"2501021\": 2}",
+      "Desc": "SoldierRecommendBuilds.3.2",
+      "StarterCard": 1010104,
+      "StrategyCard": [
+        2010210,
+        2010113,
+        2010208
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "SoldierRecommendBuilds.3.1",
+          "zh_TW": "【5恩賜意志4沐浴恩典】恩賜意志DOT爆發",
+          "zh_CN": "【5恩赐意志4沐浴恩典】恩赐意志DOT爆发",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierRecommendBuilds.3.2",
+          "zh_TW": "卡娜絲領銜恩賜印記持續掉血，五層引爆十倍爆發，輔以沐浴勇士與魅力控制，輸出頂尖。",
+          "zh_CN": "卡娜丝领衔恩赐印记持续掉血，五层引爆十倍爆发，辅以沐浴勇士与魅力控制，输出顶尖。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "Title": "SoldierRecommendBuilds.4.1",
+      "CharacterId": 2501020,
+      "Front1": [
+        2501020,
+        3
+      ],
+      "Front2": [
+        2501027,
+        3
+      ],
+      "Front3": [
+        2501028,
+        3
+      ],
+      "Back": "{\"2501003\": 3, \"2501032\": 2, \"2501021\": 2, \"2501029\": 2, \"2501030\": 2, \"2501031\": 2}",
+      "Desc": "SoldierRecommendBuilds.4.2",
+      "StarterCard": 1010108,
+      "StrategyCard": [
+        2010313,
+        2010214,
+        2010206
+      ],
+      "PartnerAdd": "{\"10904\": 1}",
+      "_localized": {
+        "/Title": {
+          "key": "SoldierRecommendBuilds.4.1",
+          "zh_TW": "【5灰風俱樂部4人多勢眾】灰風俱樂部圍攻流",
+          "zh_CN": "【5灰风俱乐部4人多势众】灰风俱乐部围攻流",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierRecommendBuilds.4.2",
+          "zh_TW": "滿月核心疊加圍攻標記強化普攻與回能，配人多勢眾全隊攻擊暴擊，普攻碾壓型陣容。",
+          "zh_CN": "满月核心叠加围攻标记强化普攻与回能，配人多势众全队攻击暴击，普攻碾压型阵容。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "Title": "SoldierRecommendBuilds.5.1",
+      "CharacterId": 2501034,
+      "Front1": [
+        2501031,
+        2
+      ],
+      "Front2": [
+        2501033,
+        2
+      ],
+      "Front3": [
+        2501032,
+        1
+      ],
+      "Back": "{\"2501034\": 3, \"2501037\": 2, \"2501021\": 2, \"2501029\": 2, \"2501035\": 2, \"2501036\": 2}",
+      "Desc": "SoldierRecommendBuilds.5.2",
+      "StarterCard": 1010110,
+      "StrategyCard": [
+        2010209,
+        2010218,
+        2010210
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "SoldierRecommendBuilds.5.1",
+          "zh_TW": "【夏洛克7森林朋友】夏洛克單核輸出",
+          "zh_CN": "【夏洛克7森林朋友】夏洛克单核输出",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierRecommendBuilds.5.2",
+          "zh_TW": "快速升本找到夏洛克，前排陣亡後夏洛克替補上位繼承森林朋友高屬性，森林朋友七級回能放大單核爆發。",
+          "zh_CN": "快速上本找到夏洛克，前排阵亡后夏洛克替补上位继承森林朋友高属性，森林朋友七级回能放大单核爆发。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "Title": "SoldierRecommendBuilds.6.1",
+      "CharacterId": 2501011,
+      "Front1": [
+        2501038,
+        2
+      ],
+      "Front2": [
+        2501014,
+        3
+      ],
+      "Front3": [
+        2501010,
+        3
+      ],
+      "Back": "{\"2501013\": 2, \"2501019\": 2, \"2501011\": 2, \"2501016\": 2, \"2501039\": 2, \"2501040\": 2}",
+      "Desc": "SoldierRecommendBuilds.6.2",
+      "StarterCard": 1010105,
+      "StrategyCard": [
+        2010204,
+        2010215,
+        2010107
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "SoldierRecommendBuilds.6.1",
+          "zh_TW": "【4齒輪轉轉3恩賜意志】齒輪轉轉續航DOT",
+          "zh_CN": "【4齿轮转转3恩赐意志】齿轮转转续航DOT",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierRecommendBuilds.6.2",
+          "zh_TW": "齒輪護盾與維護程式提供全隊回血回能續航，火垂、格芮恩賜印記持續掉血輸出，希婭魅力控場與自由旅人屬性翻倍，續航爆發兼備。",
+          "zh_CN": "齿轮护盾与维护程序提供全队回血回能续航，火垂、格芮恩赐印记持续掉血输出，希娅魅力控场与自由旅人属性翻倍，续航爆发兼备。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "Title": "SoldierRecommendBuilds.7.1",
+      "CharacterId": 2501017,
+      "Front1": [
+        2501015,
+        2
+      ],
+      "Front2": [
+        2501017,
+        3
+      ],
+      "Front3": [
+        2501010,
+        2
+      ],
+      "Back": "{\"2501013\": 2, \"2501002\": 3, \"2501019\": 3, \"2501016\": 2, \"2501021\": 2, \"2501022\": 2}",
+      "Desc": "SoldierRecommendBuilds.7.2",
+      "StarterCard": 1010115,
+      "StrategyCard": [
+        2010203,
+        2010208,
+        2010210
+      ],
+      "_localized": {
+        "/Title": {
+          "key": "SoldierRecommendBuilds.7.1",
+          "zh_TW": "【地理協會3魅力滿溢】薇洛魅力無限減益",
+          "zh_CN": "【地理协会3魅力满溢】薇洛魅力无限减益",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierRecommendBuilds.7.2",
+          "zh_TW": "地理協會援護火力疊加，魅力滿溢無上限疊魅惑，連動沐浴恩賜，三羈絆協同的高上限陣容。",
+          "zh_CN": "地理协会援护火力叠加，魅力满溢无上限叠魅惑，联动沐浴恩赐，三羁绊协同的高上限阵容。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        }
+      }
+    },
+    "8": {
+      "Id": 8,
+      "Title": "SoldierRecommendBuilds.8.1",
+      "CharacterId": 2501013,
+      "Front1": [
+        2501002,
+        3
+      ],
+      "Front2": [
+        2501003,
+        3
+      ],
+      "Front3": [
+        2501005,
+        3
+      ],
+      "Back": "{\"2501013\": 2, \"2501024\": 3, \"2501023\": 2, \"2501026\": 2, \"2501021\": 2, \"2501025\": 2}",
+      "Desc": "SoldierRecommendBuilds.8.2",
+      "StarterCard": 1010106,
+      "StrategyCard": [
+        2010312,
+        2010301,
+        2010109
+      ],
+      "PartnerAdd": "{\"10604\": 1}",
+      "_localized": {
+        "/Title": {
+          "key": "SoldierRecommendBuilds.8.1",
+          "zh_TW": "【4帝國衛隊2聯合種業】聯合種業經濟流",
+          "zh_CN": "【4帝国卫队2联合种业】联合种业经济流",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierRecommendBuilds.8.2",
+          "zh_TW": "衛隊集結滾雪球，戰鬥結算額外金幣，聯合種業雙經濟營運，以資源優勢碾壓後期。",
+          "zh_CN": "卫队集结滚雪球，战斗结算额外金币，联合种业双经济运营，以资源优势碾压后期。",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierRecommendBuilds.json",
+            "zh_CN": "language/zh_CN/SoldierRecommendBuilds.json"
+          }
+        }
+      }
+    }
+  }
+}

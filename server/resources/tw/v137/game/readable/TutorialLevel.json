@@ -1,0 +1,184 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TutorialLevel",
+    "categories": [
+      "quests",
+      "stages_modes"
+    ],
+    "row_count": 8,
+    "localization_hits": 8,
+    "source": "bin/TutorialLevel.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "TutorialType": 1,
+      "Title": "TutorialLevel.1.1",
+      "TutorialBuild": 121010,
+      "FloorId": 12101,
+      "WorldClass": 1,
+      "Item1": 2,
+      "Qty1": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TutorialLevel.1.1",
+          "zh_TW": "基礎操作練習",
+          "zh_CN": "基础操作练习",
+          "sources": {
+            "zh_TW": "language/zh_TW/TutorialLevel.json",
+            "zh_CN": "language/zh_CN/TutorialLevel.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "TutorialType": 1,
+      "Title": "TutorialLevel.2.1",
+      "TutorialBuild": 121020,
+      "FloorId": 12102,
+      "WorldClass": 1,
+      "Item1": 2,
+      "Qty1": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TutorialLevel.2.1",
+          "zh_TW": "角色移動練習",
+          "zh_CN": "角色移动练习",
+          "sources": {
+            "zh_TW": "language/zh_TW/TutorialLevel.json",
+            "zh_CN": "language/zh_CN/TutorialLevel.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "TutorialType": 1,
+      "Title": "TutorialLevel.3.1",
+      "TutorialBuild": 121030,
+      "FloorId": 12103,
+      "WorldClass": 1,
+      "Item1": 2,
+      "Qty1": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TutorialLevel.3.1",
+          "zh_TW": "援護角色練習",
+          "zh_CN": "援护角色练习",
+          "sources": {
+            "zh_TW": "language/zh_TW/TutorialLevel.json",
+            "zh_CN": "language/zh_CN/TutorialLevel.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "TutorialType": 2,
+      "Title": "TutorialLevel.4.1",
+      "TutorialBuild": 121040,
+      "FloorId": 12104,
+      "WorldClass": 1,
+      "Item1": 2,
+      "Qty1": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TutorialLevel.4.1",
+          "zh_TW": "印記機制教學",
+          "zh_CN": "印记机制教学",
+          "sources": {
+            "zh_TW": "language/zh_TW/TutorialLevel.json",
+            "zh_CN": "language/zh_CN/TutorialLevel.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "TutorialType": 2,
+      "Title": "TutorialLevel.5.1",
+      "TutorialBuild": 121050,
+      "FloorId": 12105,
+      "WorldClass": 1,
+      "Item1": 2,
+      "Qty1": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TutorialLevel.5.1",
+          "zh_TW": "元素屬性教學",
+          "zh_CN": "元素属性教学",
+          "sources": {
+            "zh_TW": "language/zh_TW/TutorialLevel.json",
+            "zh_CN": "language/zh_CN/TutorialLevel.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "TutorialType": 2,
+      "Title": "TutorialLevel.6.1",
+      "TutorialBuild": 121080,
+      "FloorId": 12108,
+      "WorldClass": 1,
+      "Item1": 2,
+      "Qty1": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TutorialLevel.6.1",
+          "zh_TW": "敵方韌性教學",
+          "zh_CN": "敌方韧性教学",
+          "sources": {
+            "zh_TW": "language/zh_TW/TutorialLevel.json",
+            "zh_CN": "language/zh_CN/TutorialLevel.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "TutorialType": 3,
+      "Title": "TutorialLevel.7.1",
+      "TutorialBuild": 121060,
+      "FloorId": 12106,
+      "WorldClass": 1,
+      "Item1": 2,
+      "Qty1": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TutorialLevel.7.1",
+          "zh_TW": "星塔潛能選擇",
+          "zh_CN": "星塔潜能选择",
+          "sources": {
+            "zh_TW": "language/zh_TW/TutorialLevel.json",
+            "zh_CN": "language/zh_CN/TutorialLevel.json"
+          }
+        }
+      }
+    },
+    "8": {
+      "Id": 8,
+      "TutorialType": 3,
+      "Title": "TutorialLevel.8.1",
+      "TutorialBuild": 121070,
+      "FloorId": 12107,
+      "WorldClass": 1,
+      "Item1": 2,
+      "Qty1": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TutorialLevel.8.1",
+          "zh_TW": "祕紋與音符",
+          "zh_CN": "秘纹与音符",
+          "sources": {
+            "zh_TW": "language/zh_TW/TutorialLevel.json",
+            "zh_CN": "language/zh_CN/TutorialLevel.json"
+          }
+        }
+      }
+    }
+  }
+}

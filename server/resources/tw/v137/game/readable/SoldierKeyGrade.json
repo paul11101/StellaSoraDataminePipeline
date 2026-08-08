@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SoldierKeyGrade",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 2,
+    "localization_hits": 2,
+    "source": "bin/SoldierKeyGrade.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "Name": "SoldierKeyGrade.101.1",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierKeyGrade.101.1",
+          "zh_TW": "淺層",
+          "zh_CN": "浅层",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierKeyGrade.json",
+            "zh_CN": "language/zh_CN/SoldierKeyGrade.json"
+          }
+        }
+      }
+    },
+    "102": {
+      "Id": 102,
+      "Name": "SoldierKeyGrade.102.1",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierKeyGrade.102.1",
+          "zh_TW": "深層",
+          "zh_CN": "深层",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierKeyGrade.json",
+            "zh_CN": "language/zh_CN/SoldierKeyGrade.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "shop_economy",
+    "name": "商店与经济系统",
+    "description": "商城、常驻/活动商店、商品包、月卡、体力购买和兑换。",
+    "table_count": 24,
+    "row_count": 1019,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "ActivityGoods",
+      "categories": [
+        "activities",
+        "shop_economy"
+      ],
+      "row_count": 333,
+      "data": "bin/ActivityGoods.json",
+      "readable": "readable/ActivityGoods.json",
+      "evidence": "evidence/tables/ActivityGoods.json",
+      "source_sha256": "c27914b81443305541d81dfdc3e7da554bb2373c8a4bcf336d1e5c813bddbdd4",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityGoods.json",
+      "zh_CN": "language/zh_CN/ActivityGoods.json"
+    },
+    {
+      "table": "ActivityShop",
+      "categories": [
+        "activities",
+        "shop_economy"
+      ],
+      "row_count": 16,
+      "data": "bin/ActivityShop.json",
+      "readable": "readable/ActivityShop.json",
+      "evidence": "evidence/tables/ActivityShop.json",
+      "source_sha256": "9175a2c49069c4b45b7ba2bf7e237cd386f8fdb9cf3705c98fe621a198a36e20",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityShop.json",
+      "zh_CN": "language/zh_CN/ActivityShop.json"
+    },
+    {
+      "table": "ActivityShopControl",
+      "categories": [
+        "activities",
+        "shop_economy"
+      ],
+      "row_count": 16,
+      "data": "bin/ActivityShopControl.json",
+      "readable": "readable/ActivityShopControl.json",
+      "evidence": "evidence/tables/ActivityShopControl.json",
+      "source_sha256": "6c3057a0fcdd3390daa8353396abd8faf7c89ea00aa8a41422b6d41524a6fa76",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BdConvert",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 9,
+      "data": "bin/BdConvert.json",
+      "readable": "readable/BdConvert.json",
+      "evidence": "evidence/tables/BdConvert.json",
+      "source_sha256": "879f557fe0cb846f23c9e694803e40523e7b8d638ea6e115a95af3b8f7471a44",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "BdConvertCondition",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 68,
+      "data": "bin/BdConvertCondition.json",
+      "readable": "readable/BdConvertCondition.json",
+      "evidence": "evidence/tables/BdConvertCondition.json",
+      "source_sha256": "572e17e498c65998d535eb42b6a9554f581024e9f0a2fc0a3639fccc3431c1ca",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/BdConvertCondition.json",
+      "zh_CN": "language/zh_CN/BdConvertCondition.json"
+    },
+    {
+      "table": "BdConvertContent",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 27,
+      "data": "bin/BdConvertContent.json",
+      "readable": "readable/BdConvertContent.json",
+      "evidence": "evidence/tables/BdConvertContent.json",
+      "source_sha256": "b67b7a6df1d85315d13c75862b9ebbec392d8639e4c7e5be95a9f3bdde262099",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/BdConvertContent.json",
+      "zh_CN": "language/zh_CN/BdConvertContent.json"
+    },
+    {
+      "table": "BdConvertControl",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 9,
+      "data": "bin/BdConvertControl.json",
+      "readable": "readable/BdConvertControl.json",
+      "evidence": "evidence/tables/BdConvertControl.json",
+      "source_sha256": "02b856b2e38ed7f0b2ec619dff508f149f232f13ab12d71cdf04fa014f233947",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/BdConvertControl.json",
+      "zh_CN": "language/zh_CN/BdConvertControl.json"
+    },
+    {
+      "table": "BdConvertRewardGroup",
+      "categories": [
+        "items_rewards",
+        "shop_economy"
+      ],
+      "row_count": 108,
+      "data": "bin/BdConvertRewardGroup.json",
+      "readable": "readable/BdConvertRewardGroup.json",
+      "evidence": "evidence/tables/BdConvertRewardGroup.json",
+      "source_sha256": "a648186bc1f824613c281cccaaa3243730e76312c67c0a990ba21ef50bef905a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+      "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+    },
+    {
+      "table": "CookiePackagePathsGroup",
+      "categories": [
+        "stages_modes",
+        "shop_economy"
+      ],
+      "row_count": 25,
+      "data": "bin/CookiePackagePathsGroup.json",
+      "readable": "readable/CookiePackagePathsGroup.json",
+      "evidence": "evidence/tables/CookiePackagePathsGroup.json",
+      "source_sha256": "a02946e1069031f1af73bd829f5735bd7ef2e3fb4bfa8bd3a70d04d910bced8a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "EnergyBuy",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 6,
+      "data": "bin/EnergyBuy.json",
+      "readable": "readable/EnergyBuy.json",
+      "evidence": "evidence/tables/EnergyBuy.json",
+      "source_sha256": "d328aaaa50108f2e4ce2f4449f88c35adb06d0da7bbdb9b3d1465b73dca6e082",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/EnergyBuy.json",
+      "zh_CN": "language/zh_CN/EnergyBuy.json"
+    },
+    {
+      "table": "MallAdvRecommend",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 9,
+      "data": "bin/MallAdvRecommend.json",
+      "readable": "readable/MallAdvRecommend.json",
+      "evidence": "evidence/tables/MallAdvRecommend.json",
+      "source_sha256": "5a8b770349965f015b7266745ea67a6fcb4fa4afd8b291c988d8c8f77886b264",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MallGem",
+      "categories": [
+        "items_rewards",
+        "shop_economy"
+      ],
+      "row_count": 7,
+      "data": "bin/MallGem.json",
+      "readable": "readable/MallGem.json",
+      "evidence": "evidence/tables/MallGem.json",
+      "source_sha256": "51b05b36f288b07942ccca43cc651d55290c451e0b90a6bde1869a437ad30985",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MallGem.json",
+      "zh_CN": "language/zh_CN/MallGem.json"
+    },
+    {
+      "table": "MallMonthlyCard",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 2,
+      "data": "bin/MallMonthlyCard.json",
+      "readable": "readable/MallMonthlyCard.json",
+      "evidence": "evidence/tables/MallMonthlyCard.json",
+      "source_sha256": "8dec1007f0860af6207f9becccbe3b1df9ee72bc8562d0b90e19887858348b6a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MallMonthlyCard.json",
+      "zh_CN": "language/zh_CN/MallMonthlyCard.json"
+    },
+    {
+      "table": "MallPackage",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 155,
+      "data": "bin/MallPackage.json",
+      "readable": "readable/MallPackage.json",
+      "evidence": "evidence/tables/MallPackage.json",
+      "source_sha256": "d6892bfe3dcd9b274285d2fd97c48f1726bdcfc5602c175f99890afb2e1a36c2",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MallPackage.json",
+      "zh_CN": "language/zh_CN/MallPackage.json"
+    },
+    {
+      "table": "MallPackagePage",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 6,
+      "data": "bin/MallPackagePage.json",
+      "readable": "readable/MallPackagePage.json",
+      "evidence": "evidence/tables/MallPackagePage.json",
+      "source_sha256": "e05e2353ede9da6a409e66a62b54bb97c66770ecb26a103c1d78edabb5ece36c",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MallPackagePage.json",
+      "zh_CN": "language/zh_CN/MallPackagePage.json"
+    },
+    {
+      "table": "MallRecommendGroup",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 25,
+      "data": "bin/MallRecommendGroup.json",
+      "readable": "readable/MallRecommendGroup.json",
+      "evidence": "evidence/tables/MallRecommendGroup.json",
+      "source_sha256": "9f615b72bb46d2f524f34702396d50d53397328f7df53de4f2a5300674ecf33f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MallRecommendGroup.json",
+      "zh_CN": "language/zh_CN/MallRecommendGroup.json"
+    },
+    {
+      "table": "MallShop",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 26,
+      "data": "bin/MallShop.json",
+      "readable": "readable/MallShop.json",
+      "evidence": "evidence/tables/MallShop.json",
+      "source_sha256": "bf8d55ee9700bed57db38c76529c967b046d0a2a1af8019f1ccbae0cb92f029b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MallShop.json",
+      "zh_CN": "language/zh_CN/MallShop.json"
+    },
+    {
+      "table": "MallShopPage",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 3,
+      "data": "bin/MallShopPage.json",
+      "readable": "readable/MallShopPage.json",
+      "evidence": "evidence/tables/MallShopPage.json",
+      "source_sha256": "2de10c789411d03d955794a21d1548eddee5303f0b4c0a793c0d8efe59ab65c1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MallShopPage.json",
+      "zh_CN": "language/zh_CN/MallShopPage.json"
+    },
+    {
+      "table": "MonthlyCard",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 60,
+      "data": "bin/MonthlyCard.json",
+      "readable": "readable/MonthlyCard.json",
+      "evidence": "evidence/tables/MonthlyCard.json",
+      "source_sha256": "504639aedd2b2b56bbf99a9fc1c8871e2ee6ae6362726e603e80bcb920c3229f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ResidentGoods",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 47,
+      "data": "bin/ResidentGoods.json",
+      "readable": "readable/ResidentGoods.json",
+      "evidence": "evidence/tables/ResidentGoods.json",
+      "source_sha256": "f7bc7fae32039460968db4dc45925fd83bb378f2bdfffd331b65c57c0ff6af40",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ResidentGoods.json",
+      "zh_CN": "language/zh_CN/ResidentGoods.json"
+    },
+    {
+      "table": "ResidentShop",
+      "categories": [
+        "shop_economy"
+      ],
+      "row_count": 4,
+      "data": "bin/ResidentShop.json",
+      "readable": "readable/ResidentShop.json",
+      "evidence": "evidence/tables/ResidentShop.json",
+      "source_sha256": "9a7ddf78f75e35fe80541df3d5d0c3862d0f6c76c8ee10ac499f962a7c94837d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ResidentShop.json",
+      "zh_CN": "language/zh_CN/ResidentShop.json"
+    },
+    {
+      "table": "SoldierShopLevel",
+      "categories": [
+        "stages_modes",
+        "shop_economy"
+      ],
+      "row_count": 10,
+      "data": "bin/SoldierShopLevel.json",
+      "readable": "readable/SoldierShopLevel.json",
+      "evidence": "evidence/tables/SoldierShopLevel.json",
+      "source_sha256": "2bcacf43f18c7914de5ddf8d02adcd90a41af2260648756f1d8a2bfa4f3475be",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "SoldierShopPool",
+      "categories": [
+        "stages_modes",
+        "shop_economy"
+      ],
+      "row_count": 40,
+      "data": "bin/SoldierShopPool.json",
+      "readable": "readable/SoldierShopPool.json",
+      "evidence": "evidence/tables/SoldierShopPool.json",
+      "source_sha256": "8e514dede75fbab907016305471a5763857a13e2c7588fe44479775a9d0155ef",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StarTowerShopGoods",
+      "categories": [
+        "stages_modes",
+        "shop_economy"
+      ],
+      "row_count": 8,
+      "data": "bin/StarTowerShopGoods.json",
+      "readable": "readable/StarTowerShopGoods.json",
+      "evidence": "evidence/tables/StarTowerShopGoods.json",
+      "source_sha256": "99424f3685879a8c25609289849a6edfa88969493cd64260f7c9e06d53765cf5",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    }
+  ]
+}

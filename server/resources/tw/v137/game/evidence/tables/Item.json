@@ -1,0 +1,689 @@
+{
+  "table": "Item",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\cb136b4153adeca7.bin",
+  "source_sha256": "d354f4a6b35bb7b05187342a61c9ce605c9486603d006ba22f1f5668318f62dc",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\Item.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 2165
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20
+    ],
+    "reference_field_order": [
+      "Id",
+      "Title",
+      "Desc",
+      "Literary",
+      "Type",
+      "Stype",
+      "Rarity",
+      "Stack",
+      "PositionLimit",
+      "ExpireType",
+      "ExpireDate",
+      "UseMode",
+      "UseAction",
+      "UseArgs",
+      "Display",
+      "DisHaving",
+      "JumpTo",
+      "Icon",
+      "Icon2"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 19,
+    "remaining_name_count": 19,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 2165,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Title",
+        "matching_reference_rows": 2165,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Desc",
+        "matching_reference_rows": 2165,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Literary",
+        "matching_reference_rows": 2165,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Type",
+        "matching_reference_rows": 2165,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "Stype",
+        "matching_reference_rows": 2165,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "Rarity",
+        "matching_reference_rows": 2156,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "Stack",
+        "matching_reference_rows": 1121,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "PositionLimit",
+        "matching_reference_rows": 1076,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "ExpireType",
+        "matching_reference_rows": 13,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "ExpireDate",
+        "matching_reference_rows": 13,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "UseMode",
+        "matching_reference_rows": 63,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "UseAction",
+        "matching_reference_rows": 63,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "14": {
+        "field": "UseArgs",
+        "matching_reference_rows": 65,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "15": {
+        "field": "Display",
+        "matching_reference_rows": 444,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "16": {
+        "field": "DisHaving",
+        "matching_reference_rows": 522,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "18": {
+        "field": "JumpTo",
+        "matching_reference_rows": 80,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "19": {
+        "field": "Icon",
+        "matching_reference_rows": 2123,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "20": {
+        "field": "Icon2",
+        "matching_reference_rows": 1432,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2165,
+      "compared_reference_rows": 2165,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2165,
+          "compared": 2165
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2165,
+          "compared": 2165
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2165
+        }
+      ]
+    },
+    "2": {
+      "field": "Title",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 2165,
+      "compared_reference_rows": 2165,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 2165,
+          "compared": 2165
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 2165
+        }
+      ]
+    },
+    "3": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 2165,
+      "compared_reference_rows": 2165,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 2165,
+          "compared": 2165
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 2165
+        }
+      ]
+    },
+    "4": {
+      "field": "Literary",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 2165,
+      "compared_reference_rows": 2165,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 2165,
+          "compared": 2165
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 2165
+        }
+      ]
+    },
+    "5": {
+      "field": "Type",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2165,
+      "compared_reference_rows": 2165,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2165,
+          "compared": 2165
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2165,
+          "compared": 2165
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2165
+        }
+      ]
+    },
+    "6": {
+      "field": "Stype",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2165,
+      "compared_reference_rows": 2165,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2165,
+          "compared": 2165
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2165,
+          "compared": 2165
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2165
+        }
+      ]
+    },
+    "7": {
+      "field": "Rarity",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 2156,
+      "compared_reference_rows": 2156,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 2156,
+          "compared": 2156
+        },
+        {
+          "codec": "varint_int",
+          "matches": 2156,
+          "compared": 2156
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 2156
+        }
+      ]
+    },
+    "8": {
+      "field": "Stack",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 1121,
+      "compared_reference_rows": 1121,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 1121,
+          "compared": 1121
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 1121
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 1121
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1121
+        }
+      ]
+    },
+    "9": {
+      "field": "PositionLimit",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1076,
+      "compared_reference_rows": 1076,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1076,
+          "compared": 1076
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1076,
+          "compared": 1076
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1076
+        }
+      ]
+    },
+    "10": {
+      "field": "ExpireType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 13,
+      "compared_reference_rows": 13,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 13,
+          "compared": 13
+        },
+        {
+          "codec": "varint_int",
+          "matches": 13,
+          "compared": 13
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 13
+        }
+      ]
+    },
+    "11": {
+      "field": "ExpireDate",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 13,
+      "compared_reference_rows": 13,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 13,
+          "compared": 13
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 13
+        }
+      ]
+    },
+    "12": {
+      "field": "UseMode",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 63,
+      "compared_reference_rows": 63,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 63,
+          "compared": 63
+        },
+        {
+          "codec": "varint_int",
+          "matches": 63,
+          "compared": 63
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 63
+        }
+      ]
+    },
+    "13": {
+      "field": "UseAction",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 63,
+      "compared_reference_rows": 63,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 63,
+          "compared": 63
+        },
+        {
+          "codec": "varint_int",
+          "matches": 63,
+          "compared": 63
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 63
+        }
+      ]
+    },
+    "14": {
+      "field": "UseArgs",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 65,
+      "compared_reference_rows": 65,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 65,
+          "compared": 65
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 65
+        }
+      ]
+    },
+    "15": {
+      "field": "Display",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 444,
+      "compared_reference_rows": 444,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 444,
+          "compared": 444
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 444
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 444
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 444
+        }
+      ]
+    },
+    "16": {
+      "field": "DisHaving",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 522,
+      "compared_reference_rows": 522,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 522,
+          "compared": 522
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 522
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 522
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 522
+        }
+      ]
+    },
+    "18": {
+      "field": "JumpTo",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 80,
+      "compared_reference_rows": 80,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 80,
+          "compared": 80
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 80,
+          "compared": 80
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 80
+        }
+      ]
+    },
+    "19": {
+      "field": "Icon",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 2123,
+      "compared_reference_rows": 2123,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 2123,
+          "compared": 2123
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 2123
+        }
+      ]
+    },
+    "20": {
+      "field": "Icon2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 1432,
+      "compared_reference_rows": 1432,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 1432,
+          "compared": 1432
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 1432
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 2165,
+    "reference_row_count": 2165,
+    "shared_key_count": 2165,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 2165,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

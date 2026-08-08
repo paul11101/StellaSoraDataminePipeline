@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "PenguinCardCost",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 5,
+    "localization_hits": 0,
+    "source": "bin/PenguinCardCost.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Count": 1,
+      "Turn": [
+        1
+      ],
+      "Cost": [
+        20
+      ]
+    },
+    "2": {
+      "Id": 2,
+      "Count": 2,
+      "Turn": [
+        1
+      ],
+      "Cost": [
+        50
+      ]
+    },
+    "3": {
+      "Id": 3,
+      "Count": 3,
+      "Turn": [
+        1
+      ],
+      "Cost": [
+        100
+      ]
+    },
+    "4": {
+      "Id": 4,
+      "Count": 4,
+      "Turn": [
+        1
+      ],
+      "Cost": [
+        150
+      ]
+    },
+    "5": {
+      "Id": 5,
+      "Count": 5,
+      "Turn": [
+        1
+      ],
+      "Cost": [
+        200
+      ]
+    }
+  }
+}

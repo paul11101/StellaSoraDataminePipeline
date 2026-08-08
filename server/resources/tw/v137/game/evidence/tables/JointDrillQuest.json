@@ -1,0 +1,384 @@
+{
+  "table": "JointDrillQuest",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d4dde33731e622f1.bin",
+  "source_sha256": "c753e6251c66f000913b8212f55a3d767d8693d96dc1adb23dc2a3445ce48a33",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\JointDrillQuest.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 42
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reference_field_order": [
+      "Id",
+      "GroupId",
+      "Title",
+      "Order",
+      "CompleteCond",
+      "CompleteCondParams",
+      "AwardItemTid1",
+      "AwardItemNum1",
+      "AwardItemTid2",
+      "AwardItemNum2"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 10,
+    "remaining_name_count": 10,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 42,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "GroupId",
+        "matching_reference_rows": 42,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Title",
+        "matching_reference_rows": 42,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Order",
+        "matching_reference_rows": 42,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "CompleteCond",
+        "matching_reference_rows": 42,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "CompleteCondParams",
+        "matching_reference_rows": 42,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "AwardItemTid1",
+        "matching_reference_rows": 42,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "AwardItemNum1",
+        "matching_reference_rows": 42,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "AwardItemTid2",
+        "matching_reference_rows": 42,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "AwardItemNum2",
+        "matching_reference_rows": 42,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 42,
+      "compared_reference_rows": 42,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_int",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 42
+        }
+      ]
+    },
+    "2": {
+      "field": "GroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 42,
+      "compared_reference_rows": 42,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_int",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 42
+        }
+      ]
+    },
+    "3": {
+      "field": "Title",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 42,
+      "compared_reference_rows": 42,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 42
+        }
+      ]
+    },
+    "4": {
+      "field": "Order",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 42,
+      "compared_reference_rows": 42,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_int",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 42
+        }
+      ]
+    },
+    "5": {
+      "field": "CompleteCond",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 42,
+      "compared_reference_rows": 42,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_int",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 42
+        }
+      ]
+    },
+    "6": {
+      "field": "CompleteCondParams",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 42,
+      "compared_reference_rows": 42,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 42
+        }
+      ]
+    },
+    "7": {
+      "field": "AwardItemTid1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 42,
+      "compared_reference_rows": 42,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_int",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 42
+        }
+      ]
+    },
+    "8": {
+      "field": "AwardItemNum1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 42,
+      "compared_reference_rows": 42,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_int",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 42
+        }
+      ]
+    },
+    "9": {
+      "field": "AwardItemTid2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 42,
+      "compared_reference_rows": 42,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_int",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 42
+        }
+      ]
+    },
+    "10": {
+      "field": "AwardItemNum2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 42,
+      "compared_reference_rows": 42,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_int",
+          "matches": 42,
+          "compared": 42
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 42
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 42,
+    "reference_row_count": 42,
+    "shared_key_count": 42,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 42,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

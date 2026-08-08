@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "CharGrade",
+    "categories": [
+      "characters"
+    ],
+    "row_count": 3,
+    "localization_hits": 0,
+    "source": "bin/CharGrade.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "0": {
+      "Grade": 1,
+      "FragmentsQty": 6,
+      "GeneralFragmentId": 1000,
+      "SubstituteItemId": 24,
+      "SubstituteItemQty": 5
+    },
+    "1": {
+      "Grade": 2,
+      "FragmentsQty": 6,
+      "GeneralFragmentId": 1001,
+      "SubstituteItemId": 24,
+      "SubstituteItemQty": 1
+    },
+    "2": {
+      "Grade": 3,
+      "FragmentsQty": 1,
+      "SubstituteItemId": 23,
+      "SubstituteItemQty": 5
+    }
+  }
+}

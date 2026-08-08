@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "CharGemInstanceType",
+    "categories": [
+      "characters",
+      "items_rewards",
+      "stages_modes"
+    ],
+    "row_count": 3,
+    "localization_hits": 3,
+    "source": "bin/CharGemInstanceType.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "Name": "CharGemInstanceType.1.1",
+      "Episode": "db_stage_chargem_03",
+      "Sort": 1,
+      "_localized": {
+        "/Name": {
+          "key": "CharGemInstanceType.1.1",
+          "zh_TW": "帝國衛隊\u000b好市民點數",
+          "zh_CN": "帝国卫队\u000b好市民点数",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstanceType.json",
+            "zh_CN": "language/zh_CN/CharGemInstanceType.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "Name": "CharGemInstanceType.2.1",
+      "Episode": "db_stage_chargem_02",
+      "Sort": 2,
+      "_localized": {
+        "/Name": {
+          "key": "CharGemInstanceType.2.1",
+          "zh_TW": "地理協會\u000b協會貢獻證",
+          "zh_CN": "地理协会\u000b协会贡献证",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstanceType.json",
+            "zh_CN": "language/zh_CN/CharGemInstanceType.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Name": "CharGemInstanceType.3.1",
+      "Episode": "db_stage_chargem_01",
+      "Sort": 3,
+      "_localized": {
+        "/Name": {
+          "key": "CharGemInstanceType.3.1",
+          "zh_TW": "恩賜意志\u000b恩賜消費券",
+          "zh_CN": "恩赐意志\u000b恩赐消费券",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharGemInstanceType.json",
+            "zh_CN": "language/zh_CN/CharGemInstanceType.json"
+          }
+        }
+      }
+    }
+  }
+}

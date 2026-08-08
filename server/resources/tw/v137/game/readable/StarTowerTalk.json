@@ -1,0 +1,3975 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StarTowerTalk",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 120,
+    "localization_hits": 240,
+    "source": "bin/StarTowerTalk.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "913301": {
+      "Id": 913301,
+      "Name": "StarTowerTalk.913301.1",
+      "Content": "StarTowerTalk.913301.2",
+      "Color": "#4fad86",
+      "Face": "006",
+      "Voice": "vo_npc133_event_lv1_001",
+      "NPCId": 9133,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913301.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913301.2",
+          "zh_TW": "哈啊…唔…\n不好意思，昨晚熬夜打遊戲了。",
+          "zh_CN": "哈啊……唔……\n不好意思，昨晚熬夜打游戏了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913302": {
+      "Id": 913302,
+      "Name": "StarTowerTalk.913302.1",
+      "Content": "StarTowerTalk.913302.2",
+      "Color": "#4fad86",
+      "Face": "005",
+      "Voice": "vo_npc133_event_lv1_002",
+      "NPCId": 9133,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913302.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913302.2",
+          "zh_TW": "好麻煩，為什麼我要一直守在這裡…",
+          "zh_CN": "好麻烦，为什么我要一直守在这里……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913303": {
+      "Id": 913303,
+      "Name": "StarTowerTalk.913303.1",
+      "Content": "StarTowerTalk.913303.2",
+      "Color": "#4fad86",
+      "Face": "002",
+      "Voice": "vo_npc133_event_lv1_003",
+      "NPCId": 9133,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913303.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913303.2",
+          "zh_TW": "嗯？你剛剛跟我說話了？我還以為是做夢呢…",
+          "zh_CN": "嗯？你刚刚跟我说话了？我还以为是做梦呢……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913304": {
+      "Id": 913304,
+      "Name": "StarTowerTalk.913304.1",
+      "Content": "StarTowerTalk.913304.2",
+      "Color": "#4fad86",
+      "Face": "003",
+      "Voice": "vo_npc133_event_lv1_004",
+      "NPCId": 9133,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913304.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913304.2",
+          "zh_TW": "想買東西的話就隨便拿吧，記得付款就好。",
+          "zh_CN": "想买东西的话就随便拿吧，记得付款。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913305": {
+      "Id": 913305,
+      "Name": "StarTowerTalk.913305.1",
+      "Content": "StarTowerTalk.913305.2",
+      "Color": "#4fad86",
+      "Face": "004",
+      "Voice": "vo_npc133_event_lv1_005",
+      "NPCId": 9133,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913305.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913305.2",
+          "zh_TW": "只要你願意，星塔裡的東西你想拿多少就能拿多少。但對於你們旅人來說，這真的是好事嗎…呵呵。",
+          "zh_CN": "只要你愿意，星塔里的东西你想拿多少就能拿多少。但对于你们旅人来说，这真的是好事吗……呵呵。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913306": {
+      "Id": 913306,
+      "Name": "StarTowerTalk.913306.1",
+      "Content": "StarTowerTalk.913306.2",
+      "Color": "#4fad86",
+      "Face": "006",
+      "Voice": "vo_npc133_event_lv2_001",
+      "NPCId": 9133,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913306.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913306.2",
+          "zh_TW": "睏死了，我要睡一會兒…你請便吧。",
+          "zh_CN": "困死了，我要睡一会儿……你请便吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913307": {
+      "Id": 913307,
+      "Name": "StarTowerTalk.913307.1",
+      "Content": "StarTowerTalk.913307.2",
+      "Color": "#4fad86",
+      "Face": "005",
+      "Voice": "vo_npc133_event_lv2_002",
+      "NPCId": 9133,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913307.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913307.2",
+          "zh_TW": "噓，小聲點，要是讓店長看到我在和顧客聊天，會被扣薪水的。",
+          "zh_CN": "嘘，小点声，要是让店长看到我在和顾客闲聊，会扣工资的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913308": {
+      "Id": 913308,
+      "Name": "StarTowerTalk.913308.1",
+      "Content": "StarTowerTalk.913308.2",
+      "Color": "#4fad86",
+      "Face": "004",
+      "Voice": "vo_npc133_event_lv2_003",
+      "NPCId": 9133,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913308.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913308.2",
+          "zh_TW": "你看起來狀態不錯，比我還有精神，看來你更適合在星塔裡打工。",
+          "zh_CN": "你看起来状态不错，比我还有精神，我看你更适合在星塔里打工。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913309": {
+      "Id": 913309,
+      "Name": "StarTowerTalk.913309.1",
+      "Content": "StarTowerTalk.913309.2",
+      "Color": "#4fad86",
+      "Face": "003",
+      "Voice": "vo_npc133_event_lv2_004",
+      "NPCId": 9133,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913309.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913309.2",
+          "zh_TW": "想向我尋求建議？但我只是個便利商店店員啊。",
+          "zh_CN": "想向我寻求建议？可我只是个便利店店员啊。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913310": {
+      "Id": 913310,
+      "Name": "StarTowerTalk.913310.1",
+      "Content": "StarTowerTalk.913310.2",
+      "Color": "#4fad86",
+      "Face": "002",
+      "Voice": "vo_npc133_event_lv2_005",
+      "NPCId": 9133,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913310.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913310.2",
+          "zh_TW": "說起來，你會打遊戲？那就陪我來一局吧。",
+          "zh_CN": "说起来，你会打游戏？那就陪我来一局吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913311": {
+      "Id": 913311,
+      "Name": "StarTowerTalk.913311.1",
+      "Content": "StarTowerTalk.913311.2",
+      "Color": "#4fad86",
+      "Face": "004",
+      "Voice": "vo_npc133_event_lv3_001",
+      "NPCId": 9133,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913311.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913311.2",
+          "zh_TW": "歡迎光臨…今天進了些新貨…有你想要的東西嗎？",
+          "zh_CN": "欢迎光临……今天进了些新货……有你想要的吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913312": {
+      "Id": 913312,
+      "Name": "StarTowerTalk.913312.1",
+      "Content": "StarTowerTalk.913312.2",
+      "Color": "#4fad86",
+      "Face": "003",
+      "Voice": "vo_npc133_event_lv3_002",
+      "NPCId": 9133,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913312.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913312.2",
+          "zh_TW": "你說那隻企鵝？牠是我的店長。",
+          "zh_CN": "你说那只企鹅？它是我的店长。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913313": {
+      "Id": 913313,
+      "Name": "StarTowerTalk.913313.1",
+      "Content": "StarTowerTalk.913313.2",
+      "Color": "#4fad86",
+      "Face": "002",
+      "Voice": "vo_npc133_event_lv3_003",
+      "NPCId": 9133,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913313.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913313.2",
+          "zh_TW": "要結帳的話，把輝光幣放桌上就好。\n我先把這局遊戲打完再說。",
+          "zh_CN": "要结账的话，把辉光币放桌上就好。\n我先把这局游戏打完了再说。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913314": {
+      "Id": 913314,
+      "Name": "StarTowerTalk.913314.1",
+      "Content": "StarTowerTalk.913314.2",
+      "Color": "#4fad86",
+      "Face": "003",
+      "Voice": "vo_npc133_event_lv3_004",
+      "NPCId": 9133,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913314.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913314.2",
+          "zh_TW": "盡可能買點有用的東西，我可不想下次看到你鼻青臉腫地進來。",
+          "zh_CN": "尽可能买点有用的东西，我可不想下次看到你鼻青脸肿地进来。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913315": {
+      "Id": 913315,
+      "Name": "StarTowerTalk.913315.1",
+      "Content": "StarTowerTalk.913315.2",
+      "Color": "#4fad86",
+      "Face": "004",
+      "Voice": "vo_npc133_event_lv3_005",
+      "NPCId": 9133,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913315.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913315.2",
+          "zh_TW": "我一直覺得努力也沒什麼用。\n不過…如果遇到了危險，還請努力活下去。",
+          "zh_CN": "我一直觉得努力也没什么用。\n不过……如果遇到了危险，还请努力活下去。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913316": {
+      "Id": 913316,
+      "Name": "StarTowerTalk.913316.1",
+      "Content": "StarTowerTalk.913316.2",
+      "Color": "#4fad86",
+      "Face": "003",
+      "Voice": "vo_npc133_chat_lv1_001",
+      "NPCId": 9133,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913316.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913316.2",
+          "zh_TW": "還有什麼事嗎？\n沒有的話，就謝謝惠顧了。",
+          "zh_CN": "还有什么事吗？\n没有的话，就谢谢惠顾了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913317": {
+      "Id": 913317,
+      "Name": "StarTowerTalk.913317.1",
+      "Content": "StarTowerTalk.913317.2",
+      "Color": "#4fad86",
+      "Face": "004",
+      "Voice": "vo_npc133_chat_lv1_002",
+      "NPCId": 9133,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913317.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913317.2",
+          "zh_TW": "期待您再次光臨。",
+          "zh_CN": "期待您再次光临。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913318": {
+      "Id": 913318,
+      "Name": "StarTowerTalk.913318.1",
+      "Content": "StarTowerTalk.913318.2",
+      "Color": "#4fad86",
+      "Face": "003",
+      "Voice": "vo_npc133_chat_lv1_003",
+      "NPCId": 9133,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913318.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913318.2",
+          "zh_TW": "抱歉，我這裡不能賒帳。\n如果輝光幣不夠了，自己想辦法再賺點吧。",
+          "zh_CN": "抱歉，我这里不赊账。\n如果辉光币不够了，自己想办法再攒点吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913319": {
+      "Id": 913319,
+      "Name": "StarTowerTalk.913319.1",
+      "Content": "StarTowerTalk.913319.2",
+      "Color": "#4fad86",
+      "Face": "004",
+      "Voice": "vo_npc133_chat_lv1_004",
+      "NPCId": 9133,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913319.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913319.2",
+          "zh_TW": "還想再看看嗎？想看多久都行。",
+          "zh_CN": "还想再看看吗？想看多久都行。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913320": {
+      "Id": 913320,
+      "Name": "StarTowerTalk.913320.1",
+      "Content": "StarTowerTalk.913320.2",
+      "Color": "#4fad86",
+      "Face": "002",
+      "Voice": "vo_npc133_chat_lv1_005",
+      "NPCId": 9133,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913320.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913320.2",
+          "zh_TW": "看得差不多就行了，一會兒還會再見的。",
+          "zh_CN": "看得差不多就行了，一会儿还会再见的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913321": {
+      "Id": 913321,
+      "Name": "StarTowerTalk.913321.1",
+      "Content": "StarTowerTalk.913321.2",
+      "Color": "#4fad86",
+      "Face": "003",
+      "Voice": "vo_npc133_chat_lv2_001",
+      "NPCId": 9133,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913321.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913321.2",
+          "zh_TW": "我這裡只賣這些東西，沒有什麼隱藏道具。",
+          "zh_CN": "我这里只卖这些东西，没有什么隐藏道具。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913322": {
+      "Id": 913322,
+      "Name": "StarTowerTalk.913322.1",
+      "Content": "StarTowerTalk.913322.2",
+      "Color": "#4fad86",
+      "Face": "004",
+      "Voice": "vo_npc133_chat_lv2_002",
+      "NPCId": 9133,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913322.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913322.2",
+          "zh_TW": "你對店長感興趣？店長心情好的時候就會和你說話，如果不理你…那就是心情不好。",
+          "zh_CN": "你对店长感兴趣？店长心情好的时候就会和你说话，如果不理你......那就是心情不好。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913323": {
+      "Id": 913323,
+      "Name": "StarTowerTalk.913323.1",
+      "Content": "StarTowerTalk.913323.2",
+      "Color": "#4fad86",
+      "Face": "004",
+      "Voice": "vo_npc133_chat_lv2_003",
+      "NPCId": 9133,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913323.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913323.2",
+          "zh_TW": "跟我多說說星塔外的事吧，我會感謝你的。\n打折？這我可做不了主…",
+          "zh_CN": "跟我多说说星塔外的事吧，我会感谢你的。\n打折？这我可做不了主……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913324": {
+      "Id": 913324,
+      "Name": "StarTowerTalk.913324.1",
+      "Content": "StarTowerTalk.913324.2",
+      "Color": "#4fad86",
+      "Face": "002",
+      "Voice": "vo_npc133_chat_lv2_004",
+      "NPCId": 9133,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913324.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913324.2",
+          "zh_TW": "你們旅人究竟是為了什麼才來攀登星塔？\n就那麼想要神器嗎？",
+          "zh_CN": "你们旅人究竟是为了什么才来攀登星塔？\n就那么想要神器吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913325": {
+      "Id": 913325,
+      "Name": "StarTowerTalk.913325.1",
+      "Content": "StarTowerTalk.913325.2",
+      "Color": "#4fad86",
+      "Face": "004",
+      "Voice": "vo_npc133_chat_lv2_005",
+      "NPCId": 9133,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913325.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913325.2",
+          "zh_TW": "謝謝惠顧。\n唉，沒人和我說話的時候，倒是還能數數這些輝光幣打發時間…",
+          "zh_CN": "谢谢惠顾。\n唉，没人和我说话的时候，倒是还能数数这些辉光币打发时间……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913326": {
+      "Id": 913326,
+      "Name": "StarTowerTalk.913326.1",
+      "Content": "StarTowerTalk.913326.2",
+      "Color": "#4fad86",
+      "Face": "004",
+      "Voice": "vo_npc133_chat_lv3_001",
+      "NPCId": 9133,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913326.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913326.2",
+          "zh_TW": "我可以陪你再聊會兒，就當是給老顧客的特別回饋了。",
+          "zh_CN": "我可以陪你再聊会儿，就当是给老顾客的特别回馈了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913327": {
+      "Id": 913327,
+      "Name": "StarTowerTalk.913327.1",
+      "Content": "StarTowerTalk.913327.2",
+      "Color": "#4fad86",
+      "Face": "002",
+      "Voice": "vo_npc133_chat_lv3_002",
+      "NPCId": 9133,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913327.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913327.2",
+          "zh_TW": "如果這些東西能幫到你，我也不算白忙。",
+          "zh_CN": "如果这些东西能帮到你，我也算没白忙活。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913328": {
+      "Id": 913328,
+      "Name": "StarTowerTalk.913328.1",
+      "Content": "StarTowerTalk.913328.2",
+      "Color": "#4fad86",
+      "Face": "004",
+      "Voice": "vo_npc133_chat_lv3_003",
+      "NPCId": 9133,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913328.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913328.2",
+          "zh_TW": "滿意的話下次再來哦，要是見不到你，我會很無聊的。",
+          "zh_CN": "满意的话下次再来哦，要是见不到你，我会感到很无聊的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913329": {
+      "Id": 913329,
+      "Name": "StarTowerTalk.913329.1",
+      "Content": "StarTowerTalk.913329.2",
+      "Color": "#4fad86",
+      "Face": "002",
+      "Voice": "vo_npc133_chat_lv3_004",
+      "NPCId": 9133,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913329.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913329.2",
+          "zh_TW": "要是累了的話，在這裡休息一會也不是不行。\n要喝點什麼嗎？",
+          "zh_CN": "如果累了的话，在这里休息一会也不是不行。\n要喝点什么吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "913330": {
+      "Id": 913330,
+      "Name": "StarTowerTalk.913330.1",
+      "Content": "StarTowerTalk.913330.2",
+      "Color": "#4fad86",
+      "Face": "003",
+      "Voice": "vo_npc133_chat_lv3_005",
+      "NPCId": 9133,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.913330.1",
+          "zh_TW": "波西亞",
+          "zh_CN": "波西亚",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.913330.2",
+          "zh_TW": "有時候也想去星塔外看看…呵呵，還是別做白日夢了。",
+          "zh_CN": "有时候也想去星塔外看看……呵呵，还是别做白日梦了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917201": {
+      "Id": 917201,
+      "Name": "StarTowerTalk.917201.1",
+      "Content": "StarTowerTalk.917201.2",
+      "Color": "#95c1f9",
+      "Face": "004",
+      "Voice": "vo_npc172_event_lv1_001",
+      "NPCId": 9172,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917201.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917201.2",
+          "zh_TW": "哪裡受傷了，讓我看看。",
+          "zh_CN": "哪里受伤了，让我看看。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917202": {
+      "Id": 917202,
+      "Name": "StarTowerTalk.917202.1",
+      "Content": "StarTowerTalk.917202.2",
+      "Color": "#95c1f9",
+      "Face": "006",
+      "Voice": "vo_npc172_event_lv1_002",
+      "NPCId": 9172,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917202.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917202.2",
+          "zh_TW": "不需要治療的話就快走。",
+          "zh_CN": "不需要治疗的话就快走。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917203": {
+      "Id": 917203,
+      "Name": "StarTowerTalk.917203.1",
+      "Content": "StarTowerTalk.917203.2",
+      "Color": "#95c1f9",
+      "Face": "008",
+      "Voice": "vo_npc172_event_lv1_003",
+      "NPCId": 9172,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917203.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917203.2",
+          "zh_TW": "已經不行了？那就出去休息吧。",
+          "zh_CN": "已经不行了？那就出去歇着吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917204": {
+      "Id": 917204,
+      "Name": "StarTowerTalk.917204.1",
+      "Content": "StarTowerTalk.917204.2",
+      "Color": "#95c1f9",
+      "Face": "011",
+      "Voice": "vo_npc172_event_lv1_004",
+      "NPCId": 9172,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917204.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917204.2",
+          "zh_TW": "感覺在哪裡見過我？那只是你的錯覺。",
+          "zh_CN": "感觉在哪里见过我？那只是你的错觉。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917205": {
+      "Id": 917205,
+      "Name": "StarTowerTalk.917205.1",
+      "Content": "StarTowerTalk.917205.2",
+      "Color": "#95c1f9",
+      "Face": "009",
+      "Voice": "vo_npc172_event_lv1_005",
+      "NPCId": 9172,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917205.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917205.2",
+          "zh_TW": "想被扎一針？行啊。",
+          "zh_CN": "想被扎一针？行啊。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917206": {
+      "Id": 917206,
+      "Name": "StarTowerTalk.917206.1",
+      "Content": "StarTowerTalk.917206.2",
+      "Color": "#95c1f9",
+      "Face": "003",
+      "Voice": "vo_npc172_event_lv2_001",
+      "NPCId": 9172,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917206.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917206.2",
+          "zh_TW": "別浪費時間，趕緊治好趕緊走。",
+          "zh_CN": "别浪费时间，赶紧治好赶紧走。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917207": {
+      "Id": 917207,
+      "Name": "StarTowerTalk.917207.1",
+      "Content": "StarTowerTalk.917207.2",
+      "Color": "#95c1f9",
+      "Face": "008",
+      "Voice": "vo_npc172_event_lv2_002",
+      "NPCId": 9172,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917207.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917207.2",
+          "zh_TW": "輕傷不下火線，繼續前進吧。",
+          "zh_CN": "轻伤不下火线，继续前进吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917208": {
+      "Id": 917208,
+      "Name": "StarTowerTalk.917208.1",
+      "Content": "StarTowerTalk.917208.2",
+      "Color": "#95c1f9",
+      "Face": "009",
+      "Voice": "vo_npc172_event_lv2_003",
+      "NPCId": 9172,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917208.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917208.2",
+          "zh_TW": "不錯，還活著。這次需要扎幾針？",
+          "zh_CN": "不错，还活着。这次需要扎几针？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917209": {
+      "Id": 917209,
+      "Name": "StarTowerTalk.917209.1",
+      "Content": "StarTowerTalk.917209.2",
+      "Color": "#95c1f9",
+      "Face": "003",
+      "Voice": "vo_npc172_event_lv2_004",
+      "NPCId": 9172,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917209.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917209.2",
+          "zh_TW": "我只會在這裡治療旅人，你在其他地方見到的…是別人。",
+          "zh_CN": "我只会在这里治疗旅人，你在其他地方见到的……是别人。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917210": {
+      "Id": 917210,
+      "Name": "StarTowerTalk.917210.1",
+      "Content": "StarTowerTalk.917210.2",
+      "Color": "#95c1f9",
+      "Face": "012",
+      "Voice": "vo_npc172_event_lv2_005",
+      "NPCId": 9172,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917210.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917210.2",
+          "zh_TW": "我從沒見過有人像你這樣，纏著要我扎針的。",
+          "zh_CN": "我从没见过有人像你这样，缠着要我扎针的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917211": {
+      "Id": 917211,
+      "Name": "StarTowerTalk.917211.1",
+      "Content": "StarTowerTalk.917211.2",
+      "Color": "#95c1f9",
+      "Face": "004",
+      "Voice": "vo_npc172_event_lv3_001",
+      "NPCId": 9172,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917211.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917211.2",
+          "zh_TW": "我不是專程來照顧你的…說吧，哪裡受傷了？",
+          "zh_CN": "我不是来专程照顾你的……说吧，伤哪了？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917212": {
+      "Id": 917212,
+      "Name": "StarTowerTalk.917212.1",
+      "Content": "StarTowerTalk.917212.2",
+      "Color": "#95c1f9",
+      "Face": "011",
+      "Voice": "vo_npc172_event_lv3_002",
+      "NPCId": 9172,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917212.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917212.2",
+          "zh_TW": "下次小心點，別再給我添麻煩了。",
+          "zh_CN": "下次多注意一些，别再给我添麻烦了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917213": {
+      "Id": 917213,
+      "Name": "StarTowerTalk.917213.1",
+      "Content": "StarTowerTalk.917213.2",
+      "Color": "#95c1f9",
+      "Face": "008",
+      "Voice": "vo_npc172_event_lv3_003",
+      "NPCId": 9172,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917213.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917213.2",
+          "zh_TW": "不錯，表現比我預想的好。來吧，幫你做個檢查。",
+          "zh_CN": "不错，表现比我预想的要好。来吧，给你做个检查。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917214": {
+      "Id": 917214,
+      "Name": "StarTowerTalk.917214.1",
+      "Content": "StarTowerTalk.917214.2",
+      "Color": "#95c1f9",
+      "Face": "013",
+      "Voice": "vo_npc172_event_lv3_004",
+      "NPCId": 9172,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917214.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917214.2",
+          "zh_TW": "什麼直播？你是傷到腦子了嗎？",
+          "zh_CN": "什么直播？你是伤到脑子了吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917215": {
+      "Id": 917215,
+      "Name": "StarTowerTalk.917215.1",
+      "Content": "StarTowerTalk.917215.2",
+      "Color": "#95c1f9",
+      "Face": "009",
+      "Voice": "vo_npc172_event_lv3_005",
+      "NPCId": 9172,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917215.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917215.2",
+          "zh_TW": "好好好，給你來一針，別著急。",
+          "zh_CN": "好好好，给你来一针，别着急。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917216": {
+      "Id": 917216,
+      "Name": "StarTowerTalk.917216.1",
+      "Content": "StarTowerTalk.917216.2",
+      "Color": "#95c1f9",
+      "Face": "013",
+      "Voice": "vo_npc172_chat_lv1_001",
+      "NPCId": 9172,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917216.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917216.2",
+          "zh_TW": "趕緊走吧，別在這裡礙手礙腳的。",
+          "zh_CN": "赶紧走吧，别在这里碍手碍脚的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917217": {
+      "Id": 917217,
+      "Name": "StarTowerTalk.917217.1",
+      "Content": "StarTowerTalk.917217.2",
+      "Color": "#95c1f9",
+      "Face": "003",
+      "Voice": "vo_npc172_chat_lv1_002",
+      "NPCId": 9172,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917217.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917217.2",
+          "zh_TW": "我這裡不收留傷患，請回吧。",
+          "zh_CN": "我这里不收留伤患，请回吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917218": {
+      "Id": 917218,
+      "Name": "StarTowerTalk.917218.1",
+      "Content": "StarTowerTalk.917218.2",
+      "Color": "#95c1f9",
+      "Face": "010",
+      "Voice": "vo_npc172_chat_lv1_003",
+      "NPCId": 9172,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917218.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917218.2",
+          "zh_TW": "勉強是沒有意義的，堅持不下去就算了，回頭也不丟臉。",
+          "zh_CN": "勉强是没有意义的，坚持不下去就算了，回头不丢人。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917219": {
+      "Id": 917219,
+      "Name": "StarTowerTalk.917219.1",
+      "Content": "StarTowerTalk.917219.2",
+      "Color": "#95c1f9",
+      "Face": "006",
+      "Voice": "vo_npc172_chat_lv1_004",
+      "NPCId": 9172,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917219.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917219.2",
+          "zh_TW": "怎麼？被扎上癮了？",
+          "zh_CN": "怎么？被扎上瘾了？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917220": {
+      "Id": 917220,
+      "Name": "StarTowerTalk.917220.1",
+      "Content": "StarTowerTalk.917220.2",
+      "Color": "#95c1f9",
+      "Face": "012",
+      "Voice": "vo_npc172_chat_lv1_005",
+      "NPCId": 9172,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917220.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917220.2",
+          "zh_TW": "受傷不奇怪，但你很脆弱也是真的。",
+          "zh_CN": "受伤不奇怪，但你很脆弱也是真的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917221": {
+      "Id": 917221,
+      "Name": "StarTowerTalk.917221.1",
+      "Content": "StarTowerTalk.917221.2",
+      "Color": "#95c1f9",
+      "Face": "007",
+      "Voice": "vo_npc172_chat_lv2_001",
+      "NPCId": 9172,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917221.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917221.2",
+          "zh_TW": "剛才的慘叫是裝的嗎？那你演技不錯啊。",
+          "zh_CN": "刚才的惨叫是装的吗？那你演技不错啊。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917222": {
+      "Id": 917222,
+      "Name": "StarTowerTalk.917222.1",
+      "Content": "StarTowerTalk.917222.2",
+      "Color": "#95c1f9",
+      "Face": "004",
+      "Voice": "vo_npc172_chat_lv2_002",
+      "NPCId": 9172,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917222.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917222.2",
+          "zh_TW": "我這裡不安排住院，治完了就自行離開吧。",
+          "zh_CN": "我这里不安排住院，治完了就自觉离开吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917223": {
+      "Id": 917223,
+      "Name": "StarTowerTalk.917223.1",
+      "Content": "StarTowerTalk.917223.2",
+      "Color": "#95c1f9",
+      "Face": "012",
+      "Voice": "vo_npc172_chat_lv2_003",
+      "NPCId": 9172,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917223.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917223.2",
+          "zh_TW": "再往上走，可能會沒命…不過，這和我有什麼關係？",
+          "zh_CN": "再往上走，可能会没命……不过，这和我有什么关系？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917224": {
+      "Id": 917224,
+      "Name": "StarTowerTalk.917224.1",
+      "Content": "StarTowerTalk.917224.2",
+      "Color": "#95c1f9",
+      "Face": "008",
+      "Voice": "vo_npc172_chat_lv2_004",
+      "NPCId": 9172,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917224.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917224.2",
+          "zh_TW": "素質不錯，看來還能撐個幾輪。",
+          "zh_CN": "素质不错，看来还能撑个几轮。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917225": {
+      "Id": 917225,
+      "Name": "StarTowerTalk.917225.1",
+      "Content": "StarTowerTalk.917225.2",
+      "Color": "#95c1f9",
+      "Face": "011",
+      "Voice": "vo_npc172_chat_lv2_005",
+      "NPCId": 9172,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917225.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917225.2",
+          "zh_TW": "我這裡不提供其他服務。",
+          "zh_CN": "我这里不提供其他服务。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917226": {
+      "Id": 917226,
+      "Name": "StarTowerTalk.917226.1",
+      "Content": "StarTowerTalk.917226.2",
+      "Color": "#95c1f9",
+      "Face": "005",
+      "Voice": "vo_npc172_chat_lv3_001",
+      "NPCId": 9172,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917226.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917226.2",
+          "zh_TW": "如果還想在這裡休息一會，請便吧。別打擾到我就行。",
+          "zh_CN": "如果还想在这里休息一会，请便吧。别打搅到我就行。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917227": {
+      "Id": 917227,
+      "Name": "StarTowerTalk.917227.1",
+      "Content": "StarTowerTalk.917227.2",
+      "Color": "#95c1f9",
+      "Face": "010",
+      "Voice": "vo_npc172_chat_lv3_002",
+      "NPCId": 9172,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917227.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917227.2",
+          "zh_TW": "我不介意多幫你幾次，下次受傷的話再來找我吧。",
+          "zh_CN": "我不介意多帮你几次，下次受伤的话来找我就好。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917228": {
+      "Id": 917228,
+      "Name": "StarTowerTalk.917228.1",
+      "Content": "StarTowerTalk.917228.2",
+      "Color": "#95c1f9",
+      "Face": "003",
+      "Voice": "vo_npc172_chat_lv3_003",
+      "NPCId": 9172,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917228.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917228.2",
+          "zh_TW": "既然目標是塔頂，就不要在這裡逗留了。",
+          "zh_CN": "既然目标是塔顶，就不要在这里逗留了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917229": {
+      "Id": 917229,
+      "Name": "StarTowerTalk.917229.1",
+      "Content": "StarTowerTalk.917229.2",
+      "Color": "#95c1f9",
+      "Face": "009",
+      "Voice": "vo_npc172_chat_lv3_004",
+      "NPCId": 9172,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917229.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917229.2",
+          "zh_TW": "就是想和我聊兩句嗎？好吧。",
+          "zh_CN": "就是想和我聊两句吗？无妨。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917230": {
+      "Id": 917230,
+      "Name": "StarTowerTalk.917230.1",
+      "Content": "StarTowerTalk.917230.2",
+      "Color": "#95c1f9",
+      "Face": "008",
+      "Voice": "vo_npc172_chat_lv3_005",
+      "NPCId": 9172,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917230.1",
+          "zh_TW": "貝緹麗",
+          "zh_CN": "贝缇丽",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917230.2",
+          "zh_TW": "呵呵，我開始對你有點期待了。",
+          "zh_CN": "呵呵，我开始对你有点期待了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917301": {
+      "Id": 917301,
+      "Name": "StarTowerTalk.917301.1",
+      "Content": "StarTowerTalk.917301.2",
+      "Color": "#c84146",
+      "Face": "010",
+      "Voice": "vo_npc173_event_lv1_001",
+      "NPCId": 9173,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917301.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917301.2",
+          "zh_TW": "風險與機會總是並存～",
+          "zh_CN": "风险与机会总是并存~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917302": {
+      "Id": 917302,
+      "Name": "StarTowerTalk.917302.1",
+      "Content": "StarTowerTalk.917302.2",
+      "Color": "#c84146",
+      "Face": "002",
+      "Voice": "vo_npc173_event_lv1_002",
+      "NPCId": 9173,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917302.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917302.2",
+          "zh_TW": "別抗拒，力量本就屬於敢於尋求它的人～",
+          "zh_CN": "别抗拒，力量本就属于敢于寻求它的人~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917303": {
+      "Id": 917303,
+      "Name": "StarTowerTalk.917303.1",
+      "Content": "StarTowerTalk.917303.2",
+      "Color": "#c84146",
+      "Face": "008",
+      "Voice": "vo_npc173_event_lv1_003",
+      "NPCId": 9173,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917303.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917303.2",
+          "zh_TW": "想要獲得更多的報酬嗎？來試試這個吧～",
+          "zh_CN": "想要获得更多的报酬？来试试这个吧~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917304": {
+      "Id": 917304,
+      "Name": "StarTowerTalk.917304.1",
+      "Content": "StarTowerTalk.917304.2",
+      "Color": "#c84146",
+      "Face": "007",
+      "Voice": "vo_npc173_event_lv1_004",
+      "NPCId": 9173,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917304.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917304.2",
+          "zh_TW": "富貴險中求～\n你們旅人不都這麼說的嗎？",
+          "zh_CN": "富贵险中求~\n你们旅人不都这么说的吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917305": {
+      "Id": 917305,
+      "Name": "StarTowerTalk.917305.1",
+      "Content": "StarTowerTalk.917305.2",
+      "Color": "#c84146",
+      "Face": "009",
+      "Voice": "vo_npc173_event_lv1_005",
+      "NPCId": 9173,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917305.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917305.2",
+          "zh_TW": "無聊的約束在這裡已經不存在了，儘管遵從自己的慾望吧！",
+          "zh_CN": "无聊的约束在这里已经不存在了，尽管遵从自己的欲望吧！",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917306": {
+      "Id": 917306,
+      "Name": "StarTowerTalk.917306.1",
+      "Content": "StarTowerTalk.917306.2",
+      "Color": "#c84146",
+      "Face": "004",
+      "Voice": "vo_npc173_event_lv2_001",
+      "NPCId": 9173,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917306.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917306.2",
+          "zh_TW": "今天運氣不錯呢，來挑戰一下命運吧～",
+          "zh_CN": "今天运气不错呢，来挑战一下命运吧～",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917307": {
+      "Id": 917307,
+      "Name": "StarTowerTalk.917307.1",
+      "Content": "StarTowerTalk.917307.2",
+      "Color": "#c84146",
+      "Face": "003",
+      "Voice": "vo_npc173_event_lv2_002",
+      "NPCId": 9173,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917307.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917307.2",
+          "zh_TW": "既然決定了，就不要再猶豫了～",
+          "zh_CN": "既然已经决定了，可就不要再犹豫了哦~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917308": {
+      "Id": 917308,
+      "Name": "StarTowerTalk.917308.1",
+      "Content": "StarTowerTalk.917308.2",
+      "Color": "#c84146",
+      "Face": "010",
+      "Voice": "vo_npc173_event_lv2_003",
+      "NPCId": 9173,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917308.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917308.2",
+          "zh_TW": "我的大魔王，難道不想要最豐厚的獎勵嗎？",
+          "zh_CN": "我的大魔王，难道不想要最丰厚的奖励吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917309": {
+      "Id": 917309,
+      "Name": "StarTowerTalk.917309.1",
+      "Content": "StarTowerTalk.917309.2",
+      "Color": "#c84146",
+      "Face": "015",
+      "Voice": "vo_npc173_event_lv2_004",
+      "NPCId": 9173,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917309.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917309.2",
+          "zh_TW": "交易？別說得這麼生分嘛～我只是滿足了你心底的小小貪念罷了。",
+          "zh_CN": "交易？别说得这么生分嘛~我只是满足了你心底的小小贪念罢了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917310": {
+      "Id": 917310,
+      "Name": "StarTowerTalk.917310.1",
+      "Content": "StarTowerTalk.917310.2",
+      "Color": "#c84146",
+      "Face": "002",
+      "Voice": "vo_npc173_event_lv2_005",
+      "NPCId": 9173,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917310.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917310.2",
+          "zh_TW": "來都來了～不來和我玩個遊戲嗎？",
+          "zh_CN": "来都来了～不来和我做个游戏吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917311": {
+      "Id": 917311,
+      "Name": "StarTowerTalk.917311.1",
+      "Content": "StarTowerTalk.917311.2",
+      "Color": "#c84146",
+      "Face": "010",
+      "Voice": "vo_npc173_event_lv3_001",
+      "NPCId": 9173,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917311.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917311.2",
+          "zh_TW": "來吧，做出選擇吧～只要你願意將一切交給我，你的慾望就會得到滿足…",
+          "zh_CN": "来吧，做出选择吧~只要你愿意将一切交给我，你的欲望就会得到满足……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917312": {
+      "Id": 917312,
+      "Name": "StarTowerTalk.917312.1",
+      "Content": "StarTowerTalk.917312.2",
+      "Color": "#c84146",
+      "Face": "002",
+      "Voice": "vo_npc173_event_lv3_002",
+      "NPCId": 9173,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917312.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917312.2",
+          "zh_TW": "總算來了？\n我在這裡等您很久了！我的大魔王，今天我會好好讓你享受的～",
+          "zh_CN": "总算来了？\n我在这里等您很久了！我的大魔王，今天我会好好让你享受的~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917313": {
+      "Id": 917313,
+      "Name": "StarTowerTalk.917313.1",
+      "Content": "StarTowerTalk.917313.2",
+      "Color": "#c84146",
+      "Face": "010",
+      "Voice": "vo_npc173_event_lv3_003",
+      "NPCId": 9173,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917313.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917313.2",
+          "zh_TW": "在您踏入星塔時，我就被您吸引了～真想一直注視著您這副袒露慾望的模樣啊。",
+          "zh_CN": "在您踏入星塔时，我就被您吸引了～真想一直注视着您这副袒露欲望的模样啊。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917314": {
+      "Id": 917314,
+      "Name": "StarTowerTalk.917314.1",
+      "Content": "StarTowerTalk.917314.2",
+      "Color": "#c84146",
+      "Face": "008",
+      "Voice": "vo_npc173_event_lv3_004",
+      "NPCId": 9173,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917314.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917314.2",
+          "zh_TW": "你真的可以這麼信任我嗎？\n甜言蜜語也好，柔情似水也好…\n說不定都是我為你準備的陷阱哦～",
+          "zh_CN": "你这么信任我真的好吗？\n甜言蜜语也好，柔情似水也好……\n说不定都是我为你准备的陷阱哦~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917315": {
+      "Id": 917315,
+      "Name": "StarTowerTalk.917315.1",
+      "Content": "StarTowerTalk.917315.2",
+      "Color": "#c84146",
+      "Face": "002",
+      "Voice": "vo_npc173_event_lv3_005",
+      "NPCId": 9173,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917315.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917315.2",
+          "zh_TW": "我今天的心情超好～盡情向我要求吧，無論什麼我都會滿足你哦～",
+          "zh_CN": "我今天的心情超好～尽情向我渴求吧，无论什么我都会满足你哦~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917316": {
+      "Id": 917316,
+      "Name": "StarTowerTalk.917316.1",
+      "Content": "StarTowerTalk.917316.2",
+      "Color": "#c84146",
+      "Face": "007",
+      "Voice": "vo_npc173_chat_lv1_001",
+      "NPCId": 9173,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917316.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917316.2",
+          "zh_TW": "想再來一次？\n抱歉～一次只能玩一局哦～",
+          "zh_CN": "还想再来？\n抱歉啦～一次只能玩一局哦～",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917317": {
+      "Id": 917317,
+      "Name": "StarTowerTalk.917317.1",
+      "Content": "StarTowerTalk.917317.2",
+      "Color": "#c84146",
+      "Face": "011",
+      "Voice": "vo_npc173_chat_lv1_002",
+      "NPCId": 9173,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917317.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917317.2",
+          "zh_TW": "怎麼樣？滿足了嗎？",
+          "zh_CN": "怎么样？满足了吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917318": {
+      "Id": 917318,
+      "Name": "StarTowerTalk.917318.1",
+      "Content": "StarTowerTalk.917318.2",
+      "Color": "#c84146",
+      "Face": "014",
+      "Voice": "vo_npc173_chat_lv1_003",
+      "NPCId": 9173,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917318.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917318.2",
+          "zh_TW": "嗯哼～還有些意猶未盡嗎？",
+          "zh_CN": "嗯哼~是还有些意犹未尽吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917319": {
+      "Id": 917319,
+      "Name": "StarTowerTalk.917319.1",
+      "Content": "StarTowerTalk.917319.2",
+      "Color": "#c84146",
+      "Face": "015",
+      "Voice": "vo_npc173_chat_lv1_004",
+      "NPCId": 9173,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917319.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917319.2",
+          "zh_TW": "還需要我和你親熱一下才願意離開嗎？",
+          "zh_CN": "还需要我和你亲热一下才愿意离开吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917320": {
+      "Id": 917320,
+      "Name": "StarTowerTalk.917320.1",
+      "Content": "StarTowerTalk.917320.2",
+      "Color": "#c84146",
+      "Face": "004",
+      "Voice": "vo_npc173_chat_lv1_005",
+      "NPCId": 9173,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917320.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917320.2",
+          "zh_TW": "繼續攀登吧～我們還會再見的！",
+          "zh_CN": "继续攀登吧～我们还会再见的！",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917321": {
+      "Id": 917321,
+      "Name": "StarTowerTalk.917321.1",
+      "Content": "StarTowerTalk.917321.2",
+      "Color": "#c84146",
+      "Face": "007",
+      "Voice": "vo_npc173_chat_lv2_001",
+      "NPCId": 9173,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917321.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917321.2",
+          "zh_TW": "上癮了嗎？那就期待我們再次相會吧～",
+          "zh_CN": "上瘾了吗？那就期待我们的再次相会吧~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917322": {
+      "Id": 917322,
+      "Name": "StarTowerTalk.917322.1",
+      "Content": "StarTowerTalk.917322.2",
+      "Color": "#c84146",
+      "Face": "008",
+      "Voice": "vo_npc173_chat_lv2_002",
+      "NPCId": 9173,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917322.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917322.2",
+          "zh_TW": "不用露出這麼戀戀不捨的表情，以後還多的是機會呢～",
+          "zh_CN": "不用露出这么恋恋不舍的表情，以后的机会还多着呢~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917323": {
+      "Id": 917323,
+      "Name": "StarTowerTalk.917323.1",
+      "Content": "StarTowerTalk.917323.2",
+      "Color": "#c84146",
+      "Face": "009",
+      "Voice": "vo_npc173_chat_lv2_003",
+      "NPCId": 9173,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917323.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917323.2",
+          "zh_TW": "別摸來摸去了，我可拿不出更好的東西了～",
+          "zh_CN": "别摸来摸去了，我可拿不出更好的东西了~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917324": {
+      "Id": 917324,
+      "Name": "StarTowerTalk.917324.1",
+      "Content": "StarTowerTalk.917324.2",
+      "Color": "#c84146",
+      "Face": "010",
+      "Voice": "vo_npc173_chat_lv2_004",
+      "NPCId": 9173,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917324.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917324.2",
+          "zh_TW": "願好運永遠眷顧您，我的大魔王～",
+          "zh_CN": "愿好运永远眷顾您，我的大魔王~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917325": {
+      "Id": 917325,
+      "Name": "StarTowerTalk.917325.1",
+      "Content": "StarTowerTalk.917325.2",
+      "Color": "#c84146",
+      "Face": "002",
+      "Voice": "vo_npc173_chat_lv2_005",
+      "NPCId": 9173,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917325.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917325.2",
+          "zh_TW": "這麼容易就上鉤了啊～真可愛～",
+          "zh_CN": "这么容易就上钩了啊~真可爱~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917326": {
+      "Id": 917326,
+      "Name": "StarTowerTalk.917326.1",
+      "Content": "StarTowerTalk.917326.2",
+      "Color": "#c84146",
+      "Face": "010",
+      "Voice": "vo_npc173_chat_lv3_001",
+      "NPCId": 9173,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917326.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917326.2",
+          "zh_TW": "真不錯啊，比起猶豫不決的人，我還是更喜歡你這樣的行動派～",
+          "zh_CN": "真不错啊，比起犹豫不决的人我还是更喜欢你这样的行动派~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917327": {
+      "Id": 917327,
+      "Name": "StarTowerTalk.917327.1",
+      "Content": "StarTowerTalk.917327.2",
+      "Color": "#c84146",
+      "Face": "011",
+      "Voice": "vo_npc173_chat_lv3_002",
+      "NPCId": 9173,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917327.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917327.2",
+          "zh_TW": "如果讓您摸摸我的角…您會開心嗎？",
+          "zh_CN": "如果让您摸摸我的角……您会开心吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917328": {
+      "Id": 917328,
+      "Name": "StarTowerTalk.917328.1",
+      "Content": "StarTowerTalk.917328.2",
+      "Color": "#c84146",
+      "Face": "002",
+      "Voice": "vo_npc173_chat_lv3_003",
+      "NPCId": 9173,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917328.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917328.2",
+          "zh_TW": "想再和我聊一會？那就一直待在這裡吧～這樣我們就能永遠地聊下去了…",
+          "zh_CN": "想再和我聊一会？那就一直待在这里吧~这样我们就能永远地聊下去了……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917329": {
+      "Id": 917329,
+      "Name": "StarTowerTalk.917329.1",
+      "Content": "StarTowerTalk.917329.2",
+      "Color": "#c84146",
+      "Face": "008",
+      "Voice": "vo_npc173_chat_lv3_004",
+      "NPCId": 9173,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917329.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917329.2",
+          "zh_TW": "一想到還能再遇到你，就覺得我的工作沒那麼乏味了呢。",
+          "zh_CN": "一想到还能再遇到你，就觉得我的工作都不那么乏味了呢。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917330": {
+      "Id": 917330,
+      "Name": "StarTowerTalk.917330.1",
+      "Content": "StarTowerTalk.917330.2",
+      "Color": "#c84146",
+      "Face": "010",
+      "Voice": "vo_npc173_chat_lv3_005",
+      "NPCId": 9173,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917330.1",
+          "zh_TW": "珀爾娜",
+          "zh_CN": "珀尔娜",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917330.2",
+          "zh_TW": "真喜歡您身上這種…慾望的香氣～",
+          "zh_CN": "真喜欢您身上这种……欲望的香气～",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917401": {
+      "Id": 917401,
+      "Name": "StarTowerTalk.917401.1",
+      "Content": "StarTowerTalk.917401.2",
+      "Color": "#ceb3ce",
+      "Face": "003",
+      "Voice": "vo_npc174_event_lv1_001",
+      "NPCId": 9174,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917401.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917401.2",
+          "zh_TW": "沒有風險的選擇，就像沒有賭注的賭局，注定毫無價值。",
+          "zh_CN": "没有风险的选择，就像没有赌注的赌局，注定毫无价值。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917402": {
+      "Id": 917402,
+      "Name": "StarTowerTalk.917402.1",
+      "Content": "StarTowerTalk.917402.2",
+      "Color": "#ceb3ce",
+      "Face": "005",
+      "Voice": "vo_npc174_event_lv1_002",
+      "NPCId": 9174,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917402.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917402.2",
+          "zh_TW": "那些名垂青史的旅人，並沒有什麼特別的地方。\n大多數情況下，他們只是做出了最正確的選擇。",
+          "zh_CN": "那些名垂青史的旅人，并没有什么特别的地方。\n大多数情况下，他们只是做出了最正确的选择。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917403": {
+      "Id": 917403,
+      "Name": "StarTowerTalk.917403.1",
+      "Content": "StarTowerTalk.917403.2",
+      "Color": "#ceb3ce",
+      "Face": "010",
+      "Voice": "vo_npc174_event_lv1_003",
+      "NPCId": 9174,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917403.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917403.2",
+          "zh_TW": "做對一次選擇，就能避免許多白費力氣，這就是能夠事半功倍的祕訣…",
+          "zh_CN": "一次明智的选择能省去无数徒劳，这可是事半功倍的秘诀……",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917404": {
+      "Id": 917404,
+      "Name": "StarTowerTalk.917404.1",
+      "Content": "StarTowerTalk.917404.2",
+      "Color": "#ceb3ce",
+      "Face": "004",
+      "Voice": "vo_npc174_event_lv1_004",
+      "NPCId": 9174,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917404.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917404.2",
+          "zh_TW": "遺憾的從來不是結果，而是未被選擇的契機。",
+          "zh_CN": "遗憾的从来不是结果，而是未被选择的契机。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917405": {
+      "Id": 917405,
+      "Name": "StarTowerTalk.917405.1",
+      "Content": "StarTowerTalk.917405.2",
+      "Color": "#ceb3ce",
+      "Face": "005",
+      "Voice": "vo_npc174_event_lv1_005",
+      "NPCId": 9174,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917405.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917405.2",
+          "zh_TW": "竟然能堅持到這裡，您真是一位了不起的旅人。",
+          "zh_CN": "竟然能坚持到这里，您真是一位了不起的旅人。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917406": {
+      "Id": 917406,
+      "Name": "StarTowerTalk.917406.1",
+      "Content": "StarTowerTalk.917406.2",
+      "Color": "#ceb3ce",
+      "Face": "005",
+      "Voice": "vo_npc174_event_lv2_001",
+      "NPCId": 9174,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917406.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917406.2",
+          "zh_TW": "優柔寡斷可成不了大事。\n但身為經驗豐富的旅人，您一定懂得果斷的重要性吧。",
+          "zh_CN": "优柔寡断可成不了大事。\n但作为经验丰富的旅人，您一定懂得当机立断的重要性吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917407": {
+      "Id": 917407,
+      "Name": "StarTowerTalk.917407.1",
+      "Content": "StarTowerTalk.917407.2",
+      "Color": "#ceb3ce",
+      "Face": "010",
+      "Voice": "vo_npc174_event_lv2_002",
+      "NPCId": 9174,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917407.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917407.2",
+          "zh_TW": "正確的選擇永遠勝過盲目努力，這可是星塔生存的第一法則，您說呢？",
+          "zh_CN": "正确的选择永远胜过盲目努力，这可是星塔生存的第一法则，您说呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917408": {
+      "Id": 917408,
+      "Name": "StarTowerTalk.917408.1",
+      "Content": "StarTowerTalk.917408.2",
+      "Color": "#ceb3ce",
+      "Face": "009",
+      "Voice": "vo_npc174_event_lv2_003",
+      "NPCId": 9174,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917408.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917408.2",
+          "zh_TW": "像您這樣有經驗的旅人，一定能做出最正確的選擇吧。",
+          "zh_CN": "像您这样有经验的旅人，一定能做出最正确的选择吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917409": {
+      "Id": 917409,
+      "Name": "StarTowerTalk.917409.1",
+      "Content": "StarTowerTalk.917409.2",
+      "Color": "#ceb3ce",
+      "Face": "003",
+      "Voice": "vo_npc174_event_lv2_004",
+      "NPCId": 9174,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917409.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917409.2",
+          "zh_TW": "無需畏懼，你所付出的代價只是通行的門票。",
+          "zh_CN": "无需畏惧，你所付出的代价只是通行的门票。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917410": {
+      "Id": 917410,
+      "Name": "StarTowerTalk.917410.1",
+      "Content": "StarTowerTalk.917410.2",
+      "Color": "#ceb3ce",
+      "Face": "010",
+      "Voice": "vo_npc174_event_lv2_005",
+      "NPCId": 9174,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917410.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917410.2",
+          "zh_TW": "能抵達這裡實屬不易，接下來的路也請繼續掙扎吧。",
+          "zh_CN": "能抵达这里实属不易，接下来的路也请继续挣扎吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917411": {
+      "Id": 917411,
+      "Name": "StarTowerTalk.917411.1",
+      "Content": "StarTowerTalk.917411.2",
+      "Color": "#ceb3ce",
+      "Face": "009",
+      "Voice": "vo_npc174_event_lv3_001",
+      "NPCId": 9174,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917411.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917411.2",
+          "zh_TW": "您這樣成熟的旅人，總不會還像新手一樣猶豫不決吧。",
+          "zh_CN": "您这样成熟的旅人，总不会像新手般踌躇不前吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917412": {
+      "Id": 917412,
+      "Name": "StarTowerTalk.917412.1",
+      "Content": "StarTowerTalk.917412.2",
+      "Color": "#ceb3ce",
+      "Face": "003",
+      "Voice": "vo_npc174_event_lv3_002",
+      "NPCId": 9174,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917412.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917412.2",
+          "zh_TW": "只要遵循內心的指引，您必將成為星塔史上最耀眼的傳奇。",
+          "zh_CN": "只要遵循内心的指引，您必将成为星塔史上最耀眼的传奇。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917413": {
+      "Id": 917413,
+      "Name": "StarTowerTalk.917413.1",
+      "Content": "StarTowerTalk.917413.2",
+      "Color": "#ceb3ce",
+      "Face": "010",
+      "Voice": "vo_npc174_event_lv3_003",
+      "NPCId": 9174,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917413.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917413.2",
+          "zh_TW": "您看，報酬都擺在眼前了…何不試著挑戰更高收益呢？",
+          "zh_CN": "您看，报酬都摆在眼前了……何不尝试挑战更高收益呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917414": {
+      "Id": 917414,
+      "Name": "StarTowerTalk.917414.1",
+      "Content": "StarTowerTalk.917414.2",
+      "Color": "#ceb3ce",
+      "Face": "010",
+      "Voice": "vo_npc174_event_lv3_004",
+      "NPCId": 9174,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917414.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917414.2",
+          "zh_TW": "真正的旅人，會把每個選擇都當作旅途中的道標。",
+          "zh_CN": "真正的旅人，会把每个选择都作为旅途中的道标。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917415": {
+      "Id": 917415,
+      "Name": "StarTowerTalk.917415.1",
+      "Content": "StarTowerTalk.917415.2",
+      "Color": "#ceb3ce",
+      "Face": "003",
+      "Voice": "vo_npc174_event_lv3_005",
+      "NPCId": 9174,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917415.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917415.2",
+          "zh_TW": "若是迷惘，就閉上眼睛，傾聽你內心的聲音。",
+          "zh_CN": "若是迷惘，就闭上眼睛，倾听你内心的声音。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917416": {
+      "Id": 917416,
+      "Name": "StarTowerTalk.917416.1",
+      "Content": "StarTowerTalk.917416.2",
+      "Color": "#ceb3ce",
+      "Face": "014",
+      "Voice": "vo_npc174_chat_lv1_001",
+      "NPCId": 9174,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917416.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917416.2",
+          "zh_TW": "即時停損是聰明人的選擇。\n但魔王不會半途而廢對吧？",
+          "zh_CN": "及时止损是聪明人的选择。\n但魔王不会半途而废，对吧？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917417": {
+      "Id": 917417,
+      "Name": "StarTowerTalk.917417.1",
+      "Content": "StarTowerTalk.917417.2",
+      "Color": "#ceb3ce",
+      "Face": "002",
+      "Voice": "vo_npc174_chat_lv1_002",
+      "NPCId": 9174,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917417.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917417.2",
+          "zh_TW": "人人都應該順從自己的內心，我只是給出一些微不足道的建議罷了。",
+          "zh_CN": "人人都应当遵从自己的内心，我只是给出一些微不足道的建议罢了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917418": {
+      "Id": 917418,
+      "Name": "StarTowerTalk.917418.1",
+      "Content": "StarTowerTalk.917418.2",
+      "Color": "#ceb3ce",
+      "Face": "003",
+      "Voice": "vo_npc174_chat_lv1_003",
+      "NPCId": 9174,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917418.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917418.2",
+          "zh_TW": "機遇稍縱即逝，若您想再試一次…我隨時恭候～",
+          "zh_CN": "机遇稍纵即逝，若您想再试一次……我随时恭候~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917419": {
+      "Id": 917419,
+      "Name": "StarTowerTalk.917419.1",
+      "Content": "StarTowerTalk.917419.2",
+      "Color": "#ceb3ce",
+      "Face": "011",
+      "Voice": "vo_npc174_chat_lv1_004",
+      "NPCId": 9174,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917419.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917419.2",
+          "zh_TW": "誰都不能提前預知結果，我也一樣。",
+          "zh_CN": "谁都不能提前预知结果，我也一样。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917420": {
+      "Id": 917420,
+      "Name": "StarTowerTalk.917420.1",
+      "Content": "StarTowerTalk.917420.2",
+      "Color": "#ceb3ce",
+      "Face": "004",
+      "Voice": "vo_npc174_chat_lv1_005",
+      "NPCId": 9174,
+      "Affinity": [
+        0,
+        2699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917420.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917420.2",
+          "zh_TW": "願您前路順遂，後會有期。",
+          "zh_CN": "愿您前路顺遂，后会有期。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917421": {
+      "Id": 917421,
+      "Name": "StarTowerTalk.917421.1",
+      "Content": "StarTowerTalk.917421.2",
+      "Color": "#ceb3ce",
+      "Face": "003",
+      "Voice": "vo_npc174_chat_lv2_001",
+      "NPCId": 9174,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917421.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917421.2",
+          "zh_TW": "別擔心，這只是一個小小的挑戰。",
+          "zh_CN": "别担心，这只是一个小小的挑战。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917422": {
+      "Id": 917422,
+      "Name": "StarTowerTalk.917422.1",
+      "Content": "StarTowerTalk.917422.2",
+      "Color": "#ceb3ce",
+      "Face": "010",
+      "Voice": "vo_npc174_chat_lv2_002",
+      "NPCId": 9174,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917422.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917422.2",
+          "zh_TW": "只要回報夠誘人，即便賭上一切也值得嘗試，對吧？",
+          "zh_CN": "只要回报足够诱人，即便赌上一切也值得尝试，对吧？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917423": {
+      "Id": 917423,
+      "Name": "StarTowerTalk.917423.1",
+      "Content": "StarTowerTalk.917423.2",
+      "Color": "#ceb3ce",
+      "Face": "011",
+      "Voice": "vo_npc174_chat_lv2_003",
+      "NPCId": 9174,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917423.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917423.2",
+          "zh_TW": "您的時間如此寶貴，一定還有更重要的事情等著您去處理，不是嗎？",
+          "zh_CN": "您的时间如此宝贵，一定还有更重要的事情等着您去处理，不是吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917424": {
+      "Id": 917424,
+      "Name": "StarTowerTalk.917424.1",
+      "Content": "StarTowerTalk.917424.2",
+      "Color": "#ceb3ce",
+      "Face": "009",
+      "Voice": "vo_npc174_chat_lv2_004",
+      "NPCId": 9174,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917424.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917424.2",
+          "zh_TW": "幸運女神會眷顧您的，不是這次，就是下次，呵呵。",
+          "zh_CN": "幸运女神会眷顾您的，不是这次，就是下次，呵呵。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917425": {
+      "Id": 917425,
+      "Name": "StarTowerTalk.917425.1",
+      "Content": "StarTowerTalk.917425.2",
+      "Color": "#ceb3ce",
+      "Face": "014",
+      "Voice": "vo_npc174_chat_lv2_005",
+      "NPCId": 9174,
+      "Affinity": [
+        2700,
+        10699
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917425.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917425.2",
+          "zh_TW": "不要因小利而錯失良機，也別為虛幻目標放棄唾手可得的成果。",
+          "zh_CN": "别因小利错失良机，也别为虚妄的目标放弃触手可得的收获。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917426": {
+      "Id": 917426,
+      "Name": "StarTowerTalk.917426.1",
+      "Content": "StarTowerTalk.917426.2",
+      "Color": "#ceb3ce",
+      "Face": "010",
+      "Voice": "vo_npc174_chat_lv3_001",
+      "NPCId": 9174,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917426.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917426.2",
+          "zh_TW": "我會一直注視著您的命運。",
+          "zh_CN": "我会一直注视着您的命运。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917427": {
+      "Id": 917427,
+      "Name": "StarTowerTalk.917427.1",
+      "Content": "StarTowerTalk.917427.2",
+      "Color": "#ceb3ce",
+      "Face": "004",
+      "Voice": "vo_npc174_chat_lv3_002",
+      "NPCId": 9174,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917427.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917427.2",
+          "zh_TW": "代價本身並不可怕，可怕的是付出代價後卻一無所獲。而現在，至少它成為了我們之間的祕密。",
+          "zh_CN": "代价本身并不可怕，可怕的是付出代价后却一无所获。而现在，至少它成为了我们之间的秘密。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917428": {
+      "Id": 917428,
+      "Name": "StarTowerTalk.917428.1",
+      "Content": "StarTowerTalk.917428.2",
+      "Color": "#ceb3ce",
+      "Face": "002",
+      "Voice": "vo_npc174_chat_lv3_003",
+      "NPCId": 9174,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917428.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917428.2",
+          "zh_TW": "如果短暫的閒聊能幫助您成功通往終點，那我很樂意將時間花在您身上。",
+          "zh_CN": "如果短暂的闲聊能帮助您成功通往终点，那我很乐意将时间花在您身上。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917429": {
+      "Id": 917429,
+      "Name": "StarTowerTalk.917429.1",
+      "Content": "StarTowerTalk.917429.2",
+      "Color": "#ceb3ce",
+      "Face": "003",
+      "Voice": "vo_npc174_chat_lv3_004",
+      "NPCId": 9174,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917429.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917429.2",
+          "zh_TW": "機會只會留給準備好的人，期待我們下次再見～",
+          "zh_CN": "机会只会留给有准备的人，期待我们下次再见~",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    },
+    "917430": {
+      "Id": 917430,
+      "Name": "StarTowerTalk.917430.1",
+      "Content": "StarTowerTalk.917430.2",
+      "Color": "#ceb3ce",
+      "Face": "010",
+      "Voice": "vo_npc174_chat_lv3_005",
+      "NPCId": 9174,
+      "Affinity": [
+        10700,
+        999999
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "StarTowerTalk.917430.1",
+          "zh_TW": "維嘉爾",
+          "zh_CN": "维嘉尔",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        },
+        "/Content": {
+          "key": "StarTowerTalk.917430.2",
+          "zh_TW": "您身上那份直接面對苦難的勇氣….真令人著迷。",
+          "zh_CN": "您身上那份直面苦难的勇气…….真令人着迷。",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerTalk.json",
+            "zh_CN": "language/zh_CN/StarTowerTalk.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "table": "BattlePassReward",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b224111bebd5f456.bin",
+  "source_sha256": "960d9cb9843f2946d05d54b66ab24108bb4bcfa05113dfaeaa5a695ba9ac4ddc",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\BattlePassReward.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 0,
+    "key_type": 0,
+    "row_count": 690
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "reference_field_order": [
+      "ID",
+      "Level",
+      "Tid1",
+      "Qty1",
+      "Tid2",
+      "Qty2",
+      "Tid3",
+      "Qty3",
+      "Focus"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 9,
+    "remaining_name_count": 9,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "ID",
+        "matching_reference_rows": 690,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Level",
+        "matching_reference_rows": 690,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Tid1",
+        "matching_reference_rows": 690,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Qty1",
+        "matching_reference_rows": 690,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Tid2",
+        "matching_reference_rows": 690,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "Qty2",
+        "matching_reference_rows": 690,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "Tid3",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "Qty3",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "Focus",
+        "matching_reference_rows": 138,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "ID",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 690,
+      "compared_reference_rows": 690,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 690,
+          "compared": 690
+        },
+        {
+          "codec": "varint_int",
+          "matches": 690,
+          "compared": 690
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 690
+        }
+      ]
+    },
+    "2": {
+      "field": "Level",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 690,
+      "compared_reference_rows": 690,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 690,
+          "compared": 690
+        },
+        {
+          "codec": "varint_int",
+          "matches": 690,
+          "compared": 690
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 690
+        }
+      ]
+    },
+    "3": {
+      "field": "Tid1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 690,
+      "compared_reference_rows": 690,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 690,
+          "compared": 690
+        },
+        {
+          "codec": "varint_int",
+          "matches": 690,
+          "compared": 690
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 690
+        }
+      ]
+    },
+    "4": {
+      "field": "Qty1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 690,
+      "compared_reference_rows": 690,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 690,
+          "compared": 690
+        },
+        {
+          "codec": "varint_int",
+          "matches": 690,
+          "compared": 690
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 690
+        }
+      ]
+    },
+    "5": {
+      "field": "Tid2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 690,
+      "compared_reference_rows": 690,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 690,
+          "compared": 690
+        },
+        {
+          "codec": "varint_int",
+          "matches": 690,
+          "compared": 690
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 690
+        }
+      ]
+    },
+    "6": {
+      "field": "Qty2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 690,
+      "compared_reference_rows": 690,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 690,
+          "compared": 690
+        },
+        {
+          "codec": "varint_int",
+          "matches": 690,
+          "compared": 690
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 690
+        }
+      ]
+    },
+    "7": {
+      "field": "Tid3",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "8": {
+      "field": "Qty3",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "9": {
+      "field": "Focus",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 138,
+      "compared_reference_rows": 138,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 138,
+          "compared": 138
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 138
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 138
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 138
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 690,
+    "reference_row_count": 690,
+    "shared_key_count": 690,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 690,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

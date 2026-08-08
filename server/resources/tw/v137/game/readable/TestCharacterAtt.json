@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TestCharacterAtt",
+    "categories": [
+      "characters",
+      "developer_test"
+    ],
+    "row_count": 7,
+    "localization_hits": 0,
+    "source": "bin/TestCharacterAtt.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "Level": {
+      "Id": "Level",
+      "Value": "90"
+    },
+    "AdvanceLevel": {
+      "Id": "AdvanceLevel",
+      "Value": "8"
+    },
+    "TalentLevel": {
+      "Id": "TalentLevel",
+      "Value": "5"
+    },
+    "SkillLevel": {
+      "Id": "SkillLevel",
+      "Value": "13"
+    },
+    "PotentialLevel": {
+      "Id": "PotentialLevel",
+      "Value": "9"
+    },
+    "MainPlayerHP": {
+      "Id": "MainPlayerHP",
+      "Value": "30"
+    },
+    "MonsterHP": {
+      "Id": "MonsterHP",
+      "Value": "30"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "PeriodicQuestGroup",
+    "categories": [
+      "quests"
+    ],
+    "row_count": 7,
+    "localization_hits": 0,
+    "source": "bin/PeriodicQuestGroup.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "0": {
+      "Belong": 101002,
+      "GroupId": 1
+    },
+    "1": {
+      "Belong": 101002,
+      "GroupId": 2,
+      "UnlockTime": 1
+    },
+    "2": {
+      "Belong": 101002,
+      "GroupId": 3,
+      "UnlockTime": 2
+    },
+    "3": {
+      "Belong": 101002,
+      "GroupId": 4,
+      "UnlockTime": 3
+    },
+    "4": {
+      "Belong": 101002,
+      "GroupId": 5,
+      "UnlockTime": 4
+    },
+    "5": {
+      "Belong": 101002,
+      "GroupId": 6,
+      "UnlockTime": 5
+    },
+    "6": {
+      "Belong": 101002,
+      "GroupId": 7,
+      "UnlockTime": 6
+    }
+  }
+}

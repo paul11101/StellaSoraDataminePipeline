@@ -1,0 +1,5205 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "CharacterDes",
+    "categories": [
+      "characters"
+    ],
+    "row_count": 37,
+    "localization_hits": 444,
+    "source": "bin/CharacterDes.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "103": {
+      "Id": 103,
+      "Alias": "CharacterDes.103.2",
+      "CnCv": "CharacterDes.103.1",
+      "JpCv": "CharacterDes.103.8",
+      "CharColor": "#99d2d9",
+      "CharSkillColor": "#99d2d9",
+      "CharDes": "CharacterDes.103.3",
+      "Tag": [
+        101,
+        201,
+        301
+      ],
+      "Force": 1,
+      "PreferTags": [
+        2,
+        5
+      ],
+      "Birthday": "8.8",
+      "PotentialMain1": "CharacterDes.103.4",
+      "PotentialMain2": "CharacterDes.103.5",
+      "PotentialAssistant1": "CharacterDes.103.6",
+      "PotentialAssistant2": "CharacterDes.103.7",
+      "PotentialMainContent1": "CharacterDes.103.9",
+      "PotentialMainContent2": "CharacterDes.103.10",
+      "PotentialAssistantContent1": "CharacterDes.103.11",
+      "PotentialAssistantContent2": "CharacterDes.103.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.103.2",
+          "zh_TW": "Amber",
+          "zh_CN": "Amber",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.103.1",
+          "zh_TW": "四白",
+          "zh_CN": "四白",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.103.8",
+          "zh_TW": "高田憂希",
+          "zh_CN": "高田憂希",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.103.3",
+          "zh_TW": "靈活的雙槍讓琥珀能自由地在戰場上奔馳，試圖接近琥珀的敵人，會在距離琥珀十步之外化為灰燼。",
+          "zh_CN": "灵活的双枪让琥珀自由地奔驰在战场上，试图接近琥珀的敌人，会在琥珀的十步之外化为灰烬。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.103.4",
+          "zh_TW": "琥珀主控流派1",
+          "zh_CN": "琥珀主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.103.5",
+          "zh_TW": "琥珀主控流派2",
+          "zh_CN": "琥珀主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.103.6",
+          "zh_TW": "琥珀援護流派1",
+          "zh_CN": "琥珀援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.103.7",
+          "zh_TW": "琥珀援護流派2",
+          "zh_CN": "琥珀援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.103.9",
+          "zh_TW": "施放技能後額外裝彈，增強普攻的群傷流派。",
+          "zh_CN": "施放技能后额外装弹，增强普攻的群伤流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.103.10",
+          "zh_TW": "增強技能，使其可連續施放的群傷流派。",
+          "zh_CN": "增强技能，使其可连续释放的群伤流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.103.11",
+          "zh_TW": "延長技能時間並追加殘穎的持續輸出流派。",
+          "zh_CN": "延长技能时间并追加残影的持续输出流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.103.12",
+          "zh_TW": "技能可快速造成多次傷害的爆發输出流派。",
+          "zh_CN": "技能可快速造成多次伤害的爆发输出流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "107": {
+      "Id": 107,
+      "Alias": "CharacterDes.107.2",
+      "CnCv": "CharacterDes.107.1",
+      "JpCv": "CharacterDes.107.8",
+      "CharColor": "#3d5bbf",
+      "CharSkillColor": "#3d5bbf",
+      "CharDes": "CharacterDes.107.3",
+      "Tag": [
+        103,
+        202,
+        302
+      ],
+      "Force": 4,
+      "PreferTags": [
+        4,
+        5
+      ],
+      "Birthday": "11.18",
+      "PotentialMain1": "CharacterDes.107.4",
+      "PotentialMain2": "CharacterDes.107.5",
+      "PotentialAssistant1": "CharacterDes.107.6",
+      "PotentialAssistant2": "CharacterDes.107.7",
+      "PotentialMainContent1": "CharacterDes.107.9",
+      "PotentialMainContent2": "CharacterDes.107.10",
+      "PotentialAssistantContent1": "CharacterDes.107.11",
+      "PotentialAssistantContent2": "CharacterDes.107.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.107.2",
+          "zh_TW": "Tilia",
+          "zh_CN": "Tilia",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.107.1",
+          "zh_TW": "陳雨",
+          "zh_CN": "陈雨",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.107.8",
+          "zh_TW": "大久保瑠美",
+          "zh_CN": "大久保瑠美",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.107.3",
+          "zh_TW": "緹莉婭永遠會衝在最前線，用她的盾牌保護大家。只有帝國騎士的矛才能擊破帝國騎士的盾。",
+          "zh_CN": "缇莉娅永远会冲在最前线，用她的盾牌保护大家。只有帝国骑士的矛，才能击破帝国骑士的盾。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.107.4",
+          "zh_TW": "緹莉婭主控流派1",
+          "zh_CN": "缇莉娅主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.107.5",
+          "zh_TW": "緹莉婭主控流派2",
+          "zh_CN": "缇莉娅主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.107.6",
+          "zh_TW": "緹莉婭援護流派1",
+          "zh_CN": "缇莉娅援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.107.7",
+          "zh_TW": "緹莉婭援護流派2",
+          "zh_CN": "缇莉娅援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.107.9",
+          "zh_TW": "強化反擊獲得强力護盾，強化舉盾瞬間的流派。",
+          "zh_CN": "强化反击获得强力护盾，强化举盾瞬间的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.107.10",
+          "zh_TW": "不斷削弱敵人並造成傷害，強化舉盾持續期間的流派。",
+          "zh_CN": "不断削弱敌人并造成伤害，强化举盾持续期间的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.107.11",
+          "zh_TW": "投擲飛盾，持續對命中的目標施加印記的流派。",
+          "zh_CN": "投掷飞盾，持续对命中的目标施加印记的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.107.12",
+          "zh_TW": "對周圍所有敵人以及主控角色擲出飛盾的流派。",
+          "zh_CN": "对周围所有敌人以及主控角色掷出飞盾的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "108": {
+      "Id": 108,
+      "Alias": "CharacterDes.108.2",
+      "CnCv": "CharacterDes.108.1",
+      "JpCv": "CharacterDes.108.8",
+      "CharColor": "#be4139",
+      "CharSkillColor": "#be4139",
+      "CharDes": "CharacterDes.108.3",
+      "Tag": [
+        102,
+        203,
+        303
+      ],
+      "Force": 5,
+      "PreferTags": [
+        1,
+        8
+      ],
+      "Birthday": "10.8",
+      "PotentialMain1": "CharacterDes.108.4",
+      "PotentialMain2": "CharacterDes.108.5",
+      "PotentialAssistant1": "CharacterDes.108.6",
+      "PotentialAssistant2": "CharacterDes.108.7",
+      "PotentialMainContent1": "CharacterDes.108.9",
+      "PotentialMainContent2": "CharacterDes.108.10",
+      "PotentialAssistantContent1": "CharacterDes.108.11",
+      "PotentialAssistantContent2": "CharacterDes.108.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.108.2",
+          "zh_TW": "Kasimira",
+          "zh_CN": "Kasimira",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.108.1",
+          "zh_TW": "李蟬妃",
+          "zh_CN": "李蝉妃",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.108.8",
+          "zh_TW": "安野希世乃",
+          "zh_CN": "安野希世乃",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.108.3",
+          "zh_TW": "卡西米拉手握可以發射霰彈的凶暴武器，她習慣與敵人硬碰硬，但無論如何，敵人都會比她更早倒下。",
+          "zh_CN": "卡西米拉握持着可以发射霰弹的凶暴武器，她习惯以伤换伤，不论如何，敌人都会比她更早倒下。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.108.4",
+          "zh_TW": "卡西米拉主控流派1",
+          "zh_CN": "卡西米拉主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.108.5",
+          "zh_TW": "卡西米拉主控流派2",
+          "zh_CN": "卡西米拉主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.108.6",
+          "zh_TW": "卡西米拉援護流派1",
+          "zh_CN": "卡西米拉援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.108.7",
+          "zh_TW": "卡西米拉援護流派2",
+          "zh_CN": "卡西米拉援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.108.9",
+          "zh_TW": "裝填火焰子彈後，可造成巨大單次傷害的流派。",
+          "zh_CN": "装填火焰子弹后，可造成巨大单次伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.108.10",
+          "zh_TW": "裝填火焰子彈後，可持續造成傷害的流派。",
+          "zh_CN": "装填火焰子弹后，可持续造成伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.108.11",
+          "zh_TW": "呼叫火力轟炸，製造持續傷害區域的流派。",
+          "zh_CN": "呼叫火力轰炸，制造持续伤害区域的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.108.12",
+          "zh_TW": "呼叫多輪精準火力轟炸的流派。",
+          "zh_CN": "呼叫多轮精准火力轰炸的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "110": {
+      "Id": 110,
+      "Alias": "CharacterDes.110.2",
+      "CnCv": "CharacterDes.110.1",
+      "JpCv": "CharacterDes.110.8",
+      "CharColor": "#8db947",
+      "CharSkillColor": "#8db947",
+      "CharDes": "CharacterDes.110.3",
+      "Tag": [
+        101,
+        202,
+        304
+      ],
+      "Force": 11,
+      "PreferTags": [
+        1,
+        3,
+        8
+      ],
+      "HateTags": [
+        5
+      ],
+      "Birthday": "11.16",
+      "PotentialMain1": "CharacterDes.110.4",
+      "PotentialMain2": "CharacterDes.110.5",
+      "PotentialAssistant1": "CharacterDes.110.6",
+      "PotentialAssistant2": "CharacterDes.110.7",
+      "PotentialMainContent1": "CharacterDes.110.9",
+      "PotentialMainContent2": "CharacterDes.110.10",
+      "PotentialAssistantContent1": "CharacterDes.110.11",
+      "PotentialAssistantContent2": "CharacterDes.110.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.110.2",
+          "zh_TW": "Firenze",
+          "zh_CN": "Firenze",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.110.1",
+          "zh_TW": "子音",
+          "zh_CN": "子音",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.110.8",
+          "zh_TW": "齋藤千和",
+          "zh_CN": "斎藤千和",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.110.3",
+          "zh_TW": "戰場上，翡冷翠可以施放分身進行戰鬥。據傳聞，她在工作時也是如此，所以才能時刻保持優雅。",
+          "zh_CN": "战场上，翡冷翠可以释放分身进行战斗。有传闻说，她在工作中也是如此，所以才能时刻保持优雅。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.110.4",
+          "zh_TW": "翡冷翠主控流派1",
+          "zh_CN": "翡冷翠主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.110.5",
+          "zh_TW": "翡冷翠主控流派2",
+          "zh_CN": "翡冷翠主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.110.6",
+          "zh_TW": "翡冷翠援護流派1",
+          "zh_CN": "翡冷翠援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.110.7",
+          "zh_TW": "翡冷翠援護流派2",
+          "zh_CN": "翡冷翠援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.110.9",
+          "zh_TW": "提升戰鬥靈活性與技能發動頻率的打擊流派。",
+          "zh_CN": "提升战斗灵活性与技能发动频率的打击流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.110.10",
+          "zh_TW": "增強分身能力與協同攻擊的召喚流派。",
+          "zh_CN": "增强分身能力与协同攻击的召唤流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.110.11",
+          "zh_TW": "增強技能發動特效，提升原地持續輸出能力的流派。",
+          "zh_CN": "增强技能发动特效，提升原地持续输出能力的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.110.12",
+          "zh_TW": "增強技能召喚出的分身，提升分身數量與持續時間的流派。",
+          "zh_CN": "增强技能召唤出的分身，提升分身数量与持续时间的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "111": {
+      "Id": 111,
+      "Alias": "CharacterDes.111.2",
+      "CnCv": "CharacterDes.111.1",
+      "JpCv": "CharacterDes.111.8",
+      "CharColor": "#9392ca",
+      "CharSkillColor": "#9392ca",
+      "CharDes": "CharacterDes.111.3",
+      "Tag": [
+        102,
+        204,
+        301
+      ],
+      "Force": 1,
+      "PreferTags": [
+        6,
+        7
+      ],
+      "Birthday": "5.1",
+      "PotentialMain1": "CharacterDes.111.4",
+      "PotentialMain2": "CharacterDes.111.5",
+      "PotentialAssistant1": "CharacterDes.111.6",
+      "PotentialAssistant2": "CharacterDes.111.7",
+      "PotentialMainContent1": "CharacterDes.111.9",
+      "PotentialMainContent2": "CharacterDes.111.10",
+      "PotentialAssistantContent1": "CharacterDes.111.11",
+      "PotentialAssistantContent2": "CharacterDes.111.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.111.2",
+          "zh_TW": "Iris",
+          "zh_CN": "Iris",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.111.1",
+          "zh_TW": "陳章",
+          "zh_CN": "陈章",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.111.8",
+          "zh_TW": "夏吉優子",
+          "zh_CN": "夏吉ゆうこ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.111.3",
+          "zh_TW": "鳶尾的筆記本裡寫滿了魔法公式。缺乏鍛鍊的她不擅長近身戰。保持安全距離，用寒冰消磨敵人吧。",
+          "zh_CN": "鸢尾的笔记本里装满了魔法公式。缺乏锻炼的她不擅长近身战。保持安全距离，用寒冰消耗敌人吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.111.4",
+          "zh_TW": "鳶尾主控流派1",
+          "zh_CN": "鸢尾主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.111.5",
+          "zh_TW": "鳶尾主控流派2",
+          "zh_CN": "鸢尾主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.111.6",
+          "zh_TW": "鳶尾援護流派1",
+          "zh_CN": "鸢尾援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.111.7",
+          "zh_TW": "鳶尾援護流派2",
+          "zh_CN": "鸢尾援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.111.9",
+          "zh_TW": "強化技能，可發動冰牆凍結敵人的流派。",
+          "zh_CN": "强化技能，可发动冰墙冻结敌人的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.111.10",
+          "zh_TW": "強化技能二段，持續造成大量傷害的流派。",
+          "zh_CN": "强化技能二段，持续造成大量伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.111.11",
+          "zh_TW": "召喚冰柱吸引敵人並造成傷害持續傷害的流派。",
+          "zh_CN": "召唤冰柱吸引敌人并造成持续伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.111.12",
+          "zh_TW": "召喚冰柱，在冰柱出現與破碎時造成傷害的流派。",
+          "zh_CN": "召唤冰柱，在冰柱出现与破碎时造成伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "112": {
+      "Id": 112,
+      "Alias": "CharacterDes.112.2",
+      "CnCv": "CharacterDes.112.1",
+      "JpCv": "CharacterDes.112.8",
+      "CharColor": "#ffe39e",
+      "CharSkillColor": "#ffe39e",
+      "CharDes": "CharacterDes.112.3",
+      "Tag": [
+        101,
+        204,
+        301
+      ],
+      "Force": 1,
+      "PreferTags": [
+        1,
+        4
+      ],
+      "Birthday": "6.21",
+      "PotentialMain1": "CharacterDes.112.4",
+      "PotentialMain2": "CharacterDes.112.5",
+      "PotentialAssistant1": "CharacterDes.112.6",
+      "PotentialAssistant2": "CharacterDes.112.7",
+      "PotentialMainContent1": "CharacterDes.112.9",
+      "PotentialMainContent2": "CharacterDes.112.10",
+      "PotentialAssistantContent1": "CharacterDes.112.11",
+      "PotentialAssistantContent2": "CharacterDes.112.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.112.2",
+          "zh_TW": "Noya",
+          "zh_CN": "Noya",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.112.1",
+          "zh_TW": "Kiyo",
+          "zh_CN": "Kiyo",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.112.8",
+          "zh_TW": "今泉里緒菜",
+          "zh_CN": "今泉りおな",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.112.3",
+          "zh_TW": "塵沙使用著不知從何處學來，從未見過的招式。即使施放技能，也不會中斷她長劍揮出的軌跡。",
+          "zh_CN": "尘沙使用着不知从何处学来的，从未有人见过的招式。即使释放技能，也不会中断她长剑的轨迹。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.112.4",
+          "zh_TW": "塵沙主控流派1",
+          "zh_CN": "尘沙主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.112.5",
+          "zh_TW": "塵沙主控流派2",
+          "zh_CN": "尘沙主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.112.6",
+          "zh_TW": "塵沙援護流派1",
+          "zh_CN": "尘沙援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.112.7",
+          "zh_TW": "塵沙援護流派2",
+          "zh_CN": "尘沙援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.112.9",
+          "zh_TW": "技能變為多段、穿插斬擊的群傷流派。",
+          "zh_CN": "技能变为多段、穿插斩击的群伤流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.112.10",
+          "zh_TW": "施放技能後，可發動遠程普攻的遠程牽制流派。",
+          "zh_CN": "施放技能后，可发动远程普攻的远程牵制流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.112.11",
+          "zh_TW": "劍氣範圍更大，傷害更高的群傷流派。",
+          "zh_CN": "剑气范围更大，伤害更高的群伤流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.112.12",
+          "zh_TW": "劍氣數量提升，並可分裂攻擊的集中型流派。",
+          "zh_CN": "剑气数量提升，并可分裂攻击的集中型流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "113": {
+      "Id": 113,
+      "Alias": "CharacterDes.113.2",
+      "CnCv": "CharacterDes.113.1",
+      "JpCv": "CharacterDes.113.8",
+      "CharColor": "#c6eff3",
+      "CharSkillColor": "#c6eff3",
+      "CharDes": "CharacterDes.113.3",
+      "Tag": [
+        101,
+        205,
+        305
+      ],
+      "Force": 15,
+      "PreferTags": [
+        6,
+        8
+      ],
+      "Birthday": "7.6",
+      "PotentialMain1": "CharacterDes.113.4",
+      "PotentialMain2": "CharacterDes.113.5",
+      "PotentialAssistant1": "CharacterDes.113.6",
+      "PotentialAssistant2": "CharacterDes.113.7",
+      "PotentialMainContent1": "CharacterDes.113.9",
+      "PotentialMainContent2": "CharacterDes.113.10",
+      "PotentialAssistantContent1": "CharacterDes.113.11",
+      "PotentialAssistantContent2": "CharacterDes.113.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.113.2",
+          "zh_TW": "Shimiao",
+          "zh_CN": "Shimiao",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.113.1",
+          "zh_TW": "陳陽",
+          "zh_CN": "陈阳",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.113.8",
+          "zh_TW": "小澤亞李",
+          "zh_CN": "小澤亜李",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.113.3",
+          "zh_TW": "除了擅於輔助他人，提供長時間的現場支援外，師渺也擅長親自解決問題。或許，這便是身為祕書的本色吧。",
+          "zh_CN": "除了善于辅助他人，提供长时间现场支援，师渺同样擅长亲自解决问题。或许，这便是身为秘书的本色吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.113.4",
+          "zh_TW": "師渺主控流派1",
+          "zh_CN": "师渺主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.113.5",
+          "zh_TW": "師渺主控流派2",
+          "zh_CN": "师渺主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.113.6",
+          "zh_TW": "師渺援護流派1",
+          "zh_CN": "师渺援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.113.7",
+          "zh_TW": "師渺援護流派2",
+          "zh_CN": "师渺援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.113.9",
+          "zh_TW": "技能追加霸體並提升攻擊距離的遠距群傷流派。",
+          "zh_CN": "技能追加霸体并提升攻击距离的远距群伤流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.113.10",
+          "zh_TW": "技能追加水波紋，提升近距離傷害的流派。",
+          "zh_CN": "技能追加水波纹，提升近距离伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.113.11",
+          "zh_TW": "提升水劍數量與速度，持續定點高速輸出的流派。",
+          "zh_CN": "提升水剑数量与速度，持续定点高速输出的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.113.12",
+          "zh_TW": "延長在場的時間，水劍可穿透並提升單發傷害的靈活輸出流派。",
+          "zh_CN": "延长在场的时间，水剑可穿透并提升单发伤害的灵活输出流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "114": {
+      "Id": 114,
+      "Alias": "CharacterDes.114.2",
+      "CnCv": "CharacterDes.114.1",
+      "JpCv": "CharacterDes.114.8",
+      "CharColor": "#8e65ad",
+      "CharSkillColor": "#8e65ad",
+      "CharDes": "CharacterDes.114.3",
+      "Tag": [
+        101,
+        204,
+        303
+      ],
+      "Force": 5,
+      "PreferTags": [
+        1,
+        5,
+        7
+      ],
+      "HateTags": [
+        8
+      ],
+      "Birthday": "8.5",
+      "PotentialMain1": "CharacterDes.114.4",
+      "PotentialMain2": "CharacterDes.114.5",
+      "PotentialAssistant1": "CharacterDes.114.6",
+      "PotentialAssistant2": "CharacterDes.114.7",
+      "PotentialMainContent1": "CharacterDes.114.9",
+      "PotentialMainContent2": "CharacterDes.114.10",
+      "PotentialAssistantContent1": "CharacterDes.114.11",
+      "PotentialAssistantContent2": "CharacterDes.114.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.114.2",
+          "zh_TW": "Chaton",
+          "zh_CN": "Chaton",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.114.1",
+          "zh_TW": "瑞比",
+          "zh_CN": "瑞比",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.114.8",
+          "zh_TW": "佐倉綾音",
+          "zh_CN": "佐倉綾音",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.114.3",
+          "zh_TW": "貓眼是白貓劇團的狙擊手，喜歡近戰的她，最終拿起了長度堪比身高，只能在遠處等待的特殊武器。",
+          "zh_CN": "猫眼是白猫剧团的狙击手，喜欢近战的她，最终拿起了长度堪比身高，只能在远处等待的特殊武器。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.114.4",
+          "zh_TW": "貓眼主控流派1",
+          "zh_CN": "猫眼主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.114.5",
+          "zh_TW": "貓眼主控流派2",
+          "zh_CN": "猫眼主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.114.6",
+          "zh_TW": "貓眼援護流派1",
+          "zh_CN": "猫眼援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.114.7",
+          "zh_TW": "貓眼援護流派2",
+          "zh_CN": "猫眼援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.114.9",
+          "zh_TW": "透過丟出「彈球炸彈」，攻擊多個目標的流派。",
+          "zh_CN": "通过丢出「弹球炸弹」，攻击多个目标的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.114.10",
+          "zh_TW": "透過雷射標記目標，使目標持續受到傷害的流派。",
+          "zh_CN": "通过激光标记目标，使目标持续受到伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.114.11",
+          "zh_TW": "對單個目標持續造成高額傷害的流派。",
+          "zh_CN": "对单个目标持续造成高额伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.114.12",
+          "zh_TW": "對群體目標造成範圍傷害的流派。",
+          "zh_CN": "对群体目标造成范围伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "115": {
+      "Id": 115,
+      "Alias": "CharacterDes.115.2",
+      "CnCv": "CharacterDes.115.1",
+      "JpCv": "CharacterDes.115.8",
+      "CharColor": "#5e76ac",
+      "CharSkillColor": "#5e76ac",
+      "CharDes": "CharacterDes.115.3",
+      "Tag": [
+        102,
+        201,
+        315
+      ],
+      "Force": 10,
+      "PreferTags": [
+        2,
+        6,
+        7
+      ],
+      "HateTags": [
+        3
+      ],
+      "Birthday": "5.5",
+      "PotentialMain1": "CharacterDes.115.4",
+      "PotentialMain2": "CharacterDes.115.5",
+      "PotentialAssistant1": "CharacterDes.115.6",
+      "PotentialAssistant2": "CharacterDes.115.7",
+      "PotentialMainContent1": "CharacterDes.115.9",
+      "PotentialMainContent2": "CharacterDes.115.10",
+      "PotentialAssistantContent1": "CharacterDes.115.11",
+      "PotentialAssistantContent2": "CharacterDes.115.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.115.2",
+          "zh_TW": "Firefly",
+          "zh_CN": "Firefly",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.115.1",
+          "zh_TW": "劉雯",
+          "zh_CN": "刘雯",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.115.8",
+          "zh_TW": "長繩麻理亞",
+          "zh_CN": "長縄まりあ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.115.3",
+          "zh_TW": "操縱著可變形兵裝的火垂，據說是恩賜意志祕密研發的超級武器。螢火般的微光，聚集起來也能毀天滅地。",
+          "zh_CN": "操纵着可变形兵装的火垂，据说是恩赐意志秘密研发的超级武器。萤火般的微光，聚集起来也能毁天灭地。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.115.4",
+          "zh_TW": "火垂主控流派1",
+          "zh_CN": "火垂主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.115.5",
+          "zh_TW": "火垂主控流派2",
+          "zh_CN": "火垂主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.115.6",
+          "zh_TW": "火垂援護流派1",
+          "zh_CN": "火垂援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.115.7",
+          "zh_TW": "火垂援護流派2",
+          "zh_CN": "火垂援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.115.9",
+          "zh_TW": "「雪崩·浮游砲」匯聚能量，專注單一目標的輸出流派。",
+          "zh_CN": "「雪崩·浮游炮」汇聚能量，专注单目标的输出流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.115.10",
+          "zh_TW": "「雪崩·浮游砲」分散火力，擅長打擊複數目標的輸出流派。",
+          "zh_CN": "「雪崩·浮游炮」分散火力，擅长打击复数目标的输出流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.115.11",
+          "zh_TW": "強化「雪崩·飛刃」高頻率攻擊目標的輸出流派。",
+          "zh_CN": "强化「雪崩·飞刃」高频攻击目标的输出流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.115.12",
+          "zh_TW": "強化「雪崩·巨劍」持續重擊目標的輸出流派。",
+          "zh_CN": "强化「雪崩·巨剑」持续重击目标的输出流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "116": {
+      "Id": 116,
+      "Alias": "CharacterDes.116.2",
+      "CnCv": "CharacterDes.116.1",
+      "JpCv": "CharacterDes.116.8",
+      "CharColor": "#bfd641",
+      "CharSkillColor": "#bfd641",
+      "CharDes": "CharacterDes.116.3",
+      "Tag": [
+        102,
+        201,
+        304
+      ],
+      "Force": 11,
+      "PreferTags": [
+        3,
+        7
+      ],
+      "Birthday": "9.22",
+      "PotentialMain1": "CharacterDes.116.4",
+      "PotentialMain2": "CharacterDes.116.5",
+      "PotentialAssistant1": "CharacterDes.116.6",
+      "PotentialAssistant2": "CharacterDes.116.7",
+      "PotentialMainContent1": "CharacterDes.116.9",
+      "PotentialMainContent2": "CharacterDes.116.10",
+      "PotentialAssistantContent1": "CharacterDes.116.11",
+      "PotentialAssistantContent2": "CharacterDes.116.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.116.2",
+          "zh_TW": "Ridge",
+          "zh_CN": "Ridge",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.116.1",
+          "zh_TW": "張楷軒",
+          "zh_CN": "张楷轩",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.116.8",
+          "zh_TW": "七瀨可蘿",
+          "zh_CN": "七瀬けろ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.116.3",
+          "zh_TW": "嶺川是一個喜歡囤積食物的護林員，她的鏟子能夠發射能量砲彈，並配合她投下的種子植物共同作戰。",
+          "zh_CN": "岭川是一个喜欢囤积食物的护林员，她的铲子能够发射能量炮弹，并配合她投下的种子植物共同作战。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.116.4",
+          "zh_TW": "嶺川主控流派1",
+          "zh_CN": "岭川主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.116.5",
+          "zh_TW": "嶺川主控流派2",
+          "zh_CN": "岭川主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.116.6",
+          "zh_TW": "嶺川援護流派1",
+          "zh_CN": "岭川援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.116.7",
+          "zh_TW": "嶺川援護流派2",
+          "zh_CN": "岭川援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.116.9",
+          "zh_TW": "發動技能可召喚植物群攻擊附近目標的流派。",
+          "zh_CN": "发动技能可召唤植物群攻击附近目标的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.116.10",
+          "zh_TW": "發動技能後提升攻速，並以高頻率觸發子彈效果的流派。",
+          "zh_CN": "发动技能后提升攻速，并高频触发子弹效果的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.116.11",
+          "zh_TW": "提升技能傷害與次數的直傷流派。",
+          "zh_CN": "提升技能伤害与次数的直伤流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.116.12",
+          "zh_TW": "使技能可延遲傳播，觸發印記傷害的流派。",
+          "zh_CN": "使技能可延迟传播，触发印记伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "117": {
+      "Id": 117,
+      "Alias": "CharacterDes.117.2",
+      "CnCv": "CharacterDes.117.1",
+      "JpCv": "CharacterDes.117.8",
+      "CharColor": "#e36463",
+      "CharSkillColor": "#e36463",
+      "CharDes": "CharacterDes.117.3",
+      "Tag": [
+        102,
+        205,
+        307
+      ],
+      "Force": 14,
+      "PreferTags": [
+        7,
+        8
+      ],
+      "Birthday": "5.10",
+      "PotentialMain1": "CharacterDes.117.4",
+      "PotentialMain2": "CharacterDes.117.5",
+      "PotentialAssistant1": "CharacterDes.117.6",
+      "PotentialAssistant2": "CharacterDes.117.7",
+      "PotentialMainContent1": "CharacterDes.117.9",
+      "PotentialMainContent2": "CharacterDes.117.10",
+      "PotentialAssistantContent1": "CharacterDes.117.11",
+      "PotentialAssistantContent2": "CharacterDes.117.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.117.2",
+          "zh_TW": "Jinglin",
+          "zh_CN": "Jinglin",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.117.1",
+          "zh_TW": "韓嬌嬌",
+          "zh_CN": "韩娇娇",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.117.8",
+          "zh_TW": "田嶌紗蘭",
+          "zh_CN": "田嶌紗蘭",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.117.3",
+          "zh_TW": "璟麟能召喚雷電，讓身邊布滿金色的落雷。雖然眾說紛紜，但璟麟認為，這是蒼梧神樹賜予她的力量。",
+          "zh_CN": "璟麟能召唤雷电，让身边布满金色的落雷。虽然众说纷纭，但璟麟认为，这是苍梧神树赐予她的力量。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.117.4",
+          "zh_TW": "璟麟主控流派1",
+          "zh_CN": "璟麟主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.117.5",
+          "zh_TW": "璟麟主控流派2",
+          "zh_CN": "璟麟主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.117.6",
+          "zh_TW": "璟麟援護流派1",
+          "zh_CN": "璟麟援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.117.7",
+          "zh_TW": "璟麟援護流派2",
+          "zh_CN": "璟麟援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.117.9",
+          "zh_TW": "可持續提升單體雷擊傷害的流派。",
+          "zh_CN": "可持续提升单体雷击伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.117.10",
+          "zh_TW": "釋放雷擊後，可施放連鎖閃電的流派。",
+          "zh_CN": "释放雷击后，可释放连锁闪电的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.117.11",
+          "zh_TW": "召喚雷電領域，並造成大範圍高頻傷害的流派。",
+          "zh_CN": "召唤雷电领域，并造成大范围高频伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.117.12",
+          "zh_TW": "召喚雷電領域，並造成控制與爆發傷害的流派。",
+          "zh_CN": "召唤雷电领域，并造成控制与爆发伤害的的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "118": {
+      "Id": 118,
+      "Alias": "CharacterDes.118.2",
+      "CnCv": "CharacterDes.118.1",
+      "JpCv": "CharacterDes.118.8",
+      "CharColor": "#cfbf93",
+      "CharSkillColor": "#cfbf93",
+      "CharDes": "CharacterDes.118.3",
+      "Tag": [
+        102,
+        203,
+        310
+      ],
+      "Force": 2,
+      "PreferTags": [
+        2,
+        4
+      ],
+      "Birthday": "10.15",
+      "PotentialMain1": "CharacterDes.118.4",
+      "PotentialMain2": "CharacterDes.118.5",
+      "PotentialAssistant1": "CharacterDes.118.6",
+      "PotentialAssistant2": "CharacterDes.118.7",
+      "PotentialMainContent1": "CharacterDes.118.9",
+      "PotentialMainContent2": "CharacterDes.118.10",
+      "PotentialAssistantContent1": "CharacterDes.118.11",
+      "PotentialAssistantContent2": "CharacterDes.118.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.118.2",
+          "zh_TW": "Coronis",
+          "zh_CN": "Coronis",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.118.1",
+          "zh_TW": "周語晗",
+          "zh_CN": "周语晗",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.118.8",
+          "zh_TW": "齊藤佑圭",
+          "zh_CN": "斉藤佑圭",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.118.3",
+          "zh_TW": "沉迷研究疑難雜症的醫者，她揮動鐮刀，操控劇毒，飄然穿梭於戰場。",
+          "zh_CN": "沉迷研究疑难杂症的医者，她挥动镰刀，操控剧毒，飘然穿梭于战场。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.118.4",
+          "zh_TW": "柯洛妮絲主控流派1",
+          "zh_CN": "科洛妮丝主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.118.5",
+          "zh_TW": "柯洛妮絲主控流派2",
+          "zh_CN": "科洛妮丝主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.118.6",
+          "zh_TW": "柯洛妮絲援護流派1",
+          "zh_CN": "科洛妮丝援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.118.7",
+          "zh_TW": "柯洛妮絲援護流派2",
+          "zh_CN": "科洛妮丝援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.118.9",
+          "zh_TW": "提升技能攻擊段數，並逐漸擴大範圍的流派。",
+          "zh_CN": "提升技能攻击段数，并逐次提升范围的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.118.10",
+          "zh_TW": "持續累積、消耗能量發射「鐮影」切割目標，集中傷害型的流派。",
+          "zh_CN": "持续积攒、消耗能量发射「镰影」切割目标，集中伤害型的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.118.11",
+          "zh_TW": "隨技能可發射「鐮影」，並可對單體發動多次橫斬的流派。",
+          "zh_CN": "随技能可发射「镰影」，并可对单体发动多次横斩的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.118.12",
+          "zh_TW": "可牽引強敵，並掉落增強主控之「改造藥水」的輔助流派。",
+          "zh_CN": "可牵引强敌，并掉落增强主控的「改造药水」的辅助流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "119": {
+      "Id": 119,
+      "Alias": "CharacterDes.119.2",
+      "CnCv": "CharacterDes.119.1",
+      "JpCv": "CharacterDes.119.8",
+      "CharColor": "#c8708c",
+      "CharSkillColor": "#c8708c",
+      "CharDes": "CharacterDes.119.3",
+      "Tag": [
+        101,
+        205,
+        308
+      ],
+      "Force": 8,
+      "PreferTags": [
+        4,
+        7,
+        8
+      ],
+      "HateTags": [
+        5
+      ],
+      "Birthday": "4.20",
+      "PotentialMain1": "CharacterDes.119.4",
+      "PotentialMain2": "CharacterDes.119.5",
+      "PotentialAssistant1": "CharacterDes.119.6",
+      "PotentialAssistant2": "CharacterDes.119.7",
+      "PotentialMainContent1": "CharacterDes.119.9",
+      "PotentialMainContent2": "CharacterDes.119.10",
+      "PotentialAssistantContent1": "CharacterDes.119.11",
+      "PotentialAssistantContent2": "CharacterDes.119.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.119.2",
+          "zh_TW": "Nanoha",
+          "zh_CN": "Nanoha",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.119.1",
+          "zh_TW": "豆奶",
+          "zh_CN": "豆奶",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.119.8",
+          "zh_TW": "佐藤聰美",
+          "zh_CN": "佐藤聡美",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.119.3",
+          "zh_TW": "花原是谷風的女僕，擅長以「花」為名的忍術。她引以為傲的葵花飛鏢能在高速移動中命中目標。",
+          "zh_CN": "花原是谷风的女仆，擅长以“花”为名的忍术。她引以为傲的葵花飞镖，能在高速移动中命中目标。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.119.4",
+          "zh_TW": "花原主控流派1",
+          "zh_CN": "花原主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.119.5",
+          "zh_TW": "花原主控流派2",
+          "zh_CN": "花原主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.119.6",
+          "zh_TW": "花原援護流派1",
+          "zh_CN": "花原援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.119.7",
+          "zh_TW": "花原援護流派2",
+          "zh_CN": "花原援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.119.9",
+          "zh_TW": "提升攻速與飛鏢數量，多次命中還能造成額外群傷的流派。",
+          "zh_CN": "提升攻速与飞镖数量，多次命中还可造成额外群伤的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.119.10",
+          "zh_TW": "提升飛鏢傷害範圍並可多段傷害，適合對付大型目標的流派。",
+          "zh_CN": "提升飞镖伤害范围并可多段伤害，适合对付大型目标的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.119.11",
+          "zh_TW": "命中多目標觸發風印記，即可大幅縮短冷卻並再度發動的群傷型流派。",
+          "zh_CN": "命中多目标触发风印记，即可大幅缩短冷却并再次发动的群伤型流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.119.12",
+          "zh_TW": "持續跟踪追擊目標，並逐漸提升引爆傷害的單體型流派。",
+          "zh_CN": "持续跟踪追击目标，并逐渐提升引爆伤害的单体型流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "120": {
+      "Id": 120,
+      "Alias": "CharacterDes.120.2",
+      "CnCv": "CharacterDes.120.1",
+      "JpCv": "CharacterDes.120.8",
+      "CharColor": "#d4bfe1",
+      "CharSkillColor": "#d4bfe1",
+      "CharDes": "CharacterDes.120.3",
+      "Tag": [
+        102,
+        203,
+        315
+      ],
+      "Force": 10,
+      "PreferTags": [
+        1,
+        3
+      ],
+      "Birthday": "1.22",
+      "PotentialMain1": "CharacterDes.120.4",
+      "PotentialMain2": "CharacterDes.120.5",
+      "PotentialAssistant1": "CharacterDes.120.6",
+      "PotentialAssistant2": "CharacterDes.120.7",
+      "PotentialMainContent1": "CharacterDes.120.9",
+      "PotentialMainContent2": "CharacterDes.120.10",
+      "PotentialAssistantContent1": "CharacterDes.120.11",
+      "PotentialAssistantContent2": "CharacterDes.120.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.120.2",
+          "zh_TW": "Canace",
+          "zh_CN": "Canace",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.120.1",
+          "zh_TW": "梁爽",
+          "zh_CN": "梁爽",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.120.8",
+          "zh_TW": "豐口惠",
+          "zh_CN": "豊口めぐみ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.120.3",
+          "zh_TW": "傳說中的魔鬼教師，她使用的神祕桂冠，會在戰鬥中發揮令人意想不到的效果。",
+          "zh_CN": "传闻中的魔鬼教师，她使用的神秘桂冠，会在战斗中发挥令人意想不到的效果。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.120.4",
+          "zh_TW": "卡娜絲主控流派1",
+          "zh_CN": "卡娜丝主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.120.5",
+          "zh_TW": "卡娜絲主控流派2",
+          "zh_CN": "卡娜丝主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.120.6",
+          "zh_TW": "卡娜絲援護流派1",
+          "zh_CN": "卡娜丝援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.120.7",
+          "zh_TW": "卡娜絲援護流派2",
+          "zh_CN": "卡娜丝援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.120.9",
+          "zh_TW": "飛葉數量和環繞速度提升，持續攻擊飛行路徑上不同目標的群傷流派。",
+          "zh_CN": "飞叶数量和环绕速度提升，持续打击飞行路径上不同目标的群伤流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.120.10",
+          "zh_TW": "施放技能後強化普攻，並有機率射出額外子彈的單體流派。",
+          "zh_CN": "施放技能后强化普攻，并有概率射出额外子弹的单体流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.120.11",
+          "zh_TW": "花環範圍更大，傷害間隔縮短的近戰群傷流派。",
+          "zh_CN": "花环范围更大，伤害间隔缩短的近战群伤流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.120.12",
+          "zh_TW": "花環環繞速度更快，每次環繞造成額外傷害的遠程群傷流派。",
+          "zh_CN": "花环环绕速度更快，每次环绕造成额外伤害的远程群伤流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "123": {
+      "Id": 123,
+      "Alias": "CharacterDes.123.2",
+      "CnCv": "CharacterDes.123.1",
+      "JpCv": "CharacterDes.123.8",
+      "CharColor": "#ed825d",
+      "CharSkillColor": "#ed825d",
+      "CharDes": "CharacterDes.123.3",
+      "Tag": [
+        103,
+        203,
+        310
+      ],
+      "Force": 2,
+      "PreferTags": [
+        6,
+        7
+      ],
+      "Birthday": "6.1",
+      "PotentialMain1": "CharacterDes.123.4",
+      "PotentialMain2": "CharacterDes.123.5",
+      "PotentialAssistant1": "CharacterDes.123.6",
+      "PotentialAssistant2": "CharacterDes.123.7",
+      "PotentialMainContent1": "CharacterDes.123.9",
+      "PotentialMainContent2": "CharacterDes.123.10",
+      "PotentialAssistantContent1": "CharacterDes.123.11",
+      "PotentialAssistantContent2": "CharacterDes.123.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.123.2",
+          "zh_TW": "Ann",
+          "zh_CN": "Ann",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.123.1",
+          "zh_TW": "靜宸",
+          "zh_CN": "静宸",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.123.8",
+          "zh_TW": "日高里菜",
+          "zh_CN": "日高里菜",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.123.3",
+          "zh_TW": "火狼可可是杏子的朋友，風也是杏子的朋友。在朋友的幫助下，杏子是本地跑得最快的旅人。",
+          "zh_CN": "火狼可可是杏子的朋友，风也是杏子的朋友。在朋友的帮助下，杏子是本地跑得最快的旅人。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.123.4",
+          "zh_TW": "杏子主控流派1",
+          "zh_CN": "杏子主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.123.5",
+          "zh_TW": "杏子主控流派2",
+          "zh_CN": "杏子主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.123.6",
+          "zh_TW": "杏子援護流派1",
+          "zh_CN": "杏子援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.123.7",
+          "zh_TW": "杏子援護流派2",
+          "zh_CN": "杏子援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.123.9",
+          "zh_TW": "有更高機率產生「風爆」，擊飛並使敵人受到更多傷害的流派。",
+          "zh_CN": "更高概率产生「风爆」，击飞并使敌人受到更多伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.123.10",
+          "zh_TW": "噴射雷射貫通傷害，且援護角色透過觸發印記也可發動雷射的流派。",
+          "zh_CN": "喷射激光贯通伤害，且援护角色通过触发印记也可发动激光的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.123.11",
+          "zh_TW": "提升風牆數量並附加護盾，提升隊伍生存能力的流派。",
+          "zh_CN": "提升风墙数量并附加护盾，提升队伍生存能力的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.123.12",
+          "zh_TW": "風牆持續造成傷害並增強穿越的我方飛彈，適合與遠程主控搭配的流派。",
+          "zh_CN": "风墙持续造成伤害并增强穿越的友方飞弹，适合与远程主控搭配的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "125": {
+      "Id": 125,
+      "Alias": "CharacterDes.125.2",
+      "CnCv": "CharacterDes.125.1",
+      "JpCv": "CharacterDes.125.8",
+      "CharColor": "#90abe1",
+      "CharSkillColor": "#90abe1",
+      "CharDes": "CharacterDes.125.3",
+      "Tag": [
+        102,
+        203,
+        309
+      ],
+      "Force": 7,
+      "PreferTags": [
+        3,
+        6,
+        8
+      ],
+      "HateTags": [
+        1
+      ],
+      "Birthday": "9.9",
+      "PotentialMain1": "CharacterDes.125.4",
+      "PotentialMain2": "CharacterDes.125.5",
+      "PotentialAssistant1": "CharacterDes.125.6",
+      "PotentialAssistant2": "CharacterDes.125.7",
+      "PotentialMainContent1": "CharacterDes.125.9",
+      "PotentialMainContent2": "CharacterDes.125.10",
+      "PotentialAssistantContent1": "CharacterDes.125.11",
+      "PotentialAssistantContent2": "CharacterDes.125.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.125.2",
+          "zh_TW": "Freesia",
+          "zh_CN": "Freesia",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.125.1",
+          "zh_TW": "張曄",
+          "zh_CN": "张晔",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.125.8",
+          "zh_TW": "Lynn",
+          "zh_CN": "Lynn",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.125.3",
+          "zh_TW": "遠古傳承的「狂化」魔法讓蒼蘭不停地戰鬥，直到體力耗盡。這是優雅少女不宜被人看見的陰暗面。",
+          "zh_CN": "远古传承的“狂化”魔法让苍兰不停地战斗，直到体力耗尽。这是不宜被人看到的，优雅少女的暗面。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.125.4",
+          "zh_TW": "蒼蘭主控流派1",
+          "zh_CN": "苍兰主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.125.5",
+          "zh_TW": "蒼蘭主控流派2",
+          "zh_CN": "苍兰主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.125.6",
+          "zh_TW": "蒼蘭援護流派1",
+          "zh_CN": "苍兰援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.125.7",
+          "zh_TW": "蒼蘭援護流派2",
+          "zh_CN": "苍兰援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.125.9",
+          "zh_TW": "可多次旋轉斬擊，配合普攻輸出的流派。",
+          "zh_CN": "可多次旋转斩击，配合普攻输出的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.125.10",
+          "zh_TW": "透過持續旋轉斬擊輸出的流派。",
+          "zh_CN": "通过持续旋转斩击输出的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.125.11",
+          "zh_TW": "製造大量冰花，適合對付大型敵人的流派。",
+          "zh_CN": "生成大量冰花，适合对付大体型敌人的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.125.12",
+          "zh_TW": "狂化時持續產生冰花攻擊敵人的流派。",
+          "zh_CN": "狂化时持续产生冰花攻击敌人的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "126": {
+      "Id": 126,
+      "Alias": "CharacterDes.126.2",
+      "CnCv": "CharacterDes.126.1",
+      "JpCv": "CharacterDes.126.8",
+      "CharColor": "#c0497a",
+      "CharSkillColor": "#c0497a",
+      "CharDes": "CharacterDes.126.3",
+      "Tag": [
+        103,
+        201,
+        310
+      ],
+      "Force": 2,
+      "PreferTags": [
+        1,
+        6
+      ],
+      "Birthday": "9.5",
+      "PotentialMain1": "CharacterDes.126.4",
+      "PotentialMain2": "CharacterDes.126.5",
+      "PotentialAssistant1": "CharacterDes.126.6",
+      "PotentialAssistant2": "CharacterDes.126.7",
+      "PotentialMainContent1": "CharacterDes.126.9",
+      "PotentialMainContent2": "CharacterDes.126.10",
+      "PotentialAssistantContent1": "CharacterDes.126.11",
+      "PotentialAssistantContent2": "CharacterDes.126.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.126.2",
+          "zh_TW": "Flora",
+          "zh_CN": "Flora",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.126.1",
+          "zh_TW": "沐霏",
+          "zh_CN": "沐霏",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.126.8",
+          "zh_TW": "長谷川育美",
+          "zh_CN": "長谷川育美",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.126.3",
+          "zh_TW": "紫槿在諾瓦巡迴表演她獨創的魔術，她施放的火蝶看似弱小，實則會成為最佳的引火物，燃盡敵人。",
+          "zh_CN": "紫槿在诺瓦巡回表演她独创的魔术，她释放出的火蝶看似弱小，实则会成为引火的佳物，燃尽敌人。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.126.4",
+          "zh_TW": "紫槿主控流派1",
+          "zh_CN": "紫槿主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.126.5",
+          "zh_TW": "紫槿主控流派2",
+          "zh_CN": "紫槿主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.126.6",
+          "zh_TW": "紫槿援護流派1",
+          "zh_CN": "紫槿援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.126.7",
+          "zh_TW": "紫槿援護流派2",
+          "zh_CN": "紫槿援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.126.9",
+          "zh_TW": "提升魔術帽數量，並可加以回收的持續群傷型流派。",
+          "zh_CN": "提升魔术帽数量并使其可回收的持续群伤型流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.126.10",
+          "zh_TW": "產生分身，使普攻分裂並持續附加印記的穿透型流派。",
+          "zh_CN": "产生分身，使普攻分裂并持续附加印记的穿透型流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.126.11",
+          "zh_TW": "提升炎蝶數量，炎蝶可持續分裂的印記附加流派。",
+          "zh_CN": "炎蝶数量提升，炎蝶可持续分裂的印记附加流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.126.12",
+          "zh_TW": "沐蝶數量增加，提升主控傷害的暴擊流派。",
+          "zh_CN": "沐蝶数量提升，提升主控伤害的暴击流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "127": {
+      "Id": 127,
+      "Alias": "CharacterDes.127.2",
+      "CnCv": "CharacterDes.127.1",
+      "JpCv": "CharacterDes.127.8",
+      "CharColor": "#a0675d",
+      "CharSkillColor": "#a0675d",
+      "CharDes": "CharacterDes.127.3",
+      "Tag": [
+        103,
+        202,
+        309
+      ],
+      "Force": 7,
+      "PreferTags": [
+        1,
+        4
+      ],
+      "Birthday": "2.21",
+      "PotentialMain1": "CharacterDes.127.4",
+      "PotentialMain2": "CharacterDes.127.5",
+      "PotentialAssistant1": "CharacterDes.127.6",
+      "PotentialAssistant2": "CharacterDes.127.7",
+      "PotentialMainContent1": "CharacterDes.127.9",
+      "PotentialMainContent2": "CharacterDes.127.10",
+      "PotentialAssistantContent1": "CharacterDes.127.11",
+      "PotentialAssistantContent2": "CharacterDes.127.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.127.2",
+          "zh_TW": "Teresa",
+          "zh_CN": "Teresa",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.127.1",
+          "zh_TW": "井琉",
+          "zh_CN": "井琉",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.127.8",
+          "zh_TW": "石見舞菜香",
+          "zh_CN": "石見舞菜香",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.127.3",
+          "zh_TW": "特麗莎有著豐富的野外探險經驗，深知保留體力的重要性。",
+          "zh_CN": "特丽莎有着丰富的野外探险经验，深知保存体力的重要性。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.127.4",
+          "zh_TW": "特麗莎主控流派1",
+          "zh_CN": "特丽莎主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.127.5",
+          "zh_TW": "特麗莎主控流派2",
+          "zh_CN": "特丽莎主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.127.6",
+          "zh_TW": "特麗莎援護流派1",
+          "zh_CN": "特丽莎援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.127.7",
+          "zh_TW": "特麗莎援護流派2",
+          "zh_CN": "特丽莎援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.127.9",
+          "zh_TW": "技能段數提升並額外產生水波紋，提升傷害與印記能力的流派。",
+          "zh_CN": "技能段数提升并额外生成水波纹，提升伤害与印记能力的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.127.10",
+          "zh_TW": "施放技能後獲得護盾，並隨機提升隊友能量的生存型流派。",
+          "zh_CN": "施放技能后获得护盾，并随机提升队友能量的生存型流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.127.11",
+          "zh_TW": "獲得護盾，護盾中主控角色的攻擊會產生水波紋，適合近戰主控的流派。",
+          "zh_CN": "获得护盾，护盾中的主控角色的攻击会生成水波纹，适合近战主控的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.127.12",
+          "zh_TW": "產生可擊退目標的浪域，提升浪域中的主控角色傷害，適合遠程主控的流派。",
+          "zh_CN": "生成可击退目标的浪域，提升浪域中的主控角色伤害，适合远程主控的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "130": {
+      "Id": 130,
+      "Alias": "CharacterDes.130.2",
+      "CnCv": "CharacterDes.130.1",
+      "JpCv": "CharacterDes.130.8",
+      "CharColor": "#e9be88",
+      "CharSkillColor": "#e9be88",
+      "CharDes": "CharacterDes.130.3",
+      "Tag": [
+        102,
+        204,
+        309
+      ],
+      "Force": 7,
+      "PreferTags": [
+        3,
+        4,
+        7
+      ],
+      "HateTags": [
+        5
+      ],
+      "Birthday": "10.9",
+      "PotentialMain1": "CharacterDes.130.4",
+      "PotentialMain2": "CharacterDes.130.5",
+      "PotentialAssistant1": "CharacterDes.130.6",
+      "PotentialAssistant2": "CharacterDes.130.7",
+      "PotentialMainContent1": "CharacterDes.130.9",
+      "PotentialMainContent2": "CharacterDes.130.10",
+      "PotentialAssistantContent1": "CharacterDes.130.11",
+      "PotentialAssistantContent2": "CharacterDes.130.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.130.2",
+          "zh_TW": "Donna",
+          "zh_CN": "Donna",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.130.1",
+          "zh_TW": "蘇婉",
+          "zh_CN": "苏婉",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.130.8",
+          "zh_TW": "阿澄佳奈",
+          "zh_CN": "阿澄佳奈",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.130.3",
+          "zh_TW": "多娜是萬送屋的領袖與核心，充滿活力，自信又樂觀。她的利箭會突破一切試圖阻擋郵路的障礙。",
+          "zh_CN": "多娜是万送屋的领袖与纽带，活力满满，自信而乐观；她的利箭会突破一切试图阻挡邮路的存在。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.130.4",
+          "zh_TW": "多娜主控流派1",
+          "zh_CN": "多娜主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.130.5",
+          "zh_TW": "多娜主控流派2",
+          "zh_CN": "多娜主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.130.6",
+          "zh_TW": "多娜援護流派1",
+          "zh_CN": "多娜援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.130.7",
+          "zh_TW": "多娜援護流派2",
+          "zh_CN": "多娜援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.130.9",
+          "zh_TW": "發射更多更強的箭矢，提升普攻能力的流派。",
+          "zh_CN": "发射更多更强的箭矢，提升普攻能力的流派",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.130.10",
+          "zh_TW": "配合人偶的輸出，提升攻擊與技能連動的流派。",
+          "zh_CN": "配合人偶的输出，提升攻击与技能联动的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.130.11",
+          "zh_TW": "集中攻擊前方目標的強攻流派。",
+          "zh_CN": "集中攻击前方目标的强攻流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.130.12",
+          "zh_TW": "隨機攻擊周圍目標的散射流派。",
+          "zh_CN": "随机攻击周围目标的散射流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "132": {
+      "Id": 132,
+      "Alias": "CharacterDes.132.2",
+      "CnCv": "CharacterDes.132.1",
+      "JpCv": "CharacterDes.132.8",
+      "CharColor": "#6387e8",
+      "CharSkillColor": "#6387e8",
+      "CharDes": "CharacterDes.132.3",
+      "Tag": [
+        102,
+        202,
+        311
+      ],
+      "Force": 6,
+      "PreferTags": [
+        1,
+        2,
+        6
+      ],
+      "HateTags": [
+        3
+      ],
+      "PotentialMain1": "CharacterDes.132.4",
+      "PotentialMain2": "CharacterDes.132.5",
+      "PotentialAssistant1": "CharacterDes.132.6",
+      "PotentialAssistant2": "CharacterDes.132.7",
+      "PotentialMainContent1": "CharacterDes.132.9",
+      "PotentialMainContent2": "CharacterDes.132.10",
+      "PotentialAssistantContent1": "CharacterDes.132.11",
+      "PotentialAssistantContent2": "CharacterDes.132.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.132.2",
+          "zh_TW": "Minova",
+          "zh_CN": "Minova",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.132.1",
+          "zh_TW": "楊清江",
+          "zh_CN": "杨清江",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.132.8",
+          "zh_TW": "菲魯茲·藍",
+          "zh_CN": "ファイルーズあい",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.132.3",
+          "zh_TW": "作為灰風俱樂部的領導者，密涅瓦很少單獨行動。戰鬥中，她最大的依靠絕非滑板和球棒，而是夥伴。",
+          "zh_CN": "作为灰风俱乐部的领导者，密涅瓦很少单独行动。战斗中，她最大的依仗绝非滑板和球棒，而是伙伴。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.132.4",
+          "zh_TW": "密涅瓦主控流派1",
+          "zh_CN": "密涅瓦主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.132.5",
+          "zh_TW": "密涅瓦主控流派2",
+          "zh_CN": "密涅瓦主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.132.6",
+          "zh_TW": "密涅瓦援護流派1",
+          "zh_CN": "密涅瓦援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.132.7",
+          "zh_TW": "密涅瓦援護流派2",
+          "zh_CN": "密涅瓦援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.132.9",
+          "zh_TW": "技能追加第三段攻擊，普攻與技能配合輸出的流派。",
+          "zh_CN": "技能追加第三段打击，普攻与技能配合输出的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.132.10",
+          "zh_TW": "強化技能的兩段攻擊，連續施放技能輸出的流派。",
+          "zh_CN": "强化技能的两段打击，连续释放技能输出的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.132.11",
+          "zh_TW": "揮灑可附著於目標的星星，持續造成傷害的流派。",
+          "zh_CN": "挥洒可附着目标的星星，持续造成伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.132.12",
+          "zh_TW": "揮灑可附著並削弱目標的星星，並為主控施加護盾的流派。",
+          "zh_CN": "挥洒可附着并削弱目标的星星，并为主控施加护盾的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "133": {
+      "Id": 133,
+      "Alias": "CharacterDes.133.2",
+      "CnCv": "CharacterDes.133.1",
+      "JpCv": "CharacterDes.133.8",
+      "CharColor": "#6fb1d2",
+      "CharSkillColor": "#6fb1d2",
+      "CharDes": "CharacterDes.133.3",
+      "Tag": [
+        102,
+        202,
+        316
+      ],
+      "Force": 12,
+      "PreferTags": [
+        4,
+        8,
+        7
+      ],
+      "HateTags": [
+        2
+      ],
+      "Birthday": "6.17",
+      "PotentialMain1": "CharacterDes.133.4",
+      "PotentialMain2": "CharacterDes.133.5",
+      "PotentialAssistant1": "CharacterDes.133.6",
+      "PotentialAssistant2": "CharacterDes.133.7",
+      "PotentialMainContent1": "CharacterDes.133.9",
+      "PotentialMainContent2": "CharacterDes.133.10",
+      "PotentialAssistantContent1": "CharacterDes.133.11",
+      "PotentialAssistantContent2": "CharacterDes.133.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.133.2",
+          "zh_TW": "Nazuka",
+          "zh_CN": "Nazuka",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.133.1",
+          "zh_TW": "劉十四",
+          "zh_CN": "刘十四",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.133.8",
+          "zh_TW": "伊藤靜",
+          "zh_CN": "伊藤静",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.133.3",
+          "zh_TW": "操控風之魔法的強大旅人，優秀的判斷力是身為領導者的她與生俱來的天賦。",
+          "zh_CN": "操控风之魔法的强大旅人，优秀的判断力是身为领导者的她与生俱来的天赋。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.133.4",
+          "zh_TW": "夏花主控流派1",
+          "zh_CN": "夏花主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.133.5",
+          "zh_TW": "夏花主控流派2",
+          "zh_CN": "夏花主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.133.6",
+          "zh_TW": "夏花援護流派1",
+          "zh_CN": "夏花援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.133.7",
+          "zh_TW": "夏花援護流派2",
+          "zh_CN": "夏花援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.133.9",
+          "zh_TW": "大幅提升吹風時間和範圍的持續傷害流派。",
+          "zh_CN": "大幅提升吹风时长和范围的持续伤害流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.133.10",
+          "zh_TW": "吹風追加聚怪效果並可貫穿攻擊的爆發傷害流派。",
+          "zh_CN": "吹风追加聚怪效果并可贯穿攻击的爆发伤害流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.133.11",
+          "zh_TW": "連續產生持續追蹤目標之花瓣的單體流派。",
+          "zh_CN": "连续生成持续追踪目标的花瓣的单体流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.133.12",
+          "zh_TW": "產生花海，並可協同風系傷害的群傷流派。",
+          "zh_CN": "生成花海，并可协同风系伤害的群伤流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "134": {
+      "Id": 134,
+      "Alias": "CharacterDes.134.2",
+      "CnCv": "CharacterDes.134.1",
+      "JpCv": "CharacterDes.134.8",
+      "CharColor": "#f8be56",
+      "CharSkillColor": "#f8be56",
+      "CharDes": "CharacterDes.134.3",
+      "Tag": [
+        101,
+        205,
+        316
+      ],
+      "Force": 12,
+      "PreferTags": [
+        2,
+        6,
+        8
+      ],
+      "HateTags": [
+        1
+      ],
+      "Birthday": "1.31",
+      "PotentialMain1": "CharacterDes.134.4",
+      "PotentialMain2": "CharacterDes.134.5",
+      "PotentialAssistant1": "CharacterDes.134.6",
+      "PotentialAssistant2": "CharacterDes.134.7",
+      "PotentialMainContent1": "CharacterDes.134.9",
+      "PotentialMainContent2": "CharacterDes.134.10",
+      "PotentialAssistantContent1": "CharacterDes.134.11",
+      "PotentialAssistantContent2": "CharacterDes.134.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.134.2",
+          "zh_TW": "Fuyuka",
+          "zh_CN": "Fuyuka",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.134.1",
+          "zh_TW": "劉一蕾",
+          "zh_CN": "刘一蕾",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.134.8",
+          "zh_TW": "安濟知佳",
+          "zh_CN": "安済知佳",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.134.3",
+          "zh_TW": "性格有些怕生，實力卻很強大的旅人。很難想像，這副沉重的手甲其實是她天生怪力的限制器。",
+          "zh_CN": "性格有些怕生，却实力高强的旅人。很难想象，这副沉重的手甲其实是她天生怪力的限制器。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.134.4",
+          "zh_TW": "冬香主控流派1",
+          "zh_CN": "冬香主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.134.5",
+          "zh_TW": "冬香主控流派2",
+          "zh_CN": "冬香主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.134.6",
+          "zh_TW": "冬香援護流派1",
+          "zh_CN": "冬香援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.134.7",
+          "zh_TW": "冬香援護流派2",
+          "zh_CN": "冬香援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.134.9",
+          "zh_TW": "提升彈匣上限，使用強化普攻猛擊敵人的流派。",
+          "zh_CN": "提升弹匣上限，使用强化普攻猛击敌人的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.134.10",
+          "zh_TW": "傾瀉彈藥，然後使用基礎普攻高頻輸出的流派。",
+          "zh_CN": "倾泻弹药，然后使用基础普攻高频输出的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.134.11",
+          "zh_TW": "匯聚力量，發動單次巨量傷害的流派。",
+          "zh_CN": "汇聚力量，发动单次巨量伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.134.12",
+          "zh_TW": "持續對目標造成高頻多段傷害的流派。",
+          "zh_CN": "持续对目标造成高频多段伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "135": {
+      "Id": 135,
+      "Alias": "CharacterDes.135.2",
+      "CnCv": "CharacterDes.135.1",
+      "JpCv": "CharacterDes.135.8",
+      "CharColor": "#c27fe9",
+      "CharSkillColor": "#c27fe9",
+      "CharDes": "CharacterDes.135.3",
+      "Tag": [
+        102,
+        204,
+        312
+      ],
+      "Force": 9,
+      "PreferTags": [
+        2,
+        3,
+        5
+      ],
+      "HateTags": [
+        6
+      ],
+      "Birthday": "11.8",
+      "PotentialMain1": "CharacterDes.135.4",
+      "PotentialMain2": "CharacterDes.135.5",
+      "PotentialAssistant1": "CharacterDes.135.6",
+      "PotentialAssistant2": "CharacterDes.135.7",
+      "PotentialMainContent1": "CharacterDes.135.9",
+      "PotentialMainContent2": "CharacterDes.135.10",
+      "PotentialAssistantContent1": "CharacterDes.135.11",
+      "PotentialAssistantContent2": "CharacterDes.135.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.135.2",
+          "zh_TW": "Mistique",
+          "zh_CN": "Mistique",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.135.1",
+          "zh_TW": "吳哲茹",
+          "zh_CN": "吴哲茹",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.135.8",
+          "zh_TW": "古賀葵",
+          "zh_CN": "古賀葵",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.135.3",
+          "zh_TW": "霧語是緋瞳傳訊的魔女，擅長驅使召喚靈，以真相為食的召喚靈會幫助霧語清掃敵人，換取食物。",
+          "zh_CN": "雾语是绯瞳传讯的魔女，擅长驱使召唤灵，以真相为食的召唤灵会帮助雾语清扫敌人，换取食物。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.135.4",
+          "zh_TW": "霧語主控流派1",
+          "zh_CN": "雾语主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.135.5",
+          "zh_TW": "霧語主控流派2",
+          "zh_CN": "雾语主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.135.6",
+          "zh_TW": "霧語援護流派1",
+          "zh_CN": "雾语援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.135.7",
+          "zh_TW": "霧語援護流派2",
+          "zh_CN": "雾语援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.135.9",
+          "zh_TW": "提升技能範圍與傷害，影靈消失後可爆破敵人的群傷流派。",
+          "zh_CN": "提升技能范围与伤害、影灵消失后可爆破敌人的群伤流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.135.10",
+          "zh_TW": "增強影靈的控制能力與持續作戰能力，適合對付菁英目標的流派。",
+          "zh_CN": "增强影灵的控制能力与持续作战能力，适合对付精英目标的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.135.11",
+          "zh_TW": "延長技能時間，持續增強場上影靈傷害的流派。",
+          "zh_CN": "延长技能时长，持续增强场上影灵伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.135.12",
+          "zh_TW": "使技能可牽引敵人並增強影靈的自爆攻擊，適合近戰主控的流派。",
+          "zh_CN": "使技能可牵引敌人并增强影灵的自爆攻击，适合近战主控的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "140": {
+      "Id": 140,
+      "Alias": "CharacterDes.140.2",
+      "CnCv": "CharacterDes.140.1",
+      "JpCv": "CharacterDes.140.8",
+      "CharColor": "#985b78",
+      "CharSkillColor": "#985b78",
+      "CharDes": "CharacterDes.140.3",
+      "Tag": [
+        101,
+        204,
+        317
+      ],
+      "Force": 17,
+      "PreferTags": [
+        6,
+        8,
+        5
+      ],
+      "HateTags": [
+        4
+      ],
+      "Birthday": "7.26",
+      "PotentialMain1": "CharacterDes.140.4",
+      "PotentialMain2": "CharacterDes.140.5",
+      "PotentialAssistant1": "CharacterDes.140.6",
+      "PotentialAssistant2": "CharacterDes.140.7",
+      "PotentialMainContent1": "CharacterDes.140.9",
+      "PotentialMainContent2": "CharacterDes.140.10",
+      "PotentialAssistantContent1": "CharacterDes.140.11",
+      "PotentialAssistantContent2": "CharacterDes.140.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.140.2",
+          "zh_TW": "Angie",
+          "zh_CN": "Angie",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.140.1",
+          "zh_TW": "宋政楠",
+          "zh_CN": "宋政楠",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.140.8",
+          "zh_TW": "工藤文音",
+          "zh_CN": "工藤文音",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.140.3",
+          "zh_TW": "斯帕克拉的超級行動派和兔子派可以根據不同的戰場環境，變形為不同的模式針對敵人。",
+          "zh_CN": "斯帕克拉的超级行动派和兔子派可以根据不同的战场环境，变形为不同的模式针对敌人。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.140.4",
+          "zh_TW": "斯帕克拉主控流派1",
+          "zh_CN": "斯帕克拉主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.140.5",
+          "zh_TW": "斯帕克拉主控流派2",
+          "zh_CN": "斯帕克拉主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.140.6",
+          "zh_TW": "斯帕克拉援護流派1",
+          "zh_CN": "斯帕克拉援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.140.7",
+          "zh_TW": "斯帕克拉援護流派2",
+          "zh_CN": "斯帕克拉援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.140.9",
+          "zh_TW": "兔子派切換模式，持續傾瀉火力，擅長消滅單體目標的流派。",
+          "zh_CN": "兔子派切换模式，持续倾泻火力，擅长消灭单个目标的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.140.10",
+          "zh_TW": "兔子派切換模式，蓄力後打出爆發，擅長消滅群體目標的流派。",
+          "zh_CN": "兔子派切换模式，蓄力后打出爆发，擅长消灭群体目标的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.140.11",
+          "zh_TW": "增強超級行動派的爆發力，可在短時間內造成大量傷害的流派。",
+          "zh_CN": "超级行动派爆发力加强，短时间内造成大量伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.140.12",
+          "zh_TW": "增強超級行動派的持續力，配合隊友持續打擊敵人的流派。",
+          "zh_CN": "超级行动派持续力加强，配合队友持续打击敌人的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "141": {
+      "Id": 141,
+      "Alias": "CharacterDes.141.2",
+      "CnCv": "CharacterDes.141.1",
+      "JpCv": "CharacterDes.141.8",
+      "CharColor": "#d75d5e",
+      "CharSkillColor": "#d75d5e",
+      "CharDes": "CharacterDes.141.3",
+      "Tag": [
+        102,
+        201,
+        314
+      ],
+      "Force": 16,
+      "PreferTags": [
+        2,
+        5,
+        7
+      ],
+      "HateTags": [
+        8
+      ],
+      "Birthday": "4.10",
+      "PotentialMain1": "CharacterDes.141.4",
+      "PotentialMain2": "CharacterDes.141.5",
+      "PotentialAssistant1": "CharacterDes.141.6",
+      "PotentialAssistant2": "CharacterDes.141.7",
+      "PotentialMainContent1": "CharacterDes.141.9",
+      "PotentialMainContent2": "CharacterDes.141.10",
+      "PotentialAssistantContent1": "CharacterDes.141.11",
+      "PotentialAssistantContent2": "CharacterDes.141.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.141.2",
+          "zh_TW": "Chixia",
+          "zh_CN": "Chixia",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.141.1",
+          "zh_TW": "唐夏芳",
+          "zh_CN": "唐夏芳",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.141.8",
+          "zh_TW": "德井青空",
+          "zh_CN": "徳井青空",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.141.3",
+          "zh_TW": "明明是玄師卻意外地膽小，巨大的毛筆是改造過的噴火器，也是她繪製最強符紙的夥伴。",
+          "zh_CN": "明明身为玄师却意外的胆小，巨大的毛笔是改造过的喷火器，也是她绘制最强符纸的伙伴。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.141.4",
+          "zh_TW": "赤霞主控流派1",
+          "zh_CN": "赤霞主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.141.5",
+          "zh_TW": "赤霞主控流派2",
+          "zh_CN": "赤霞主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.141.6",
+          "zh_TW": "赤霞援護流派1",
+          "zh_CN": "赤霞援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.141.7",
+          "zh_TW": "赤霞援護流派2",
+          "zh_CN": "赤霞援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.141.9",
+          "zh_TW": "提升噴火的持續時間，並在熱量足夠時強化普攻的流派。",
+          "zh_CN": "提升喷火的持续时间，并在热量足够时强化普攻的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.141.10",
+          "zh_TW": "提升噴火的爆發傷害，追求集中火力輸出的流派。",
+          "zh_CN": "提升喷火的爆发伤害，追求集中火力输出的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.141.11",
+          "zh_TW": "技能可召喚多個赤龍發動遠程攻擊的流派。",
+          "zh_CN": "技能可召唤多个赤龙，发动远程攻击的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.141.12",
+          "zh_TW": "技能可召喚一個寅虎發動近戰攻擊的流派。",
+          "zh_CN": "技能可召唤一个寅虎，发动近战攻击的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "142": {
+      "Id": 142,
+      "Alias": "CharacterDes.142.2",
+      "CnCv": "CharacterDes.142.1",
+      "JpCv": "CharacterDes.142.8",
+      "CharColor": "#7795d8",
+      "CharSkillColor": "#7795d8",
+      "CharDes": "CharacterDes.142.3",
+      "Tag": [
+        103,
+        205,
+        310
+      ],
+      "Force": 2,
+      "PreferTags": [
+        2,
+        5,
+        7
+      ],
+      "HateTags": [
+        8
+      ],
+      "Birthday": "5.2",
+      "PotentialMain1": "CharacterDes.142.4",
+      "PotentialMain2": "CharacterDes.142.5",
+      "PotentialAssistant1": "CharacterDes.142.6",
+      "PotentialAssistant2": "CharacterDes.142.7",
+      "PotentialMainContent1": "CharacterDes.142.9",
+      "PotentialMainContent2": "CharacterDes.142.10",
+      "PotentialAssistantContent1": "CharacterDes.142.11",
+      "PotentialAssistantContent2": "CharacterDes.142.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.142.2",
+          "zh_TW": "Cosette",
+          "zh_CN": "Cosette",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.142.1",
+          "zh_TW": "唐夢",
+          "zh_CN": "唐梦",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.142.8",
+          "zh_TW": "佳原萌枝",
+          "zh_CN": "佳原萌枝",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.142.3",
+          "zh_TW": "無論是撿來的武器鋼爪，還是寄宿了特殊魔法的左手，都是珂賽特斬斷命運枷鎖的武器。",
+          "zh_CN": "无论是捡来的武器钢爪，还是寄宿了特殊魔法的左手，都是珂赛特撕破命运锁链的武器。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.142.4",
+          "zh_TW": "珂賽特主控流派1",
+          "zh_CN": "珂赛特主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.142.5",
+          "zh_TW": "珂賽特主控流派2",
+          "zh_CN": "珂赛特主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.142.6",
+          "zh_TW": "珂賽特援護流派1",
+          "zh_CN": "珂赛特援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.142.7",
+          "zh_TW": "珂賽特援護流派2",
+          "zh_CN": "珂赛特援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.142.9",
+          "zh_TW": "援護角色的攻擊可提升主控技能發動頻率，協同型流派。",
+          "zh_CN": "援护角色的攻击可提升主控技能发动频度，协同型流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.142.10",
+          "zh_TW": "技能可強化普攻並附加印記，單體作戰型流派。",
+          "zh_CN": "技能可强化普攻并附加印记，单体作战型流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.142.11",
+          "zh_TW": "增強爪擊範圍並牽引目標，配合主控攻擊的流派。",
+          "zh_CN": "增强爪击范围并牵引目标，配合主控攻击的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.142.12",
+          "zh_TW": "提升爪擊次數並強化隊伍傷害，支援全隊輸出的流派。",
+          "zh_CN": "提升爪击次数并强化队伍伤害，支援全队输出的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "143": {
+      "Id": 143,
+      "Alias": "CharacterDes.143.2",
+      "CnCv": "CharacterDes.143.1",
+      "JpCv": "CharacterDes.143.8",
+      "CharColor": "#5e6cb5",
+      "CharSkillColor": "#5e6cb5",
+      "CharDes": "CharacterDes.143.3",
+      "Tag": [
+        101,
+        203,
+        315
+      ],
+      "Force": 10,
+      "PreferTags": [
+        1,
+        4,
+        7
+      ],
+      "HateTags": [
+        2
+      ],
+      "Birthday": "12.24",
+      "PotentialMain1": "CharacterDes.143.4",
+      "PotentialMain2": "CharacterDes.143.5",
+      "PotentialAssistant1": "CharacterDes.143.6",
+      "PotentialAssistant2": "CharacterDes.143.7",
+      "PotentialMainContent1": "CharacterDes.143.9",
+      "PotentialMainContent2": "CharacterDes.143.10",
+      "PotentialAssistantContent1": "CharacterDes.143.11",
+      "PotentialAssistantContent2": "CharacterDes.143.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.143.2",
+          "zh_TW": "Wraith",
+          "zh_CN": "Wraith",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.143.1",
+          "zh_TW": "王美心",
+          "zh_CN": "王美心",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.143.8",
+          "zh_TW": "高橋未奈美",
+          "zh_CN": "高橋ミナミ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.143.3",
+          "zh_TW": "來自極寒北境，是黎明近衛的精銳戰士。她精通各種武器，對有關永夜的案件總是格外注意。",
+          "zh_CN": "自极寒北境而来，黎明近卫的精锐战士。她精通各种武器，对有关永夜的案件总是格外上心。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.143.4",
+          "zh_TW": "風影主控流派1",
+          "zh_CN": "风影主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.143.5",
+          "zh_TW": "風影主控流派2",
+          "zh_CN": "风影主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.143.6",
+          "zh_TW": "風影援護流派1",
+          "zh_CN": "风影援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.143.7",
+          "zh_TW": "風影援護流派2",
+          "zh_CN": "风影援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.143.9",
+          "zh_TW": "發動技能和普攻時，產生旋風摧毀飛彈，近戰輸出的流派。",
+          "zh_CN": "发动技能和普攻时，产生旋风摧毁飞弹，近战输出的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.143.10",
+          "zh_TW": "強化技能和普攻的遠程攻擊，提升火力，遠程輸出的流派。",
+          "zh_CN": "强化技能和普攻的远程攻击，提升火力，远程输出的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.143.11",
+          "zh_TW": "技能產生地裂與旋風，提升持續輸出能力的流派。",
+          "zh_CN": "技能产生地裂与旋风，提升持续输出能力的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.143.12",
+          "zh_TW": "強化技能範圍與傷害，提升瞬時輸出能力的流派。",
+          "zh_CN": "强化技能范围与伤害，提升瞬时输出能力的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "144": {
+      "Id": 144,
+      "Alias": "CharacterDes.144.2",
+      "CnCv": "CharacterDes.144.1",
+      "JpCv": "CharacterDes.144.8",
+      "CharColor": "#a87dc0",
+      "CharSkillColor": "#a87dc0",
+      "CharDes": "CharacterDes.144.3",
+      "Tag": [
+        101,
+        205,
+        310
+      ],
+      "Force": 2,
+      "PreferTags": [
+        1,
+        4,
+        8
+      ],
+      "HateTags": [
+        5
+      ],
+      "Birthday": "11.3",
+      "PotentialMain1": "CharacterDes.144.4",
+      "PotentialMain2": "CharacterDes.144.5",
+      "PotentialAssistant1": "CharacterDes.144.6",
+      "PotentialAssistant2": "CharacterDes.144.7",
+      "PotentialMainContent1": "CharacterDes.144.9",
+      "PotentialMainContent2": "CharacterDes.144.10",
+      "PotentialAssistantContent1": "CharacterDes.144.11",
+      "PotentialAssistantContent2": "CharacterDes.144.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.144.2",
+          "zh_TW": "Chitose",
+          "zh_CN": "Chitose",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.144.1",
+          "zh_TW": "張夢嬌",
+          "zh_CN": "张梦娇",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.144.8",
+          "zh_TW": "月城日花",
+          "zh_CN": "月城日花",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.144.3",
+          "zh_TW": "千都世是以刀為自我、身披銳氣的強大武者。她的刀法可聚集水流，化作水蛇之勢摧毀敵陣。",
+          "zh_CN": "千都世是以刀为自我，身披锐气的强大武者。她的刀法可聚集水流，化作水蛇之势摧毁敌阵。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.144.4",
+          "zh_TW": "千都世主控流派1",
+          "zh_CN": "千都世主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.144.5",
+          "zh_TW": "千都世主控流派2",
+          "zh_CN": "千都世主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.144.6",
+          "zh_TW": "千都世援護流派1",
+          "zh_CN": "千都世援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.144.7",
+          "zh_TW": "千都世援護流派2",
+          "zh_CN": "千都世援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.144.9",
+          "zh_TW": "發動技能後，普攻可產生騰蛇與鏡影的普攻流派。",
+          "zh_CN": "发动技能后，普攻可生成腾蛇与镜影的普攻流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.144.10",
+          "zh_TW": "技能可強化騰蛇並產生鏡影的技能流派。",
+          "zh_CN": "技能可强化腾蛇并生成镜影的技能流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.144.11",
+          "zh_TW": "在技能暴擊時，提升技能次數與傷害的暴擊流派。",
+          "zh_CN": "在技能暴击时，提升技能次数与伤害的暴击流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.144.12",
+          "zh_TW": "技能可連續產生鏡影並附加刀光，造成多次傷害的持續輸出流派。",
+          "zh_CN": "技能可连续生成镜影并附加刀光，造成多次伤害的持续输出流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "145": {
+      "Id": 145,
+      "Alias": "CharacterDes.145.2",
+      "CnCv": "CharacterDes.145.1",
+      "JpCv": "CharacterDes.145.8",
+      "CharColor": "#90a1c6",
+      "CharSkillColor": "#90a1c6",
+      "CharDes": "CharacterDes.145.3",
+      "Tag": [
+        102,
+        205,
+        310
+      ],
+      "Force": 2,
+      "PreferTags": [
+        8,
+        3,
+        5
+      ],
+      "HateTags": [
+        4
+      ],
+      "Birthday": "1.14",
+      "PotentialMain1": "CharacterDes.145.4",
+      "PotentialMain2": "CharacterDes.145.5",
+      "PotentialAssistant1": "CharacterDes.145.6",
+      "PotentialAssistant2": "CharacterDes.145.7",
+      "PotentialMainContent1": "CharacterDes.145.9",
+      "PotentialMainContent2": "CharacterDes.145.10",
+      "PotentialAssistantContent1": "CharacterDes.145.11",
+      "PotentialAssistantContent2": "CharacterDes.145.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.145.2",
+          "zh_TW": "Otoha",
+          "zh_CN": "Otoha",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.145.1",
+          "zh_TW": "張安琪",
+          "zh_CN": "张安琪",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.145.8",
+          "zh_TW": "加隈亞衣",
+          "zh_CN": "加隈亜衣",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.145.3",
+          "zh_TW": "行於暗夜的神祕忍者，執一柄長傘，傘骨為刃，袖裡藏鋒。",
+          "zh_CN": "行于暗夜的神秘忍者，执一柄长伞，伞骨为刃，袖里藏锋。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.145.4",
+          "zh_TW": "乙葉主控流派1",
+          "zh_CN": "乙叶主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.145.5",
+          "zh_TW": "乙葉主控流派2",
+          "zh_CN": "乙叶主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.145.6",
+          "zh_TW": "乙葉援護流派1",
+          "zh_CN": "乙叶援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.145.7",
+          "zh_TW": "乙葉援護流派2",
+          "zh_CN": "乙叶援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.145.9",
+          "zh_TW": "減少絕招冷卻時間，高頻率施放絕招的流派。",
+          "zh_CN": "减少绝招冷却时间，高频释放绝招的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.145.10",
+          "zh_TW": "提升技能疊加層數與命中次數，強化技能輸出的流派。",
+          "zh_CN": "提升技能叠加层数与命中次数，强化技能输出的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.145.11",
+          "zh_TW": "兼具援護的持續傷害與高頻率絕招施放能力的流派。",
+          "zh_CN": "兼具援护的持续伤害与高频绝招释放能力的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.145.12",
+          "zh_TW": "主打高爆發傷害、聚焦小範圍攻擊的技能強化流派。",
+          "zh_CN": "主打高爆发伤害、聚焦小范围攻击的技能强化流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "147": {
+      "Id": 147,
+      "Alias": "CharacterDes.147.2",
+      "CnCv": "CharacterDes.147.1",
+      "JpCv": "CharacterDes.147.8",
+      "CharColor": "#f0d2a1",
+      "CharSkillColor": "#f0d2a1",
+      "CharDes": "CharacterDes.147.3",
+      "Tag": [
+        101,
+        204,
+        310
+      ],
+      "Force": 2,
+      "PreferTags": [
+        5,
+        7
+      ],
+      "Birthday": "11.11",
+      "PotentialMain1": "CharacterDes.147.4",
+      "PotentialMain2": "CharacterDes.147.5",
+      "PotentialAssistant1": "CharacterDes.147.6",
+      "PotentialAssistant2": "CharacterDes.147.7",
+      "PotentialMainContent1": "CharacterDes.147.9",
+      "PotentialMainContent2": "CharacterDes.147.10",
+      "PotentialAssistantContent1": "CharacterDes.147.11",
+      "PotentialAssistantContent2": "CharacterDes.147.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.147.2",
+          "zh_TW": "Caramel",
+          "zh_CN": "Caramel",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.147.1",
+          "zh_TW": "蔡書瑾",
+          "zh_CN": "蔡书瑾",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.147.8",
+          "zh_TW": "鈴代紗弓",
+          "zh_CN": "鈴代紗弓",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.147.3",
+          "zh_TW": "沉醉於「星塔之音」，技巧精湛的貝斯手。即使是星骸和魔物對她震撼的演奏也難以招架。",
+          "zh_CN": "沉醉于“星塔之音”，技巧精湛的贝斯乐手。即使是星骸和魔物也难以招架她演奏的震撼。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.147.4",
+          "zh_TW": "焦糖主控流派1",
+          "zh_CN": "焦糖主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.147.5",
+          "zh_TW": "焦糖主控流派2",
+          "zh_CN": "焦糖主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.147.6",
+          "zh_TW": "焦糖援護流派1",
+          "zh_CN": "焦糖援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.147.7",
+          "zh_TW": "焦糖援護流派2",
+          "zh_CN": "焦糖援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.147.9",
+          "zh_TW": "與技能召喚的音響互動，強化普攻觸發印記的靈活型流派。",
+          "zh_CN": "与技能召唤的音响交互，强化普攻触发印记的灵活型流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.147.10",
+          "zh_TW": "強化技能召喚音響的傷害範圍與攻擊次數的陣地戰流派。",
+          "zh_CN": "强化技能召唤的音响的伤害范围与攻击次数的阵地战流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.147.11",
+          "zh_TW": "強化橫掃攻擊的次數與傷害，適合對付大群敵人的流派。",
+          "zh_CN": "强化横扫攻击的次数与伤害，适合对付大群敌人的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.147.12",
+          "zh_TW": "強化音符數量與彈射效果，適合對付單體目標的流派。",
+          "zh_CN": "强化音符数量与弹射效果，适合对付单体目标的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "149": {
+      "Id": 149,
+      "Alias": "CharacterDes.149.2",
+      "CnCv": "CharacterDes.149.1",
+      "JpCv": "CharacterDes.149.8",
+      "CharColor": "#985b78",
+      "CharSkillColor": "#985b78",
+      "CharDes": "CharacterDes.149.3",
+      "Tag": [
+        101,
+        205,
+        315
+      ],
+      "Force": 10,
+      "PreferTags": [
+        1,
+        4,
+        5
+      ],
+      "HateTags": [
+        3
+      ],
+      "Birthday": "3.28",
+      "PotentialMain1": "CharacterDes.149.4",
+      "PotentialMain2": "CharacterDes.149.5",
+      "PotentialAssistant1": "CharacterDes.149.6",
+      "PotentialAssistant2": "CharacterDes.149.7",
+      "PotentialMainContent1": "CharacterDes.149.9",
+      "PotentialMainContent2": "CharacterDes.149.10",
+      "PotentialAssistantContent1": "CharacterDes.149.11",
+      "PotentialAssistantContent2": "CharacterDes.149.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.149.2",
+          "zh_TW": "Gerie",
+          "zh_CN": "Gerie",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.149.1",
+          "zh_TW": "靜宸",
+          "zh_CN": "静宸",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.149.8",
+          "zh_TW": "天音由香里",
+          "zh_CN": "天音ゆかり",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.149.3",
+          "zh_TW": "格芮在戰場上肆意地揮舞鏈鏟「寬恕」，拖拽並壓制大量敵人，散播直抵靈魂的恐懼並完成制裁。",
+          "zh_CN": "格芮在战场上肆意地挥舞链铲“宽恕”，拖拽、压制大片的敌人，播撒直抵灵魂的恐惧并完成制裁。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.149.4",
+          "zh_TW": "格芮主控流派1",
+          "zh_CN": "格芮主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.149.5",
+          "zh_TW": "格芮主控流派2",
+          "zh_CN": "格芮主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.149.6",
+          "zh_TW": "格芮援護流派1",
+          "zh_CN": "格芮援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.149.7",
+          "zh_TW": "格芮援護流派2",
+          "zh_CN": "格芮援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.149.9",
+          "zh_TW": "施放技能後，提升移速、攻擊範圍和傷害的普攻流派。",
+          "zh_CN": "施放技能后，提升移速、攻击范围和伤害的普攻流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.149.10",
+          "zh_TW": "提升技能連結目標數，並與角色產生連鎖反應的技能流派。",
+          "zh_CN": "提升技能链接目标数，并与角色产生连锁反应的技能流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.149.11",
+          "zh_TW": "提升鏈鏟數量，並可拖曳鏈鏟額外造成傷害的爆發流派。",
+          "zh_CN": "提升链铲数量，并可拖拽链铲额外造成伤害的爆发流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.149.12",
+          "zh_TW": "角色持續存在並產生震盪的持續傷害流派。",
+          "zh_CN": "角色持续存在并产生震荡的持续伤害流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "150": {
+      "Id": 150,
+      "Alias": "CharacterDes.150.2",
+      "CnCv": "CharacterDes.150.1",
+      "JpCv": "CharacterDes.150.8",
+      "CharColor": "#c5bbb5",
+      "CharSkillColor": "#c5bbb5",
+      "CharDes": "CharacterDes.150.3",
+      "Tag": [
+        101,
+        203,
+        315
+      ],
+      "Force": 10,
+      "PreferTags": [
+        4,
+        8
+      ],
+      "Birthday": "8.20",
+      "PotentialMain1": "CharacterDes.150.4",
+      "PotentialMain2": "CharacterDes.150.5",
+      "PotentialAssistant1": "CharacterDes.150.6",
+      "PotentialAssistant2": "CharacterDes.150.7",
+      "PotentialMainContent1": "CharacterDes.150.9",
+      "PotentialMainContent2": "CharacterDes.150.10",
+      "PotentialAssistantContent1": "CharacterDes.150.11",
+      "PotentialAssistantContent2": "CharacterDes.150.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.150.2",
+          "zh_TW": "Laru",
+          "zh_CN": "Laru",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.150.1",
+          "zh_TW": "宋媛媛",
+          "zh_CN": "宋媛媛",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.150.8",
+          "zh_TW": "田中愛美",
+          "zh_CN": "田中あいみ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.150.3",
+          "zh_TW": "揮舞雷霆的長槍橫掃一切，化作閃光肆意穿梭，在戰場上，菈露總算有機會揮灑她那自由的靈魂了。",
+          "zh_CN": "挥舞雷霆的长枪横扫一切，化作闪光肆意穿梭，在战场上，菈露总算是有机会挥洒她那自由的灵魂了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.150.4",
+          "zh_TW": "菈露主控流派1",
+          "zh_CN": "菈露主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.150.5",
+          "zh_TW": "菈露主控流派2",
+          "zh_CN": "菈露主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.150.6",
+          "zh_TW": "菈露援護流派1",
+          "zh_CN": "菈露援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.150.7",
+          "zh_TW": "菈露援護流派2",
+          "zh_CN": "菈露援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.150.9",
+          "zh_TW": "施放技能後，產生多種雷電造成持續傷害的流派。",
+          "zh_CN": "施放技能后，生成多种雷电造成持续伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.150.10",
+          "zh_TW": "提升技能攻擊段數，並造成多次傷害的流派。",
+          "zh_CN": "提升技能攻击段数，并造成多次伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.150.11",
+          "zh_TW": "產生持續噴發的大量光柱的流派。",
+          "zh_CN": "生成持续喷发的大量光柱的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.150.12",
+          "zh_TW": "使光柱更精準攻擊敵人的流派。",
+          "zh_CN": "使光柱更精准打击敌人的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "155": {
+      "Id": 155,
+      "Alias": "CharacterDes.155.2",
+      "CnCv": "CharacterDes.155.1",
+      "JpCv": "CharacterDes.155.8",
+      "CharColor": "#c4a5e6",
+      "CharSkillColor": "#c4a5e6",
+      "CharDes": "CharacterDes.155.3",
+      "Tag": [
+        101,
+        203,
+        310
+      ],
+      "Force": 2,
+      "PreferTags": [
+        3,
+        6,
+        4
+      ],
+      "HateTags": [
+        7
+      ],
+      "Birthday": "8.26",
+      "PotentialMain1": "CharacterDes.155.4",
+      "PotentialMain2": "CharacterDes.155.5",
+      "PotentialAssistant1": "CharacterDes.155.6",
+      "PotentialAssistant2": "CharacterDes.155.7",
+      "PotentialMainContent1": "CharacterDes.155.9",
+      "PotentialMainContent2": "CharacterDes.155.10",
+      "PotentialAssistantContent1": "CharacterDes.155.11",
+      "PotentialAssistantContent2": "CharacterDes.155.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.155.2",
+          "zh_TW": "Shia",
+          "zh_CN": "Shia",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.155.1",
+          "zh_TW": "Vila",
+          "zh_CN": "Vila",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.155.8",
+          "zh_TW": "堀江由衣",
+          "zh_CN": "堀江由衣",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.155.3",
+          "zh_TW": "希婭的行動十分靈敏。她腳踏衝浪板，與麾下的「雪兔」和「夜兔」一起，組成勢不可當的巨浪攻勢。",
+          "zh_CN": "希娅的行动十分灵敏。她身踏冲浪板，与麾下的“雪兔”和“夜兔”一起，组成势不可挡的巨浪攻势。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.155.4",
+          "zh_TW": "希婭主控流派1",
+          "zh_CN": "希娅主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.155.5",
+          "zh_TW": "希婭主控流派2",
+          "zh_CN": "希娅主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.155.6",
+          "zh_TW": "希婭援護流派1",
+          "zh_CN": "希娅援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.155.7",
+          "zh_TW": "希婭援護流派2",
+          "zh_CN": "希娅援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.155.9",
+          "zh_TW": "強化「雪兔」無人機，針對單體目標持續打擊的流派。",
+          "zh_CN": "强化「雪兔」无人机，适合对抗单体目标的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.155.10",
+          "zh_TW": "強化「夜兔」無人機，針對群體目標持續打擊的流派。",
+          "zh_CN": "强化「夜兔」无人机，适合对抗群体目标的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.155.11",
+          "zh_TW": "在技能結束後召喚多台無人機持續進行打擊的援護流派。",
+          "zh_CN": "在技能结束后召唤多台无人机持续进行打击的援护流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.155.12",
+          "zh_TW": "在技能持續期間發動更多次的衝浪攻擊造成爆發傷害的援護流派。",
+          "zh_CN": "在技能持续期间发动更多次的冲浪攻击造成爆发伤害的援护流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "156": {
+      "Id": 156,
+      "Alias": "CharacterDes.156.2",
+      "CnCv": "CharacterDes.156.1",
+      "JpCv": "CharacterDes.156.8",
+      "CharColor": "#b5e6b2",
+      "CharSkillColor": "#b5e6b2",
+      "CharDes": "CharacterDes.156.3",
+      "Tag": [
+        103,
+        201,
+        316
+      ],
+      "Force": 12,
+      "PreferTags": [
+        1,
+        2,
+        8
+      ],
+      "HateTags": [
+        4
+      ],
+      "Birthday": "3.3",
+      "PotentialMain1": "CharacterDes.156.4",
+      "PotentialMain2": "CharacterDes.156.5",
+      "PotentialAssistant1": "CharacterDes.156.6",
+      "PotentialAssistant2": "CharacterDes.156.7",
+      "PotentialMainContent1": "CharacterDes.156.9",
+      "PotentialMainContent2": "CharacterDes.156.10",
+      "PotentialAssistantContent1": "CharacterDes.156.11",
+      "PotentialAssistantContent2": "CharacterDes.156.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.156.2",
+          "zh_TW": "Nazuna",
+          "zh_CN": "Nazuna",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.156.1",
+          "zh_TW": "謝瑩",
+          "zh_CN": "谢莹",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.156.8",
+          "zh_TW": "江原萌依",
+          "zh_CN": "江原萌依",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.156.3",
+          "zh_TW": "小禾使用手弩與她心愛的娃娃一同作戰，她的奇思妙想與幸運體質，總能為團隊帶來意料之外的驚喜。",
+          "zh_CN": "小禾使用手弩与她心爱的娃娃一同作战，她的奇思妙想与幸运值，总能为团队提供意料之外的惊喜。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.156.4",
+          "zh_TW": "小禾主控流派1",
+          "zh_CN": "小禾主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.156.5",
+          "zh_TW": "小禾主控流派2",
+          "zh_CN": "小禾主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.156.6",
+          "zh_TW": "小禾援護流派1",
+          "zh_CN": "小禾援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.156.7",
+          "zh_TW": "小禾援護流派2",
+          "zh_CN": "小禾援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.156.9",
+          "zh_TW": "提升玩偶傷害並追加恢復，提升持續作戰能力的流派。",
+          "zh_CN": "提升玩偶伤害并追加回复，提升持续作战能力的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.156.10",
+          "zh_TW": "提升換彈頻率，更高頻發動旋風射擊的流派。",
+          "zh_CN": "提升换弹频率，更高频发动旋风射击的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.156.11",
+          "zh_TW": "提升抽獎結果中「企鵝」的機率，投擲企鵝雕像，提升主控輸出能力的流派。",
+          "zh_CN": "提升抽奖结果中“企鹅”的概率，抛掷企鹅雕像，提升主控输出能力的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.156.12",
+          "zh_TW": "提升抽獎結果中「愛心」的機率，射出愛心箭矢，提升主控生存能力的流派。",
+          "zh_CN": "提升抽奖结果中“爱心”的概率，射出爱心箭矢，提升主控生存能力的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "158": {
+      "Id": 158,
+      "Alias": "CharacterDes.158.2",
+      "CnCv": "CharacterDes.158.1",
+      "JpCv": "CharacterDes.158.8",
+      "CharColor": "#79092e",
+      "CharSkillColor": "#79092e",
+      "CharDes": "CharacterDes.158.3",
+      "Tag": [
+        102,
+        204,
+        315
+      ],
+      "Force": 10,
+      "PreferTags": [
+        3,
+        5,
+        7
+      ],
+      "HateTags": [
+        6
+      ],
+      "Birthday": "8.20",
+      "PotentialMain1": "CharacterDes.158.4",
+      "PotentialMain2": "CharacterDes.158.5",
+      "PotentialAssistant1": "CharacterDes.158.6",
+      "PotentialAssistant2": "CharacterDes.158.7",
+      "PotentialMainContent1": "CharacterDes.158.9",
+      "PotentialMainContent2": "CharacterDes.158.10",
+      "PotentialAssistantContent1": "CharacterDes.158.11",
+      "PotentialAssistantContent2": "CharacterDes.158.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.158.2",
+          "zh_TW": "LaruXmas",
+          "zh_CN": "LaruXmas",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.158.1",
+          "zh_TW": "宋媛媛",
+          "zh_CN": "宋媛媛",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.158.8",
+          "zh_TW": "田中愛美",
+          "zh_CN": "田中あいみ",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.158.3",
+          "zh_TW": "化身聖夜使者的菈露，正執行著雪願節的特派任務。伴隨聖夜凌晨的鐘聲，錫兵與禮炮將見證一場閃耀的奇蹟。",
+          "zh_CN": "打扮成圣夜使者的菈露，正进行雪愿节特派。在圣夜凌晨的钟声里，锡兵与礼炮将见证一场闪烁的奇迹。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.158.4",
+          "zh_TW": "聖夜菈露主控流派1",
+          "zh_CN": "圣夜菈露主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.158.5",
+          "zh_TW": "聖夜菈露主控流派2",
+          "zh_CN": "圣夜菈露主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.158.6",
+          "zh_TW": "聖夜菈露援護流派1",
+          "zh_CN": "圣夜菈露援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.158.7",
+          "zh_TW": "聖夜菈露援護流派2",
+          "zh_CN": "圣夜菈露援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.158.9",
+          "zh_TW": "強化玩具大軍，協同自身作戰，針對單體敵人持續打擊的流派。",
+          "zh_CN": "强化玩具大军，协同自身作战，适合对抗单体敌人的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.158.10",
+          "zh_TW": "強化自身技能，發動多段範圍攻擊，針對群體敵人持續打擊的流派。",
+          "zh_CN": "强化自身技能，发动多段范围攻击，适合对抗群体敌人的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.158.11",
+          "zh_TW": "強化大砲，爆發式輸出的援護流派。",
+          "zh_CN": "强化大炮，爆发式输出的援护流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.158.12",
+          "zh_TW": "強化玩具，持續輸出的援護流派。",
+          "zh_CN": "强化玩具，持续输出的援护流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "159": {
+      "Id": 159,
+      "Alias": "CharacterDes.159.2",
+      "CnCv": "CharacterDes.159.1",
+      "JpCv": "CharacterDes.159.8",
+      "CharColor": "#c553a5",
+      "CharSkillColor": "#c553a5",
+      "CharDes": "CharacterDes.159.3",
+      "Tag": [
+        102,
+        201,
+        310
+      ],
+      "Force": 2,
+      "PreferTags": [
+        2,
+        6,
+        8
+      ],
+      "HateTags": [
+        3
+      ],
+      "Birthday": "10.15",
+      "PotentialMain1": "CharacterDes.159.4",
+      "PotentialMain2": "CharacterDes.159.5",
+      "PotentialAssistant1": "CharacterDes.159.6",
+      "PotentialAssistant2": "CharacterDes.159.7",
+      "PotentialMainContent1": "CharacterDes.159.9",
+      "PotentialMainContent2": "CharacterDes.159.10",
+      "PotentialAssistantContent1": "CharacterDes.159.11",
+      "PotentialAssistantContent2": "CharacterDes.159.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.159.2",
+          "zh_TW": "Coronis",
+          "zh_CN": "Coronis",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.159.1",
+          "zh_TW": "周語晗",
+          "zh_CN": "周语晗",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.159.8",
+          "zh_TW": "齊藤佑圭",
+          "zh_CN": "斉藤佑圭",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.159.3",
+          "zh_TW": "柯洛妮絲身穿龍裔的傳統服飾，正在蒼梧享受她的假期。精心調配的藥劑，是她濃烈的「愛意」。",
+          "zh_CN": "科洛妮丝身穿龙裔的传统服饰，正在苍梧享受她的假期。精心调配的药剂，是她浓烈的“爱意”。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.159.4",
+          "zh_TW": "柯洛妮絲主控流派1",
+          "zh_CN": "科洛妮丝主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.159.5",
+          "zh_TW": "柯洛妮絲主控流派2",
+          "zh_CN": "科洛妮丝主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.159.6",
+          "zh_TW": "柯洛妮絲援護流派1",
+          "zh_CN": "科洛妮丝援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.159.7",
+          "zh_TW": "柯洛妮絲援護流派2",
+          "zh_CN": "科洛妮丝援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.159.9",
+          "zh_TW": "強化瑞兆，高頻率對抗單體敵人的流派。",
+          "zh_CN": "强化瑞兆，高频率对抗单体敌人的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.159.10",
+          "zh_TW": "技能範圍造成傷害的同時，與普攻有連動傷害的流派。",
+          "zh_CN": "技能范围造成伤害的同时，与普攻有联动伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.159.11",
+          "zh_TW": "玫瑰藥劑變為瞬爆，造成高額傷害的援護流派。",
+          "zh_CN": "玫瑰药剂变为瞬爆，造成高额伤害的援护流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.159.12",
+          "zh_TW": "產生更多枯萎藥劑，加強持續輸出能力的援護流派。",
+          "zh_CN": "生成更多枯萎药剂，加强持续输出能力的援护流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    },
+    "160": {
+      "Id": 160,
+      "Alias": "CharacterDes.160.2",
+      "CnCv": "CharacterDes.160.1",
+      "JpCv": "CharacterDes.160.8",
+      "CharColor": "#b0e0f6",
+      "CharSkillColor": "#b0e0f6",
+      "CharDes": "CharacterDes.160.3",
+      "Tag": [
+        103,
+        202,
+        306
+      ],
+      "Force": 13,
+      "PreferTags": [
+        4,
+        8,
+        3
+      ],
+      "Birthday": "12.14",
+      "PotentialMain1": "CharacterDes.160.4",
+      "PotentialMain2": "CharacterDes.160.5",
+      "PotentialAssistant1": "CharacterDes.160.6",
+      "PotentialAssistant2": "CharacterDes.160.7",
+      "PotentialMainContent1": "CharacterDes.160.9",
+      "PotentialMainContent2": "CharacterDes.160.10",
+      "PotentialAssistantContent1": "CharacterDes.160.11",
+      "PotentialAssistantContent2": "CharacterDes.160.12",
+      "_localized": {
+        "/Alias": {
+          "key": "CharacterDes.160.2",
+          "zh_TW": "Willow",
+          "zh_CN": "Willow",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CnCv": {
+          "key": "CharacterDes.160.1",
+          "zh_TW": "mace",
+          "zh_CN": "mace",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/JpCv": {
+          "key": "CharacterDes.160.8",
+          "zh_TW": "生天目仁美",
+          "zh_CN": "生天目仁美",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/CharDes": {
+          "key": "CharacterDes.160.3",
+          "zh_TW": "薇洛穿上大家為她挑選的泳裝，學著享受完全沒有工作的假期。",
+          "zh_CN": "薇洛穿上了大家为她挑选的泳装，学着享受完全没有工作的假期。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain1": {
+          "key": "CharacterDes.160.4",
+          "zh_TW": "薇洛主控流派1",
+          "zh_CN": "薇洛主控流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMain2": {
+          "key": "CharacterDes.160.5",
+          "zh_TW": "薇洛主控流派2",
+          "zh_CN": "薇洛主控流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant1": {
+          "key": "CharacterDes.160.6",
+          "zh_TW": "薇洛援護流派1",
+          "zh_CN": "薇洛援护流派1",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistant2": {
+          "key": "CharacterDes.160.7",
+          "zh_TW": "薇洛援護流派2",
+          "zh_CN": "薇洛援护流派2",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent1": {
+          "key": "CharacterDes.160.9",
+          "zh_TW": "泡泡蛙持續增大，造成大範圍傷害的流派。",
+          "zh_CN": "泡泡蛙持续增大，造成大范围伤害的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialMainContent2": {
+          "key": "CharacterDes.160.10",
+          "zh_TW": "透過泡泡蛙高頻彈跳，擴散聲波迴響的流派。",
+          "zh_CN": "通过泡泡蛙高频弹跳，扩散声波回响的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent1": {
+          "key": "CharacterDes.160.11",
+          "zh_TW": "以水柱射線發動攻擊，同時給目標附加減益的流派。",
+          "zh_CN": "以水柱射线发动攻击，同时给目标附加减益的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        },
+        "/PotentialAssistantContent2": {
+          "key": "CharacterDes.160.12",
+          "zh_TW": "能夠高速施放穿透音浪，同時提升全隊屬性的流派。",
+          "zh_CN": "能够高速释放穿透音浪，同时提升全队属性的流派。",
+          "sources": {
+            "zh_TW": "language/zh_TW/CharacterDes.json",
+            "zh_CN": "language/zh_CN/CharacterDes.json"
+          }
+        }
+      }
+    }
+  }
+}

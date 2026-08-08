@@ -1,0 +1,434 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "PenguinCardFloor",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 17,
+    "localization_hits": 15,
+    "source": "bin/PenguinCardFloor.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "MaxTurn": 6,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 100,
+      "PoolId": 1,
+      "QuestTurn": 2,
+      "QuestGroup": 120,
+      "Floortips": "PenguinCardFloor.101.1",
+      "ShowWin": true
+    },
+    "102": {
+      "Id": 102,
+      "MaxTurn": 9,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 102,
+      "PoolId": 2,
+      "QuestTurn": 2,
+      "QuestGroup": 120,
+      "Floortips": "PenguinCardFloor.102.1",
+      "ShowWin": true,
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.102.1",
+          "zh_TW": "本局<sprite name=\"icon_PengCard_Fire_small\">出現機率提高",
+          "zh_CN": "本局<sprite name=\"icon_PengCard_Fire_small\">出现概率提高",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "103": {
+      "Id": 103,
+      "MaxTurn": 9,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 103,
+      "PoolId": 3,
+      "QuestTurn": 2,
+      "QuestGroup": 120,
+      "Floortips": "PenguinCardFloor.103.1",
+      "ShowWin": true,
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.103.1",
+          "zh_TW": "本局<sprite name=\"icon_PengCard_Water_small\">出現機率提高",
+          "zh_CN": "本局<sprite name=\"icon_PengCard_Water_small\">出现概率提高",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "104": {
+      "Id": 104,
+      "MaxTurn": 9,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 104,
+      "PoolId": 4,
+      "QuestTurn": 2,
+      "QuestGroup": 120,
+      "Floortips": "PenguinCardFloor.104.1",
+      "ShowWin": true,
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.104.1",
+          "zh_TW": "本局<sprite name=\"icon_PengCard_Wind_small\">出現機率提高",
+          "zh_CN": "本局<sprite name=\"icon_PengCard_Wind_small\">出现概率提高",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "105": {
+      "Id": 105,
+      "MaxTurn": 12,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 100,
+      "PoolId": 1,
+      "QuestTurn": 1,
+      "QuestGroup": 120,
+      "Floortips": "PenguinCardFloor.105.1"
+    },
+    "201": {
+      "Id": 201,
+      "MaxTurn": 6,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 100,
+      "PoolId": 1,
+      "QuestTurn": -1,
+      "QuestGroup": 91,
+      "FixedTurn": 1,
+      "Floortips": "PenguinCardFloor.201.1",
+      "ShowWin": true,
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.201.1",
+          "zh_TW": "歡迎來到命運星牌局",
+          "zh_CN": "欢迎来到命运星牌局",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "202": {
+      "Id": 202,
+      "MaxTurn": 9,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 200,
+      "PoolId": 1,
+      "QuestTurn": 1,
+      "QuestGroup": 91,
+      "Floortips": "PenguinCardFloor.202.1",
+      "ShowWin": true,
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.202.1",
+          "zh_TW": "請挑選量力而為的合約",
+          "zh_CN": "选择力所能及的合约",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "203": {
+      "Id": 203,
+      "MaxTurn": 9,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 201,
+      "PoolId": 2,
+      "QuestTurn": 1,
+      "QuestGroup": 92,
+      "Floortips": "PenguinCardFloor.203.1",
+      "ShowWin": true,
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.203.1",
+          "zh_TW": "本局<sprite name=\"icon_PengCard_Fire_small\">出現機率提高",
+          "zh_CN": "本局<sprite name=\"icon_PengCard_Fire_small\">出现概率提高",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "204": {
+      "Id": 204,
+      "MaxTurn": 10,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 200,
+      "PoolId": 1,
+      "QuestTurn": 1,
+      "QuestGroup": 101,
+      "Floortips": "PenguinCardFloor.204.1",
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.204.1",
+          "zh_TW": "朝著一百萬分邁進吧，魔王大人！",
+          "zh_CN": "冲击一百万分吧魔王大人",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "301": {
+      "Id": 301,
+      "MaxTurn": 6,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 100,
+      "PoolId": 1,
+      "QuestTurn": -1,
+      "QuestGroup": 91,
+      "FixedTurn": 1,
+      "Floortips": "PenguinCardFloor.301.1",
+      "ShowWin": true,
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.301.1",
+          "zh_TW": "歡迎來到命運星牌局",
+          "zh_CN": "欢迎来到命运星牌局",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "302": {
+      "Id": 302,
+      "MaxTurn": 9,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 300,
+      "PoolId": 1,
+      "QuestTurn": 1,
+      "QuestGroup": 91,
+      "Floortips": "PenguinCardFloor.302.1",
+      "ShowWin": true,
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.302.1",
+          "zh_TW": "請挑選量力而為的合約",
+          "zh_CN": "选择力所能及的合约",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "303": {
+      "Id": 303,
+      "MaxTurn": 9,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 301,
+      "PoolId": 2,
+      "QuestTurn": 1,
+      "QuestGroup": 92,
+      "Floortips": "PenguinCardFloor.303.1",
+      "ShowWin": true,
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.303.1",
+          "zh_TW": "本局<sprite name=\"icon_PengCard_Fire_small\">出現機率提高",
+          "zh_CN": "本局<sprite name=\"icon_PengCard_Fire_small\">出现概率提高",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "304": {
+      "Id": 304,
+      "MaxTurn": 10,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 300,
+      "PoolId": 1,
+      "QuestTurn": 1,
+      "QuestGroup": 101,
+      "Floortips": "PenguinCardFloor.304.1",
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.304.1",
+          "zh_TW": "朝著一百萬分邁進吧，魔王大人！",
+          "zh_CN": "冲击一百万分吧魔王大人",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "401": {
+      "Id": 401,
+      "MaxTurn": 6,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 100,
+      "PoolId": 1,
+      "QuestTurn": -1,
+      "QuestGroup": 91,
+      "FixedTurn": 1,
+      "Floortips": "PenguinCardFloor.401.1",
+      "ShowWin": true,
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.401.1",
+          "zh_TW": "歡迎來到命運星牌局",
+          "zh_CN": "欢迎来到命运星牌局",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "402": {
+      "Id": 402,
+      "MaxTurn": 9,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": -1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 400,
+      "PoolId": 1,
+      "QuestTurn": 1,
+      "QuestGroup": 91,
+      "Floortips": "PenguinCardFloor.402.1",
+      "ShowWin": true,
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.402.1",
+          "zh_TW": "請挑選量力而為的合約",
+          "zh_CN": "选择力所能及的合约",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "403": {
+      "Id": 403,
+      "MaxTurn": 9,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": 1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 401,
+      "PoolId": 2,
+      "QuestTurn": 1,
+      "QuestGroup": 92,
+      "Floortips": "PenguinCardFloor.403.1",
+      "ShowWin": true,
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.403.1",
+          "zh_TW": "本局<sprite name=\"icon_PengCard_Fire_small\">出現機率提高",
+          "zh_CN": "本局<sprite name=\"icon_PengCard_Fire_small\">出现概率提高",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    },
+    "404": {
+      "Id": 404,
+      "MaxTurn": 10,
+      "InitialScore": 50,
+      "InitialSlot": 3,
+      "InitialRound": 1,
+      "InitialCheckRound": 1,
+      "InitialBuyLimit": 1,
+      "WeightGroup": 400,
+      "PoolId": 1,
+      "QuestTurn": 1,
+      "QuestGroup": 101,
+      "Floortips": "PenguinCardFloor.404.1",
+      "_localized": {
+        "/Floortips": {
+          "key": "PenguinCardFloor.404.1",
+          "zh_TW": "朝著一百萬分邁進吧，魔王大人！",
+          "zh_CN": "冲击一百万分吧魔王大人",
+          "sources": {
+            "zh_TW": "language/zh_TW/PenguinCardFloor.json",
+            "zh_CN": "language/zh_CN/PenguinCardFloor.json"
+          }
+        }
+      }
+    }
+  }
+}

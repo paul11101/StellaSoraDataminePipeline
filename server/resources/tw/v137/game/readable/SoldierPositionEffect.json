@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SoldierPositionEffect",
+    "categories": [
+      "combat",
+      "stages_modes"
+    ],
+    "row_count": 9,
+    "localization_hits": 12,
+    "source": "bin/SoldierPositionEffect.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "PositionType": 1,
+      "Index": 1,
+      "Icon": "SoldierFightPosition_01",
+      "Name": "SoldierPositionEffect.1.1",
+      "KeyEffectId": 1001,
+      "KeyEffectDes": "SoldierPositionEffect.1.2",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPositionEffect.1.1",
+          "zh_TW": "防禦位",
+          "zh_CN": "防御位",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+            "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+          }
+        },
+        "/KeyEffectDes": {
+          "key": "SoldierPositionEffect.1.2",
+          "zh_TW": "最大生命值提升12%\n防禦提升8%",
+          "zh_CN": "最大生命提升12%\n防御提升8%",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+            "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "PositionType": 1,
+      "Index": 2,
+      "Icon": "SoldierFightPosition_02",
+      "Name": "SoldierPositionEffect.2.1",
+      "KeyEffectId": 1002,
+      "KeyEffectDes": "SoldierPositionEffect.2.2",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPositionEffect.2.1",
+          "zh_TW": "進攻位",
+          "zh_CN": "进攻位",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+            "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+          }
+        },
+        "/KeyEffectDes": {
+          "key": "SoldierPositionEffect.2.2",
+          "zh_TW": "攻擊提升10%\n暴擊率提升5%",
+          "zh_CN": "攻击提升10%\n暴击率提升5%",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+            "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "PositionType": 1,
+      "Index": 3,
+      "Icon": "SoldierFightPosition_03",
+      "Name": "SoldierPositionEffect.3.1",
+      "KeyEffectId": 1003,
+      "KeyEffectDes": "SoldierPositionEffect.3.2",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPositionEffect.3.1",
+          "zh_TW": "機動位",
+          "zh_CN": "机动位",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+            "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+          }
+        },
+        "/KeyEffectDes": {
+          "key": "SoldierPositionEffect.3.2",
+          "zh_TW": "攻擊速度提升5%\n回能效率5%",
+          "zh_CN": "攻击速度提升5%\n回能效率提升5%",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+            "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "PositionType": 2,
+      "Index": 1,
+      "Name": "SoldierPositionEffect.4.1",
+      "KeyEffectDes": "SoldierPositionEffect.4.2",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPositionEffect.4.1",
+          "zh_TW": "後援1號位",
+          "zh_CN": "应援1号位",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+            "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "PositionType": 2,
+      "Index": 2,
+      "Name": "SoldierPositionEffect.5.1",
+      "KeyEffectDes": "SoldierPositionEffect.5.2",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPositionEffect.5.1",
+          "zh_TW": "後援2號位",
+          "zh_CN": "应援2号位",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+            "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "PositionType": 2,
+      "Index": 3,
+      "Name": "SoldierPositionEffect.6.1",
+      "KeyEffectDes": "SoldierPositionEffect.6.2",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPositionEffect.6.1",
+          "zh_TW": "後援3號位",
+          "zh_CN": "应援3号位",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+            "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "PositionType": 2,
+      "Index": 4,
+      "Name": "SoldierPositionEffect.7.1",
+      "KeyEffectDes": "SoldierPositionEffect.7.2",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPositionEffect.7.1",
+          "zh_TW": "後援4號位",
+          "zh_CN": "应援4号位",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+            "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+          }
+        }
+      }
+    },
+    "8": {
+      "Id": 8,
+      "PositionType": 2,
+      "Index": 5,
+      "Name": "SoldierPositionEffect.8.1",
+      "KeyEffectDes": "SoldierPositionEffect.8.2",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPositionEffect.8.1",
+          "zh_TW": "後援5號位",
+          "zh_CN": "应援5号位",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+            "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+          }
+        }
+      }
+    },
+    "9": {
+      "Id": 9,
+      "PositionType": 2,
+      "Index": 6,
+      "Name": "SoldierPositionEffect.9.1",
+      "KeyEffectDes": "SoldierPositionEffect.9.2",
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPositionEffect.9.1",
+          "zh_TW": "後援6號位",
+          "zh_CN": "应援6号位",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPositionEffect.json",
+            "zh_CN": "language/zh_CN/SoldierPositionEffect.json"
+          }
+        }
+      }
+    }
+  }
+}

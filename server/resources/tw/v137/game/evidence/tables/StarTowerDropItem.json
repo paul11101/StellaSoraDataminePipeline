@@ -1,0 +1,194 @@
+{
+  "table": "StarTowerDropItem",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\0721868f5d2b5d3f.bin",
+  "source_sha256": "8fac8651e9c15843ff7e46f638256c25a400b556667e80151ffc56714e939d48",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\StarTowerDropItem.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 5
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "reference_field_order": [
+      "Id",
+      "Type",
+      "DropSplitRange",
+      "Rate",
+      "Model"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "Type",
+      "3": "DropSplitRange",
+      "4": "Rate",
+      "5": "Model"
+    },
+    "aot_field_count": 5,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_int",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    },
+    "2": {
+      "field": "Type",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_int",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    },
+    "3": {
+      "field": "DropSplitRange",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    },
+    "4": {
+      "field": "Rate",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    },
+    "5": {
+      "field": "Model",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 5,
+      "compared_reference_rows": 5,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 5,
+          "compared": 5
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 5
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 5,
+    "reference_row_count": 5,
+    "shared_key_count": 5,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 5,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

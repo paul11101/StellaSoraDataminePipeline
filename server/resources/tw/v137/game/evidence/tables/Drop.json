@@ -1,0 +1,114 @@
+{
+  "table": "Drop",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\2f3f0646961e0dcc.bin",
+  "source_sha256": "0b2638606f60dd0434981745969c50ff776b96a9df3d54bcc4f5a2dae9185f5c",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\Drop.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 0,
+    "key_type": 0,
+    "row_count": 1516
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2
+    ],
+    "reference_field_order": [
+      "DropId",
+      "PkgId"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 2,
+    "remaining_name_count": 2,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "DropId",
+        "matching_reference_rows": 1516,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "PkgId",
+        "matching_reference_rows": 1516,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "DropId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1516,
+      "compared_reference_rows": 1516,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1516,
+          "compared": 1516
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1516,
+          "compared": 1516
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1516
+        }
+      ]
+    },
+    "2": {
+      "field": "PkgId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 1516,
+      "compared_reference_rows": 1516,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 1516,
+          "compared": 1516
+        },
+        {
+          "codec": "varint_int",
+          "matches": 1516,
+          "compared": 1516
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1516
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 1516,
+    "reference_row_count": 1516,
+    "shared_key_count": 1516,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 1516,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

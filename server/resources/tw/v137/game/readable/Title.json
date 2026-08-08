@@ -1,0 +1,699 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "Title",
+    "categories": [
+      "other"
+    ],
+    "row_count": 38,
+    "localization_hits": 38,
+    "source": "bin/Title.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "ItemId": 71001,
+      "TitleType": 1,
+      "Desc": "Title.1.1",
+      "Sort": 1,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.1.1",
+          "zh_TW": "失憶",
+          "zh_CN": "失忆",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "ItemId": 72001,
+      "TitleType": 2,
+      "Desc": "Title.2.1",
+      "Sort": 1,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.2.1",
+          "zh_TW": "魔王",
+          "zh_CN": "魔王",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "ItemId": 71002,
+      "TitleType": 1,
+      "Desc": "Title.3.1",
+      "Sort": 2,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.3.1",
+          "zh_TW": "空白",
+          "zh_CN": "空白",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "ItemId": 72002,
+      "TitleType": 2,
+      "Desc": "Title.4.1",
+      "Sort": 2,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.4.1",
+          "zh_TW": "旅人",
+          "zh_CN": "旅人",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "ItemId": 71003,
+      "TitleType": 1,
+      "Desc": "Title.5.1",
+      "Sort": 3,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.5.1",
+          "zh_TW": "雛菊",
+          "zh_CN": "雏菊",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "ItemId": 72003,
+      "TitleType": 2,
+      "Desc": "Title.6.1",
+      "Sort": 3,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.6.1",
+          "zh_TW": "管家",
+          "zh_CN": "管家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "ItemId": 71004,
+      "TitleType": 1,
+      "Desc": "Title.7.1",
+      "Sort": 4,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.7.1",
+          "zh_TW": "冷靜",
+          "zh_CN": "冷静",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "8": {
+      "Id": 8,
+      "ItemId": 72004,
+      "TitleType": 2,
+      "Desc": "Title.8.1",
+      "Sort": 4,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.8.1",
+          "zh_TW": "老闆",
+          "zh_CN": "老板",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "9": {
+      "Id": 9,
+      "ItemId": 71005,
+      "TitleType": 1,
+      "Desc": "Title.9.1",
+      "Sort": 5,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.9.1",
+          "zh_TW": "帥氣",
+          "zh_CN": "帅气",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "10": {
+      "Id": 10,
+      "ItemId": 72005,
+      "TitleType": 2,
+      "Desc": "Title.10.1",
+      "Sort": 5,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.10.1",
+          "zh_TW": "團長",
+          "zh_CN": "团长",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "11": {
+      "Id": 11,
+      "ItemId": 71006,
+      "TitleType": 1,
+      "Desc": "Title.11.1",
+      "Sort": 6,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.11.1",
+          "zh_TW": "睿智",
+          "zh_CN": "睿智",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "ItemId": 72006,
+      "TitleType": 2,
+      "Desc": "Title.12.1",
+      "Sort": 6,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.12.1",
+          "zh_TW": "負責人",
+          "zh_CN": "主理人",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "ItemId": 71007,
+      "TitleType": 1,
+      "Desc": "Title.13.1",
+      "Sort": 7,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.13.1",
+          "zh_TW": "森林",
+          "zh_CN": "森林",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "ItemId": 72007,
+      "TitleType": 2,
+      "Desc": "Title.14.1",
+      "Sort": 7,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.14.1",
+          "zh_TW": "衛士",
+          "zh_CN": "卫士",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "15": {
+      "Id": 15,
+      "ItemId": 71008,
+      "TitleType": 1,
+      "Desc": "Title.15.1",
+      "Sort": 11,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.15.1",
+          "zh_TW": "運動系",
+          "zh_CN": "运动系",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "ItemId": 72008,
+      "TitleType": 2,
+      "Desc": "Title.16.1",
+      "Sort": 11,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.16.1",
+          "zh_TW": "美食家",
+          "zh_CN": "美食家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "17": {
+      "Id": 17,
+      "ItemId": 71009,
+      "TitleType": 1,
+      "Desc": "Title.17.1",
+      "Sort": 12,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.17.1",
+          "zh_TW": "文藝",
+          "zh_CN": "文艺",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "ItemId": 72009,
+      "TitleType": 2,
+      "Desc": "Title.18.1",
+      "Sort": 12,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.18.1",
+          "zh_TW": "作家",
+          "zh_CN": "作家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "19": {
+      "Id": 19,
+      "ItemId": 71010,
+      "TitleType": 1,
+      "Desc": "Title.19.1",
+      "Sort": 10,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.19.1",
+          "zh_TW": "博學",
+          "zh_CN": "博学",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "20": {
+      "Id": 20,
+      "ItemId": 72010,
+      "TitleType": 2,
+      "Desc": "Title.20.1",
+      "Sort": 10,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.20.1",
+          "zh_TW": "鑑賞家",
+          "zh_CN": "鉴赏家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "21": {
+      "Id": 21,
+      "ItemId": 71011,
+      "TitleType": 1,
+      "Desc": "Title.21.1",
+      "Sort": 13,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.21.1",
+          "zh_TW": "風流",
+          "zh_CN": "风流",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "22": {
+      "Id": 22,
+      "ItemId": 72011,
+      "TitleType": 2,
+      "Desc": "Title.22.1",
+      "Sort": 13,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.22.1",
+          "zh_TW": "樂手",
+          "zh_CN": "乐手",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "23": {
+      "Id": 23,
+      "ItemId": 71012,
+      "TitleType": 1,
+      "Desc": "Title.23.1",
+      "Sort": 8,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.23.1",
+          "zh_TW": "熱情",
+          "zh_CN": "热情",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "24": {
+      "Id": 24,
+      "ItemId": 72012,
+      "TitleType": 2,
+      "Desc": "Title.24.1",
+      "Sort": 8,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.24.1",
+          "zh_TW": "忍者",
+          "zh_CN": "忍者",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "25": {
+      "Id": 25,
+      "ItemId": 71013,
+      "TitleType": 1,
+      "Desc": "Title.25.1",
+      "Sort": 9,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.25.1",
+          "zh_TW": "溫室",
+          "zh_CN": "温室",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "ItemId": 72013,
+      "TitleType": 2,
+      "Desc": "Title.26.1",
+      "Sort": 9,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.26.1",
+          "zh_TW": "守護者",
+          "zh_CN": "守护者",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "27": {
+      "Id": 27,
+      "ItemId": 71014,
+      "TitleType": 1,
+      "Desc": "Title.27.1",
+      "Sort": 14,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.27.1",
+          "zh_TW": "嚴謹",
+          "zh_CN": "严谨",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "28": {
+      "Id": 28,
+      "ItemId": 72014,
+      "TitleType": 2,
+      "Desc": "Title.28.1",
+      "Sort": 14,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.28.1",
+          "zh_TW": "地理學家",
+          "zh_CN": "地理学家",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "29": {
+      "Id": 29,
+      "ItemId": 71015,
+      "TitleType": 1,
+      "Desc": "Title.29.1",
+      "Sort": 15,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.29.1",
+          "zh_TW": "冷酷",
+          "zh_CN": "冷酷",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "30": {
+      "Id": 30,
+      "ItemId": 72015,
+      "TitleType": 2,
+      "Desc": "Title.30.1",
+      "Sort": 15,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.30.1",
+          "zh_TW": "老師",
+          "zh_CN": "老师",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "31": {
+      "Id": 31,
+      "ItemId": 71016,
+      "TitleType": 1,
+      "Desc": "Title.31.1",
+      "Sort": 16,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.31.1",
+          "zh_TW": "冠軍",
+          "zh_CN": "冠军",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "32": {
+      "Id": 32,
+      "ItemId": 72016,
+      "TitleType": 2,
+      "Desc": "Title.32.1",
+      "Sort": 16,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.32.1",
+          "zh_TW": "工匠",
+          "zh_CN": "工匠",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "33": {
+      "Id": 33,
+      "ItemId": 71017,
+      "TitleType": 1,
+      "Desc": "Title.33.1",
+      "Sort": 17,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.33.1",
+          "zh_TW": "荒野",
+          "zh_CN": "荒野",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "34": {
+      "Id": 34,
+      "ItemId": 72017,
+      "TitleType": 2,
+      "Desc": "Title.34.1",
+      "Sort": 17,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.34.1",
+          "zh_TW": "神槍手",
+          "zh_CN": "神枪手",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "35": {
+      "Id": 35,
+      "ItemId": 71018,
+      "TitleType": 1,
+      "Desc": "Title.35.1",
+      "Sort": 18,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.35.1",
+          "zh_TW": "暗黑",
+          "zh_CN": "暗黑",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "36": {
+      "Id": 36,
+      "ItemId": 72018,
+      "TitleType": 2,
+      "Desc": "Title.36.1",
+      "Sort": 18,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.36.1",
+          "zh_TW": "大人",
+          "zh_CN": "大人",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "37": {
+      "Id": 37,
+      "ItemId": 71019,
+      "TitleType": 1,
+      "Desc": "Title.37.1",
+      "Sort": 19,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.37.1",
+          "zh_TW": "全能",
+          "zh_CN": "全能",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    },
+    "38": {
+      "Id": 38,
+      "ItemId": 72019,
+      "TitleType": 2,
+      "Desc": "Title.38.1",
+      "Sort": 19,
+      "_localized": {
+        "/Desc": {
+          "key": "Title.38.1",
+          "zh_TW": "救生員",
+          "zh_CN": "安全员",
+          "sources": {
+            "zh_TW": "language/zh_TW/Title.json",
+            "zh_CN": "language/zh_CN/Title.json"
+          }
+        }
+      }
+    }
+  }
+}

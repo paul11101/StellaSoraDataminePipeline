@@ -1,0 +1,75 @@
+{
+  "table": "TestTeamData",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\b0a79d0598925abd.bin",
+  "source_sha256": "c69866407c218a208b1868a9176bb1ae1adadf11dd65a286b9a54ca8944d604d",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\TestTeamData.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 6
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1
+    ],
+    "reference_field_order": [
+      "Id"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id"
+    },
+    "aot_field_count": 1,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 6,
+      "compared_reference_rows": 6,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_int",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 6
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 6,
+    "reference_row_count": 6,
+    "shared_key_count": 6,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 6,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

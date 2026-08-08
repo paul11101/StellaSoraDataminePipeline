@@ -1,0 +1,427 @@
+{
+  "table": "EffectValue",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\f2231d957ef49dc4.bin",
+  "source_sha256": "c552d1e56c5222d2ef67051c8eb285caf17186ad34f27764132731b0509cff0e",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\EffectValue.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 14533
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "reference_field_order": [
+      "Id",
+      "Tag",
+      "TakeEffectLimit",
+      "Remove",
+      "CD",
+      "EffectRate",
+      "EffectType",
+      "EffectTypeFirstSubtype",
+      "EffectTypeSecondSubtype",
+      "EffectTypeParam1",
+      "EffectTypeParam2",
+      "EffectTypeParam3",
+      "EffectTypeParam4"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "3": "Tag",
+      "4": "TakeEffectLimit",
+      "5": "Remove",
+      "6": "CD",
+      "7": "EffectRate",
+      "8": "EffectType",
+      "9": "EffectTypeFirstSubtype",
+      "10": "EffectTypeSecondSubtype",
+      "11": "EffectTypeParam1",
+      "12": "EffectTypeParam2",
+      "13": "EffectTypeParam3",
+      "14": "EffectTypeParam4"
+    },
+    "aot_field_count": 13,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 14533,
+      "compared_reference_rows": 14533,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 14533,
+          "compared": 14533
+        },
+        {
+          "codec": "varint_int",
+          "matches": 14533,
+          "compared": 14533
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 14533
+        }
+      ]
+    },
+    "3": {
+      "field": "Tag",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 14472,
+      "compared_reference_rows": 14472,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 14472,
+          "compared": 14472
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 14472
+        }
+      ]
+    },
+    "4": {
+      "field": "TakeEffectLimit",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 15,
+      "compared_reference_rows": 15,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 15,
+          "compared": 15
+        },
+        {
+          "codec": "varint_int",
+          "matches": 15,
+          "compared": 15
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 15
+        }
+      ]
+    },
+    "5": {
+      "field": "Remove",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 10,
+      "compared_reference_rows": 10,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 10,
+          "compared": 10
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 10
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 10
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 10
+        }
+      ]
+    },
+    "6": {
+      "field": "CD",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 128,
+      "compared_reference_rows": 128,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 128,
+          "compared": 128
+        },
+        {
+          "codec": "varint_int",
+          "matches": 128,
+          "compared": 128
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 128
+        }
+      ]
+    },
+    "7": {
+      "field": "EffectRate",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 14533,
+      "compared_reference_rows": 14533,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 14533,
+          "compared": 14533
+        },
+        {
+          "codec": "varint_int",
+          "matches": 14533,
+          "compared": 14533
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 14533
+        }
+      ]
+    },
+    "8": {
+      "field": "EffectType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 14517,
+      "compared_reference_rows": 14517,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 14517,
+          "compared": 14517
+        },
+        {
+          "codec": "varint_int",
+          "matches": 14517,
+          "compared": 14517
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 14517
+        }
+      ]
+    },
+    "9": {
+      "field": "EffectTypeFirstSubtype",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 13502,
+      "compared_reference_rows": 13502,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 13502,
+          "compared": 13502
+        },
+        {
+          "codec": "varint_int",
+          "matches": 13502,
+          "compared": 13502
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 13502
+        }
+      ]
+    },
+    "10": {
+      "field": "EffectTypeSecondSubtype",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 13432,
+      "compared_reference_rows": 13432,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 13432,
+          "compared": 13432
+        },
+        {
+          "codec": "varint_int",
+          "matches": 13432,
+          "compared": 13432
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 13432
+        }
+      ]
+    },
+    "11": {
+      "field": "EffectTypeParam1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 14404,
+      "compared_reference_rows": 14404,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 14404,
+          "compared": 14404
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 14404
+        }
+      ]
+    },
+    "12": {
+      "field": "EffectTypeParam2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 308,
+      "compared_reference_rows": 308,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 308,
+          "compared": 308
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 308
+        }
+      ]
+    },
+    "13": {
+      "field": "EffectTypeParam3",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 227,
+      "compared_reference_rows": 227,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 227,
+          "compared": 227
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 227
+        }
+      ]
+    },
+    "14": {
+      "field": "EffectTypeParam4",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 224,
+      "compared_reference_rows": 224,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 224,
+          "compared": 224
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 224
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 14533,
+    "reference_row_count": 14533,
+    "shared_key_count": 14533,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 14533,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

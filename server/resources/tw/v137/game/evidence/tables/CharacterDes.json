@@ -1,0 +1,669 @@
+{
+  "table": "CharacterDes",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\da25ed50cf399e3f.bin",
+  "source_sha256": "3449f0c72270b69fc9242ee1a94d2fae5896a37e6ec1675e5f3b552b65438936",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\CharacterDes.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 37
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "reference_field_order": [
+      "Id",
+      "Alias",
+      "CnCv",
+      "JpCv",
+      "CharColor",
+      "CharSkillColor",
+      "CharDes",
+      "Tag",
+      "Force",
+      "PreferTags",
+      "HateTags",
+      "Birthday",
+      "PotentialMain1",
+      "PotentialMain2",
+      "PotentialAssistant1",
+      "PotentialAssistant2",
+      "PotentialMainContent1",
+      "PotentialMainContent2",
+      "PotentialAssistantContent1",
+      "PotentialAssistantContent2"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 20,
+    "remaining_name_count": 20,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Alias",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "CnCv",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "JpCv",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "CharColor",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "CharSkillColor",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "CharDes",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "Tag",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "Force",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "PreferTags",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "11": {
+        "field": "HateTags",
+        "matching_reference_rows": 21,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "Birthday",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "PotentialMain1",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "14": {
+        "field": "PotentialMain2",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "15": {
+        "field": "PotentialAssistant1",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "16": {
+        "field": "PotentialAssistant2",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "17": {
+        "field": "PotentialMainContent1",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "18": {
+        "field": "PotentialMainContent2",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "19": {
+        "field": "PotentialAssistantContent1",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "20": {
+        "field": "PotentialAssistantContent2",
+        "matching_reference_rows": 37,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "varint_int",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "2": {
+      "field": "Alias",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "3": {
+      "field": "CnCv",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "4": {
+      "field": "JpCv",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "5": {
+      "field": "CharColor",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "6": {
+      "field": "CharSkillColor",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "7": {
+      "field": "CharDes",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "8": {
+      "field": "Tag",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "9": {
+      "field": "Force",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "varint_int",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "10": {
+      "field": "PreferTags",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "11": {
+      "field": "HateTags",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 21,
+      "compared_reference_rows": 21,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 21,
+          "compared": 21
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 21
+        }
+      ]
+    },
+    "12": {
+      "field": "Birthday",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "13": {
+      "field": "PotentialMain1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "14": {
+      "field": "PotentialMain2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "15": {
+      "field": "PotentialAssistant1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "16": {
+      "field": "PotentialAssistant2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "17": {
+      "field": "PotentialMainContent1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "18": {
+      "field": "PotentialMainContent2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "19": {
+      "field": "PotentialAssistantContent1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    },
+    "20": {
+      "field": "PotentialAssistantContent2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 37,
+      "compared_reference_rows": 37,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 37,
+          "compared": 37
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 37
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 37,
+    "reference_row_count": 37,
+    "shared_key_count": 37,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 37,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

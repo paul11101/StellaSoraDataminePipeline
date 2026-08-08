@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "CookieRhythmlResult",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 4,
+    "localization_hits": 0,
+    "source": "bin/CookieRhythmlResult.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "ResultType": 1,
+      "ResultName": "Excellent",
+      "AddScoreType": 2,
+      "AddScore": 100
+    },
+    "2": {
+      "Id": 2,
+      "ResultType": 2,
+      "ResultName": "Perfect",
+      "Range": 0.07999999821186066,
+      "OtherCondition": "&",
+      "AddScoreType": 1,
+      "AddScore": 10
+    },
+    "3": {
+      "Id": 3,
+      "ResultType": 3,
+      "ResultName": "Good",
+      "Range": 0.20000000298023224,
+      "OtherCondition": "&"
+    },
+    "4": {
+      "Id": 4,
+      "ResultType": 4,
+      "ResultName": "Miss",
+      "Range": 0.25,
+      "OtherCondition": "&"
+    }
+  }
+}

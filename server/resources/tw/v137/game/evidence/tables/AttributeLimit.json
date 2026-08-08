@@ -1,0 +1,307 @@
+{
+  "table": "AttributeLimit",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d8f6c9b7300d99e3.bin",
+  "source_sha256": "54af9bc526d4450827b151ad7930e0d7a041f80f9e132fa217327c2456472e4b",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\AttributeLimit.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 48
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "reference_field_order": [
+      "Id",
+      "Lower",
+      "Upper",
+      "LowerPre",
+      "IsLimited",
+      "IsPlayer",
+      "UpperPre",
+      "IsLimitedPre"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "Lower",
+      "3": "Upper",
+      "4": "IsLimited",
+      "5": "IsPlayer",
+      "6": "LowerPre",
+      "7": "UpperPre",
+      "8": "IsLimitedPre"
+    },
+    "aot_field_count": 8,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 48,
+      "compared_reference_rows": 48,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 48,
+          "compared": 48
+        },
+        {
+          "codec": "varint_int",
+          "matches": 48,
+          "compared": 48
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 48
+        }
+      ]
+    },
+    "2": {
+      "field": "Lower",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_int",
+      "matching_reference_rows": 33,
+      "compared_reference_rows": 33,
+      "candidate_scores": [
+        {
+          "codec": "varint_int",
+          "matches": 33,
+          "compared": 33
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 33
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 33
+        }
+      ]
+    },
+    "3": {
+      "field": "Upper",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 48,
+      "compared_reference_rows": 48,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 48,
+          "compared": 48
+        },
+        {
+          "codec": "varint_int",
+          "matches": 48,
+          "compared": 48
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 48
+        }
+      ]
+    },
+    "4": {
+      "field": "IsLimited",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 20,
+      "compared_reference_rows": 20,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 20,
+          "compared": 20
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 20
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 20
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 20
+        }
+      ]
+    },
+    "5": {
+      "field": "IsPlayer",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 9,
+      "compared_reference_rows": 9,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 9,
+          "compared": 9
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 9
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 9
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 9
+        }
+      ]
+    },
+    "6": {
+      "field": "LowerPre",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_int",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "varint_int",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 1
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    },
+    "7": {
+      "field": "UpperPre",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 48,
+      "compared_reference_rows": 48,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 48,
+          "compared": 48
+        },
+        {
+          "codec": "varint_int",
+          "matches": 48,
+          "compared": 48
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 48
+        }
+      ]
+    },
+    "8": {
+      "field": "IsLimitedPre",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 1,
+      "compared_reference_rows": 1,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 1,
+          "compared": 1
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 1
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 1
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 1
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 48,
+    "reference_row_count": 48,
+    "shared_key_count": 48,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 48,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

@@ -1,0 +1,924 @@
+{
+  "table": "Agent",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\7e2e145b43252cfe.bin",
+  "source_sha256": "d194e78be81bbc23722f47664488cdfb9ce96c24b65737bf7e6d6cf5faab82e9",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\Agent.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 36
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "reference_field_order": [
+      "Id",
+      "Tab",
+      "Note",
+      "Name",
+      "Desc",
+      "Consignor",
+      "RefreshType",
+      "Quality",
+      "MemberType",
+      "Level",
+      "MemberLimit",
+      "Tags",
+      "ExtraTags",
+      "UnlockConditions",
+      "Sort",
+      "Time1",
+      "RewardPreview1",
+      "BonusPreview1",
+      "Time2",
+      "RewardPreview2",
+      "BonusPreview2",
+      "Time3",
+      "RewardPreview3",
+      "BonusPreview3",
+      "Time4",
+      "RewardPreview4",
+      "BonusPreview4"
+    ],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 27,
+    "remaining_name_count": 27,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {
+      "1": {
+        "field": "Id",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "2": {
+        "field": "Tab",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "3": {
+        "field": "Note",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "4": {
+        "field": "Name",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "5": {
+        "field": "Desc",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "6": {
+        "field": "Consignor",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "7": {
+        "field": "RefreshType",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "8": {
+        "field": "Quality",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "9": {
+        "field": "MemberType",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "10": {
+        "field": "Level",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "12": {
+        "field": "MemberLimit",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "13": {
+        "field": "Tags",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "14": {
+        "field": "ExtraTags",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "15": {
+        "field": "UnlockConditions",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "16": {
+        "field": "Sort",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "17": {
+        "field": "Time1",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "18": {
+        "field": "RewardPreview1",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "19": {
+        "field": "BonusPreview1",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "20": {
+        "field": "Time2",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "21": {
+        "field": "RewardPreview2",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "22": {
+        "field": "BonusPreview2",
+        "matching_reference_rows": 36,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "23": {
+        "field": "Time3",
+        "matching_reference_rows": 27,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "24": {
+        "field": "RewardPreview3",
+        "matching_reference_rows": 27,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "25": {
+        "field": "BonusPreview3",
+        "matching_reference_rows": 27,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "26": {
+        "field": "Time4",
+        "matching_reference_rows": 27,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "27": {
+        "field": "RewardPreview4",
+        "matching_reference_rows": 27,
+        "method": "initial_order_plus_same_key_value_match"
+      },
+      "28": {
+        "field": "BonusPreview4",
+        "matching_reference_rows": 27,
+        "method": "initial_order_plus_same_key_value_match"
+      }
+    },
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "2": {
+      "field": "Tab",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "3": {
+      "field": "Note",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "4": {
+      "field": "Name",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "5": {
+      "field": "Desc",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "6": {
+      "field": "Consignor",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "7": {
+      "field": "RefreshType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "8": {
+      "field": "Quality",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "9": {
+      "field": "MemberType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "10": {
+      "field": "Level",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "12": {
+      "field": "MemberLimit",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "13": {
+      "field": "Tags",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "14": {
+      "field": "ExtraTags",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "15": {
+      "field": "UnlockConditions",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "16": {
+      "field": "Sort",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "17": {
+      "field": "Time1",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "18": {
+      "field": "RewardPreview1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "19": {
+      "field": "BonusPreview1",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "20": {
+      "field": "Time2",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_int",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "21": {
+      "field": "RewardPreview2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "22": {
+      "field": "BonusPreview2",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 36,
+      "compared_reference_rows": 36,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 36,
+          "compared": 36
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 36
+        }
+      ]
+    },
+    "23": {
+      "field": "Time3",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "24": {
+      "field": "RewardPreview3",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "25": {
+      "field": "BonusPreview3",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "26": {
+      "field": "Time4",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_int",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "27": {
+      "field": "RewardPreview4",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "28": {
+      "field": "BonusPreview4",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 36,
+    "reference_row_count": 36,
+    "shared_key_count": 36,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 36,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "table": "CharacterVoiceControl",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\87cf5fe3aa61a04b.bin",
+  "source_sha256": "e7ccfdcc7e56a6cb99ec190042e7fd608b88346e15fb49149a24473e29b02f19",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\CharacterVoiceControl.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 0,
+    "row_count": 127
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "reference_field_order": [
+      "Id",
+      "probability",
+      "resType",
+      "worldLevelTypes",
+      "bubble",
+      "cd",
+      "voPlayer",
+      "priority",
+      "dateTrigger",
+      "date"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "probability",
+      "3": "resType",
+      "5": "worldLevelTypes",
+      "6": "bubble",
+      "7": "cd",
+      "8": "voPlayer",
+      "9": "priority",
+      "10": "dateTrigger",
+      "11": "date"
+    },
+    "aot_field_count": 10,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 127,
+      "compared_reference_rows": 127,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 127,
+          "compared": 127
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 127
+        }
+      ]
+    },
+    "2": {
+      "field": "probability",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 127,
+      "compared_reference_rows": 127,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 127,
+          "compared": 127
+        },
+        {
+          "codec": "varint_int",
+          "matches": 127,
+          "compared": 127
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 127
+        }
+      ]
+    },
+    "3": {
+      "field": "resType",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 127,
+      "compared_reference_rows": 127,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 127,
+          "compared": 127
+        },
+        {
+          "codec": "varint_int",
+          "matches": 127,
+          "compared": 127
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 127
+        }
+      ]
+    },
+    "5": {
+      "field": "worldLevelTypes",
+      "json_kind": "int",
+      "repeated": true,
+      "wire_types": [
+        0
+      ],
+      "selected": "repeated_varint_uint",
+      "matching_reference_rows": 127,
+      "compared_reference_rows": 127,
+      "candidate_scores": [
+        {
+          "codec": "repeated_varint_uint",
+          "matches": 127,
+          "compared": 127
+        },
+        {
+          "codec": "repeated_varint_int",
+          "matches": 127,
+          "compared": 127
+        },
+        {
+          "codec": "repeated_varint_zigzag",
+          "matches": 0,
+          "compared": 127
+        }
+      ]
+    },
+    "6": {
+      "field": "bubble",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 86,
+      "compared_reference_rows": 86,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 86,
+          "compared": 86
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 86
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 86
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 86
+        }
+      ]
+    },
+    "7": {
+      "field": "cd",
+      "json_kind": "float",
+      "repeated": false,
+      "wire_types": [
+        5
+      ],
+      "selected": "float32",
+      "matching_reference_rows": 27,
+      "compared_reference_rows": 27,
+      "candidate_scores": [
+        {
+          "codec": "float32",
+          "matches": 27,
+          "compared": 27
+        },
+        {
+          "codec": "fixed32_uint",
+          "matches": 0,
+          "compared": 27
+        },
+        {
+          "codec": "fixed32_int",
+          "matches": 0,
+          "compared": 27
+        }
+      ]
+    },
+    "8": {
+      "field": "voPlayer",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 127,
+      "compared_reference_rows": 127,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 127,
+          "compared": 127
+        },
+        {
+          "codec": "varint_int",
+          "matches": 127,
+          "compared": 127
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 127
+        }
+      ]
+    },
+    "9": {
+      "field": "priority",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 127,
+      "compared_reference_rows": 127,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 127,
+          "compared": 127
+        },
+        {
+          "codec": "varint_int",
+          "matches": 127,
+          "compared": 127
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 127
+        }
+      ]
+    },
+    "10": {
+      "field": "dateTrigger",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 3,
+      "compared_reference_rows": 3,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 3,
+          "compared": 3
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 3
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 3
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3
+        }
+      ]
+    },
+    "11": {
+      "field": "date",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 3,
+      "compared_reference_rows": 3,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 3,
+          "compared": 3
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 3
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 127,
+    "reference_row_count": 127,
+    "shared_key_count": 127,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 127,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

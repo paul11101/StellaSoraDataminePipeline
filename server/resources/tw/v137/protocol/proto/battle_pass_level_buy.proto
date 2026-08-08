@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message BattlePassLevelBuyResp {
+  .proto.ChangeInfo Change = 1;
+  uint32 Level = 2;
+  bytes NextPackage = 2047;
+}

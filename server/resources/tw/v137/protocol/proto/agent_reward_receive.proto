@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message AgentRewardReceiveReq {
+  uint32 Id = 1;
+  bytes NextPackage = 2047;
+}
+
+message AgentRewardReceiveResp {
+  repeated uint32 CharIds = 1;
+  repeated uint64 BuildIds = 2;
+  repeated .proto.AgentRewardShow RewardShows = 3;
+  .proto.ChangeInfo Change = 4;
+  bytes NextPackage = 2047;
+}
+
+message AgentRewardShow {
+  uint32 Id = 1;
+  repeated .proto.ItemTpl Rewards = 2;
+  repeated .proto.ItemTpl Bonus = 3;
+  repeated .proto.ItemTpl SpecialRewards = 4;
+  bytes NextPackage = 2047;
+}

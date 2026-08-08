@@ -1,0 +1,40 @@
+{
+  "table": "CookieQuest",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\d0935677f9168551.bin",
+  "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\CookieQuest.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 0
+  },
+  "field_mapping": {
+    "active_field_numbers": [],
+    "reference_field_order": [],
+    "local_aot_field_numbers": {},
+    "aot_field_count": 0,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "reference_order_aligned_to_local_wire_numbers"
+  },
+  "codecs": {},
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 0,
+    "reference_row_count": 0,
+    "shared_key_count": 0,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 0,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

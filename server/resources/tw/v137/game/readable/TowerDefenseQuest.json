@@ -1,0 +1,2254 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TowerDefenseQuest",
+    "categories": [
+      "quests",
+      "stages_modes"
+    ],
+    "row_count": 99,
+    "localization_hits": 99,
+    "source": "bin/TowerDefenseQuest.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1": {
+      "Id": 1,
+      "QuestGroupId": 1,
+      "QuestType": 102,
+      "QuestParam": [
+        1101
+      ],
+      "Desc": "TowerDefenseQuest.1.1",
+      "Item1": 32000,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.1.1",
+          "zh_TW": "在「保衛戰教學 I」中通關",
+          "zh_CN": "在「保卫战教程 I」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "2": {
+      "Id": 2,
+      "QuestGroupId": 1,
+      "QuestType": 103,
+      "QuestParam": [
+        1101,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.2.1",
+      "Item1": 33912,
+      "Qty1": 10,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.2.1",
+          "zh_TW": "在「保衛戰教學 I」中達到2星",
+          "zh_CN": "在「保卫战教程 I」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "QuestGroupId": 1,
+      "QuestType": 103,
+      "QuestParam": [
+        1101,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.3.1",
+      "Item1": 2,
+      "Qty1": 55,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.3.1",
+          "zh_TW": "在「保衛戰教學 I」中達到3星",
+          "zh_CN": "在「保卫战教程 I」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "4": {
+      "Id": 4,
+      "QuestGroupId": 1,
+      "QuestType": 102,
+      "QuestParam": [
+        1102
+      ],
+      "Desc": "TowerDefenseQuest.4.1",
+      "Item1": 32000,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.4.1",
+          "zh_TW": "在「保衛戰教學 Ⅱ」中通關",
+          "zh_CN": "在「保卫战教程 II」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "QuestGroupId": 1,
+      "QuestType": 103,
+      "QuestParam": [
+        1102,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.5.1",
+      "Item1": 33912,
+      "Qty1": 10,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.5.1",
+          "zh_TW": "在「保衛戰教學 Ⅱ」中達到2星",
+          "zh_CN": "在「保卫战教程 II」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "QuestGroupId": 1,
+      "QuestType": 103,
+      "QuestParam": [
+        1102,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.6.1",
+      "Item1": 2,
+      "Qty1": 55,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.6.1",
+          "zh_TW": "在「保衛戰教學 Ⅱ」中達到3星",
+          "zh_CN": "在「保卫战教程 II」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "QuestGroupId": 2,
+      "QuestType": 102,
+      "QuestParam": [
+        1103
+      ],
+      "Desc": "TowerDefenseQuest.7.1",
+      "Item1": 32000,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.7.1",
+          "zh_TW": "在「林中衛士 I」中通關",
+          "zh_CN": "在「林中卫士 I」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "8": {
+      "Id": 8,
+      "QuestGroupId": 2,
+      "QuestType": 103,
+      "QuestParam": [
+        1103,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.8.1",
+      "Item1": 82007,
+      "Qty1": 50,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.8.1",
+          "zh_TW": "在「林中衛士 I」中達到2星",
+          "zh_CN": "在「林中卫士 I」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "9": {
+      "Id": 9,
+      "QuestGroupId": 2,
+      "QuestType": 103,
+      "QuestParam": [
+        1103,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.9.1",
+      "Item1": 2,
+      "Qty1": 80,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.9.1",
+          "zh_TW": "在「林中衛士 I」中達到3星",
+          "zh_CN": "在「林中卫士 I」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "10": {
+      "Id": 10,
+      "QuestGroupId": 2,
+      "QuestType": 102,
+      "QuestParam": [
+        1104
+      ],
+      "Desc": "TowerDefenseQuest.10.1",
+      "Item1": 32000,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.10.1",
+          "zh_TW": "在「林中衛士 Ⅱ」中通關",
+          "zh_CN": "在「林中卫士 II」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "11": {
+      "Id": 11,
+      "QuestGroupId": 2,
+      "QuestType": 103,
+      "QuestParam": [
+        1104,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.11.1",
+      "Item1": 82007,
+      "Qty1": 50,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.11.1",
+          "zh_TW": "在「林中衛士 Ⅱ」中達到2星",
+          "zh_CN": "在「林中卫士 II」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "QuestGroupId": 2,
+      "QuestType": 103,
+      "QuestParam": [
+        1104,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.12.1",
+      "Item1": 2,
+      "Qty1": 80,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.12.1",
+          "zh_TW": "在「林中衛士 Ⅱ」中達到3星",
+          "zh_CN": "在「林中卫士 II」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "QuestGroupId": 2,
+      "QuestType": 102,
+      "QuestParam": [
+        1105
+      ],
+      "Desc": "TowerDefenseQuest.13.1",
+      "Item1": 32000,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.13.1",
+          "zh_TW": "在「林中衛士 Ⅲ」中通關",
+          "zh_CN": "在「林中卫士 III」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "QuestGroupId": 2,
+      "QuestType": 103,
+      "QuestParam": [
+        1105,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.14.1",
+      "Item1": 82007,
+      "Qty1": 50,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.14.1",
+          "zh_TW": "在「林中衛士 Ⅲ」中達到2星",
+          "zh_CN": "在「林中卫士 III」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "15": {
+      "Id": 15,
+      "QuestGroupId": 2,
+      "QuestType": 103,
+      "QuestParam": [
+        1105,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.15.1",
+      "Item1": 2,
+      "Qty1": 80,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.15.1",
+          "zh_TW": "在「林中衛士 Ⅲ」中達到3星",
+          "zh_CN": "在「林中卫士 III」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "QuestGroupId": 3,
+      "QuestType": 102,
+      "QuestParam": [
+        1106
+      ],
+      "Desc": "TowerDefenseQuest.16.1",
+      "Item1": 32000,
+      "Qty1": 50,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.16.1",
+          "zh_TW": "在「魔物侵襲 I」中通關",
+          "zh_CN": "在「魔潮侵袭 I」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "17": {
+      "Id": 17,
+      "QuestGroupId": 3,
+      "QuestType": 103,
+      "QuestParam": [
+        1106,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.17.1",
+      "Item1": 82007,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.17.1",
+          "zh_TW": "在「魔物侵襲 I」中達到2星",
+          "zh_CN": "在「魔潮侵袭 I」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "QuestGroupId": 3,
+      "QuestType": 103,
+      "QuestParam": [
+        1106,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.18.1",
+      "Item1": 2,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.18.1",
+          "zh_TW": "在「魔物侵襲 I」中達到3星",
+          "zh_CN": "在「魔潮侵袭 I」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "19": {
+      "Id": 19,
+      "QuestGroupId": 3,
+      "QuestType": 102,
+      "QuestParam": [
+        1107
+      ],
+      "Desc": "TowerDefenseQuest.19.1",
+      "Item1": 32000,
+      "Qty1": 50,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.19.1",
+          "zh_TW": "在「魔物侵襲 Ⅱ」中通關",
+          "zh_CN": "在「魔潮侵袭 II」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "20": {
+      "Id": 20,
+      "QuestGroupId": 3,
+      "QuestType": 103,
+      "QuestParam": [
+        1107,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.20.1",
+      "Item1": 82007,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.20.1",
+          "zh_TW": "在「魔物侵襲 Ⅱ」中達到2星",
+          "zh_CN": "在「魔潮侵袭 II」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "21": {
+      "Id": 21,
+      "QuestGroupId": 3,
+      "QuestType": 103,
+      "QuestParam": [
+        1107,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.21.1",
+      "Item1": 2,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.21.1",
+          "zh_TW": "在「魔物侵襲 Ⅱ」中達到3星",
+          "zh_CN": "在「魔潮侵袭 II」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "22": {
+      "Id": 22,
+      "QuestGroupId": 4,
+      "QuestType": 102,
+      "QuestParam": [
+        1108
+      ],
+      "Desc": "TowerDefenseQuest.22.1",
+      "Item1": 32000,
+      "Qty1": 50,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.22.1",
+          "zh_TW": "在「魔物侵襲·真格 I」中通關",
+          "zh_CN": "在「魔潮侵袭·真格 I」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "23": {
+      "Id": 23,
+      "QuestGroupId": 4,
+      "QuestType": 103,
+      "QuestParam": [
+        1108,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.23.1",
+      "Item1": 82007,
+      "Qty1": 125,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.23.1",
+          "zh_TW": "在「魔物侵襲·真格 I」中達到2星",
+          "zh_CN": "在「魔潮侵袭·真格 I」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "24": {
+      "Id": 24,
+      "QuestGroupId": 4,
+      "QuestType": 103,
+      "QuestParam": [
+        1108,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.24.1",
+      "Item1": 2,
+      "Qty1": 150,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.24.1",
+          "zh_TW": "在「魔物侵襲·真格 I」中達到3星",
+          "zh_CN": "在「魔潮侵袭·真格 I」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "25": {
+      "Id": 25,
+      "QuestGroupId": 4,
+      "QuestType": 102,
+      "QuestParam": [
+        1109
+      ],
+      "Desc": "TowerDefenseQuest.25.1",
+      "Item1": 32000,
+      "Qty1": 50,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.25.1",
+          "zh_TW": "在「魔物侵襲·真格 Ⅱ」中通關",
+          "zh_CN": "在「魔潮侵袭·真格 II」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "QuestGroupId": 4,
+      "QuestType": 103,
+      "QuestParam": [
+        1109,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.26.1",
+      "Item1": 82007,
+      "Qty1": 125,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.26.1",
+          "zh_TW": "在「魔物侵襲·真格 Ⅱ」中達到2星",
+          "zh_CN": "在「魔潮侵袭·真格 II」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "27": {
+      "Id": 27,
+      "QuestGroupId": 4,
+      "QuestType": 103,
+      "QuestParam": [
+        1109,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.27.1",
+      "Item1": 2,
+      "Qty1": 150,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.27.1",
+          "zh_TW": "在「魔物侵襲·真格 Ⅱ」中達到3星",
+          "zh_CN": "在「魔潮侵袭·真格 II」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "28": {
+      "Id": 28,
+      "QuestGroupId": 5,
+      "QuestType": 102,
+      "QuestParam": [
+        1201
+      ],
+      "Desc": "TowerDefenseQuest.28.1",
+      "Item1": 32000,
+      "Qty1": 20,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.28.1",
+          "zh_TW": "在「保衛戰教學 I」中通關",
+          "zh_CN": "在「保卫战教程 I」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "29": {
+      "Id": 29,
+      "QuestGroupId": 5,
+      "QuestType": 102,
+      "QuestParam": [
+        1202
+      ],
+      "Desc": "TowerDefenseQuest.29.1",
+      "Item1": 33912,
+      "Qty1": 10,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.29.1",
+          "zh_TW": "通過「保衛戰教學Ⅱ」",
+          "zh_CN": "在「保卫战教程 II」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "30": {
+      "Id": 30,
+      "QuestGroupId": 5,
+      "QuestType": 102,
+      "QuestParam": [
+        1203
+      ],
+      "Desc": "TowerDefenseQuest.30.1",
+      "Item1": 33912,
+      "Qty1": 10,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.30.1",
+          "zh_TW": "通過「疏通航道Ⅰ」",
+          "zh_CN": "在「疏通航道 I」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "31": {
+      "Id": 31,
+      "QuestGroupId": 5,
+      "QuestType": 103,
+      "QuestParam": [
+        1203,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.31.1",
+      "Item1": 32000,
+      "Qty1": 20,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.31.1",
+          "zh_TW": "在「疏通航道Ⅰ」中達到3星",
+          "zh_CN": "在「疏通航道 I」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "32": {
+      "Id": 32,
+      "QuestGroupId": 5,
+      "QuestType": 102,
+      "QuestParam": [
+        1204
+      ],
+      "Desc": "TowerDefenseQuest.32.1",
+      "Item1": 82007,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.32.1",
+          "zh_TW": "通過「疏通航道 Ⅱ」",
+          "zh_CN": "在「疏通航道 II」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "33": {
+      "Id": 33,
+      "QuestGroupId": 5,
+      "QuestType": 103,
+      "QuestParam": [
+        1204,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.33.1",
+      "Item1": 2,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.33.1",
+          "zh_TW": "在「疏通航道 Ⅱ」中達到3星",
+          "zh_CN": "在「疏通航道 II」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "34": {
+      "Id": 34,
+      "QuestGroupId": 6,
+      "QuestType": 102,
+      "QuestParam": [
+        1205
+      ],
+      "Desc": "TowerDefenseQuest.34.1",
+      "Item1": 32000,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.34.1",
+          "zh_TW": "通過「疏通航道 Ⅲ」",
+          "zh_CN": "在「疏通航道 III」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "35": {
+      "Id": 35,
+      "QuestGroupId": 6,
+      "QuestType": 103,
+      "QuestParam": [
+        1205,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.35.1",
+      "Item1": 82007,
+      "Qty1": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.35.1",
+          "zh_TW": "在「疏通航道 Ⅲ」中達到2星",
+          "zh_CN": "在「疏通航道 III」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "36": {
+      "Id": 36,
+      "QuestGroupId": 6,
+      "QuestType": 103,
+      "QuestParam": [
+        1205,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.36.1",
+      "Item1": 2,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.36.1",
+          "zh_TW": "在「疏通航道 Ⅲ」中達到3星",
+          "zh_CN": "在「疏通航道 III」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "37": {
+      "Id": 37,
+      "QuestGroupId": 6,
+      "QuestType": 102,
+      "QuestParam": [
+        1206
+      ],
+      "Desc": "TowerDefenseQuest.37.1",
+      "Item1": 32000,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.37.1",
+          "zh_TW": "通過「疏通航道 Ⅳ」",
+          "zh_CN": "在「疏通航道 IV」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "38": {
+      "Id": 38,
+      "QuestGroupId": 6,
+      "QuestType": 103,
+      "QuestParam": [
+        1206,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.38.1",
+      "Item1": 82007,
+      "Qty1": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.38.1",
+          "zh_TW": "在「疏通航道 Ⅳ」中達到2星",
+          "zh_CN": "在「疏通航道 IV」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "39": {
+      "Id": 39,
+      "QuestGroupId": 6,
+      "QuestType": 103,
+      "QuestParam": [
+        1206,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.39.1",
+      "Item1": 2,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.39.1",
+          "zh_TW": "在「疏通航道 Ⅳ」中達到3星",
+          "zh_CN": "在「疏通航道 IV」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "40": {
+      "Id": 40,
+      "QuestGroupId": 7,
+      "QuestType": 102,
+      "QuestParam": [
+        1207
+      ],
+      "Desc": "TowerDefenseQuest.40.1",
+      "Item1": 32000,
+      "Qty1": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.40.1",
+          "zh_TW": "通過「暗河激戰Ⅰ」",
+          "zh_CN": "在「暗河激战 I」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "41": {
+      "Id": 41,
+      "QuestGroupId": 7,
+      "QuestType": 103,
+      "QuestParam": [
+        1207,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.41.1",
+      "Item1": 82007,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.41.1",
+          "zh_TW": "在「暗河激戰Ⅰ」中達到2星",
+          "zh_CN": "在「暗河激战 I」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "42": {
+      "Id": 42,
+      "QuestGroupId": 7,
+      "QuestType": 103,
+      "QuestParam": [
+        1207,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.42.1",
+      "Item1": 2,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.42.1",
+          "zh_TW": "在「暗河激戰Ⅰ」中達到3星",
+          "zh_CN": "在「暗河激战 I」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "43": {
+      "Id": 43,
+      "QuestGroupId": 7,
+      "QuestType": 102,
+      "QuestParam": [
+        1208
+      ],
+      "Desc": "TowerDefenseQuest.43.1",
+      "Item1": 32000,
+      "Qty1": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.43.1",
+          "zh_TW": "通過「暗河激戰Ⅱ」",
+          "zh_CN": "在「暗河激战 II」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "44": {
+      "Id": 44,
+      "QuestGroupId": 7,
+      "QuestType": 103,
+      "QuestParam": [
+        1208,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.44.1",
+      "Item1": 82007,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.44.1",
+          "zh_TW": "在「暗河激戰Ⅱ」中達到2星",
+          "zh_CN": "在「暗河激战 II」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "45": {
+      "Id": 45,
+      "QuestGroupId": 7,
+      "QuestType": 103,
+      "QuestParam": [
+        1208,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.45.1",
+      "Item1": 2,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.45.1",
+          "zh_TW": "在「暗河激戰Ⅱ」中達到3星",
+          "zh_CN": "在「暗河激战 II」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "46": {
+      "Id": 46,
+      "QuestGroupId": 8,
+      "QuestType": 102,
+      "QuestParam": [
+        1209
+      ],
+      "Desc": "TowerDefenseQuest.46.1",
+      "Item1": 32000,
+      "Qty1": 80,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.46.1",
+          "zh_TW": "通過「暗河激戰 Ⅲ」",
+          "zh_CN": "在「暗河激战 III」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "47": {
+      "Id": 47,
+      "QuestGroupId": 8,
+      "QuestType": 103,
+      "QuestParam": [
+        1209,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.47.1",
+      "Item1": 82007,
+      "Qty1": 120,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.47.1",
+          "zh_TW": "在「暗河激戰 Ⅲ」中達到2星",
+          "zh_CN": "在「暗河激战 III」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "48": {
+      "Id": 48,
+      "QuestGroupId": 8,
+      "QuestType": 103,
+      "QuestParam": [
+        1209,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.48.1",
+      "Item1": 2,
+      "Qty1": 150,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.48.1",
+          "zh_TW": "在「暗河激戰 Ⅲ」中達到3星",
+          "zh_CN": "在「暗河激战 III」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "49": {
+      "Id": 49,
+      "QuestGroupId": 8,
+      "QuestType": 102,
+      "QuestParam": [
+        1210
+      ],
+      "Desc": "TowerDefenseQuest.49.1",
+      "Item1": 32000,
+      "Qty1": 80,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.49.1",
+          "zh_TW": "通過「暗河激戰 Ⅳ」",
+          "zh_CN": "在「暗河激战 IV」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "50": {
+      "Id": 50,
+      "QuestGroupId": 8,
+      "QuestType": 103,
+      "QuestParam": [
+        1210,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.50.1",
+      "Item1": 82007,
+      "Qty1": 120,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.50.1",
+          "zh_TW": "在「暗河激戰 Ⅳ」中達到2星",
+          "zh_CN": "在「暗河激战 IV」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "51": {
+      "Id": 51,
+      "QuestGroupId": 8,
+      "QuestType": 103,
+      "QuestParam": [
+        1210,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.51.1",
+      "Item1": 2,
+      "Qty1": 150,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.51.1",
+          "zh_TW": "在「暗河激戰 Ⅳ」中達到3星",
+          "zh_CN": "在「暗河激战 IV」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "52": {
+      "Id": 52,
+      "QuestGroupId": 9,
+      "QuestType": 102,
+      "QuestParam": [
+        1301
+      ],
+      "Desc": "TowerDefenseQuest.52.1",
+      "Item1": 32000,
+      "Qty1": 20,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.52.1",
+          "zh_TW": "通過「保衛戰教學 Ⅰ」",
+          "zh_CN": "在「保卫战教程 Ⅰ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "53": {
+      "Id": 53,
+      "QuestGroupId": 9,
+      "QuestType": 102,
+      "QuestParam": [
+        1302
+      ],
+      "Desc": "TowerDefenseQuest.53.1",
+      "Item1": 33912,
+      "Qty1": 10,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.53.1",
+          "zh_TW": "通過「保衛戰教學 Ⅱ」",
+          "zh_CN": "在「保卫战教程 Ⅱ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "54": {
+      "Id": 54,
+      "QuestGroupId": 9,
+      "QuestType": 102,
+      "QuestParam": [
+        1303
+      ],
+      "Desc": "TowerDefenseQuest.54.1",
+      "Item1": 50003,
+      "Qty1": 20,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.54.1",
+          "zh_TW": "通過「溫故知新 Ⅰ」",
+          "zh_CN": "在「温故知新 Ⅰ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "55": {
+      "Id": 55,
+      "QuestGroupId": 9,
+      "QuestType": 103,
+      "QuestParam": [
+        1303,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.55.1",
+      "Item1": 32000,
+      "Qty1": 20,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.55.1",
+          "zh_TW": "在「溫故知新 Ⅰ」中達到3星",
+          "zh_CN": "在「温故知新 Ⅰ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "56": {
+      "Id": 56,
+      "QuestGroupId": 9,
+      "QuestType": 102,
+      "QuestParam": [
+        1304
+      ],
+      "Desc": "TowerDefenseQuest.56.1",
+      "Item1": 82007,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.56.1",
+          "zh_TW": "通過「溫故知新 Ⅱ」",
+          "zh_CN": "在「温故知新 Ⅱ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "57": {
+      "Id": 57,
+      "QuestGroupId": 9,
+      "QuestType": 103,
+      "QuestParam": [
+        1304,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.57.1",
+      "Item1": 33912,
+      "Qty1": 10,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.57.1",
+          "zh_TW": "在「溫故知新 Ⅱ」中達到3星",
+          "zh_CN": "在「温故知新 Ⅱ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "58": {
+      "Id": 58,
+      "QuestGroupId": 10,
+      "QuestType": 102,
+      "QuestParam": [
+        1305
+      ],
+      "Desc": "TowerDefenseQuest.58.1",
+      "Item1": 32000,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.58.1",
+          "zh_TW": "通過「鬱鬱蔥蔥 Ⅰ」",
+          "zh_CN": "在「郁郁葱葱 Ⅰ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "59": {
+      "Id": 59,
+      "QuestGroupId": 10,
+      "QuestType": 103,
+      "QuestParam": [
+        1305,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.59.1",
+      "Item1": 82007,
+      "Qty1": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.59.1",
+          "zh_TW": "在「鬱鬱蔥蔥 Ⅰ」中達到2星",
+          "zh_CN": "在「郁郁葱葱 Ⅰ」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "60": {
+      "Id": 60,
+      "QuestGroupId": 10,
+      "QuestType": 103,
+      "QuestParam": [
+        1305,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.60.1",
+      "Item1": 50003,
+      "Qty1": 20,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.60.1",
+          "zh_TW": "在「鬱鬱蔥蔥 Ⅰ」中達到3星",
+          "zh_CN": "在「郁郁葱葱 Ⅰ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "61": {
+      "Id": 61,
+      "QuestGroupId": 10,
+      "QuestType": 102,
+      "QuestParam": [
+        1306
+      ],
+      "Desc": "TowerDefenseQuest.61.1",
+      "Item1": 32000,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.61.1",
+          "zh_TW": "通過「鬱鬱蔥蔥 Ⅱ」",
+          "zh_CN": "在「郁郁葱葱 Ⅱ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "62": {
+      "Id": 62,
+      "QuestGroupId": 10,
+      "QuestType": 103,
+      "QuestParam": [
+        1306,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.62.1",
+      "Item1": 82007,
+      "Qty1": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.62.1",
+          "zh_TW": "在「鬱鬱蔥蔥 Ⅱ」中達到2星",
+          "zh_CN": "在「郁郁葱葱 Ⅱ」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "63": {
+      "Id": 63,
+      "QuestGroupId": 10,
+      "QuestType": 103,
+      "QuestParam": [
+        1306,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.63.1",
+      "Item1": 50004,
+      "Qty1": 20,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.63.1",
+          "zh_TW": "在「鬱鬱蔥蔥 Ⅱ」中達到3星",
+          "zh_CN": "在「郁郁葱葱 Ⅱ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "64": {
+      "Id": 64,
+      "QuestGroupId": 11,
+      "QuestType": 102,
+      "QuestParam": [
+        1307
+      ],
+      "Desc": "TowerDefenseQuest.64.1",
+      "Item1": 32000,
+      "Qty1": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.64.1",
+          "zh_TW": "通過「枝蔓叢生 Ⅰ」",
+          "zh_CN": "在「枝蔓丛生 Ⅰ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "65": {
+      "Id": 65,
+      "QuestGroupId": 11,
+      "QuestType": 103,
+      "QuestParam": [
+        1307,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.65.1",
+      "Item1": 82007,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.65.1",
+          "zh_TW": "在「枝蔓叢生 Ⅰ」中達到2星",
+          "zh_CN": "在「枝蔓丛生 Ⅰ」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "66": {
+      "Id": 66,
+      "QuestGroupId": 11,
+      "QuestType": 103,
+      "QuestParam": [
+        1307,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.66.1",
+      "Item1": 2,
+      "Qty1": 200,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.66.1",
+          "zh_TW": "在「枝蔓叢生 Ⅰ」中達到3星",
+          "zh_CN": "在「枝蔓丛生 Ⅰ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "67": {
+      "Id": 67,
+      "QuestGroupId": 11,
+      "QuestType": 102,
+      "QuestParam": [
+        1308
+      ],
+      "Desc": "TowerDefenseQuest.67.1",
+      "Item1": 32000,
+      "Qty1": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.67.1",
+          "zh_TW": "通過「枝蔓叢生 Ⅱ」",
+          "zh_CN": "在「枝蔓丛生 Ⅱ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "68": {
+      "Id": 68,
+      "QuestGroupId": 11,
+      "QuestType": 103,
+      "QuestParam": [
+        1308,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.68.1",
+      "Item1": 82007,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.68.1",
+          "zh_TW": "在「枝蔓叢生 Ⅱ」中達到2星",
+          "zh_CN": "在「枝蔓丛生 Ⅱ」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "69": {
+      "Id": 69,
+      "QuestGroupId": 11,
+      "QuestType": 103,
+      "QuestParam": [
+        1308,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.69.1",
+      "Item1": 2,
+      "Qty1": 200,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.69.1",
+          "zh_TW": "在「枝蔓叢生 Ⅱ」中達到3星",
+          "zh_CN": "在「枝蔓丛生 Ⅱ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "70": {
+      "Id": 70,
+      "QuestGroupId": 12,
+      "QuestType": 102,
+      "QuestParam": [
+        1309
+      ],
+      "Desc": "TowerDefenseQuest.70.1",
+      "Item1": 32000,
+      "Qty1": 80,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.70.1",
+          "zh_TW": "通過「水草豐茂 Ⅰ」",
+          "zh_CN": "在「水草丰茂 Ⅰ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "71": {
+      "Id": 71,
+      "QuestGroupId": 12,
+      "QuestType": 103,
+      "QuestParam": [
+        1309,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.71.1",
+      "Item1": 82007,
+      "Qty1": 120,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.71.1",
+          "zh_TW": "在「水草豐茂 Ⅰ」中達到2星",
+          "zh_CN": "在「水草丰茂 Ⅰ」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "72": {
+      "Id": 72,
+      "QuestGroupId": 12,
+      "QuestType": 103,
+      "QuestParam": [
+        1309,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.72.1",
+      "Item1": 2,
+      "Qty1": 200,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.72.1",
+          "zh_TW": "在「水草豐茂 Ⅰ」中達到3星",
+          "zh_CN": "在「水草丰茂 Ⅰ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "73": {
+      "Id": 73,
+      "QuestGroupId": 12,
+      "QuestType": 102,
+      "QuestParam": [
+        1310
+      ],
+      "Desc": "TowerDefenseQuest.73.1",
+      "Item1": 32000,
+      "Qty1": 80,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.73.1",
+          "zh_TW": "通過「水草豐茂 Ⅱ」",
+          "zh_CN": "在「水草丰茂 Ⅱ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "74": {
+      "Id": 74,
+      "QuestGroupId": 12,
+      "QuestType": 103,
+      "QuestParam": [
+        1310,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.74.1",
+      "Item1": 82007,
+      "Qty1": 120,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.74.1",
+          "zh_TW": "在「水草豐茂 Ⅱ」中達到2星",
+          "zh_CN": "在「水草丰茂 Ⅱ」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "75": {
+      "Id": 75,
+      "QuestGroupId": 12,
+      "QuestType": 103,
+      "QuestParam": [
+        1310,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.75.1",
+      "Item1": 2,
+      "Qty1": 200,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.75.1",
+          "zh_TW": "在「水草豐茂 Ⅱ」中達到3星",
+          "zh_CN": "在「水草丰茂 Ⅱ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "76": {
+      "Id": 76,
+      "QuestGroupId": 13,
+      "QuestType": 102,
+      "QuestParam": [
+        1401
+      ],
+      "Desc": "TowerDefenseQuest.76.1",
+      "Item1": 32000,
+      "Qty1": 20,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.76.1",
+          "zh_TW": "通過「保衛戰教學 Ⅰ」",
+          "zh_CN": "在「保卫战教程 Ⅰ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "77": {
+      "Id": 77,
+      "QuestGroupId": 13,
+      "QuestType": 102,
+      "QuestParam": [
+        1402
+      ],
+      "Desc": "TowerDefenseQuest.77.1",
+      "Item1": 33912,
+      "Qty1": 10,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.77.1",
+          "zh_TW": "通過「保衛戰教學 Ⅱ」",
+          "zh_CN": "在「保卫战教程 Ⅱ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "78": {
+      "Id": 78,
+      "QuestGroupId": 13,
+      "QuestType": 102,
+      "QuestParam": [
+        1403
+      ],
+      "Desc": "TowerDefenseQuest.78.1",
+      "Item1": 50003,
+      "Qty1": 20,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.78.1",
+          "zh_TW": "通過「炎熱荒漠 Ⅰ」",
+          "zh_CN": "在「炎热荒漠 Ⅰ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "79": {
+      "Id": 79,
+      "QuestGroupId": 13,
+      "QuestType": 103,
+      "QuestParam": [
+        1403,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.79.1",
+      "Item1": 32000,
+      "Qty1": 20,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.79.1",
+          "zh_TW": "在「炎熱荒漠 Ⅰ」中達到3星",
+          "zh_CN": "在「炎热荒漠 Ⅰ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "80": {
+      "Id": 80,
+      "QuestGroupId": 13,
+      "QuestType": 102,
+      "QuestParam": [
+        1404
+      ],
+      "Desc": "TowerDefenseQuest.80.1",
+      "Item1": 82007,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.80.1",
+          "zh_TW": "通過「炎熱荒漠 Ⅱ」",
+          "zh_CN": "在「炎热荒漠 Ⅱ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "81": {
+      "Id": 81,
+      "QuestGroupId": 13,
+      "QuestType": 103,
+      "QuestParam": [
+        1404,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.81.1",
+      "Item1": 33912,
+      "Qty1": 10,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.81.1",
+          "zh_TW": "在「炎熱荒漠 Ⅱ」中達到3星",
+          "zh_CN": "在「炎热荒漠 Ⅱ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "82": {
+      "Id": 82,
+      "QuestGroupId": 14,
+      "QuestType": 102,
+      "QuestParam": [
+        1405
+      ],
+      "Desc": "TowerDefenseQuest.82.1",
+      "Item1": 32000,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.82.1",
+          "zh_TW": "通過「炎熱荒漠 Ⅲ」",
+          "zh_CN": "在「炎热荒漠 Ⅲ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "83": {
+      "Id": 83,
+      "QuestGroupId": 14,
+      "QuestType": 103,
+      "QuestParam": [
+        1405,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.83.1",
+      "Item1": 82007,
+      "Qty1": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.83.1",
+          "zh_TW": "在「炎熱荒漠 Ⅲ」中達到2星",
+          "zh_CN": "在「炎热荒漠 Ⅲ」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "84": {
+      "Id": 84,
+      "QuestGroupId": 14,
+      "QuestType": 103,
+      "QuestParam": [
+        1405,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.84.1",
+      "Item1": 50003,
+      "Qty1": 20,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.84.1",
+          "zh_TW": "在「炎熱荒漠 Ⅲ」中達到3星",
+          "zh_CN": "在「炎热荒漠 Ⅲ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "85": {
+      "Id": 85,
+      "QuestGroupId": 14,
+      "QuestType": 102,
+      "QuestParam": [
+        1406
+      ],
+      "Desc": "TowerDefenseQuest.85.1",
+      "Item1": 32000,
+      "Qty1": 40,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.85.1",
+          "zh_TW": "通過「炎熱荒漠 Ⅳ」",
+          "zh_CN": "在「炎热荒漠 Ⅳ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "86": {
+      "Id": 86,
+      "QuestGroupId": 14,
+      "QuestType": 103,
+      "QuestParam": [
+        1406,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.86.1",
+      "Item1": 82007,
+      "Qty1": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.86.1",
+          "zh_TW": "在「炎熱荒漠 Ⅳ」中達到2星",
+          "zh_CN": "在「炎热荒漠 Ⅳ」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "87": {
+      "Id": 87,
+      "QuestGroupId": 14,
+      "QuestType": 103,
+      "QuestParam": [
+        1406,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.87.1",
+      "Item1": 50004,
+      "Qty1": 20,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.87.1",
+          "zh_TW": "在「炎熱荒漠 Ⅳ」中達到3星",
+          "zh_CN": "在「炎热荒漠 Ⅳ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "88": {
+      "Id": 88,
+      "QuestGroupId": 15,
+      "QuestType": 102,
+      "QuestParam": [
+        1407
+      ],
+      "Desc": "TowerDefenseQuest.88.1",
+      "Item1": 32000,
+      "Qty1": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.88.1",
+          "zh_TW": "通過「乾枯河道 Ⅰ」",
+          "zh_CN": "在「干枯河道 Ⅰ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "89": {
+      "Id": 89,
+      "QuestGroupId": 15,
+      "QuestType": 103,
+      "QuestParam": [
+        1407,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.89.1",
+      "Item1": 82007,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.89.1",
+          "zh_TW": "在「乾枯河道 Ⅰ」中達到2星",
+          "zh_CN": "在「干枯河道 Ⅰ」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "90": {
+      "Id": 90,
+      "QuestGroupId": 15,
+      "QuestType": 103,
+      "QuestParam": [
+        1407,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.90.1",
+      "Item1": 2,
+      "Qty1": 200,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.90.1",
+          "zh_TW": "在「乾枯河道 Ⅰ」中達到3星",
+          "zh_CN": "在「干枯河道 Ⅰ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "91": {
+      "Id": 91,
+      "QuestGroupId": 15,
+      "QuestType": 102,
+      "QuestParam": [
+        1408
+      ],
+      "Desc": "TowerDefenseQuest.91.1",
+      "Item1": 32000,
+      "Qty1": 60,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.91.1",
+          "zh_TW": "通過「乾枯河道 Ⅱ」",
+          "zh_CN": "在「干枯河道 Ⅱ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "92": {
+      "Id": 92,
+      "QuestGroupId": 15,
+      "QuestType": 103,
+      "QuestParam": [
+        1408,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.92.1",
+      "Item1": 82007,
+      "Qty1": 100,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.92.1",
+          "zh_TW": "在「乾枯河道 Ⅱ」中達到2星",
+          "zh_CN": "在「干枯河道 Ⅱ」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "93": {
+      "Id": 93,
+      "QuestGroupId": 15,
+      "QuestType": 103,
+      "QuestParam": [
+        1408,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.93.1",
+      "Item1": 2,
+      "Qty1": 200,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.93.1",
+          "zh_TW": "在「乾枯河道 Ⅱ」中達到3星",
+          "zh_CN": "在「干枯河道 Ⅱ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "94": {
+      "Id": 94,
+      "QuestGroupId": 16,
+      "QuestType": 102,
+      "QuestParam": [
+        1409
+      ],
+      "Desc": "TowerDefenseQuest.94.1",
+      "Item1": 32000,
+      "Qty1": 80,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.94.1",
+          "zh_TW": "通過「烈焰對決 Ⅰ」",
+          "zh_CN": "在「烈焰对决 Ⅰ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "95": {
+      "Id": 95,
+      "QuestGroupId": 16,
+      "QuestType": 103,
+      "QuestParam": [
+        1409,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.95.1",
+      "Item1": 82007,
+      "Qty1": 120,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.95.1",
+          "zh_TW": "在「烈焰對決 Ⅰ」中達到2星",
+          "zh_CN": "在「烈焰对决 Ⅰ」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "96": {
+      "Id": 96,
+      "QuestGroupId": 16,
+      "QuestType": 103,
+      "QuestParam": [
+        1409,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.96.1",
+      "Item1": 2,
+      "Qty1": 200,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.96.1",
+          "zh_TW": "在「烈焰對決 Ⅰ」中達到3星",
+          "zh_CN": "在「烈焰对决 Ⅰ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "97": {
+      "Id": 97,
+      "QuestGroupId": 16,
+      "QuestType": 102,
+      "QuestParam": [
+        1410
+      ],
+      "Desc": "TowerDefenseQuest.97.1",
+      "Item1": 32000,
+      "Qty1": 80,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.97.1",
+          "zh_TW": "通過「烈焰對決 Ⅱ」",
+          "zh_CN": "在「烈焰对决 Ⅱ」中通关",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "98": {
+      "Id": 98,
+      "QuestGroupId": 16,
+      "QuestType": 103,
+      "QuestParam": [
+        1410,
+        2
+      ],
+      "Desc": "TowerDefenseQuest.98.1",
+      "Item1": 82007,
+      "Qty1": 120,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.98.1",
+          "zh_TW": "在「烈焰對決 Ⅱ」中達到2星",
+          "zh_CN": "在「烈焰对决 Ⅱ」中达到2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    },
+    "99": {
+      "Id": 99,
+      "QuestGroupId": 16,
+      "QuestType": 103,
+      "QuestParam": [
+        1410,
+        3
+      ],
+      "Desc": "TowerDefenseQuest.99.1",
+      "Item1": 2,
+      "Qty1": 200,
+      "_localized": {
+        "/Desc": {
+          "key": "TowerDefenseQuest.99.1",
+          "zh_TW": "在「烈焰對決 Ⅱ」中達到3星",
+          "zh_CN": "在「烈焰对决 Ⅱ」中达到3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TowerDefenseQuest.json",
+            "zh_CN": "language/zh_CN/TowerDefenseQuest.json"
+          }
+        }
+      }
+    }
+  }
+}

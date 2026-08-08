@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SoldierQuestGroup",
+    "categories": [
+      "quests",
+      "stages_modes"
+    ],
+    "row_count": 2,
+    "localization_hits": 2,
+    "source": "bin/SoldierQuestGroup.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "GroupId": 101,
+      "Des": "SoldierQuestGroup.101.1",
+      "_localized": {
+        "/Des": {
+          "key": "SoldierQuestGroup.101.1",
+          "zh_TW": "第一週",
+          "zh_CN": "第一周",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierQuestGroup.json",
+            "zh_CN": "language/zh_CN/SoldierQuestGroup.json"
+          }
+        }
+      }
+    },
+    "102": {
+      "Id": 102,
+      "GroupId": 102,
+      "OpenDay": 6,
+      "Des": "SoldierQuestGroup.102.1",
+      "_localized": {
+        "/Des": {
+          "key": "SoldierQuestGroup.102.1",
+          "zh_TW": "第二週",
+          "zh_CN": "第二周",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierQuestGroup.json",
+            "zh_CN": "language/zh_CN/SoldierQuestGroup.json"
+          }
+        }
+      }
+    }
+  }
+}

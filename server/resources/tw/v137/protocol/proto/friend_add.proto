@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message FriendAddReq {
+  uint64 UId = 1;
+  bytes NextPackage = 2047;
+}

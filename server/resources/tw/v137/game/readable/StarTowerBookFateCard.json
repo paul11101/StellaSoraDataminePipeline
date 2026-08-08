@@ -1,0 +1,3995 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "StarTowerBookFateCard",
+    "categories": [
+      "discs",
+      "stages_modes"
+    ],
+    "row_count": 234,
+    "localization_hits": 234,
+    "source": "bin/StarTowerBookFateCard.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "98001": {
+      "Id": 98001,
+      "BundleId": 101,
+      "SortId": 1,
+      "Source": "StarTowerBookFateCard.98001.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98001.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98002": {
+      "Id": 98002,
+      "BundleId": 101,
+      "SortId": 2,
+      "Source": "StarTowerBookFateCard.98002.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98002.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98003": {
+      "Id": 98003,
+      "BundleId": 101,
+      "SortId": 3,
+      "Source": "StarTowerBookFateCard.98003.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98003.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98004": {
+      "Id": 98004,
+      "BundleId": 101,
+      "SortId": 4,
+      "Source": "StarTowerBookFateCard.98004.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98004.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98005": {
+      "Id": 98005,
+      "BundleId": 101,
+      "SortId": 5,
+      "Source": "StarTowerBookFateCard.98005.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98005.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98006": {
+      "Id": 98006,
+      "BundleId": 101,
+      "SortId": 6,
+      "Source": "StarTowerBookFateCard.98006.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98006.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98007": {
+      "Id": 98007,
+      "BundleId": 101,
+      "SortId": 7,
+      "Source": "StarTowerBookFateCard.98007.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98007.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98008": {
+      "Id": 98008,
+      "BundleId": 101,
+      "SortId": 8,
+      "Source": "StarTowerBookFateCard.98008.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98008.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98009": {
+      "Id": 98009,
+      "BundleId": 101,
+      "SortId": 9,
+      "Source": "StarTowerBookFateCard.98009.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98009.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98010": {
+      "Id": 98010,
+      "BundleId": 101,
+      "SortId": 10,
+      "Source": "StarTowerBookFateCard.98010.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98010.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98011": {
+      "Id": 98011,
+      "BundleId": 101,
+      "SortId": 11,
+      "Source": "StarTowerBookFateCard.98011.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98011.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98012": {
+      "Id": 98012,
+      "BundleId": 101,
+      "SortId": 12,
+      "Source": "StarTowerBookFateCard.98012.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98012.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98013": {
+      "Id": 98013,
+      "BundleId": 101,
+      "SortId": 13,
+      "Source": "StarTowerBookFateCard.98013.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98013.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98014": {
+      "Id": 98014,
+      "BundleId": 101,
+      "SortId": 14,
+      "Source": "StarTowerBookFateCard.98014.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98014.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98015": {
+      "Id": 98015,
+      "BundleId": 101,
+      "SortId": 15,
+      "Source": "StarTowerBookFateCard.98015.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98015.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98016": {
+      "Id": 98016,
+      "BundleId": 101,
+      "SortId": 16,
+      "Source": "StarTowerBookFateCard.98016.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98016.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98017": {
+      "Id": 98017,
+      "BundleId": 101,
+      "SortId": 17,
+      "Source": "StarTowerBookFateCard.98017.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98017.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98018": {
+      "Id": 98018,
+      "BundleId": 101,
+      "SortId": 18,
+      "Source": "StarTowerBookFateCard.98018.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98018.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98019": {
+      "Id": 98019,
+      "BundleId": 101,
+      "SortId": 19,
+      "Source": "StarTowerBookFateCard.98019.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98019.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98020": {
+      "Id": 98020,
+      "BundleId": 101,
+      "SortId": 20,
+      "Source": "StarTowerBookFateCard.98020.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98020.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98021": {
+      "Id": 98021,
+      "BundleId": 101,
+      "SortId": 21,
+      "Source": "StarTowerBookFateCard.98021.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98021.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98022": {
+      "Id": 98022,
+      "BundleId": 101,
+      "SortId": 22,
+      "Source": "StarTowerBookFateCard.98022.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98022.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98023": {
+      "Id": 98023,
+      "BundleId": 101,
+      "SortId": 23,
+      "Source": "StarTowerBookFateCard.98023.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98023.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98024": {
+      "Id": 98024,
+      "BundleId": 101,
+      "SortId": 24,
+      "Source": "StarTowerBookFateCard.98024.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98024.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98025": {
+      "Id": 98025,
+      "BundleId": 101,
+      "SortId": 25,
+      "Source": "StarTowerBookFateCard.98025.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98025.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98026": {
+      "Id": 98026,
+      "BundleId": 101,
+      "SortId": 26,
+      "Source": "StarTowerBookFateCard.98026.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98026.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98027": {
+      "Id": 98027,
+      "BundleId": 101,
+      "SortId": 27,
+      "Source": "StarTowerBookFateCard.98027.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98027.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98028": {
+      "Id": 98028,
+      "BundleId": 101,
+      "SortId": 28,
+      "Source": "StarTowerBookFateCard.98028.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98028.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98029": {
+      "Id": 98029,
+      "BundleId": 101,
+      "SortId": 29,
+      "Source": "StarTowerBookFateCard.98029.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98029.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98030": {
+      "Id": 98030,
+      "BundleId": 101,
+      "SortId": 30,
+      "Source": "StarTowerBookFateCard.98030.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98030.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98031": {
+      "Id": 98031,
+      "BundleId": 101,
+      "SortId": 31,
+      "Source": "StarTowerBookFateCard.98031.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98031.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98032": {
+      "Id": 98032,
+      "BundleId": 101,
+      "SortId": 32,
+      "Source": "StarTowerBookFateCard.98032.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98032.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98033": {
+      "Id": 98033,
+      "BundleId": 101,
+      "SortId": 33,
+      "Source": "StarTowerBookFateCard.98033.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98033.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98034": {
+      "Id": 98034,
+      "BundleId": 101,
+      "SortId": 34,
+      "Source": "StarTowerBookFateCard.98034.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98034.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98035": {
+      "Id": 98035,
+      "BundleId": 101,
+      "SortId": 35,
+      "Source": "StarTowerBookFateCard.98035.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98035.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98036": {
+      "Id": 98036,
+      "BundleId": 101,
+      "SortId": 36,
+      "Source": "StarTowerBookFateCard.98036.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98036.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98037": {
+      "Id": 98037,
+      "BundleId": 101,
+      "SortId": 37,
+      "Source": "StarTowerBookFateCard.98037.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98037.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98038": {
+      "Id": 98038,
+      "BundleId": 101,
+      "SortId": 38,
+      "Source": "StarTowerBookFateCard.98038.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98038.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98039": {
+      "Id": 98039,
+      "BundleId": 101,
+      "SortId": 39,
+      "Source": "StarTowerBookFateCard.98039.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98039.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98040": {
+      "Id": 98040,
+      "BundleId": 101,
+      "SortId": 40,
+      "Source": "StarTowerBookFateCard.98040.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98040.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98201": {
+      "Id": 98201,
+      "BundleId": 101,
+      "SortId": 71,
+      "Source": "StarTowerBookFateCard.98201.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98201.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98202": {
+      "Id": 98202,
+      "BundleId": 101,
+      "SortId": 72,
+      "Source": "StarTowerBookFateCard.98202.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98202.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98203": {
+      "Id": 98203,
+      "BundleId": 101,
+      "SortId": 73,
+      "Source": "StarTowerBookFateCard.98203.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98203.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98204": {
+      "Id": 98204,
+      "BundleId": 101,
+      "SortId": 74,
+      "Source": "StarTowerBookFateCard.98204.1",
+      "IsBanned": true,
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98204.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98061": {
+      "Id": 98061,
+      "BundleId": 201,
+      "SortId": 1,
+      "Source": "StarTowerBookFateCard.98061.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98061.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98062": {
+      "Id": 98062,
+      "BundleId": 201,
+      "SortId": 2,
+      "Source": "StarTowerBookFateCard.98062.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98062.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98063": {
+      "Id": 98063,
+      "BundleId": 201,
+      "SortId": 3,
+      "Source": "StarTowerBookFateCard.98063.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98063.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98064": {
+      "Id": 98064,
+      "BundleId": 201,
+      "SortId": 4,
+      "Source": "StarTowerBookFateCard.98064.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98064.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98065": {
+      "Id": 98065,
+      "BundleId": 201,
+      "SortId": 5,
+      "Source": "StarTowerBookFateCard.98065.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98065.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98066": {
+      "Id": 98066,
+      "BundleId": 201,
+      "SortId": 6,
+      "Source": "StarTowerBookFateCard.98066.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98066.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98067": {
+      "Id": 98067,
+      "BundleId": 201,
+      "SortId": 7,
+      "Source": "StarTowerBookFateCard.98067.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98067.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98068": {
+      "Id": 98068,
+      "BundleId": 201,
+      "SortId": 8,
+      "Source": "StarTowerBookFateCard.98068.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98068.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98069": {
+      "Id": 98069,
+      "BundleId": 201,
+      "SortId": 9,
+      "Source": "StarTowerBookFateCard.98069.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98069.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98070": {
+      "Id": 98070,
+      "BundleId": 201,
+      "SortId": 10,
+      "Source": "StarTowerBookFateCard.98070.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98070.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98081": {
+      "Id": 98081,
+      "BundleId": 202,
+      "SortId": 11,
+      "Source": "StarTowerBookFateCard.98081.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98081.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98082": {
+      "Id": 98082,
+      "BundleId": 202,
+      "SortId": 12,
+      "Source": "StarTowerBookFateCard.98082.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98082.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98083": {
+      "Id": 98083,
+      "BundleId": 202,
+      "SortId": 13,
+      "Source": "StarTowerBookFateCard.98083.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98083.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98084": {
+      "Id": 98084,
+      "BundleId": 202,
+      "SortId": 14,
+      "Source": "StarTowerBookFateCard.98084.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98084.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98085": {
+      "Id": 98085,
+      "BundleId": 202,
+      "SortId": 15,
+      "Source": "StarTowerBookFateCard.98085.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98085.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98086": {
+      "Id": 98086,
+      "BundleId": 202,
+      "SortId": 16,
+      "Source": "StarTowerBookFateCard.98086.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98086.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98087": {
+      "Id": 98087,
+      "BundleId": 202,
+      "SortId": 17,
+      "Source": "StarTowerBookFateCard.98087.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98087.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98088": {
+      "Id": 98088,
+      "BundleId": 202,
+      "SortId": 18,
+      "Source": "StarTowerBookFateCard.98088.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98088.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98089": {
+      "Id": 98089,
+      "BundleId": 202,
+      "SortId": 19,
+      "Source": "StarTowerBookFateCard.98089.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98089.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98090": {
+      "Id": 98090,
+      "BundleId": 202,
+      "SortId": 20,
+      "Source": "StarTowerBookFateCard.98090.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98090.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98101": {
+      "Id": 98101,
+      "BundleId": 203,
+      "SortId": 21,
+      "Source": "StarTowerBookFateCard.98101.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98101.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98102": {
+      "Id": 98102,
+      "BundleId": 203,
+      "SortId": 22,
+      "Source": "StarTowerBookFateCard.98102.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98102.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98103": {
+      "Id": 98103,
+      "BundleId": 203,
+      "SortId": 23,
+      "Source": "StarTowerBookFateCard.98103.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98103.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98104": {
+      "Id": 98104,
+      "BundleId": 203,
+      "SortId": 24,
+      "Source": "StarTowerBookFateCard.98104.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98104.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98105": {
+      "Id": 98105,
+      "BundleId": 203,
+      "SortId": 25,
+      "Source": "StarTowerBookFateCard.98105.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98105.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98106": {
+      "Id": 98106,
+      "BundleId": 203,
+      "SortId": 26,
+      "Source": "StarTowerBookFateCard.98106.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98106.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98107": {
+      "Id": 98107,
+      "BundleId": 203,
+      "SortId": 27,
+      "Source": "StarTowerBookFateCard.98107.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98107.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98108": {
+      "Id": 98108,
+      "BundleId": 203,
+      "SortId": 28,
+      "Source": "StarTowerBookFateCard.98108.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98108.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98109": {
+      "Id": 98109,
+      "BundleId": 203,
+      "SortId": 29,
+      "Source": "StarTowerBookFateCard.98109.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98109.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98110": {
+      "Id": 98110,
+      "BundleId": 203,
+      "SortId": 30,
+      "Source": "StarTowerBookFateCard.98110.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98110.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98121": {
+      "Id": 98121,
+      "BundleId": 204,
+      "SortId": 31,
+      "Source": "StarTowerBookFateCard.98121.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98121.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98122": {
+      "Id": 98122,
+      "BundleId": 204,
+      "SortId": 32,
+      "Source": "StarTowerBookFateCard.98122.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98122.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98123": {
+      "Id": 98123,
+      "BundleId": 204,
+      "SortId": 33,
+      "Source": "StarTowerBookFateCard.98123.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98123.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98124": {
+      "Id": 98124,
+      "BundleId": 204,
+      "SortId": 34,
+      "Source": "StarTowerBookFateCard.98124.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98124.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98125": {
+      "Id": 98125,
+      "BundleId": 204,
+      "SortId": 35,
+      "Source": "StarTowerBookFateCard.98125.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98125.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98126": {
+      "Id": 98126,
+      "BundleId": 204,
+      "SortId": 36,
+      "Source": "StarTowerBookFateCard.98126.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98126.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98127": {
+      "Id": 98127,
+      "BundleId": 204,
+      "SortId": 37,
+      "Source": "StarTowerBookFateCard.98127.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98127.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98128": {
+      "Id": 98128,
+      "BundleId": 204,
+      "SortId": 38,
+      "Source": "StarTowerBookFateCard.98128.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98128.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98129": {
+      "Id": 98129,
+      "BundleId": 204,
+      "SortId": 39,
+      "Source": "StarTowerBookFateCard.98129.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98129.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98130": {
+      "Id": 98130,
+      "BundleId": 204,
+      "SortId": 40,
+      "Source": "StarTowerBookFateCard.98130.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98130.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98141": {
+      "Id": 98141,
+      "BundleId": 205,
+      "SortId": 41,
+      "Source": "StarTowerBookFateCard.98141.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98141.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98142": {
+      "Id": 98142,
+      "BundleId": 205,
+      "SortId": 42,
+      "Source": "StarTowerBookFateCard.98142.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98142.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98143": {
+      "Id": 98143,
+      "BundleId": 205,
+      "SortId": 43,
+      "Source": "StarTowerBookFateCard.98143.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98143.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98144": {
+      "Id": 98144,
+      "BundleId": 205,
+      "SortId": 44,
+      "Source": "StarTowerBookFateCard.98144.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98144.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98145": {
+      "Id": 98145,
+      "BundleId": 205,
+      "SortId": 45,
+      "Source": "StarTowerBookFateCard.98145.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98145.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98146": {
+      "Id": 98146,
+      "BundleId": 205,
+      "SortId": 46,
+      "Source": "StarTowerBookFateCard.98146.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98146.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98147": {
+      "Id": 98147,
+      "BundleId": 205,
+      "SortId": 47,
+      "Source": "StarTowerBookFateCard.98147.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98147.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98148": {
+      "Id": 98148,
+      "BundleId": 205,
+      "SortId": 48,
+      "Source": "StarTowerBookFateCard.98148.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98148.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98149": {
+      "Id": 98149,
+      "BundleId": 205,
+      "SortId": 49,
+      "Source": "StarTowerBookFateCard.98149.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98149.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98150": {
+      "Id": 98150,
+      "BundleId": 205,
+      "SortId": 50,
+      "Source": "StarTowerBookFateCard.98150.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98150.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98161": {
+      "Id": 98161,
+      "BundleId": 206,
+      "SortId": 51,
+      "Source": "StarTowerBookFateCard.98161.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98161.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98162": {
+      "Id": 98162,
+      "BundleId": 206,
+      "SortId": 52,
+      "Source": "StarTowerBookFateCard.98162.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98162.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98163": {
+      "Id": 98163,
+      "BundleId": 206,
+      "SortId": 53,
+      "Source": "StarTowerBookFateCard.98163.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98163.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98164": {
+      "Id": 98164,
+      "BundleId": 206,
+      "SortId": 54,
+      "Source": "StarTowerBookFateCard.98164.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98164.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98165": {
+      "Id": 98165,
+      "BundleId": 206,
+      "SortId": 55,
+      "Source": "StarTowerBookFateCard.98165.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98165.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98166": {
+      "Id": 98166,
+      "BundleId": 206,
+      "SortId": 56,
+      "Source": "StarTowerBookFateCard.98166.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98166.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98167": {
+      "Id": 98167,
+      "BundleId": 206,
+      "SortId": 57,
+      "Source": "StarTowerBookFateCard.98167.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98167.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98168": {
+      "Id": 98168,
+      "BundleId": 206,
+      "SortId": 58,
+      "Source": "StarTowerBookFateCard.98168.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98168.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98169": {
+      "Id": 98169,
+      "BundleId": 206,
+      "SortId": 59,
+      "Source": "StarTowerBookFateCard.98169.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98169.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98170": {
+      "Id": 98170,
+      "BundleId": 206,
+      "SortId": 60,
+      "Source": "StarTowerBookFateCard.98170.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98170.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98181": {
+      "Id": 98181,
+      "BundleId": 207,
+      "SortId": 61,
+      "Source": "StarTowerBookFateCard.98181.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98181.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98182": {
+      "Id": 98182,
+      "BundleId": 207,
+      "SortId": 62,
+      "Source": "StarTowerBookFateCard.98182.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98182.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98183": {
+      "Id": 98183,
+      "BundleId": 207,
+      "SortId": 63,
+      "Source": "StarTowerBookFateCard.98183.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98183.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98184": {
+      "Id": 98184,
+      "BundleId": 207,
+      "SortId": 64,
+      "Source": "StarTowerBookFateCard.98184.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98184.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98185": {
+      "Id": 98185,
+      "BundleId": 207,
+      "SortId": 65,
+      "Source": "StarTowerBookFateCard.98185.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98185.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98186": {
+      "Id": 98186,
+      "BundleId": 207,
+      "SortId": 66,
+      "Source": "StarTowerBookFateCard.98186.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98186.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98187": {
+      "Id": 98187,
+      "BundleId": 207,
+      "SortId": 67,
+      "Source": "StarTowerBookFateCard.98187.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98187.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98188": {
+      "Id": 98188,
+      "BundleId": 207,
+      "SortId": 68,
+      "Source": "StarTowerBookFateCard.98188.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98188.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98189": {
+      "Id": 98189,
+      "BundleId": 207,
+      "SortId": 69,
+      "Source": "StarTowerBookFateCard.98189.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98189.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98190": {
+      "Id": 98190,
+      "BundleId": 207,
+      "SortId": 70,
+      "Source": "StarTowerBookFateCard.98190.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98190.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98701": {
+      "Id": 98701,
+      "BundleId": 301,
+      "SortId": 1,
+      "Source": "StarTowerBookFateCard.98701.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98701.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98702": {
+      "Id": 98702,
+      "BundleId": 301,
+      "SortId": 2,
+      "Source": "StarTowerBookFateCard.98702.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98702.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98703": {
+      "Id": 98703,
+      "BundleId": 301,
+      "SortId": 3,
+      "Source": "StarTowerBookFateCard.98703.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98703.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98704": {
+      "Id": 98704,
+      "BundleId": 301,
+      "SortId": 4,
+      "Source": "StarTowerBookFateCard.98704.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98704.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98705": {
+      "Id": 98705,
+      "BundleId": 301,
+      "SortId": 5,
+      "Source": "StarTowerBookFateCard.98705.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98705.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98706": {
+      "Id": 98706,
+      "BundleId": 301,
+      "SortId": 6,
+      "Source": "StarTowerBookFateCard.98706.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98706.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98707": {
+      "Id": 98707,
+      "BundleId": 301,
+      "SortId": 7,
+      "Source": "StarTowerBookFateCard.98707.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98707.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98708": {
+      "Id": 98708,
+      "BundleId": 301,
+      "SortId": 8,
+      "Source": "StarTowerBookFateCard.98708.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98708.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98709": {
+      "Id": 98709,
+      "BundleId": 301,
+      "SortId": 9,
+      "Source": "StarTowerBookFateCard.98709.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98709.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98710": {
+      "Id": 98710,
+      "BundleId": 301,
+      "SortId": 10,
+      "Source": "StarTowerBookFateCard.98710.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98710.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98731": {
+      "Id": 98731,
+      "BundleId": 302,
+      "SortId": 1,
+      "Source": "StarTowerBookFateCard.98731.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98731.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98732": {
+      "Id": 98732,
+      "BundleId": 302,
+      "SortId": 2,
+      "Source": "StarTowerBookFateCard.98732.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98732.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98733": {
+      "Id": 98733,
+      "BundleId": 302,
+      "SortId": 3,
+      "Source": "StarTowerBookFateCard.98733.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98733.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98734": {
+      "Id": 98734,
+      "BundleId": 302,
+      "SortId": 4,
+      "Source": "StarTowerBookFateCard.98734.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98734.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98735": {
+      "Id": 98735,
+      "BundleId": 302,
+      "SortId": 5,
+      "Source": "StarTowerBookFateCard.98735.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98735.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98736": {
+      "Id": 98736,
+      "BundleId": 302,
+      "SortId": 6,
+      "Source": "StarTowerBookFateCard.98736.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98736.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98737": {
+      "Id": 98737,
+      "BundleId": 302,
+      "SortId": 7,
+      "Source": "StarTowerBookFateCard.98737.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98737.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98738": {
+      "Id": 98738,
+      "BundleId": 302,
+      "SortId": 8,
+      "Source": "StarTowerBookFateCard.98738.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98738.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98739": {
+      "Id": 98739,
+      "BundleId": 302,
+      "SortId": 9,
+      "Source": "StarTowerBookFateCard.98739.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98739.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98740": {
+      "Id": 98740,
+      "BundleId": 302,
+      "SortId": 10,
+      "Source": "StarTowerBookFateCard.98740.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98740.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98761": {
+      "Id": 98761,
+      "BundleId": 304,
+      "SortId": 1,
+      "Source": "StarTowerBookFateCard.98761.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98761.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98762": {
+      "Id": 98762,
+      "BundleId": 304,
+      "SortId": 2,
+      "Source": "StarTowerBookFateCard.98762.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98762.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98763": {
+      "Id": 98763,
+      "BundleId": 304,
+      "SortId": 3,
+      "Source": "StarTowerBookFateCard.98763.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98763.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98764": {
+      "Id": 98764,
+      "BundleId": 304,
+      "SortId": 4,
+      "Source": "StarTowerBookFateCard.98764.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98764.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98765": {
+      "Id": 98765,
+      "BundleId": 304,
+      "SortId": 5,
+      "Source": "StarTowerBookFateCard.98765.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98765.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98766": {
+      "Id": 98766,
+      "BundleId": 304,
+      "SortId": 6,
+      "Source": "StarTowerBookFateCard.98766.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98766.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98767": {
+      "Id": 98767,
+      "BundleId": 304,
+      "SortId": 7,
+      "Source": "StarTowerBookFateCard.98767.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98767.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98768": {
+      "Id": 98768,
+      "BundleId": 304,
+      "SortId": 8,
+      "Source": "StarTowerBookFateCard.98768.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98768.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98769": {
+      "Id": 98769,
+      "BundleId": 304,
+      "SortId": 9,
+      "Source": "StarTowerBookFateCard.98769.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98769.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98770": {
+      "Id": 98770,
+      "BundleId": 304,
+      "SortId": 10,
+      "Source": "StarTowerBookFateCard.98770.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98770.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98791": {
+      "Id": 98791,
+      "BundleId": 305,
+      "SortId": 1,
+      "Source": "StarTowerBookFateCard.98791.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98791.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98792": {
+      "Id": 98792,
+      "BundleId": 305,
+      "SortId": 2,
+      "Source": "StarTowerBookFateCard.98792.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98792.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98793": {
+      "Id": 98793,
+      "BundleId": 305,
+      "SortId": 3,
+      "Source": "StarTowerBookFateCard.98793.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98793.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98794": {
+      "Id": 98794,
+      "BundleId": 305,
+      "SortId": 4,
+      "Source": "StarTowerBookFateCard.98794.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98794.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98795": {
+      "Id": 98795,
+      "BundleId": 305,
+      "SortId": 5,
+      "Source": "StarTowerBookFateCard.98795.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98795.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98796": {
+      "Id": 98796,
+      "BundleId": 305,
+      "SortId": 6,
+      "Source": "StarTowerBookFateCard.98796.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98796.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98797": {
+      "Id": 98797,
+      "BundleId": 305,
+      "SortId": 7,
+      "Source": "StarTowerBookFateCard.98797.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98797.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98798": {
+      "Id": 98798,
+      "BundleId": 305,
+      "SortId": 8,
+      "Source": "StarTowerBookFateCard.98798.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98798.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98799": {
+      "Id": 98799,
+      "BundleId": 305,
+      "SortId": 9,
+      "Source": "StarTowerBookFateCard.98799.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98799.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98800": {
+      "Id": 98800,
+      "BundleId": 305,
+      "SortId": 10,
+      "Source": "StarTowerBookFateCard.98800.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98800.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98821": {
+      "Id": 98821,
+      "BundleId": 303,
+      "SortId": 1,
+      "Source": "StarTowerBookFateCard.98821.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98821.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98822": {
+      "Id": 98822,
+      "BundleId": 303,
+      "SortId": 2,
+      "Source": "StarTowerBookFateCard.98822.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98822.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98823": {
+      "Id": 98823,
+      "BundleId": 303,
+      "SortId": 3,
+      "Source": "StarTowerBookFateCard.98823.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98823.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98824": {
+      "Id": 98824,
+      "BundleId": 303,
+      "SortId": 4,
+      "Source": "StarTowerBookFateCard.98824.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98824.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98825": {
+      "Id": 98825,
+      "BundleId": 303,
+      "SortId": 5,
+      "Source": "StarTowerBookFateCard.98825.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98825.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98826": {
+      "Id": 98826,
+      "BundleId": 303,
+      "SortId": 6,
+      "Source": "StarTowerBookFateCard.98826.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98826.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98827": {
+      "Id": 98827,
+      "BundleId": 303,
+      "SortId": 7,
+      "Source": "StarTowerBookFateCard.98827.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98827.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98828": {
+      "Id": 98828,
+      "BundleId": 303,
+      "SortId": 8,
+      "Source": "StarTowerBookFateCard.98828.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98828.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98829": {
+      "Id": 98829,
+      "BundleId": 303,
+      "SortId": 9,
+      "Source": "StarTowerBookFateCard.98829.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98829.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98830": {
+      "Id": 98830,
+      "BundleId": 303,
+      "SortId": 10,
+      "Source": "StarTowerBookFateCard.98830.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98830.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98851": {
+      "Id": 98851,
+      "BundleId": 306,
+      "SortId": 1,
+      "Source": "StarTowerBookFateCard.98851.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98851.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98852": {
+      "Id": 98852,
+      "BundleId": 306,
+      "SortId": 2,
+      "Source": "StarTowerBookFateCard.98852.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98852.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98853": {
+      "Id": 98853,
+      "BundleId": 306,
+      "SortId": 3,
+      "Source": "StarTowerBookFateCard.98853.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98853.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98854": {
+      "Id": 98854,
+      "BundleId": 306,
+      "SortId": 4,
+      "Source": "StarTowerBookFateCard.98854.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98854.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98855": {
+      "Id": 98855,
+      "BundleId": 306,
+      "SortId": 5,
+      "Source": "StarTowerBookFateCard.98855.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98855.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98856": {
+      "Id": 98856,
+      "BundleId": 306,
+      "SortId": 6,
+      "Source": "StarTowerBookFateCard.98856.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98856.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98857": {
+      "Id": 98857,
+      "BundleId": 306,
+      "SortId": 7,
+      "Source": "StarTowerBookFateCard.98857.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98857.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98858": {
+      "Id": 98858,
+      "BundleId": 306,
+      "SortId": 8,
+      "Source": "StarTowerBookFateCard.98858.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98858.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98859": {
+      "Id": 98859,
+      "BundleId": 306,
+      "SortId": 9,
+      "Source": "StarTowerBookFateCard.98859.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98859.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98860": {
+      "Id": 98860,
+      "BundleId": 306,
+      "SortId": 10,
+      "Source": "StarTowerBookFateCard.98860.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98860.1",
+          "zh_TW": "災變防線 升級獲得",
+          "zh_CN": "灾变防线 升级获得",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98601": {
+      "Id": 98601,
+      "BundleId": 102,
+      "SortId": 1,
+      "Source": "StarTowerBookFateCard.98601.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98601.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98602": {
+      "Id": 98602,
+      "BundleId": 102,
+      "SortId": 2,
+      "Source": "StarTowerBookFateCard.98602.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98602.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98603": {
+      "Id": 98603,
+      "BundleId": 102,
+      "SortId": 3,
+      "Source": "StarTowerBookFateCard.98603.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98603.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98604": {
+      "Id": 98604,
+      "BundleId": 102,
+      "SortId": 4,
+      "Source": "StarTowerBookFateCard.98604.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98604.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98605": {
+      "Id": 98605,
+      "BundleId": 102,
+      "SortId": 5,
+      "Source": "StarTowerBookFateCard.98605.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98605.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98606": {
+      "Id": 98606,
+      "BundleId": 102,
+      "SortId": 6,
+      "Source": "StarTowerBookFateCard.98606.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98606.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98607": {
+      "Id": 98607,
+      "BundleId": 102,
+      "SortId": 7,
+      "Source": "StarTowerBookFateCard.98607.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98607.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98608": {
+      "Id": 98608,
+      "BundleId": 102,
+      "SortId": 8,
+      "Source": "StarTowerBookFateCard.98608.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98608.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98609": {
+      "Id": 98609,
+      "BundleId": 102,
+      "SortId": 9,
+      "Source": "StarTowerBookFateCard.98609.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98609.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98610": {
+      "Id": 98610,
+      "BundleId": 102,
+      "SortId": 11,
+      "Source": "StarTowerBookFateCard.98610.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98610.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98611": {
+      "Id": 98611,
+      "BundleId": 102,
+      "SortId": 12,
+      "Source": "StarTowerBookFateCard.98611.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98611.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98612": {
+      "Id": 98612,
+      "BundleId": 102,
+      "SortId": 13,
+      "Source": "StarTowerBookFateCard.98612.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98612.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98613": {
+      "Id": 98613,
+      "BundleId": 102,
+      "SortId": 14,
+      "Source": "StarTowerBookFateCard.98613.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98613.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98614": {
+      "Id": 98614,
+      "BundleId": 102,
+      "SortId": 15,
+      "Source": "StarTowerBookFateCard.98614.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98614.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98615": {
+      "Id": 98615,
+      "BundleId": 102,
+      "SortId": 16,
+      "Source": "StarTowerBookFateCard.98615.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98615.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98616": {
+      "Id": 98616,
+      "BundleId": 102,
+      "SortId": 17,
+      "Source": "StarTowerBookFateCard.98616.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98616.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98617": {
+      "Id": 98617,
+      "BundleId": 102,
+      "SortId": 18,
+      "Source": "StarTowerBookFateCard.98617.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98617.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98618": {
+      "Id": 98618,
+      "BundleId": 102,
+      "SortId": 19,
+      "Source": "StarTowerBookFateCard.98618.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98618.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98619": {
+      "Id": 98619,
+      "BundleId": 102,
+      "SortId": 21,
+      "Source": "StarTowerBookFateCard.98619.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98619.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98620": {
+      "Id": 98620,
+      "BundleId": 102,
+      "SortId": 22,
+      "Source": "StarTowerBookFateCard.98620.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98620.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98621": {
+      "Id": 98621,
+      "BundleId": 102,
+      "SortId": 23,
+      "Source": "StarTowerBookFateCard.98621.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98621.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98622": {
+      "Id": 98622,
+      "BundleId": 102,
+      "SortId": 24,
+      "Source": "StarTowerBookFateCard.98622.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98622.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98623": {
+      "Id": 98623,
+      "BundleId": 102,
+      "SortId": 25,
+      "Source": "StarTowerBookFateCard.98623.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98623.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98624": {
+      "Id": 98624,
+      "BundleId": 102,
+      "SortId": 26,
+      "Source": "StarTowerBookFateCard.98624.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98624.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98625": {
+      "Id": 98625,
+      "BundleId": 102,
+      "SortId": 27,
+      "Source": "StarTowerBookFateCard.98625.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98625.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98626": {
+      "Id": 98626,
+      "BundleId": 102,
+      "SortId": 28,
+      "Source": "StarTowerBookFateCard.98626.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98626.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98627": {
+      "Id": 98627,
+      "BundleId": 102,
+      "SortId": 29,
+      "Source": "StarTowerBookFateCard.98627.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98627.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98628": {
+      "Id": 98628,
+      "BundleId": 102,
+      "SortId": 31,
+      "Source": "StarTowerBookFateCard.98628.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98628.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98629": {
+      "Id": 98629,
+      "BundleId": 102,
+      "SortId": 32,
+      "Source": "StarTowerBookFateCard.98629.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98629.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98630": {
+      "Id": 98630,
+      "BundleId": 102,
+      "SortId": 33,
+      "Source": "StarTowerBookFateCard.98630.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98630.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98631": {
+      "Id": 98631,
+      "BundleId": 102,
+      "SortId": 34,
+      "Source": "StarTowerBookFateCard.98631.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98631.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98632": {
+      "Id": 98632,
+      "BundleId": 102,
+      "SortId": 35,
+      "Source": "StarTowerBookFateCard.98632.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98632.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98633": {
+      "Id": 98633,
+      "BundleId": 102,
+      "SortId": 36,
+      "Source": "StarTowerBookFateCard.98633.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98633.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98634": {
+      "Id": 98634,
+      "BundleId": 102,
+      "SortId": 37,
+      "Source": "StarTowerBookFateCard.98634.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98634.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98635": {
+      "Id": 98635,
+      "BundleId": 102,
+      "SortId": 38,
+      "Source": "StarTowerBookFateCard.98635.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98635.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98636": {
+      "Id": 98636,
+      "BundleId": 102,
+      "SortId": 39,
+      "Source": "StarTowerBookFateCard.98636.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98636.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98637": {
+      "Id": 98637,
+      "BundleId": 102,
+      "SortId": 40,
+      "Source": "StarTowerBookFateCard.98637.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98637.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98638": {
+      "Id": 98638,
+      "BundleId": 102,
+      "SortId": 41,
+      "Source": "StarTowerBookFateCard.98638.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98638.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98639": {
+      "Id": 98639,
+      "BundleId": 102,
+      "SortId": 42,
+      "Source": "StarTowerBookFateCard.98639.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98639.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98640": {
+      "Id": 98640,
+      "BundleId": 102,
+      "SortId": 43,
+      "Source": "StarTowerBookFateCard.98640.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98640.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98641": {
+      "Id": 98641,
+      "BundleId": 102,
+      "SortId": 44,
+      "Source": "StarTowerBookFateCard.98641.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98641.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98642": {
+      "Id": 98642,
+      "BundleId": 102,
+      "SortId": 45,
+      "Source": "StarTowerBookFateCard.98642.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98642.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98643": {
+      "Id": 98643,
+      "BundleId": 102,
+      "SortId": 46,
+      "Source": "StarTowerBookFateCard.98643.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98643.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98644": {
+      "Id": 98644,
+      "BundleId": 102,
+      "SortId": 47,
+      "Source": "StarTowerBookFateCard.98644.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98644.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98645": {
+      "Id": 98645,
+      "BundleId": 102,
+      "SortId": 48,
+      "Source": "StarTowerBookFateCard.98645.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98645.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98646": {
+      "Id": 98646,
+      "BundleId": 102,
+      "SortId": 49,
+      "Source": "StarTowerBookFateCard.98646.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98646.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98647": {
+      "Id": 98647,
+      "BundleId": 102,
+      "SortId": 50,
+      "Source": "StarTowerBookFateCard.98647.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98647.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98648": {
+      "Id": 98648,
+      "BundleId": 102,
+      "SortId": 51,
+      "Source": "StarTowerBookFateCard.98648.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98648.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98649": {
+      "Id": 98649,
+      "BundleId": 102,
+      "SortId": 52,
+      "Source": "StarTowerBookFateCard.98649.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98649.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98650": {
+      "Id": 98650,
+      "BundleId": 102,
+      "SortId": 53,
+      "Source": "StarTowerBookFateCard.98650.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98650.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98651": {
+      "Id": 98651,
+      "BundleId": 102,
+      "SortId": 54,
+      "Source": "StarTowerBookFateCard.98651.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98651.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98652": {
+      "Id": 98652,
+      "BundleId": 102,
+      "SortId": 55,
+      "Source": "StarTowerBookFateCard.98652.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98652.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98653": {
+      "Id": 98653,
+      "BundleId": 102,
+      "SortId": 56,
+      "Source": "StarTowerBookFateCard.98653.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98653.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98654": {
+      "Id": 98654,
+      "BundleId": 102,
+      "SortId": 57,
+      "Source": "StarTowerBookFateCard.98654.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98654.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98655": {
+      "Id": 98655,
+      "BundleId": 102,
+      "SortId": 58,
+      "Source": "StarTowerBookFateCard.98655.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98655.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98656": {
+      "Id": 98656,
+      "BundleId": 102,
+      "SortId": 59,
+      "Source": "StarTowerBookFateCard.98656.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98656.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98657": {
+      "Id": 98657,
+      "BundleId": 102,
+      "SortId": 60,
+      "Source": "StarTowerBookFateCard.98657.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98657.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98658": {
+      "Id": 98658,
+      "BundleId": 102,
+      "SortId": 61,
+      "Source": "StarTowerBookFateCard.98658.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98658.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98659": {
+      "Id": 98659,
+      "BundleId": 102,
+      "SortId": 62,
+      "Source": "StarTowerBookFateCard.98659.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98659.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    },
+    "98660": {
+      "Id": 98660,
+      "BundleId": 102,
+      "SortId": 63,
+      "Source": "StarTowerBookFateCard.98660.1",
+      "_localized": {
+        "/Source": {
+          "key": "StarTowerBookFateCard.98660.1",
+          "zh_TW": "災變防線 主題獎勵",
+          "zh_CN": "灾变防线 主题奖励",
+          "sources": {
+            "zh_TW": "language/zh_TW/StarTowerBookFateCard.json",
+            "zh_CN": "language/zh_CN/StarTowerBookFateCard.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "story_social",
+    "name": "剧情、档案与社交文本",
+    "description": "剧情章节、对话、约会、聊天、邮件、语音目录和 NPC 关系。",
+    "table_count": 34,
+    "row_count": 10116,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "ActivityStory",
+      "categories": [
+        "story_social",
+        "activities"
+      ],
+      "row_count": 102,
+      "data": "bin/ActivityStory.json",
+      "readable": "readable/ActivityStory.json",
+      "evidence": "evidence/tables/ActivityStory.json",
+      "source_sha256": "017799de26e7d23a53176f013096b10855bca62758e2d72eb66edb8f7a942191",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/ActivityStory.json",
+      "zh_CN": "language/zh_CN/ActivityStory.json"
+    },
+    {
+      "table": "ActivityStoryChapter",
+      "categories": [
+        "story_social",
+        "activities"
+      ],
+      "row_count": 9,
+      "data": "bin/ActivityStoryChapter.json",
+      "readable": "readable/ActivityStoryChapter.json",
+      "evidence": "evidence/tables/ActivityStoryChapter.json",
+      "source_sha256": "cceca9d3419a159372a3ef5dcd60d7f0d77e471488c17ed3439fccbb87395320",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ActivityStoryCondition",
+      "categories": [
+        "story_social",
+        "activities"
+      ],
+      "row_count": 104,
+      "data": "bin/ActivityStoryCondition.json",
+      "readable": "readable/ActivityStoryCondition.json",
+      "evidence": "evidence/tables/ActivityStoryCondition.json",
+      "source_sha256": "c346e1873ae68afc7d97d5e64d6c55fd0b1a386b670d832b36b28ea9b82a596e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "ActivityStoryEvidence",
+      "categories": [
+        "story_social",
+        "activities"
+      ],
+      "row_count": 9,
+      "data": "bin/ActivityStoryEvidence.json",
+      "readable": "readable/ActivityStoryEvidence.json",
+      "evidence": "evidence/tables/ActivityStoryEvidence.json",
+      "source_sha256": "8b3ddf798aca6fa7956abf6f99e58c31f1e272eb7cb87b0c3f148a904ade2d73",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Chapter",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 3,
+      "data": "bin/Chapter.json",
+      "readable": "readable/Chapter.json",
+      "evidence": "evidence/tables/Chapter.json",
+      "source_sha256": "84f435f11f043b8c557a18684fa722961a8f76263202caf4d9f01c7bb1848832",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Chapter.json",
+      "zh_CN": "language/zh_CN/Chapter.json"
+    },
+    {
+      "table": "CharacterArchiveVoice",
+      "categories": [
+        "characters",
+        "story_social",
+        "localization_media"
+      ],
+      "row_count": 3293,
+      "data": "bin/CharacterArchiveVoice.json",
+      "readable": "readable/CharacterArchiveVoice.json",
+      "evidence": "evidence/tables/CharacterArchiveVoice.json",
+      "source_sha256": "42135391e8341c90b2c83f8dcce54e58e6f543bb84c923b33c8b1d04663c06eb",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/CharacterArchiveVoice.json",
+      "zh_CN": "language/zh_CN/CharacterArchiveVoice.json"
+    },
+    {
+      "table": "CharacterVoiceControl",
+      "categories": [
+        "characters",
+        "story_social",
+        "localization_media"
+      ],
+      "row_count": 127,
+      "data": "bin/CharacterVoiceControl.json",
+      "readable": "readable/CharacterVoiceControl.json",
+      "evidence": "evidence/tables/CharacterVoiceControl.json",
+      "source_sha256": "e7ccfdcc7e56a6cb99ec190042e7fd608b88346e15fb49149a24473e29b02f19",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "Chat",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 471,
+      "data": "bin/Chat.json",
+      "readable": "readable/Chat.json",
+      "evidence": "evidence/tables/Chat.json",
+      "source_sha256": "355b42eff4f6e8c33bd76b7472cf554b8609714685d335944fae624a1358ea5a",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DatingBranch",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 12,
+      "data": "bin/DatingBranch.json",
+      "readable": "readable/DatingBranch.json",
+      "evidence": "evidence/tables/DatingBranch.json",
+      "source_sha256": "991378878848c4c7c46541e5eecceba3e9b5e1e5a674fb4867831daa040b6b60",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DatingBranch.json",
+      "zh_CN": "language/zh_CN/DatingBranch.json"
+    },
+    {
+      "table": "DatingCharacterEvent",
+      "categories": [
+        "characters",
+        "story_social"
+      ],
+      "row_count": 123,
+      "data": "bin/DatingCharacterEvent.json",
+      "readable": "readable/DatingCharacterEvent.json",
+      "evidence": "evidence/tables/DatingCharacterEvent.json",
+      "source_sha256": "73527517e81107f84e32e78628dfff4a741d54899e6aed5da6440850ad600a39",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DatingCharacterEvent.json",
+      "zh_CN": "language/zh_CN/DatingCharacterEvent.json"
+    },
+    {
+      "table": "DatingCharResponse",
+      "categories": [
+        "characters",
+        "story_social"
+      ],
+      "row_count": 259,
+      "data": "bin/DatingCharResponse.json",
+      "readable": "readable/DatingCharResponse.json",
+      "evidence": "evidence/tables/DatingCharResponse.json",
+      "source_sha256": "cdc24f8e374f315423257f6cde88c8927d9478e89c4c38e3c579fe970c8f67db",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DatingCharTag",
+      "categories": [
+        "characters",
+        "story_social"
+      ],
+      "row_count": 37,
+      "data": "bin/DatingCharTag.json",
+      "readable": "readable/DatingCharTag.json",
+      "evidence": "evidence/tables/DatingCharTag.json",
+      "source_sha256": "8c7c60bb071648dddd06debb39c2255bc8c4471d169bd8c7233a242bee24d224",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "DatingLandmark",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 6,
+      "data": "bin/DatingLandmark.json",
+      "readable": "readable/DatingLandmark.json",
+      "evidence": "evidence/tables/DatingLandmark.json",
+      "source_sha256": "479c3024f920924cb9121d6d268f72f1fea4d3d2f4b763137f134e8ff9649ef8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DatingLandmark.json",
+      "zh_CN": "language/zh_CN/DatingLandmark.json"
+    },
+    {
+      "table": "DatingLandmarkEvent",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 93,
+      "data": "bin/DatingLandmarkEvent.json",
+      "readable": "readable/DatingLandmarkEvent.json",
+      "evidence": "evidence/tables/DatingLandmarkEvent.json",
+      "source_sha256": "457aad19ea95edd1c539d1bb719ed03cddb8eec306aa44e481f8a41fa565e7cb",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+      "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+    },
+    {
+      "table": "DatingStartEndEvent",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 74,
+      "data": "bin/DatingStartEndEvent.json",
+      "readable": "readable/DatingStartEndEvent.json",
+      "evidence": "evidence/tables/DatingStartEndEvent.json",
+      "source_sha256": "793a98df9cbb619848032103cb4aabf165680aa7e9405db763a66076ae4d00a3",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/DatingStartEndEvent.json",
+      "zh_CN": "language/zh_CN/DatingStartEndEvent.json"
+    },
+    {
+      "table": "InfinityTowerPlot",
+      "categories": [
+        "story_social",
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/InfinityTowerPlot.json",
+      "readable": "readable/InfinityTowerPlot.json",
+      "evidence": "evidence/tables/InfinityTowerPlot.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "MailTemplate",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 90,
+      "data": "bin/MailTemplate.json",
+      "readable": "readable/MailTemplate.json",
+      "evidence": "evidence/tables/MailTemplate.json",
+      "source_sha256": "172c05749a5ecf5ac04606806158da8a3a6ecc3ba3e3bfe44b20c163a2252719",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/MailTemplate.json",
+      "zh_CN": "language/zh_CN/MailTemplate.json"
+    },
+    {
+      "table": "MiningStory",
+      "categories": [
+        "story_social",
+        "stages_modes"
+      ],
+      "row_count": 8,
+      "data": "bin/MiningStory.json",
+      "readable": "readable/MiningStory.json",
+      "evidence": "evidence/tables/MiningStory.json",
+      "source_sha256": "36b0a1262443e203dde2ff455e1c0a674b2980a7e5ac89973e6095e622e1b1fb",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "NPCAffinityGroup",
+      "categories": [
+        "characters",
+        "story_social",
+        "world_npc"
+      ],
+      "row_count": 204,
+      "data": "bin/NPCAffinityGroup.json",
+      "readable": "readable/NPCAffinityGroup.json",
+      "evidence": "evidence/tables/NPCAffinityGroup.json",
+      "source_sha256": "f87cde2e092c08c475b49897dfd629854a00fc309180d2908ed2715516ee8480",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/NPCAffinityGroup.json",
+      "zh_CN": "language/zh_CN/NPCAffinityGroup.json"
+    },
+    {
+      "table": "NPCAffinityPlot",
+      "categories": [
+        "characters",
+        "story_social",
+        "world_npc"
+      ],
+      "row_count": 8,
+      "data": "bin/NPCAffinityPlot.json",
+      "readable": "readable/NPCAffinityPlot.json",
+      "evidence": "evidence/tables/NPCAffinityPlot.json",
+      "source_sha256": "46d668439c0bf63731f6bfd1b4e70603315e2f79b309d96fe058dfa3ebbe09e0",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/NPCAffinityPlot.json",
+      "zh_CN": "language/zh_CN/NPCAffinityPlot.json"
+    },
+    {
+      "table": "Plot",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 111,
+      "data": "bin/Plot.json",
+      "readable": "readable/Plot.json",
+      "evidence": "evidence/tables/Plot.json",
+      "source_sha256": "0aad103a59ab47b31d268a652ed005f5bdeff2fd124118f8d9e7c01ebb9f437e",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Plot.json",
+      "zh_CN": "language/zh_CN/Plot.json"
+    },
+    {
+      "table": "Story",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 170,
+      "data": "bin/Story.json",
+      "readable": "readable/Story.json",
+      "evidence": "evidence/tables/Story.json",
+      "source_sha256": "2ffa92345ecb74426c558a9f08328d45b528c34fe493d156903df0cf87688e6f",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Story.json",
+      "zh_CN": "language/zh_CN/Story.json"
+    },
+    {
+      "table": "StoryChapter",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 9,
+      "data": "bin/StoryChapter.json",
+      "readable": "readable/StoryChapter.json",
+      "evidence": "evidence/tables/StoryChapter.json",
+      "source_sha256": "08e1f44f75aa6ee3fb6c6fd9c457a1d5ff7a6e3dc0d0b442333216ba7f8a0136",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StoryChapter.json",
+      "zh_CN": "language/zh_CN/StoryChapter.json"
+    },
+    {
+      "table": "StoryChapterTimeStamp",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 127,
+      "data": "bin/StoryChapterTimeStamp.json",
+      "readable": "readable/StoryChapterTimeStamp.json",
+      "evidence": "evidence/tables/StoryChapterTimeStamp.json",
+      "source_sha256": "ce2574b230adb337a0d949eb54c67a82422a21ac70b2310062921b0272a4cab1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StoryChapterTimeStamp.json",
+      "zh_CN": "language/zh_CN/StoryChapterTimeStamp.json"
+    },
+    {
+      "table": "StoryCondition",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 169,
+      "data": "bin/StoryCondition.json",
+      "readable": "readable/StoryCondition.json",
+      "evidence": "evidence/tables/StoryCondition.json",
+      "source_sha256": "47636b28764e05728ca8cdae836b871440dae46c1d8513c86efab076d06fd5fb",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "StoryEvidence",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 33,
+      "data": "bin/StoryEvidence.json",
+      "readable": "readable/StoryEvidence.json",
+      "evidence": "evidence/tables/StoryEvidence.json",
+      "source_sha256": "67db2400ca5e57f69e84a068417e74dd1edfea185d64cbca079e1b14d78ef080",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StoryEvidence.json",
+      "zh_CN": "language/zh_CN/StoryEvidence.json"
+    },
+    {
+      "table": "StoryPersonality",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 3,
+      "data": "bin/StoryPersonality.json",
+      "readable": "readable/StoryPersonality.json",
+      "evidence": "evidence/tables/StoryPersonality.json",
+      "source_sha256": "47bd51bd683d60fd9e397ad8f6953b5465e9909ed26dc35ece02582ff68985c9",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StoryPersonality.json",
+      "zh_CN": "language/zh_CN/StoryPersonality.json"
+    },
+    {
+      "table": "StoryPreview",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 16,
+      "data": "bin/StoryPreview.json",
+      "readable": "readable/StoryPreview.json",
+      "evidence": "evidence/tables/StoryPreview.json",
+      "source_sha256": "38ae8b1c3d7a441375d6d160f13d8aaee5ae355f240391bd1e55106be5f0e720",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StoryPreview.json",
+      "zh_CN": "language/zh_CN/StoryPreview.json"
+    },
+    {
+      "table": "StoryRolePersonality",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 1,
+      "data": "bin/StoryRolePersonality.json",
+      "readable": "readable/StoryRolePersonality.json",
+      "evidence": "evidence/tables/StoryRolePersonality.json",
+      "source_sha256": "9f258f7c006ebb2cb45dab2ee088aa0131ed7a91b1c7b2774cc1d2646a5bfd15",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StoryRolePersonality.json",
+      "zh_CN": "language/zh_CN/StoryRolePersonality.json"
+    },
+    {
+      "table": "StorySetChapter",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 16,
+      "data": "bin/StorySetChapter.json",
+      "readable": "readable/StorySetChapter.json",
+      "evidence": "evidence/tables/StorySetChapter.json",
+      "source_sha256": "4a9820700ccac10383447cc99e78fd23b4157ae79c3242c5ee669576ae7417c8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StorySetChapter.json",
+      "zh_CN": "language/zh_CN/StorySetChapter.json"
+    },
+    {
+      "table": "StorySetSection",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 50,
+      "data": "bin/StorySetSection.json",
+      "readable": "readable/StorySetSection.json",
+      "evidence": "evidence/tables/StorySetSection.json",
+      "source_sha256": "2a92c9ebf41760327ce6fa4b106690b995d4bfc1f83fa6e33e9cf02a34838c10",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StorySetSection.json",
+      "zh_CN": "language/zh_CN/StorySetSection.json"
+    },
+    {
+      "table": "StorySetTab",
+      "categories": [
+        "story_social"
+      ],
+      "row_count": 6,
+      "data": "bin/StorySetTab.json",
+      "readable": "readable/StorySetTab.json",
+      "evidence": "evidence/tables/StorySetTab.json",
+      "source_sha256": "5b863ed7331884b1183c8e4a15cfe3ba545d25b61d623c94d43168793e1221e1",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/StorySetTab.json",
+      "zh_CN": "language/zh_CN/StorySetTab.json"
+    },
+    {
+      "table": "TowerDefenseStory",
+      "categories": [
+        "story_social",
+        "stages_modes"
+      ],
+      "row_count": 0,
+      "data": "bin/TowerDefenseStory.json",
+      "readable": "readable/TowerDefenseStory.json",
+      "evidence": "evidence/tables/TowerDefenseStory.json",
+      "source_sha256": "1456c86d932274d1319bc3c0913ee3871ccc4572693f058e159a3dbcedc1a86b",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "VoDirectory",
+      "categories": [
+        "story_social",
+        "localization_media"
+      ],
+      "row_count": 4373,
+      "data": "bin/VoDirectory.json",
+      "readable": "readable/VoDirectory.json",
+      "evidence": "evidence/tables/VoDirectory.json",
+      "source_sha256": "c1734ab1f775d018806697f9c6dbc755b7a3f41c880187391e9e5dd41332fb2a",
+      "field_mapping_source": "local_aot_field_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": false,
+      "zh_TW": null,
+      "zh_CN": null
+    }
+  ]
+}

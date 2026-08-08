@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "DailyInstanceType",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 1,
+    "localization_hits": 1,
+    "source": "bin/DailyInstanceType.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "5": {
+      "Id": 5,
+      "Name": "DailyInstanceType.Common.1",
+      "WorldClassLevel": 1,
+      "Episode": "Icon/MapEpisode/ep_ResInstance_001",
+      "Sort": 1,
+      "HowReward": [
+        55003
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "DailyInstanceType.Common.1",
+          "zh_TW": "賞金速略",
+          "zh_CN": "赏金速略",
+          "sources": {
+            "zh_TW": "language/zh_TW/DailyInstanceType.json",
+            "zh_CN": "language/zh_CN/DailyInstanceType.json"
+          }
+        }
+      }
+    }
+  }
+}

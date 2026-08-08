@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "MiningQuestGroup",
+    "categories": [
+      "quests",
+      "stages_modes"
+    ],
+    "row_count": 3,
+    "localization_hits": 3,
+    "source": "bin/MiningQuestGroup.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "ActivityId": 400014,
+      "GroupName": "MiningQuestGroup.101.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "MiningQuestGroup.101.1",
+          "zh_TW": "每日打卡",
+          "zh_CN": "每日打卡",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuestGroup.json",
+            "zh_CN": "language/zh_CN/MiningQuestGroup.json"
+          }
+        }
+      }
+    },
+    "102": {
+      "Id": 102,
+      "ActivityId": 400014,
+      "GroupName": "MiningQuestGroup.102.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "MiningQuestGroup.102.1",
+          "zh_TW": "揮汗如雨",
+          "zh_CN": "挥汗如雨",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuestGroup.json",
+            "zh_CN": "language/zh_CN/MiningQuestGroup.json"
+          }
+        }
+      }
+    },
+    "103": {
+      "Id": 103,
+      "ActivityId": 400014,
+      "GroupName": "MiningQuestGroup.103.1",
+      "_localized": {
+        "/GroupName": {
+          "key": "MiningQuestGroup.103.1",
+          "zh_TW": "收獲時分",
+          "zh_CN": "收获时分",
+          "sources": {
+            "zh_TW": "language/zh_TW/MiningQuestGroup.json",
+            "zh_CN": "language/zh_CN/MiningQuestGroup.json"
+          }
+        }
+      }
+    }
+  }
+}

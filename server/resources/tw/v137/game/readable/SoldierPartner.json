@@ -1,0 +1,1435 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "SoldierPartner",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 44,
+    "localization_hits": 88,
+    "source": "bin/SoldierPartner.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "10101": {
+      "Id": 10101,
+      "PartnerType": 1,
+      "Name": "SoldierPartner.10101.1",
+      "PartnerLevelQuality": 1,
+      "Desc": "SoldierPartner.10101.2",
+      "Level": 1,
+      "Num": 1,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10101.1",
+          "zh_TW": "空白旅團",
+          "zh_CN": "空白旅团",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10101.2",
+          "zh_TW": "施放技能獲得1層「雛菊」",
+          "zh_CN": "施放技能获得1层「雏菊」",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10102": {
+      "Id": 10102,
+      "PartnerType": 1,
+      "Name": "SoldierPartner.10102.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.10102.2",
+      "Level": 2,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10102.1",
+          "zh_TW": "空白旅團",
+          "zh_CN": "空白旅团",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10102.2",
+          "zh_TW": "施放技能獲得2層「雛菊」",
+          "zh_CN": "施放技能获得2层「雏菊」",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10103": {
+      "Id": 10103,
+      "PartnerType": 1,
+      "Name": "SoldierPartner.10103.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.10103.2",
+      "Level": 3,
+      "Num": 3,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10103.1",
+          "zh_TW": "空白旅團",
+          "zh_CN": "空白旅团",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10103.2",
+          "zh_TW": "施放技能獲得3層「雛菊」",
+          "zh_CN": "施放技能获得3层「雏菊」",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10201": {
+      "Id": 10201,
+      "PartnerType": 2,
+      "Name": "SoldierPartner.10201.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.10201.2",
+      "Level": 1,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10201.1",
+          "zh_TW": "萬送屋",
+          "zh_CN": "万送屋",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10201.2",
+          "zh_TW": "每次疊加1層「水霧」，上限5層",
+          "zh_CN": "每次叠加1层「水雾」，上限5层",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10202": {
+      "Id": 10202,
+      "PartnerType": 2,
+      "Name": "SoldierPartner.10202.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.10202.2",
+      "Level": 2,
+      "Num": 3,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10202.1",
+          "zh_TW": "萬送屋",
+          "zh_CN": "万送屋",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10202.2",
+          "zh_TW": "每次疊加2層「水霧」，上限10層。「水霧」達到10層時轉化為1層「凝結」。\n「凝結」：暈眩，提升50%受到的傷害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_DmgPlusRcd\" tint></color>，持續5秒",
+          "zh_CN": "每次叠加2层「水雾」，上限10层。「水雾」达到10层时转化为1层「凝结」\n「凝结」：晕眩，提升50%受到伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_DmgPlusRcd\" tint></color>，持续5秒",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10301": {
+      "Id": 10301,
+      "PartnerType": 3,
+      "Name": "SoldierPartner.10301.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.10301.2",
+      "Level": 1,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10301.1",
+          "zh_TW": "花令旅團",
+          "zh_CN": "花令旅团",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10301.2",
+          "zh_TW": "獲得6<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>、3%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>",
+          "zh_CN": "获得6<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>，3%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10302": {
+      "Id": 10302,
+      "PartnerType": 3,
+      "Name": "SoldierPartner.10302.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.10302.2",
+      "Level": 2,
+      "Num": 3,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10302.1",
+          "zh_TW": "花令旅團",
+          "zh_CN": "花令旅团",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10302.2",
+          "zh_TW": "獲得12<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>、5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>",
+          "zh_CN": "获得12<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>，5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10401": {
+      "Id": 10401,
+      "PartnerType": 4,
+      "Name": "SoldierPartner.10401.1",
+      "PartnerLevelQuality": 1,
+      "Desc": "SoldierPartner.10401.2",
+      "Level": 1,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10401.1",
+          "zh_TW": "恩賜意志",
+          "zh_CN": "恩赐意志",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10401.2",
+          "zh_TW": "添加1層「制裁之印」，上限2層",
+          "zh_CN": "添加1层「制裁之印」，上限2层",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10402": {
+      "Id": 10402,
+      "PartnerType": 4,
+      "Name": "SoldierPartner.10402.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.10402.2",
+      "Level": 2,
+      "Num": 3,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10402.1",
+          "zh_TW": "恩賜意志",
+          "zh_CN": "恩赐意志",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10402.2",
+          "zh_TW": "添加1層「制裁之印」，上限3層",
+          "zh_CN": "添加1层「清算之印」，上限3层",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10403": {
+      "Id": 10403,
+      "PartnerType": 4,
+      "Name": "SoldierPartner.10403.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.10403.2",
+      "Level": 3,
+      "Num": 5,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10403.1",
+          "zh_TW": "恩賜意志",
+          "zh_CN": "恩赐意志",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10403.2",
+          "zh_TW": "添加1層「清算之印」,上限5層\n達到5層時，立即引爆所有印記，目標損失相當於單層傷害×10倍的生命值，並清除目標身上的所有「清算之印」",
+          "zh_CN": "添加1层「清算之印」，上限5层\n达到5层时立即引爆所有印记，目标损失相当于 单层伤害 × 10 倍 的生命值，并清除该目标身上所有「清算之印」",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10501": {
+      "Id": 10501,
+      "PartnerType": 5,
+      "Name": "SoldierPartner.10501.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.10501.2",
+      "Level": 1,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "ClientEffect": [
+        1050101
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10501.1",
+          "zh_TW": "齒輪轉轉",
+          "zh_CN": "齿轮转转",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10501.2",
+          "zh_TW": "5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>，10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>",
+          "zh_CN": "5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>，10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10502": {
+      "Id": 10502,
+      "PartnerType": 5,
+      "Name": "SoldierPartner.10502.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.10502.2",
+      "Level": 2,
+      "Num": 4,
+      "SoldierPartnerNumType": 1,
+      "ClientEffect": [
+        1050201
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10502.1",
+          "zh_TW": "齒輪轉轉",
+          "zh_CN": "齿轮转转",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10502.2",
+          "zh_TW": "5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>，20%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>。\n每當齒輪轉轉棋子施放技能時，隨機使1名位於主戰配置的棋子獲得1層「柔光護盾」\n位於後援配置的齒輪轉轉棋子每施放3次技能，觸發1次「柔光蓄能」\n「柔光護盾」：獲得自身最大生命值5%的護盾，持續6秒\n「柔光蓄能」：所有棋子恢復3%最大生命值",
+          "zh_CN": "5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>，20%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>\n齿轮转转棋子施放技能时，随机1个位于主战配置的棋子获得「柔光护盾」，上限1层\n位于后援配置的齿轮转转棋子每施放3次技能触发1次「柔光充能」\n「柔光护盾」：自身最大生命5%护盾，持续6秒\n「柔光充能」：所有棋子回复3%最大生命",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10601": {
+      "Id": 10601,
+      "PartnerType": 6,
+      "Name": "SoldierPartner.10601.1",
+      "PartnerLevelQuality": 1,
+      "Desc": "SoldierPartner.10601.2",
+      "Level": 1,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10601.1",
+          "zh_TW": "帝國衛隊",
+          "zh_CN": "帝国卫队",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10601.2",
+          "zh_TW": "戰鬥開始時提升20<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>、20%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>",
+          "zh_CN": "战斗开始时提升20<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>，20%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10602": {
+      "Id": 10602,
+      "PartnerType": 6,
+      "Name": "SoldierPartner.10602.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.10602.2",
+      "Level": 2,
+      "Num": 4,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10602.1",
+          "zh_TW": "帝國衛隊",
+          "zh_CN": "帝国卫队",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10602.2",
+          "zh_TW": "戰鬥開始時提升60<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>、50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>",
+          "zh_CN": "战斗开始时提升60<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>，50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10603": {
+      "Id": 10603,
+      "PartnerType": 6,
+      "Name": "SoldierPartner.10603.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.10603.2",
+      "Level": 3,
+      "Num": 5,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10603.1",
+          "zh_TW": "帝國衛隊",
+          "zh_CN": "帝国卫队",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10603.2",
+          "zh_TW": "戰鬥開始時獲得50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>（最少60），50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>\n攻擊身上有減益的敵方棋子時傷害提升50%",
+          "zh_CN": "战斗开始时获得50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>（最少60），50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>\n攻击身上有减益的敌方棋子时伤害提升50%",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10604": {
+      "Id": 10604,
+      "PartnerType": 6,
+      "Name": "SoldierPartner.10604.1",
+      "PartnerLevelQuality": 4,
+      "Desc": "SoldierPartner.10604.2",
+      "Level": 4,
+      "Num": 6,
+      "SoldierPartnerNumType": 1,
+      "ServerEffect": [
+        1060401,
+        1060402,
+        1060403,
+        1060404,
+        1060405
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10604.1",
+          "zh_TW": "帝國衛隊",
+          "zh_CN": "帝国卫队",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10604.2",
+          "zh_TW": "戰鬥開始時獲得50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>（最少60），50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>\n攻擊身上有減益的敵方棋子時傷害提升50%\n戰鬥結算時，每有1個帝國衛隊棋子參戰，額外獲得1金幣<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Coin\" tint></color>",
+          "zh_CN": "战斗开始时获得50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Energy\" tint></color>（最少60），50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>\n攻击身上有减益的敌方棋子时伤害提升50%\n战斗结算时，每有1个帝国卫队棋子参战，额外获得1金币<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Coin\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10701": {
+      "Id": 10701,
+      "PartnerType": 7,
+      "Name": "SoldierPartner.10701.1",
+      "PartnerLevelQuality": 4,
+      "Desc": "SoldierPartner.10701.2",
+      "Level": 1,
+      "Num": 1,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10701.1",
+          "zh_TW": "地理協會",
+          "zh_CN": "地理协会",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10701.2",
+          "zh_TW": "1星：每5秒獲得1層，上限6層。\n2星：每5秒獲得2層，上限8層。\n3星：每4秒獲得2層，上限12層",
+          "zh_CN": "1星：每经过5秒获得1层，上限6层\n2星：每经过5秒获得2层，上限8层\n3星：每经过4秒获得2层，上限12层",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10801": {
+      "Id": 10801,
+      "PartnerType": 8,
+      "Name": "SoldierPartner.10801.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.10801.2",
+      "Level": 1,
+      "Num": 1,
+      "SoldierPartnerNumType": 2,
+      "ClientEffect": [
+        1080101,
+        1080102,
+        1080103,
+        1080104
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10801.1",
+          "zh_TW": "自由旅人",
+          "zh_CN": "自由旅人",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10801.2",
+          "zh_TW": "千都世：提升15%暴擊率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>；\n希婭：提升30%暴擊傷害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritPower\" tint></color>",
+          "zh_CN": "千都世：提升15%暴击率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>；\n希   娅：提升30%暴击伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritPower\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10901": {
+      "Id": 10901,
+      "PartnerType": 9,
+      "Name": "SoldierPartner.10901.1",
+      "PartnerLevelQuality": 1,
+      "Desc": "SoldierPartner.10901.2",
+      "Level": 1,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10901.1",
+          "zh_TW": "灰風俱樂部",
+          "zh_CN": "灰风俱乐部",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10901.2",
+          "zh_TW": "「圍攻」上限3層",
+          "zh_CN": "「围攻」上限3层",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10902": {
+      "Id": 10902,
+      "PartnerType": 9,
+      "Name": "SoldierPartner.10902.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.10902.2",
+      "Level": 2,
+      "Num": 4,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10902.1",
+          "zh_TW": "灰風俱樂部",
+          "zh_CN": "灰风俱乐部",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10902.2",
+          "zh_TW": "「圍攻」上限5層\n每有1個敵人有「圍攻」標記，灰風俱樂部棋子提升10%普攻傷害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_NormalDmg\" tint></color>，10%回能效率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>",
+          "zh_CN": "「围攻」上限5层\n每有1个敌人有「围攻」标记，灰风俱乐部棋子提升10%普攻伤害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_NormalDmg\" tint></color>，10%回能效率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10903": {
+      "Id": 10903,
+      "PartnerType": 9,
+      "Name": "SoldierPartner.10903.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.10903.2",
+      "Level": 3,
+      "Num": 5,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10903.1",
+          "zh_TW": "灰風俱樂部",
+          "zh_CN": "灰风俱乐部",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10903.2",
+          "zh_TW": "「圍攻」上限5層\n每有1個敵人有「圍攻」標記，灰風俱樂部棋子提升10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_NormalDmg\" tint></color>，10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>\n灰風俱樂部棋子擊殺帶有「圍攻」標記的棋子後，擊殺者提升6%攻擊<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>",
+          "zh_CN": "「围攻」上限5层\n每有1个敌人有「围攻」标记，灰风俱乐部棋子提升10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_NormalDmg\" tint></color>，10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>\n灰风俱乐部棋子击杀带有「围攻」标记的棋子后，击杀者提升6%攻击<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "10904": {
+      "Id": 10904,
+      "PartnerType": 9,
+      "Name": "SoldierPartner.10904.1",
+      "PartnerLevelQuality": 4,
+      "Desc": "SoldierPartner.10904.2",
+      "Level": 4,
+      "Num": 6,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.10904.1",
+          "zh_TW": "灰風俱樂部",
+          "zh_CN": "灰风俱乐部",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.10904.2",
+          "zh_TW": "後援配置灰風俱樂部棋子提升100%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>\n「圍攻」上限5層\n每有1個敵人有「圍攻」標記，灰風俱樂部棋子提升10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_NormalDmg\" tint></color>，10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>\n灰風俱樂部棋子擊殺帶有「圍攻」標記的棋子後，擊殺者提升6%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>",
+          "zh_CN": "后援配置灰风俱乐部棋子提升100%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>\n「围攻」上限5层\n每有1个敌人有「围攻」标记，灰风俱乐部棋子提升10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_NormalDmg\" tint></color>，10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>\n灰风俱乐部棋子击杀带有「围攻」标记的棋子，击杀者提升6%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11001": {
+      "Id": 11001,
+      "PartnerType": 10,
+      "Name": "SoldierPartner.11001.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.11001.2",
+      "Level": 1,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "ServerEffect": [
+        1100101,
+        1100102,
+        1100103
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11001.1",
+          "zh_TW": "聯合種業",
+          "zh_CN": "联合种业",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11001.2",
+          "zh_TW": "戰鬥勝利時獲得2<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Coin\" tint></color>。進入新階段時，獲得3<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Coin\" tint></color>",
+          "zh_CN": "战斗胜利获得2<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Coin\" tint></color>；进入新阶段时，获得3<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Coin\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11101": {
+      "Id": 11101,
+      "PartnerType": 11,
+      "Name": "SoldierPartner.11101.1",
+      "PartnerLevelQuality": 1,
+      "Desc": "SoldierPartner.11101.2",
+      "Level": 1,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11101.1",
+          "zh_TW": "森林朋友",
+          "zh_CN": "森林朋友",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11101.2",
+          "zh_TW": "每隔10秒觸發",
+          "zh_CN": "每隔10秒触发",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11102": {
+      "Id": 11102,
+      "PartnerType": 11,
+      "Name": "SoldierPartner.11102.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.11102.2",
+      "Level": 2,
+      "Num": 5,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11102.1",
+          "zh_TW": "森林朋友",
+          "zh_CN": "森林朋友",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11102.2",
+          "zh_TW": "每隔8秒觸發",
+          "zh_CN": "每隔8秒触发",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11103": {
+      "Id": 11103,
+      "PartnerType": 11,
+      "Name": "SoldierPartner.11103.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.11103.2",
+      "Level": 3,
+      "Num": 7,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11103.1",
+          "zh_TW": "森林朋友",
+          "zh_CN": "森林朋友",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11103.2",
+          "zh_TW": "每隔5秒觸發\n每當有棋子陣亡時，森林朋友提升100%回能效率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>",
+          "zh_CN": "每隔5秒触发\n每当有棋子阵亡时，森林朋友提升100%回能效率<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_RecoveryEnergy\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11201": {
+      "Id": 11201,
+      "PartnerType": 12,
+      "Name": "SoldierPartner.11201.1",
+      "PartnerLevelQuality": 4,
+      "Desc": "SoldierPartner.11201.2",
+      "Level": 1,
+      "Num": 1,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11201.1",
+          "zh_TW": "夏洛克",
+          "zh_CN": "夏洛克",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11201.2",
+          "zh_TW": "1星：繼承60%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，繼承10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>；\n2星：繼承120%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，繼承50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>；\n3星：繼承500%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，繼承100%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>",
+          "zh_CN": "1星：继承60%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，继承10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>；\n2星：继承120%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，继承50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>；\n3星：继承500%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，继承100%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11301": {
+      "Id": 11301,
+      "PartnerType": 13,
+      "Name": "SoldierPartner.11301.1",
+      "PartnerLevelQuality": 1,
+      "Desc": "SoldierPartner.11301.2",
+      "Level": 1,
+      "Num": 1,
+      "SoldierPartnerNumType": 1,
+      "ClientEffect": [
+        1130101,
+        1130102
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11301.1",
+          "zh_TW": "生存達人",
+          "zh_CN": "生存达人",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11301.2",
+          "zh_TW": "每人5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>",
+          "zh_CN": "每人5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11302": {
+      "Id": 11302,
+      "PartnerType": 13,
+      "Name": "SoldierPartner.11302.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.11302.2",
+      "Level": 2,
+      "Num": 3,
+      "SoldierPartnerNumType": 1,
+      "ClientEffect": [
+        1130201,
+        1130202
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11302.1",
+          "zh_TW": "生存達人",
+          "zh_CN": "生存达人",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11302.2",
+          "zh_TW": "每人10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>",
+          "zh_CN": "每人10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11303": {
+      "Id": 11303,
+      "PartnerType": 13,
+      "Name": "SoldierPartner.11303.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.11303.2",
+      "Level": 3,
+      "Num": 5,
+      "SoldierPartnerNumType": 1,
+      "ClientEffect": [
+        1130301
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11303.1",
+          "zh_TW": "生存達人",
+          "zh_CN": "生存达人",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11303.2",
+          "zh_TW": "每人16%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>",
+          "zh_CN": "每人16%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_MaxHp\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11401": {
+      "Id": 11401,
+      "PartnerType": 14,
+      "Name": "SoldierPartner.11401.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.11401.2",
+      "Level": 1,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "ClientEffect": [
+        1140101,
+        1140102,
+        1140103
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11401.1",
+          "zh_TW": "沐浴恩典",
+          "zh_CN": "沐浴恩典",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11401.2",
+          "zh_TW": "啟動1個「聖光御體」",
+          "zh_CN": "激活1个「圣光御体」",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11402": {
+      "Id": 11402,
+      "PartnerType": 14,
+      "Name": "SoldierPartner.11402.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.11402.2",
+      "Level": 2,
+      "Num": 4,
+      "SoldierPartnerNumType": 1,
+      "ClientEffect": [
+        1140201,
+        1140202,
+        1140203
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11402.1",
+          "zh_TW": "沐浴恩典",
+          "zh_CN": "沐浴恩典",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11402.2",
+          "zh_TW": "額外啟動1個「聖光御體」（共2個）",
+          "zh_CN": "额外激活1个「圣光御体」（共2个）",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11501": {
+      "Id": 11501,
+      "PartnerType": 15,
+      "Name": "SoldierPartner.11501.1",
+      "PartnerLevelQuality": 1,
+      "Desc": "SoldierPartner.11501.2",
+      "Level": 1,
+      "Num": 1,
+      "SoldierPartnerNumType": 1,
+      "ClientEffect": [
+        1150101,
+        1150102
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11501.1",
+          "zh_TW": "百步穿楊",
+          "zh_CN": "百步穿杨",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11501.2",
+          "zh_TW": "所有棋子5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>，百步穿楊棋子額外5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>",
+          "zh_CN": "所有棋子5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>，百步穿杨棋子额外5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11502": {
+      "Id": 11502,
+      "PartnerType": 15,
+      "Name": "SoldierPartner.11502.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.11502.2",
+      "Level": 2,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "ClientEffect": [
+        1150201,
+        1150202
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11502.1",
+          "zh_TW": "百步穿楊",
+          "zh_CN": "百步穿杨",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11502.2",
+          "zh_TW": "所有棋子10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>，百步穿楊棋子額外10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>",
+          "zh_CN": "所有棋子10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>，百步穿杨棋子额外10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11503": {
+      "Id": 11503,
+      "PartnerType": 15,
+      "Name": "SoldierPartner.11503.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.11503.2",
+      "Level": 3,
+      "Num": 3,
+      "SoldierPartnerNumType": 1,
+      "ClientEffect": [
+        1150301,
+        1150302
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11503.1",
+          "zh_TW": "百步穿楊",
+          "zh_CN": "百步穿杨",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11503.2",
+          "zh_TW": "所有棋子15%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>，百步穿楊棋子額外15%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>",
+          "zh_CN": "所有棋子15%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>，百步穿杨棋子额外15%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11601": {
+      "Id": 11601,
+      "PartnerType": 16,
+      "Name": "SoldierPartner.11601.1",
+      "PartnerLevelQuality": 1,
+      "Desc": "SoldierPartner.11601.2",
+      "Level": 1,
+      "Num": 1,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11601.1",
+          "zh_TW": "巔峰戰士",
+          "zh_CN": "巅峰战士",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11601.2",
+          "zh_TW": "每有1層「武者氣勢」，20%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>",
+          "zh_CN": "每有1层「武者气势」，20%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11602": {
+      "Id": 11602,
+      "PartnerType": 16,
+      "Name": "SoldierPartner.11602.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.11602.2",
+      "Level": 2,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11602.1",
+          "zh_TW": "巔峰戰士",
+          "zh_CN": "巅峰战士",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11602.2",
+          "zh_TW": "每有1層「武者氣勢」，50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>",
+          "zh_CN": "每有1层「武者气势」，50%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11603": {
+      "Id": 11603,
+      "PartnerType": 16,
+      "Name": "SoldierPartner.11603.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.11603.2",
+      "Level": 3,
+      "Num": 3,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11603.1",
+          "zh_TW": "巔峰戰士",
+          "zh_CN": "巅峰战士",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11603.2",
+          "zh_TW": "每有1層「武者氣勢」，100%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>",
+          "zh_CN": "每有1层「武者气势」，100%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_SkillDmg\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11701": {
+      "Id": 11701,
+      "PartnerType": 17,
+      "Name": "SoldierPartner.11701.1",
+      "PartnerLevelQuality": 1,
+      "Desc": "SoldierPartner.11701.2",
+      "Level": 1,
+      "Num": 1,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11701.1",
+          "zh_TW": "魅力滿溢",
+          "zh_CN": "魅力满溢",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11701.2",
+          "zh_TW": "每次疊加1層「魅惑」，上限2層",
+          "zh_CN": "每次叠加1层「魅惑」，上限2层",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11702": {
+      "Id": 11702,
+      "PartnerType": 17,
+      "Name": "SoldierPartner.11702.1",
+      "PartnerLevelQuality": 2,
+      "Desc": "SoldierPartner.11702.2",
+      "Level": 2,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11702.1",
+          "zh_TW": "魅力滿溢",
+          "zh_CN": "魅力满溢",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11702.2",
+          "zh_TW": "每次疊加2層「魅惑」，上限5層",
+          "zh_CN": "每次叠加2层「魅惑」，上限5层",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11703": {
+      "Id": 11703,
+      "PartnerType": 17,
+      "Name": "SoldierPartner.11703.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.11703.2",
+      "Level": 3,
+      "Num": 3,
+      "SoldierPartnerNumType": 1,
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11703.1",
+          "zh_TW": "魅力滿溢",
+          "zh_CN": "魅力满溢",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11703.2",
+          "zh_TW": "無疊加上限",
+          "zh_CN": "无叠加上限",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11801": {
+      "Id": 11801,
+      "PartnerType": 18,
+      "Name": "SoldierPartner.11801.1",
+      "PartnerLevelQuality": 1,
+      "Desc": "SoldierPartner.11801.2",
+      "Level": 1,
+      "Num": 1,
+      "SoldierPartnerNumType": 1,
+      "ClientEffect": [
+        1180101,
+        1180102,
+        1180103,
+        1180104,
+        1180105,
+        1180106,
+        1180107,
+        1180108,
+        1180109,
+        1180110,
+        1180111,
+        1180112,
+        1180113,
+        1180114,
+        1180115,
+        1180116,
+        1180117,
+        1180118
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11801.1",
+          "zh_TW": "人多勢眾",
+          "zh_CN": "人多势众",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11801.2",
+          "zh_TW": "人多勢眾棋子10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>",
+          "zh_CN": "人多势众棋子10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11802": {
+      "Id": 11802,
+      "PartnerType": 18,
+      "Name": "SoldierPartner.11802.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.11802.2",
+      "Level": 2,
+      "Num": 4,
+      "SoldierPartnerNumType": 1,
+      "ClientEffect": [
+        1180201,
+        1180202,
+        1180203,
+        1180204,
+        1180205,
+        1180206,
+        1180207,
+        1180208,
+        1180209,
+        1180210,
+        1180211,
+        1180212,
+        1180213,
+        1180214,
+        1180215,
+        1180216,
+        1180217,
+        1180218
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11802.1",
+          "zh_TW": "人多勢眾",
+          "zh_CN": "人多势众",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11802.2",
+          "zh_TW": "所有棋子10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>",
+          "zh_CN": "所有棋子10%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_Atk\" tint></color>，5%<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_CritRate\" tint></color>",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    },
+    "11901": {
+      "Id": 11901,
+      "PartnerType": 19,
+      "Name": "SoldierPartner.11901.1",
+      "PartnerLevelQuality": 3,
+      "Desc": "SoldierPartner.11901.2",
+      "Level": 1,
+      "Num": 2,
+      "SoldierPartnerNumType": 1,
+      "ServerEffect": [
+        1190101
+      ],
+      "_localized": {
+        "/Name": {
+          "key": "SoldierPartner.11901.1",
+          "zh_TW": "摸魚高手",
+          "zh_CN": "摸鱼高手",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        },
+        "/Desc": {
+          "key": "SoldierPartner.11901.2",
+          "zh_TW": "摸魚高手棋子每隔一段時間會進入「放鬆狀態」，遇敵節點戰鬥結束時獲得經驗。\n「放鬆狀態」：不主動施放技能和普攻，減少25%受到的傷害<color=#f98037><sprite name=\"Soldier_00_PartnerAttr_DmgPlusRcd\" tint></color>。\n遇敵節點戰鬥結束時獲得2點經驗。",
+          "zh_CN": "摸鱼高手棋子每12秒进入「放松状态」，持续4秒\n遇敌节点战斗结束时获得2点经验",
+          "sources": {
+            "zh_TW": "language/zh_TW/SoldierPartner.json",
+            "zh_CN": "language/zh_CN/SoldierPartner.json"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1341 @@
+{
+  "table": "Attribute",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\687ab7dca63501df.bin",
+  "source_sha256": "96292831ef577a9253fbec52d7eea4f0f5f84811b3b8c5de2380decd28e6066a",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\Attribute.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 0,
+    "row_count": 7706
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      17,
+      25,
+      27,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      53,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      72,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "reference_field_order": [
+      "Id",
+      "GroupId",
+      "Break",
+      "lvl",
+      "Atk",
+      "Hp",
+      "Def",
+      "CritRate",
+      "CritPower",
+      "HitRate",
+      "WEE",
+      "FEE",
+      "SEE",
+      "AEE",
+      "LEE",
+      "DEE",
+      "ToughnessDamageAdjust",
+      "Suppress",
+      "NORMALDMG",
+      "SKILLDMG",
+      "ULTRADMG",
+      "OTHERDMG",
+      "RCDNORMALDMG",
+      "RCDSKILLDMG",
+      "RCDULTRADMG",
+      "RCDOTHERDMG",
+      "MARKDMG",
+      "RCDMARKDMG",
+      "SUMMONDMG",
+      "RCDSUMMONDMG",
+      "PROJECTILEDMG",
+      "RCDPROJECTILEDMG",
+      "GENDMG",
+      "FINALDMG",
+      "WEERCD",
+      "FEERCD",
+      "SEERCD",
+      "AEERCD",
+      "LEERCD",
+      "DEERCD",
+      "GENDMGRCD",
+      "DefPierce"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "GroupId",
+      "3": "Break",
+      "4": "lvl",
+      "5": "Atk",
+      "6": "Hp",
+      "7": "Def",
+      "8": "CritRate",
+      "17": "CritPower",
+      "25": "HitRate",
+      "27": "DefPierce",
+      "41": "WEE",
+      "42": "FEE",
+      "43": "SEE",
+      "44": "AEE",
+      "45": "LEE",
+      "46": "DEE",
+      "53": "ToughnessDamageAdjust",
+      "55": "Suppress",
+      "56": "NORMALDMG",
+      "57": "SKILLDMG",
+      "58": "ULTRADMG",
+      "59": "OTHERDMG",
+      "60": "RCDNORMALDMG",
+      "61": "RCDSKILLDMG",
+      "62": "RCDULTRADMG",
+      "63": "RCDOTHERDMG",
+      "64": "MARKDMG",
+      "65": "RCDMARKDMG",
+      "66": "SUMMONDMG",
+      "67": "RCDSUMMONDMG",
+      "68": "PROJECTILEDMG",
+      "69": "RCDPROJECTILEDMG",
+      "70": "GENDMG",
+      "72": "FINALDMG",
+      "74": "WEERCD",
+      "75": "FEERCD",
+      "76": "SEERCD",
+      "77": "AEERCD",
+      "78": "LEERCD",
+      "79": "DEERCD",
+      "80": "GENDMGRCD"
+    },
+    "aot_field_count": 42,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "string",
+      "repeated": false,
+      "wire_types": [
+        2
+      ],
+      "selected": "utf8",
+      "matching_reference_rows": 7706,
+      "compared_reference_rows": 7706,
+      "candidate_scores": [
+        {
+          "codec": "utf8",
+          "matches": 7706,
+          "compared": 7706
+        },
+        {
+          "codec": "base64",
+          "matches": 0,
+          "compared": 7706
+        }
+      ]
+    },
+    "2": {
+      "field": "GroupId",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7706,
+      "compared_reference_rows": 7706,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7706,
+          "compared": 7706
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7706,
+          "compared": 7706
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7706
+        }
+      ]
+    },
+    "3": {
+      "field": "Break",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 6637,
+      "compared_reference_rows": 6637,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 6637,
+          "compared": 6637
+        },
+        {
+          "codec": "varint_int",
+          "matches": 6637,
+          "compared": 6637
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 6637
+        }
+      ]
+    },
+    "4": {
+      "field": "lvl",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7706,
+      "compared_reference_rows": 7706,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7706,
+          "compared": 7706
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7706,
+          "compared": 7706
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7706
+        }
+      ]
+    },
+    "5": {
+      "field": "Atk",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 7466,
+      "compared_reference_rows": 7466,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 7466,
+          "compared": 7466
+        },
+        {
+          "codec": "varint_int",
+          "matches": 7466,
+          "compared": 7466
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 7466
+        }
+      ]
+    },
+    "6": {
+      "field": "Hp",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4232,
+      "compared_reference_rows": 4232,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4232,
+          "compared": 4232
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4232,
+          "compared": 4232
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4232
+        }
+      ]
+    },
+    "7": {
+      "field": "Def",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3701,
+      "compared_reference_rows": 3701,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3701,
+          "compared": 3701
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3701,
+          "compared": 3701
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3701
+        }
+      ]
+    },
+    "8": {
+      "field": "CritRate",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3665,
+      "compared_reference_rows": 3665,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3665,
+          "compared": 3665
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3665,
+          "compared": 3665
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3665
+        }
+      ]
+    },
+    "17": {
+      "field": "CritPower",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3702,
+      "compared_reference_rows": 3702,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3702,
+          "compared": 3702
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3702,
+          "compared": 3702
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3702
+        }
+      ]
+    },
+    "25": {
+      "field": "HitRate",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "27": {
+      "field": "DefPierce",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 30,
+      "compared_reference_rows": 30,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 30,
+          "compared": 30
+        },
+        {
+          "codec": "varint_int",
+          "matches": 30,
+          "compared": 30
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 30
+        }
+      ]
+    },
+    "41": {
+      "field": "WEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4064,
+      "compared_reference_rows": 4064,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4064,
+          "compared": 4064
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4064,
+          "compared": 4064
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4064
+        }
+      ]
+    },
+    "42": {
+      "field": "FEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4064,
+      "compared_reference_rows": 4064,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4064,
+          "compared": 4064
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4064,
+          "compared": 4064
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4064
+        }
+      ]
+    },
+    "43": {
+      "field": "SEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4064,
+      "compared_reference_rows": 4064,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4064,
+          "compared": 4064
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4064,
+          "compared": 4064
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4064
+        }
+      ]
+    },
+    "44": {
+      "field": "AEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4064,
+      "compared_reference_rows": 4064,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4064,
+          "compared": 4064
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4064,
+          "compared": 4064
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4064
+        }
+      ]
+    },
+    "45": {
+      "field": "LEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4064,
+      "compared_reference_rows": 4064,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4064,
+          "compared": 4064
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4064,
+          "compared": 4064
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4064
+        }
+      ]
+    },
+    "46": {
+      "field": "DEE",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4064,
+      "compared_reference_rows": 4064,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4064,
+          "compared": 4064
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4064,
+          "compared": 4064
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4064
+        }
+      ]
+    },
+    "53": {
+      "field": "ToughnessDamageAdjust",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "55": {
+      "field": "Suppress",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 132,
+      "compared_reference_rows": 132,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 132,
+          "compared": 132
+        },
+        {
+          "codec": "varint_int",
+          "matches": 132,
+          "compared": 132
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 132
+        }
+      ]
+    },
+    "56": {
+      "field": "NORMALDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3800,
+      "compared_reference_rows": 3800,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3800,
+          "compared": 3800
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3800,
+          "compared": 3800
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3800
+        }
+      ]
+    },
+    "57": {
+      "field": "SKILLDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4094,
+      "compared_reference_rows": 4094,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4094,
+          "compared": 4094
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4094,
+          "compared": 4094
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4094
+        }
+      ]
+    },
+    "58": {
+      "field": "ULTRADMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 4094,
+      "compared_reference_rows": 4094,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 4094,
+          "compared": 4094
+        },
+        {
+          "codec": "varint_int",
+          "matches": 4094,
+          "compared": 4094
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 4094
+        }
+      ]
+    },
+    "59": {
+      "field": "OTHERDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "60": {
+      "field": "RCDNORMALDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "61": {
+      "field": "RCDSKILLDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "62": {
+      "field": "RCDULTRADMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "63": {
+      "field": "RCDOTHERDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "64": {
+      "field": "MARKDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3702,
+      "compared_reference_rows": 3702,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3702,
+          "compared": 3702
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3702,
+          "compared": 3702
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3702
+        }
+      ]
+    },
+    "65": {
+      "field": "RCDMARKDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "66": {
+      "field": "SUMMONDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "67": {
+      "field": "RCDSUMMONDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "68": {
+      "field": "PROJECTILEDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "69": {
+      "field": "RCDPROJECTILEDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "70": {
+      "field": "GENDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "72": {
+      "field": "FINALDMG",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "74": {
+      "field": "WEERCD",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "75": {
+      "field": "FEERCD",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "76": {
+      "field": "SEERCD",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "77": {
+      "field": "AEERCD",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "78": {
+      "field": "LEERCD",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "79": {
+      "field": "DEERCD",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    },
+    "80": {
+      "field": "GENDMGRCD",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 3672,
+      "compared_reference_rows": 3672,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_int",
+          "matches": 3672,
+          "compared": 3672
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 3672
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 7706,
+    "reference_row_count": 7706,
+    "shared_key_count": 7706,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 7706,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

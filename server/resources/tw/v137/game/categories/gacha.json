@@ -1,0 +1,115 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "id": "gacha",
+    "name": "招募与卡池",
+    "description": "招募池、概率组、保底包和招募仓库。",
+    "table_count": 6,
+    "row_count": 2224,
+    "classification": "按表名规则自动分类；一张表可以属于多个主题。"
+  },
+  "tables": [
+    {
+      "table": "Gacha",
+      "categories": [
+        "gacha"
+      ],
+      "row_count": 55,
+      "data": "bin/Gacha.json",
+      "readable": "readable/Gacha.json",
+      "evidence": "evidence/tables/Gacha.json",
+      "source_sha256": "e49b1c66b52e8454044aacbbfb4f828496131af125d99c0908b147b7b7bb82cf",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/Gacha.json",
+      "zh_CN": "language/zh_CN/Gacha.json"
+    },
+    {
+      "table": "GachaATypeProb",
+      "categories": [
+        "gacha"
+      ],
+      "row_count": 280,
+      "data": "bin/GachaATypeProb.json",
+      "readable": "readable/GachaATypeProb.json",
+      "evidence": "evidence/tables/GachaATypeProb.json",
+      "source_sha256": "1f09043aca02d063c0410f6fc35b07f80e7f85b1f714235c8a279e292d0aa226",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GachaNewbie",
+      "categories": [
+        "gacha"
+      ],
+      "row_count": 1,
+      "data": "bin/GachaNewbie.json",
+      "readable": "readable/GachaNewbie.json",
+      "evidence": "evidence/tables/GachaNewbie.json",
+      "source_sha256": "dc86ec0b694e809299476cf102ae838338f216347464053588b3c22fce81e516",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GachaPkg",
+      "categories": [
+        "gacha"
+      ],
+      "row_count": 1874,
+      "data": "bin/GachaPkg.json",
+      "readable": "readable/GachaPkg.json",
+      "evidence": "evidence/tables/GachaPkg.json",
+      "source_sha256": "1d9b2c866f433c7b26cc2722bf3005e7b691eb7ecd3ff3301d5d6beac6e8f6d3",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": null,
+      "zh_CN": null
+    },
+    {
+      "table": "GachaStorage",
+      "categories": [
+        "gacha"
+      ],
+      "row_count": 5,
+      "data": "bin/GachaStorage.json",
+      "readable": "readable/GachaStorage.json",
+      "evidence": "evidence/tables/GachaStorage.json",
+      "source_sha256": "fef1ff4607b37e4ab2fde75e3c04727d76bb16a11865f111daae2a1fc8ef2cc8",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/GachaStorage.json",
+      "zh_CN": "language/zh_CN/GachaStorage.json"
+    },
+    {
+      "table": "GachaType",
+      "categories": [
+        "gacha"
+      ],
+      "row_count": 9,
+      "data": "bin/GachaType.json",
+      "readable": "readable/GachaType.json",
+      "evidence": "evidence/tables/GachaType.json",
+      "source_sha256": "82691a270e67480416469ac62b2f51ce51296eae8dfea01b5df36a2fb1aec59d",
+      "field_mapping_source": "reference_order_aligned_to_local_wire_numbers",
+      "field_mapping_complete": true,
+      "unknown_field_occurrences": 0,
+      "reference_exact_match": true,
+      "zh_TW": "language/zh_TW/GachaType.json",
+      "zh_CN": "language/zh_CN/GachaType.json"
+    }
+  ]
+}

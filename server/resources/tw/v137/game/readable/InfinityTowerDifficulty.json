@@ -1,0 +1,3914 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "InfinityTowerDifficulty",
+    "categories": [
+      "stages_modes"
+    ],
+    "row_count": 129,
+    "localization_hits": 257,
+    "source": "bin/InfinityTowerDifficulty.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1100": {
+      "Id": 1100,
+      "Name": "InfinityTowerDifficulty.1100.1",
+      "TowerId": 1,
+      "UnlockWorldClass": 4,
+      "UnlockTips": "InfinityTowerDifficulty.1100.2",
+      "RecommendLevel": 10,
+      "RecommendBuildRank": 5,
+      "Sort": 1,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.1100.1",
+          "zh_TW": "「無限競技」難度1",
+          "zh_CN": "「无极角斗」难度1",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "1101": {
+      "Id": 1101,
+      "Name": "InfinityTowerDifficulty.1101.1",
+      "TowerId": 1,
+      "UnlockWorldClass": 4,
+      "UnlockTips": "InfinityTowerDifficulty.1101.2",
+      "RecommendLevel": 10,
+      "RecommendBuildRank": 5,
+      "Sort": 2,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.1101.1",
+          "zh_TW": "「無限競技」難度2",
+          "zh_CN": "「无极角斗」难度2",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.1101.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>4</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>4</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "1102": {
+      "Id": 1102,
+      "Name": "InfinityTowerDifficulty.1102.1",
+      "TowerId": 1,
+      "UnlockWorldClass": 5,
+      "UnlockTips": "InfinityTowerDifficulty.1102.2",
+      "RecommendLevel": 22,
+      "RecommendBuildRank": 9,
+      "Sort": 3,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.1102.1",
+          "zh_TW": "「無限競技」難度3",
+          "zh_CN": "「无极角斗」难度3",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.1102.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>5</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>5</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "1103": {
+      "Id": 1103,
+      "Name": "InfinityTowerDifficulty.1103.1",
+      "TowerId": 1,
+      "UnlockWorldClass": 9,
+      "UnlockTips": "InfinityTowerDifficulty.1103.2",
+      "RecommendLevel": 32,
+      "RecommendBuildRank": 13,
+      "Sort": 4,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.1103.1",
+          "zh_TW": "「無限競技」難度4",
+          "zh_CN": "「无极角斗」难度4",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.1103.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>9</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>9</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "1104": {
+      "Id": 1104,
+      "Name": "InfinityTowerDifficulty.1104.1",
+      "TowerId": 1,
+      "UnlockWorldClass": 11,
+      "UnlockTips": "InfinityTowerDifficulty.1104.2",
+      "RecommendLevel": 40,
+      "RecommendBuildRank": 13,
+      "Sort": 5,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.1104.1",
+          "zh_TW": "「無限競技」難度5",
+          "zh_CN": "「无极角斗」难度5",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.1104.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>11</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>11</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "1105": {
+      "Id": 1105,
+      "Name": "InfinityTowerDifficulty.1105.1",
+      "TowerId": 1,
+      "UnlockWorldClass": 13,
+      "UnlockTips": "InfinityTowerDifficulty.1105.2",
+      "RecommendLevel": 60,
+      "RecommendBuildRank": 14,
+      "Sort": 6,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.1105.1",
+          "zh_TW": "「無限競技」難度6",
+          "zh_CN": "「无极角斗」难度6",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.1105.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>13</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>13</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "1106": {
+      "Id": 1106,
+      "Name": "InfinityTowerDifficulty.1106.1",
+      "TowerId": 1,
+      "UnlockWorldClass": 15,
+      "UnlockTips": "InfinityTowerDifficulty.1106.2",
+      "RecommendLevel": 60,
+      "RecommendBuildRank": 16,
+      "Sort": 7,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.1106.1",
+          "zh_TW": "「無限競技」難度7",
+          "zh_CN": "「无极角斗」难度7",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.1106.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>15</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>15</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "1107": {
+      "Id": 1107,
+      "Name": "InfinityTowerDifficulty.1107.1",
+      "TowerId": 1,
+      "UnlockWorldClass": 18,
+      "UnlockTips": "InfinityTowerDifficulty.1107.2",
+      "IsChallenge": true,
+      "RecommendLevel": 70,
+      "RecommendBuildRank": 21,
+      "Sort": 8,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.1107.1",
+          "zh_TW": "「無限競技」難度8",
+          "zh_CN": "「无极角斗」难度8",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.1107.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>18</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>18</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "1108": {
+      "Id": 1108,
+      "Name": "InfinityTowerDifficulty.1108.1",
+      "TowerId": 1,
+      "UnlockWorldClass": 22,
+      "UnlockTips": "InfinityTowerDifficulty.1108.2",
+      "IsChallenge": true,
+      "RecommendLevel": 82,
+      "RecommendBuildRank": 29,
+      "Sort": 9,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.1108.1",
+          "zh_TW": "「無限競技」難度9",
+          "zh_CN": "「无极角斗」难度9",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.1108.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>22</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>22</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3100": {
+      "Id": 3100,
+      "Name": "InfinityTowerDifficulty.3100.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 8,
+      "UnlockTips": "InfinityTowerDifficulty.3100.2",
+      "RecommendLevel": 25,
+      "RecommendBuildRank": 10,
+      "Sort": 1,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3100.1",
+          "zh_TW": "「颯爽疾奏」難度1",
+          "zh_CN": "「飒爽疾奏」难度1",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3100.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>8</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>8</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3101": {
+      "Id": 3101,
+      "Name": "InfinityTowerDifficulty.3101.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 8,
+      "UnlockTips": "InfinityTowerDifficulty.3101.2",
+      "RecommendLevel": 35,
+      "RecommendBuildRank": 14,
+      "Sort": 2,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3101.1",
+          "zh_TW": "「颯爽疾奏」難度2",
+          "zh_CN": "「飒爽疾奏」难度2",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3101.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>8</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>8</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3102": {
+      "Id": 3102,
+      "Name": "InfinityTowerDifficulty.3102.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 10,
+      "UnlockTips": "InfinityTowerDifficulty.3102.2",
+      "RecommendLevel": 35,
+      "RecommendBuildRank": 14,
+      "Sort": 3,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3102.1",
+          "zh_TW": "「颯爽疾奏」難度3",
+          "zh_CN": "「飒爽疾奏」难度3",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3102.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>10</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>10</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3103": {
+      "Id": 3103,
+      "Name": "InfinityTowerDifficulty.3103.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 12,
+      "UnlockTips": "InfinityTowerDifficulty.3103.2",
+      "RecommendLevel": 42,
+      "RecommendBuildRank": 14,
+      "Sort": 4,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3103.1",
+          "zh_TW": "「颯爽疾奏」難度4",
+          "zh_CN": "「飒爽疾奏」难度4",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3103.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>12</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>12</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3104": {
+      "Id": 3104,
+      "Name": "InfinityTowerDifficulty.3104.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 14,
+      "UnlockTips": "InfinityTowerDifficulty.3104.2",
+      "RecommendLevel": 62,
+      "RecommendBuildRank": 17,
+      "Sort": 5,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3104.1",
+          "zh_TW": "「颯爽疾奏」難度5",
+          "zh_CN": "「飒爽疾奏」难度5",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3104.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>14</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>14</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3105": {
+      "Id": 3105,
+      "Name": "InfinityTowerDifficulty.3105.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 16,
+      "UnlockTips": "InfinityTowerDifficulty.3105.2",
+      "RecommendLevel": 72,
+      "RecommendBuildRank": 22,
+      "Sort": 6,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3105.1",
+          "zh_TW": "「颯爽疾奏」難度6",
+          "zh_CN": "「飒爽疾奏」难度6",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3105.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>16</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>16</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3106": {
+      "Id": 3106,
+      "Name": "InfinityTowerDifficulty.3106.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 19,
+      "UnlockTips": "InfinityTowerDifficulty.3106.2",
+      "RecommendLevel": 82,
+      "RecommendBuildRank": 27,
+      "Sort": 7,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3106.1",
+          "zh_TW": "「颯爽疾奏」難度7",
+          "zh_CN": "「飒爽疾奏」难度7",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3106.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>19</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>19</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3107": {
+      "Id": 3107,
+      "Name": "InfinityTowerDifficulty.3107.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 23,
+      "UnlockTips": "InfinityTowerDifficulty.3107.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 31,
+      "Sort": 8,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3107.1",
+          "zh_TW": "「颯爽疾奏」難度8",
+          "zh_CN": "「飒爽疾奏」难度8",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3107.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>23</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>23</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3108": {
+      "Id": 3108,
+      "Name": "InfinityTowerDifficulty.3108.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 25,
+      "UnlockTips": "InfinityTowerDifficulty.3108.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 32,
+      "Sort": 9,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3108.1",
+          "zh_TW": "「颯爽疾奏」難度9",
+          "zh_CN": "「飒爽疾奏」难度9",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3108.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>25</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>25</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3109": {
+      "Id": 3109,
+      "Name": "InfinityTowerDifficulty.3109.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 27,
+      "UnlockTips": "InfinityTowerDifficulty.3109.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 34,
+      "Sort": 10,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3109.1",
+          "zh_TW": "「颯爽疾奏」難度10",
+          "zh_CN": "「飒爽疾奏」难度10",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3109.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>27</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>27</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3110": {
+      "Id": 3110,
+      "Name": "InfinityTowerDifficulty.3110.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 30,
+      "UnlockTips": "InfinityTowerDifficulty.3110.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 35,
+      "Sort": 11,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3110.1",
+          "zh_TW": "「颯爽疾奏」難度11",
+          "zh_CN": "「飒爽疾奏」难度11",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3110.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>30</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>30</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3111": {
+      "Id": 3111,
+      "Name": "InfinityTowerDifficulty.3111.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 30,
+      "UnlockTips": "InfinityTowerDifficulty.3111.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 35,
+      "Sort": 12,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3111.1",
+          "zh_TW": "「颯爽疾奏」難度12",
+          "zh_CN": "「飒爽疾奏」难度12",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3111.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>30</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>30</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3112": {
+      "Id": 3112,
+      "Name": "InfinityTowerDifficulty.3112.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 32,
+      "UnlockTips": "InfinityTowerDifficulty.3112.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 36,
+      "Sort": 13,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3112.1",
+          "zh_TW": "「颯爽疾奏」難度13",
+          "zh_CN": "「飒爽疾奏」难度13",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3112.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>32</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>32</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3113": {
+      "Id": 3113,
+      "Name": "InfinityTowerDifficulty.3113.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 32,
+      "UnlockTips": "InfinityTowerDifficulty.3113.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 36,
+      "Sort": 14,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3113.1",
+          "zh_TW": "「颯爽疾奏」難度14",
+          "zh_CN": "「飒爽疾奏」难度14",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3113.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>32</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>32</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3114": {
+      "Id": 3114,
+      "Name": "InfinityTowerDifficulty.3114.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 34,
+      "UnlockTips": "InfinityTowerDifficulty.3114.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 38,
+      "Sort": 15,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3114.1",
+          "zh_TW": "「颯爽疾奏」難度15",
+          "zh_CN": "「飒爽疾奏」难度15",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3114.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>34</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>34</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3115": {
+      "Id": 3115,
+      "Name": "InfinityTowerDifficulty.3115.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 34,
+      "UnlockTips": "InfinityTowerDifficulty.3115.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 38,
+      "Sort": 16,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3115.1",
+          "zh_TW": "「颯爽疾奏」難度16",
+          "zh_CN": "「飒爽疾奏」难度16",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3115.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>34</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>34</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3116": {
+      "Id": 3116,
+      "Name": "InfinityTowerDifficulty.3116.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 36,
+      "UnlockTips": "InfinityTowerDifficulty.3116.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 39,
+      "Sort": 17,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3116.1",
+          "zh_TW": "「颯爽疾奏」難度17",
+          "zh_CN": "「飒爽疾奏」难度17",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3116.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>36</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>36</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3117": {
+      "Id": 3117,
+      "Name": "InfinityTowerDifficulty.3117.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 36,
+      "UnlockTips": "InfinityTowerDifficulty.3117.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 39,
+      "Sort": 18,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3117.1",
+          "zh_TW": "「颯爽疾奏」難度18",
+          "zh_CN": "「飒爽疾奏」难度18",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3117.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>36</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>36</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3118": {
+      "Id": 3118,
+      "Name": "InfinityTowerDifficulty.3118.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 38,
+      "UnlockTips": "InfinityTowerDifficulty.3118.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 40,
+      "Sort": 19,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3118.1",
+          "zh_TW": "「颯爽疾奏」難度19",
+          "zh_CN": "「飒爽疾奏」难度19",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3118.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>38</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>38</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "3119": {
+      "Id": 3119,
+      "Name": "InfinityTowerDifficulty.3119.1",
+      "TowerId": 2,
+      "UnlockWorldClass": 38,
+      "UnlockTips": "InfinityTowerDifficulty.3119.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 40,
+      "Sort": 20,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.3119.1",
+          "zh_TW": "「颯爽疾奏」難度20",
+          "zh_CN": "「飒爽疾奏」难度20",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.3119.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>38</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>38</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5100": {
+      "Id": 5100,
+      "Name": "InfinityTowerDifficulty.5100.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 8,
+      "UnlockTips": "InfinityTowerDifficulty.5100.2",
+      "RecommendLevel": 25,
+      "RecommendBuildRank": 10,
+      "Sort": 1,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5100.1",
+          "zh_TW": "「荒壘震音」難度1",
+          "zh_CN": "「荒垒震音」难度1",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5100.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>8</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>8</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5101": {
+      "Id": 5101,
+      "Name": "InfinityTowerDifficulty.5101.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 8,
+      "UnlockTips": "InfinityTowerDifficulty.5101.2",
+      "RecommendLevel": 35,
+      "RecommendBuildRank": 14,
+      "Sort": 2,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5101.1",
+          "zh_TW": "「荒壘震音」難度2",
+          "zh_CN": "「荒垒震音」难度2",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5101.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>8</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>8</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5102": {
+      "Id": 5102,
+      "Name": "InfinityTowerDifficulty.5102.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 10,
+      "UnlockTips": "InfinityTowerDifficulty.5102.2",
+      "RecommendLevel": 35,
+      "RecommendBuildRank": 14,
+      "Sort": 3,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5102.1",
+          "zh_TW": "「荒壘震音」難度3",
+          "zh_CN": "「荒垒震音」难度3",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5102.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>10</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>10</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5103": {
+      "Id": 5103,
+      "Name": "InfinityTowerDifficulty.5103.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 12,
+      "UnlockTips": "InfinityTowerDifficulty.5103.2",
+      "RecommendLevel": 42,
+      "RecommendBuildRank": 14,
+      "Sort": 4,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5103.1",
+          "zh_TW": "「荒壘震音」難度4",
+          "zh_CN": "「荒垒震音」难度4",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5103.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>12</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>12</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5104": {
+      "Id": 5104,
+      "Name": "InfinityTowerDifficulty.5104.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 14,
+      "UnlockTips": "InfinityTowerDifficulty.5104.2",
+      "RecommendLevel": 62,
+      "RecommendBuildRank": 17,
+      "Sort": 5,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5104.1",
+          "zh_TW": "「荒壘震音」難度5",
+          "zh_CN": "「荒垒震音」难度5",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5104.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>14</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>14</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5105": {
+      "Id": 5105,
+      "Name": "InfinityTowerDifficulty.5105.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 16,
+      "UnlockTips": "InfinityTowerDifficulty.5105.2",
+      "RecommendLevel": 72,
+      "RecommendBuildRank": 22,
+      "Sort": 6,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5105.1",
+          "zh_TW": "「荒壘震音」難度6",
+          "zh_CN": "「荒垒震音」难度6",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5105.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>16</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>16</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5106": {
+      "Id": 5106,
+      "Name": "InfinityTowerDifficulty.5106.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 19,
+      "UnlockTips": "InfinityTowerDifficulty.5106.2",
+      "RecommendLevel": 82,
+      "RecommendBuildRank": 27,
+      "Sort": 7,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5106.1",
+          "zh_TW": "「荒壘震音」難度7",
+          "zh_CN": "「荒垒震音」难度7",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5106.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>19</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>19</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5107": {
+      "Id": 5107,
+      "Name": "InfinityTowerDifficulty.5107.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 23,
+      "UnlockTips": "InfinityTowerDifficulty.5107.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 31,
+      "Sort": 8,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5107.1",
+          "zh_TW": "「荒壘震音」難度8",
+          "zh_CN": "「荒垒震音」难度8",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5107.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>23</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>23</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5108": {
+      "Id": 5108,
+      "Name": "InfinityTowerDifficulty.5108.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 25,
+      "UnlockTips": "InfinityTowerDifficulty.5108.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 32,
+      "Sort": 9,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5108.1",
+          "zh_TW": "「荒壘震音」難度9",
+          "zh_CN": "「荒垒震音」难度9",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5108.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>25</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>25</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5109": {
+      "Id": 5109,
+      "Name": "InfinityTowerDifficulty.5109.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 27,
+      "UnlockTips": "InfinityTowerDifficulty.5109.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 34,
+      "Sort": 10,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5109.1",
+          "zh_TW": "「荒壘震音」難度10",
+          "zh_CN": "「荒垒震音」难度10",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5109.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>27</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>27</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5110": {
+      "Id": 5110,
+      "Name": "InfinityTowerDifficulty.5110.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 30,
+      "UnlockTips": "InfinityTowerDifficulty.5110.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 35,
+      "Sort": 11,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5110.1",
+          "zh_TW": "「荒壘震音」難度11",
+          "zh_CN": "「荒垒震音」难度11",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5110.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>30</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>30</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5111": {
+      "Id": 5111,
+      "Name": "InfinityTowerDifficulty.5111.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 30,
+      "UnlockTips": "InfinityTowerDifficulty.5111.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 35,
+      "Sort": 12,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5111.1",
+          "zh_TW": "「荒壘震音」難度12",
+          "zh_CN": "「荒垒震音」难度12",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5111.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>30</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>30</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5112": {
+      "Id": 5112,
+      "Name": "InfinityTowerDifficulty.5112.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 32,
+      "UnlockTips": "InfinityTowerDifficulty.5112.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 36,
+      "Sort": 13,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5112.1",
+          "zh_TW": "「荒壘震音」難度13",
+          "zh_CN": "「荒垒震音」难度13",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5112.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>32</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>32</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5113": {
+      "Id": 5113,
+      "Name": "InfinityTowerDifficulty.5113.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 32,
+      "UnlockTips": "InfinityTowerDifficulty.5113.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 36,
+      "Sort": 14,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5113.1",
+          "zh_TW": "「荒壘震音」難度14",
+          "zh_CN": "「荒垒震音」难度14",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5113.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>32</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>32</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5114": {
+      "Id": 5114,
+      "Name": "InfinityTowerDifficulty.5114.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 34,
+      "UnlockTips": "InfinityTowerDifficulty.5114.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 38,
+      "Sort": 15,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5114.1",
+          "zh_TW": "「荒壘震音」難度15",
+          "zh_CN": "「荒垒震音」难度15",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5114.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>34</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>34</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5115": {
+      "Id": 5115,
+      "Name": "InfinityTowerDifficulty.5115.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 34,
+      "UnlockTips": "InfinityTowerDifficulty.5115.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 38,
+      "Sort": 16,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5115.1",
+          "zh_TW": "「荒壘震音」難度16",
+          "zh_CN": "「荒垒震音」难度16",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5115.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>34</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>34</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5116": {
+      "Id": 5116,
+      "Name": "InfinityTowerDifficulty.5116.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 36,
+      "UnlockTips": "InfinityTowerDifficulty.5116.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 39,
+      "Sort": 17,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5116.1",
+          "zh_TW": "「荒壘震音」難度17",
+          "zh_CN": "「荒垒震音」难度17",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5116.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>36</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>36</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5117": {
+      "Id": 5117,
+      "Name": "InfinityTowerDifficulty.5117.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 36,
+      "UnlockTips": "InfinityTowerDifficulty.5117.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 39,
+      "Sort": 18,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5117.1",
+          "zh_TW": "「荒壘震音」難度18",
+          "zh_CN": "「荒垒震音」难度18",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5117.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>36</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>36</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5118": {
+      "Id": 5118,
+      "Name": "InfinityTowerDifficulty.5118.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 38,
+      "UnlockTips": "InfinityTowerDifficulty.5118.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 40,
+      "Sort": 19,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5118.1",
+          "zh_TW": "「荒壘震音」難度19",
+          "zh_CN": "「荒垒震音」难度19",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5118.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>38</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>38</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "5119": {
+      "Id": 5119,
+      "Name": "InfinityTowerDifficulty.5119.1",
+      "TowerId": 3,
+      "UnlockWorldClass": 38,
+      "UnlockTips": "InfinityTowerDifficulty.5119.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 40,
+      "Sort": 20,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.5119.1",
+          "zh_TW": "「荒壘震音」難度20",
+          "zh_CN": "「荒垒震音」难度20",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.5119.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>38</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>38</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6100": {
+      "Id": 6100,
+      "Name": "InfinityTowerDifficulty.6100.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 8,
+      "UnlockTips": "InfinityTowerDifficulty.6100.2",
+      "RecommendLevel": 25,
+      "RecommendBuildRank": 10,
+      "Sort": 1,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6100.1",
+          "zh_TW": "「幽閉儀式」難度1",
+          "zh_CN": "「幽闭仪典」难度1",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6100.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>8</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>8</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6101": {
+      "Id": 6101,
+      "Name": "InfinityTowerDifficulty.6101.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 8,
+      "UnlockTips": "InfinityTowerDifficulty.6101.2",
+      "RecommendLevel": 35,
+      "RecommendBuildRank": 14,
+      "Sort": 2,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6101.1",
+          "zh_TW": "「幽閉儀式」難度2",
+          "zh_CN": "「幽闭仪典」难度2",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6101.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>8</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>8</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6102": {
+      "Id": 6102,
+      "Name": "InfinityTowerDifficulty.6102.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 10,
+      "UnlockTips": "InfinityTowerDifficulty.6102.2",
+      "RecommendLevel": 35,
+      "RecommendBuildRank": 14,
+      "Sort": 3,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6102.1",
+          "zh_TW": "「幽閉儀式」難度3",
+          "zh_CN": "「幽闭仪典」难度3",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6102.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>10</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>10</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6103": {
+      "Id": 6103,
+      "Name": "InfinityTowerDifficulty.6103.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 12,
+      "UnlockTips": "InfinityTowerDifficulty.6103.2",
+      "RecommendLevel": 42,
+      "RecommendBuildRank": 14,
+      "Sort": 4,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6103.1",
+          "zh_TW": "「幽閉儀式」難度4",
+          "zh_CN": "「幽闭仪典」难度4",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6103.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>12</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>12</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6104": {
+      "Id": 6104,
+      "Name": "InfinityTowerDifficulty.6104.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 14,
+      "UnlockTips": "InfinityTowerDifficulty.6104.2",
+      "RecommendLevel": 62,
+      "RecommendBuildRank": 17,
+      "Sort": 5,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6104.1",
+          "zh_TW": "「幽閉儀式」難度5",
+          "zh_CN": "「幽闭仪典」难度5",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6104.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>14</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>14</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6105": {
+      "Id": 6105,
+      "Name": "InfinityTowerDifficulty.6105.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 16,
+      "UnlockTips": "InfinityTowerDifficulty.6105.2",
+      "RecommendLevel": 72,
+      "RecommendBuildRank": 22,
+      "Sort": 6,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6105.1",
+          "zh_TW": "「幽閉儀式」難度6",
+          "zh_CN": "「幽闭仪典」难度6",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6105.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>16</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>16</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6106": {
+      "Id": 6106,
+      "Name": "InfinityTowerDifficulty.6106.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 19,
+      "UnlockTips": "InfinityTowerDifficulty.6106.2",
+      "RecommendLevel": 82,
+      "RecommendBuildRank": 27,
+      "Sort": 7,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6106.1",
+          "zh_TW": "「幽閉儀式」難度7",
+          "zh_CN": "「幽闭仪典」难度7",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6106.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>19</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>19</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6107": {
+      "Id": 6107,
+      "Name": "InfinityTowerDifficulty.6107.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 23,
+      "UnlockTips": "InfinityTowerDifficulty.6107.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 31,
+      "Sort": 8,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6107.1",
+          "zh_TW": "「幽閉儀式」難度8",
+          "zh_CN": "「幽闭仪典」难度8",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6107.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>23</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>23</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6108": {
+      "Id": 6108,
+      "Name": "InfinityTowerDifficulty.6108.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 25,
+      "UnlockTips": "InfinityTowerDifficulty.6108.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 32,
+      "Sort": 9,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6108.1",
+          "zh_TW": "「幽閉儀式」難度9",
+          "zh_CN": "「幽闭仪典」难度9",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6108.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>25</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>25</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6109": {
+      "Id": 6109,
+      "Name": "InfinityTowerDifficulty.6109.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 27,
+      "UnlockTips": "InfinityTowerDifficulty.6109.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 34,
+      "Sort": 10,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6109.1",
+          "zh_TW": "「幽閉儀式」難度10",
+          "zh_CN": "「幽闭仪典」难度10",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6109.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>27</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>27</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6110": {
+      "Id": 6110,
+      "Name": "InfinityTowerDifficulty.6110.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 30,
+      "UnlockTips": "InfinityTowerDifficulty.6110.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 35,
+      "Sort": 11,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6110.1",
+          "zh_TW": "「幽閉儀式」難度11",
+          "zh_CN": "「幽闭仪典」难度11",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6110.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>30</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>30</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6111": {
+      "Id": 6111,
+      "Name": "InfinityTowerDifficulty.6111.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 30,
+      "UnlockTips": "InfinityTowerDifficulty.6111.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 35,
+      "Sort": 12,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6111.1",
+          "zh_TW": "「幽閉儀式」難度12",
+          "zh_CN": "「幽闭仪典」难度12",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6111.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>30</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>30</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6112": {
+      "Id": 6112,
+      "Name": "InfinityTowerDifficulty.6112.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 32,
+      "UnlockTips": "InfinityTowerDifficulty.6112.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 36,
+      "Sort": 13,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6112.1",
+          "zh_TW": "「幽閉儀式」難度13",
+          "zh_CN": "「幽闭仪典」难度13",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6112.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>32</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>32</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6113": {
+      "Id": 6113,
+      "Name": "InfinityTowerDifficulty.6113.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 32,
+      "UnlockTips": "InfinityTowerDifficulty.6113.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 36,
+      "Sort": 14,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6113.1",
+          "zh_TW": "「幽閉儀式」難度14",
+          "zh_CN": "「幽闭仪典」难度14",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6113.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>32</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>32</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6114": {
+      "Id": 6114,
+      "Name": "InfinityTowerDifficulty.6114.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 34,
+      "UnlockTips": "InfinityTowerDifficulty.6114.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 38,
+      "Sort": 15,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6114.1",
+          "zh_TW": "「幽閉儀式」難度15",
+          "zh_CN": "「幽闭仪典」难度15",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6114.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>34</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>34</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6115": {
+      "Id": 6115,
+      "Name": "InfinityTowerDifficulty.6115.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 34,
+      "UnlockTips": "InfinityTowerDifficulty.6115.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 38,
+      "Sort": 16,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6115.1",
+          "zh_TW": "「幽閉儀式」難度16",
+          "zh_CN": "「幽闭仪典」难度16",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6115.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>34</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>34</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6116": {
+      "Id": 6116,
+      "Name": "InfinityTowerDifficulty.6116.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 36,
+      "UnlockTips": "InfinityTowerDifficulty.6116.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 39,
+      "Sort": 17,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6116.1",
+          "zh_TW": "「幽閉儀式」難度17",
+          "zh_CN": "「幽闭仪典」难度17",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6116.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>36</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>36</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6117": {
+      "Id": 6117,
+      "Name": "InfinityTowerDifficulty.6117.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 36,
+      "UnlockTips": "InfinityTowerDifficulty.6117.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 39,
+      "Sort": 18,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6117.1",
+          "zh_TW": "「幽閉儀式」難度18",
+          "zh_CN": "「幽闭仪典」难度18",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6117.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>36</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>36</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6118": {
+      "Id": 6118,
+      "Name": "InfinityTowerDifficulty.6118.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 38,
+      "UnlockTips": "InfinityTowerDifficulty.6118.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 40,
+      "Sort": 19,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6118.1",
+          "zh_TW": "「幽閉儀式」難度19",
+          "zh_CN": "「幽闭仪典」难度19",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6118.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>38</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>38</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "6119": {
+      "Id": 6119,
+      "Name": "InfinityTowerDifficulty.6119.1",
+      "TowerId": 4,
+      "UnlockWorldClass": 38,
+      "UnlockTips": "InfinityTowerDifficulty.6119.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 40,
+      "Sort": 20,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.6119.1",
+          "zh_TW": "「幽閉儀式」難度20",
+          "zh_CN": "「幽闭仪典」难度20",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.6119.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>38</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>38</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2100": {
+      "Id": 2100,
+      "Name": "InfinityTowerDifficulty.2100.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 8,
+      "UnlockTips": "InfinityTowerDifficulty.2100.2",
+      "RecommendLevel": 25,
+      "RecommendBuildRank": 10,
+      "Sort": 1,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2100.1",
+          "zh_TW": "「熾熱狂舞」難度1",
+          "zh_CN": "「炽热狂舞」难度1",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2100.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>8</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>8</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2101": {
+      "Id": 2101,
+      "Name": "InfinityTowerDifficulty.2101.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 8,
+      "UnlockTips": "InfinityTowerDifficulty.2101.2",
+      "RecommendLevel": 35,
+      "RecommendBuildRank": 14,
+      "Sort": 2,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2101.1",
+          "zh_TW": "「熾熱狂舞」難度2",
+          "zh_CN": "「炽热狂舞」难度2",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2101.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>8</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>8</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2102": {
+      "Id": 2102,
+      "Name": "InfinityTowerDifficulty.2102.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 10,
+      "UnlockTips": "InfinityTowerDifficulty.2102.2",
+      "RecommendLevel": 35,
+      "RecommendBuildRank": 14,
+      "Sort": 3,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2102.1",
+          "zh_TW": "「熾熱狂舞」難度3",
+          "zh_CN": "「炽热狂舞」难度3",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2102.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>10</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>10</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2103": {
+      "Id": 2103,
+      "Name": "InfinityTowerDifficulty.2103.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 12,
+      "UnlockTips": "InfinityTowerDifficulty.2103.2",
+      "RecommendLevel": 42,
+      "RecommendBuildRank": 14,
+      "Sort": 4,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2103.1",
+          "zh_TW": "「熾熱狂舞」難度4",
+          "zh_CN": "「炽热狂舞」难度4",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2103.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>12</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>12</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2104": {
+      "Id": 2104,
+      "Name": "InfinityTowerDifficulty.2104.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 14,
+      "UnlockTips": "InfinityTowerDifficulty.2104.2",
+      "RecommendLevel": 62,
+      "RecommendBuildRank": 17,
+      "Sort": 5,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2104.1",
+          "zh_TW": "「熾熱狂舞」難度5",
+          "zh_CN": "「炽热狂舞」难度5",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2104.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>14</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>14</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2105": {
+      "Id": 2105,
+      "Name": "InfinityTowerDifficulty.2105.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 16,
+      "UnlockTips": "InfinityTowerDifficulty.2105.2",
+      "RecommendLevel": 72,
+      "RecommendBuildRank": 22,
+      "Sort": 6,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2105.1",
+          "zh_TW": "「熾熱狂舞」難度6",
+          "zh_CN": "「炽热狂舞」难度6",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2105.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>16</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>16</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2106": {
+      "Id": 2106,
+      "Name": "InfinityTowerDifficulty.2106.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 19,
+      "UnlockTips": "InfinityTowerDifficulty.2106.2",
+      "RecommendLevel": 82,
+      "RecommendBuildRank": 27,
+      "Sort": 7,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2106.1",
+          "zh_TW": "「熾熱狂舞」難度7",
+          "zh_CN": "「炽热狂舞」难度7",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2106.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>19</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>19</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2107": {
+      "Id": 2107,
+      "Name": "InfinityTowerDifficulty.2107.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 23,
+      "UnlockTips": "InfinityTowerDifficulty.2107.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 31,
+      "Sort": 8,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2107.1",
+          "zh_TW": "「熾熱狂舞」難度8",
+          "zh_CN": "「炽热狂舞」难度8",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2107.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>23</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>23</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2108": {
+      "Id": 2108,
+      "Name": "InfinityTowerDifficulty.2108.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 25,
+      "UnlockTips": "InfinityTowerDifficulty.2108.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 32,
+      "Sort": 9,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2108.1",
+          "zh_TW": "「熾熱狂舞」難度9",
+          "zh_CN": "「炽热狂舞」难度9",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2108.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>25</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>25</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2109": {
+      "Id": 2109,
+      "Name": "InfinityTowerDifficulty.2109.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 27,
+      "UnlockTips": "InfinityTowerDifficulty.2109.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 34,
+      "Sort": 10,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2109.1",
+          "zh_TW": "「熾熱狂舞」難度10",
+          "zh_CN": "「炽热狂舞」难度10",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2109.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>27</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>27</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2110": {
+      "Id": 2110,
+      "Name": "InfinityTowerDifficulty.2110.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 30,
+      "UnlockTips": "InfinityTowerDifficulty.2110.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 35,
+      "Sort": 11,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2110.1",
+          "zh_TW": "「熾熱狂舞」難度11",
+          "zh_CN": "「炽热狂舞」难度11",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2110.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>30</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>30</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2111": {
+      "Id": 2111,
+      "Name": "InfinityTowerDifficulty.2111.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 30,
+      "UnlockTips": "InfinityTowerDifficulty.2111.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 35,
+      "Sort": 12,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2111.1",
+          "zh_TW": "「熾熱狂舞」難度12",
+          "zh_CN": "「炽热狂舞」难度12",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2111.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>30</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>30</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2112": {
+      "Id": 2112,
+      "Name": "InfinityTowerDifficulty.2112.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 32,
+      "UnlockTips": "InfinityTowerDifficulty.2112.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 36,
+      "Sort": 13,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2112.1",
+          "zh_TW": "「熾熱狂舞」難度13",
+          "zh_CN": "「炽热狂舞」难度13",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2112.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>32</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>32</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2113": {
+      "Id": 2113,
+      "Name": "InfinityTowerDifficulty.2113.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 32,
+      "UnlockTips": "InfinityTowerDifficulty.2113.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 36,
+      "Sort": 14,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2113.1",
+          "zh_TW": "「熾熱狂舞」難度14",
+          "zh_CN": "「炽热狂舞」难度14",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2113.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>32</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>32</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2114": {
+      "Id": 2114,
+      "Name": "InfinityTowerDifficulty.2114.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 34,
+      "UnlockTips": "InfinityTowerDifficulty.2114.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 38,
+      "Sort": 15,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2114.1",
+          "zh_TW": "「熾熱狂舞」難度15",
+          "zh_CN": "「炽热狂舞」难度15",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2114.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>34</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>34</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2115": {
+      "Id": 2115,
+      "Name": "InfinityTowerDifficulty.2115.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 34,
+      "UnlockTips": "InfinityTowerDifficulty.2115.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 38,
+      "Sort": 16,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2115.1",
+          "zh_TW": "「熾熱狂舞」難度16",
+          "zh_CN": "「炽热狂舞」难度16",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2115.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>34</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>34</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2116": {
+      "Id": 2116,
+      "Name": "InfinityTowerDifficulty.2116.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 36,
+      "UnlockTips": "InfinityTowerDifficulty.2116.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 39,
+      "Sort": 17,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2116.1",
+          "zh_TW": "「熾熱狂舞」難度17",
+          "zh_CN": "「炽热狂舞」难度17",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2116.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>36</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>36</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2117": {
+      "Id": 2117,
+      "Name": "InfinityTowerDifficulty.2117.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 36,
+      "UnlockTips": "InfinityTowerDifficulty.2117.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 39,
+      "Sort": 18,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2117.1",
+          "zh_TW": "「熾熱狂舞」難度18",
+          "zh_CN": "「炽热狂舞」难度18",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2117.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>36</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>36</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2118": {
+      "Id": 2118,
+      "Name": "InfinityTowerDifficulty.2118.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 38,
+      "UnlockTips": "InfinityTowerDifficulty.2118.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 40,
+      "Sort": 19,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2118.1",
+          "zh_TW": "「熾熱狂舞」難度19",
+          "zh_CN": "「炽热狂舞」难度19",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2118.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>38</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>38</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "2119": {
+      "Id": 2119,
+      "Name": "InfinityTowerDifficulty.2119.1",
+      "TowerId": 5,
+      "UnlockWorldClass": 38,
+      "UnlockTips": "InfinityTowerDifficulty.2119.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 40,
+      "Sort": 20,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.2119.1",
+          "zh_TW": "「熾熱狂舞」難度20",
+          "zh_CN": "「炽热狂舞」难度20",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.2119.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>38</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>38</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4100": {
+      "Id": 4100,
+      "Name": "InfinityTowerDifficulty.4100.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 8,
+      "UnlockTips": "InfinityTowerDifficulty.4100.2",
+      "RecommendLevel": 25,
+      "RecommendBuildRank": 10,
+      "Sort": 1,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4100.1",
+          "zh_TW": "「清雅流歌」難度1",
+          "zh_CN": "「清雅流歌」难度1",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4100.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>8</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>8</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4101": {
+      "Id": 4101,
+      "Name": "InfinityTowerDifficulty.4101.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 8,
+      "UnlockTips": "InfinityTowerDifficulty.4101.2",
+      "RecommendLevel": 35,
+      "RecommendBuildRank": 14,
+      "Sort": 2,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4101.1",
+          "zh_TW": "「清雅流歌」難度2",
+          "zh_CN": "「清雅流歌」难度2",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4101.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>8</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>8</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4102": {
+      "Id": 4102,
+      "Name": "InfinityTowerDifficulty.4102.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 10,
+      "UnlockTips": "InfinityTowerDifficulty.4102.2",
+      "RecommendLevel": 35,
+      "RecommendBuildRank": 14,
+      "Sort": 3,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4102.1",
+          "zh_TW": "「清雅流歌」難度3",
+          "zh_CN": "「清雅流歌」难度3",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4102.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>10</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>10</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4103": {
+      "Id": 4103,
+      "Name": "InfinityTowerDifficulty.4103.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 12,
+      "UnlockTips": "InfinityTowerDifficulty.4103.2",
+      "RecommendLevel": 42,
+      "RecommendBuildRank": 14,
+      "Sort": 4,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4103.1",
+          "zh_TW": "「清雅流歌」難度4",
+          "zh_CN": "「清雅流歌」难度4",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4103.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>12</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>12</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4104": {
+      "Id": 4104,
+      "Name": "InfinityTowerDifficulty.4104.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 14,
+      "UnlockTips": "InfinityTowerDifficulty.4104.2",
+      "RecommendLevel": 62,
+      "RecommendBuildRank": 17,
+      "Sort": 5,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4104.1",
+          "zh_TW": "「清雅流歌」難度5",
+          "zh_CN": "「清雅流歌」难度5",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4104.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>14</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>14</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4105": {
+      "Id": 4105,
+      "Name": "InfinityTowerDifficulty.4105.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 16,
+      "UnlockTips": "InfinityTowerDifficulty.4105.2",
+      "RecommendLevel": 72,
+      "RecommendBuildRank": 22,
+      "Sort": 6,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4105.1",
+          "zh_TW": "「清雅流歌」難度6",
+          "zh_CN": "「清雅流歌」难度6",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4105.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>16</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>16</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4106": {
+      "Id": 4106,
+      "Name": "InfinityTowerDifficulty.4106.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 19,
+      "UnlockTips": "InfinityTowerDifficulty.4106.2",
+      "RecommendLevel": 82,
+      "RecommendBuildRank": 27,
+      "Sort": 7,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4106.1",
+          "zh_TW": "「清雅流歌」難度7",
+          "zh_CN": "「清雅流歌」难度7",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4106.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>19</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>19</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4107": {
+      "Id": 4107,
+      "Name": "InfinityTowerDifficulty.4107.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 23,
+      "UnlockTips": "InfinityTowerDifficulty.4107.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 31,
+      "Sort": 8,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4107.1",
+          "zh_TW": "「清雅流歌」難度8",
+          "zh_CN": "「清雅流歌」难度8",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4107.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>23</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>23</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4108": {
+      "Id": 4108,
+      "Name": "InfinityTowerDifficulty.4108.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 25,
+      "UnlockTips": "InfinityTowerDifficulty.4108.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 32,
+      "Sort": 9,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4108.1",
+          "zh_TW": "「清雅流歌」難度9",
+          "zh_CN": "「清雅流歌」难度9",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4108.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>25</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>25</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4109": {
+      "Id": 4109,
+      "Name": "InfinityTowerDifficulty.4109.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 27,
+      "UnlockTips": "InfinityTowerDifficulty.4109.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 34,
+      "Sort": 10,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4109.1",
+          "zh_TW": "「清雅流歌」難度10",
+          "zh_CN": "「清雅流歌」难度10",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4109.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>27</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>27</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4110": {
+      "Id": 4110,
+      "Name": "InfinityTowerDifficulty.4110.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 30,
+      "UnlockTips": "InfinityTowerDifficulty.4110.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 35,
+      "Sort": 11,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4110.1",
+          "zh_TW": "「清雅流歌」難度11",
+          "zh_CN": "「清雅流歌」难度11",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4110.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>30</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>30</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4111": {
+      "Id": 4111,
+      "Name": "InfinityTowerDifficulty.4111.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 30,
+      "UnlockTips": "InfinityTowerDifficulty.4111.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 35,
+      "Sort": 12,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4111.1",
+          "zh_TW": "「清雅流歌」難度12",
+          "zh_CN": "「清雅流歌」难度12",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4111.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>30</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>30</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4112": {
+      "Id": 4112,
+      "Name": "InfinityTowerDifficulty.4112.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 32,
+      "UnlockTips": "InfinityTowerDifficulty.4112.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 36,
+      "Sort": 13,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4112.1",
+          "zh_TW": "「清雅流歌」難度13",
+          "zh_CN": "「清雅流歌」难度13",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4112.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>32</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>32</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4113": {
+      "Id": 4113,
+      "Name": "InfinityTowerDifficulty.4113.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 32,
+      "UnlockTips": "InfinityTowerDifficulty.4113.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 36,
+      "Sort": 14,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4113.1",
+          "zh_TW": "「清雅流歌」難度14",
+          "zh_CN": "「清雅流歌」难度14",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4113.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>32</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>32</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4114": {
+      "Id": 4114,
+      "Name": "InfinityTowerDifficulty.4114.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 34,
+      "UnlockTips": "InfinityTowerDifficulty.4114.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 38,
+      "Sort": 15,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4114.1",
+          "zh_TW": "「清雅流歌」難度15",
+          "zh_CN": "「清雅流歌」难度15",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4114.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>34</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>34</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4115": {
+      "Id": 4115,
+      "Name": "InfinityTowerDifficulty.4115.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 34,
+      "UnlockTips": "InfinityTowerDifficulty.4115.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 38,
+      "Sort": 16,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4115.1",
+          "zh_TW": "「清雅流歌」難度16",
+          "zh_CN": "「清雅流歌」难度16",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4115.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>34</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>34</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4116": {
+      "Id": 4116,
+      "Name": "InfinityTowerDifficulty.4116.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 36,
+      "UnlockTips": "InfinityTowerDifficulty.4116.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 39,
+      "Sort": 17,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4116.1",
+          "zh_TW": "「清雅流歌」難度17",
+          "zh_CN": "「清雅流歌」难度17",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4116.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>36</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>36</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4117": {
+      "Id": 4117,
+      "Name": "InfinityTowerDifficulty.4117.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 36,
+      "UnlockTips": "InfinityTowerDifficulty.4117.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 39,
+      "Sort": 18,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4117.1",
+          "zh_TW": "「清雅流歌」難度18",
+          "zh_CN": "「清雅流歌」难度18",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4117.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>36</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>36</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4118": {
+      "Id": 4118,
+      "Name": "InfinityTowerDifficulty.4118.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 38,
+      "UnlockTips": "InfinityTowerDifficulty.4118.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 40,
+      "Sort": 19,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4118.1",
+          "zh_TW": "「清雅流歌」難度19",
+          "zh_CN": "「清雅流歌」难度19",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4118.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>38</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>38</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "4119": {
+      "Id": 4119,
+      "Name": "InfinityTowerDifficulty.4119.1",
+      "TowerId": 6,
+      "UnlockWorldClass": 38,
+      "UnlockTips": "InfinityTowerDifficulty.4119.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 40,
+      "Sort": 20,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.4119.1",
+          "zh_TW": "「清雅流歌」難度20",
+          "zh_CN": "「清雅流歌」难度20",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.4119.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>38</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>38</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7100": {
+      "Id": 7100,
+      "Name": "InfinityTowerDifficulty.7100.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 8,
+      "UnlockTips": "InfinityTowerDifficulty.7100.2",
+      "RecommendLevel": 25,
+      "RecommendBuildRank": 10,
+      "Sort": 1,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7100.1",
+          "zh_TW": "「紛閃派對」難度1",
+          "zh_CN": "「纷闪派对」难度1",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7100.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>8</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>8</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7101": {
+      "Id": 7101,
+      "Name": "InfinityTowerDifficulty.7101.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 8,
+      "UnlockTips": "InfinityTowerDifficulty.7101.2",
+      "RecommendLevel": 35,
+      "RecommendBuildRank": 14,
+      "Sort": 2,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7101.1",
+          "zh_TW": "「紛閃派對」難度2",
+          "zh_CN": "「纷闪派对」难度2",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7101.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>8</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>8</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7102": {
+      "Id": 7102,
+      "Name": "InfinityTowerDifficulty.7102.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 10,
+      "UnlockTips": "InfinityTowerDifficulty.7102.2",
+      "RecommendLevel": 35,
+      "RecommendBuildRank": 14,
+      "Sort": 3,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7102.1",
+          "zh_TW": "「紛閃派對」難度3",
+          "zh_CN": "「纷闪派对」难度3",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7102.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>10</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>10</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7103": {
+      "Id": 7103,
+      "Name": "InfinityTowerDifficulty.7103.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 12,
+      "UnlockTips": "InfinityTowerDifficulty.7103.2",
+      "RecommendLevel": 42,
+      "RecommendBuildRank": 14,
+      "Sort": 4,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7103.1",
+          "zh_TW": "「紛閃派對」難度4",
+          "zh_CN": "「纷闪派对」难度4",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7103.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>12</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>12</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7104": {
+      "Id": 7104,
+      "Name": "InfinityTowerDifficulty.7104.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 14,
+      "UnlockTips": "InfinityTowerDifficulty.7104.2",
+      "RecommendLevel": 62,
+      "RecommendBuildRank": 17,
+      "Sort": 5,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7104.1",
+          "zh_TW": "「紛閃派對」難度5",
+          "zh_CN": "「纷闪派对」难度5",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7104.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>14</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>14</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7105": {
+      "Id": 7105,
+      "Name": "InfinityTowerDifficulty.7105.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 16,
+      "UnlockTips": "InfinityTowerDifficulty.7105.2",
+      "RecommendLevel": 72,
+      "RecommendBuildRank": 22,
+      "Sort": 6,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7105.1",
+          "zh_TW": "「紛閃派對」難度6",
+          "zh_CN": "「纷闪派对」难度6",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7105.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>16</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>16</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7106": {
+      "Id": 7106,
+      "Name": "InfinityTowerDifficulty.7106.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 19,
+      "UnlockTips": "InfinityTowerDifficulty.7106.2",
+      "RecommendLevel": 82,
+      "RecommendBuildRank": 27,
+      "Sort": 7,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7106.1",
+          "zh_TW": "「紛閃派對」難度7",
+          "zh_CN": "「纷闪派对」难度7",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7106.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>19</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>19</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7107": {
+      "Id": 7107,
+      "Name": "InfinityTowerDifficulty.7107.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 23,
+      "UnlockTips": "InfinityTowerDifficulty.7107.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 31,
+      "Sort": 8,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7107.1",
+          "zh_TW": "「紛閃派對」難度8",
+          "zh_CN": "「纷闪派对」难度8",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7107.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>23</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>23</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7108": {
+      "Id": 7108,
+      "Name": "InfinityTowerDifficulty.7108.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 25,
+      "UnlockTips": "InfinityTowerDifficulty.7108.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 32,
+      "Sort": 9,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7108.1",
+          "zh_TW": "「紛閃派對」難度9",
+          "zh_CN": "「纷闪派对」难度9",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7108.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>25</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>25</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7109": {
+      "Id": 7109,
+      "Name": "InfinityTowerDifficulty.7109.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 27,
+      "UnlockTips": "InfinityTowerDifficulty.7109.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 34,
+      "Sort": 10,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7109.1",
+          "zh_TW": "「紛閃派對」難度10",
+          "zh_CN": "「纷闪派对」难度10",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7109.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>27</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>27</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7110": {
+      "Id": 7110,
+      "Name": "InfinityTowerDifficulty.7110.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 30,
+      "UnlockTips": "InfinityTowerDifficulty.7110.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 35,
+      "Sort": 11,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7110.1",
+          "zh_TW": "「紛閃派對」難度11",
+          "zh_CN": "「纷闪派对」难度11",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7110.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>30</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>30</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7111": {
+      "Id": 7111,
+      "Name": "InfinityTowerDifficulty.7111.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 30,
+      "UnlockTips": "InfinityTowerDifficulty.7111.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 35,
+      "Sort": 12,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7111.1",
+          "zh_TW": "「紛閃派對」難度12",
+          "zh_CN": "「纷闪派对」难度12",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7111.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>30</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>30</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7112": {
+      "Id": 7112,
+      "Name": "InfinityTowerDifficulty.7112.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 32,
+      "UnlockTips": "InfinityTowerDifficulty.7112.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 36,
+      "Sort": 13,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7112.1",
+          "zh_TW": "「紛閃派對」難度13",
+          "zh_CN": "「纷闪派对」难度13",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7112.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>32</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>32</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7113": {
+      "Id": 7113,
+      "Name": "InfinityTowerDifficulty.7113.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 32,
+      "UnlockTips": "InfinityTowerDifficulty.7113.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 36,
+      "Sort": 14,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7113.1",
+          "zh_TW": "「紛閃派對」難度14",
+          "zh_CN": "「纷闪派对」难度14",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7113.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>32</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>32</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7114": {
+      "Id": 7114,
+      "Name": "InfinityTowerDifficulty.7114.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 34,
+      "UnlockTips": "InfinityTowerDifficulty.7114.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 38,
+      "Sort": 15,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7114.1",
+          "zh_TW": "「紛閃派對」難度15",
+          "zh_CN": "「纷闪派对」难度15",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7114.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>34</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>34</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7115": {
+      "Id": 7115,
+      "Name": "InfinityTowerDifficulty.7115.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 34,
+      "UnlockTips": "InfinityTowerDifficulty.7115.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 38,
+      "Sort": 16,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7115.1",
+          "zh_TW": "「紛閃派對」難度16",
+          "zh_CN": "「纷闪派对」难度16",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7115.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>34</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>34</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7116": {
+      "Id": 7116,
+      "Name": "InfinityTowerDifficulty.7116.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 36,
+      "UnlockTips": "InfinityTowerDifficulty.7116.2",
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 39,
+      "Sort": 17,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7116.1",
+          "zh_TW": "「紛閃派對」難度17",
+          "zh_CN": "「纷闪派对」难度17",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7116.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>36</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>36</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7117": {
+      "Id": 7117,
+      "Name": "InfinityTowerDifficulty.7117.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 36,
+      "UnlockTips": "InfinityTowerDifficulty.7117.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 39,
+      "Sort": 18,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7117.1",
+          "zh_TW": "「紛閃派對」難度18",
+          "zh_CN": "「纷闪派对」难度18",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7117.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>36</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>36</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7118": {
+      "Id": 7118,
+      "Name": "InfinityTowerDifficulty.7118.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 38,
+      "UnlockTips": "InfinityTowerDifficulty.7118.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 40,
+      "Sort": 19,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7118.1",
+          "zh_TW": "「紛閃派對」難度19",
+          "zh_CN": "「纷闪派对」难度19",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7118.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>38</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>38</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    },
+    "7119": {
+      "Id": 7119,
+      "Name": "InfinityTowerDifficulty.7119.1",
+      "TowerId": 7,
+      "UnlockWorldClass": 38,
+      "UnlockTips": "InfinityTowerDifficulty.7119.2",
+      "IsChallenge": true,
+      "RecommendLevel": 90,
+      "RecommendBuildRank": 40,
+      "Sort": 20,
+      "_localized": {
+        "/Name": {
+          "key": "InfinityTowerDifficulty.7119.1",
+          "zh_TW": "「紛閃派對」難度20",
+          "zh_CN": "「纷闪派对」难度20",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        },
+        "/UnlockTips": {
+          "key": "InfinityTowerDifficulty.7119.2",
+          "zh_TW": "權限等級達到<color=#0ABEC5>38</color>級解鎖",
+          "zh_CN": "权限等级达到<color=#0ABEC5>38</color>级解锁",
+          "sources": {
+            "zh_TW": "language/zh_TW/InfinityTowerDifficulty.json",
+            "zh_CN": "language/zh_CN/InfinityTowerDifficulty.json"
+          }
+        }
+      }
+    }
+  }
+}

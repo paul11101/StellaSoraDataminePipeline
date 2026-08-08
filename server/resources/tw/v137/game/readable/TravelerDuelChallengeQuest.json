@@ -1,0 +1,1406 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "TravelerDuelChallengeQuest",
+    "categories": [
+      "quests",
+      "stages_modes"
+    ],
+    "row_count": 59,
+    "localization_hits": 59,
+    "source": "bin/TravelerDuelChallengeQuest.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "200100": {
+      "Id": 200100,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200100.1",
+      "AffixJumpTo": [
+        29020501,
+        29021001
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600001,29020501,29021001]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 100,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200100.1",
+          "zh_TW": "同時攜帶【致殘打擊】與【渴血】完成秀場",
+          "zh_CN": "同时携带【致残打击】与【渴血】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200101": {
+      "Id": 200101,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200101.1",
+      "AffixJumpTo": [
+        29020103,
+        29020801,
+        29020703
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600001,29020103,29020801,29020703]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 100,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200101.1",
+          "zh_TW": "同時攜帶【技之易傷】、【技能削弱】與【傷害提升·大】完成秀場",
+          "zh_CN": "同时携带【技之易伤】、【技能削弱】与【伤害提升·大】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200102": {
+      "Id": 200102,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200102.1",
+      "AffixJumpTo": [
+        100201,
+        29020401,
+        29021201
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600001,100201,29020401,29021201]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 100,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 500,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200102.1",
+          "zh_TW": "同時攜帶【葵牽絆】、【風之加護】與【暴擊調整】完成秀場",
+          "zh_CN": "同时携带【葵牵绊】、【风之加护】与【暴击调整】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200103": {
+      "Id": 200103,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200103.1",
+      "AffixJumpTo": [
+        100203,
+        29020902,
+        29021602
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600001,100203,29020902,29021602]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 100,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200103.1",
+          "zh_TW": "同時攜帶【隱月·疾風】、【主控緩技·大】與【越戰越勇·中】完成秀場",
+          "zh_CN": "同时携带【隐月·疾风】、【主控缓技·大】与【愈战愈勇·中】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200104": {
+      "Id": 200104,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200104.1",
+      "AffixJumpTo": [
+        100205,
+        29021101,
+        29020301
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600001,100205,29021101,29020301]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 100,
+      "AwardItemTid2": 71012,
+      "AwardItemNum2": 1,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200104.1",
+          "zh_TW": "同時攜帶【影舞·葉狂嵐】、【生命汲取】與【護盾·小】完成秀場",
+          "zh_CN": "同时携带【影舞·叶狂岚】、【生命汲取】与【护盾·小】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200105": {
+      "Id": 200105,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200105.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,0,600001]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 100,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200105.1",
+          "zh_TW": "通關巔峰秀場",
+          "zh_CN": "通关巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200106": {
+      "Id": 200106,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200106.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,20,600001]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 150,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200106.1",
+          "zh_TW": "完成難度20以上的巔峰秀場",
+          "zh_CN": "完成难度20以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200107": {
+      "Id": 200107,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200107.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,30,600001]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 150,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 500,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200107.1",
+          "zh_TW": "完成難度30以上的巔峰秀場",
+          "zh_CN": "完成难度30以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200108": {
+      "Id": 200108,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200108.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,40,600001]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 200,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 800000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200108.1",
+          "zh_TW": "完成難度40以上的巔峰秀場",
+          "zh_CN": "完成难度40以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200109": {
+      "Id": 200109,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200109.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,50,600001]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 200,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 600,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200109.1",
+          "zh_TW": "完成難度50以上的巔峰秀場",
+          "zh_CN": "完成难度50以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200110": {
+      "Id": 200110,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200110.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,60,600001]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 200,
+      "AwardItemTid2": 72012,
+      "AwardItemNum2": 1,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200110.1",
+          "zh_TW": "完成難度60以上的巔峰秀場",
+          "zh_CN": "完成难度60以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200111": {
+      "Id": 200111,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200111.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,70,600001]",
+      "AwardItemTid1": 35001,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 35002,
+      "AwardItemNum2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200111.1",
+          "zh_TW": "完成難度70以上的巔峰秀場",
+          "zh_CN": "完成难度70以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200112": {
+      "Id": 200112,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200112.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,80,600001]",
+      "AwardItemTid1": 35003,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 35001,
+      "AwardItemNum2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200112.1",
+          "zh_TW": "完成難度80以上的巔峰秀場",
+          "zh_CN": "完成难度80以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200113": {
+      "Id": 200113,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200113.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,90,600001]",
+      "AwardItemTid1": 35002,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 35003,
+      "AwardItemNum2": 50,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200113.1",
+          "zh_TW": "完成難度90以上的巔峰秀場",
+          "zh_CN": "完成难度90以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "200114": {
+      "Id": 200114,
+      "GroupId": 2001,
+      "Title": "TravelerDuelChallengeQuest.200114.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,100,600001]",
+      "AwardItemTid1": 50003,
+      "AwardItemNum1": 10,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 88888,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.200114.1",
+          "zh_TW": "完成難度100以上的巔峰秀場",
+          "zh_CN": "完成难度100以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300100": {
+      "Id": 300100,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300100.1",
+      "AffixJumpTo": [
+        29030401,
+        29030301
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600002,29030401,29030301]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300100.1",
+          "zh_TW": "同時攜帶【戰鬥專注】與【渴血】完成秀場",
+          "zh_CN": "同时携带【战斗专注】与【渴血】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300101": {
+      "Id": 300101,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300101.1",
+      "AffixJumpTo": [
+        29030902,
+        29030602,
+        29031602
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600002,29030902,29030602,29031602]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300101.1",
+          "zh_TW": "同時攜帶【印記削弱】、【法力燃燒·大】與【乘勝追擊·大】完成秀場",
+          "zh_CN": "同时携带【印记削弱】、【法力燃烧·大】与【乘胜追击·大】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300102": {
+      "Id": 300102,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300102.1",
+      "AffixJumpTo": [
+        200201,
+        29031403,
+        29032001
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600002,200201,29031403,29032001]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300102.1",
+          "zh_TW": "同時攜帶【萬仞·一斬】、【神靈武士·大】與【絕招調整】完成秀場",
+          "zh_CN": "同时携带【万仞·一斩】、【神灵武士·大】与【绝招调整】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300103": {
+      "Id": 300103,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300103.1",
+      "AffixJumpTo": [
+        200202,
+        29030502,
+        29031901
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600002,200202,29030502,29031901]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300103.1",
+          "zh_TW": "同時攜帶【萬象·狂想】、【透支能量·大】與【殘刃飲血】完成秀場",
+          "zh_CN": "同时携带【万象·狂想】、【透支能量·大】与【残刃饮血】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300104": {
+      "Id": 300104,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300104.1",
+      "AffixJumpTo": [
+        200203,
+        29030602,
+        29030701
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600002,200203,29030602,29030701]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300104.1",
+          "zh_TW": "同時攜帶【追光重劍】、【法力燃燒·大】與【咒縛反擊】完成秀場",
+          "zh_CN": "同时携带【追光重剑】、【法力燃烧·大】与【咒缚反击】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300105": {
+      "Id": 300105,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300105.1",
+      "AffixJumpTo": [
+        200204,
+        29031001,
+        29030203
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600002,200204,29031001,29030203]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300105.1",
+          "zh_TW": "同時攜帶【循環模式】、【偏差認知】與【抑制·大】完成秀場",
+          "zh_CN": "同时携带【循环模式】、【偏差认知】与【抑制·大】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300106": {
+      "Id": 300106,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300106.1",
+      "AffixJumpTo": [
+        200206,
+        29030103,
+        29031703
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600002,200206,29030103,29031703]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300106.1",
+          "zh_TW": "同時攜帶【預熱模式】、【傷害提升·大】與【光鑄鎧甲·大】完成秀場",
+          "zh_CN": "同时携带【预热模式】、【伤害提升·大】与【光铸铠甲·大】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300107": {
+      "Id": 300107,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300107.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,0,600002]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300107.1",
+          "zh_TW": "通過任意難度巔峰秀場",
+          "zh_CN": "完成任意难度巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300108": {
+      "Id": 300108,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300108.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,10,600002]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300108.1",
+          "zh_TW": "完成難度10以上的巔峰秀場",
+          "zh_CN": "完成难度10以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300109": {
+      "Id": 300109,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300109.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,20,600002]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300109.1",
+          "zh_TW": "完成難度20以上的巔峰秀場",
+          "zh_CN": "完成难度20以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300110": {
+      "Id": 300110,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300110.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,30,600002]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300110.1",
+          "zh_TW": "完成難度30以上的巔峰秀場",
+          "zh_CN": "完成难度30以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300111": {
+      "Id": 300111,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300111.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,40,600002]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300111.1",
+          "zh_TW": "完成難度40以上的巔峰秀場",
+          "zh_CN": "完成难度40以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300112": {
+      "Id": 300112,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300112.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,50,600002]",
+      "AwardItemTid1": 1,
+      "AwardItemNum1": 22222,
+      "AwardItemTid2": 35001,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300112.1",
+          "zh_TW": "完成難度50以上的巔峰秀場",
+          "zh_CN": "完成难度50以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300113": {
+      "Id": 300113,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300113.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,60,600002]",
+      "AwardItemTid1": 1,
+      "AwardItemNum1": 66666,
+      "AwardItemTid2": 35002,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300113.1",
+          "zh_TW": "完成難度60以上的巔峰秀場",
+          "zh_CN": "完成难度60以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300114": {
+      "Id": 300114,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300114.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,70,600002]",
+      "AwardItemTid1": 50003,
+      "AwardItemNum1": 10,
+      "AwardItemTid2": 35003,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300114.1",
+          "zh_TW": "完成難度70以上的巔峰秀場",
+          "zh_CN": "完成难度70以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300115": {
+      "Id": 300115,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300115.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600002,2]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300115.1",
+          "zh_TW": "莉莉貝爾粉絲團等級達到小貝心1星",
+          "zh_CN": "莉莉贝尔粉丝团等级达到小贝心1星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300116": {
+      "Id": 300116,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300116.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600002,4]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300116.1",
+          "zh_TW": "莉莉貝爾粉絲團等級達到小貝心3星",
+          "zh_CN": "莉莉贝尔粉丝团等级达到小贝心3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300117": {
+      "Id": 300117,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300117.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600002,6]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300117.1",
+          "zh_TW": "莉莉貝爾粉絲團等級達到小貝心5星",
+          "zh_CN": "莉莉贝尔粉丝团等级达到小贝心5星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300118": {
+      "Id": 300118,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300118.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600002,7]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300118.1",
+          "zh_TW": "莉莉貝爾粉絲團等級達到貝心執事",
+          "zh_CN": "莉莉贝尔粉丝团等级达到贝心舰长",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300119": {
+      "Id": 300119,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300119.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600002,9]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300119.1",
+          "zh_TW": "莉莉貝爾粉絲團等級達到貝心執事2星",
+          "zh_CN": "莉莉贝尔粉丝团等级达到贝心舰长2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300120": {
+      "Id": 300120,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300120.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600002,12]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300120.1",
+          "zh_TW": "莉莉貝爾粉絲團等級達到貝心執事5星",
+          "zh_CN": "莉莉贝尔粉丝团等级达到贝心舰长5星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "300121": {
+      "Id": 300121,
+      "GroupId": 3001,
+      "Title": "TravelerDuelChallengeQuest.300121.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600002,13]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.300121.1",
+          "zh_TW": "莉莉貝爾粉絲團等級達到貝心親衛隊",
+          "zh_CN": "莉莉贝尔粉丝团等级达到贝心真爱团",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100100": {
+      "Id": 100100,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100100.1",
+      "AffixJumpTo": [
+        29040201,
+        29040301
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600003,29040201,29040301]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100100.1",
+          "zh_TW": "同時攜帶【遲滯·小】與【渴血】完成秀場",
+          "zh_CN": "同时携带【迟滞·小】与【渴血】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100101": {
+      "Id": 100101,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100101.1",
+      "AffixJumpTo": [
+        400101,
+        29040103,
+        29040701
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600003,400101,29040103,29040701]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100101.1",
+          "zh_TW": "同時攜帶【全自動射擊】、【傷害提升·大】與【節奏紊亂】完成秀場",
+          "zh_CN": "同时携带【全自动射击】、【伤害提升·大】与【节奏紊乱】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100102": {
+      "Id": 100102,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100102.1",
+      "AffixJumpTo": [
+        400102,
+        29041703,
+        29041601
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600003,400102,29041703,29041601]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100102.1",
+          "zh_TW": "同時攜帶【暗黑射線】、【魔神之怒·大】與【魔神標記】完成秀場",
+          "zh_CN": "同时携带【暗黑射线】、【魔神之怒·大】与【魔神标记】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100103": {
+      "Id": 100103,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100103.1",
+      "AffixJumpTo": [
+        400103,
+        29041201,
+        29040902
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600003,400103,29041201,29040902]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100103.1",
+          "zh_TW": "同時攜帶【火力全開】、【魔神之軀】與【固守待援】完成秀場",
+          "zh_CN": "同时携带【火力全开】、【魔神之躯】与【固守待援】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100104": {
+      "Id": 100104,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100104.1",
+      "AffixJumpTo": [
+        400104,
+        29041501,
+        29041403
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600003,400104,29041501,29041403]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100104.1",
+          "zh_TW": "同時攜帶【二段光束】、【加速運轉】與【每況愈下·大】完成秀場",
+          "zh_CN": "同时携带【二段光束】、【加速运转】与【每况愈下·大】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100105": {
+      "Id": 100105,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100105.1",
+      "AffixJumpTo": [
+        400105,
+        29040601,
+        29041902
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600003,400105,29040601,29041902]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100105.1",
+          "zh_TW": "同時攜帶【憤怒貓貓】、【越戰越勇】與【療癒代價】完成秀場",
+          "zh_CN": "同时携带【愤怒猫猫】、【愈战愈勇】与【疗愈代价】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100106": {
+      "Id": 100106,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100106.1",
+      "AffixJumpTo": [
+        400106,
+        29040402,
+        29041801
+      ],
+      "CompleteCond": 65,
+      "CompleteCondParams": "[600003,400106,29040402,29041801]",
+      "AwardItemTid1": 74201,
+      "AwardItemNum1": 600,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100106.1",
+          "zh_TW": "同時攜帶【喵神之眼】、【單打獨鬥】與【以身犯險】完成秀場",
+          "zh_CN": "同时携带【喵神之眼】、【单打独斗】与【以身试险】完成秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100107": {
+      "Id": 100107,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100107.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,0,600003]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100107.1",
+          "zh_TW": "通過任意難度巔峰秀場",
+          "zh_CN": "完成任意难度巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100108": {
+      "Id": 100108,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100108.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,10,600003]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100108.1",
+          "zh_TW": "完成難度10以上的巔峰秀場",
+          "zh_CN": "完成难度10以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100109": {
+      "Id": 100109,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100109.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,20,600003]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100109.1",
+          "zh_TW": "完成難度20以上的巔峰秀場",
+          "zh_CN": "完成难度20以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100110": {
+      "Id": 100110,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100110.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,30,600003]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100110.1",
+          "zh_TW": "完成難度30以上的巔峰秀場",
+          "zh_CN": "完成难度30以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100111": {
+      "Id": 100111,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100111.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,40,600003]",
+      "AwardItemTid1": 2,
+      "AwardItemNum1": 50,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100111.1",
+          "zh_TW": "完成難度40以上的巔峰秀場",
+          "zh_CN": "完成难度40以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100112": {
+      "Id": 100112,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100112.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,50,600003]",
+      "AwardItemTid1": 1,
+      "AwardItemNum1": 22222,
+      "AwardItemTid2": 35001,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100112.1",
+          "zh_TW": "完成難度50以上的巔峰秀場",
+          "zh_CN": "完成难度50以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100113": {
+      "Id": 100113,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100113.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,60,600003]",
+      "AwardItemTid1": 1,
+      "AwardItemNum1": 66666,
+      "AwardItemTid2": 35002,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100113.1",
+          "zh_TW": "完成難度60以上的巔峰秀場",
+          "zh_CN": "完成难度60以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100114": {
+      "Id": 100114,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100114.1",
+      "CompleteCond": 66,
+      "CompleteCondParams": "[1,70,600003]",
+      "AwardItemTid1": 50003,
+      "AwardItemNum1": 10,
+      "AwardItemTid2": 35003,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100114.1",
+          "zh_TW": "完成難度70以上的巔峰秀場",
+          "zh_CN": "完成难度70以上的巅峰秀场",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100115": {
+      "Id": 100115,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100115.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600003,2]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100115.1",
+          "zh_TW": "「貓臨城下」系列稱號等級達到貓臨城下1星",
+          "zh_CN": "「猫临城下」系列称号等级达到猫临城下1星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100116": {
+      "Id": 100116,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100116.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600003,4]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100116.1",
+          "zh_TW": "「貓臨城下」系列稱號等級達到貓臨城下3星",
+          "zh_CN": "「猫临城下」系列称号等级达到猫临城下3星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100117": {
+      "Id": 100117,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100117.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600003,6]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100117.1",
+          "zh_TW": "「貓臨城下」系列稱號等級達到貓臨城下5星",
+          "zh_CN": "「猫临城下」系列称号等级达到猫临城下5星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100118": {
+      "Id": 100118,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100118.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600003,7]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100118.1",
+          "zh_TW": "「貓臨城下」系列稱號等級達到直面黑暗",
+          "zh_CN": "「猫临城下」系列称号等级达到直面黑暗",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100119": {
+      "Id": 100119,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100119.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600003,9]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 50004,
+      "AwardItemNum2": 10,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100119.1",
+          "zh_TW": "「貓臨城下」系列稱號等級達到直面黑暗2星",
+          "zh_CN": "「猫临城下」系列称号等级达到直面黑暗2星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100120": {
+      "Id": 100120,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100120.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600003,12]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 82004,
+      "AwardItemNum2": 100,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100120.1",
+          "zh_TW": "「貓臨城下」系列稱號等級達到直面黑暗5星",
+          "zh_CN": "「猫临城下」系列称号等级达到直面黑暗5星",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    },
+    "100121": {
+      "Id": 100121,
+      "GroupId": 1001,
+      "Title": "TravelerDuelChallengeQuest.100121.1",
+      "CompleteCond": 67,
+      "CompleteCondParams": "[600003,13]",
+      "AwardItemTid1": 74202,
+      "AwardItemNum1": 60,
+      "AwardItemTid2": 1,
+      "AwardItemNum2": 50000,
+      "_localized": {
+        "/Title": {
+          "key": "TravelerDuelChallengeQuest.100121.1",
+          "zh_TW": "「貓臨城下」系列稱號等級達到尊我為王",
+          "zh_CN": "「猫临城下」系列称号等级达到尊我为王",
+          "sources": {
+            "zh_TW": "language/zh_TW/TravelerDuelChallengeQuest.json",
+            "zh_CN": "language/zh_CN/TravelerDuelChallengeQuest.json"
+          }
+        }
+      }
+    }
+  }
+}

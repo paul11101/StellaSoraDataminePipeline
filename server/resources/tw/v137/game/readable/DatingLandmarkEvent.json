@@ -1,0 +1,3752 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "DatingLandmarkEvent",
+    "categories": [
+      "story_social"
+    ],
+    "row_count": 93,
+    "localization_hits": 262,
+    "source": "bin/DatingLandmarkEvent.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "1401": {
+      "Id": 1401,
+      "DatingEventType": 8,
+      "DatingEventParams": [
+        14
+      ],
+      "DatingEventExclude": [
+        140
+      ],
+      "Desc1": "DatingLandmarkEvent.1401.1",
+      "Desc2": "DatingLandmarkEvent.1401.2",
+      "Desc3": "DatingLandmarkEvent.1401.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1401.1",
+          "zh_TW": "馬車向東轉進學院區域，建築在頭頂上緩緩後移。你倚靠在學院大門旁，長長地呼了口氣。",
+          "zh_CN": "马车向东转进学院区域，建筑在头顶上缓缓后移。\"吁——\"，你倚靠在学院大门旁。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1401.2",
+          "zh_TW": "你聽見==DATING_CHARACTER==的鞋跟在路面上踏出的聲響。她站在路牌下，扶著欄桿。",
+          "zh_CN": "你听见==DATING_CHARACTER==的鞋跟踏响在路面上。她站在路牌下，扶着栏杆。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1401.3",
+          "zh_TW": "馬車起步離開，帶起了一陣風，她在向你招手。",
+          "zh_CN": "马车起步离开，一阵风，她在向你招手。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1420": {
+      "Id": 1420,
+      "DatingEventType": 8,
+      "DatingEventParams": [
+        14
+      ],
+      "Desc1": "DatingLandmarkEvent.1420.1",
+      "Desc2": "DatingLandmarkEvent.1420.2",
+      "Desc3": "DatingLandmarkEvent.1420.3",
+      "Response": "happy2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1420.1",
+          "zh_TW": "你選了一條很少走的小巷前往學院。",
+          "zh_CN": "你选了条不常走的小巷前往学院。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1420.2",
+          "zh_TW": "小巷的轉角後方會有什麼樣的風景呢？\n「喂——」你沒來由地大喊了一聲。",
+          "zh_CN": "小巷的转角后会有什么样的风景呢？\n“喂——”你没来由地大喊一声。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1420.3",
+          "zh_TW": "==DATING_CHARACTER==竟就這樣從轉角探出了頭，真的有如此巧合的事嗎？",
+          "zh_CN": "==DATING_CHARACTER==竟从转角后探出头来，竟然有这么巧的事情吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1402": {
+      "Id": 1402,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        14
+      ],
+      "BranchTag": 1,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.1402.1",
+      "Desc2": "DatingLandmarkEvent.1402.2",
+      "Desc3": "DatingLandmarkEvent.1402.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1402.1",
+          "zh_TW": "現在正值下課時間，教學大樓門口人來人往。",
+          "zh_CN": "正值下课时间，教学楼门口人来人往。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1402.2",
+          "zh_TW": "你和==DATING_CHARACTER==混在學生當中，隨著人流進了教學大樓。",
+          "zh_CN": "你和==DATING_CHARACTER==混在学生当中，随着人流进了教学楼。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1402.3",
+          "zh_TW": "「一間好的學校，必然沒有圍牆。」你這樣想著。",
+          "zh_CN": "“好的学校，没有围墙。”你这样想着。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1403": {
+      "Id": 1403,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        14
+      ],
+      "BranchTag": 1,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.1403.1",
+      "Desc2": "DatingLandmarkEvent.1403.2",
+      "Desc3": "DatingLandmarkEvent.1403.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1403.1",
+          "zh_TW": "不巧的是，大家都在上課，教學大樓門口空無一人。你和==DATING_CHARACTER==裝作學生，打算大搖大擺地走進去。",
+          "zh_CN": "时候不巧，大家都在上课，教学楼门口空无一人。你和==DATING_CHARACTER==准备装作学生大模大样走进去。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1403.2",
+          "zh_TW": "守衛仔細地打量著你們，就像在問你們是不是真的學生。還好，他並沒有把你們攔下。",
+          "zh_CN": "门卫仔细地打量着你俩，你们真的是学生吗？还好，他并没有拦住你们。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1403.3",
+          "zh_TW": "==DATING_CHARACTER==覺得你還是有一股書卷氣的。",
+          "zh_CN": "==DATING_CHARACTER==觉得你还是有一股书生气的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1404": {
+      "Id": 1404,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        14
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.1404.1",
+      "Desc2": "DatingLandmarkEvent.1404.2",
+      "Desc3": "DatingLandmarkEvent.1404.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1404.1",
+          "zh_TW": "無巧不成書，你和==DATING_CHARACTER==竟然混進了同一間教室聽課。",
+          "zh_CN": "不知怎的，你和==DATING_CHARACTER==竟混进一间教室听课。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1404.2",
+          "zh_TW": "這好像是一門很冷僻的專業課，你完全不知道那些概念是什麼。黑板上的字跡如同天書一般，教授的聲音也似乎也漸行漸遠，你的世界正在逐漸下沉…",
+          "zh_CN": "这好像是一门很硬核的专业课，你完全不知道那些概念是什么。黑板上的字迹如同天书一般，教授的声音也似乎渐行渐远，你的世界正在逐渐下沉……",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1404.3",
+          "zh_TW": "「叮…」下課了，你也醒了。轉頭一看，你發現==DATING_CHARACTER==正坐在你身旁偷笑。",
+          "zh_CN": "“叮……”下课了，你也醒了。转头一看，你发现==DATING_CHARACTER==正坐在你身旁偷笑。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1405": {
+      "Id": 1405,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        14
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Affinity": 15,
+      "Desc1": "DatingLandmarkEvent.1405.1",
+      "Desc2": "DatingLandmarkEvent.1405.2",
+      "Desc3": "DatingLandmarkEvent.1405.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1405.1",
+          "zh_TW": "你們混進一節數學課裡聽講，教授講得滔滔不絕，==DATING_CHARACTER==有些神色緊張。",
+          "zh_CN": "你们混进一节数学课里听讲，教授滔滔不绝，==DATING_CHARACTER==有些神色紧张。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1405.2",
+          "zh_TW": "你覺得教授說的方法有些過時，沉思中的你與教授的目光相撞。教授請你總結一下內容，你提出了更常見的推廣用解釋。",
+          "zh_CN": "你觉得教授说的方法有些古朴，你在沉思中与教授的目光相撞。教授请你总结一下内容，你提出了更一般的推广解释。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1405.3",
+          "zh_TW": "教授很滿意你的論述，==DATING_CHARACTER==投來了崇拜的目光。",
+          "zh_CN": "教授很满意你的推论，==DATING_CHARACTER==投来了崇拜的目光。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1406": {
+      "Id": 1406,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        14
+      ],
+      "BranchTag": 1,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.1406.1",
+      "Desc2": "DatingLandmarkEvent.1406.2",
+      "Desc3": "DatingLandmarkEvent.1406.3",
+      "Response": "happy2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1406.1",
+          "zh_TW": "你和==DATING_CHARACTER==拾級而上、直至頂層。你們突發奇想，決定去天台上看看。",
+          "zh_CN": "你和==DATING_CHARACTER==在一栋楼里拾级而上直至顶层。你们突发奇想要去天台上看看。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1406.2",
+          "zh_TW": "你翻過窗戶，拉著==DATING_CHARACTER==的手，把她帶上天台。這裡視野開闊，遠處星塔的輪廓若隱若現。向下俯視時，在樓宇間穿梭的人們就像螞蟻似地。",
+          "zh_CN": "你翻过窗户，拽着==DATING_CHARACTER==的手，把她拉上天台。这里视野开阔，远处星塔的轮廓若隐若现，低处蚂蚁般的人们在楼宇间穿梭。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1406.3",
+          "zh_TW": "身處高聳的天台，除了被==DATING_CHARACTER==握得太重而隱隱作痛的手掌，以及湛藍色的天空，周圍的一切都顯得無足輕重。",
+          "zh_CN": "天空湛蓝，你的手被==DATING_CHARACTER==握疼。天台高耸，周围的一切都显得无足轻重。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1407": {
+      "Id": 1407,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        14
+      ],
+      "BranchTag": 1,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.1407.1",
+      "Desc2": "DatingLandmarkEvent.1407.2",
+      "Desc3": "DatingLandmarkEvent.1407.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1407.1",
+          "zh_TW": "你和==DATING_CHARACTER==拾級而上、直至頂層。看到透過天台的窗戶照進來的落日餘暉，你們決定去天台上看看。",
+          "zh_CN": "你和==DATING_CHARACTER==在一栋楼里拾级而上直至顶层。落日的余晖透过天台的窗子照进来，你们决定去天台看看。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1407.2",
+          "zh_TW": "你翻過窗戶，拉著==DATING_CHARACTER==的手，把她帶上天台。白天一點點消失在天際線下，光在膨脹，你們的影子正在被拉長。",
+          "zh_CN": "你翻过窗户，拽着==DATING_CHARACTER==的手，把她拉上天台。白天一点点消失在天际线下，光在膨胀，你们的影子正被拉长。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1407.3",
+          "zh_TW": "你們任憑呼出的氣息消散在黃昏溫熱的空氣之中，享受著無聲勝有聲的這一刻。",
+          "zh_CN": "你们的呼吸融化在黄昏温热的空气中。你们不需要说话，语言在你们之间已经变得牵强附会。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1408": {
+      "Id": 1408,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        14
+      ],
+      "BranchTag": 2,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.1408.1",
+      "Desc2": "DatingLandmarkEvent.1408.2",
+      "Desc3": "DatingLandmarkEvent.1408.3",
+      "Response": "normal2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1408.1",
+          "zh_TW": "你和==DATING_CHARACTER==被廣場上的公告欄吸引了目光。",
+          "zh_CN": "你和==DATING_CHARACTER==被广场上的展板吸引了目光。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1408.2",
+          "zh_TW": "公告欄上寫著一些最新的學術成就與落實項目。",
+          "zh_CN": "展板上写着一些最新的学术成就与落地项目。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1408.3",
+          "zh_TW": "雖然有看沒有懂，但你確信自己和==DATING_CHARACTER==更加「學術」了一點——至少跟昨天比起來是這樣沒錯。",
+          "zh_CN": "虽然没怎么看懂，但你确信自己和==DATING_CHARACTER==更加「学术」了一点——至少比昨天更「学术」。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1409": {
+      "Id": 1409,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        14
+      ],
+      "BranchTag": 2,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.1409.1",
+      "Desc2": "DatingLandmarkEvent.1409.2",
+      "Desc3": "DatingLandmarkEvent.1409.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1409.1",
+          "zh_TW": "看到廣場上那座小花廊，==DATING_CHARACTER==把你拉了過去。",
+          "zh_CN": "广场上有一座小花廊，==DATING_CHARACTER==把你拽了过去。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1409.2",
+          "zh_TW": "她很開心，走著走著都快跳起來了。「魔王，幫我拍張照吧！」，==DATING_CHARACTER==背靠花叢，向你發出邀請。",
+          "zh_CN": "她很开心，步伐近乎要跳起来。“魔王，给我拍张照吧！”，==DATING_CHARACTER==背靠花丛，向你发出邀请。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1409.3",
+          "zh_TW": "午後的陽光透過樹杈，斑駁地灑在==DATING_CHARACTER==的臉上。你聞著空氣中滿滿的鮮花氣息，將她此刻的笑容捕捉進自己的手機。",
+          "zh_CN": "午后的阳光透过树杈，斑驳地洒在==DATING_CHARACTER==脸上。空气中充满鲜花气息，她的笑容定格在你的手机里。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1410": {
+      "Id": 1410,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        14
+      ],
+      "BranchTag": 2,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.1410.1",
+      "Desc2": "DatingLandmarkEvent.1410.2",
+      "Desc3": "DatingLandmarkEvent.1410.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1410.1",
+          "zh_TW": "「兩位同學，打擾一下。」一位學生攔住了你和==DATING_CHARACTER==，「請問兩位有意願加入辯論社嗎？」",
+          "zh_CN": "“两位同学打扰一下。”一位学生拦住了你和==DATING_CHARACTER==，“请问两位有意愿加入辩论社吗？”",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1410.2",
+          "zh_TW": "你自認辯才無礙，但可惜的是，你並不是本院的學生。你略感遺憾地婉拒了那位同學。",
+          "zh_CN": "你觉得自己具备雄辩的气质与能力，但可惜自己并不是本院学生。你略感遗憾地婉拒了那位同学。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1411": {
+      "Id": 1411,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        14
+      ],
+      "BranchTag": 2,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.1411.1",
+      "Desc2": "DatingLandmarkEvent.1411.2",
+      "Desc3": "DatingLandmarkEvent.1411.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1411.1",
+          "zh_TW": "一位衣著講究的人向你們走來，「同學好，我是學生會的幹事。」他遞給你們兩張傳單，「學生會正在招新，有興趣了解一下嗎？」",
+          "zh_CN": "一位衣着考究的人向你们走来，“同学好，我是学生会的干事。”他递给你们两张传单，“学生会正在纳新，有兴趣了解一下吗？”",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1411.2",
+          "zh_TW": "值班，還有無窮無盡又毫無意義的文書工作，一些不妙的景象湧進你的大腦。",
+          "zh_CN": "值班，还有无尽且无意义的文书工作，一些不妙的想法涌进你的大脑。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1411.3",
+          "zh_TW": "「免了。」你揮揮手，終止了這場交談。",
+          "zh_CN": "“免了。”你摆摆手，终止了这场交谈。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1412": {
+      "Id": 1412,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        14
+      ],
+      "BranchTag": 2,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.1412.1",
+      "Desc2": "DatingLandmarkEvent.1412.2",
+      "Desc3": "DatingLandmarkEvent.1412.3",
+      "Response": "normal2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1412.1",
+          "zh_TW": "你和==DATING_CHARACTER==發現一群學生圍坐在草坪上，好奇心驅使你們加入其中。",
+          "zh_CN": "你和==DATING_CHARACTER==发现一群学生围坐在草坪上，好奇心驱使你们加入其中。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1412.2",
+          "zh_TW": "原來是一場小型演唱會，學生們抱著樂器，為正在歌唱的人伴奏。",
+          "zh_CN": "原来是一场小型歌会，学生们抱着乐器，为正在歌唱的人伴奏。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1412.3",
+          "zh_TW": "雖然主唱和樂手都顯得技巧生疏，但他們仍然興致盎然地表演著，這可能就是獨屬於青春的表達欲吧。",
+          "zh_CN": "虽然主唱和乐手都显得生疏，但大家仍然兴致高昂地表演，可能这就是独属于青春的表达欲。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1413": {
+      "Id": 1413,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        14
+      ],
+      "BranchTag": 2,
+      "SortTag": 3,
+      "Affinity": 15,
+      "Desc1": "DatingLandmarkEvent.1413.1",
+      "Desc2": "DatingLandmarkEvent.1413.2",
+      "Desc3": "DatingLandmarkEvent.1413.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1413.1",
+          "zh_TW": "你和==DATING_CHARACTER==發現一群學生圍坐在草坪上，好奇心驅使你們加入其中。",
+          "zh_CN": "你和==DATING_CHARACTER==发现一群学生围坐在草坪上，好奇心驱使你们加入其中。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1413.2",
+          "zh_TW": "原來是一場小型演唱會。「來唱一首如何？什麼都行。」看著你的其中一位學生向你發出邀請。在氛圍的感染之下，你決定唱上幾句。",
+          "zh_CN": "原来是一场小型歌会，学生们望着你。“来唱一首吗？什么都行。”其中一位向你发出邀请。受到氛围感染，你决定唱上几句。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1413.3",
+          "zh_TW": "即使你的小曲十分超凡脫俗，但樂手們仍憑著自己的理解捍衛了你的前衛性。==DATING_CHARACTER==坐在你身旁，輕輕地伴隨歌聲哼唱。",
+          "zh_CN": "纵然你的小曲十分超凡脱俗，但乐手们仍凭着自己的理解捍卫了你的先锋性。==DATING_CHARACTER==坐在你身旁，轻轻地伴随歌声哼唱。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1418": {
+      "Id": 1418,
+      "DatingEventType": 9,
+      "DatingEventParams": [
+        14
+      ],
+      "Desc1": "DatingLandmarkEvent.1418.1",
+      "Desc2": "DatingLandmarkEvent.1418.2",
+      "Desc3": "DatingLandmarkEvent.1418.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1418.1",
+          "zh_TW": "你們在學院商店的貨架上發現了紀念品，買點什麼吧。",
+          "zh_CN": "你们在学院商店里发现了有纪念品在售，买点什么吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1418.2",
+          "zh_TW": "==DATING_CHARACTER==挑選了一根印有院徽的鋼筆，而你買了印有學院景色的文件夾。",
+          "zh_CN": "==DATING_CHARACTER==挑选了一只印有院徽的钢笔，而你买了印有学院景色的文件夹。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1418.3",
+          "zh_TW": "你們購買的東西都具有實用性，以後處理文書工作的時候也許會回憶起今天下午。",
+          "zh_CN": "你们购买了具有实用价值的玩意儿，以后处理文书工作的时候也会想起今天下午吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1419": {
+      "Id": 1419,
+      "DatingEventType": 9,
+      "DatingEventParams": [
+        14
+      ],
+      "Desc1": "DatingLandmarkEvent.1419.1",
+      "Desc2": "DatingLandmarkEvent.1419.2",
+      "Desc3": "DatingLandmarkEvent.1419.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1419.1",
+          "zh_TW": "你們在學院商店的貨架上發現了紀念品，買點什麼吧。",
+          "zh_CN": "你们在学院商店里发现了有纪念品在售，买点什么吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1419.2",
+          "zh_TW": "==DATING_CHARACTER==挑選了一枚院徽，而你買了一頂印有院徽的帽子。",
+          "zh_CN": "==DATING_CHARACTER==挑选了一枚院徽，而你买了一顶印有院徽的帽子。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1419.3",
+          "zh_TW": "離開商店後，你們交換了紀念品，它們更具紀念意義了。",
+          "zh_CN": "离开商店后，你们交换了纪念品，它们更具纪念意义了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1701": {
+      "Id": 1701,
+      "DatingEventType": 8,
+      "DatingEventParams": [
+        17
+      ],
+      "Desc1": "DatingLandmarkEvent.1701.1",
+      "Desc2": "DatingLandmarkEvent.1701.2",
+      "Desc3": "DatingLandmarkEvent.1701.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1701.1",
+          "zh_TW": "你和==DATING_CHARACTER==在溫泉渡假村中順利碰面，她看起來興致盎然。據說泡溫泉有益身體健康，甚至還有一些神奇的功效。不知道==DATING_CHARACTER==有沒有體驗過溫泉呢？",
+          "zh_CN": "你和==DATING_CHARACTER==在温泉度假村中顺利碰面，她看起来兴致盎然。据说泡温泉有益身体健康，甚至还有一些神奇的功效。不知道==DATING_CHARACTER==有没有体验过温泉呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1701.2",
+          "zh_TW": "在辦理入住手續時，櫃檯工作人員為你們端上了歡迎點心。玻璃杯裡盛裝著抹茶布丁，上層是淺綠色的奶凍；下層顏色更深、味道也更為濃郁，嚐起來像是微苦的慕斯。",
+          "zh_CN": "在办理度假村手续时，前台工作人员为你们端上了欢迎点心。抹茶布丁被盛在玻璃杯子里，上层是浅绿色的奶冻；下层颜色更深、口感也更为浓郁，尝起来像是略苦的慕斯。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1701.3",
+          "zh_TW": "手續辦好後，你們拿到了房間鑰匙。療癒的美妙溫泉之旅終於要正式開始了。",
+          "zh_CN": "手续办理结束后，你们拿到了房间钥匙。温泉疗愈的美妙旅程终于要正式开始了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1702": {
+      "Id": 1702,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        17
+      ],
+      "BranchTag": 1,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.1702.1",
+      "Desc2": "DatingLandmarkEvent.1702.2",
+      "Desc3": "DatingLandmarkEvent.1702.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1702.1",
+          "zh_TW": "辦理手續時，你們透過窗戶就能瞧見庭院裡的一方景色。庭院中有一股微微的花香，你似乎在哪裡感受過這種混合著鳥鳴的氣氛。就像是在某個突然醒來的清晨，從窗外緩緩飄進來的幽靜氣息一樣。",
+          "zh_CN": "办理手续时，你们透过窗子就能瞧见庭院里的一方景色。庭院中有一股微微的花香，这种混合着鸟鸣的氛围你好像在哪里感受过。像是在某个突然醒来的清晨，从窗外缓缓飘进来的幽静气息一样。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1702.2",
+          "zh_TW": "你們漫步在這座精心設計的迴遊式庭院中。整個院落順著斜坡的地勢而建，放眼望去盡是一片綠意盎然，在奇石與青苔之間，正悄悄綻放著不知名的白色小花。",
+          "zh_CN": "你们漫步在这座精心设计的回游式庭院里。整个院落依着斜坡顺势而建，庭院里一片葱绿，石头与青苔间开出不知名的白色花朵。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1702.3",
+          "zh_TW": "你和==DATING_CHARACTER==在一座池塘邊駐足，水裡的錦鯉飛快地朝你們聚集過來。你這才驚覺原來錦鯉可以長到這麼大，其花色也如此繁多。牠們嘴巴一張一合，似乎在向你們討食，可惜你們手邊什麼都沒有，只能呆呆地看著那些優游其中的魚影。",
+          "zh_CN": "你和==DATING_CHARACTER==在一个池塘边驻足，水里的锦鲤飞快地朝你们聚集过来。你这才注意到原来鲤鱼可以长这么大，其花色也如此繁多。它们嘴巴一张一阖，似乎在向你们讨食，可惜你们什么也没有，只能目光茫然地追逐这些游弋的鱼儿。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1703": {
+      "Id": 1703,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        17
+      ],
+      "BranchTag": 1,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.1703.1",
+      "Desc2": "DatingLandmarkEvent.1703.2",
+      "Desc3": "DatingLandmarkEvent.1703.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1703.1",
+          "zh_TW": "剛想踏入庭院，天空竟下起了小雨，你只好無奈地透過玻璃看著窗外景色。生活就是這樣：有著細碎的歡欣，也會有微小的苦澀。人的情緒總是被這些瑣事牽動著，像雲，像驟雨，也像春天必然綻放的花。",
+          "zh_CN": "刚想踏入庭院，天空竟下起小雨，你无奈地透过玻璃看着窗外景色。生活就是这样：有微小的欢欣，也会有微小的痛楚。人的情绪总是被这些琐细左右，像云，像骤雨，也像春天注定盛开的花。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1703.2",
+          "zh_TW": "她把臉貼近窗戶，玻璃上映照出一隻眼睛。==DATING_CHARACTER==用指尖擦了擦玻璃，安慰道：「你知道嗎？許多庭園在雨後才是最美的。」你確實聽過這樣的故事——有的茶園在晴天的時候會替園內灑水，以便更好地接待旅客。",
+          "zh_CN": "她把脸贴近窗户，玻璃上映出一只眼睛。==DATING_CHARACTER==用指尖揩了揩玻璃，安慰道：“你知道吗？许多园子在雨后才是最美的。”你确实听过这么一个故事——有的茶园会在晴天给院内洒水，以便更好地接待旅客。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1703.3",
+          "zh_TW": "雨漸漸停了。你們走進庭院，發現雨後的景色的確別有一番情趣。草木因雨水而低垂的姿態著實令人心醉。看向天邊，已經飄遠的雨雲染著淡金色的邊。一陣風吹過樹葉，枝椏間的藍天時而侷促時而廣闊，又把雨滴灑向你們的肩膀。",
+          "zh_CN": "雨渐渐停了。你们走入庭院，发现雨后的景色的确别有一番审美情趣。草木因雨水而低低垂下的姿态着实令人心醉。看向天边，已经飘远的雨云染着淡金色的边。一阵风穿过树叶，枝桠间的蓝天时而局促时而广阔，又把雨滴洒向你们的肩膀。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1704": {
+      "Id": 1704,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        17
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.1704.1",
+      "Desc2": "DatingLandmarkEvent.1704.2",
+      "Desc3": "DatingLandmarkEvent.1704.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1704.1",
+          "zh_TW": "「你聽——」==DATING_CHARACTER==叫住了你：「好像有什麼特別的小蟲子在叫。」被她一問，你也認真地聽了起來。你捕捉到了一些不曾注意過的細小聲響，似乎是從某個草叢裡傳來了輕聲的蟲鳴。但當你想確定它的位置時，那聲響卻又淹沒在一片綠意裡了。",
+          "zh_CN": "“你听——”==DATING_CHARACTER==叫住了你，“好像有什么特别的小虫在叫。”被她一问，你认真地听起来。一些不曾被注意的细小响动被你捕捉，似乎在某团草里传来了轻轻的虫鸣。可当你想确定它的位置时，却又被淹没在一片绿意里了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1704.2",
+          "zh_TW": "你聽得都有些冒汗了，那隱約的聲響依然忽近忽遠。「在這裡…」她拉起你的手，把你引向一處角落。她俯下身子，靈巧地捉住小蟲，那蟲聲也隨之變得急躁起來。你們湊近去看，兩人的額頭幾乎要貼在一起。",
+          "zh_CN": "你听得都有些沁汗了，那隐约的声响依然忽近忽远。“在这里……”她拉起你的手，把你引向一处角落。她俯下身子，灵巧地捉住小虫，那虫声也变得急躁起来。你们凑近了去瞧，额头几乎贴在一起。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1704.3",
+          "zh_TW": "小蟲奮力地掙扎，不斷搧著金色的翅膀。==DATING_CHARACTER==手指一鬆，牠便飛也似地逃走了。那蟲鳴又變得縹緲起來，淹沒在庭院其他瑣碎的聲音當中。",
+          "zh_CN": "小虫奋力地挣扎，金色的翅膀不断扇动着。==DATING_CHARACTER==手指一松，它飞似的逃走了。那虫鸣又变得飘渺起来，淹没在庭院其他琐碎的声音之中。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1705": {
+      "Id": 1705,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        17
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Affinity": 15,
+      "Desc1": "DatingLandmarkEvent.1705.1",
+      "Desc2": "DatingLandmarkEvent.1705.2",
+      "Desc3": "DatingLandmarkEvent.1705.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1705.1",
+          "zh_TW": "「你看——」==DATING_CHARACTER==叫住了你，她伸出手，將握在手裡的花瓣撒了你一臉。==DATING_CHARACTER==後退了幾步，輕輕地笑了起來。撲面而來的花瓣令你有點不知所措，紛飛的花瓣竟有一片落進了你的嘴裡。",
+          "zh_CN": "“你看——”==DATING_CHARACTER==叫住了你，她伸出手，将握在手里的花瓣撒了你一脸。==DATING_CHARACTER==后退了几步，轻轻地笑了起来。扑面而来的花瓣令你有些不知所措，纷飞的花瓣竟有一片落进了你的嘴里。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1705.2",
+          "zh_TW": "你覺得吐出來似乎有失風度，便把它嚥了下去。不料那片花瓣卻卡在喉間，即使反覆吞嚥，或者用舌根頂了頂也沒辦法將它弄出來。==DATING_CHARACTER==餵了幾口水給你，她輕輕替你順氣，直到你感覺不到那片花瓣的存在。",
+          "zh_CN": "你觉得吐出来似乎有失风度，便把它咽了下去。不料那片花瓣却卡在了嗓子眼，即使反复吞咽，或者用舌头也不能把它扣下来。==DATING_CHARACTER==喂了你几口水，她轻轻替你顺气，直到你感觉不到那片花瓣的存在。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1705.3",
+          "zh_TW": "小小的惡作劇之後，你們繼續在庭院裡遊蕩。當你想起這件事時，又會不自覺地吞嚥幾下。花瓣會有味道嗎？如果有，那你怎麼沒嚐出來呢？你明明不覺得癢，卻撓起了自己的臉頰。",
+          "zh_CN": "小小恶作剧之后，你们继续在庭院里游荡。当你想起这件事时，又会不自觉地用舌尖舔舔喉咙，花瓣会有味道么？如果有，那你怎么没尝出来呢？你明明不觉得痒，却挠起了自己的脸颊。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1706": {
+      "Id": 1706,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        17
+      ],
+      "BranchTag": 1,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.1706.1",
+      "Desc2": "DatingLandmarkEvent.1706.2",
+      "Desc3": "DatingLandmarkEvent.1706.3",
+      "Response": "happy2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1706.1",
+          "zh_TW": "天空逐漸變暗，黃昏從庭院中的斜陽下瀰漫開來。你們站在一棵山茶花樹下，樹梢間飄忽著晚霞。你注意到這裡的山茶花居然是一瓣一瓣凋落的，有的落在樹下，有的則飄到充滿夕色的池塘裡。",
+          "zh_CN": "日色逐渐暗淡，黄昏从庭院中的斜阳下弥漫开来。你们站在一棵山茶花树下，树梢间飘忽着晚霞。你注意到这里的山茶花居然是一瓣一瓣凋落的，它们有的落在树下，有的则飘到夕色的池塘里。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1706.2",
+          "zh_TW": "微涼暮色裡，天空中偶有飛鳥劃過。幾顆星星在樹叢後微微地閃爍起來。",
+          "zh_CN": "微凉暮色里，天空中偶有飞鸟划过。几颗星星在树丛后微微地闪烁起来。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1706.3",
+          "zh_TW": "庭院裡，路旁的小燈亮了起來。它們被擺放在特定的位子，好替這座庭院染上不同的氣氛。",
+          "zh_CN": "庭院里路旁的小灯亮了起来。它们摆放在特定的位置，以便给这座庭院染上另一种气氛。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1707": {
+      "Id": 1707,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        17
+      ],
+      "BranchTag": 1,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.1707.1",
+      "Desc2": "DatingLandmarkEvent.1707.2",
+      "Desc3": "DatingLandmarkEvent.1707.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1707.1",
+          "zh_TW": "時間不早了，庭院在夕陽的照射下變得如夢似幻。庭院的積水反射著光線，薔薇色的晚風使其微微泛起漣漪。在這個時刻，蔥綠不再是庭院的主題色，而是最後一抹殘留的白日氣息。",
+          "zh_CN": "时间不早了，庭院在夕照下变得如梦似幻起来。庭院里积水的地方反射出光亮，蔷薇色的晚风使其微微泛起涟漪。在这个时刻，葱绿不再是庭院的主题色，而是白日气息中最后一抹残留。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1707.2",
+          "zh_TW": "你與==DATING_CHARACTER==並肩坐在長椅上。在這座暮色溫柔的院落裡，一切都好像安靜了下來。她似乎想說些什麼，但停了半晌，卻又是一陣沉默。",
+          "zh_CN": "你和==DATING_CHARACTER==并肩坐在长椅上。在这座暮色温柔的院落里，一切都好像安静下来，她似乎想说些什么，停了半晌，却又是一片沉默。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1707.3",
+          "zh_TW": "黃昏中，她轉頭朝向你，那飄忽的視線真叫人捉摸不透。是在看你呢？還是在看你背後的庭院呢？",
+          "zh_CN": "黄昏中，她转头朝向你，那飘忽的视线真叫人捉摸不透。是在看你呢，还是在看你背后的庭院呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1708": {
+      "Id": 1708,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        17
+      ],
+      "BranchTag": 2,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.1708.1",
+      "Desc2": "DatingLandmarkEvent.1708.2",
+      "Desc3": "DatingLandmarkEvent.1708.3",
+      "Response": "normal2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1708.1",
+          "zh_TW": "大門旁有座冒著白色蒸汽的小樓房。你們走近一看，發現是一座溫泉塔，能讓高溫的泉水降溫，再利用重力將溫泉分配到不同浴場。",
+          "zh_CN": "度假村大门旁有座冒着白汽的小楼。你们走近了看，是一座温泉塔，能令高温的泉水降温，并利用重力把温泉分配到不同浴场。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1708.2",
+          "zh_TW": "溫泉塔的告示牌半隱在水氣形成的薄霧裡，上面寫著白天每隔兩小時噴發一次。「這就是傳說中的間歇泉嗎？」你忍不住開口問道。",
+          "zh_CN": "温泉塔的告示牌半隐在水汽形成的薄雾里，上面写着白天每隔两小时喷发一次。“这就是传说中的间歇泉吗？”你不禁问道。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1708.3",
+          "zh_TW": "「不是。」==DATING_CHARACTER==拿著渡假村的傳單回答你。「這上面說沒隔離禮拜二會進行維護，不會噴發。」可惜了，也就是說它仍需要人工干預，並非完全純天然的溫泉。",
+          "zh_CN": "“不是。”==DATING_CHARACTER==拿着度假村宣传单回答，“这上面说每周二进行维护，不会喷发。”可惜了，也就是说它仍然需要人工的干预，并非完全纯天然的温泉。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1709": {
+      "Id": 1709,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        17
+      ],
+      "BranchTag": 2,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.1709.1",
+      "Desc2": "DatingLandmarkEvent.1709.2",
+      "Desc3": "DatingLandmarkEvent.1709.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1709.1",
+          "zh_TW": "你們來到挑選浴衣的地方，它們被按照尺碼分類，整齊疊放在櫃檯上。浴衣的用色往往比尋常衣服更鮮豔，其上妝點著繁複的花紋，看起來都凝聚著匠心。",
+          "zh_CN": "你们来到挑选浴衣的地方，它们被按照尺码分类，整齐的叠放于柜台上。浴衣的用色往往比寻常衣服更鲜艳，其上装点着繁复的花纹，看起来都凝聚着匠心。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1709.2",
+          "zh_TW": "她挑選了喜歡的浴衣，先行去試穿了，但等她從更衣室出來後，臉上卻沒有那種開心的表情。\n「浴衣和綁帶的顏色好像不太協調…你覺得呢？」\n「也許配個偏深色的顏色會比較好？」\n「那我換這個試試！」",
+          "zh_CN": "她挑选了喜欢的浴衣，先行去试衣服了，但等她从更衣室出来，脸上并没有那种开心的表情。\n“浴衣带和浴衣的颜色好像不太协调……你觉得呢？”\n“也许配个更深的颜色会更好？”\n“那我换这个试试！”",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1709.3",
+          "zh_TW": "沒過多久，==DATING_CHARACTER==又換上一套新的浴衣從更衣室裡出來了。「怎麼樣，合身嗎？」她問你。\n「嗯！就像解鎖了新形象一樣！」\n「就只有這點評價嗎？果然還是你啊。」她笑了起來：「跟女孩子順利約會的方法中，其中一條就是誇獎她穿的衣服喔！」\n「還有哪幾條？」\n「還有就是盡量帶她吃好吃的，我們現在就出發吧～」",
+          "zh_CN": "不一会，==DATING_CHARACTER==又换上新一套浴衣从更衣室里出来了。“怎么样，合身吗？”她问你。\n“嗯！就像解锁了新形象一样！”\n“就只有这点评价嘛，果然还是你啊。”她笑起来，“和女孩顺利约会的方法里，其中一条就是夸奖她穿的衣服哦？”\n“还有哪几条？”\n“还有尽量带她吃好吃的，我们现在就出发吧~”",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1710": {
+      "Id": 1710,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        17
+      ],
+      "BranchTag": 2,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.1710.1",
+      "Desc2": "DatingLandmarkEvent.1710.2",
+      "Desc3": "DatingLandmarkEvent.1710.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1710.1",
+          "zh_TW": "渡假村的餐廳，裝潢十分考究，櫥窗裡還有插花，據說出自某位園藝大師之手。你們找了張靠窗的桌子坐下，窗外就能望見同樣設計考究的庭院，有花瓣在午後的微風中柔軟地紛飛，甚至飄到了你們的桌子上。",
+          "zh_CN": "度假村餐厅的装潢十分考究，橱窗里还有插花，据说出自某位园艺大师。你们找了张靠窗的桌子坐下，窗外就能望见同样设计考究的庭院，有花瓣在午后的微风中柔软地翻飞，甚至飘到了你们的桌子上。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1710.2",
+          "zh_TW": "先是一份蒸蛋，裡面似乎加了一點海膽。當用小湯匙挖到底部時，你們驚奇地發現蒸蛋底部還有一層橘子果凍，微涼的酸甜滋味十分爽口。接著是佐以白蘿蔔泥的烤肉，還有燉煮的海鮮湯，雖然你其實不太清楚碗裡盛著的到底是什麼魚。",
+          "zh_CN": "先是一份蛋羹，里面似乎还加了一些海胆。当用小勺挖到底部时，你们惊奇地发现蛋羹底部还有一层橘子果冻，微凉的酸甜感十分爽口。而后是烤肉配萝卜泥，还有炖煮的海鲜汤，虽然你并不清楚碗里躺着的究竟是什么鱼。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1710.3",
+          "zh_TW": "在收尾的甜點中，你發現了幾粒不太尋常的煮蠶豆。它們被點上了兩粒黑芝麻，看起來像是簡筆畫裡的青蛙。如果時節合適，也許真的能聽見庭院裡的蛙鳴吧。",
+          "zh_CN": "在收尾的甜品中，你发现了几粒不太寻常的煮蚕豆。它们被点上了两粒黑芝麻，看上去像是简笔画里的青蛙。如果时节合适，兴许真得能够听见庭院里的蛙鸣吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1711": {
+      "Id": 1711,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        17
+      ],
+      "BranchTag": 2,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.1711.1",
+      "Desc2": "DatingLandmarkEvent.1711.2",
+      "Desc3": "DatingLandmarkEvent.1711.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1711.1",
+          "zh_TW": "說著說著，你們走到了飲料吧。櫃檯中有許多你叫不出名字的飲料，冷藏櫃裡有些水果與仙草。最重要的是，你在冰箱裡找到了冰淇淋，上面還印著聯合種業的商標。你第一次知道這間公司居然還有冷凍食品線，只是不知道味道如何。",
+          "zh_CN": "说着说着，你们走到了水吧。柜台中有许多你说不上名字的饮料，冷柜里有些水果与凉粉。最重要的是，你在冰箱里找到了冰淇淋，它们还印着联合种业的商标。你第一次知道种业公司居然还有这么一条冻品产线，就是不知道味道如何。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1711.2",
+          "zh_TW": "你正思索著，==DATING_CHARACTER==突然湊到你耳邊低聲說：「要不要體驗一下…當大人的感覺？」你嚇得整個人抖了一下。難道是報稅還是繳保險之類的嗎？結果==DATING_CHARACTER==只是笑著從冰桶裡撈出一瓶麥芽特飲：「要不要來一點？」",
+          "zh_CN": "你正想着，==DATING_CHARACTER==突然凑到你耳边低声说：“要不要体验一下当大人的感觉？”你吓得一哆嗦。难道是报税之类的？==DATING_CHARACTER==捧着一瓶从冰桶里捞出来的麦芽特饮，“要不要来一点？”",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1711.3",
+          "zh_TW": "還是算了吧。你們最終各自挑了一瓶冰鎮汽水。你猛灌一口，冰冷的氣泡如煙火般在喉嚨裡綻開。涼涼的，好舒服，汽水泡沫般的幸福感也隨之滲入你四周的空氣裡。",
+          "zh_CN": "还是算了吧。你们最终各自挑了一瓶冰镇汽水。你猛灌一口，冰冷的气泡如烟花一样在喉咙里绽开。凉凉的，好舒服，汽水泡沫般的幸福感也随之渗入你四周的空气里。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1712": {
+      "Id": 1712,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        17
+      ],
+      "BranchTag": 2,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.1712.1",
+      "Desc2": "DatingLandmarkEvent.1712.2",
+      "Desc3": "DatingLandmarkEvent.1712.3",
+      "Response": "normal2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1712.1",
+          "zh_TW": "不知不覺間，你們走到足湯溫泉外，木製的小亭子下有座用大理石砌成的長形溫泉池。趁此機會試一下吧，畢竟這種淺淺的小池子應該不會讓人溺水。",
+          "zh_CN": "不知不觉间，你们走到足汤温泉处，木制的小亭子下有用大理石砌成的长条形温泉池。趁此机会试一下吧，毕竟在这种浅浅的小池子里应该不存在溺水的风险。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1712.2",
+          "zh_TW": "你和==DATING_CHARACTER==脫去鞋襪，將腳伸進熱水裡。真舒服，畢竟都走了這麼久。隨著你放鬆神經，睏意也湧了上來。你的脊椎似乎再也撐不住身體的重量，身體漸漸癱軟下去。\n恍惚之間，你隱約看見了一片銀白世界。厚厚的白雪覆蓋在渡假村的屋頂上。這個季節，難道也會下雪嗎？你不知道，現在的你也完全不想思考這件事。直到…",
+          "zh_CN": "你和==DATING_CHARACTER==脱去了鞋袜，将脚伸入热水里。好舒服，毕竟已经走了这么久。随着你放松神经，困意也涌了上来。你的脊椎似乎再也撑不住身体的重量，渐渐瘫软下去。\n恍然间，你看到了一片茫茫白雪。它们覆盖在度假村的屋顶上，这个季节会有雪吗？你不知道，你现在也不想知道。直至……",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1712.3",
+          "zh_TW": "有什麼東西扶住了你，避免你滑進溫泉裡。==DATING_CHARACTER==輕輕地把你搖醒。\n你睡眼惺忪，雪景在騰騰熱氣中化了開來。你意識到那或許是一場夢，不過，這並不是一個遙不可及的夢，你開始期待未來和==DATING_CHARACTER==的雪中溫泉之旅。",
+          "zh_CN": "有什么东西扶住了你，避免你滑进温泉池。==DATING_CHARACTER==把你轻轻地晃醒；\n你睡眼惺忪，雪景在腾腾热气中化开。你意识到那或许是一个梦，不过，这并不是一个遥不可及的梦，你开始期待未来和==DATING_CHARACTER==的雪中温泉之旅。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1713": {
+      "Id": 1713,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        17
+      ],
+      "BranchTag": 2,
+      "SortTag": 3,
+      "Affinity": 15,
+      "Desc1": "DatingLandmarkEvent.1713.1",
+      "Desc2": "DatingLandmarkEvent.1713.2",
+      "Desc3": "DatingLandmarkEvent.1713.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1713.1",
+          "zh_TW": "天色不早了，還是先各自回房間看看吧，正巧你和==DATING_CHARACTER==就住在隔壁。這裡的客房裝潢古典，牆上掛著你看不懂的字畫。陽台上也修建了溫泉池，泡溫泉時可以一覽庭院的美景。你又壓了壓床墊，好軟！這裡簡直是你素未謀面的故鄉。",
+          "zh_CN": "天色不早了，还是先回各自房间看看吧，正巧你和==DATING_CHARACTER==就住在隔壁。这的客房装修古典，墙上挂着你看不懂的字画。阳台上也修建了温泉池，泡温泉时可以望见庭院的景色。你又按了按床垫，好软！这个度假村简直是你素未谋面的故乡。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1713.2",
+          "zh_TW": "你站在陽台上感受著略帶涼意的微風時，隔壁突然傳來==DATING_CHARACTER==的聲音。「這竹板上的是小窗戶嗎？我怎麼打不開？」\n「你再用點力試試看。」你朝隔壁喊道。",
+          "zh_CN": "你站在阳台上感受着略带凉意的微风时，隔壁突然传来==DATING_CHARACTER==的声音，“这竹板上是小窗吗？我怎么打不开？”\n“你用点劲试试。”你朝着隔壁喊道。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1713.3",
+          "zh_TW": "砰的一聲，陽台之間的隔間竹板裂開了，形成一個跟人差不多高的開口。「原來這才不是什麼窗戶…」==DATING_CHARACTER==尷尬地把頭探了進來，「咦？我怎麼覺得你的陽台比我的大一點，景色也更好一點？」\n她直接跨了進來，「我晚上可以待在這嗎？」\n你被轉移話題了，但現在不是應該優先處理斷開的竹板嗎？",
+          "zh_CN": "砰的一声，阳台之间的隔断竹板裂开了一人高的口子。“原来这不是什么窗子……”==DATING_CHARACTER==尴尬地把头探进来，“欸？我怎么觉得你的阳台比我的大一些，景色也更好一些。”\n她直接跨了进来，“我晚上可以呆在这吗？”\n你被转移话题了，但现在不应该优先处理断开的竹板吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "1720": {
+      "Id": 1720,
+      "DatingEventType": 9,
+      "DatingEventParams": [
+        17
+      ],
+      "Desc1": "DatingLandmarkEvent.1720.1",
+      "Desc2": "DatingLandmarkEvent.1720.2",
+      "Desc3": "DatingLandmarkEvent.1720.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.1720.1",
+          "zh_TW": "活動散場，也到了該就寢的時間。旅程中的夜晚越是美麗，就越讓人傷感。蟲鳴陣陣，你們緩緩走在回客房的路上。",
+          "zh_CN": "活动散场，也到了该就寝的时间。旅程里的夜晚越是美丽，越会让人感到伤感。虫鸣阵阵，你们缓缓走在回客房的路上。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.1720.2",
+          "zh_TW": "她拉住了你。「來噴點防蚊液。」她上上下下幫你噴了幾下，你嗅到防蚊液那清涼香氣的瞬間，彷彿被拉回了年幼時的那個夏天。你乾枯的記憶似乎想起了什麼。\n你想順著那股思緒逆流而上，但周遭充斥著如雪花雜訊般的虛無，直到你順著思緒摸到了誰的手指。",
+          "zh_CN": "她拽住了你，“来喷点驱蚊水。”她上上下下给你喷了几揿，你嗅到驱蚊水那清凉香气的瞬间，仿佛被拽回了年幼时的那个夏天。你枯枝般的记忆似乎想起了什么。\n你想顺着那股思绪逆流而上，但周遭充斥着雪花噪点般的虚无，直到你顺着思绪摸到了谁的手指。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.1720.3",
+          "zh_TW": "「你怎麼呆住了？」==DATING_CHARACTER==握著你的手問道。\n她觀察著你微小起伏的表情，試圖揣測你臉龐陰影裡藏著的神祕情緒，但最終她放棄了。「有點捨不得？我們下次再來這裡玩，好嗎？」你欣然同意，一天玩下來，你們都很疲累了，快去休息一晚吧。",
+          "zh_CN": "“你怎么呆住了？”==DATING_CHARACTER==握着你的手问道。\n她观察着你表情的微小起伏，试图揣度着你脸上阴影里藏着的神秘情绪，但最终她放弃了。“有点不舍？下次我们还来这里玩，好吗？”你欣然同意，一天的游玩使你们劳累，快去休息一晚吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "501": {
+      "Id": 501,
+      "DatingEventType": 8,
+      "DatingEventParams": [
+        5
+      ],
+      "Desc1": "DatingLandmarkEvent.501.1",
+      "Desc2": "DatingLandmarkEvent.501.2",
+      "Desc3": "DatingLandmarkEvent.501.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.501.1",
+          "zh_TW": "洞窟的入口布滿青苔，看起來很久沒人到訪了。",
+          "zh_CN": "洞窟的入口布满了青苔，看起来很久无人到访了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.501.2",
+          "zh_TW": "「今天會發現些什麼呢？」你們一邊聊著，一邊繼續探險。",
+          "zh_CN": "“今天会发现些什么呢？” 一边聊着，一边继续探险。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "502": {
+      "Id": 502,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "BranchTag": 1,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.502.1",
+      "Desc2": "DatingLandmarkEvent.502.2",
+      "Desc3": "DatingLandmarkEvent.502.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.502.1",
+          "zh_TW": "你們在石壁的縫隙中發現了一座古老的雕像。好像是有人故意藏在這裡的。",
+          "zh_CN": "你们在石壁的缝隙中发现了一座古老的雕像。好像是什么人故意藏在这里的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.502.2",
+          "zh_TW": "==DATING_CHARACTER==認為這座石像的臉和你有點像。",
+          "zh_CN": "==DATING_CHARACTER==认为这座石像的脸和你有点像。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "503": {
+      "Id": 503,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "BranchTag": 1,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.503.1",
+      "Desc2": "DatingLandmarkEvent.503.2",
+      "Desc3": "DatingLandmarkEvent.503.3",
+      "Response": "normal2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.503.1",
+          "zh_TW": "深不見底的地裂截斷了去路。一座光滑的天然冰橋橫跨溝壑。",
+          "zh_CN": "深不见底的地裂截断了去路。一座光滑的天然冰桥横跨地裂。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.503.2",
+          "zh_TW": "你和==DATING_CHARACTER==手牽著手，安全地通過了這座橋。",
+          "zh_CN": "你和==DATING_CHARACTER==手牵着手，安全地通过了这座桥。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "504": {
+      "Id": 504,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.504.1",
+      "Desc2": "DatingLandmarkEvent.504.2",
+      "Desc3": "DatingLandmarkEvent.504.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.504.1",
+          "zh_TW": "洞穴的深處閃爍著奇妙的光芒。那是如燈籠般從石壁懸垂而下的花朵。",
+          "zh_CN": "洞穴的深处闪烁着奇妙的光芒。那是，如灯笼般从石壁上悬垂下的花朵。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.504.2",
+          "zh_TW": "你和==DATING_CHARACTER==疊成人梯，小心地摘了一朵。",
+          "zh_CN": "你和==DATING_CHARACTER==搭成人梯，小心地摘下了一朵。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "505": {
+      "Id": 505,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.505.1",
+      "Desc2": "DatingLandmarkEvent.505.2",
+      "Desc3": "DatingLandmarkEvent.505.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.505.1",
+          "zh_TW": "一條橫穿道路的地下河流靜靜地流淌。在黑暗的洞窟中，你們看不清河的寬度。",
+          "zh_CN": "一条横穿道路的地下河静静流淌。在黑暗的洞窟中，你们看不到河的宽度。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.505.2",
+          "zh_TW": "在河水中，你們發現了沒有眼睛的魚。",
+          "zh_CN": "在河水中，你们发现了没有眼睛的鱼。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "506": {
+      "Id": 506,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.506.1",
+      "Desc2": "DatingLandmarkEvent.506.2",
+      "Desc3": "DatingLandmarkEvent.506.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.506.1",
+          "zh_TW": "你們發現了一間空曠的石室。牆上有著模糊的壁畫，似乎是很久以前舉行某種儀式的地方。",
+          "zh_CN": "你们发现了一间空旷的石室。墙上能看到模糊的壁画，似乎是很久以前举行某种仪式的地方。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.506.2",
+          "zh_TW": "==DATING_CHARACTER==生起篝火，你們依偎著休息了一下。",
+          "zh_CN": "==DATING_CHARACTER==升起篝火，你们依偎着休息了一会。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "507": {
+      "Id": 507,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "BranchTag": 1,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.507.1",
+      "Desc2": "DatingLandmarkEvent.507.2",
+      "Desc3": "DatingLandmarkEvent.507.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.507.1",
+          "zh_TW": "你們找到了一處乾燥的台地，鋪上毯子，打算好好休息一下。",
+          "zh_CN": "你们找到了一处干燥的台地，铺好毯子，决定好好休息一下。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.507.2",
+          "zh_TW": "疲憊的你們很快就進入了夢鄉。",
+          "zh_CN": "很快，疲惫的你们就进入梦乡。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.507.3",
+          "zh_TW": "再度睜開眼時，你的面前是==DATING_CHARACTER==可愛的睡臉。",
+          "zh_CN": "再度睁开眼睛的时候，你的面前是==DATING_CHARACTER==可爱的睡脸。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "508": {
+      "Id": 508,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "BranchTag": 1,
+      "SortTag": 3,
+      "Affinity": 15,
+      "Desc1": "DatingLandmarkEvent.508.1",
+      "Desc2": "DatingLandmarkEvent.508.2",
+      "Desc3": "DatingLandmarkEvent.508.3",
+      "Response": "happy2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.508.1",
+          "zh_TW": "空氣越來越熱，不斷湧出的汗水消耗著本就所剩無幾的體力。",
+          "zh_CN": "空气越来越热，不断涌出的汗水消耗着本就不多的体力。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.508.2",
+          "zh_TW": "這股熱源是一處隱祕的溫泉。",
+          "zh_CN": "热源是一处隐秘的温泉。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.508.3",
+          "zh_TW": "你們決定脫下鞋子泡泡腳。\n泡進溫泉的那一刻，你們感覺疲憊一掃而空。",
+          "zh_CN": "你们决定就地脱鞋，伸腿泡一泡。\n浸入热水的一刻，感觉疲惫瞬间飞走了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "509": {
+      "Id": 509,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "DatingEventExclude": [
+        140
+      ],
+      "BranchTag": 2,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.509.1",
+      "Desc2": "DatingLandmarkEvent.509.2",
+      "Desc3": "DatingLandmarkEvent.509.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.509.1",
+          "zh_TW": "黑色的巨岩遍布洞窟深處，上面布滿了結實的藤蔓。",
+          "zh_CN": "黑色的巨岩遍布洞窟深处，上面布满了结实的藤蔓。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.509.2",
+          "zh_TW": "你們互相攙扶，藉著藤蔓爬上了巨岩頂端。",
+          "zh_CN": "你们相互扶持着，借着藤蔓爬上了巨岩顶端。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.509.3",
+          "zh_TW": "那裡插著一把鏽跡斑斑的斷劍。",
+          "zh_CN": "那里，插着一把锈迹斑斑的，断掉的剑。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "510": {
+      "Id": 510,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "BranchTag": 2,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.510.1",
+      "Desc2": "DatingLandmarkEvent.510.2",
+      "Desc3": "DatingLandmarkEvent.510.3",
+      "Response": "normal2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.510.1",
+          "zh_TW": "你們走進了一座拱形的洞窟。洞窟的頂端鑲著閃亮的寶石，從位置排列推斷，應該是在模仿天上的星座。",
+          "zh_CN": "你们走进了一座拱形的洞窟。洞窟的顶端镶嵌着闪亮的宝石，从排列上推断，应是在模仿天上的星座。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.510.2",
+          "zh_TW": "只是…你們從未見過那些星座。",
+          "zh_CN": "只是......那些星座你们从未见过。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "511": {
+      "Id": 511,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "BranchTag": 2,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.511.1",
+      "Desc2": "DatingLandmarkEvent.511.2",
+      "Desc3": "DatingLandmarkEvent.511.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.511.1",
+          "zh_TW": "岩壁上有一些亮晶晶的東西，你和==DATING_CHARACTER==湊了過去。",
+          "zh_CN": "岩壁上有一些亮晶晶的东西，你和==DATING_CHARACTER==凑了过去。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.511.2",
+          "zh_TW": "那是散發著金屬輝光的一條條礦脈。但可惜的是，你們沒有適合的工具把它們挖出來。",
+          "zh_CN": "是一条条矿脉，它们散发着金属的辉光。但可惜没有合适工具把它们抠出来。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "512": {
+      "Id": 512,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "BranchTag": 2,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.512.1",
+      "Desc2": "DatingLandmarkEvent.512.2",
+      "Desc3": "DatingLandmarkEvent.512.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.512.1",
+          "zh_TW": "岩壁上有一些亮晶晶的東西，你和==DATING_CHARACTER==湊了過去。",
+          "zh_CN": "岩壁上有一些亮晶晶的东西，你和==DATING_CHARACTER==凑了过去。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.512.2",
+          "zh_TW": "是一片發著螢光的地衣，可以採個幾片別在頭上。",
+          "zh_CN": "是一片发着荧光的地衣，可以采下来几片别在头上。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "513": {
+      "Id": 513,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "BranchTag": 2,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.513.1",
+      "Desc2": "DatingLandmarkEvent.513.2",
+      "Desc3": "DatingLandmarkEvent.513.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.513.1",
+          "zh_TW": "==DATING_CHARACTER==和你陸續穿過一條岩壁間的縫隙。",
+          "zh_CN": "==DATING_CHARACTER==和你一前一后穿过一条岩壁间的缝隙。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.513.2",
+          "zh_TW": "真的好窄！「推我一下！」==DATING_CHARACTER==叫道，你以彆扭的姿勢推了她一把。",
+          "zh_CN": "真的好窄！“推我一下！”==DATING_CHARACTER==叫道，你以别扭地姿势推了一把。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.513.3",
+          "zh_TW": "==DATING_CHARACTER==擠出縫隙後，又把你拉了出來。",
+          "zh_CN": "==DATING_CHARACTER==挤出缝隙后，又把你拽了出来。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "514": {
+      "Id": 514,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        5
+      ],
+      "BranchTag": 2,
+      "SortTag": 3,
+      "Affinity": 15,
+      "Desc1": "DatingLandmarkEvent.514.1",
+      "Desc2": "DatingLandmarkEvent.514.2",
+      "Desc3": "DatingLandmarkEvent.514.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.514.1",
+          "zh_TW": "你們坐在只容得下兩人的峭壁縫隙中休息。",
+          "zh_CN": "你们坐在只容两人的峭壁缝隙中休息。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.514.2",
+          "zh_TW": "為了能讓身體好好放鬆，你和==DATING_CHARACTER==決定輪流躺在對方腿上。",
+          "zh_CN": "为了能更好地舒缓身体。你和==DATING_CHARACTER==决定轮换着枕在对方的腿上。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.514.3",
+          "zh_TW": "原來，讓別人躺大腿也滿舒服的。",
+          "zh_CN": "原来，给别人膝枕也挺舒服的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "520": {
+      "Id": 520,
+      "DatingEventType": 9,
+      "DatingEventParams": [
+        5
+      ],
+      "Desc1": "DatingLandmarkEvent.520.1",
+      "Desc2": "DatingLandmarkEvent.520.2",
+      "Desc3": "DatingLandmarkEvent.520.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.520.1",
+          "zh_TW": "你們漸漸感受到一股來自深處的微風。",
+          "zh_CN": "逐渐地，你们感受到一股来自深处的微风。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.520.2",
+          "zh_TW": "順著風向找過去之後，你們發現了一個泛著微光的出口。",
+          "zh_CN": "顺着风向找过去，是一个泛着微光的出口。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.520.3",
+          "zh_TW": "你們從洞窟的另一個洞口冒了出來。探洞冒險就此結束。",
+          "zh_CN": "你们从洞窟的另一个洞口冒了出来。探窟冒险就此结束。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "521": {
+      "Id": 521,
+      "DatingEventType": 9,
+      "DatingEventParams": [
+        5
+      ],
+      "Desc1": "DatingLandmarkEvent.521.1",
+      "Desc2": "DatingLandmarkEvent.521.2",
+      "Desc3": "DatingLandmarkEvent.521.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.521.1",
+          "zh_TW": "經過一陣探索，你們驚奇地發現自己又回到了最開始的洞穴。",
+          "zh_CN": "经过一阵探索，你们惊奇地发现又回到了最初的洞穴。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.521.2",
+          "zh_TW": "於是你們直接從入口處出來了。",
+          "zh_CN": "于是你们直接从入口处出来了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "601": {
+      "Id": 601,
+      "DatingEventType": 8,
+      "DatingEventParams": [
+        6
+      ],
+      "Desc1": "DatingLandmarkEvent.601.1",
+      "Desc2": "DatingLandmarkEvent.601.2",
+      "Desc3": "DatingLandmarkEvent.601.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.601.1",
+          "zh_TW": "輕輕推開門，耳邊響起熟悉的風鈴聲。\n今天的甜點店，似乎與往日有些不同。",
+          "zh_CN": "轻轻推开门，耳边响起熟悉的的风铃声。\n今天的甜品店，似乎和往日有一些不同。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.601.2",
+          "zh_TW": "==DATING_CHARACTER==依舊坐在窗邊的位置，等待著你的到來。",
+          "zh_CN": "==DATING_CHARACTER==依旧坐在窗边的位置，等待着你的到来。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.601.3",
+          "zh_TW": "留意到你的身影，她微笑著對你揮揮手。",
+          "zh_CN": "留意到你的身影，她微笑着朝你挥了挥手。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "602": {
+      "Id": 602,
+      "DatingEventType": 8,
+      "DatingEventParams": [
+        6
+      ],
+      "DatingEventExclude": [
+        140
+      ],
+      "Desc1": "DatingLandmarkEvent.602.1",
+      "Desc2": "DatingLandmarkEvent.602.2",
+      "Desc3": "DatingLandmarkEvent.602.3",
+      "Response": "happy2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.602.1",
+          "zh_TW": "輕輕推開門，耳邊響起熟悉的風鈴聲。\n今天的甜點店，似乎與往日有些不同。",
+          "zh_CN": "轻轻推开门，耳边响起熟悉的的风铃声。\n今天的甜品店，似乎和往日有一些不同。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.602.2",
+          "zh_TW": "==DATING_CHARACTER==就在門口。",
+          "zh_CN": "==DATING_CHARACTER==就在门口。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.602.3",
+          "zh_TW": "發現了你之後，她立刻邁著輕快的步伐走來，看起來十分期待。",
+          "zh_CN": "发现了你的她，立刻迈着轻快的步子走了过来，看上去十分期待。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "603": {
+      "Id": 603,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        6
+      ],
+      "BranchTag": 1,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.603.1",
+      "Desc2": "DatingLandmarkEvent.603.2",
+      "Desc3": "DatingLandmarkEvent.603.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.603.1",
+          "zh_TW": "剛剛點的布朗尼蛋糕被端上小桌，好濃郁的可可味。",
+          "zh_CN": "刚刚点单的布朗尼蛋糕被端上小桌，好浓郁的可可味。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.603.2",
+          "zh_TW": "==DATING_CHARACTER==將蛋糕分成兩半。",
+          "zh_CN": "==DATING_CHARACTER==将蛋糕分成两半。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.603.3",
+          "zh_TW": "既苦澀又甜蜜，這就是來自南方的甜點嗎？",
+          "zh_CN": "苦涩，甜蜜，这就是来自南方的甜点吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "604": {
+      "Id": 604,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        6
+      ],
+      "BranchTag": 1,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.604.1",
+      "Desc2": "DatingLandmarkEvent.604.2",
+      "Desc3": "DatingLandmarkEvent.604.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.604.1",
+          "zh_TW": "你們剛剛點的歌劇院蛋糕被端上小桌。你數了數，足足分了七層。",
+          "zh_CN": "刚刚点单的歌剧院蛋糕被端上小桌。你数了数，足足分了七层。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.604.2",
+          "zh_TW": "==DATING_CHARACTER==將蛋糕分成兩半。",
+          "zh_CN": "==DATING_CHARACTER==将蛋糕分成两半。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.604.3",
+          "zh_TW": "既細膩又輕盈，真是優雅的口感。",
+          "zh_CN": "细腻，轻盈，好上流的糕点。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "605": {
+      "Id": 605,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        6
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Affinity": 15,
+      "Desc1": "DatingLandmarkEvent.605.1",
+      "Desc2": "DatingLandmarkEvent.605.2",
+      "Desc3": "DatingLandmarkEvent.605.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.605.1",
+          "zh_TW": "你發現==DATING_CHARACTER==投來的探詢目光，她好奇你在想些什麼。",
+          "zh_CN": "你发现==DATING_CHARACTER==向你投来探询的目光，她好奇你在想些什么。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.605.2",
+          "zh_TW": "「這是祕密。」你故作神祕地搖了搖頭。\n這引起了==DATING_CHARACTER==的興趣，她願意用自己的一個祕密和你交換。",
+          "zh_CN": "“这是一个秘密。”你故作高深地摇了摇头。\n这引起了==DATING_CHARACTER==的兴趣，她愿意用自己的一个秘密和你交换。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.605.3",
+          "zh_TW": "原來她在等你時也回憶起了同一件事。\n因此，她特地點了第一次來甜點店時吃的蛋糕。",
+          "zh_CN": "原来她在等你的时候，也回想起了同样的事情。\n因此，她特意点了第一次来甜品屋时吃的蛋糕。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "606": {
+      "Id": 606,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        6
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.606.1",
+      "Desc2": "DatingLandmarkEvent.606.2",
+      "Desc3": "DatingLandmarkEvent.606.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.606.1",
+          "zh_TW": "你發現==DATING_CHARACTER==投來的探詢目光，她好奇你在想些什麼。",
+          "zh_CN": "你发现==DATING_CHARACTER==向你投来探询的目光，她好奇你在想些什么。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.606.2",
+          "zh_TW": "你故作神祕地搖了搖頭，並指了指她的臉。\n==DATING_CHARACTER==這才意識到她的嘴角不小心沾到甜點了。",
+          "zh_CN": "你故作高深地摇了摇头，指了指她的脸。\n==DATING_CHARACTER==这才意识到，原来她嘴边不小心沾上了一块甜品。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.606.3",
+          "zh_TW": "你笑著將紙巾遞給她，她有些害羞地接下。",
+          "zh_CN": "你笑着递给她纸巾，她有些害羞的接下了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "607": {
+      "Id": 607,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        6
+      ],
+      "BranchTag": 1,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.607.1",
+      "Desc2": "DatingLandmarkEvent.607.2",
+      "Desc3": "DatingLandmarkEvent.607.3",
+      "Response": "happy2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.607.1",
+          "zh_TW": "隔壁桌的小朋友踉踉蹌蹌地從你們身邊跑過，身子一斜，險些要摔倒了。",
+          "zh_CN": "隔壁桌的小朋友踉踉跄跄地从你们身边跑过，身子一歪，几乎要摔倒。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.607.2",
+          "zh_TW": "==DATING_CHARACTER==連忙蹲下扶住她，卻不小心拉扯到桌巾…飛散的甜點不幸地沾到了==DATING_CHARACTER==的背上。",
+          "zh_CN": "==DATING_CHARACTER==连忙蹲下扶住了她，却不小心扯到了桌布…… 泼洒的甜点不幸地沾到了==DATING_CHARACTER==的后背上。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.607.3",
+          "zh_TW": "你立刻拿來毛巾和清潔用品，並仔細地為==DATING_CHARACTER==擦拭衣服，她有些不好意思，並向你道謝。",
+          "zh_CN": "你立刻找来了毛巾和清洁剂，并帮==DATING_CHARACTER==仔细擦拭了衣服。她有些不好意思，并向你表示感谢。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "608": {
+      "Id": 608,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        6
+      ],
+      "BranchTag": 1,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.608.1",
+      "Desc2": "DatingLandmarkEvent.608.2",
+      "Desc3": "DatingLandmarkEvent.608.3",
+      "Response": "normal2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.608.1",
+          "zh_TW": "隔壁桌的小朋友踉踉蹌蹌地從你們身邊跑過，身子一斜，險些要摔倒了。",
+          "zh_CN": "隔壁桌的小朋友踉踉跄跄地从你们身边跑过，身子一歪，几乎要摔倒。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.608.2",
+          "zh_TW": "你眼明手快地拉了一把，避免了一場意外。\n==DATING_CHARACTER==向你投來了讚許的目光。",
+          "zh_CN": "你眼疾手快地拉了一把，避免了一场事故。\n==DATING_CHARACTER==向你投来了赞许的目光。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.608.3",
+          "zh_TW": "小朋友的家長趕到，並向你們道歉。\n真是有驚無險，你們鬆了口氣。",
+          "zh_CN": "小朋友的家长赶到，并向你们道歉。\n真是有惊无险，你们长舒了一口气。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "609": {
+      "Id": 609,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        6
+      ],
+      "BranchTag": 2,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.609.1",
+      "Desc2": "DatingLandmarkEvent.609.2",
+      "Desc3": "DatingLandmarkEvent.609.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.609.1",
+          "zh_TW": "服務生端上兩杯熱巧克力，上面還裝飾著一抹奶油。",
+          "zh_CN": "服务员端上两杯热巧克力，顶上还有一抹奶油。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.609.2",
+          "zh_TW": "口感滑順，也不會過度甜膩。你還想再來一杯。",
+          "zh_CN": "口感丝滑，也没有过分甜腻。还想再来一杯。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "610": {
+      "Id": 610,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        6
+      ],
+      "BranchTag": 2,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.610.1",
+      "Desc2": "DatingLandmarkEvent.610.2",
+      "Desc3": "DatingLandmarkEvent.610.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.610.1",
+          "zh_TW": "服務員端上兩杯漂浮著些許果粒的冰茶。",
+          "zh_CN": "服务员端上两杯冰茶，还有一些果粒漂浮其中。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.610.2",
+          "zh_TW": "花香以及水果的芬芳在你的舌尖綻放。",
+          "zh_CN": "花香，还有水果的芬芳在舌尖绽放。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "611": {
+      "Id": 611,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        6
+      ],
+      "BranchTag": 2,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.611.1",
+      "Desc2": "DatingLandmarkEvent.611.2",
+      "Desc3": "DatingLandmarkEvent.611.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.611.1",
+          "zh_TW": "「你那杯可以讓我嘗一嘗嗎？」==DATING_CHARACTER==突然問道。",
+          "zh_CN": "“我可以尝尝你那一杯吗？”==DATING_CHARACTER==突然问道。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.611.2",
+          "zh_TW": "==DATING_CHARACTER==將吸管伸過來抿了一口。",
+          "zh_CN": "==DATING_CHARACTER==将吸管伸过来抿了一口。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.611.3",
+          "zh_TW": "「我就知道你的那杯更甜！」",
+          "zh_CN": "“你的那杯果然更甜一点！”",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "612": {
+      "Id": 612,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        6
+      ],
+      "BranchTag": 2,
+      "SortTag": 2,
+      "Affinity": 15,
+      "Desc1": "DatingLandmarkEvent.612.1",
+      "Desc2": "DatingLandmarkEvent.612.2",
+      "Desc3": "DatingLandmarkEvent.612.3",
+      "Response": "normal2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.612.1",
+          "zh_TW": "舒緩悠揚的音樂緩緩流淌在甜香四溢的空間裡。",
+          "zh_CN": "舒缓悠扬的音乐在充满香甜的空间里缓缓流动。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.612.2",
+          "zh_TW": "聊天時，手中的湯匙偶爾碰撞杯壁，發出清脆的聲響。",
+          "zh_CN": "聊天之间，手中的勺子偶尔碰撞在杯壁上，发出清脆的声响。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "613": {
+      "Id": 613,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        6
+      ],
+      "BranchTag": 2,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.613.1",
+      "Desc2": "DatingLandmarkEvent.613.2",
+      "Desc3": "DatingLandmarkEvent.613.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.613.1",
+          "zh_TW": "氣氛逐漸緩和，==DATING_CHARACTER==沒有一開始那麼緊繃了。",
+          "zh_CN": "气氛逐渐缓和，==DATING_CHARACTER==不像一开始那样紧绷了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.613.2",
+          "zh_TW": "==DATING_CHARACTER==告訴你，她最近遇上了一些麻煩。你耐心地聽著==DATING_CHARACTER==娓娓道來。",
+          "zh_CN": "==DATING_CHARACTER==告诉你，她最近遇到了一点麻烦。 你耐心地听着==DATING_CHARACTER==娓娓道来。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.613.3",
+          "zh_TW": "了解事情的原委後，你說出了自己的意見，==DATING_CHARACTER==若有所思。",
+          "zh_CN": "了解了事情的原委后，你给出了自己的意见，==DATING_CHARACTER==若有所思。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "614": {
+      "Id": 614,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        6
+      ],
+      "BranchTag": 2,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.614.1",
+      "Desc2": "DatingLandmarkEvent.614.2",
+      "Desc3": "DatingLandmarkEvent.614.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.614.1",
+          "zh_TW": "氣氛逐漸緩和，==DATING_CHARACTER==沒有一開始那麼緊繃了。",
+          "zh_CN": "气氛逐渐缓和，==DATING_CHARACTER==不像一开始那样紧绷了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.614.2",
+          "zh_TW": "==DATING_CHARACTER==告訴你，她最近遇上了一些麻煩。你耐心地聽著==DATING_CHARACTER==娓娓道來。",
+          "zh_CN": "==DATING_CHARACTER==告诉你，她最近遇到了一点麻烦。 你耐心地听着==DATING_CHARACTER==娓娓道来。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.614.3",
+          "zh_TW": "聽著聽著，你提議不如現在多吃一點，才有力氣面對難題。\n==DATING_CHARACTER==有些釋然地笑了。",
+          "zh_CN": "听着听着，你提议，不如现在先多吃点，才有力气面对困难。\n==DATING_CHARACTER==有些释然的笑了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "619": {
+      "Id": 619,
+      "DatingEventType": 9,
+      "DatingEventParams": [
+        6
+      ],
+      "Desc1": "DatingLandmarkEvent.619.1",
+      "Desc2": "DatingLandmarkEvent.619.2",
+      "Desc3": "DatingLandmarkEvent.619.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.619.1",
+          "zh_TW": "為了感謝你今天的招待，==DATING_CHARACTER==提出下次由她請客。",
+          "zh_CN": "为了表示对今天招待的感谢，==DATING_CHARACTER==提出，下次轮到她来请客。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.619.2",
+          "zh_TW": "於是你們興致勃勃地討論起要去哪家餐廳…",
+          "zh_CN": "于是你们兴致勃勃地讨论起，要去哪一家餐厅……",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "620": {
+      "Id": 620,
+      "DatingEventType": 9,
+      "DatingEventParams": [
+        6
+      ],
+      "Desc1": "DatingLandmarkEvent.620.1",
+      "Desc2": "DatingLandmarkEvent.620.2",
+      "Desc3": "DatingLandmarkEvent.620.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.620.1",
+          "zh_TW": "為了感謝你今天的招待，==DATING_CHARACTER==提出等等可以請你再吃一頓。",
+          "zh_CN": "为了表示对今天招待的感谢，==DATING_CHARACTER==提出，待会可以请你再吃一点其他的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.620.2",
+          "zh_TW": "你決定改天再吃，畢竟，今天已經很飽了！",
+          "zh_CN": "你决定留到下次，毕竟，今天已经够饱了！",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "701": {
+      "Id": 701,
+      "DatingEventType": 8,
+      "DatingEventParams": [
+        7
+      ],
+      "Desc1": "DatingLandmarkEvent.701.1",
+      "Desc2": "DatingLandmarkEvent.701.2",
+      "Desc3": "DatingLandmarkEvent.701.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.701.1",
+          "zh_TW": "據說，今天這個市集是近期規模最大的。",
+          "zh_CN": "据说，今天这场集市是近期规模最大的一场。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.701.2",
+          "zh_TW": "你們約在小巷的路口見面，你一眼就看到了==DATING_CHARACTER==的身影。",
+          "zh_CN": "你们约定在小巷的路口见面，你一眼就看到了==DATING_CHARACTER==的身影。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "702": {
+      "Id": 702,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        7
+      ],
+      "BranchTag": 1,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.702.1",
+      "Desc2": "DatingLandmarkEvent.702.2",
+      "Desc3": "DatingLandmarkEvent.702.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.702.1",
+          "zh_TW": "你和==DATING_CHARACTER==淹沒在一片如火如荼的叫賣聲中。",
+          "zh_CN": "你和==DATING_CHARACTER==淹没在一片热火朝天的叫卖声中。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.702.2",
+          "zh_TW": "一位大嗓門的糕點商販靠著叫賣力壓群雄。你們湊了過去，才知道她是賣鳳梨酥的。",
+          "zh_CN": "一位大嗓门的糕点商贩声音力压众人。你们凑了过去，她在卖菠萝酥。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.702.3",
+          "zh_TW": "你們嘗了一塊，發現口感甚佳後便買了一小袋。",
+          "zh_CN": "你们尝了一块，口感甚佳，便买了一小袋。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "703": {
+      "Id": 703,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        7
+      ],
+      "BranchTag": 1,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.703.1",
+      "Desc2": "DatingLandmarkEvent.703.2",
+      "Desc3": "DatingLandmarkEvent.703.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.703.1",
+          "zh_TW": "你和==DATING_CHARACTER==淹沒在一片如火如荼的叫賣聲中。",
+          "zh_CN": "你和==DATING_CHARACTER==淹没在一片热火朝天的叫卖声中。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.703.2",
+          "zh_TW": "你們聞到一股若有似無的甜味。循著氣息找到一個糖餅攤。",
+          "zh_CN": "你们嗅见一股若隐若现的甜味儿。循着气息，你们找到一个糖饼摊。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.703.3",
+          "zh_TW": "發現氣味來自於某種煉乳餅之後，你們馬上買下了一小袋。",
+          "zh_CN": "气味来自于炼乳饼，你们果断买下一小袋。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "704": {
+      "Id": 704,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        7
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Affinity": 15,
+      "Desc1": "DatingLandmarkEvent.704.1",
+      "Desc2": "DatingLandmarkEvent.704.2",
+      "Desc3": "DatingLandmarkEvent.704.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.704.1",
+          "zh_TW": "旁邊的吹笛人在兜售一種可以使愛情永駐的蜜糖，你們好奇地想要一探究竟。",
+          "zh_CN": "旁边的吹笛人在兜售一种可以使爱情永驻的蜜糖，你们好奇地要一探究竟。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.704.2",
+          "zh_TW": "無論從質地上還是價格上來看，它就是稀鬆平常的一罐糖漿。",
+          "zh_CN": "无论是质地上还是价格上，它就是稀松平常的一罐糖浆。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.704.3",
+          "zh_TW": "「買一罐嘗嘗鮮吧。」==DATING_CHARACTER==還是買了下來。",
+          "zh_CN": "“买一罐尝尝鲜呗。”==DATING_CHARACTER==还是买了下来。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "705": {
+      "Id": 705,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        7
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.705.1",
+      "Desc2": "DatingLandmarkEvent.705.2",
+      "Desc3": "DatingLandmarkEvent.705.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.705.1",
+          "zh_TW": "你們走到香料攤位前，強行闖入鼻腔的異邦氣味有著強烈的吸引力。",
+          "zh_CN": "你们走到香料铺子前，强行闯入鼻腔的异邦气味吸引你们上前。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.705.2",
+          "zh_TW": "==DATING_CHARACTER==用雙手揉碎了某種葉子，純粹是為了聞一聞味道。",
+          "zh_CN": "==DATING_CHARACTER==用双手揉碎了某种叶子，纯粹是为了闻一闻味道。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.705.3",
+          "zh_TW": "最後，你們還是買下了一罐酒浸黑醋栗。",
+          "zh_CN": "最终，你们还是买下了一罐酒浸黑醋栗。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "706": {
+      "Id": 706,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        7
+      ],
+      "BranchTag": 1,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.706.1",
+      "Desc2": "DatingLandmarkEvent.706.2",
+      "Desc3": "DatingLandmarkEvent.706.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.706.1",
+          "zh_TW": "你們繼續在市集裡逛著。",
+          "zh_CN": "你们继续在集市里逛着。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.706.2",
+          "zh_TW": "你驚訝地發現，雖然人潮擁擠，但她卻在混亂中穿梭自如，不曾與任何人相撞。",
+          "zh_CN": "你惊讶地发现，虽然人潮拥挤，但她在混乱中穿梭自如，不曾与任何人相撞。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.706.3",
+          "zh_TW": "而你就比較狼狽了，走兩步就要停三秒，手裡的袋子也磕碰個不停。",
+          "zh_CN": "而你就比较狼狈了，需要一路跑跑停停，手里的袋子也刮擦不断。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "707": {
+      "Id": 707,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        7
+      ],
+      "BranchTag": 1,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.707.1",
+      "Desc2": "DatingLandmarkEvent.707.2",
+      "Desc3": "DatingLandmarkEvent.707.3",
+      "Response": "normal2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.707.1",
+          "zh_TW": "你們消費的時候，==DATING_CHARACTER==也會討價還價。",
+          "zh_CN": "在你们消费的时候，==DATING_CHARACTER==也会讨价还价。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.707.2",
+          "zh_TW": "她優雅地跟商人議價，最後賺到一些優惠。",
+          "zh_CN": "她优雅地同商人议价，而后赢到一些优惠。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.707.3",
+          "zh_TW": "她不只在為自己買，也是在為你買。",
+          "zh_CN": "她不光在为自己买，也是在为你买。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "708": {
+      "Id": 708,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        7
+      ],
+      "BranchTag": 2,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.708.1",
+      "Desc2": "DatingLandmarkEvent.708.2",
+      "Desc3": "DatingLandmarkEvent.708.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.708.1",
+          "zh_TW": "各式商品看得你眼花繚亂，其中不乏一些沒看過的神器。\n==DATING_CHARACTER==在一個攤位前停下腳步。",
+          "zh_CN": "各色各样的商品看得你眼花缭乱，其中不乏一些从没见过的神器。\n==DATING_CHARACTER==在一个小摊前停下了脚步。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.708.2",
+          "zh_TW": "攤商見生意上門，熱情地向你們介紹。\n==DATING_CHARACTER==看中了一個小巧的懷錶。\n她將你拉到一旁，小聲地詢問你的意見。",
+          "zh_CN": "摊主一见来了生意，向你们热情介绍。\n==DATING_CHARACTER==看中了一个小巧的怀表。\n她把你拉到一边，小声询问你的意见。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.708.3",
+          "zh_TW": "聽到價格後，你在心裡倒吸了一口氣。\n你告訴==DATING_CHARACTER==，你看過類似的款式——而這裡的價格似乎有些高。\n她十分相信你的判斷。",
+          "zh_CN": "听到价格后，你在内心倒吸了一口冷气。\n你告诉==DATING_CHARACTER==，你见过这样的款式——而这里，或许有些溢价。\n她十分相信你的判断。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "709": {
+      "Id": 709,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        7
+      ],
+      "BranchTag": 2,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.709.1",
+      "Desc2": "DatingLandmarkEvent.709.2",
+      "Desc3": "DatingLandmarkEvent.709.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.709.1",
+          "zh_TW": "各式商品看得你眼花繚亂，其中不乏一些沒看過的神器。\n==DATING_CHARACTER==在一個攤位前停下腳步。",
+          "zh_CN": "各色各样的商品看得你眼花缭乱，其中不乏一些从没见过的神器。\n==DATING_CHARACTER==在一个小摊前停下了脚步。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.709.2",
+          "zh_TW": "攤商見生意上門，熱情地向你們介紹。\n==DATING_CHARACTER==看中了一件漂亮的小首飾。\n她將你拉到一旁，小聲地詢問你的意見。",
+          "zh_CN": "摊主一见来了生意，向你们热情介绍。\n==DATING_CHARACTER==看中了一个漂亮的小首饰。\n她把你拉到一边，小声询问你的意见。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.709.3",
+          "zh_TW": "你沒有猶豫，直接買下來送給她，她非常高興。\n你看得出她的確很喜歡。",
+          "zh_CN": "你并没有犹豫，直接买下送给了她，她非常高兴。\n你看的出来，她确实很喜欢。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "710": {
+      "Id": 710,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        7
+      ],
+      "BranchTag": 2,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.710.1",
+      "Desc2": "DatingLandmarkEvent.710.2",
+      "Desc3": "DatingLandmarkEvent.710.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.710.1",
+          "zh_TW": "==DATING_CHARACTER==被一個香水鋪吸引住了。",
+          "zh_CN": "==DATING_CHARACTER==被一个香氛铺子吸引住了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.710.2",
+          "zh_TW": "這裡有弗拉維奧正流行的香水。商販向==DATING_CHARACTER==耳後噴了一下。",
+          "zh_CN": "这里有弗拉维奥正流行的香水。商贩向==DATING_CHARACTER==耳后喷了一揿。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.710.3",
+          "zh_TW": "她表示這種味道快讓她認不出自己了。",
+          "zh_CN": "她表示这种味道令她认不出自己了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "711": {
+      "Id": 711,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        7
+      ],
+      "BranchTag": 2,
+      "SortTag": 2,
+      "Affinity": 15,
+      "Desc1": "DatingLandmarkEvent.711.1",
+      "Desc2": "DatingLandmarkEvent.711.2",
+      "Desc3": "DatingLandmarkEvent.711.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.711.1",
+          "zh_TW": "你們路過了一家花店，滿溢而出的神秘芬芳吸引著你們進入。",
+          "zh_CN": "你们路过了一家花店，溢出的神秘芬芳吸引着你们进入。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.711.2",
+          "zh_TW": "花香變得越發強烈，在你的腦海裡綻放。你決定買下一束花。",
+          "zh_CN": "花香变得愈发强烈，在你的脑海里绽放。你决定买下一束花。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.711.3",
+          "zh_TW": "「你就像一朵剛開的鮮花。」\n「謝謝你，我很喜歡。」",
+          "zh_CN": "“你就像一朵初开的鲜花。”\n“谢谢你，我很喜欢。”",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "712": {
+      "Id": 712,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        7
+      ],
+      "BranchTag": 2,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.712.1",
+      "Desc2": "DatingLandmarkEvent.712.2",
+      "Desc3": "DatingLandmarkEvent.712.3",
+      "Response": "normal2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.712.1",
+          "zh_TW": "時光飛逝，能逛的店舖都逛過了。\n==DATING_CHARACTER==說還有些東西想要自己看看。",
+          "zh_CN": "时光飞逝，能逛的店铺，似乎都已看了一圈。\n==DATING_CHARACTER==说，还有些想要自己看看的东西。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.712.2",
+          "zh_TW": "於是你們暫時分開行動，腳有些痠的你找了一張長椅坐下休息，沒想到竟然睡著了。",
+          "zh_CN": "于是你们暂时分别，有些腿酸的你，找到了一个长椅歇息下来，没成想居然睡了过去。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.712.3",
+          "zh_TW": "醒來後，你發現==DATING_CHARACTER==正認真地觀察你的睡臉。\n她爽朗地笑著，遞給你剛買的零食。",
+          "zh_CN": "醒来的你发现，==DATING_CHARACTER==认真地观察你的睡颜。\n她爽朗的笑笑，并递给你买来的零食小点。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "713": {
+      "Id": 713,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        7
+      ],
+      "BranchTag": 2,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.713.1",
+      "Desc2": "DatingLandmarkEvent.713.2",
+      "Desc3": "DatingLandmarkEvent.713.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.713.1",
+          "zh_TW": "時光飛逝，能逛的店舖都逛過了。\n==DATING_CHARACTER==說還有些東西想要自己看看。",
+          "zh_CN": "时光飞逝，能逛的店铺，似乎都已看了一圈。\n==DATING_CHARACTER==说，还有些想要自己看看的东西。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.713.2",
+          "zh_TW": "於是你們暫時分開行動，腳有些痠的你找了一張長椅坐下休息。\n沒過多久，她就回到此處，還帶了兩份香味撲鼻的小吃。",
+          "zh_CN": "于是你们暂时分别，有些腿酸的你，找到了一个长椅歇息下来。\n没过多久，她回到了此处，带上了两份香味扑鼻的小吃。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.713.3",
+          "zh_TW": "你們開心地一起享用了街頭美食。",
+          "zh_CN": "你们开心的分享了一顿街头美食。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "724": {
+      "Id": 724,
+      "DatingEventType": 9,
+      "DatingEventParams": [
+        7
+      ],
+      "Desc1": "DatingLandmarkEvent.724.1",
+      "Desc2": "DatingLandmarkEvent.724.2",
+      "Desc3": "DatingLandmarkEvent.724.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.724.1",
+          "zh_TW": "==DATING_CHARACTER==拿出一個包裝精美的禮物。這是她偷偷在市集上買的。",
+          "zh_CN": "==DATING_CHARACTER==拿出了一个包装精美的礼物。这是她偷偷在集市上提前相中的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.724.2",
+          "zh_TW": "==DATING_CHARACTER==顯然有些緊張，而你也拿出自己剛準備好要送她的禮物。",
+          "zh_CN": "==DATING_CHARACTER==显然有些紧张，而你却掏出了自己刚准备好送她的礼物。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.724.3",
+          "zh_TW": "你們為這份默契感到有些不好意思，並開心地交換了禮物。",
+          "zh_CN": "你们为这份默契感到有些不好意思，并开心地交换了礼物。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "725": {
+      "Id": 725,
+      "DatingEventType": 9,
+      "DatingEventParams": [
+        7
+      ],
+      "Desc1": "DatingLandmarkEvent.725.1",
+      "Desc2": "DatingLandmarkEvent.725.2",
+      "Desc3": "DatingLandmarkEvent.725.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.725.1",
+          "zh_TW": "==DATING_CHARACTER==拿出一個包裝精美的禮物。這是她偷偷在市集上買的。",
+          "zh_CN": "==DATING_CHARACTER==拿出了一个包装精美的礼物。这是她偷偷在集市上提前相中的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.725.2",
+          "zh_TW": "你高興地當面拆開這份驚喜，居然是你很久之前曾向她提及的小東西。\n你有些激動地道謝，讓==DATING_CHARACTER==感到不好意思。",
+          "zh_CN": "你高兴地当面拆开了这个惊喜，居然是你好久之前，向她提及过的小玩意儿。\n你有些激动的致谢，让==DATING_CHARACTER==很不好意思。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.725.3",
+          "zh_TW": "你恨不得把整條街都包下來，再陪她多逛一圈——當然，你知道要達到這個目標還得更加努力才行。",
+          "zh_CN": "你恨不得把整条街都承包下来，再陪她多逛上一圈——当然你明白，要达到这个目标，还得付出更多的努力。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "726": {
+      "Id": 726,
+      "DatingEventType": 9,
+      "DatingEventParams": [
+        7
+      ],
+      "Desc1": "DatingLandmarkEvent.726.1",
+      "Desc2": "DatingLandmarkEvent.726.2",
+      "Desc3": "DatingLandmarkEvent.726.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.726.1",
+          "zh_TW": "==DATING_CHARACTER==拿出一個包裝精美的禮物。這是她偷偷在市集上買的。",
+          "zh_CN": "==DATING_CHARACTER==拿出了一个包装精美的礼物。这是她偷偷在集市上提前相中的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.726.2",
+          "zh_TW": "==DATING_CHARACTER==有些神祕地叮囑你回家前不准打開。",
+          "zh_CN": "==DATING_CHARACTER==有些神秘地叮嘱你，到家之前不准打开。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.726.3",
+          "zh_TW": "你遵守約定，決定將這份驚喜保留到最後。",
+          "zh_CN": "你遵守约定，并决定将这份惊喜保留到最后。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "801": {
+      "Id": 801,
+      "DatingEventType": 8,
+      "DatingEventParams": [
+        8
+      ],
+      "Desc1": "DatingLandmarkEvent.801.1",
+      "Desc2": "DatingLandmarkEvent.801.2",
+      "Desc3": "DatingLandmarkEvent.801.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.801.1",
+          "zh_TW": "剛剛靠近港口，你就感受到了那股溫暖而又潮濕的氣息。",
+          "zh_CN": "刚刚靠近港口，你就感受到了那股温暖而又潮湿的气息。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.801.2",
+          "zh_TW": "海浪拍打著防波提，你站在下面向上張望。",
+          "zh_CN": "海浪拍打着防波提，你站在下面向上张望。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.801.3",
+          "zh_TW": "你看見了==DATING_CHARACTER==，她面朝著陽光，背後一片蔚藍，身邊壟罩著一股風平浪靜的安詳氣氛。",
+          "zh_CN": "你看见了==DATING_CHARACTER==，她面朝着阳光，背后一片蔚蓝，一股风平浪静的安详笼罩着她。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "802": {
+      "Id": 802,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        8
+      ],
+      "BranchTag": 1,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.802.1",
+      "Desc2": "DatingLandmarkEvent.802.2",
+      "Desc3": "DatingLandmarkEvent.802.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.802.1",
+          "zh_TW": "你和==DATING_CHARACTER==並肩走在咯吱作響的碼頭上。",
+          "zh_CN": "你和==DATING_CHARACTER==并肩走在咯吱作响的码头上。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.802.2",
+          "zh_TW": "一些船停靠在碼頭裡，隨著海潮搖搖晃晃。",
+          "zh_CN": "一些船停靠在码头里，随着海潮摇摇晃晃。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.802.3",
+          "zh_TW": "你不禁遐想到：如果正巧有機會，自己也會出海嗎？",
+          "zh_CN": "你不禁遐想到：如果机会合适，自己也会出海吗？",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "803": {
+      "Id": 803,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        8
+      ],
+      "BranchTag": 1,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.803.1",
+      "Desc2": "DatingLandmarkEvent.803.2",
+      "Desc3": "DatingLandmarkEvent.803.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.803.1",
+          "zh_TW": "你和==DATING_CHARACTER==並肩走在咯吱作響的碼頭上。",
+          "zh_CN": "你和==DATING_CHARACTER==并肩走在咯吱作响的码头上。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.803.2",
+          "zh_TW": "一艘高大的船正在入港，一些縴夫拖著已經收帆的船緩緩前行。",
+          "zh_CN": "一艘高大的船正在入港，一些纤夫拖着收了帆的船缓缓前行。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.803.3",
+          "zh_TW": "船舷上的水手緊盯著船與板樁之間的距離，時不時大聲呼喊。",
+          "zh_CN": "船舷上的水手紧盯着船与板桩之间的距离，时不时大声呼喊。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "804": {
+      "Id": 804,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        8
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.804.1",
+      "Desc2": "DatingLandmarkEvent.804.2",
+      "Desc3": "DatingLandmarkEvent.804.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.804.1",
+          "zh_TW": "一些小販在碼頭上叫賣新鮮的漁獲，你們湊過去看看有什麼。",
+          "zh_CN": "一些小贩在码头上叫卖新鲜的渔获，你们凑过去看看有什么。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.804.2",
+          "zh_TW": "這些剛剛捕撈上來的海產確實新鮮，但你們不方便對其進行處理。",
+          "zh_CN": "这些刚刚捕捞上来的海产确实新鲜，但你们并不方便处理这些海鲜。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.804.3",
+          "zh_TW": "幸運的是，這裡也有生蚝。你們買下了幾個，用小刀撬開後再擠了點酸橙汁。你們邊走邊分享了這一美味。",
+          "zh_CN": "幸运的是，这里也有生蚝。你们买下了几个，用小刀撬开后再挤些酸橙汁。你们边走边分享了这一美味。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "805": {
+      "Id": 805,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        8
+      ],
+      "BranchTag": 1,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.805.1",
+      "Desc2": "DatingLandmarkEvent.805.2",
+      "Desc3": "DatingLandmarkEvent.805.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.805.1",
+          "zh_TW": "一艘商船正在卸貨，商人熱情地邀請你們看看他零售的優質貨物。",
+          "zh_CN": "一艘商船正在卸货，商人热情地邀请你们看看他零售的好货。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.805.2",
+          "zh_TW": "這裡有各式各樣的香料，還有樣式繁多的綢緞，但你們對這些並不感興趣。",
+          "zh_CN": "这里有各种类型的香料，还有样式繁多的绸子，但你们对这些并不感兴趣。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.805.3",
+          "zh_TW": "==DATING_CHARACTER==發現了幾袋糖果。你嘗了一顆，嚼起來軟軟的，市面上這種類型不多。最後你們一人買了一袋。",
+          "zh_CN": "==DATING_CHARACTER==发现了几袋糖果。你尝了一颗，嚼起来软软的，是少见的类型。最终你们一人买了一袋。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "806": {
+      "Id": 806,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        8
+      ],
+      "BranchTag": 1,
+      "SortTag": 3,
+      "Affinity": 15,
+      "Desc1": "DatingLandmarkEvent.806.1",
+      "Desc2": "DatingLandmarkEvent.806.2",
+      "Desc3": "DatingLandmarkEvent.806.3",
+      "Response": "shy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.806.1",
+          "zh_TW": "你們走得有些累了，便坐下稍作歇息。恰逢日落，太陽一點點落入海面。",
+          "zh_CN": "你们走得有些累了，便坐下来歇息。恰逢日落，太阳一点点落入海面。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.806.2",
+          "zh_TW": "海水看似要沸騰起來，整個世界一片金黃。霞光灑在她的臉龐上，晚風拂動她的衣裳。伴隨著陣陣潮水，你感到自己的幸福指數正在快速上升。",
+          "zh_CN": "海水似乎要沸腾起来，整个世界一片金黄。霞光洒在她的脸庞上，晚风拂动她的衣裳。伴随阵阵潮水，你感到自己的幸福指数正快速上升。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.806.3",
+          "zh_TW": "你和==DATING_CHARACTER==就這麼坐著，直至夜晚來臨，零星的漁燈在海中亮起。",
+          "zh_CN": "你和==DATING_CHARACTER==就这么坐着，直至夜晚来临，零星的渔灯在海中亮起。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "807": {
+      "Id": 807,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        8
+      ],
+      "BranchTag": 1,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.807.1",
+      "Desc2": "DatingLandmarkEvent.807.2",
+      "Desc3": "DatingLandmarkEvent.807.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.807.1",
+          "zh_TW": "一艘大船正要離港，甲板上有些人影正在活動。",
+          "zh_CN": "一艘大船正要离港，你们能看见甲板上活动的人影。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.807.2",
+          "zh_TW": "大船收回纜繩，升起主帆。它展開的巨大三角帆，在陽光照射下如同銀白色的火炬。",
+          "zh_CN": "大船收卷揽绳，升起主帆。它展开巨大的三角帆，在阳光照射下如同白花花的火炬。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.807.3",
+          "zh_TW": "你和==DATING_CHARACTER==靜靜地站在板樁碼頭上，看著大船慢慢離開。",
+          "zh_CN": "你和==DATING_CHARACTER==静静地站在板桩码头上，看着大船慢慢离开。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "808": {
+      "Id": 808,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        8
+      ],
+      "BranchTag": 2,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.808.1",
+      "Desc2": "DatingLandmarkEvent.808.2",
+      "Desc3": "DatingLandmarkEvent.808.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.808.1",
+          "zh_TW": "港口裡停泊著一艘展覽船，或者說船型博物館，裡面應該有一些有意思的展覽品吧。",
+          "zh_CN": "港口里停泊着一艘展览船，其实就是船型博物馆，里面应该会陈列有意思的东西吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.808.2",
+          "zh_TW": "你們戰戰兢兢地走上登船用的跳板。這塊狹窄的木板在潮水的推擠中上下晃動，感覺隨時可能掉進海裡！",
+          "zh_CN": "你们颤颤巍巍地从艞板上登船。这块窄木板在潮水的推挤中上下晃动，感觉随时可能跌到海里！",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.808.3",
+          "zh_TW": "你和==DATING_CHARACTER==緊緊抓住彼此，有驚無險地走上了船。",
+          "zh_CN": "你和==DATING_CHARACTER==紧紧抓住对方，有惊无险地走上船。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "809": {
+      "Id": 809,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        8
+      ],
+      "DatingEventExclude": [
+        140
+      ],
+      "BranchTag": 2,
+      "SortTag": 1,
+      "Desc1": "DatingLandmarkEvent.809.1",
+      "Desc2": "DatingLandmarkEvent.809.2",
+      "Desc3": "DatingLandmarkEvent.809.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.809.1",
+          "zh_TW": "港口裡停泊著一艘展覽船，或者說船型博物館，裡面應該有一些有意思的展覽品吧。",
+          "zh_CN": "港口里停泊着一艘展览船，其实就是船型博物馆，里面应该会陈列有意思的东西吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.809.2",
+          "zh_TW": "你們藉由船側的攀爬網登船。你感到有些吃力，尤其是這種直接對抗重力的活動。你不禁在想：是不是自己在星塔裡躺了太久，以至於運動能力都萎縮了呢？",
+          "zh_CN": "你们从船侧的攀爬网上登船。你感到有些吃力，尤其是这种直接对抗重力的活动。你不禁在想：是不是自己在星塔里躺了太久，以至于运动能力都萎缩了呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.809.3",
+          "zh_TW": "還好身為旅人的==DATING_CHARACTER==已經先登上甲板，靠著她的硬拉，你才終於登船。你們坐在甲板上氣喘吁吁，看來真的得多鍛鍊了。",
+          "zh_CN": "还好身为旅人的==DATING_CHARACTER==已经率先登上甲板，最后她把你硬拉了上来。你们坐在甲板上喘气，看来真要多锻炼了。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "810": {
+      "Id": 810,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        8
+      ],
+      "BranchTag": 2,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.810.1",
+      "Desc2": "DatingLandmarkEvent.810.2",
+      "Desc3": "DatingLandmarkEvent.810.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.810.1",
+          "zh_TW": "一間艙室裡展覽著巨大的海圖。但你實在看不懂上面的各種符號，於是你把目光從海洋轉移到陸地，盯著位於各處的城邦陷入沉思。",
+          "zh_CN": "一间舱室里展览着巨大的海图。但你着实看不懂上面的各种符号，于是你把目光从海洋挪向陆地，观摩着各个城邦的位置。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.810.2",
+          "zh_TW": "「魔王在研究『協議』的商業擴張版圖嗎？」==DATING_CHARACTER==站到你身旁，和你一起打量這個尚在襁褓之中的寡頭商業帝國。",
+          "zh_CN": "“魔王在研究「协议」的商业扩张版图吗？”==DATING_CHARACTER==站到你身旁，和你一起打量这个尚在襁褓中的寡头商业帝国。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.810.3",
+          "zh_TW": "作為一個新興的、在靈魂領域深耕的一條龍企業，一定要挖掘用戶痛點，對齊各界需求，實現研發與生產的閉環…\n停停停！不要讓這些概念打攪你和==DATING_CHARACTER==的美好時光。",
+          "zh_CN": "作为一个新兴的，在灵魂领域深耕的垂类企业，一定要挖掘用户痛点，对齐各部需求，实现产研闭环……\n就此打住！不要让这些概念打搅你和==DATING_CHARACTER==的美好时光。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "811": {
+      "Id": 811,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        8
+      ],
+      "BranchTag": 2,
+      "SortTag": 2,
+      "Desc1": "DatingLandmarkEvent.811.1",
+      "Desc2": "DatingLandmarkEvent.811.2",
+      "Desc3": "DatingLandmarkEvent.811.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.811.1",
+          "zh_TW": "一間艙室裡展覽著許多做工精致的逼真模型船。要不是被玻璃櫃隔著，你真想拿在手裡細細觀賞。",
+          "zh_CN": "一间舱室里展览着许多仿真船模型，做工精致。要不是被玻璃柜隔着，真想端在手里细细观赏。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.811.2",
+          "zh_TW": "「你看你看，這艘船造型好怪哦。」==DATING_CHARACTER==指著展櫃裡的長船說道。",
+          "zh_CN": "“你看你看，造型好怪的船喔。”==DATING_CHARACTER==指着展柜里的长船说道。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.811.3",
+          "zh_TW": "你想起曾在星塔裡見過的那些更加奇特的船隻，下次也許可以靠許願弄個小模型出來？",
+          "zh_CN": "你想起曾在星塔里见过一些更加奇特的船只，下次能不能许愿个小模型出来呢？",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "812": {
+      "Id": 812,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        8
+      ],
+      "BranchTag": 2,
+      "SortTag": 3,
+      "Desc1": "DatingLandmarkEvent.812.1",
+      "Desc2": "DatingLandmarkEvent.812.2",
+      "Desc3": "DatingLandmarkEvent.812.3",
+      "Response": "think",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.812.1",
+          "zh_TW": "船員餐廳裡可以體驗水手餐，你和==DATING_CHARACTER==決定見識一番。",
+          "zh_CN": "船员餐厅里有海员餐体验，你和==DATING_CHARACTER==决定体验一番。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.812.2",
+          "zh_TW": "服務員為你們端上一盤硬餅乾與鹹肉，並解釋道：「在沉寂海之外航行時，由於缺乏港口補給，水手們在航程後期只能吃到這種食物。」",
+          "zh_CN": "服务员为你们端上一份硬饼干与咸肉的组合，并解释道：“在沉寂海之外的航船，由于缺乏港口补给，海员们在后期只能吃到这种食物。”",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.812.3",
+          "zh_TW": "難以咀嚼！你感覺硬餅乾在毆打你的牙齒，而鹹肉更是使其成為了一場圍毆。它們還使出了會令你口乾舌燥的合體技，逼著你急忙喝水潤喉。\n這頓餐食的還原度也太高，還好費用已被包含進門票中了。",
+          "zh_CN": "难以咀嚼！硬饼干在殴打你的牙齿，而咸肉使其成为一场围殴。它们的组合技还令你口干舌燥，你急忙喝水缓解。\n这顿餐食确实很硬核，还好其费用已被包括进门票中。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "813": {
+      "Id": 813,
+      "DatingEventType": 3,
+      "DatingEventParams": [
+        8
+      ],
+      "BranchTag": 2,
+      "SortTag": 3,
+      "Affinity": 15,
+      "Desc1": "DatingLandmarkEvent.813.1",
+      "Desc2": "DatingLandmarkEvent.813.2",
+      "Desc3": "DatingLandmarkEvent.813.3",
+      "Response": "happy",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.813.1",
+          "zh_TW": "船員餐廳裡可以體驗水手餐，你和==DATING_CHARACTER==決定見識一番。",
+          "zh_CN": "船员餐厅里有海员餐体验，你和==DATING_CHARACTER==决定体验一番。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.813.2",
+          "zh_TW": "「恭喜，二位是本週的幸運顧客，請盡情品嘗提督才能享用的餐點吧。」服務生為你們端上一盤豐盛的餐點。",
+          "zh_CN": "“恭喜，二位是本周的幸运顾客，请尽情享用提督待遇的餐点吧。”服务员为你们端上满满一盘。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.813.3",
+          "zh_TW": "鮮魚、火腿、青豆，還有麵包與乾酪，再配上酸橙與加了糖的茶。你和==DATING_CHARACTER==大快朵頤了一頓。",
+          "zh_CN": "鲜鱼、火腿、青豆，还有面包与干酪，再配上酸橙与加糖茶。你和==DATING_CHARACTER==大快朵颐。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "818": {
+      "Id": 818,
+      "DatingEventType": 9,
+      "DatingEventParams": [
+        8
+      ],
+      "Desc1": "DatingLandmarkEvent.818.1",
+      "Desc2": "DatingLandmarkEvent.818.2",
+      "Desc3": "DatingLandmarkEvent.818.3",
+      "Response": "normal",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.818.1",
+          "zh_TW": "你們來到一家港口外圍的高級食品店，想知道裡面有沒有什麼高品質的海貨。",
+          "zh_CN": "你们走进了一家港口外围的特选店，看看里面有没有什么海边好货。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.818.2",
+          "zh_TW": "剛進入店裡，海貨的鹹香就湧入了你的鼻腔。\n你們買了些小魚乾當零食吃。",
+          "zh_CN": "刚进入店里，海货的咸香就涌入了你的鼻腔。\n你们买了些小鱼干当零食吃。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.818.3",
+          "zh_TW": "這裡不宜久待，海貨的氣息會滲進衣服與頭髮。",
+          "zh_CN": "可不能在这里呆久了，海货的气息会渗进衣服与头发的。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    },
+    "819": {
+      "Id": 819,
+      "DatingEventType": 9,
+      "DatingEventParams": [
+        8
+      ],
+      "Desc1": "DatingLandmarkEvent.819.1",
+      "Desc2": "DatingLandmarkEvent.819.2",
+      "Desc3": "DatingLandmarkEvent.819.3",
+      "Response": "happy2",
+      "_localized": {
+        "/Desc1": {
+          "key": "DatingLandmarkEvent.819.1",
+          "zh_TW": "你們漫步在防波提上，==DATING_CHARACTER==走在你前面，稍稍張開手臂。",
+          "zh_CN": "你们漫步在防波提上，==DATING_CHARACTER==走在你前面，稍稍张起手臂。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc2": {
+          "key": "DatingLandmarkEvent.819.2",
+          "zh_TW": "她一搖一擺地向前漫步。樹梢被風吹得沙沙作響。她轉過來，微微俯下身體。",
+          "zh_CN": "她一摇一摆的向前走着。树梢被风吹得沙沙作响。她转过来，微微俯下身子。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        },
+        "/Desc3": {
+          "key": "DatingLandmarkEvent.819.3",
+          "zh_TW": "「我今天過得很開心。」昏暗的天光讓你無法看清她的表情，但那想必是一張笑容吧。",
+          "zh_CN": "“今天过得很开心。”昏暗的天光下，你并不能看清她的表情，但想必一定在笑吧。",
+          "sources": {
+            "zh_TW": "language/zh_TW/DatingLandmarkEvent.json",
+            "zh_CN": "language/zh_CN/DatingLandmarkEvent.json"
+          }
+        }
+      }
+    }
+  }
+}

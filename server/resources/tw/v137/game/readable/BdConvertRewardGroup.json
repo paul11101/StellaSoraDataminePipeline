@@ -1,0 +1,2392 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "BdConvertRewardGroup",
+    "categories": [
+      "items_rewards",
+      "shop_economy"
+    ],
+    "row_count": 108,
+    "localization_hits": 108,
+    "source": "bin/BdConvertRewardGroup.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "101": {
+      "Id": 101,
+      "GroupId": 1,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        200
+      ],
+      "Rewards": "{\"503\":1}",
+      "Des": "BdConvertRewardGroup.101.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.101.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "102": {
+      "Id": 102,
+      "GroupId": 1,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        400
+      ],
+      "Rewards": "{\"30004\":50}",
+      "Des": "BdConvertRewardGroup.102.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.102.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "103": {
+      "Id": 103,
+      "GroupId": 1,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        600
+      ],
+      "Rewards": "{\"50004\":50}",
+      "Des": "BdConvertRewardGroup.103.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.103.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "104": {
+      "Id": 104,
+      "GroupId": 1,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        800
+      ],
+      "Rewards": "{\"503\":1}",
+      "Des": "BdConvertRewardGroup.104.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.104.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "105": {
+      "Id": 105,
+      "GroupId": 1,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1000
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.105.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.105.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "106": {
+      "Id": 106,
+      "GroupId": 1,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1200
+      ],
+      "Rewards": "{\"82004\":60}",
+      "Des": "BdConvertRewardGroup.106.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.106.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "107": {
+      "Id": 107,
+      "GroupId": 1,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1400
+      ],
+      "Rewards": "{\"503\":1}",
+      "Des": "BdConvertRewardGroup.107.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.107.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "108": {
+      "Id": 108,
+      "GroupId": 1,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1600
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.108.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.108.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "109": {
+      "Id": 109,
+      "GroupId": 1,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1800
+      ],
+      "Rewards": "{\"82004\":60}",
+      "Des": "BdConvertRewardGroup.109.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.109.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "110": {
+      "Id": 110,
+      "GroupId": 1,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2000
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.110.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.110.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "111": {
+      "Id": 111,
+      "GroupId": 1,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2200
+      ],
+      "Rewards": "{\"71006\":1}",
+      "Des": "BdConvertRewardGroup.111.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.111.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "112": {
+      "Id": 112,
+      "GroupId": 1,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2400
+      ],
+      "Rewards": "{\"72006\":1}",
+      "Des": "BdConvertRewardGroup.112.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.112.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "201": {
+      "Id": 201,
+      "GroupId": 2,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        200
+      ],
+      "Rewards": "{\"1\":600000}",
+      "Des": "BdConvertRewardGroup.201.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.201.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "202": {
+      "Id": 202,
+      "GroupId": 2,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        400
+      ],
+      "Rewards": "{\"30004\":50}",
+      "Des": "BdConvertRewardGroup.202.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.202.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "203": {
+      "Id": 203,
+      "GroupId": 2,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        600
+      ],
+      "Rewards": "{\"50004\":50}",
+      "Des": "BdConvertRewardGroup.203.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.203.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "204": {
+      "Id": 204,
+      "GroupId": 2,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        800
+      ],
+      "Rewards": "{\"1\":600000}",
+      "Des": "BdConvertRewardGroup.204.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.204.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "205": {
+      "Id": 205,
+      "GroupId": 2,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1000
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.205.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.205.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "206": {
+      "Id": 206,
+      "GroupId": 2,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1200
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.206.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.206.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "207": {
+      "Id": 207,
+      "GroupId": 2,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1400
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.207.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.207.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "208": {
+      "Id": 208,
+      "GroupId": 2,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1600
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.208.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.208.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "209": {
+      "Id": 209,
+      "GroupId": 2,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1800
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.209.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.209.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "210": {
+      "Id": 210,
+      "GroupId": 2,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2000
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.210.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.210.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "211": {
+      "Id": 211,
+      "GroupId": 2,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2200
+      ],
+      "Rewards": "{\"71010\":1}",
+      "Des": "BdConvertRewardGroup.211.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.211.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "212": {
+      "Id": 212,
+      "GroupId": 2,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2400
+      ],
+      "Rewards": "{\"72010\":1}",
+      "Des": "BdConvertRewardGroup.212.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.212.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "301": {
+      "Id": 301,
+      "GroupId": 3,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        200
+      ],
+      "Rewards": "{\"1\":750000}",
+      "Des": "BdConvertRewardGroup.301.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.301.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "302": {
+      "Id": 302,
+      "GroupId": 3,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        400
+      ],
+      "Rewards": "{\"30004\":50}",
+      "Des": "BdConvertRewardGroup.302.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.302.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "303": {
+      "Id": 303,
+      "GroupId": 3,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        600
+      ],
+      "Rewards": "{\"50004\":80}",
+      "Des": "BdConvertRewardGroup.303.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.303.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "304": {
+      "Id": 304,
+      "GroupId": 3,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        800
+      ],
+      "Rewards": "{\"1\":800000}",
+      "Des": "BdConvertRewardGroup.304.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.304.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "305": {
+      "Id": 305,
+      "GroupId": 3,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1000
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.305.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.305.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "306": {
+      "Id": 306,
+      "GroupId": 3,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1200
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.306.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.306.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "307": {
+      "Id": 307,
+      "GroupId": 3,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1400
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.307.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.307.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "308": {
+      "Id": 308,
+      "GroupId": 3,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1600
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.308.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.308.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "309": {
+      "Id": 309,
+      "GroupId": 3,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1800
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.309.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.309.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "310": {
+      "Id": 310,
+      "GroupId": 3,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2000
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.310.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.310.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "311": {
+      "Id": 311,
+      "GroupId": 3,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2200
+      ],
+      "Rewards": "{\"71008\":1}",
+      "Des": "BdConvertRewardGroup.311.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.311.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "312": {
+      "Id": 312,
+      "GroupId": 3,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2400
+      ],
+      "Rewards": "{\"72008\":1}",
+      "Des": "BdConvertRewardGroup.312.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.312.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "401": {
+      "Id": 401,
+      "GroupId": 4,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        200
+      ],
+      "Rewards": "{\"1\":750000}",
+      "Des": "BdConvertRewardGroup.401.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.401.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "402": {
+      "Id": 402,
+      "GroupId": 4,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        400
+      ],
+      "Rewards": "{\"30004\":50}",
+      "Des": "BdConvertRewardGroup.402.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.402.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "403": {
+      "Id": 403,
+      "GroupId": 4,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        600
+      ],
+      "Rewards": "{\"50004\":80}",
+      "Des": "BdConvertRewardGroup.403.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.403.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "404": {
+      "Id": 404,
+      "GroupId": 4,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        800
+      ],
+      "Rewards": "{\"1\":800000}",
+      "Des": "BdConvertRewardGroup.404.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.404.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "405": {
+      "Id": 405,
+      "GroupId": 4,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1000
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.405.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.405.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "406": {
+      "Id": 406,
+      "GroupId": 4,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1200
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.406.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.406.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "407": {
+      "Id": 407,
+      "GroupId": 4,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1400
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.407.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.407.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "408": {
+      "Id": 408,
+      "GroupId": 4,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1600
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.408.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.408.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "409": {
+      "Id": 409,
+      "GroupId": 4,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1800
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.409.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.409.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "410": {
+      "Id": 410,
+      "GroupId": 4,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2000
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.410.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.410.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "411": {
+      "Id": 411,
+      "GroupId": 4,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2200
+      ],
+      "Rewards": "{\"71009\":1}",
+      "Des": "BdConvertRewardGroup.411.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.411.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "412": {
+      "Id": 412,
+      "GroupId": 4,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2400
+      ],
+      "Rewards": "{\"72009\":1}",
+      "Des": "BdConvertRewardGroup.412.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.412.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "501": {
+      "Id": 501,
+      "GroupId": 5,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        200
+      ],
+      "Rewards": "{\"1\":750000}",
+      "Des": "BdConvertRewardGroup.501.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.501.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "502": {
+      "Id": 502,
+      "GroupId": 5,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        400
+      ],
+      "Rewards": "{\"30004\":50}",
+      "Des": "BdConvertRewardGroup.502.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.502.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "503": {
+      "Id": 503,
+      "GroupId": 5,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        600
+      ],
+      "Rewards": "{\"50004\":80}",
+      "Des": "BdConvertRewardGroup.503.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.503.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "504": {
+      "Id": 504,
+      "GroupId": 5,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        800
+      ],
+      "Rewards": "{\"1\":800000}",
+      "Des": "BdConvertRewardGroup.504.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.504.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "505": {
+      "Id": 505,
+      "GroupId": 5,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1000
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.505.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.505.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "506": {
+      "Id": 506,
+      "GroupId": 5,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1200
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.506.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.506.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "507": {
+      "Id": 507,
+      "GroupId": 5,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1400
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.507.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.507.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "508": {
+      "Id": 508,
+      "GroupId": 5,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1600
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.508.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.508.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "509": {
+      "Id": 509,
+      "GroupId": 5,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1800
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.509.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.509.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "510": {
+      "Id": 510,
+      "GroupId": 5,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2000
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.510.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.510.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "511": {
+      "Id": 511,
+      "GroupId": 5,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2200
+      ],
+      "Rewards": "{\"71014\":1}",
+      "Des": "BdConvertRewardGroup.511.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.511.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "512": {
+      "Id": 512,
+      "GroupId": 5,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2400
+      ],
+      "Rewards": "{\"72014\":1}",
+      "Des": "BdConvertRewardGroup.512.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.512.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "601": {
+      "Id": 601,
+      "GroupId": 6,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        200
+      ],
+      "Rewards": "{\"1\":750000}",
+      "Des": "BdConvertRewardGroup.601.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.601.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "602": {
+      "Id": 602,
+      "GroupId": 6,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        400
+      ],
+      "Rewards": "{\"30004\":50}",
+      "Des": "BdConvertRewardGroup.602.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.602.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "603": {
+      "Id": 603,
+      "GroupId": 6,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        600
+      ],
+      "Rewards": "{\"50004\":80}",
+      "Des": "BdConvertRewardGroup.603.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.603.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "604": {
+      "Id": 604,
+      "GroupId": 6,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        800
+      ],
+      "Rewards": "{\"1\":800000}",
+      "Des": "BdConvertRewardGroup.604.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.604.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "605": {
+      "Id": 605,
+      "GroupId": 6,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1000
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.605.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.605.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "606": {
+      "Id": 606,
+      "GroupId": 6,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1200
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.606.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.606.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "607": {
+      "Id": 607,
+      "GroupId": 6,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1400
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.607.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.607.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "608": {
+      "Id": 608,
+      "GroupId": 6,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1600
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.608.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.608.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "609": {
+      "Id": 609,
+      "GroupId": 6,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1800
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.609.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.609.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "610": {
+      "Id": 610,
+      "GroupId": 6,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2000
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.610.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.610.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "611": {
+      "Id": 611,
+      "GroupId": 6,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2200
+      ],
+      "Rewards": "{\"71015\":1}",
+      "Des": "BdConvertRewardGroup.611.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.611.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "612": {
+      "Id": 612,
+      "GroupId": 6,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2400
+      ],
+      "Rewards": "{\"72015\":1}",
+      "Des": "BdConvertRewardGroup.612.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.612.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "701": {
+      "Id": 701,
+      "GroupId": 7,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        200
+      ],
+      "Rewards": "{\"1\":750000}",
+      "Des": "BdConvertRewardGroup.701.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.701.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "702": {
+      "Id": 702,
+      "GroupId": 7,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        400
+      ],
+      "Rewards": "{\"30004\":50}",
+      "Des": "BdConvertRewardGroup.702.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.702.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "703": {
+      "Id": 703,
+      "GroupId": 7,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        600
+      ],
+      "Rewards": "{\"50004\":80}",
+      "Des": "BdConvertRewardGroup.703.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.703.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "704": {
+      "Id": 704,
+      "GroupId": 7,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        800
+      ],
+      "Rewards": "{\"1\":800000}",
+      "Des": "BdConvertRewardGroup.704.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.704.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "705": {
+      "Id": 705,
+      "GroupId": 7,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1000
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.705.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.705.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "706": {
+      "Id": 706,
+      "GroupId": 7,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1200
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.706.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.706.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "707": {
+      "Id": 707,
+      "GroupId": 7,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1400
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.707.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.707.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "708": {
+      "Id": 708,
+      "GroupId": 7,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1600
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.708.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.708.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "709": {
+      "Id": 709,
+      "GroupId": 7,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1800
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.709.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.709.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "710": {
+      "Id": 710,
+      "GroupId": 7,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2000
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.710.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.710.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "711": {
+      "Id": 711,
+      "GroupId": 7,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2200
+      ],
+      "Rewards": "{\"71016\":1}",
+      "Des": "BdConvertRewardGroup.711.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.711.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "712": {
+      "Id": 712,
+      "GroupId": 7,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2400
+      ],
+      "Rewards": "{\"72016\":1}",
+      "Des": "BdConvertRewardGroup.712.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.712.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "801": {
+      "Id": 801,
+      "GroupId": 8,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        200
+      ],
+      "Rewards": "{\"1\":750000}",
+      "Des": "BdConvertRewardGroup.801.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.801.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "802": {
+      "Id": 802,
+      "GroupId": 8,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        400
+      ],
+      "Rewards": "{\"30004\":50}",
+      "Des": "BdConvertRewardGroup.802.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.802.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "803": {
+      "Id": 803,
+      "GroupId": 8,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        600
+      ],
+      "Rewards": "{\"50004\":80}",
+      "Des": "BdConvertRewardGroup.803.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.803.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "804": {
+      "Id": 804,
+      "GroupId": 8,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        800
+      ],
+      "Rewards": "{\"1\":800000}",
+      "Des": "BdConvertRewardGroup.804.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.804.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "805": {
+      "Id": 805,
+      "GroupId": 8,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1000
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.805.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.805.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "806": {
+      "Id": 806,
+      "GroupId": 8,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1200
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.806.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.806.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "807": {
+      "Id": 807,
+      "GroupId": 8,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1400
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.807.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.807.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "808": {
+      "Id": 808,
+      "GroupId": 8,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1600
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.808.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.808.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "809": {
+      "Id": 809,
+      "GroupId": 8,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1800
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.809.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.809.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "810": {
+      "Id": 810,
+      "GroupId": 8,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2000
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.810.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.810.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "811": {
+      "Id": 811,
+      "GroupId": 8,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2200
+      ],
+      "Rewards": "{\"71018\":1}",
+      "Des": "BdConvertRewardGroup.811.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.811.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "812": {
+      "Id": 812,
+      "GroupId": 8,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2400
+      ],
+      "Rewards": "{\"72018\":1}",
+      "Des": "BdConvertRewardGroup.812.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.812.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "901": {
+      "Id": 901,
+      "GroupId": 9,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        200
+      ],
+      "Rewards": "{\"1\":750000}",
+      "Des": "BdConvertRewardGroup.901.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.901.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "902": {
+      "Id": 902,
+      "GroupId": 9,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        400
+      ],
+      "Rewards": "{\"30004\":50}",
+      "Des": "BdConvertRewardGroup.902.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.902.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "903": {
+      "Id": 903,
+      "GroupId": 9,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        600
+      ],
+      "Rewards": "{\"50004\":80}",
+      "Des": "BdConvertRewardGroup.903.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.903.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "904": {
+      "Id": 904,
+      "GroupId": 9,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        800
+      ],
+      "Rewards": "{\"1\":800000}",
+      "Des": "BdConvertRewardGroup.904.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.904.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "905": {
+      "Id": 905,
+      "GroupId": 9,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1000
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.905.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.905.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "906": {
+      "Id": 906,
+      "GroupId": 9,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1200
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.906.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.906.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "907": {
+      "Id": 907,
+      "GroupId": 9,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1400
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.907.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.907.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "908": {
+      "Id": 908,
+      "GroupId": 9,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1600
+      ],
+      "Rewards": "{\"82001\":60}",
+      "Des": "BdConvertRewardGroup.908.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.908.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1600攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1600攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "909": {
+      "Id": 909,
+      "GroupId": 9,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        1800
+      ],
+      "Rewards": "{\"82004\":90}",
+      "Des": "BdConvertRewardGroup.909.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.909.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積1800攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计1800攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "910": {
+      "Id": 910,
+      "GroupId": 9,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2000
+      ],
+      "Rewards": "{\"503\":2}",
+      "Des": "BdConvertRewardGroup.910.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.910.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2000攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2000攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "911": {
+      "Id": 911,
+      "GroupId": 9,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2200
+      ],
+      "Rewards": "{\"71019\":1}",
+      "Des": "BdConvertRewardGroup.911.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.911.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2200攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2200攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    },
+    "912": {
+      "Id": 912,
+      "GroupId": 9,
+      "CompleteCond": 48,
+      "CompleteCondParams": [
+        73201,
+        2400
+      ],
+      "Rewards": "{\"72019\":1}",
+      "Des": "BdConvertRewardGroup.912.1",
+      "_localized": {
+        "/Des": {
+          "key": "BdConvertRewardGroup.912.1",
+          "zh_TW": "在[攻略紀錄大徵集]中累積2400攻略積分",
+          "zh_CN": "在「攻略纪录大征集」中累计2400攻略积分",
+          "sources": {
+            "zh_TW": "language/zh_TW/BdConvertRewardGroup.json",
+            "zh_CN": "language/zh_CN/BdConvertRewardGroup.json"
+          }
+        }
+      }
+    }
+  }
+}

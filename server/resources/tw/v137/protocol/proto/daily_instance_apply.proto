@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message DailyInstanceApplyReq {
+  uint32 Id = 1;
+  uint32 RewardType = 2;
+  uint64 BuildId = 15;
+  bytes NextPackage = 2047;
+}

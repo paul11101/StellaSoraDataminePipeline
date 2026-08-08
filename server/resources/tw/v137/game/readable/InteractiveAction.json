@@ -1,0 +1,231 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "table": "InteractiveAction",
+    "categories": [
+      "world_npc"
+    ],
+    "row_count": 8,
+    "localization_hits": 16,
+    "source": "bin/InteractiveAction.json",
+    "note": "原字段和值不变；_localized 用 JSON Pointer 标注本地繁中/简中译文。"
+  },
+  "data": {
+    "0": {
+      "Icon0": "Icon/ZZZOther/interact_btn_hand",
+      "Title0": "InteractiveAction.0.1",
+      "Icon1": "Icon/ZZZOther/interact_btn_hand",
+      "Title1": "InteractiveAction.0.2",
+      "_localized": {
+        "/Title0": {
+          "key": "InteractiveAction.0.1",
+          "zh_TW": "打開",
+          "zh_CN": "打开",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        },
+        "/Title1": {
+          "key": "InteractiveAction.0.2",
+          "zh_TW": "關閉",
+          "zh_CN": "关闭",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        }
+      }
+    },
+    "10000": {
+      "Id": 10000,
+      "PlayerAni": true,
+      "Icon0": "Icon/ZZZOther/interact_btn_hand",
+      "Title0": "InteractiveAction.10000.1",
+      "Icon1": "Icon/ZZZOther/interact_btn_hand",
+      "Title1": "InteractiveAction.10000.2",
+      "_localized": {
+        "/Title0": {
+          "key": "InteractiveAction.10000.1",
+          "zh_TW": "打開",
+          "zh_CN": "打开",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        },
+        "/Title1": {
+          "key": "InteractiveAction.10000.2",
+          "zh_TW": "打開",
+          "zh_CN": "打开",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        }
+      }
+    },
+    "10001": {
+      "Id": 10001,
+      "Icon0": "Icon/ZZZOther/interact_btn_hand",
+      "Title0": "InteractiveAction.10001.1",
+      "Icon1": "Icon/ZZZOther/interact_btn_hand",
+      "Title1": "InteractiveAction.10001.2",
+      "_localized": {
+        "/Title0": {
+          "key": "InteractiveAction.10001.1",
+          "zh_TW": "打開",
+          "zh_CN": "打开",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        },
+        "/Title1": {
+          "key": "InteractiveAction.10001.2",
+          "zh_TW": "打開",
+          "zh_CN": "打开",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        }
+      }
+    },
+    "10002": {
+      "Id": 10002,
+      "Icon0": "Icon/ZZZOther/interact_btn_investigate",
+      "Title0": "InteractiveAction.10002.1",
+      "Icon1": "Icon/ZZZOther/interact_btn_investigate",
+      "Title1": "InteractiveAction.10002.2",
+      "_localized": {
+        "/Title0": {
+          "key": "InteractiveAction.10002.1",
+          "zh_TW": "調查",
+          "zh_CN": "调查",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        },
+        "/Title1": {
+          "key": "InteractiveAction.10002.2",
+          "zh_TW": "調查",
+          "zh_CN": "调查",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        }
+      }
+    },
+    "10003": {
+      "Id": 10003,
+      "Icon0": "Icon/ZZZOther/interact_btn_talk",
+      "Title0": "InteractiveAction.10003.1",
+      "Icon1": "Icon/ZZZOther/interact_btn_talk",
+      "Title1": "InteractiveAction.10003.2",
+      "_localized": {
+        "/Title0": {
+          "key": "InteractiveAction.10003.1",
+          "zh_TW": "對話",
+          "zh_CN": "对话",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        },
+        "/Title1": {
+          "key": "InteractiveAction.10003.2",
+          "zh_TW": "對話",
+          "zh_CN": "对话",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        }
+      }
+    },
+    "10004": {
+      "Id": 10004,
+      "Icon0": "Icon/ZZZOther/interact_btn_investigate",
+      "Title0": "InteractiveAction.10004.1",
+      "Icon1": "Icon/ZZZOther/interact_btn_investigate",
+      "Title1": "InteractiveAction.10004.2",
+      "_localized": {
+        "/Title0": {
+          "key": "InteractiveAction.10004.1",
+          "zh_TW": "離開",
+          "zh_CN": "离开",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        },
+        "/Title1": {
+          "key": "InteractiveAction.10004.2",
+          "zh_TW": "離開",
+          "zh_CN": "离开",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        }
+      }
+    },
+    "10005": {
+      "Id": 10005,
+      "Icon0": "Icon/ZZZOther/interact_btn_hand",
+      "Title0": "InteractiveAction.10005.1",
+      "Icon1": "Icon/ZZZOther/interact_btn_hand",
+      "Title1": "InteractiveAction.10005.2",
+      "_localized": {
+        "/Title0": {
+          "key": "InteractiveAction.10005.1",
+          "zh_TW": "強化",
+          "zh_CN": "强化",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        },
+        "/Title1": {
+          "key": "InteractiveAction.10005.2",
+          "zh_TW": "強化",
+          "zh_CN": "强化",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        }
+      }
+    },
+    "1200301": {
+      "Id": 1200301,
+      "Icon0": "Icon/ZZZOther/interact_btn_investigate",
+      "Title0": "InteractiveAction.1200301.1",
+      "Icon1": "Icon/ZZZOther/interact_btn_investigate",
+      "Title1": "InteractiveAction.1200301.2",
+      "_localized": {
+        "/Title0": {
+          "key": "InteractiveAction.1200301.1",
+          "zh_TW": "乘坐",
+          "zh_CN": "乘坐",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        },
+        "/Title1": {
+          "key": "InteractiveAction.1200301.2",
+          "zh_TW": "乘坐",
+          "zh_CN": "乘坐",
+          "sources": {
+            "zh_TW": "language/zh_TW/InteractiveAction.json",
+            "zh_CN": "language/zh_CN/InteractiveAction.json"
+          }
+        }
+      }
+    }
+  }
+}

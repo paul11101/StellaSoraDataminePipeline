@@ -1,0 +1,323 @@
+{
+  "table": "MonsterTeam",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\e6473aecb25d8d1f.bin",
+  "source_sha256": "fa2d1a3d4eaf11c8347d0bc63bd6fbcf6776c7ebcbf5086503ec18195dcb1821",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\MonsterTeam.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 218
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "reference_field_order": [
+      "Id",
+      "Mate0Id",
+      "Mate1Id",
+      "Mate2Id",
+      "Mate3Id",
+      "Mate4Id",
+      "Mate5Id",
+      "Mate6Id",
+      "Mate7Id"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "2": "Mate0Id",
+      "3": "Mate1Id",
+      "4": "Mate2Id",
+      "5": "Mate3Id",
+      "6": "Mate4Id",
+      "7": "Mate5Id",
+      "8": "Mate6Id",
+      "9": "Mate7Id"
+    },
+    "aot_field_count": 9,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 218,
+      "compared_reference_rows": 218,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 218,
+          "compared": 218
+        },
+        {
+          "codec": "varint_int",
+          "matches": 218,
+          "compared": 218
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 218
+        }
+      ]
+    },
+    "2": {
+      "field": "Mate0Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 218,
+      "compared_reference_rows": 218,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 218,
+          "compared": 218
+        },
+        {
+          "codec": "varint_int",
+          "matches": 218,
+          "compared": 218
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 218
+        }
+      ]
+    },
+    "3": {
+      "field": "Mate1Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 218,
+      "compared_reference_rows": 218,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 218,
+          "compared": 218
+        },
+        {
+          "codec": "varint_int",
+          "matches": 218,
+          "compared": 218
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 218
+        }
+      ]
+    },
+    "4": {
+      "field": "Mate2Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 124,
+      "compared_reference_rows": 124,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 124,
+          "compared": 124
+        },
+        {
+          "codec": "varint_int",
+          "matches": 124,
+          "compared": 124
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 124
+        }
+      ]
+    },
+    "5": {
+      "field": "Mate3Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 79,
+      "compared_reference_rows": 79,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 79,
+          "compared": 79
+        },
+        {
+          "codec": "varint_int",
+          "matches": 79,
+          "compared": 79
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 79
+        }
+      ]
+    },
+    "6": {
+      "field": "Mate4Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 56,
+      "compared_reference_rows": 56,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 56,
+          "compared": 56
+        },
+        {
+          "codec": "varint_int",
+          "matches": 56,
+          "compared": 56
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 56
+        }
+      ]
+    },
+    "7": {
+      "field": "Mate5Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 28,
+      "compared_reference_rows": 28,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 28,
+          "compared": 28
+        },
+        {
+          "codec": "varint_int",
+          "matches": 28,
+          "compared": 28
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 28
+        }
+      ]
+    },
+    "8": {
+      "field": "Mate6Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 18,
+      "compared_reference_rows": 18,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 18,
+          "compared": 18
+        },
+        {
+          "codec": "varint_int",
+          "matches": 18,
+          "compared": 18
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 18
+        }
+      ]
+    },
+    "9": {
+      "field": "Mate7Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 6,
+      "compared_reference_rows": 6,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_int",
+          "matches": 6,
+          "compared": 6
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 6
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 218,
+    "reference_row_count": 218,
+    "shared_key_count": 218,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 218,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}

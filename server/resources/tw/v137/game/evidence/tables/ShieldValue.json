@@ -1,0 +1,297 @@
+{
+  "table": "ShieldValue",
+  "source_file": "<analysis-root>\\output\\tw_current\\data_extracted_v2\\hashes\\6e7998b617760d60.bin",
+  "source_sha256": "b806f42ecd2d430b3426c4c69ac605534bba95c025f87b0f95dd68f410627682",
+  "reference_schema_file": "<analysis-root>\\reference\\StellaSoraData\\TW\\bin\\ShieldValue.json",
+  "reference_usage": "field names/order/value kinds and decoder validation only",
+  "container": {
+    "magic": "0x00039354",
+    "version": "0.1.0.2",
+    "format_byte": 1,
+    "key_type": 1,
+    "row_count": 213
+  },
+  "field_mapping": {
+    "active_field_numbers": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reference_field_order": [
+      "Id",
+      "ReferenceTarget",
+      "ReferenceAttrib",
+      "ReferenceScale",
+      "Time",
+      "ShieldLaminatedNum",
+      "TimeSuperposition",
+      "NotRemove"
+    ],
+    "local_aot_field_numbers": {
+      "1": "Id",
+      "4": "ReferenceTarget",
+      "5": "ReferenceAttrib",
+      "6": "ReferenceScale",
+      "7": "Time",
+      "8": "ShieldLaminatedNum",
+      "9": "TimeSuperposition",
+      "10": "NotRemove"
+    },
+    "aot_field_count": 8,
+    "remaining_number_count": 0,
+    "remaining_name_count": 0,
+    "ordered_alignment_complete": true,
+    "value_matched_fields": {},
+    "numbered_family_adjustments": [],
+    "mapping_source": "local_aot_field_numbers"
+  },
+  "codecs": {
+    "1": {
+      "field": "Id",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 213,
+      "compared_reference_rows": 213,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_int",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 213
+        }
+      ]
+    },
+    "4": {
+      "field": "ReferenceTarget",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 213,
+      "compared_reference_rows": 213,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_int",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 213
+        }
+      ]
+    },
+    "5": {
+      "field": "ReferenceAttrib",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 213,
+      "compared_reference_rows": 213,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_int",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 213
+        }
+      ]
+    },
+    "6": {
+      "field": "ReferenceScale",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 204,
+      "compared_reference_rows": 204,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 204,
+          "compared": 204
+        },
+        {
+          "codec": "varint_int",
+          "matches": 204,
+          "compared": 204
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 204
+        }
+      ]
+    },
+    "7": {
+      "field": "Time",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_int",
+      "matching_reference_rows": 213,
+      "compared_reference_rows": 213,
+      "candidate_scores": [
+        {
+          "codec": "varint_int",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 203,
+          "compared": 213
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 213
+        }
+      ]
+    },
+    "8": {
+      "field": "ShieldLaminatedNum",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 213,
+      "compared_reference_rows": 213,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_int",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 213
+        }
+      ]
+    },
+    "9": {
+      "field": "TimeSuperposition",
+      "json_kind": "int",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_uint",
+      "matching_reference_rows": 213,
+      "compared_reference_rows": 213,
+      "candidate_scores": [
+        {
+          "codec": "varint_uint",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_int",
+          "matches": 213,
+          "compared": 213
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 213
+        }
+      ]
+    },
+    "10": {
+      "field": "NotRemove",
+      "json_kind": "bool",
+      "repeated": false,
+      "wire_types": [
+        0
+      ],
+      "selected": "varint_bool",
+      "matching_reference_rows": 145,
+      "compared_reference_rows": 145,
+      "candidate_scores": [
+        {
+          "codec": "varint_bool",
+          "matches": 145,
+          "compared": 145
+        },
+        {
+          "codec": "varint_uint",
+          "matches": 0,
+          "compared": 145
+        },
+        {
+          "codec": "varint_int",
+          "matches": 0,
+          "compared": 145
+        },
+        {
+          "codec": "varint_zigzag",
+          "matches": 0,
+          "compared": 145
+        }
+      ]
+    }
+  },
+  "unknown_field_occurrences": 0,
+  "decode_failure_examples": [],
+  "validation": {
+    "local_row_count": 213,
+    "reference_row_count": 213,
+    "shared_key_count": 213,
+    "local_only_key_count": 0,
+    "reference_only_key_count": 0,
+    "exact_shared_rows": 213,
+    "different_shared_rows": 0,
+    "different_key_examples": [],
+    "exact_table_match": true
+  }
+}
